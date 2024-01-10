@@ -1,0 +1,1236 @@
+{
+    "ExportGear": [
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA",
+            "name": "Residuo Fass",
+            "description": "Un pezzo di Wyrm Fass, raccolto dopo la sua morte esplosiva. Utilizzato per attirare Glutinox, Ostimyr e Vitreospina.\n\nPosizione: Cambion Drift",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitB",
+            "name": "Residuo Fass Processato",
+            "description": "Materia corporale di Wyrm Fass, epurata dalle tossine e resa utilizzabile. Utilizzata per attirare Aquapulmo e Flagellocanth.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA",
+            "name": "Residuo Vome",
+            "description": "Un pezzo di carne cruda, caduto da Wyrm Vome nel suo spasmo di morte. Utilizzato per attirare Chondricord e Duroid.\n\nPosizione: Cambion Drift",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitB",
+            "name": "Residuo Vome Processato",
+            "description": "La carne di Vome, raffinata e pronta all'uso. Utilizzata per attirare Myxostomata.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierA",
+            "name": "Esca Mirewinder",
+            "description": "Questa esca \u00e8 composta di tetraxin aromatica conosciuta perch\u00e9 in grado di attirare Mirewinder, Servofish che pu\u00f2 essere trovato negli stagni all'interno delle caverne. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierB",
+            "name": "Esca Charamote",
+            "description": "Quest'esca \u00e8 sintetizzata da un hexophenol complesso che attrae Charamotes, un Servofish che pu\u00f2 essere trovato nei punti caldi delle caverne.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierC",
+            "name": "Esca Synathid",
+            "description": "Questa esca \u00e8 sintetizzata da un componente A-disulphex-A specializzato che attrae Synathid, un leggendario e raro Servofish che pu\u00f2 essere trovato solo nei punti caldi delle caverne.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/GenericContaminant",
+            "name": "Esca Ampio Spettro",
+            "description": "Una semplice combinazione di polimeri a catena corta e contaminanti. Facilmente riconoscibili da Servofish rudimentali in tutte le condizioni, ma ignorata dai modelli pi\u00f9 specializzati. Buono per Sapcaddie, Tink e Brinkie.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierA",
+            "name": "Esca Kriller",
+            "description": "Questa esca \u00e8 sintetizzata dal Methacalcene-1 che attrae Krillers, un Servofish che pu\u00f2 essere trovato nei laghi durante la stagione calda. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierB",
+            "name": "Esca Longwinder",
+            "description": "Questa esca \u00e8 composta da beryzene conosciuto perch\u00e9 in grado di attirare Longwinder, un Servofish che pu\u00f2 essere trovato nei punti caldi dei laghi durante la stagione calda.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierA",
+            "name": "Esca Spettro Ristretto",
+            "description": "Questa esca composta da endochlor/dionium attrae sia Recaster che Eye-Eye, Servofish che possono essere trovati negli stagni. L'Eye-Eye appare durante la stagione calda ed il Recaster appare nei Punti Caldi degli stagni durante la stagione fredda. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierB",
+            "name": "Esca Tromyzon",
+            "description": "Questa esca \u00e8 sintetizzata da LS-74 a catena lunga che attrae i Tromyzon, un Servofish che pu\u00f2 essere trovato solo nei punti caldi degli stagni durante la stagione fredda.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/BothRareFishBaitAItem",
+            "name": "Esca Murkray",
+            "description": "Questa esca \u00e8 composta di materiali noti per attirare Murkray, un pesce che si trova solo nelle zone calde degli oceani durante sia il giorno che la notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem",
+            "name": "Esca Crepuscolare",
+            "description": "Questa esca attrae pesci predatori che sono attivi sia di giorno che di notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/GenericFishBait",
+            "name": "Esca Peppered",
+            "description": "Questa esca attrae i pesci attivi durante il giorno",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem",
+            "name": "Esca Glappid",
+            "description": "Questa esca \u00e8 composta da materiali esotici noti per attirare lo sfuggente Glappid, un pesce che si trova solo nelle zone calde degli oceani durante la notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/NightRareFishBaitAItem",
+            "name": "Esca Norg",
+            "description": "Questa esca \u00e8 composta di materiali noti per attirare Norg, un pesce che si trova solo nelle zone calde dei laghi durante la notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem",
+            "name": "Esca Cuthol",
+            "description": "Questa esca \u00e8 composta di materiali noti per attirare Cuthol, un pesce che si trova solo nelle zone calde degli stagni durante la notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Keys/MummyQuest/MummyArtifact01GearItem",
+            "name": "Urna Sacra",
+            "description": "Una reliquia peculiare dalla tomba di Inaros.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Weapon/GearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedCritterLureGearItem",
+            "name": "RICHIAMO VULPAPHYLA",
+            "description": "Circuisce e attrae i Vulpaphyla vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedCritterRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI VULPAPHYLA",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Vulpaphyla.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMaggotLureGearItem",
+            "name": "RICHIAMO CRYPTILEX",
+            "description": "Circuisce e attrae i Cryptilex vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMaggotRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI CRYPTILEX",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Cryptilex.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMergooLureGearItem",
+            "name": "RICHIAMO AVICHAEA",
+            "description": "Circuisce e attrae i Avichaea vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedMergooRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI AVICHAEA",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Avichaea.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedNexiferaLureGearItem",
+            "name": "RICHIAMO NEXIFERA",
+            "description": "Circuisce e attrae i Nexifera vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedNexiferaRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI NEXIFERA",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Nexifera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorLureGearItem",
+            "name": "Richiamo Predasite",
+            "description": "Circuisce e attrae i Predasite vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedPredatorRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI PREDASITE",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Predasite.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedZongroLureGearItem",
+            "name": "RICHIAMO UNDAZOA",
+            "description": "Circuisce e attrae gli Undazoa vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/Deimos/InfestedZongroRarityBoost",
+            "name": "GHIANDOLA DI FEROMONI UNDAZOA",
+            "description": "Dispiega prima di utilizzare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Undazoa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/CondrocRarityBoost",
+            "name": "Feromone Oota Condroc",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Condroc.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/KuakaRarityBoost",
+            "name": "Feromone Oota Kuaka",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Kuaka.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/LegendaryKubrowRarityBoost",
+            "name": "Sintetizzatore Feromone Kubrodonte",
+            "description": "Dispiega prima di usare il richiamo per avere la possibilit\u00e0 di attrarre rare sottospeci di Kubrodonti.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/MergooRarityBoost",
+            "name": "Feromone Oota Mergoo",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Mergoo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/OrokinKubrowRarityBoost",
+            "name": "Sintetizzatore Feromone Stover",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Stover.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/SnowArmadilloRarityBoost",
+            "name": "Sintetizzatore Feromone Bolarola",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Bolarola.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/SnowBirdRarityBoost",
+            "name": "Sintetizzatore Feromone Sawgaw",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Sawgaw.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/SnowCritterRarityBoost",
+            "name": "Sintetizzatore Feromone Virmink",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Virmink.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/SnowPredatorRarityBoost",
+            "name": "Sintetizzatore Feromone Horrasque",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Horrasque.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/SnowRodentRarityBoost",
+            "name": "Sintetizzatore Feromone Pobber",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Pobber.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/VampireKavatRarityBoost",
+            "name": "Feromone Oota Vasca Kavat",
+            "description": "Dispiega prima di usare il richiamo per avere maggiori possibilit\u00e0 di attrarre rare sottospeci di Vasca Kavat.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/RarityBoosts/AnimalRarityBoost"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/BirdOfPreyLureGearItem",
+            "name": "Richiamo Condroc",
+            "description": "Circuisce e attrae i Condroc vicini con dei richiami simili ai suoi. Si trovano sulle Piane di Eidolon.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/ForestRodentLureGearItem",
+            "name": "Richiamo Kuaka",
+            "description": "Circuisce e attrae i Kuaka vicini con dei richiami simili ai suoi. Si trovano sulle Piane di Eidolon.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/LegendaryKubrowLureGearItem",
+            "name": "Richiamo Kubrodonte",
+            "description": "Circuisce e attrae i Kubrodonti vicini con dei richiami simili ai suoi. I Kubrodonti si trovano pi\u00f9 frequentemente attorno ai Crateri di Orb Vallis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/OrokinKubrowLureGearItem",
+            "name": "Richiamo Stover",
+            "description": "Circuisce e attrae gli Stover vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/OstronSeaBirdLureGearItem",
+            "name": "Richiamo Mergoo",
+            "description": "Circuisce e attrae i Mergoo vicini con dei richiami simili ai suoi. Si trovano sulle Piane di Eidolon.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/SnowArmadilloLureGearItem",
+            "name": "Richiamo Bolarola",
+            "description": "Circuisce e attrae i Bolarola vicini con dei richiami simili ai suoi. I Bolarola si trovano pi\u00f9 frequentemente attorno all'area Montuosa di Orb Vallis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/SnowBirdLureGearItem",
+            "name": "Richiamo Sawgaw",
+            "description": "Circuisce e attrae i Sawgaw vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/SnowCritterLureGearItem",
+            "name": "Richiamo Virmink",
+            "description": "Circuisce e attrae i Virmink vicini con dei richiami simili ai suoi. I Virmink si trovano pi\u00f9 frequentemente attorno ai Laghi di Orb Vallis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/SnowPredatorLureGearItem",
+            "name": "Richiamo Horrasque",
+            "description": "Circuisce e attrae gli Horrasque vicini con dei richiami simili ai suoi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/SnowRodentLureGearItem",
+            "name": "Richiamo Pobber",
+            "description": "Circuisce e attrae i Pobber vicini con dei richiami simili ai suoi. I Pobber si trovano pi\u00f9 frequentemente attorno ai Campi Fungini di Orb Vallis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/TranqRifleGearItem",
+            "name": "Fucile Tranq",
+            "description": "Tranquillizza gli animali per trasferirli in modo sicuro.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/BaseHuntingGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/UpgradedAnimalLureGearItem",
+            "name": "Richiamo",
+            "description": "Circuisce e attrae la fauna vicina con dei richiami simili a quegli animali.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Conservation/VampireKavatLureGearItem",
+            "name": "Esca Vasca Kavat",
+            "description": "Circuisce e attrae i Vasca Kavat vicini con dei richiami simili ai suoi. Si trovano sulle Piane di Eidolon di notte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Conservation/AnimalLureGearItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Eidolon/LandscapeTrapLightGear",
+            "name": "Beckonsnare",
+            "description": "Pianta e dimentica, il beckonsnare emette una frequenza ultrasonica destinato ad attrarre le forme di vita. Dopo essere entrati sono comodamente contenuti in una recinzione di fotoni unidirezionale per avere una raccolta semplice ogni volta che vorrai.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/BaseLandscapeTrapGear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/AnglerVision",
+            "name": "Pigmento Luminous",
+            "description": "Colora le acque con un composto che si attacca al pesce che ci passa attraverso, rendendolo pi\u00f9 facile da vedere dalla riva.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/BaseDyeConsumable"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/SoftTouch",
+            "name": "Pharoma",
+            "description": "Un composto che rilassa i pesci vicini.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/BaseDyeConsumable"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/ArmorBuffSpeedDebuff",
+            "name": "Calcifin Stim",
+            "description": "Indurisce la pelle, rendendola pi\u00f9 resistente ai danni, ma limitando i movimenti.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/CloakingBuff",
+            "name": "Refract Stim",
+            "description": "Ricopre il bersaglio in una pellicola che rifrange la luce, permettendo il movimento senza venir rilevati.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/ReviveBuff",
+            "name": "Clotra Stim",
+            "description": "Rianima un bersaglio in dissanguamento e provvede un bonus rianimazione per qualsiasi alleato nel raggio d'azione.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/SpeedBuffArmorDebuff",
+            "name": "Adrenal Stim",
+            "description": "Aumenta i livelli di adrenalina per permettere movimenti pi\u00f9 veloci, ma aumentando la sensibilit\u00e0 al danno.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Synthetics/FlareBlue",
+            "name": "Fosfor Blau",
+            "description": "Lancia un flare blu brillante che aumenta significativamente la Portata Affinit\u00e0 mentre \u00e8 attivo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Synthetics/FlareDemo",
+            "name": "Fosfor Rahd",
+            "description": "Lancia un flare rosso brillante che aumenta significativamente la Portata Affinit\u00e0 mentre \u00e8 attivo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Synthetics/FlareRed",
+            "name": "Fosfor Rahd",
+            "description": "Lancia un flare rosso brillante che aumenta significativamente la Portata Affinit\u00e0 mentre \u00e8 attivo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/DayCommonAntitoxin",
+            "name": "Antitossina Berillo",
+            "description": "Questa antitossina \u00e8 leggermente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/DayUnCommonAntitoxin",
+            "name": "Antitossina Citrine",
+            "description": "Questa antitossina \u00e8 moderatamente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/NightCommonAntitoxin",
+            "name": "Antitossina Ametista",
+            "description": "Questa antitossina \u00e8 leggermente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/NightUnCommonAntitoxin",
+            "name": "Antitossina Topazio",
+            "description": "Questa antitossina \u00e8 moderatamente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/RareAntitoxin",
+            "name": "Antitossina Lapis",
+            "description": "Questa \u00e8 un'antitossina estremamente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/SoloRareAntitoxin",
+            "name": "Antitossina Vermillion",
+            "description": "Questa \u00e8 un'antitossina estremamente efficace.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AlphaCorruptor",
+            "name": "Corruttore Alfa",
+            "description": "Questo corruttore \u00e8 inerte in singolo ma molto efficace se miscelato con la sua controparte BETA. Se miscelati correttamente, destabilizzeranno i Reattori Fomorian molto pi\u00f9 rapidamente delle loro controparti stabili. A causa dell'instabilit\u00e0, non pu\u00f2 essere equipaggiato insieme a corruttori Beta. Consigliato per i Tenno che operano in squadra.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AncientHealerBall",
+            "name": "Spettro Ancient Healer",
+            "description": "Ti permette di dispiegare un ANCIENT HEALER EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBait",
+            "name": "Esca Stalker",
+            "description": "Attira allo scoperto lo Stalker. Una dotazione monouso che pu\u00f2 essere utilizzata solo nei luoghi in cui pu\u00f2 apparire normalmente.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitB",
+            "name": "Esca Zanuka Hunter",
+            "description": "Attira allo scoperto Zanuka Hunter. Una dotazione monouso che pu\u00f2 essere utilizzata solo nei luoghi in cui pu\u00f2 apparire normalmente.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitC",
+            "name": "Esca Trio Grustrag",
+            "description": "Attira allo scoperto il Trio Grustrag. Una dotazione monouso che pu\u00f2 essere utilizzata solo nei luoghi in cui possono apparire normalmente.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitD",
+            "name": "Esca Wolf",
+            "description": "Attira allo scoperto Wolf. Una dotazione monouso che pu\u00f2 essere utilizzata solo nei luoghi in cui pu\u00f2 apparire normalmente.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/BaroFireWorksCrate",
+            "name": "Fuochi d'Artificio Ki'Teer",
+            "description": "Una grandiosa sinfonia di colori.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear",
+            "name": "Una Lancia da Pesca",
+            "description": "Le rebbie appuntite di questa lancia da pesca facilitano la cattura di pesci con la pelle liscia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/BetaCorruptor",
+            "name": "Corruttore Beta",
+            "description": "Questo corruttore \u00e8 inerte in singolo ma molto efficace se miscelato con la sua controparte Alfa. Se miscelati correttamente, destabilizzeranno i Reattori Fomorian molto pi\u00f9 rapidamente delle loro controparti stabili. A causa dell'instabilit\u00e0, non pu\u00f2 essere equipaggiato insieme a Corruttori Alfa. Consigliato per i Tenno che operano in squadra.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/BronzeSpectre",
+            "name": "Spettro Vapor",
+            "description": "Un replicante clonato da un Warframe che pu\u00f2 essere schierato per assistere i Tenno nelle missioni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CameraConsumable",
+            "name": "Osservatore Remoto",
+            "description": "Piazza una telecamera remota di breve durata che sostituisce l'ottica del tuo Warframe",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/ChargerBall",
+            "name": "Spettro Charger",
+            "description": "Dispiega una unit\u00e0 CHARGER EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/ClemBall",
+            "name": "Clone Clem",
+            "description": "Schiera un clone di Clem che combatte per te.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CorruptedBombardBall",
+            "name": "Spettro Corrupted Bombard",
+            "description": "Dispiega uno CORRUPTED BOMBARD per combattere al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CorruptedHeavyGunnerBall",
+            "name": "Spettro Corrupted Heavy Gunner",
+            "description": "Ti permette di dispiegare un CORRUPTED HEAVY GUNNER che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CorruptedLancerBall",
+            "name": "Spettro Corrupted Lancer",
+            "description": "Permette di dispiegare un CORRUPTED LANCER EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipLarge",
+            "name": "Offerta Void Generosa",
+            "description": "Dona al Void 100,000 crediti.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipMedium",
+            "name": "Offerta Void Discreta",
+            "description": "Dona al Void 10'000 crediti.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall",
+            "name": "Offerta Void Umile",
+            "description": "Dona al Void 1,000 crediti.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/CrewmateBall",
+            "name": "Equipaggio a Disposizione",
+            "description": "Chiama un membro dell'equipaggio di supporto nelle missioni non a bordo del Railjack.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/FireWorksCrate",
+            "name": "Gran Finale",
+            "description": "Vuoi un fuoco d'artificio pi\u00f9 spettacolare per mostrare il tuo patriottismo? Festeggia con stile con questo oggetto monouso.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/FireWorksSingle",
+            "name": "Starburst",
+            "description": "Festeggia le vacanze coi fuochi d'artificio! Illumina il cielo con questo oggetto monouso.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/FomorianNegator",
+            "name": "Sabotatore Fomorian",
+            "description": "Una volta attivato, neutralizza il campo di forza Omega del nucleo Fomorian, rendendolo vulnerabile. \u00c8 anche usato per schermare i Tenno dalle radiazioni Omega.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/GlyphConsumable",
+            "name": "Glifo Prisma",
+            "description": "Lancia un prisma magnetico per mostrare il Glifo scelto. Solo uno pu\u00f2 essere dispiegato alla volta e le cariche sono consumate all'utilizzo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/GlyphConsumableNoCharges",
+            "name": "Glifo Prisma",
+            "description": "Lancia un prisma magnetico per mostrare il Glifo scelto. Solo uno pu\u00f2 essere dispiegato alla volta e le cariche sono infinite.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/GoldSpectre",
+            "name": "Spettro Force",
+            "description": "Un replicante clonato da un Warframe che pu\u00f2 essere schierato per assistere i Tenno nelle missioni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/HunterTool",
+            "name": "Trappola Sifone Cinetico",
+            "description": "Trappola specializzata nell'attrarre e rallentare il movimento dei bersagli della sintesi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedBaitBall",
+            "name": "Capsule Pherliac",
+            "description": "Crea 50x Capsule Pherliac che rilasciano potenti feromoni in grado di attrarre gli Infested.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA",
+            "name": "Lancia Spari",
+            "description": "Esplora le profondit\u00e0 con questa lancia da pesca che viene rilevata a malapena dai pesci ibridi Infested/Orokin. A causa del suo aspetto infestato, \u00e8 una delle poche cose conosciute che pu\u00f2 passare attraverso l'exocrine.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearB",
+            "name": "Lancia Ebisu",
+            "description": "Colpisci silenziosamente e a fondo con questa lancia impercettibile. Le sue propriet\u00e0 infested particolari le permettono di passare attraverso le superfici exocrine. I pesci ibridi Infested/Orokin non sentiranno mai il tuo arrivo!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedIrradiatedBaitBall",
+            "name": "Capsule Pherliac Potenti",
+            "description": "Crea 50 Capsule Pherliac Potenti che rilasciano dei forti feromoni che attraggono gli Infested.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedSyringe",
+            "name": "Iniettore Antisiero",
+            "description": "Inietta l'antisiero nei Vaporizzatori o nell'utilizzatore per prevenire il deterioramento dell'armatura.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/LibraryScanner",
+            "name": "Scanner Sintetizzatore",
+            "description": "Sintetizza le informazioni genetiche del bersaglio e le carica nel Santuario.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MacheteWomanBall",
+            "name": "Scorpion Specter",
+            "description": "Dispiega uno SCORPION EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MapMarker",
+            "name": "Riferimento",
+            "description": "Un segnale permanente da utilizzare nella mappa di un pianeta. Coordinati con la tua squadra per segnalare punti importanti!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaser",
+            "name": "Taglio Nosam",
+            "description": "Strumento standard per intagliare gemme e metalli dalla pietra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserB",
+            "name": "Taglio Nosam Focalizzato",
+            "description": "Una variazione pi\u00f9 accurata del Taglio Nosam.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
+            "name": "Taglio Nosam Avanzato",
+            "description": "Migliorato con tecnologie cibernetiche, questo strumento \u00e8 in grado di individuare sia le gemme nelle vicinanze che le vene minerali, ed ha la possibilit\u00e0 di recuperare Gemme di Eidolon.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
+            "name": "Trapano Sunpoint Plasma",
+            "description": "Strumento di estrazione mineraria ad alta intensit\u00e0 e ad alta velocit\u00e0 in grado di estrarre il pi\u00f9 raro dei materiali con precisione chirurgica.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/MoaBall",
+            "name": "Spettro Moa",
+            "description": "Dispiega un MOA EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/NemesisBait",
+            "name": "Requiem Ultimatum",
+            "description": "Provoca uno scontro immediato con il tuo Kuva Lich o Sorella di Parvos: un insulto che non pu\u00f2 essere ignorato.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/PlatinumSpectre",
+            "name": "Spettro Cosmic",
+            "description": "Un replicante clonato da un Warframe che pu\u00f2 essere schierato per assistere i Tenno nelle missioni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RazorbackCipher",
+            "name": "Cipher Razorback",
+            "description": "Usato per aggirare i sistemi di sicurezza che proteggono la cella del Razorback",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RecallToRailjack",
+            "name": "Ritorno al Railjack",
+            "description": "",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RepairTool",
+            "name": "Omni",
+            "description": "L'Omni \u00e8 uno strumento multifunzione Railjack che pu\u00f2 essere utilizzato per spegnere incendi, controllare problemi elettrici, e riparare rotture dello scafo. Utilizzalo all'esterno del Railjack per tornare immediatamente alla nave.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RobofishSpearB",
+            "name": "Lancia da Pesca Shockprod",
+            "description": "Costruito alla finalit\u00e0 di recuperare Servofish senza danni. Emette un impulso elettromagnetico disabilitante dopo un colpo andato a segno se \u00e8 correttamente programmato.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RobofishSpearC",
+            "name": "Lancia da Pesca Stunna",
+            "description": "Gli impulsi elettromagnetici a segno si irradiano verso l'esterno disabilitando anche qualsiasi Servofish vicino.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/RollerBall",
+            "name": "Spettro Roller",
+            "description": "Dispiega un ROLLER EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/Scanner",
+            "name": "Codex Scanner",
+            "description": "Campiona un obiettivo di interesse per successiva analisi nel tuo Codex (25 cariche).",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/ShieldDroneBall",
+            "name": "Spettro Shield Osprey",
+            "description": "Dispiega uno SHIELD OSPREY EXIMUS che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/SilverSpectre",
+            "name": "Spettro Phase",
+            "description": "Un replicante clonato da un Warframe che pu\u00f2 essere schierato per assistere i Tenno nelle missioni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/SkateBall",
+            "name": "Spettro Desert Skate",
+            "description": "Dispiega un DESERT SKATE che combatte al tuo fianco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear",
+            "name": "Lancia da Pesca Lanzo",
+            "description": "Le rebbie appuntite di questa lancia da pesca facilitano la cattura di pesci con la pelle liscia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearB",
+            "name": "Lancia da Pesca Tulok",
+            "description": "Questa lancia da pesca ha una lama sottile che le permette di perforare le scaglie corazzate e i carapaci.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearC",
+            "name": "Lancia da Pesca Peram",
+            "description": "Questa lancia da pesca ha numerose lame che le permettono di affondare nella pelle dei pesci squamosi",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/StableCorruptor",
+            "name": "Corruttore Stabile",
+            "description": "Iniettato in un Reattore Fomorian, questo corruttore ne sbilancer\u00e0 il combustibile, provocando un'implosione che distrugger\u00e0 la nave. Lento ma efficace, \u00e8 consigliato per le missioni Tenno in solitario.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Consumable/ValentinesArrowBundle",
+            "name": "Skin Freccia Eros",
+            "description": "Mostra al nemico quanto gli vuoi bene con l'adorabile Skin Freccia Eros.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberon",
+            "name": "Apothic Sunrise",
+            "description": "Crea un composto organico composto da rare specie di piante. Effetti sconosciuti.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonKnaveLoki",
+            "name": "Apothic Nightfall",
+            "description": "Crea un composto organico composto da rare specie di piante. Effetti sconosciuti.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonOrphidSaryn",
+            "name": "Apothic Twilight",
+            "description": "Crea un composto organico composto da rare specie di piante. Effetti sconosciuti.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
+            "name": "Chiave Drago Spento",
+            "description": "Questa chiave riduce pesantemente i danni inflitti mentre \u00e8 equipaggiata.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
+            "name": "Chiave Drago Sanguinante",
+            "description": "La salute \u00e8 notevolmente ridotta con questa chiave equipaggiata.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
+            "name": "Chiave Drago Smunto",
+            "description": "Gli Scudi sono notevolmente ridotti mentre la chiave \u00e8 equipaggiata. La durata completa di Shield Gate \u00e8 limitata a 0,33 secondi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
+            "name": "Chiave Drago Zoppo",
+            "description": "Questa chiave riduce pesantemente la velocit\u00e0 mentre \u00e8 equipaggiata.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/CatbrowVampireDisinfect",
+            "name": "Rimedio Vasca",
+            "description": "Conosciuto come 'lisau heisah' dagli Ostron, \u00e8 un rimedio tradizionale preparato per trattare il virus Vasca. Una volta applicato, viene curato qualsiasi Kavat infetto entro una determinata distanza.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/Cipher",
+            "name": "Cipher",
+            "description": "Dispositivo monouso di hacking automatico per i pannelli di controllo bloccati.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ClanTeamAmmoTotem",
+            "name": "Ricarica Munizioni di Squadra (Media)",
+            "description": "Ripristina 2x la Quantit\u00e0 delle Munizioni Primarie e Secondarie Raccolte ogni 15s per 60s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ClanTeamEnergyTotem",
+            "name": "Ricarica Energia di Squadra (Media)",
+            "description": "Fornisce Energia a tutta la squadra. 50 Energia ad impulso ogni 5s per 20s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ClanTeamHealTotem",
+            "name": "Ricarica Salute di Squadra (Media)",
+            "description": "Fornisce Salute a tutta la squadra. 50 Salute ad impulso ogni 5s per 20s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ClanTeamShieldTotem",
+            "name": "Ricarica Scudi di Squadra (Media)",
+            "description": "Fornisce Scudi a tutta la squadra. 100 Scudi ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ErsatzSummon",
+            "name": "Evocazione Kaithe",
+            "description": "Evoca e sali immediatamente in sella a un Kaithe durante le missioni esplorazione.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/HeavyWeaponSummon",
+            "name": "Dispiegatore Archgun",
+            "description": "Utilizzando questa dotazione potrai dispiegare il fucile Archwing selezionato in qualsiasi ambiente, anche terrestre.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/HoverboardSummon",
+            "name": "K-Drive Launcher",
+            "description": "Richiama un K-Drive per utilizzarlo durante una missione di esplorazione libera",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetAirSupport",
+            "name": "Cariche Supporto Aereo",
+            "description": "Cariche consumate dal Supporto Aereo della Navicella da Sbarco.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetAmmoDrop",
+            "name": "Ricarica Munizioni di Squadra (Media)",
+            "description": "Ripristina 2x la Quantit\u00e0 delle Munizioni Primarie e Secondarie Raccolte ogni 15s per 60s.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetAutoHack",
+            "name": "Override",
+            "description": "Ordis si intrufola nei sistemi nemici e disattiva i protocolli di sicurezza per un periodo limitato.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetBarrage",
+            "name": "Bombardamento a Tappeto",
+            "description": "Ordis sgancia delle bombe in linea dalla tua posizione al punto che hai segnalato.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetBlackHole",
+            "name": "Vortex",
+            "description": "Crea una turbinosa massa di energia che attrae violentemente i nemici vicini, comprimendone gli atomi in una minuscola sfera di materia",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetGoldenInstinct",
+            "name": "Orokin Eye",
+            "description": "Ordis scansiona l'area alla ricerca di oggetti rari.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetKahl",
+            "name": "Richiamo Kahl",
+            "description": "Chiama Kahl e un seguito dei suoi Fratelli ad assisterti per un periodo di tempo limitato. Gli utilizzi successivi curano la squadra di Kahl e aggiungono un ulteriore Fratello.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetLaserTurret",
+            "name": "Batteria Missilistica",
+            "description": "Lancia missili a ricerca",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetMedStation",
+            "name": "Torre Medica",
+            "description": "Ordis consegna una Torre Medica che restituisce vita agli alleati vicini.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetShield",
+            "name": "Snow Globe",
+            "description": "Frost congela ogni particella di vapore e umidit\u00e0 nell'aria circostante per creare una sfera protettiva con una breve invulnerabilit\u00e0 per aumentarne la resistenza.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetStun",
+            "name": "Sognatori",
+            "description": "Nora manda i nemici nel mondo dei sogni con una melodia rilassante.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LisetTurret",
+            "name": "Torretta Automatica",
+            "description": "Ordis schiera una torretta automatica che aprir\u00e0 il fuoco contro i nemici visibili nelle vicinanze.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/LoadoutTechSummon",
+            "name": "Richiamo Necramech",
+            "description": "Evoca un Necramech sul campo di battaglia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Restoratives/BaseTechSummon"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/OpenArchwingSummon",
+            "name": "Archwing Launcher",
+            "description": "Richiama un Archwing per utilizzarlo durante una missione di esplorazione libera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/ScenarioBeacon",
+            "name": "OpLink",
+            "description": "Un dispositivo utilizzato per gestire il coordinamento e le risorse durante le missioni Collegamento Operativo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfHealLarge",
+            "name": "Ricarica Salute (Grande)",
+            "description": "Ripristina istantaneamente tutta la Salute.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfHealSmall",
+            "name": "Ricarica Salute (Piccola)",
+            "description": "Ripristina istantaneamente 50 Salute.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfOmniAmmo",
+            "name": "Cassa Munizioni Omni",
+            "description": "Ripristina completamente tutti i tipi di munizioni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfPistolAmmo",
+            "name": "Cassa Munizioni Pistola",
+            "description": "Ripristina un buon numero di munizioni pistola.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfRifleAmmo",
+            "name": "Cassa Munizioni Fucile",
+            "description": "Ripristina un buon numero di munizioni fucile.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfShieldHeal",
+            "name": "Ricarica Scudi (Piccola)",
+            "description": "Ripristina instantaneamente 50 Scudi.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfShotgunAmmo",
+            "name": "Cassa Munizioni Fucile a Pompa",
+            "description": "Ripristina un buon numero di munizioni fucile a pompa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SelfSniperAmmo",
+            "name": "Cassa Munizioni Cecchino",
+            "description": "Ripristina un buon numero di munizioni cecchino.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamAmmoTotem",
+            "name": "Ricarica Munizioni di Squadra (Grande)",
+            "description": "Ripristina 3x la Quantit\u00e0 delle Munizioni Primarie e Secondarie Raccolte ogni 15s per 60s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamEnergyTotem",
+            "name": "Ricarica Energia di Squadra (Grande)",
+            "description": "Fornisce Energia a tutta la squadra. 100 Energia ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamHealTotem",
+            "name": "Ricarica Salute di Squadra (Grande)",
+            "description": "Fornisce Salute a tutta la squadra. 300 Salute ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamShieldTotem",
+            "name": "Ricarica Scudi di Squadra (Grande)",
+            "description": "Fornisce Scudi a tutta la squadra. 300 Scudi ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TeamAmmoTotem",
+            "name": "Ricarica Munizioni di Squadra (Piccola)",
+            "description": "Ripristina 1x la Quantit\u00e0 delle Munizioni Primarie e Secondarie Raccolte ogni 15s per 60s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TeamEnergyTotem",
+            "name": "Ricarica Energia di Squadra (Piccola)",
+            "description": "Fornisce Energia a tutta la squadra. 25 Energia ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TeamHeal",
+            "name": "Ricarica Salute di Squadra (Piccola)",
+            "description": "Fornisce Salute a tutta la squadra. 30 Salute ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TeamHealTotem",
+            "name": "Ricarica Salute di Squadra (Piccola)",
+            "description": "Fornisce Salute a tutta la squadra. 30 Salute ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Restoratives/TeamShieldTotem",
+            "name": "Ricarica Scudi di Squadra (Piccola)",
+            "description": "Fornisce Scudi a tutta la squadra. 35 Scudi ad impulso ogni 7.5s per 30s.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Restorative"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+name: Update
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  update:
+    runs-on: [debian-10]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - run: wget https://origin.warframe.com/PublicExport/index_de.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_en.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_es.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_fr.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_it.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_ja.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_ko.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_pl.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_pt.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_ru.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_tc.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_th.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_tr.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_uk.txt.lzma
+      - run: wget https://origin.warframe.com/PublicExport/index_zh.txt.lzma
+      - run: 7z x index_de.txt.lzma
+      - run: 7z x index_en.txt.lzma
+      - run: 7z x index_es.txt.lzma
+      - run: 7z x index_fr.txt.lzma
+      - run: 7z x index_it.txt.lzma
+      - run: 7z x index_ja.txt.lzma
+      - run: 7z x index_ko.txt.lzma
+      - run: 7z x index_pl.txt.lzma
+      - run: 7z x index_pt.txt.lzma
+      - run: 7z x index_ru.txt.lzma
+      - run: 7z x index_tc.txt.lzma
+      - run: 7z x index_th.txt.lzma
+      - run: 7z x index_tr.txt.lzma
+      - run: 7z x index_uk.txt.lzma
+      - run: 7z x index_zh.txt.lzma
+      - run: rm index_de.txt.lzma index_en.txt.lzma index_es.txt.lzma index_fr.txt.lzma index_it.txt.lzma index_ja.txt.lzma index_ko.txt.lzma index_pl.txt.lzma index_pt.txt.lzma index_ru.txt.lzma index_tc.txt.lzma index_th.txt.lzma index_tr.txt.lzma index_uk.txt.lzma index_zh.txt.lzma
+      - run: php download.php
+      - run: rm index_de.txt index_en.txt index_es.txt index_fr.txt index_it.txt index_ja.txt index_ko.txt index_pl.txt index_pt.txt index_ru.txt index_tc.txt index_th.txt index_tr.txt index_uk.txt index_zh.txt
+      - run: git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git config --local user.name "github-actions[bot]"
+      - run: git add .
+      - run: git commit -m "Update"
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
