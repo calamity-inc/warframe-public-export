@@ -8,7 +8,7 @@ foreach (scandir(".") as $file)
 		{
 			$line = str_replace("\r", "", $line);
 			$name = explode("!", $line)[0];
-			if (!file_exists($name))
+			if ($name != "ExportManifest.json" || $file == "index_en.txt")
 			{
 				echo "Downloading $name...\n";
 				$data = file_get_contents("https://content.warframe.com/PublicExport/Manifest/".$line);
