@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "\uac00\uc6b0\uc2a4 \ud504\ub77c\uc784",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "\ud615\ud0dc\ub97c \uac16\ucd98 \ucd08\uace0\uc18d\uc758 \uc218\uc740. \uac00\uc6b0\uc2a4 \ud504\ub77c\uc784\uc740 '\ud328\ubc30'\ub77c\ub294 \ub2e8\uc5b4 \ud558\ub098\uc870\ucc28\ub3c4 \uc6a9\ub0a9\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "\uc774\ub3d9\uc73c\ub85c \uac00\uc6b0\uc2a4\uc758 \ubc30\ud130\ub9ac\ub97c \ucc44\uc6b0\ub294 \uc804\ub958\ub97c \uc0dd\uc131\ud569\ub2c8\ub2e4. \ubc30\ud130\ub9ac \ucda9\uc804\ub3c4\uc5d0 \ub530\ub77c \uc2e4\ub4dc\uac00 |SPEED|% \ube60\ub974\uac8c \ucda9\uc804\ub418\uba70 \uc2e4\ub4dc \ucda9\uc804 \ub300\uae30 \uc2dc\uac04 \uc5ed\uc2dc |DELAY|% \uac10\uc18c\ud569\ub2c8\ub2e4.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "\ub9c8\ud558 \ub7ec\uc26c",
+                    "description": "\ud3ed\ubc1c\ud558\ub294 \ub4ef\ud55c \uc18d\ub825\uc73c\ub85c \uc804\ub825 \uc9c8\uc8fc\ud558\uc5ec \uc801\uc744 \ub118\uc5b4\ub728\ub9ac\uba70 \ubc30\ud130\ub9ac\ub97c \ucda9\uc804\ud569\ub2c8\ub2e4. \ub2e8\ub2e8\ud55c \ubb3c\uccb4\uc5d0 \ubd80\ub52b\uce58\uba74 \uac15\ub825\ud55c \ucda9\uaca9\ud30c\ub97c \ud615\uc131\ud569\ub2c8\ub2e4. \uae38\uac8c \ub204\ub974\uba74 \uc9c0\uc18d\uc801\uc73c\ub85c \ub2ec\ub9b4 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "\ud0a4\ub124\ud2f1 \ud50c\ub808\uc774\ud305",
+                    "description": "\ud761\uc218\ud55c \uc6b4\ub3d9 \uc5d0\ub108\uc9c0 (\ubb3c\ub9ac, <DT_FIRE>\ud654\uc5fc, <DT_FREEZE>\ub0c9\uae30, <DT_EXPLOSION>\ud3ed\ubc1c) \uc758 \uc77c\ubd80\ub97c \uc5d0\ub108\uc9c0\ub85c \ubcc0\ud658\ud558\ub294 \ubc29\uc5b4\ub9c9\uc744 \uc0dd\uc131\ud569\ub2c8\ub2e4. \ub610\ud55c \uac00\uc6b0\uc2a4\ub97c \ube44\ud2c0\uac70\ub9bc \ubc0f \ub109\ub2e4\uc6b4\uc73c\ub85c\ubd80\ud130 \ubcf4\ud638\ud574 \uc90d\ub2c8\ub2e4. \ud53c\ud574 \uc800\ud56d\ub825\uc740 \ubc30\ud130\ub9ac \ucda9\uc804\ub3c4\uc5d0 \ube44\ub840\ud569\ub2c8\ub2e4."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "\uc368\uba40 \uc120\ub354",
+                    "description": "\uc8fc\ubcc0\uc758 \uc6b4\ub3d9 \uc5d0\ub108\uc9c0\ub97c \ube68\uc544\ub4e4\uc5ec \ubc30\ud130\ub9ac\ub97c \ucda9\uc804\ud558\uace0 \uc8fc\uc704\uc758 \uc801\ub4e4\uc5d0\uac8c <DT_FREEZE>\ub0c9\uae30 \uc0c1\ud0dc \uc774\uc0c1\uc744 \uac00\ud569\ub2c8\ub2e4. \uae38\uac8c \ub204\ub97c \uc2dc \ubc1c\ub3d9 \uacfc\uc815\uc744 \uc5ed\uc804\uc2dc\ucf1c \ubc30\ud130\ub9ac\ub97c \uc18c\ubaa8\ud558\uace0 \uc8fc\uc704 \uc801\ub4e4\uc5d0\uac8c <DT_FIRE>\ud654\uc5fc \uc0c1\ud0dc \uc774\uc0c1\uc744 \uac00\ud569\ub2c8\ub2e4."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "\ub808\ub4dc\ub77c\uc778",
+                    "description": "\uac00\uc6b0\uc2a4\uc758 \ubc30\ud130\ub9ac\ub97c \ud55c\uacc4 \uc774\uc0c1\uc73c\ub85c \ub04c\uc5b4\uc62c\ub824 \uadf8\uc758 \uc5b4\ube4c\ub9ac\ud2f0\ub97c \ud06c\uac8c \uac15\ud654\ud558\uace0 \uc5f0\uc0ac\ub825, \uacf5\uaca9 \uc18d\ub3c4, \uc7ac\uc7a5\uc804 \uc18d\ub3c4, \uc2dc\uc804 \uc18d\ub3c4\ub97c \uacfc\uc5f4\uc5d0 \uc774\ub974\ub3c4\ub85d \uac00\uc18d\uc2dc\ud0b5\ub2c8\ub2e4. \ud55c\uacc4\uc810\uc744 \ub118\uc5b4\uc11c\uba74, \ub465\uae00\uac8c \ud638\ub97c \uadf8\ub9ac\ub294 \uc804\uae30 \ubcfc\ud2b8\uac00 \uc8fc\uae30\uc801\uc73c\ub85c \uac00\uc6b0\uc2a4\uc5d0\uac8c\uc11c \uc19f\uc544\ub098\uc624\uba70, \uc5b4\ube4c\ub9ac\ud2f0\uac00 \uc2dc\uc804 \ud574\uc81c\ub420 \uc2dc \uc77c\uc81c\ud788 \ud3ed\ubc1c\ud569\ub2c8\ub2e4."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "\ub77c\uc774\ub178 \ud504\ub77c\uc784",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

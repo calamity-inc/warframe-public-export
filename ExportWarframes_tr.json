@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "H\u0131z\u0131n \u015fekil alm\u0131\u015f hali. Gauss Prime yenilgiden bahsetmeye bile tahamm\u00fcl edemez.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "Hareket ederken Gauss bataryas\u0131n\u0131 dolduran elektrik ak\u0131m\u0131n\u0131 \u00fcretir. Batarya seviyesine ba\u011fl\u0131 olarak, Sarj gecikmeleri %|DELAY|'ye varan oranlarda k\u0131sal\u0131rken, Kalkan sarjlar\u0131 %|SPEED|'ye varan oranlarda h\u0131zlan\u0131r.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Mach Rush",
+                    "description": "D\u00fc\u015fmanlar\u0131n \u00fczerinde hiper-ko\u015fu uygulayarak patlama yarat\u0131n ve bataryay\u0131 \u015farj edin. Sert cisimlerle \u00e7arp\u0131\u015fmalar g\u00fc\u00e7l\u00fc bir \u015fok dalgas\u0131 yarat\u0131r. Devaml\u0131 bir \u015fekilde ko\u015fmak i\u00e7in yetene\u011fe bas\u0131l\u0131 tut."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Kinetic Plating",
+                    "description": "Absorbe edilen Kinetik Hasar\u0131n bir b\u00f6l\u00fcm\u00fcn\u00fc (Fiziksel, <DT_FIRE>Ate\u015f, <DT_FREEZE>Buz, ve <DT_EXPLOSION> Patlay\u0131c\u0131) Enerjiye d\u00f6n\u00fc\u015ft\u00fcren bir z\u0131rh olu\u015fturur. Ayr\u0131ca Gauss'un, dengesinin bozulmas\u0131na veya yere serilmesine kar\u015f\u0131 korur. Hasar Direnci, batarya seviyesiyle ba\u011flant\u0131l\u0131d\u0131r."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Termal Sunder",
+                    "description": "B\u00f6lgeden kinetik enerji toplayarak, bataryay\u0131 \u015farj edin ve yak\u0131ndaki d\u00fc\u015fmanlara <DT_FREEZE>Buz Stat\u00fcs\u00fc uygulay\u0131n. Bas\u0131l\u0131 tutmak i\u015flemi tersine \u00e7evirerek, bataryay\u0131 bo\u015falt\u0131r, ve yak\u0131ndaki d\u00fc\u015fmanlara <DT_FIRE>Ate\u015f Stat\u00fcs\u00fc uygular."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Redline",
+                    "description": "Gauss'un bataryas\u0131n\u0131 redline'\u0131n \u00f6tesine it, Yeteneklerini g\u00fc\u00e7lendir ve At\u0131\u015f H\u0131z\u0131, Sald\u0131r\u0131 H\u0131z\u0131, Doldurma H\u0131z\u0131 ve Yetenek H\u0131z\u0131n\u0131 a\u015f\u0131r\u0131 h\u0131zlanmaya ayarla. Redline'\u0131 ge\u00e7tikten sonra, elektrik y\u0131ld\u0131r\u0131mlar\u0131 periyodik olarak Gauss'tan s\u0131\u00e7rar ve yetenek devre d\u0131\u015f\u0131 b\u0131rak\u0131ld\u0131\u011f\u0131nda toplu halde patlar."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "L'argento vivo prende forma. Gauss Prime non tollera alcun accenno alla sconfitta.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "Lo spostamento genera una corrente elettrica che riempie la batteria di Gauss. Gli scudi si ricaricano fino a |SPEED|% pi\u00f9 veloce mentre il Ritardo di Ricarica \u00e8 fino a |DELAY|% pi\u00f9 breve, in base al livello della batteria.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Mach Rush",
+                    "description": "Prorompi in un scatto super veloce per sbaragliare i nemici e caricare la batteria, o schiantanti contro oggetti solidi per generare una potente onda d'urto. Mantieni attiva l'abilit\u00e0 per correre continuamente."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Kinetic Plating",
+                    "description": "Genera un'armatura che converte in energia una porzione di Danno Cinetico assorbito (Fisico, <DT_FIRE>Fuoco, <DT_FREEZE>Ghiaccio, e <DT_EXPLOSION>Esplosione), e protegge Gauss dall'essere abbattuto e dal tentennamento. La Resistenza ai Danni \u00e8 relativa al livello della batteria."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Thermal Sunder",
+                    "description": "Estrae l'energia cinetica proveniente dall'area caricando la batteria e applica l'<DT_FREEZE>effetto Ghiaccio ai nemici vicini. Viceversa, rilasciando l'energia scaricando la batteria applica l'<DT_FIRE>effetto Fuoco ai nemici vicini."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Redline",
+                    "description": "Porta la batteria di Gauss oltre la linea rossa, potenziando le sue Abilit\u00e0 mandando in overdrive la Cadenza di Tiro, Velocit\u00e0 di Attacco, Velocit\u00e0 di Ricarica e Velocit\u00e0 di Attivazione. Superata la linea rossa, lampi di energia elettrica circondano Gauss, esplodendo in massa quando l'abilit\u00e0 viene disattivata."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

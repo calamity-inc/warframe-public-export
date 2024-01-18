@@ -814,7 +814,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PoisonAbility",
                     "abilityName": "Sporen",
-                    "description": "Belegt ein Ziel mit <DT_CORROSIVE>korrosiven Pockensporen. Stecke nahe Feinde mit den Sporen an, indem du sie zerst\u00f6rst oder ihren Wirt t\u00f6test. Je l\u00e4nger sich die Spore ausbreitet, desto mehr Schaden verursachen sie."
+                    "description": "Belegt ein Ziel mit <DT_CORROSIVE>korrosiven Pockensporen. Stecke nahe Feinde mit den Sporen an, indem du sie zerst\u00f6rst oder ihren Wirt t\u00f6test. Je l\u00e4nger sich die Sporen ausbreiten, desto mehr Schaden verursachen sie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
@@ -838,7 +838,7 @@
             "uniqueName": "/Lotus/Powersuits/Saryn/Saryn",
             "name": "Saryn",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",
-            "description": "Toxine sind Saryns St\u00e4rke. Ihre schlangenartigen Kr\u00e4fte teilen hohen Schaden aus. F\u00fcr Sarny ist Gift eine Tugend.",
+            "description": "Giftigkeit ist Saryns St\u00e4rke. Ihre schlangenartigen Kr\u00e4fte teilen hohen Schaden aus. F\u00fcr Saryn ist Gift eine Tugend.",
             "health": 365,
             "shield": 270,
             "armor": 240,
@@ -852,7 +852,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PoisonAbility",
                     "abilityName": "Sporen",
-                    "description": "Belegt ein Ziel mit <DT_CORROSIVE>korrosiven Pockensporen. Stecke nahe Feinde mit den Sporen an, indem du sie zerst\u00f6rst oder ihren Wirt t\u00f6test. Je l\u00e4nger sich die Spore ausbreitet, desto mehr Schaden verursachen sie."
+                    "description": "Belegt ein Ziel mit <DT_CORROSIVE>korrosiven Pockensporen. Stecke nahe Feinde mit den Sporen an, indem du sie zerst\u00f6rst oder ihren Wirt t\u00f6test. Je l\u00e4nger sich die Sporen ausbreiten, desto mehr Schaden verursachen sie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
@@ -961,6 +961,44 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.4,
+            "passiveDescription": "Bewegung generiert einen elektrischen Fluss, der Gauss` Batterie aufl\u00e4dt. Schilde laden bis zu |SPEED| % schneller auf, w\u00e4hrend die Aufladeverz\u00f6gerung bis zu |DELAY| % k\u00fcrzer ist, je nach Batterielevel.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Mach-Rausch",
+                    "description": "Verfalle in einen Supersprint, ramme Gegner und lade die Batterie. Das Kollidieren mit festen Objekten generiert eine m\u00e4chtige Schockwelle. Halten, um dauerhaft zu rennen."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Kinetische R\u00fcstung",
+                    "description": "Generiere R\u00fcstung, die einen Teil von absorbiertem kinetischen Schaden (physisch,  <DT_FIRE>Hitze, <DT_FREEZE>K\u00e4lte und <DT_EXPLOSION>Explosion) in Energie umwandelt. Sch\u00fctzt Gauss auch vor Stolpern und Niederschl\u00e4gen. Schadensresistenz ist abh\u00e4ngig  vom Batterielevel."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Thermale Zweisamkeit",
+                    "description": "Sch\u00f6pfe kinetische Energie aus der Umgebung ab, lade die Batterie auf und f\u00fcge nahen Gegner <DT_FREEZE>K\u00e4ltestatus zu. Halten kehrt den Vorgang um, leert die Batterie und f\u00fcgt nahen Feinden <DT_FIRE>Hitzestatus zu."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Grenzwert",
+                    "description": "Zwinge Gauss` Batterie \u00fcber den Grenzwert hinaus, \u00fcberlade seine F\u00e4higkeiten und \u00fcbersteuere Feuerrate, Angriffsgeschwindigkeit, Nachladegeschwindigkeit und Aktivierungsgeschwindigkeit. Jenseits des Grenzwerts w\u00f6lben sich regelm\u00e4\u00dfig B\u00f6gen aus Elektrizit\u00e4t von Gauss und explodieren als Masse, wenn die F\u00e4higkeit deaktiviert wird."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "Quecksilber nimmt Gestalt an. Gauss Prime duldet keine Rede von einer Niederlage.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
             "passiveDescription": "Bewegung generiert einen elektrischen Fluss, der Gauss` Batterie aufl\u00e4dt. Schilde laden bis zu |SPEED| % schneller auf, w\u00e4hrend die Aufladeverz\u00f6gerung bis zu |DELAY| % k\u00fcrzer ist, je nach Batterielevel.",
             "abilities": [
                 {

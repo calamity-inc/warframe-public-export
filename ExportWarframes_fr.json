@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "Le vif-argent prend forme. Gauss Prime ne tol\u00e8re aucune allusion \u00e0 la d\u00e9faite.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "Le d\u00e9placement g\u00e9n\u00e8re un courant \u00e9lectrique qui recharge la batterie de Gauss. Les Boucliers se rechargent jusqu'\u00e0 |SPEED|% plus rapidement tandis que le d\u00e9lai de recharge est |DELAY|% plus court, en fonction du niveau de la batterie.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Supersonique",
+                    "description": "Foncez dans un sprint effr\u00e9n\u00e9 et renversez vos ennemis tout en rechargeant la batterie. Les collisions g\u00e9n\u00e8rent une importante onde de choc. Maintenir pour sprinter en continu."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Blindage Cin\u00e9tique",
+                    "description": "G\u00e9n\u00e8re un blindage qui convertit une partie des D\u00e9g\u00e2ts cin\u00e9tiques absorb\u00e9s (Physiques, de <DT_FIRE>Feu, de <DT_FREEZE>Glace et <DT_EXPLOSION>Explosifs) en \u00c9nergie. Prot\u00e8ge \u00e9galement Gauss de l'\u00e9tourdissement ou du renversement. La R\u00e9sistance aux D\u00e9g\u00e2ts est proportionnelle au niveau de la batterie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Fracture Thermique",
+                    "description": "Absorbez l'\u00e9nergie cin\u00e9tique de la zone, chargez la batterie et infligez un Effet de Statut de <DT_FREEZE>Glace aux ennemis proches. Maintenez pour inverser le processus et vider la batterie en infligeant un Effet de Statut de <DT_FIRE>Feu aux ennemis proches."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Hors Limites",
+                    "description": "Poussez la batterie de Gauss au-del\u00e0 des limites, surchargez ses Pouvoirs et boostez la Vitesse de Tir, la Vitesse d'Attaque, la Vitesse de Rechargement et la Vitesse de lancement de Pouvoir. Une fois hors limites, des \u00e9clairs \u00e9manent p\u00e9riodiquement de Gauss, explosant tous en m\u00eame temps lorsque le Pouvoir est d\u00e9sactiv\u00e9."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

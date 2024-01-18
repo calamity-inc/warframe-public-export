@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "Quicksilver takes form. Gauss Prime brooks no talk of defeat.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to |SPEED|% faster while the Recharge Delay is up to |DELAY|% shorter, based on the battery level.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Mach Rush",
+                    "description": "Burst into a hyper-sprint bowling over enemies and charging the battery. Crashing into solid objects generates a powerful shockwave. Hold to rush continuously."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Kinetic Plating",
+                    "description": "Generate armor plating that converts a portion of absorbed Kinetic Damage (Physical, <DT_FIRE>Heat, <DT_FREEZE>Cold, and <DT_EXPLOSION>Blast) into Energy. Also protects Gauss from being staggered or knocked down. Damage Resistance is relative to the battery level."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Thermal Sunder",
+                    "description": "Siphon kinetic energy from the area, charging the battery and inflicting <DT_FREEZE>Cold Status on nearby enemies. Hold reverses the process, draining the battery and inflicting <DT_FIRE>Heat Status on nearby enemies."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Redline",
+                    "description": "Push Gauss' battery beyond the redline, supercharging his Abilities and setting Fire Rate, Attack Speed, Reload Speed, and Casting Speed into overdrive. When past the redline, bolts of arcing electricity dance periodically from Gauss, exploding en masse when the ability is deactivated."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

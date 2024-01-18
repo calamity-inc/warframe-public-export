@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "La velocidad toma forma. Gauss Prime no admite la derrota.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "El movimiento genera una corriente el\u00e9ctrica que llena la bater\u00eda de Gauss. Los escudos se recargan hasta un |SPEED| % m\u00e1s r\u00e1pido mientras la demora de recargar es hasta un |DELAY| % m\u00e1s corto, seg\u00fan el nivel de la bater\u00eda.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Velocidad Mach",
+                    "description": "L\u00e1nzate con supervelocidad derribando a los enemigos y recargando la bater\u00eda. Estr\u00e9llate contra objetos s\u00f3lidos para generar una onda s\u00edsmica poderosa. Para correr continuamente mant\u00e9n la habilidad."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Blindaje cin\u00e9tico",
+                    "description": "Genera el blindaje que convierte una parte del da\u00f1o cin\u00e9tico absorbido (f\u00edsico, <DT_FIRE>calor, <DT_FREEZE>fr\u00edo y <DT_EXPLOSION>explosi\u00f3n) en energ\u00eda. Tambi\u00e9n protege a Gauss de ser aturdido o derribado. La resistencia al da\u00f1o es relativa al nivel de la bater\u00eda."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Desgarre t\u00e9rmico",
+                    "description": "Extrae energ\u00eda cin\u00e9tica del \u00e1rea, recargando la bater\u00eda e inflige estado de <DT_FREEZE>fr\u00edo a los enemigos cercanos. Mantener la habilidad invierte el proceso, agotando la bater\u00eda e infligiendo estado de <DT_FIRE>calor a los enemigos cercanos."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Aceleraci\u00f3n m\u00e1xima",
+                    "description": "Lleva la bater\u00eda de Gauss m\u00e1s all\u00e1 de su aceleraci\u00f3n m\u00e1xima, supercargando sus habilidades y ajustando en sobrecarga la cadencia de fuego, velocidad de ataque, velocidad de recarga y velocidad de lanzamiento. Cuando se sobrepasa su aceleraci\u00f3n m\u00e1xima, los dardos de electricidad rodean a Gauss y explotan en masa cuando se desactiva la habilidad."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",

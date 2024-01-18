@@ -987,6 +987,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+            "name": "Gauss Prime",
+            "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+            "description": "A personifica\u00e7\u00e3o da velocidade. O Gauss Prime n\u00e3o admite derrotas.",
+            "health": 270,
+            "shield": 550,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.5,
+            "passiveDescription": "O movimento gera uma corrente el\u00e9trica que carrega a bateria do Gauss. Os Escudos recarregam at\u00e9 |SPEED|% mais r\u00e1pido, enquanto o Atraso na Recarga \u00e9 at\u00e9 |DELAY|% mais curto, com base no n\u00edvel da bateria.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                    "abilityName": "Mach Rush",
+                    "description": "Dispare em uma corrida de alta velocidade, derrubando os inimigos e carregando a bateria do Gauss. Colidir com objetos s\u00f3lidos gerar\u00e1 uma poderosa onda de choque. Segure para correr continuamente."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                    "abilityName": "Kinetic Plating",
+                    "description": "Gerar\u00e1 placas blindadas que convertem uma parte do Dano Cin\u00e9tico absorvido (F\u00edsico, <DT_FIRE>\u00cdgneo, <DT_FREEZE>Glacial e <DT_EXPLOSION>Explosivo) em Energia. Tamb\u00e9m protege o Gauss de ser atordoado ou derrubado. A Resist\u00eancia a Dano \u00e9 relativa ao n\u00edvel da bateria."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                    "abilityName": "Thermal Sunder",
+                    "description": "Drenar\u00e1 a energia cin\u00e9tica na regi\u00e3o, carregar\u00e1 a bateria e infligir\u00e1 o Efeito de Status <DT_FREEZE>Glacial nos inimigos pr\u00f3ximos. Segurar a habilidade reverter\u00e1 o processo, drenando a bateria e aplicando o Efeito de Status <DT_FIRE>\u00cdgneo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                    "abilityName": "Redline",
+                    "description": "For\u00e7ar\u00e1 a bateria do Gauss a ultrapassar os limites da linha vermelha, sobrecarregando suas Habilidades e impulsionando a Cad\u00eancia de Tiro, a Velocidade de Ataque, a Velocidade de Recarga e a Velocidade de Conjura\u00e7\u00e3o. Ao passar da linha vermelha, dardos eletrificados sair\u00e3o do Gauss periodicamente, causando uma explos\u00e3o em massa quando a Habilidade for desativada."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
             "name": "Rhino Prime",
             "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",
