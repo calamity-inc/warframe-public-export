@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Studnia \u017bycia",
-                    "description": "Tworzy na przeciwniku studni\u0119 \u017cycia. Sojusznicy stopniowo odzyskuj\u0105 punkty \u017bycia wok\u00f3\u0142 celu i s\u0105 odporni na Efekty Statusu. Sojusznicy zyskuj\u0105 dodatkowe punkty \u017bycia zadaj\u0105c mu obra\u017cenia."
+                    "description": "Tworzy na przeciwniku studni\u0119 \u017cycia. Sojusznicy stopniowo odzyskuj\u0105 punkty \u017bycia wok\u00f3\u0142 celu i s\u0105 odporni na Efekty Statusu. Obra\u017cenia Efekt\u00f3w Statusu otrzymane przez sojusznik\u00f3w s\u0105 przekierowywane na wroga. Sojusznicy zyskuj\u0105 dodatkowe punkty \u017bycia, zadaj\u0105c mu obra\u017cenia."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u0142ogos\u0142awie\u0144stwo",
-                    "description": "Przywr\u00f3\u0107 \u017cycie i tarcze sojusznik\u00f3w b\u0119d\u0105cych w zasi\u0119gu wsp\u00f3\u0142dzielenia bieg\u0142o\u015bci Trinity, zapewniaj\u0105c im jednocze\u015bnie redukcj\u0119 otrzymywanych obra\u017ce\u0144."
+                    "description": "Przywraca \u017bycie i Tarcze pobliskich przeciwnik\u00f3w oraz redukuje otrzymywane przez nich obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Studnia \u017bycia",
-                    "description": "Tworzy na przeciwniku studni\u0119 \u017cycia. Sojusznicy stopniowo odzyskuj\u0105 punkty \u017bycia wok\u00f3\u0142 celu i s\u0105 odporni na Efekty Statusu. Sojusznicy zyskuj\u0105 dodatkowe punkty \u017bycia zadaj\u0105c mu obra\u017cenia."
+                    "description": "Tworzy na przeciwniku studni\u0119 \u017cycia. Sojusznicy stopniowo odzyskuj\u0105 punkty \u017bycia wok\u00f3\u0142 celu i s\u0105 odporni na Efekty Statusu. Obra\u017cenia Efekt\u00f3w Statusu otrzymane przez sojusznik\u00f3w s\u0105 przekierowywane na wroga. Sojusznicy zyskuj\u0105 dodatkowe punkty \u017bycia, zadaj\u0105c mu obra\u017cenia."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u0142ogos\u0142awie\u0144stwo",
-                    "description": "Przywr\u00f3\u0107 \u017cycie i tarcze sojusznik\u00f3w b\u0119d\u0105cych w zasi\u0119gu wsp\u00f3\u0142dzielenia bieg\u0142o\u015bci Trinity, zapewniaj\u0105c im jednocze\u015bnie redukcj\u0119 otrzymywanych obra\u017ce\u0144."
+                    "description": "Przywraca \u017bycie i Tarcze pobliskich przeciwnik\u00f3w oraz redukuje otrzymywane przez nich obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Podczas wykrwawiania si\u0119, Inaros zostaje okryty ochronnym Sarkofagiem. Mo\u017ce on wskrzesi\u0107 siebie poprzez wysysanie energii \u017cyciowej z pobliskich wrog\u00f3w i sojusznik\u00f3w.",
+            "passiveDescription": "Kiedy Inaros otrzyma \u015bmiertelne obra\u017cenia, skryje si\u0119 on w sarkofagu i zaw\u0142adnie piaskiem, by atakowa\u0107 wrog\u00f3w, wyssa\u0107 ich si\u0142y \u017cyciowe i si\u0119 wskrzesi\u0107.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Uderz we wroga przekl\u0119tym piachem, kt\u00f3ry unieruchomi go i wyssie z niego \u017cycie."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Poch\u0142oni\u0119cie",
-                    "description": "Przytrzymaj przycisk aktywacji mocy, aby uchwyci\u0107 cel w ruchomych piaskach i przyci\u0105gn\u0105\u0107 go do poch\u0142oni\u0119cia; kradn\u0105c jego \u017cycie i czyni\u0105c przy tym przyjazn\u0105 zmor\u0119."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Burza Piaskowa",
-                    "description": "Przekszta\u0142\u0107 si\u0119 w wir piaskowy, kt\u00f3ry zmiecie wroga z powierzchni i poch\u0142onie wszystkich z\u0142apanych w ruchome piaski."
+                    "description": "Sta\u0144 si\u0119 burz\u0105 piaskow\u0105. Inaros po\u017cera wrog\u00f3w wci\u0105gni\u0119tych w wir piasku i leczy si\u0119 nimi."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Pancerz Skarabeuszy",
+                    "description": "Aktywuj ten Pancerz po\u015bwi\u0119caj\u0105c \u017bycie Inarosa. U\u017cyj Umiej\u0119tno\u015bci ponownie, aby zatrzyma\u0107 proces wcze\u015bniej. Ten pancerz zmniejsza otrzymywane obra\u017cenia i neguje Efekty Statusu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Chmara Skarabeuszy",
-                    "description": "Pobierz \u017cycie aby okry\u0107 si\u0119 wzmocnionym pancerzem ze skarabeuszy. Pu\u015b\u0107 przycisk mocy, aby uczyni\u0107 chmar\u0119 skarabeuszy, kt\u00f3ra wyssie \u017cycie z ocalonego wroga i uzdrowi sojusznik\u00f3w."
+                    "description": "Przyzwij Chmar\u0119 Skarabeuszy, kt\u00f3ra zaatakuje wrog\u00f3w i na\u0142o\u017cy Efekt Statusu Obr. \u017br\u0105cych. Obra\u017cenia chmary rosn\u0105 wraz z \u017byciem Inarosa. Wrogowie zabici pod wp\u0142ywem Chmary stworz\u0105 Kavata Chmary, kt\u00f3ry b\u0119dzie walczy\u0107 u boku Inarosa i rozprzestrzenia\u0107 skarabeusze na innych wrog\u00f3w."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Podczas wykrwawiania si\u0119, Inaros zostaje okryty ochronnym Sarkofagiem. Mo\u017ce on wskrzesi\u0107 siebie poprzez wysysanie energii \u017cyciowej z pobliskich wrog\u00f3w i sojusznik\u00f3w.",
+            "passiveDescription": "Kiedy Inaros otrzyma \u015bmiertelne obra\u017cenia, skryje si\u0119 on w sarkofagu i zaw\u0142adnie piaskiem, by atakowa\u0107 wrog\u00f3w, wyssa\u0107 ich si\u0142y \u017cyciowe i si\u0119 wskrzesi\u0107.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Uderz we wroga przekl\u0119tym piachem, kt\u00f3ry unieruchomi go i wyssie z niego \u017cycie."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Poch\u0142oni\u0119cie",
-                    "description": "Przytrzymaj przycisk aktywacji mocy, aby uchwyci\u0107 cel w ruchomych piaskach i przyci\u0105gn\u0105\u0107 go do poch\u0142oni\u0119cia; kradn\u0105c jego \u017cycie i czyni\u0105c przy tym przyjazn\u0105 zmor\u0119."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Burza Piaskowa",
-                    "description": "Przekszta\u0142\u0107 si\u0119 w wir piaskowy, kt\u00f3ry zmiecie wroga z powierzchni i poch\u0142onie wszystkich z\u0142apanych w ruchome piaski."
+                    "description": "Sta\u0144 si\u0119 burz\u0105 piaskow\u0105. Inaros po\u017cera wrog\u00f3w wci\u0105gni\u0119tych w wir piasku i leczy si\u0119 nimi."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Pancerz Skarabeuszy",
+                    "description": "Aktywuj ten Pancerz po\u015bwi\u0119caj\u0105c \u017bycie Inarosa. U\u017cyj Umiej\u0119tno\u015bci ponownie, aby zatrzyma\u0107 proces wcze\u015bniej. Ten pancerz zmniejsza otrzymywane obra\u017cenia i neguje Efekty Statusu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Chmara Skarabeuszy",
-                    "description": "Pobierz \u017cycie aby okry\u0107 si\u0119 wzmocnionym pancerzem ze skarabeuszy. Pu\u015b\u0107 przycisk mocy, aby uczyni\u0107 chmar\u0119 skarabeuszy, kt\u00f3ra wyssie \u017cycie z ocalonego wroga i uzdrowi sojusznik\u00f3w."
+                    "description": "Przyzwij Chmar\u0119 Skarabeuszy, kt\u00f3ra zaatakuje wrog\u00f3w i na\u0142o\u017cy Efekt Statusu Obr. \u017br\u0105cych. Obra\u017cenia chmary rosn\u0105 wraz z \u017byciem Inarosa. Wrogowie zabici pod wp\u0142ywem Chmary stworz\u0105 Kavata Chmary, kt\u00f3ry b\u0119dzie walczy\u0107 u boku Inarosa i rozprzestrzenia\u0107 skarabeusze na innych wrog\u00f3w."
                 }
             ],
             "productCategory": "Suits"
@@ -981,7 +981,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
                     "abilityName": "Wysokie Obroty",
-                    "description": "Prze\u0142\u0105cz bateri\u0119 Gaussa na wysokie obroty, turbodo\u0142adowuj\u0105c jego Umiej\u0119tno\u015bci i znacznie zwi\u0119kszaj\u0105c szybkostrzelno\u015b\u0107, pr\u0119dko\u015b\u0107 ataku, prze\u0142adowania i pr\u0119dko\u015b\u0107 u\u017cywania mocy. Przekraczaj\u0105c Wysokie Obroty Gauss, razi okresowo pobliskich przeciwnik\u00f3w pr\u0105dem, a po wy\u0142\u0105czeniu umiej\u0119tno\u015bci \u2014 wybucha."
+                    "description": "Prze\u0142\u0105cz bateri\u0119 Gaussa na wysokie obroty, turbodo\u0142adowuj\u0105c jego Umiej\u0119tno\u015bci i znacznie zwi\u0119kszaj\u0105c Sszybkostrzelno\u015b\u0107, Pr\u0119dko\u015b\u0107 Ataku, Prze\u0142adowania i Pr\u0119dko\u015b\u0107 U\u017cywania Mocy. Przekraczaj\u0105c Wysokie Obroty Gauss, razi okresowo pobliskich przeciwnik\u00f3w pr\u0105dem, a po wy\u0142\u0105czeniu umiej\u0119tno\u015bci \u2014 wybucha."
                 }
             ],
             "productCategory": "Suits"
@@ -1019,7 +1019,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
                     "abilityName": "Wysokie Obroty",
-                    "description": "Prze\u0142\u0105cz bateri\u0119 Gaussa na wysokie obroty, turbodo\u0142adowuj\u0105c jego Umiej\u0119tno\u015bci i znacznie zwi\u0119kszaj\u0105c szybkostrzelno\u015b\u0107, pr\u0119dko\u015b\u0107 ataku, prze\u0142adowania i pr\u0119dko\u015b\u0107 u\u017cywania mocy. Przekraczaj\u0105c Wysokie Obroty Gauss, razi okresowo pobliskich przeciwnik\u00f3w pr\u0105dem, a po wy\u0142\u0105czeniu umiej\u0119tno\u015bci \u2014 wybucha."
+                    "description": "Prze\u0142\u0105cz bateri\u0119 Gaussa na wysokie obroty, turbodo\u0142adowuj\u0105c jego Umiej\u0119tno\u015bci i znacznie zwi\u0119kszaj\u0105c Sszybkostrzelno\u015b\u0107, Pr\u0119dko\u015b\u0107 Ataku, Prze\u0142adowania i Pr\u0119dko\u015b\u0107 U\u017cywania Mocy. Przekraczaj\u0105c Wysokie Obroty Gauss, razi okresowo pobliskich przeciwnik\u00f3w pr\u0105dem, a po wy\u0142\u0105czeniu umiej\u0119tno\u015bci \u2014 wybucha."
                 }
             ],
             "productCategory": "Suits"
@@ -1282,7 +1282,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPenanceAbility",
                     "abilityName": "Pokuta",
-                    "description": "Zu\u017cywa tarcz\u0119, by zwi\u0119kszy\u0107 pr\u0119dko\u015b\u0107 prze\u0142adowania i szybkostrzelno\u015b\u0107, podczas gdy obra\u017cenia zadawane wrogom konwertowane s\u0105 w punkty \u017cycia dla Harrowa oraz pobliskich sojusznik\u00f3w."
+                    "description": "Zu\u017cywa tarcz\u0119, by zwi\u0119kszy\u0107 Pr\u0119dko\u015b\u0107 Prze\u0142adowania i Szybkostrzelno\u015b\u0107, podczas gdy obra\u017cenia zadawane wrogom konwertowane s\u0105 w punkty \u017cycia dla Harrowa oraz pobliskich sojusznik\u00f3w."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestRavageAbility",
@@ -1320,7 +1320,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPenanceAbility",
                     "abilityName": "Pokuta",
-                    "description": "Zu\u017cywa tarcz\u0119, by zwi\u0119kszy\u0107 pr\u0119dko\u015b\u0107 prze\u0142adowania i szybkostrzelno\u015b\u0107, podczas gdy obra\u017cenia zadawane wrogom konwertowane s\u0105 w punkty \u017cycia dla Harrowa oraz pobliskich sojusznik\u00f3w."
+                    "description": "Zu\u017cywa tarcz\u0119, by zwi\u0119kszy\u0107 Pr\u0119dko\u015b\u0107 Prze\u0142adowania i Szybkostrzelno\u015b\u0107, podczas gdy obra\u017cenia zadawane wrogom konwertowane s\u0105 w punkty \u017cycia dla Harrowa oraz pobliskich sojusznik\u00f3w."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestRavageAbility",
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Rozliczenie",
                     "description": "Unosi pobliskich wrog\u00f3w w powietrze, a nast\u0119pnie miota nimi o ziemi\u0119. Zabici w ten spos\u00f3b wrogowie maj\u0105 szans\u0119 wyrzuci\u0107 Kul\u0119 \u017bycia."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Poszukiwacz wiedzy. Stra\u017cnik historii. Odwa\u017cny badacz wiedzy Leverian. Dante tworzy tajemne opowie\u015bci, by wspiera\u0107 sojusznik\u00f3w i niszczy\u0107 wrog\u00f3w.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Noctua skanuje cele, zapisuj\u0105c informacje do swojego Kodeksu. Szansa Statusu wzrasta o |CHANCE|% na w pe\u0142ni zeskanowanych celach.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "Otw\u00f3rz Noctua, Egzaltowany Tom Dantego, i uwolnij opowie\u015b\u0107 o niedoli jego wrog\u00f3w."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Werset \u015awiat\u0142a",
+                    "description": "O\u017cywcza kompozycja Dantego zapewnia mu i jego sojusznikom Garda i zwi\u0119ksza ich \u017bycie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Werset Mroku",
+                    "description": "Kompozycja Dantego rani pobliskich wrog\u00f3w, zadaj\u0105c im Obra\u017cenia Tn\u0105ce."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Werset Ostateczny",
+                    "description": "Dante musi skomponowa\u0107 dwa Wersety zanim stworzy Werset Ostateczny. \n\nTRIUMF: Dwa Wersety \u015awiat\u0142a o\u017cywiaj\u0105 sojusznik\u00f3w premi\u0105 \u017bycia i Gardy. Zabicia i Asysty regeneruj\u0105 Gard\u0119 przez kr\u00f3tki czas.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\n\nTRAGEDIA: Dwa Wersety Mroku atakuj\u0105 wrog\u00f3w. Wszelkie Obra\u017cenia w Czasie zadane tym wrogom zostan\u0105 zadane w jednym ataku.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\n\nSTRA\u017bNIK S\u0141\u00d3W: Werset \u015awiat\u0142a, po kt\u00f3rym nast\u0119puje Werset Mroku, wspiera sojusznik\u00f3w kopiami Noctua. Kopie ksi\u0119gi powtarzaj\u0105 ataki powi\u0105zanego z nimi sojusznika. <br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\n\nNALOT PARAGRIMM\u00d3W: Mroczny Werset, po kt\u00f3rym nast\u0119puje Werset \u015awiat\u0142a, przywo\u0142uje Nalot Paragrimm\u00f3w, aby atakowa\u0107 wrog\u00f3w, czyni\u0105c ich bardziej podatnymi na Efekty Statusu i \u015bci\u0105gn\u0105\u0107 na siebie ich uwag\u0119."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Przyn\u0119ta",
-                    "description": "Loki tworzy holograficzn\u0105 wersj\u0119 siebie, przyci\u0105gaj\u0105c wrogi ogie\u0144."
+                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, przyci\u0105gaj\u0105c\u0105 ogie\u0144 wroga i poch\u0142aniaj\u0105c\u0105 cz\u0119\u015b\u0107 \u017cycia i tarcz pobliskich przeciwnik\u00f3w."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2140,8 +2181,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
-                    "abilityName": "Rozbrojenie Obszarowe",
-                    "description": "Wysy\u0142a naprz\u00f3d fal\u0119 energii, uszkadzaj\u0105c bro\u0144 paln\u0105 w zasi\u0119gu i zmuszaj\u0105c\u0105 wrog\u00f3w do walki wr\u0119cz."
+                    "abilityName": "Rozbrojenie",
+                    "description": "Emituje fal\u0119 energii, kt\u00f3ra rozbraja przeciwnik\u00f3w w zasi\u0119gu i zmusza ich do walki wr\u0119cz."
                 }
             ],
             "productCategory": "Suits"
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Przyn\u0119ta",
-                    "description": "Loki tworzy holograficzn\u0105 wersj\u0119 siebie, przyci\u0105gaj\u0105c wrogi ogie\u0144."
+                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, przyci\u0105gaj\u0105c\u0105 ogie\u0144 wroga i poch\u0142aniaj\u0105c\u0105 cz\u0119\u015b\u0107 \u017cycia i tarcz pobliskich przeciwnik\u00f3w."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2178,8 +2219,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
-                    "abilityName": "Rozbrojenie Obszarowe",
-                    "description": "Wysy\u0142a naprz\u00f3d fal\u0119 energii, uszkadzaj\u0105c bro\u0144 paln\u0105 w zasi\u0119gu i zmuszaj\u0105c\u0105 wrog\u00f3w do walki wr\u0119cz."
+                    "abilityName": "Rozbrojenie",
+                    "description": "Emituje fal\u0119 energii, kt\u00f3ra rozbraja przeciwnik\u00f3w w zasi\u0119gu i zmusza ich do walki wr\u0119cz."
                 }
             ],
             "productCategory": "Suits"
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Za\u0107mienie",
-                    "description": "Stoj\u0105c w \u015bwietle Mirage zadaje ci\u0119\u017ckie obra\u017cenia, w czasie gdy cie\u0144 sprawia, \u017ce trudno j\u0105 znale\u017a\u0107, a jeszcze trudniej zrani\u0107."
+                    "description": "(NACI\u015aNIJ) Tymczasowo zmniejsza obra\u017cenia zadawane Mirage przez wrog\u00f3w.\n(PRZYTRZYMAJ) Tymczasowo zwi\u0119ksza obra\u017cenia od broni Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Za\u0107mienie",
-                    "description": "Stoj\u0105c w \u015bwietle Mirage zadaje ci\u0119\u017ckie obra\u017cenia, w czasie gdy cie\u0144 sprawia, \u017ce trudno j\u0105 znale\u017a\u0107, a jeszcze trudniej zrani\u0107."
+                    "description": "(NACI\u015aNIJ) Tymczasowo zmniejsza obra\u017cenia zadawane Mirage przez wrog\u00f3w.\n(PRZYTRZYMAJ) Tymczasowo zwi\u0119ksza obra\u017cenia od broni Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Kiedy jest wystawiona na ostre \u015bwiat\u0142o ma szans\u0119 na stworzenie o\u015blepiaj\u0105cego b\u0142ysku trwaj\u0105cego |DURATION|s.",
+            "passiveDescription": "U\u017cycie Umiej\u0119tno\u015bci przez Gar\u0119 mo\u017ce o\u015blepi\u0107 pobliskich wrog\u00f3w na |DURATION| sekund.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Kiedy jest wystawiona na ostre \u015bwiat\u0142o ma szans\u0119 na stworzenie o\u015blepiaj\u0105cego b\u0142ysku trwaj\u0105cego |DURATION|s.",
+            "passiveDescription": "U\u017cycie Umiej\u0119tno\u015bci przez Gar\u0119 mo\u017ce o\u015blepi\u0107 pobliskich wrog\u00f3w na |DURATION| sekund.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",

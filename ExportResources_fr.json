@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "Un artefact contenant des secrets Orokins. Il ne peut \u00eatre ouvert qu'avec la puissance du N\u00e9ant.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "Un artefact contenant des secrets Orokins. Il ne peut \u00eatre ouvert qu'avec la puissance du N\u00e9ant.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "Un artefact contenant des secrets Orokins. Il ne peut \u00eatre ouvert qu'avec la puissance du N\u00e9ant.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "Un artefact contenant des secrets Orokins. Il ne peut \u00eatre ouvert qu'avec la puissance du N\u00e9ant.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "Un artefact contenant des secrets Orokins. Il ne peut \u00eatre ouvert qu'avec la puissance du N\u00e9ant.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "Aile de Condroc",
-            "description": "La serre sur l'aile d'un Condroc est assez tranchante pour d\u00e9chiqueter les os.\n\nLieu: Plaines d'Eidolon",
+            "description": "La serre sur l'aile d'un Condroc est assez tranchante pour d\u00e9chiqueter les os.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "Feu follet de Cetus",
-            "description": "Plus courantes la nuit, ces formes de vie en pierre sont attir\u00e9es par les rivages touch\u00e9s par l'Eidolon. Ils s'attardent \u00e0 toute heure autour des lacs des Plaines d'Eidolon. Leur origine reste myst\u00e9rieuse.\n\nLieu : Plaines d'Eidolon",
+            "description": "Plus courantes la nuit, ces formes de vie en pierre sont attir\u00e9es par les rivages touch\u00e9s par l'Eidolon. Ils s'attardent \u00e0 toute heure autour des lacs des Plaines d'Eidolon. Leur origine reste myst\u00e9rieuse.\n\nLieu : Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "Maprico",
-            "description": "Ce fruit dur a la peau \u00e9paisse afin de pouvoir r\u00e9sister aux conditions extr\u00eames, cachant \u00e0 l'int\u00e9rieur une pulpe fruit\u00e9e.\n\nLieu: Plaines d'Eidolon",
+            "description": "Ce fruit dur a la peau \u00e9paisse afin de pouvoir r\u00e9sister aux conditions extr\u00eames, cachant \u00e0 l'int\u00e9rieur une pulpe fruit\u00e9e.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "Griffe dorsale de Kuaka",
-            "description": "Les tendons des griffes dorsales des Kuakas peuvent \u00eatre tann\u00e9s pour en faire un cuir r\u00e9sistant et flexible.\n\nLieu: Plaines d'Eidolon",
+            "description": "Les tendons des griffes dorsales des Kuakas peuvent \u00eatre tann\u00e9s pour en faire un cuir r\u00e9sistant et flexible.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "Grokdrul",
-            "description": "Un m\u00e9lange nocif de polysaccharides avec des polym\u00e8res \u00e0 longues cha\u00eenes, le Grokdrul est un produit chimique standard utilis\u00e9 dans les productions Grineers.\n\nLieu: Plaines d'Eidolon",
+            "description": "Un m\u00e9lange nocif de polysaccharides avec des polym\u00e8res \u00e0 longues cha\u00eenes, le Grokdrul est un produit chimique standard utilis\u00e9 dans les productions Grineers.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "Iradite",
-            "description": "Un min\u00e9ral pr\u00e9cieux pour les Ostrons.\n\nLieu: Plaines d'Eidolon",
+            "description": "Un min\u00e9ral pr\u00e9cieux pour les Ostrons.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "T\u00e9gument de Chardon",
-            "description": "Utilis\u00e9 par le buisson de chardon pour pi\u00e9ger et tuer ses proies.\n\nLieu: Plaines d'Eidolon",
+            "description": "Utilis\u00e9 par le buisson de chardon pour pi\u00e9ger et tuer ses proies.\n\nLieu: Plaines d'Eidolon, Terre",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "Lanterne Entrati",
+            "description": "Une balise c\u00e9r\u00e9monielle utilis\u00e9e pour cartographier les emplacements du N\u00e9ant dans l'espace r\u00e9el.\n\nLieux: Laboratoire d'Albrecht (Deimos) et Zariman",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "St\u00e8le",
             "description": "Cette pierre impr\u00e9gn\u00e9e du N\u00e9ant contient une essence inqui\u00e9tante.\n\nLieu: Laboratoires d'Albrecht (Deimos)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "Vaisseaux Capillaires",
+            "description": "Un sous-composant crucial dans la construction des Avatars d'Albrecht Entrati.\nAcquis en accomplissant les missions de Perturbation Entrati sur Deimos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Scintillateur",
-            "description": "Ces rares reliques de l'\u00e8re Orokin peuvent encore \u00eatre trouv\u00e9es en train de surveiller les Salles d'Isolement profond\u00e9ment enfouies sous la surface de Deimos.\n\nLieu: Puy de Cambion",
+            "description": "Ces rares reliques de l'\u00e8re Orokin peuvent encore \u00eatre trouv\u00e9es en train de surveiller les Salles d'Isolement profond\u00e9ment enfouies sous la surface de Deimos.\n\nLieu: Puy de Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulite",
-            "description": "Porteur de spores \u00e0 moiti\u00e9 form\u00e9s et incomplets, il est \u00e0 peine plus que de la chair tremblante munie de griffes pour s'accrocher.\n\nLieu: Puy de Cambion",
+            "description": "Porteur de spores \u00e0 moiti\u00e9 form\u00e9s et incomplets, il est \u00e0 peine plus que de la chair tremblante munie de griffes pour s'accrocher.\n\nLieu: Puy de Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglion",
-            "description": "Un amas de fibres nerveuses enchev\u00eatr\u00e9es, d'organes redondants et de fines membranes sensorielles.\n\nLieu: Puy de Cambion",
+            "description": "Un amas de fibres nerveuses enchev\u00eatr\u00e9es, d'organes redondants et de fines membranes sensorielles.\n\nLieu: Puy de Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Teroglobe Lumineux",
-            "description": "Ces orbes ont depuis longtemps rempli leur fonction d'origine, mais vibrent toujours avec une faible puissance.\n\nLieu: Puy de Cambion",
+            "description": "Ces orbes ont depuis longtemps rempli leur fonction d'origine, mais vibrent toujours avec une faible puissance.\n\nLieu: Puy de Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "Tore Crisma",
-            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes.\n\nGagnez des Tores Crismas en battant l'Orbis Preneur de Profit.",
+            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes.\n\nGagnez des Tores Crismas en battant l'Orbis Preneur de Profit dans la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "Tore Lazulite",
-            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes.\n\nGagnez des Tores Lazulites en battant l'Orbis Exploiteur.",
+            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes.\n\nGagnez des Tores Lazulites en battant l'Orbis Exploiteur dans la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "Tore Calda",
-            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Caldas via les ennemis situ\u00e9s dans les Labos d'Enrichissement de la Vall\u00e9e Orbis et les Rakno\u00efdes Scytos. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis.",
+            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Caldas via les ennemis situ\u00e9s dans les Labos d'Enrichissement de la Vall\u00e9e Orbis et les Rakno\u00efdes Scytos. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "Tore Vega",
-            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Vegas via les ennemis situ\u00e9s dans le Port Spatial de la Vall\u00e9e Orbis et les Rakno\u00efdes Mites. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis.",
+            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Vegas via les ennemis situ\u00e9s dans le Port Spatial de la Vall\u00e9e Orbis et les Rakno\u00efdes Mites. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "Tore Sola",
-            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Solas via les ennemis situ\u00e9s dans le Temple du Profit de la Vall\u00e9e Orbis et les Rakno\u00efdes Kytas. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis.",
+            "description": "Un appareil dont la fonction et l'origine sont ind\u00e9termin\u00e9es. D\u00e9cern\u00e9 par Vox Solaris et les Plumes. \n\nGagnez des Tores Solas via les ennemis situ\u00e9s dans le Temple du Profit de la Vall\u00e9e Orbis et les Rakno\u00efdes Kytas. Ils peuvent \u00e9galement \u00eatre trouv\u00e9s dans les grottes situ\u00e9es autour de la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Boue Thermique",
-            "description": "Un d\u00e9chet produit par le processus de terraformation des Tours Suintantes.\n\nLieu: Vall\u00e9e Orbis",
+            "description": "Un d\u00e9chet produit par le processus de terraformation des Tours Suintantes.\n\nLieu: Vall\u00e9e Orbis, V\u00e9nus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Syst\u00e8mes Gyromag",
-            "description": "Un composant modulaire qui r\u00e9gularise l'horizon artificiel et l'altitude de plusieurs syst\u00e8mes Corpus. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis.",
+            "description": "Un composant modulaire qui r\u00e9gularise l'horizon artificiel et l'altitude de plusieurs syst\u00e8mes Corpus. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Syst\u00e8mes Atmo",
-            "description": "Un composant modulaire qui compense pour la multitude de conditions atmosph\u00e9riques existant dans le Syst\u00e8me Origine. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis.",
+            "description": "Un composant modulaire qui compense pour la multitude de conditions atmosph\u00e9riques existant dans le Syst\u00e8me Origine. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Syst\u00e8mes R\u00e9pulseurs",
-            "description": "Un syst\u00e8me antigravitationnel qui permet \u00e0 des objets consid\u00e9rablement lourds d'\u00eatre manipul\u00e9s par un seul individu. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis.",
+            "description": "Un syst\u00e8me antigravitationnel qui permet \u00e0 des objets consid\u00e9rablement lourds d'\u00eatre manipul\u00e9s par un seul individu. S'obtient en terminant des Braquages dans la Vall\u00e9e Orbis (V\u00e9nus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Spore Mytocardia",
-            "description": "Un corps fongique pris\u00e9 pour ses utilisations vari\u00e9es.\n\nLieu: Vall\u00e9e Orbis",
+            "description": "Un corps fongique pris\u00e9 pour ses utilisations vari\u00e9es.\n\nLieu: Vall\u00e9e Orbis, V\u00e9nus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Spore Gorgaricus",
-            "description": "Cette spore reproductive du champignon g\u00e9ant de la Vall\u00e9e est tr\u00e8s convoit\u00e9e pour les composants chimiques complexes qu'elle abrite.\n\nLieu: Vall\u00e9e Orbis",
+            "description": "Cette spore reproductive du champignon g\u00e9ant de la Vall\u00e9e est tr\u00e8s convoit\u00e9e pour les composants chimiques complexes qu'elle abrite.\n\nLieu: Vall\u00e9e Orbis, V\u00e9nus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "Nodule Tepa",
-            "description": "Les nodules iridescents de ces plantes brillent l\u00e9g\u00e8rement dans les environnements glac\u00e9s.\n\nLieu: Vall\u00e9e Orbis",
+            "description": "Les nodules iridescents de ces plantes brillent l\u00e9g\u00e8rement dans les environnements glac\u00e9s.\n\nLieu: Vall\u00e9e Orbis, V\u00e9nus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "La citadelle du Simulacre",
             "description": "L'ar\u00e8ne standard du Simulacre.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "Sanctum Simulacrum",
+            "description": "Simule une bataille dans Sanctum Anatomica. Ce simulacre permet de r\u00e9gler la difficult\u00e9 des ennemis 25 niveaux au-dessus du maximum normal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "Tiametrite",
-            "description": "Neurotransmetteurs Infest\u00e9s condens\u00e9s sous pression.\nLieu: Puy de Cambion, Deimos. L\u00e9sions bleues.",
+            "description": "Neurotransmetteurs Infest\u00e9s condens\u00e9s sous pression.\n\nTrouv\u00e9s dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions bleues, les Coffrets Entrati Sagiant et les coffres bonus des Mises \u00e0 prix des Salles d'Isolement.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "Dagonique",
-            "description": "Ruisseaux de fluide d'Exocrine, durcis au fil des si\u00e8cles.\nLieu: Puy de Cambion, Deimos. L\u00e9sions bleues.",
+            "description": "Ruisseaux de fluide d'Exocrine, durcis au fil des si\u00e8cles.\n\nTrouv\u00e9s dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions bleues, les Coffrets Entrati Sagiant et les coffres bonus des Mises \u00e0 prix des Salles d'Isolement.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "Adramalium",
-            "description": "Tendineux et m\u00e9tallique, poss\u00e9dant une grande force \u00e9lastique.\nLieu: Puy de Cambion, Deimos. L\u00e9sions jaunes.",
+            "description": "Tendineux et m\u00e9tallique, poss\u00e9dant une grande force \u00e9lastique.\n\nTrouv\u00e9 dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions jaunes ainsi que les Kystes Infest\u00e9s Spitia et Rolizor.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "Bapholite",
-            "description": "Mall\u00e9able, en raison des veines remplies de prot\u00e9ines de l'Infestation.\nLieu: Puy de Cambion, Deimos. L\u00e9sions jaunes.",
+            "description": "Mall\u00e9able, en raison des veines remplies de prot\u00e9ines de l'Infestation.\n\nTrouv\u00e9 dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions jaunes ainsi que les Kystes Infest\u00e9s Spitia et Rolizo, et les coffres bonus des Mises \u00e0 prix des Salles d'Isolement.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "N\u00e9crath\u00e8ne",
-            "description": "Enfonc\u00e9s dans les enveloppes Infest\u00e9es, conserv\u00e9s pendant des mill\u00e9naires.\nLieu: Puy de Cambion, Deimos. L\u00e9sions bleues.",
+            "description": "Enfonc\u00e9s dans les enveloppes Infest\u00e9es, conserv\u00e9s pendant des mill\u00e9naires.\n\nTrouv\u00e9s dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions bleues et les Ob\u00e9lisques Requiem.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "Thaumica",
-            "description": "Peut \u00eatre model\u00e9 par l'Infestation mais y r\u00e9siste.\nLieu: Puy de Cambion, Deimos. L\u00e9sions jaunes.",
+            "description": "Peut \u00eatre model\u00e9 par l'Infestation mais y r\u00e9siste.\n\nTrouv\u00e9 dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions jaunes ainsi que les Ob\u00e9lisques Requiem et les Kystes Infest\u00e9s Spitia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "H\u00e9ciphron",
-            "description": "Agr\u00e9gats provenant des syst\u00e8mes n\u00e9olymphatiques des masses Infest\u00e9es.\nLieu: Puy de Cambion, Deimos. L\u00e9sions bleues.",
+            "description": "Agr\u00e9gats provenant des syst\u00e8mes n\u00e9olymphatiques des masses Infest\u00e9es.\n\nTrouv\u00e9s dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions bleues.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "Namalon",
-            "description": "D\u00e9p\u00f4ts min\u00e9raux Infest\u00e9s imitant la forme d'organes vivants.\nLieu: Puy de Cambion, Deimos. L\u00e9sions jaunes.",
+            "description": "D\u00e9p\u00f4ts min\u00e9raux Infest\u00e9s imitant la forme d'organes vivants.\n\nTrouv\u00e9s dans le Puy de Cambion, Deimos, via le minage de L\u00e9sions jaunes et les coffres bonus des Mises \u00e0 prix des Salles d'Isolement.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "Azurite",
-            "description": "Une gemme parcourue d'impuret\u00e9s.\nLieu: Plaines d'Eidolon, Terre. Veines bleues.",
+            "description": "Une gemme bleue parcourue d'impuret\u00e9s.\n\nTrouv\u00e9e dans les Plaines d'Eidolon, Terre, via le minage de Veines bleues et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "Devar",
-            "description": "Un cristal trouble.\nLieu: Plaines d'Eidolon, Terre. Veines bleues.",
+            "description": "Un cristal trouble.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines bleues et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "Pyrol",
-            "description": "Un m\u00e9tal terne et cassant.\nLieu: Plaines d'Eidolon, Terre. Veines rouges.",
+            "description": "Un m\u00e9tal terne et cassant.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines rouges et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "Coprun",
-            "description": "Un m\u00e9tal doux et mall\u00e9able.\nLieu: Plaines d'Eidolon, Terre. Veines rouges.",
+            "description": "Un m\u00e9tal mou et mall\u00e9able.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines rouges.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "Crimzian",
-            "description": "Un joyau rouge sang.\nLieu: Plaines d'Eidolon, Terre. Veines bleues.",
+            "description": "Un joyau rouge sang.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines bleues et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "Auron",
-            "description": "Un m\u00e9tal brillant, dense et conducteur.\nLieu: Plaines d'Eidolon, Terre. Veines rouges.",
+            "description": "Un m\u00e9tal brillant, dense et conducteur.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines rouges et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "Veridos",
-            "description": "Une gemme verte tr\u00e8s r\u00e9fl\u00e9chissante.\nLieu: Plaines d'Eidolon, Terre. Veines bleues.",
+            "description": "Une gemme verte tr\u00e8s r\u00e9fl\u00e9chissante.\n\nTrouv\u00e9e dans les Plaines d'Eidolon, Terre, via le minage de Veines bleues et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "Ferros",
-            "description": "Un m\u00e9tal flexible qui a \u00e9t\u00e9 durci par les impuret\u00e9s qu'il contient.\nLieu: Plaines d'Eidolon, Terre. Veines rouges.",
+            "description": "Un m\u00e9tal r\u00e9sistant qui a \u00e9t\u00e9 durci par les impuret\u00e9s qu'il contient.\n\nTrouv\u00e9 dans les Plaines d'Eidolon, Terre, via le minage de Veines rouges et sur les Marteleurs.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "Phasmin",
-            "description": "Une gemme \u00e9trangement verte trouv\u00e9e dans des \u00e9clats m\u00e9talliques.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines bleues.",
+            "description": "Une gemme \u00e9trangement verte encastr\u00e9e dans des \u00e9clats m\u00e9talliques.\n\nTrouv\u00e9e dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines bleues et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "Noctrul",
-            "description": "Une pierre pr\u00e9cieuse noire, aux impuret\u00e9s bleues iris\u00e9es.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines bleues.",
+            "description": "Une pierre pr\u00e9cieuse noire, aux impuret\u00e9s bleues iris\u00e9es.\n\nTrouv\u00e9e dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines bleues et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "Travoride",
-            "description": "Un m\u00e9tal durci par la pression \u00e9crasante de l'atmosph\u00e8re v\u00e9nusienne.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines rouges.",
+            "description": "Un min\u00e9ral durci par la pression \u00e9crasante de l'atmosph\u00e8re v\u00e9nusienne.\n\nTrouv\u00e9 dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines rouges et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "Axidite",
-            "description": "Un s\u00e9diment qui s'est form\u00e9 \u00e0 partir de pluie sulfurique qui s'est retrouv\u00e9e pi\u00e9g\u00e9e sous la glace.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines rouges.",
+            "description": "Un s\u00e9diment qui s'est form\u00e9 \u00e0 partir de pluie sulfurique qui s'est retrouv\u00e9e pi\u00e9g\u00e9e sous la glace.\n\nTrouv\u00e9 dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines bleues et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "Hesperon",
-            "description": "De l'argile qui se transforme en une pierre extr\u00eamement dure \u00e0 des temp\u00e9ratures en dessous de z\u00e9ro.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines rouges.",
+            "description": "De l'argile qui se transforme en une pierre extr\u00eamement dure \u00e0 des temp\u00e9ratures en dessous de z\u00e9ro.\n\nTrouv\u00e9 dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines rouges et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "Goblite",
-            "description": "Un \u00e9trange cristal qui se forme \u00e0 l'int\u00e9rieur des veines du minerai extrait.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines bleues.",
+            "description": "Un \u00e9trange cristal qui se forme \u00e0 l'int\u00e9rieur des veines du minerai extrait.\n\nTrouv\u00e9 dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines bleues et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "Venerol",
-            "description": "Un m\u00e9tal pr\u00e9cieux forg\u00e9 \u00e0 partir de sous-produits de refroidissement.\nLieu: Vall\u00e9e Orbis, V\u00e9nus. Veines rouges.",
+            "description": "Un m\u00e9tal pr\u00e9cieux forg\u00e9 \u00e0 partir de sous-produits du liquide de refroidissement.\n\nTrouv\u00e9 dans la Vall\u00e9e Orbis, V\u00e9nus, via le minage de Veines rouges et dans les conteneurs de ressources \u00e9parpill\u00e9s \u00e0 travers le paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3244,7 +3275,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
             "name": "Boltor Genesis Incarnon",
-            "description": "\u00c9veillez la capacit\u00e9 de cette arme \u00e0 donner la priorit\u00e9 aux D\u00e9g\u00e2ts Tranchants et lui faire gagner Tir Multiple sous Forme Incarnon.",
+            "description": "\u00c9veillez la capacit\u00e9 de cette arme \u00e0 donner la priorit\u00e9 aux D\u00e9g\u00e2ts Tranchants et lui faire gagner du Tir Multiple sous Forme Incarnon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "Souffle de l'Eidolon",
-            "description": "Un gaz que l'on trouve uniquement dans les Plaines d'Eidolon, raffin\u00e9 jusqu'\u00e0 sa forme la plus pure. Obtenu en compl\u00e9tant des Mises \u00e0 Prix dans Cetus.",
+            "description": "Un gaz que l'on trouve uniquement dans les Plaines d'Eidolon, raffin\u00e9 jusqu'\u00e0 sa forme la plus pure.\n\nLieu: Mises \u00e0 Prix des Plaines d'Eidolon, Terre ",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Sc\u00e8ne du Monde virtuel de Hunhow",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "Sc\u00e8ne de Bataille d'Eau",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "Sc\u00e8ne nocturne de Bataille d'Eau",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "Sc\u00e8ne de Cetus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Sc\u00e8ne du Pont du Vaisseau Corpus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Sc\u00e8ne du Hangar du Vaisseau Corpus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Sc\u00e8ne du D\u00e9p\u00f4t Corpus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "Sc\u00e8ne de Batterie d'Artillerie",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Sc\u00e8ne du Canon Orbital du Vaisseau Corpus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "Sc\u00e8ne de la Plateforme 12",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "Sc\u00e8ne de Salle de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "Sc\u00e8ne de la Perc\u00e9e de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "Sc\u00e8ne de la Crypte de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "Sc\u00e8ne des Profondeurs de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "Sc\u00e8ne des Catacombes de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "Sc\u00e8ne de C\u00e9note de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "Sc\u00e8ne de la Chute de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "Sc\u00e8ne de l'Abandon de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "Sc\u00e8ne du C\u0153ur de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "Sc\u00e8ne du Necralisk de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "Sc\u00e8ne du Puy de Cambion de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "Sc\u00e8ne des Souterrains de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "Sc\u00e8ne de Membrane de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "Sc\u00e8ne des Confins de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "Sc\u00e8ne de la Chambre de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "Sc\u00e8ne des Tunnels de Deimos",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "Sc\u00e8ne du Camp Dax de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "Sc\u00e8ne Habitation de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "Sc\u00e8ne Lunaro de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "Sc\u00e8ne Op\u00e9ra de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "Sc\u00e8ne Parc de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "Sc\u00e8ne Canton de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "Sc\u00e8ne P\u00e9riph\u00e9rie de l'Hypog\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "Sc\u00e8ne Ar\u00e8ne de l'Orowyrm",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Sc\u00e8ne du Crat\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "Sc\u00e8ne de l'Estrade",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "Sc\u00e8ne des \u00celes sinueuses",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "Sc\u00e8ne de petite \u00cele",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "Sc\u00e8ne de Bassin",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Sc\u00e8ne Amphith\u00e9\u00e2tre",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "Sc\u00e8ne Archarbor",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "Sc\u00e8ne Hameaux du Continent",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "Sc\u00e8ne R\u00e9gion du Cairn Austral",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "Sc\u00e8ne Repaire de la Butte",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "Sc\u00e8ne Ville-en-Bourg",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Sc\u00e8ne Grotte de Teshin",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "Sc\u00e8ne des Plaines d'Eidolon",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "Sc\u00e8ne de Fortuna",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "Sc\u00e8ne du Laboratoire d'Alad V dans la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "Sc\u00e8ne de la Logistique Sup\u00e9rieure de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "Sc\u00e8ne de l'Impasse de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "Sc\u00e8ne du D\u00e9barquement Central de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "Sc\u00e8ne de la Passerelle de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "Sc\u00e8ne des Ascenseurs de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "Sc\u00e8ne de Vue sur les Nuages de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "Sc\u00e8ne des Couloirs de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "Sc\u00e8ne du Foyer Inf\u00e9rieur de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "Sc\u00e8ne de Distribution d'\u00c9l\u00e9ments de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "Sc\u00e8ne des R\u00e9gulateurs de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "Sc\u00e8ne de Raffinement d'\u00c9l\u00e9ments de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "Sc\u00e8ne du Hall de la Cit\u00e9 Gazi\u00e8re",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Sc\u00e8ne Pompe \u00e0 Eau de la For\u00eat Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Sc\u00e8ne Usine de la For\u00eat Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Sc\u00e8ne Industrie de la For\u00eat Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "Sc\u00e8ne de la Faille de la Forteresse Kuva",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Sc\u00e8ne du Cargo Galion Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Sc\u00e8ne de la Centrifugeuse du Laboratoire Sous-Marin Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Sc\u00e8ne de l'Artillerie de la Colonie Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Sc\u00e8ne du Temple de Harrow",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Sc\u00e8ne du Tombeau d'Inaros",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Sc\u00e8ne de l'Hologramme du Vaisseau Infest\u00e9",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Sc\u00e8ne du Poste de Commande d'Onkko",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Sc\u00e8ne d'Extraction de la Tour Orokin",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "Sc\u00e8ne du Balcon de Lua",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "Sc\u00e8ne de l'Orbiteur",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Sc\u00e8ne du N\u00e9ant de Granum",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Sc\u00e8ne du Refuge de Teshin",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "Sc\u00e8ne de l'Ar\u00e8ne Lunaro",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Sc\u00e8ne de la Cour d'Umbra",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "Sc\u00e8ne du Tribunal des Arbitres",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "Sc\u00e8ne de Confinement sur Lua",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "Sc\u00e8ne du Berceau de Lua",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "Sc\u00e8ne du monde virtuel de Suda",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Sc\u00e8ne de Chambre du Lotus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Sc\u00e8ne d'\u00c9pave Corpus sur la Plan\u00e8te de Glace",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Sc\u00e8ne de la Retraite d'Amaryn",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Sc\u00e8ne des Chantiers Spatiaux Grineers",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "Sc\u00e8ne du Sanctuaire du Bosquet d'Argent",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Sc\u00e8ne de la Salle du Conseil d'Ergo",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Sc\u00e8ne de la Colonie de Mycona",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Sc\u00e8ne de Gazoduc urbain Corpus",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Sc\u00e8ne du Lien du Voile",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Sc\u00e8ne de la Chambre de Hunhow",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Sc\u00e8ne de Pont de vaisseau Infest\u00e9",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Sc\u00e8ne d'\u00c9pave Orokin",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "Sc\u00e8ne du Portail du Sanctuaire",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Sc\u00e8ne de la Garnison de Cressa",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Sc\u00e8ne de R\u00e9acteur de Colonie Grineer",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "Sc\u00e8ne du Tr\u00f4ne de Kuva",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "Sc\u00e8ne de la Salle du Tr\u00f4ne du Praghasa",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "Sc\u00e8ne du Choix de la Guerre Int\u00e9rieure",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "Sc\u00e8ne de l'Atelier de Roky",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "Sc\u00e8ne de la Vall\u00e9e Orbis",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "Sc\u00e8ne d'Incrustation",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "Sc\u00e8ne de Saturne Six",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "Sc\u00e8ne Dans le Froid L\u00e0-Bas",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "Sc\u00e8ne des Archives d'Albrecht",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "Sc\u00e8ne du Bureau d'Albrecht",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Sc\u00e8ne de la Retraite de Dante",
+            "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "Sc\u00e8ne Sanctum Anatomica",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "Sc\u00e8ne du Vaisseau Abandonn\u00e9",
+            "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "Sc\u00e8ne de Gorge Fragment\u00e9e",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "Sc\u00e8ne Fabrica Anatomica",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "Sc\u00e8ne Amphith\u00e9\u00e2tre du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "Sc\u00e8ne Dormizone du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "Sc\u00e8ne Soutes du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "Sc\u00e8ne Prison du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "Sc\u00e8ne Agri-Zone du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "Sc\u00e8ne Legems du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "Sc\u00e8ne Habitation du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "Sc\u00e8ne Lunaro du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "Sc\u00e8ne Parc Albrecht du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "Sc\u00e8ne S\u00e9r\u00e9nit\u00e9 du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "Sc\u00e8ne Perchoir d'Ange du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "Sc\u00e8ne Chrysalithe du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "Sc\u00e8ne Cour d'\u00e9cole du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "Sc\u00e8ne Docks du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "Sc\u00e8ne Engin Reliquaire du Zariman",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "Sc\u00e8ne du Circulus de Lua",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Sc\u00e8ne du Balcon Sentient",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Sc\u00e8ne de la Fontaine Sentient",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Sc\u00e8ne du Bassin Sentient",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Sc\u00e8ne du Hall Sentient",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Sc\u00e8ne de l'Autel Sentient",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,21 +5332,21 @@
             "name": "Sc\u00e8ne For\u00eat Brise-Voile",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "Sc\u00e8ne Murex Brise-Voile",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "Sc\u00e8ne Usine Brise-Voile",
             "description": "D\u00e9verrouille cette sc\u00e8ne afin de l'utiliser dans le Mode Captura, auquel vous pouvez acc\u00e9der par le biais de l'onglet Warframe Apparence dans votre Arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "Vitreum Attentif",
+            "description": "Un \u0153il vigilant pour l\u2019Orbiteur.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "Paragrimme du Noctua",
+            "description": "Un Paragrimme surgit des pages du Noctua pour vous accompagner dans votre Orbiteur.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Belric et Rania r\u00e9unis",
             "description": "Un souvenir des amoureux, Belric et Rania, conserv\u00e9 dans le cristal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "Ailes N\u00e9on Fiert\u00e9",
+            "description": "C\u00e9l\u00e9brez la Fiert\u00e9 avec cette d\u00e9coration lumineuse pour votre Orbiteur.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "Peluche Arthur",
+            "description": "'Mes \u00e9tudes de la p\u00e9riode 1999 ont r\u00e9v\u00e9l\u00e9 une relique inestimable connue sous le nom de Vieux Pelucheux. Nous devons recr\u00e9er les merveilles du pass\u00e9.' - Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "Peluche Kavat de Plage",
             "description": "Une peluche tr\u00e8s sp\u00e9ciale pour vous rappeler de votre participation dans l'Alerte Tactique: Bataille d'eau. QUE VOTRE VICTOIRE TREMP\u00c9E SOIT HONORABLE!",
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "Peluche Kavat Estival",
             "description": "Une peluche tr\u00e8s sp\u00e9ciale pour vous rappeler de votre participation dans l'Alerte Tactique: Bataille d'eau. QUE VOTRE VICTOIRE TREMP\u00c9E SOIT HONORABLE!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Peluche Ordis",
+            "description": "'L'Op\u00e9rateur poss\u00e8de des Peluches sous de nombreuses formes charmantes. Ordis a pens\u00e9 que l'Op\u00e9rateur pourrait ajouter un fid\u00e8le C\u00e9phalon \u00e0 la collection!' -Ordis",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "Un troph\u00e9e d'une prise pr\u00e9cieuse.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "Affiche de la Fiert\u00e9 2024",
+            "description": "Cette Affiche c\u00e9l\u00e8bre la Fiert\u00e9. Cr\u00e9\u00e9e par RoboMythos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Statuette Noggle - Baruuk Prime",
+            "description": "Une petite statue \u00e0 t\u00eate oscillante de Baruuk Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Baruuk Prime Mandala",
             "description": "Marquez votre Orbiteur avec le Mandala tranquille de Baruuk Prime. La configuration incite \u00e0 la m\u00e9ditation et \u00e0 la contemplation.",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Statuette Noggle - Grendel Prime",
+            "description": "Une petite statue \u00e0 t\u00eate oscillante de Grendel Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "Autel du Grimoire",
             "description": "Exposez votre Grimoire \u00e0 une place d'honneur.",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Statuette Noggle - Hildryn Prime",
+            "description": "Une petite statue \u00e0 t\u00eate oscillante de Hildryn Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Statuette Noggle - Hydroid",
             "description": "Une petite statue \u00e0 t\u00eate oscillante d'Hydroid.",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Statuette Noggle - Inaros",
             "description": "Une petite statue \u00e0 t\u00eate oscillante d'Inaros.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "D\u00e9coration Sarcophage d'Inaros",
+            "description": "Inaros se sent chez lui dans tout espace pourvu de ce sarcophage protecteur.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Griffonnage Ophiuchus de Javi",
             "description": "Devenez un disciple de Javi. Ce Griffonnage Ophiuchus est bas\u00e9 sur les archives de Drusus Leverian concernant Lavos",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Griffonnage Luminosit\u00e9 de Javi",
             "description": "Devenez un disciple de Javi. Ce Griffonnage Luminosit\u00e9 est bas\u00e9 sur les archives de Drusus Leverian concernant Lavos.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Griffonnage G\u00e9nome de Javi",
             "description": "Devenez un disciple de Javi. Ce Griffonnage G\u00e9nome est bas\u00e9 sur les archives de Drusus Leverian concernant Lavos.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "D\u00e9coration Chimalli et Tequihua",
+            "description": "Vous honorerez Styanax Tonatiuh lorsque vous montrerez ces pr\u00e9cieux armements.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Statuette Noggle - Kahl-175",
             "description": "Une petite statue \u00e0 t\u00eate oscillante de Kahl-175.",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "Prex Dagath",
             "description": "Le Miroir qui accuse",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "Prex Dante",
+            "description": "Gardien du Pass\u00e9",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "Affiche - TennoCon 2024",
+            "description": "Pour ceux qui ont rejoint la c\u00e9l\u00e9bration de la TennoCon 2024.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Statuette Noggle - Teshin",
             "description": "Une petite statue \u00e0 t\u00eate oscillante de Teshin.",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Statuette Noggle - Vor",
             "description": "Une petite statue \u00e0 t\u00eate oscillante de Vor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Statuette Noggle - Wisp Prime",
+            "description": "Une petite statue \u00e0 t\u00eate oscillante de Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "SEGMENT COALESCENT DU HELMINTH",
-            "description": "Permet au Helminth de fusionner les Fragments d'Archonte en variantes plus puissantes.",
+            "description": "Permet au Helminth de fusionner les Fragments d'Archonte en variantes plus puissantes via les Fusions Coalescente et d'Ascension.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Dante - Ch\u00e2ssis",
+            "description": "Le composant Ch\u00e2ssis de la Warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Dante - Neuroptiques",
+            "description": "Le composant Neuroptiques de la Warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Dante - Syst\u00e8mes",
+            "description": "Le composant Syst\u00e8mes de la Warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon - Ch\u00e2ssis",
             "description": "Le composant Ch\u00e2ssis de la Warframe Oberon.",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "Nautilus - Syst\u00e8mes",
             "description": "Un composant servant \u00e0 la fabrication de sentinelles.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "Ruvox - Lame",
+            "description": "Un composant servant \u00e0 la fabrication d'armes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "Ruvox - Gant",
+            "description": "Un composant servant \u00e0 la fabrication d'armes.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },

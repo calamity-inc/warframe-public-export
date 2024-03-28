@@ -1950,8 +1950,8 @@
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerBlueprint",
             "resultType": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
             "buildPrice": 5000,
-            "buildTime": 1800,
-            "skipBuildTimePrice": 25,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": true,
@@ -2016,8 +2016,8 @@
             "uniqueName": "/Lotus/Types/Keys/LimboQuest/LimboChassisKeyBlueprint",
             "resultType": "/Lotus/Types/Keys/LimboQuest/LimboChassisTheorem",
             "buildPrice": 6500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -2034,8 +2034,8 @@
             "uniqueName": "/Lotus/Types/Keys/LimboQuest/LimboHelmetKeyBlueprint",
             "resultType": "/Lotus/Types/Keys/LimboQuest/LimboHelmetTheorem",
             "buildPrice": 6500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -2052,8 +2052,8 @@
             "uniqueName": "/Lotus/Types/Keys/LimboQuest/LimboSystemsKeyBlueprint",
             "resultType": "/Lotus/Types/Keys/LimboQuest/LimboSystemsTheorem",
             "buildPrice": 6500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -3796,8 +3796,8 @@
             "uniqueName": "/Lotus/Types/Recipes/Components/InfestedBaitBallBlueprint",
             "resultType": "/Lotus/Types/Restoratives/Consumable/InfestedBaitBall",
             "buildPrice": 7500,
-            "buildTime": 28800,
-            "skipBuildTimePrice": 10,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -3829,8 +3829,8 @@
             "uniqueName": "/Lotus/Types/Recipes/Components/InfestedIrradiatedBaitBallBlueprint",
             "resultType": "/Lotus/Types/Restoratives/Consumable/InfestedIrradiatedBaitBall",
             "buildPrice": 7500,
-            "buildTime": 28800,
-            "skipBuildTimePrice": 10,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -4338,7 +4338,7 @@
             "uniqueName": "/Lotus/Types/Recipes/Components/VorBoltRemoverBlueprint",
             "resultType": "/Lotus/Types/Recipes/Components/VorBoltRemoverFakeItem",
             "buildPrice": 100,
-            "buildTime": 30,
+            "buildTime": 10,
             "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
@@ -17298,8 +17298,8 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconABlueprint",
             "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconAComponent",
             "buildPrice": 5000,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -17332,8 +17332,8 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconBBlueprint",
             "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconBComponent",
             "buildPrice": 5000,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -17366,8 +17366,8 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconCBlueprint",
             "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBeaconCComponent",
             "buildPrice": 5000,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
@@ -24861,6 +24861,138 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterBlueprint",
+            "resultType": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 8000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                    "ItemCount": 12000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 2000,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+                    "ItemCount": 4,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 4,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 4000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                    "ItemCount": 9000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                    "ItemCount": 450,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinBlueprint",
             "resultType": "/Lotus/Powersuits/Paladin/Paladin",
             "buildPrice": 30000,
@@ -31650,6 +31782,74 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBladeBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                    "ItemCount": 4500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 8,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGloveBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 1400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare",
+                    "ItemCount": 4,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawBladeBlueprint",
             "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawBlade",
             "buildPrice": 30000,
@@ -35965,6 +36165,30 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/EntFistIncarnonBlueprint",
+            "resultType": "/Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/EntSphereHammerBlueprint",
             "resultType": "/Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer",
             "buildPrice": 25000,
@@ -35993,6 +36217,40 @@
                 {
                     "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
                     "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/EntratiWristGunBlueprint",
+            "resultType": "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 35,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 3000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 6,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -44950,8 +45208,8 @@
             "uniqueName": "/Lotus/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberonBlueprint",
             "resultType": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberon",
             "buildPrice": 500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 1,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": false,
             "num": 1,
             "codexSecret": false,
@@ -44983,8 +45241,8 @@
             "uniqueName": "/Lotus/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonKnaveLokiBlueprint",
             "resultType": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonKnaveLoki",
             "buildPrice": 500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 1,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": false,
             "num": 1,
             "codexSecret": false,
@@ -45016,8 +45274,8 @@
             "uniqueName": "/Lotus/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonOrphidSarynBlueprint",
             "resultType": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonOrphidSaryn",
             "buildPrice": 500,
-            "buildTime": 60,
-            "skipBuildTimePrice": 1,
+            "buildTime": 10,
+            "skipBuildTimePrice": 0,
             "consumeOnUse": false,
             "num": 1,
             "codexSecret": false,

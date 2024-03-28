@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Well of Life",
-                    "description": "Gere um manancial de vida atrav\u00e9s de um inimigo. Aliados pr\u00f3ximos ao alvo regenerar\u00e3o gradualmente a vida e receber\u00e3o imunidade a Efeito de Status. Al\u00e9m disso, eles receber\u00e3o Vida adicional sempre que o alvo sofrer dano."
+                    "description": "Criar\u00e1 um manancial de Vida em um inimigo. Aliados pr\u00f3ximos ao alvo regenerar\u00e3o gradualmente a Vida e receber\u00e3o imunidade a Efeitos de Status. O dano de Efeitos de Status destinados aos Aliados pr\u00f3ximos ser\u00e1 absorvido pelo inimigo. Os Aliados receber\u00e3o Vida adicional quando atacarem o inimigo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Blessing",
-                    "description": "Restaurar\u00e1 os Escudos e a Vida dos aliados no alcance da afinidade da Trinity, concedendo-lhes redu\u00e7\u00e3o de dano tempor\u00e1ria como bonifica\u00e7\u00e3o."
+                    "description": "Fornecer\u00e1 redu\u00e7\u00e3o de dano e restaurar\u00e1 a Vida e os Escudos dos aliados pr\u00f3ximos."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Well of Life",
-                    "description": "Gere um manancial de vida atrav\u00e9s de um inimigo. Aliados pr\u00f3ximos ao alvo regenerar\u00e3o gradualmente a vida e receber\u00e3o imunidade a Efeito de Status. Al\u00e9m disso, eles receber\u00e3o Vida adicional sempre que o alvo sofrer dano."
+                    "description": "Criar\u00e1 um manancial de Vida em um inimigo. Aliados pr\u00f3ximos ao alvo regenerar\u00e3o gradualmente a Vida e receber\u00e3o imunidade a Efeitos de Status. O dano de Efeitos de Status destinados aos Aliados pr\u00f3ximos ser\u00e1 absorvido pelo inimigo. Os Aliados receber\u00e3o Vida adicional quando atacarem o inimigo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Blessing",
-                    "description": "Restaurar\u00e1 os Escudos e a Vida dos aliados no alcance da afinidade da Trinity, concedendo-lhes redu\u00e7\u00e3o de dano tempor\u00e1ria como bonifica\u00e7\u00e3o."
+                    "description": "Fornecer\u00e1 redu\u00e7\u00e3o de dano e restaurar\u00e1 a Vida e os Escudos dos aliados pr\u00f3ximos."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Quando est\u00e1 sangrando, o Inaros fica protegido por um sarc\u00f3fago. Ele pode se reviver drenando a for\u00e7a vital dos inimigos e aliados pr\u00f3ximos.",
+            "passiveDescription": "Quando o Inaros sofrer dano letal, ele se sepultar\u00e1 em um sarc\u00f3fago e encarnar\u00e1 como areia para atacar os inimigos, drenando a for\u00e7a vital deles para reviver.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Atingir\u00e1 os inimigos no alcance com uma onda de areia amaldi\u00e7oada que cegar\u00e1 e roubar\u00e1 Vida dos alvos afetados."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devour",
-                    "description": "Segurar o bot\u00e3o da habilidade aprisionar\u00e1 um inimigo em areia movedi\u00e7a, puxar\u00e1 ele at\u00e9 o Inaros e roubar\u00e1 sua Vida. Ao devorar completamente o alvo, um Clone de Areia aliado ser\u00e1 gerado."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandstorm",
-                    "description": "Transformar\u00e1 o Inaros em um redemoinho impiedoso de areia, que arremessar\u00e1 os inimigos para longe e devorar\u00e1 aqueles afetados pela habilidade Devour."
+                    "description": "Ao tornar-se uma tempestade de areia, Inaros devorar\u00e1 os inimigos puxados pelo seu redemoinho, curando-se com a vida deles."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Scarab Shell",
+                    "description": "Conjurar a habilidade formar\u00e1 uma camada protetora, mas drenar\u00e1 a Vida do Inaros conforme o tempo. Conjur\u00e1-la de novo interromper\u00e1 o processo antecipadamente. Esta camada protetora reduzir\u00e1 o dano recebido e absorver\u00e1 os Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Segurar o bot\u00e3o da habilidade converter\u00e1 Vida em uma Armadura de Escaravelhos refor\u00e7ada. Conjurar a habilidade nos inimigos infligir\u00e1 um enxame de escaravelhos neles, roubando Vida dos alvos que sobreviverem e concedendo-a para os aliados."
+                    "description": "Conjure a habilidade Scarab Swarm para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Quando est\u00e1 sangrando, o Inaros fica protegido por um sarc\u00f3fago. Ele pode se reviver drenando a for\u00e7a vital dos inimigos e aliados pr\u00f3ximos.",
+            "passiveDescription": "Quando o Inaros sofrer dano letal, ele se sepultar\u00e1 em um sarc\u00f3fago e encarnar\u00e1 como areia para atacar os inimigos, drenando a for\u00e7a vital deles para reviver.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Atingir\u00e1 os inimigos no alcance com uma onda de areia amaldi\u00e7oada que cegar\u00e1 e roubar\u00e1 Vida dos alvos afetados."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devour",
-                    "description": "Segurar o bot\u00e3o da habilidade aprisionar\u00e1 um inimigo em areia movedi\u00e7a, puxar\u00e1 ele at\u00e9 o Inaros e roubar\u00e1 sua Vida. Ao devorar completamente o alvo, um Clone de Areia aliado ser\u00e1 gerado."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandstorm",
-                    "description": "Transformar\u00e1 o Inaros em um redemoinho impiedoso de areia, que arremessar\u00e1 os inimigos para longe e devorar\u00e1 aqueles afetados pela habilidade Devour."
+                    "description": "Ao tornar-se uma tempestade de areia, Inaros devorar\u00e1 os inimigos puxados pelo seu redemoinho, curando-se com a vida deles."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Scarab Shell",
+                    "description": "Conjurar a habilidade formar\u00e1 uma camada protetora, mas drenar\u00e1 a Vida do Inaros conforme o tempo. Conjur\u00e1-la de novo interromper\u00e1 o processo antecipadamente. Esta camada protetora reduzir\u00e1 o dano recebido e absorver\u00e1 os Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Segurar o bot\u00e3o da habilidade converter\u00e1 Vida em uma Armadura de Escaravelhos refor\u00e7ada. Conjurar a habilidade nos inimigos infligir\u00e1 um enxame de escaravelhos neles, roubando Vida dos alvos que sobreviverem e concedendo-a para os aliados."
+                    "description": "Conjure a habilidade Scarab Swarm para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Reckoning",
                     "description": "Erguer\u00e1 todos os inimigos aos c\u00e9us, aplicando seu julgamento ao derrub\u00e1-los no ch\u00e3o com convic\u00e7\u00e3o. Inimigos que morrerem perante o julgamento do Oberon ter\u00e3o chance de deixar um Orbe de Vida."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Protetor do conhecimento. Guardi\u00e3o da hist\u00f3ria. Investigador destemido do Leverian. Dante comp\u00f5e contos arcanos para apoiar seus aliados e devastar seus inimigos.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "O Noctua analisar\u00e1 os alvos, registrando informa\u00e7\u00f5es para o seu Codex. A Chance de Status aumentar\u00e1 em |CHANCE|% nos alvos completamente analisados.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "Abra o Noctua, o Manuscrito Exaltado do Dante, e conte uma hist\u00f3ria de desola\u00e7\u00e3o sobre seus inimigos."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Vers\u00edculo da Luz",
+                    "description": "A escrita vitalizante do Dante conceder\u00e1 Guarda Refor\u00e7ada e aumentar\u00e1 a Vida dele e de seus aliados."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Vers\u00edculo das Trevas",
+                    "description": "A escrita do Dante derramar\u00e1 o sangue dos inimigos pr\u00f3ximos, infligindo-lhes Dano Cortante."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Vers\u00edculo Final",
+                    "description": "O Dante deve escrever outros dois Vers\u00edculos antes de conjurar seu Vers\u00edculo Final.\n\nTRIUNFO: conjurar dois Vers\u00edculos da Luz revigorar\u00e1 os aliados com um efeito que aumentar\u00e1 a Vida e fornecer\u00e1 Guarda Refor\u00e7ada. Elimina\u00e7\u00f5es e assist\u00eancias regenerar\u00e3o brevemente a Guarda Refor\u00e7ada.<br>O Dante deve compor outros dois Vers\u00edculos antes de conjurar o seu Vers\u00edculo Final.\n\nTRAG\u00c9DIA: conjurar dois Vers\u00edculos das Trevas atacar\u00e1 os inimigos. Qualquer Dano ao Longo do Tempo que afete os inimigos ser\u00e1 causado imediatamente em um \u00fanico ataque.<br>O Dante deve compor outros dois Vers\u00edculos antes de conjurar o seu Vers\u00edculo Final.\n\nGUARDI\u00c3O DA PALAVRA: conjurar um Vers\u00edculo da Luz seguido por um Vers\u00edculo das Trevas proteger\u00e1 seus aliados com c\u00f3pias do Noctua. Os ataques do Noctua sincronizar\u00e3o com os ataques dos aliados em quest\u00e3o.<br>O Dante deve compor outros dois Vers\u00edculos antes de conjurar o seu Vers\u00edculo Final.\n\nVOO DA PARAGRIME: conjurar um Vers\u00edculo das Trevas seguido por um Vers\u00edculo da Luz invocar\u00e1 Paragrimes que atacar\u00e3o os inimigos, tornando-os vulner\u00e1veis contra Efeitos de Status, e distrair\u00e3o a aten\u00e7\u00e3o deles em rela\u00e7\u00e3o aos seus aliados."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si mesmo, atraindo a aten\u00e7\u00e3o dos inimigos."
+                    "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si, a qual atrair\u00e1 os disparos inimigos e absorver\u00e1 uma fra\u00e7\u00e3o da Vida e Escudos de um inimigo pr\u00f3ximo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si mesmo, atraindo a aten\u00e7\u00e3o dos inimigos."
+                    "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si, a qual atrair\u00e1 os disparos inimigos e absorver\u00e1 uma fra\u00e7\u00e3o da Vida e Escudos de um inimigo pr\u00f3ximo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Enquanto estiver em locais claros, a Mirage ter\u00e1 seu dano amplificado. Enquanto estiver em locais escuros, inimigos ter\u00e3o dificuldade em mirar e causar dano \u00e0 Mirage."
+                    "description": "(PRESSIONAR) Reduzir\u00e1 temporariamente o dano que a Mirage receber\u00e1 dos inimigos.\n(SEGURAR) Aumentar\u00e1 temporariamente o dano das armas da Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Enquanto estiver em locais claros, a Mirage ter\u00e1 seu dano amplificado. Enquanto estiver em locais escuros, inimigos ter\u00e3o dificuldade em mirar e causar dano \u00e0 Mirage."
+                    "description": "(PRESSIONAR) Reduzir\u00e1 temporariamente o dano que a Mirage receber\u00e1 dos inimigos.\n(SEGURAR) Aumentar\u00e1 temporariamente o dano das armas da Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Possui uma chance de aplicar cegueira em \u00e1rea com dura\u00e7\u00e3o de |DURATION|s quando atingida por luz.",
+            "passiveDescription": "Quando a Gara conjurar Habilidades, ter\u00e1 uma chance de aplicar ofusca\u00e7\u00e3o em \u00e1rea por |DURATION|s.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Possui uma chance de aplicar cegueira em \u00e1rea com dura\u00e7\u00e3o de |DURATION|s quando atingida por luz.",
+            "passiveDescription": "Quando a Gara conjurar Habilidades, ter\u00e1 uma chance de aplicar ofusca\u00e7\u00e3o em \u00e1rea por |DURATION|s.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2756,7 +2797,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeCrystalAbility",
                     "abilityName": "Prismatic Gem",
-                    "description": "Mobiliza uma gema que disparar\u00e1 feixes prism\u00e1ticos. A gema tem como alvo os inimigos que est\u00e3o sofrendo dano das armas de Citrine e seus aliados. Seus feixes infligir\u00e3o Efeitos de Status \u00cdgneo, Glacial, T\u00f3xico e El\u00e9trico. A Chance de Status e a Dura\u00e7\u00e3o do Status aumentar\u00e3o para aliados pr\u00f3ximos."
+                    "description": "Mobiliza uma gema que disparar\u00e1 feixes prism\u00e1ticos. A gema tem como alvo os inimigos que est\u00e3o sofrendo dano das armas da Citrine e seus aliados. Seus feixes infligir\u00e3o Efeitos de Status \u00cdgneo, Glacial, T\u00f3xico e El\u00e9trico. A Chance de Status e a Dura\u00e7\u00e3o do Status aumentar\u00e3o para aliados pr\u00f3ximos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeGrowthsAbility",
@@ -4061,7 +4102,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechSwordAbility",
                     "abilityName": "Dama de Ferro Exaltada",
-                    "description": "Conjura uma l\u00e2mina exaltada devastadora."
+                    "description": "Conjurar\u00e1 uma l\u00e2mina exaltada devastadora."
                 }
             ],
             "productCategory": "MechSuits"

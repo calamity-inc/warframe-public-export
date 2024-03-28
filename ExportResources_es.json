@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "Un artefacto que contiene secretos orokin. Solo puede ser abierto a trav\u00e9s del poder del Vac\u00edo.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "Un artefacto que contiene secretos orokin. Solo puede ser abierto a trav\u00e9s del poder del Vac\u00edo.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "Un artefacto que contiene secretos orokin. Solo puede ser abierto a trav\u00e9s del poder del Vac\u00edo.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "Un artefacto que contiene secretos orokin. Solo puede ser abierto a trav\u00e9s del poder del Vac\u00edo.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "Un artefacto que contiene secretos orokin. Solo puede ser abierto a trav\u00e9s del poder del Vac\u00edo.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "Ala de Condroc",
-            "description": "La garra del ala del condroc es lo suficientemente filosa como para desgarrar los huesos.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "La garra del ala del condroc es lo suficientemente filosa como para desgarrar los huesos.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "Esp\u00edritu de Cetus",
-            "description": "Estas formas de vida p\u00e9trea, m\u00e1s comunes de noche, se sienten atra\u00eddas por las costas tocadas por un eidolon. Se quedan a todas horas alrededor de los lagos de las Llanuras de Eidolon. Su origen sigue siendo un misterio.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "Estas formas de vida p\u00e9trea, m\u00e1s comunes de noche, se sienten atra\u00eddas por las costas tocadas por un eidolon. Se quedan a todas horas alrededor de los lagos de las Llanuras de Eidolon. Su origen sigue siendo un misterio.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "Maprico",
-            "description": "Esta resistente fruta tiene una gruesa c\u00e1scara para resistir duras condiciones, ocultando dentro un bocado de dulce pulpa.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "Esta resistente fruta tiene una gruesa c\u00e1scara para resistir duras condiciones, ocultando dentro un bocado de dulce pulpa.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "Garra Espinal de Kuaka",
-            "description": "El nervio de una garra espinal de kuaka puede ser curtida para hacer un cuero el\u00e1stico y flexible.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "El nervio de una garra espinal de kuaka puede ser curtida para hacer un cuero el\u00e1stico y flexible.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "Grokdrul",
-            "description": "Una mezcla t\u00f3xica de polisac\u00e1ridos y pol\u00edmeros de cadena larga, el Grokdul es un qu\u00edmico est\u00e1ndar usado en la fabricaci\u00f3n grineer.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "Una mezcla t\u00f3xica de polisac\u00e1ridos y pol\u00edmeros de cadena larga, el Grokdul es un qu\u00edmico est\u00e1ndar usado en la fabricaci\u00f3n grineer.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "Iradita",
-            "description": "Un mineral valioso para los ostronitas.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "Un mineral valioso para los ostronitas.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "Vaina de Nistle",
-            "description": "Usado por el matojo nistle para atrapar y matar presas.\n\nUbicaci\u00f3n: Llanuras de Eidolon",
+            "description": "Usado por el matojo nistle para atrapar y matar presas.\n\nUbicaci\u00f3n: Llanuras de Eidolon, Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "Linterna Entrati",
+            "description": "Una baliza ceremonial utilizada para mapear ubicaciones del Vac\u00edo en el espacio real.\n\nUbicaci\u00f3n: Laboratorios de Albrecht (Deimos) y Zariman",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "Estela",
             "description": "Esta piedra tocada por el Vac\u00edo contiene una esencia siniestra.\n\nUbicaci\u00f3n: Laboratorios de Albrecht (Deimos)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "Capilares de Recipiente",
+            "description": "Un subcomponente crucial en la construcci\u00f3n de loa recipientes de Albrecht Entrati.\nSe adquiere al completar misiones de Interrupci\u00f3n Entrati en Deimos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Centelleante",
-            "description": "Estas raras reliquias flotantes de la era orokin todav\u00eda se pueden encontrar vigilando las b\u00f3vedas de aislamiento debajo de la superficie de Deimos.\n\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Estas raras reliquias flotantes de la era orokin todav\u00eda se pueden encontrar vigilando las b\u00f3vedas de aislamiento debajo de la superficie de Deimos.\n\nUbicaci\u00f3n: Deriva Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulita",
-            "description": "Portadoras de esporas incompletas, a medio formar, poco m\u00e1s que carne retorcida con garras para sujetarse.\n\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Portadoras de esporas incompletas, a medio formar, poco m\u00e1s que carne retorcida con garras para sujetarse.\n\nUbicaci\u00f3n: Deriva Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglio",
-            "description": "Un grupo ca\u00eddo de fibras nerviosas enredadas, \u00f3rganos in\u00fatiles y membranas sensoriales delgadas.\n\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Un grupo ca\u00eddo de fibras nerviosas enredadas, \u00f3rganos in\u00fatiles y membranas sensoriales delgadas.\n\nUbicaci\u00f3n: Deriva Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Teroglobo L\u00facido",
-            "description": "Estos orbes han cumplido desde hace mucho tiempo su funci\u00f3n original, pero a\u00fan as\u00ed, vibran con un d\u00e9bil poder.\n\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Estos orbes han cumplido desde hace mucho tiempo su funci\u00f3n original, pero a\u00fan as\u00ed, vibran con un d\u00e9bil poder.\n\nUbicaci\u00f3n: Deriva Cambion, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "Toroide Crisma",
-            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Crisma al derrotar al Orbe Robaganancias.",
+            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Crisma al derrotar al Orbe Robaganancias en los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "Toroide Lazulite",
-            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Lazulite al derrotar a la Orbe Explotadora.",
+            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Lazulite al derrotar a la Orbe Explotadora en los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "Toroide Calda",
-            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis. \n\nObt\u00e9n toroides Calda de enemigos ubicados en los laboratorios de enriquecimiento en los Valles del Orbe y de raknoides Scytos. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe.",
+            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis. \n\nObt\u00e9n toroides Calda de enemigos ubicados en los laboratorios de enriquecimiento en los Valles del Orbe y de raknoides Scytos. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "Toroide Vega",
-            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Vega de enemigos ubicados en el puerto espacial en los Valles del Orbe y de raknoides Enanos. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe.",
+            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Vega de enemigos ubicados en el puerto espacial en los Valles del Orbe y de raknoides Enanos. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "Toroide Sola",
-            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Sola de enemigos ubicados en el Templo del Beneficio en los Valles del Orbe y de raknoides Kytas. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe.",
+            "description": "Un dispositivo de funci\u00f3n y origen indeterminado. Valorado por Vox Solaris y los Raquis.\n\nGana toroides Sola de enemigos ubicados en el Templo del Beneficio en los Valles del Orbe y de raknoides Kytas. Tambi\u00e9n se pueden encontrar en cuevas ubicadas alrededor de los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Lodo t\u00e9rmico",
-            "description": "Un subproducto del proceso de terraformaci\u00f3n de las Torres Sollozantes.\n\nUbicaci\u00f3n: Valles del Orbe",
+            "description": "Un subproducto del proceso de terraformaci\u00f3n de las Torres Sollozantes.\n\nUbicaci\u00f3n: Valles del Orbe, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Sistemas Giromag",
-            "description": "Un componente modular que regula la latitud y la altitud en varios sistemas del Corpus. Obtenido al completar Atracos en los Valles del Orbe.",
+            "description": "Un componente modular que regula la latitud y la altitud en varios sistemas del Corpus. Obtenido al completar Atracos en los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Sistemas Atmo",
-            "description": "Un componente modular que compensa la multitud de condiciones atmosf\u00e9ricas encontradas en el Sistema Origen. Se obtiene al completar Atracos en los Valles del Orbe.",
+            "description": "Un componente modular que compensa la multitud de condiciones atmosf\u00e9ricas encontradas en el Sistema Origen. Se obtiene al completar Atracos en los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Sistemas repulsores",
-            "description": "Sistema antigravitacional que permite manipular objetos tremendamente pesados por un solo usuario. Se obtiene al completar Atracos en los Valles del Orbe.",
+            "description": "Sistema antigravitacional que permite manipular objetos tremendamente pesados por un solo usuario. Se obtiene al completar Atracos en los Valles del Orbe (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Espora de Mitocardio",
-            "description": "Un cuerpo f\u00fangico apreciado por sus varios usos.\n\nUbicaci\u00f3n: Valles del Orbe",
+            "description": "Un cuerpo f\u00fangico apreciado por sus varios usos.\n\nUbicaci\u00f3n: Valles del Orbe, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Espora Gorgarico",
-            "description": "La espora reproductora de los hongos gigantes de los Valles es muy codiciada por los complejos componentes qu\u00edmicos que contiene.\n\nUbicaci\u00f3n: Valles del Orbe",
+            "description": "La espora reproductora de los hongos gigantes de los Valles es muy codiciada por los complejos componentes qu\u00edmicos que contiene.\n\nUbicaci\u00f3n: Valles del Orbe, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "N\u00f3dulo Tepa",
-            "description": "Los n\u00f3dulos iridiscentes de estas plantas brillan intensamente en los ambientes fr\u00edos.\n\nUbicaci\u00f3n: Valles del Orbe",
+            "description": "Los n\u00f3dulos iridiscentes de estas plantas brillan intensamente en los ambientes fr\u00edos.\n\nUbicaci\u00f3n: Valles del Orbe, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "El Simulacro de Ciudadela",
             "description": "La arena est\u00e1ndar del Simulacro.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "El Simulacro del Sanctum",
+            "description": "Simula una batalla en el Sanctum Anatomica. Este simulacro permite establecer la dificultad del enemigo 25 niveles por encima del est\u00e1ndar m\u00e1ximo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "Tiametrita",
-            "description": "Neurotransmisores infestados condensados bajo presi\u00f3n.\nSe encuentra en las lesiones azules en Deriva Cambion, Deimos.",
+            "description": "Neurotransmisores infestados condensados bajo presi\u00f3n.\n\nSe encuentran en las lesiones mineras azules de Deriva Cambion, en Deimos, en los f\u00e9retros Entrati Sagiant y en las b\u00f3vedas extras en los contratos de las b\u00f3vedas de aislamiento.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "Dag\u00f3nica",
-            "description": "Riachuelos de fluido de exocrino, endurecidos con el paso de los siglos.\nSe encuentran en las lesiones azules de Deriva Cambion, Deimos.",
+            "description": "Riachuelos de fluido de exocrino, endurecidos con el paso de los siglos.\n\nSe encuentran en las lesiones mineras azules de Deriva Cambion, en Deimos, en las urnas Entrati Sagiant y en las b\u00f3vedas extras en los contratos de las b\u00f3vedas de aislamiento.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "Adramalio",
-            "description": "Fibrosa, met\u00e1lica y de gran elasticidad.\nSe encuentra en las lesiones amarillas de Deriva Cambion, Deimos.",
+            "description": "Fibrosa, met\u00e1lica y de gran elasticidad.\n\nSe encuentran en las lesiones mineras amarillas de Deriva Cambion, en Deimos, en los quistes infestados de Spitia y en los quistes infestados de Rolizador.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "Bafolita",
-            "description": "Maleable gracias a las venas encarnadas de prote\u00edna infestada.\nSe encuentra en las lesiones amarillas de Deriva Cambion, Deimos.",
+            "description": "Maleable gracias a las venas encarnadas de prote\u00edna infestada.\n\nSe encuentran en las lesiones mineras amarillas de Deriva Cambion, en Deimos, en los quistes infestados de Rolizador y en las b\u00f3vedas extras en los contratos de las b\u00f3vedas de aislamiento.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "Necratina",
-            "description": "Incrustada en los caparazones infestados y preservada durante milenios.\nSe encuentra en las lesiones azules de Deriva Cambion, Deimos.",
+            "description": "Incrustada en los caparazones infestados y preservada durante milenios.\n\nSe encuentran en las lesiones mineras azules de Deriva Cambion, en Deimos, y en los obeliscos R\u00e9quiem.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "Taumica",
-            "description": "Puede ser moldeada por la infestaci\u00f3n pero permanece resistente a ella.\nSe encuentra en las lesiones amarillas de Deriva Cambion, Deimos.",
+            "description": "Puede moldearse por la infestaci\u00f3n pero permanece resistente a ella.\n\nSe encuentran en las lesiones mineras amarillas de Deriva Cambion, en Deimos, en los obeliscos R\u00e9quiem y en los quistes infestados de Spitia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "Hecifronita",
-            "description": "Se acumula en los sistemas neolinf\u00e1ticos de las masas infestadas.\nSe encuentra en las lesiones azules de Deriva Cambion, Deimos.",
+            "description": "Se acumula en los sistemas neolinf\u00e1ticos de las masas infestadas.\n\nSe encuentran en las lesiones mineras azules de Deriva Cambion, en Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "Namalon",
-            "description": "Dep\u00f3sitos minerales infestados que imitan la forma de los \u00f3rganos vivos.\nSe encuentran en las lesiones amarillas de Deriva Cambion, Deimos.",
+            "description": "Dep\u00f3sitos minerales infestados que imitan la forma de los \u00f3rganos vivos.\n\nSe encuentran en las lesiones mineras amarillas de Deriva Cambion, en Deimos, y en las b\u00f3vedas extras en los contratos de las b\u00f3vedas de aislamiento.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "Azurita",
-            "description": "Una gema azul con capas de impureza.\nSe encuentra en las vetas azules de las Llanuras de Eidolon, Tierra.",
+            "description": "Una gema azul con capas de impureza.\n\nSe encuentra en las vetas mineras azules de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "Devar",
-            "description": "Un cristal opaco.\nSe encuentra en las vetas azules de las Llanuras de Eidolon, Tierra.",
+            "description": "Un cristal opaco.\n\nSe encuentra en las vetas mineras azules de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "Pirol",
-            "description": "Un metal fr\u00e1gil y sin lustrar.\nSe encuentra en las vetas rojas de las Llanuras de Eidolon, Tierra.",
+            "description": "Un metal fr\u00e1gil y sin lustrar.\n\nSe encuentra en las vetas mineras rojas de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "Coprun",
-            "description": "Un metal blando y maleable.\nSe encuentra en las vetas rojas de las Llanuras de Eidolon, Tierra.",
+            "description": "Un metal blando y maleable.\n\nSe encuentra en las vetas mineras rojas de las Llanuras de Eidolon, en la Tierra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "Crimzian",
-            "description": "Una gema roja sangu\u00ednea.\nSe encuentra en las vetas azules de las Llanuras de Eidolon, Tierra.",
+            "description": "Una gema roja sangu\u00ednea.\n\nSe encuentra en las vetas mineras azules de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "Auron",
-            "description": "Un metal brillante, denso y conductor.\nSe encuentra en las vetas rojas de las Llanuras de Eidolon, Tierra.",
+            "description": "Un metal brillante, denso y conductor.\n\nSe encuentra en las vetas mineras rojas de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "Veridos",
-            "description": "Una gema verde muy reflectante.\nSe encuentra en las vetas azules de las Llanuras de Eidolon, Tierra.",
+            "description": "Una gema verde muy reflectante.\n\nSe encuentra en las vetas mineras azules de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "Ferros",
-            "description": "Un metal resistente endurecido por sus propias impurezas.\nSe encuentra en las vetas rojas de las Llanuras de Eidolon, Tierra.",
+            "description": "Un metal resistente endurecido por sus propias impurezas.\n\nSe encuentra en las vetas mineras rojas de las Llanuras de Eidolon, en la Tierra, y con los Pistones.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "Phasmin",
-            "description": "Una gema misteriosamente verde que se encuentra dentro de fragmentos met\u00e1licos.\nSe encuentra en las vetas azules de los Valles del Orbe, Venus.",
+            "description": "Una gema misteriosamente verde que se encuentra adentro de fragmentos met\u00e1licos.\n\nSe encuentra en las vetas mineras azules de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "Noctrul",
-            "description": "Una gema negra con impurezas azules irisdicentes.\nSe encuentra en las vetas azules de los Valles del Orbe, Venus.",
+            "description": "Una gema negra con impurezas azules irisdicentes.\n\nSe encuentra en las vetas mineras azules de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "Travorida",
-            "description": "Un mineral endurecido por la aplastante presi\u00f3n de la atm\u00f3sfera venusiana.\nSe encuentra en las vetas rojas de los Valles del Orbe, Venus.",
+            "description": "Un mineral endurecido por la aplastante presi\u00f3n de la atm\u00f3sfera venusiana.\n\nSe encuentra en las vetas mineras rojas de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "Axidita",
-            "description": "Un sedimento formado de la lluvia sulf\u00farica y que qued\u00f3 atrapado bajo el hielo.\nSe encuentra en las vetas rojas de los Valles del Orbe, Venus.",
+            "description": "Un sedimento formado de la lluvia sulf\u00farica y que qued\u00f3 atrapado bajo el hielo.\n\nSe encuentra en las vetas mineras rojas de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "Hesper\u00f3n",
-            "description": "Una arcilla que se convierte en una roca extremadamente durable a temperaturas bajo cero.\nSe encuentra en las vetas rojas de los Valles del Orbe, Venus.",
+            "description": "Una arcilla que se convierte en una roca extremadamente durable a temperaturas bajo cero.\n\nSe encuentra en las vetas mineras rojas de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "Goblita",
-            "description": "Un extra\u00f1o cristal que crece en las vetas de mineral extra\u00eddo.\nSe encuentra en las vetas azules de los Valles del Orbe, Venus.",
+            "description": "Un extra\u00f1o cristal que crece en las vetas de mineral extra\u00eddo.\n\nSe encuentra en las vetas mineras azules de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "Venerol",
-            "description": "Un metal precioso forjado a partir de subproductos de refrigerante.\nSe encuentra en las vetas rojas de los Valles del Orbe, Venus.",
+            "description": "Un metal precioso forjado de los subproductos de refrigerantes.\n\nSe encuentra en las vetas mineras rojas de los Valles del Orbe, en Venus, y en los contenedores de recursos en todo el paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "H\u00e1lito del Eidolon",
-            "description": "Un gas que s\u00f3lo se encuentra en las Llanuras de Eidolon, refinado hasta su forma m\u00e1s pura. Se obtiene al completar Contratos en Cetus.",
+            "description": "Un gas que s\u00f3lo se encuentra en las Llanuras de Eidolon, refinado hasta su forma m\u00e1s pura. \n\nUbicaci\u00f3n: Contratos de las Llanuras de Eidolon (Tierra) ",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Escena del Paisaje de datos de Hunhow",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "Escena de Can\u00edcula",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "Escena nocturna de Can\u00edcula",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "Escena de Cetus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Escena de Puente de Nave corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Escena de Hangar de Nave corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Escena de Dep\u00f3sito corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "Escena de bater\u00eda de artiller\u00eda",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Escena de Ca\u00f1\u00f3n Orbital de Nave corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "Escena de la Plataforma 12",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "Escena de la B\u00f3veda de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "Escena de avanzada de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "Escena de Cripta de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "Escena de las Profundidades de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "Escena de Las Catacumbas de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "Escena de Cenote de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "Escena de la Ca\u00edda de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "Escena de Deimos Abandonado",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "Escena de Coraz\u00f3n de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "Escena del Necralisk de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "Escena de Deriva Cambion de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "Escena Subterr\u00e1nea de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "Escena de Membrana de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "Escena de L\u00edmite de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "Escena de la Sala de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "Escena de los T\u00faneles de Deimos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "Escena del campamento Dax de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "Escena de la vivienda de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "Escena de Lunaro de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "Escena de la \u00f3pera de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "Escena del parque de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "Escena del pueblo de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "Escena de las afueras de la Cripta",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "Escena de la arena orowyrm",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Escena del cayo del cr\u00e1ter",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "Escena del cayo del estrado",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "Escena de las islas sinuosas",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "Escena del cayo peque\u00f1o",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "Escena del cayo de la cuenca",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Escena del Anfiteatro",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "Escena del Archipuerto",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "Escena de las aldeas del continente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "Escena de la regi\u00f3n de los T\u00famulos Bajos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "Escena del Refugio superior",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "Escena del Pueblo del castillo",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Escena de la Cueva de Teshin",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "Escena de Las Llanuras de Eidolon",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "Escena de Fortuna",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "Escena del Laboratorio de Alad V de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "Escena de Log\u00edstica superior de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "Escena de Sal\u00f3n sin salida de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "Escena de Descenso central de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "Escena de pasarela de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "Escena de Elevadores de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "Escena de Mirador de Las Nubes de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "Escena de Corredores de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "Escena de Sal\u00f3n Inferior de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "Escena de Distribuci\u00f3n Elemental de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "Escena de Reguladores de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "Escena de Refiner\u00eda Elemental de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "Escena de Vest\u00edbulo de la Ciudad Gaseosa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Escena de Bomba de agua del bosque grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Escena de F\u00e1brica del bosque grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Escena de Industria del bosque grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "Escena del Abismo de la Fortaleza de Kuva",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Escena de cargamento de gale\u00f3n grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Escena de la Centr\u00edfuga de laboratorio marino grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Escena de Asentamiento de artiller\u00eda grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Escena del Templo de Harrow",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Escena de la Tumba de Inaros",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Escena del Holograma de la nave infestada",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Escena del Puesto de mando de Onkko",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Escena de Extracci\u00f3n de torre orokin",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "Escena de Balc\u00f3n de Lua",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "Escena del Orbitador",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Escena del Vac\u00edo Granum",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Escena del Refugio de Teshin",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "Escena de Estadio Lunaro",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Escena del Patio de Umbra",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "Escena del Tribunal de \u00c1rbitros",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "Escena de Contenci\u00f3n de Lua",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "Escena de Guarder\u00eda de Lua",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "Escena del Paisaje de datos de Suda",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Escena de la Sala de Lotus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Escena de Escombros del planeta Helado corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Escena del Retiro de Amaryn",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Escena de F\u00e1brica de astilleros grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "Escena del Santuario de la Arboleda Plateada",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Escena de la Sala del Consejo de Ergo",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Escena de la Colonia Miconita",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Escena de Conductos en la Ciudad Gaseosa corpus",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Escena de la Uni\u00f3n del Velo",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Escena de la Sala de Hunhow",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Escena de Puente de nave infestada",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Escena de Plaza de Derrelicto orokin",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "Escena del Conducto del Santuario",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Escena de la Guarnici\u00f3n de Cressa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Escena de Reactor en asentamiento grineer",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "Escena del Trono de Kuva",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "Escena del Sal\u00f3n del trono de Praghasa",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "Escena de la Decisi\u00f3n de la Guerra Interna",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "Escena de la Casa Club de los Ventkids",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "Escena de los Valles del Orbe",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "Escena de Tono de color",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "Escena de Saturno Seis",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "Escena del Fr\u00edo Aqu\u00ed Abajo",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "Escena del archivo de Albrecht",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "Escena de la oficina de Albrecht",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Escena del Retiro de Dante",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "Escena del Sanctum Anatomica",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "Escena del Recipiente abandonado",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "Escena del desfiladero fragmentado",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "Escena de Fabrica Anatomica",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "Escena del Anfiteatro Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "Escena de la Dormizona Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "Escena de la Bah\u00eda de carga Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "Escena de la Prisi\u00f3n Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "Escena de la Agrizona Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "Escena del Sal\u00f3n de Legems Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "Escena de la Zona habitacional Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "Escena de la Cancha de Lunaro Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "Escena del Parque de Albrecht Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "Escena de los Niveles de serenidad Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "Escena de Percha angelical Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "Escena del Chrysalith Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "Escena del Patio escolar Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "Escena de la Bah\u00eda de acoplamiento Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "Escena del Motor relicario Zariman",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "Escena del Circulus de Lua",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Escena de Balc\u00f3n consciente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Escena de la Fuente consciente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Escena de la Cuenca consciente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Escena del Vest\u00edbulo consciente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Escena del Altar consciente",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,21 +5332,21 @@
             "name": "Escena de Bosque rompevelos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "Escena de Murex Rompevelos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "Escena de F\u00e1brica Rompevelos",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "V\u00edtreo observador",
+            "description": "Un ojo vigilante para el orbitador.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "Paragrimm de Noctua",
+            "description": "Un Paragrimm emerge de las p\u00e1ginas de Noctua para acompa\u00f1arte en tu orbitador.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Belric y Rania reunidos",
             "description": "Un recuerdo de los amantes, Belric y Rania, conservado en cristal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "Alas de Orgullo Ne\u00f3n",
+            "description": "Celebra el Orgullo con esta radiante decoraci\u00f3n para el orbitador.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "Floof de Arthur",
+            "description": "\u201cMis estudios del per\u00edodo de 1999 han revelado una reliquia de valor incalculable conocida como Amiguito de peluche. Debemos recrear las maravillas del pasado\u201d. - Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "Floof de kavat de Playa",
             "description": "Un Floof muy especial que conmemora tu participaci\u00f3n en la alerta t\u00e1ctica: Can\u00edcula. \u00a1POR NUESTRO HONOR CHAPOTEADO!",
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "Floof de kavat Amanecer",
             "description": "Un Floof muy especial que conmemora tu participaci\u00f3n en la alerta t\u00e1ctica: Can\u00edcula. \u00a1POR NUESTRO HONOR CHAPOTEADO!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Floof de Ordis",
+            "description": "'El Operador tiene Floofs en muchas formas encantadoras. \u00a1Ordis pens\u00f3 que el Operador podr\u00eda agregar un c\u00e9falon leal a la colecci\u00f3n!' -Ordis",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "Un trofeo de una preciada presa.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "Exhibidor del Orgullo 2024",
+            "description": "Este exhibidor celebra el Orgullo. Dise\u00f1ado por RoboMythos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Estatua Tambaleante - Baruuk Prime",
+            "description": "Una peque\u00f1a estatua tambaleante de Baruuk Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Mandala de Baruuk Prime",
             "description": "Marca tu orbitador con el relajante mandala de Baruuk Prime. La configuraci\u00f3n fomenta la meditaci\u00f3n y la contemplaci\u00f3n.",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Estatua Tambaleante - Grendel Prime",
+            "description": "Una peque\u00f1a estatua tambaleante de Grendel Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "Altar del Grimorio",
             "description": "Exhibe tu Grimorio en un lugar de honor.",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Estatua Tambaleante - Hildryn Prime",
+            "description": "Una peque\u00f1a estatua tambaleante de Hildryn Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Estatua Tambaleante - Hydroid",
             "description": "Una peque\u00f1a y tambaleante figura de Hydroid.",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Estatua Tambaleante de Inaros",
             "description": "Una peque\u00f1a estatua tambaleante de Inaros.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "Decoraci\u00f3n de Sarc\u00f3fago de Inaros",
+            "description": "Inaros se siente bienvenido en cualquier espacio que exhiba este sarc\u00f3fago protector.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Garabato de Ofiuco de Javi",
             "description": "Convi\u00e9rtete en alumno de Javi. Este garabato de Ofiuco se basa en los registros de Lavos de Drusus Leverian",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Garabato de luminosidad de Javi",
             "description": "Convi\u00e9rtete en alumno de Javi. Este garabato de luminosidad se basa en los registros de Lavos de Drusus Leverian.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Garabato de genoma de Javi",
             "description": "Convi\u00e9rtete en alumno de Javi. Este garabato de genoma se basa en los registros de Lavos de Drusus Leverian.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "Decoraci\u00f3n Chimalli & Tequihua",
+            "description": "Honrar\u00e1s a Styanax Tonatiuh cuando portes estos preciosos armamentos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Estatua tambaleante - Kahl-175",
             "description": "Una peque\u00f1a y tambaleante estatua de Kahl-175.",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "Prex de Dagath",
             "description": "El espejo que acusa",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "Prex de Dante",
+            "description": "Guardi\u00e1n de la historia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "Mostrador - TennoCon 2024",
+            "description": "Otorgado a aquellos que se unieron para celebrar la TennoCon 2024.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Estatua Tambaleante - Teshin",
             "description": "Una peque\u00f1a y tambaleante estatua de Teshin.",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Estatua Tambaleante - Vor",
             "description": "Una peque\u00f1a y tambaleante estatua del capit\u00e1n Vor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Estatua Tambaleante - Wisp Prime",
+            "description": "Una peque\u00f1a estatua tambaleante de Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "SEGMENTO COALESCENTE DE HELMINTO",
-            "description": "Permite al Helminto fusionar Fragmentos de Arconte en variantes m\u00e1s poderosas.",
+            "description": "Permite que el Helminto fusione fragmentos de Arconte en variantes m\u00e1s poderosas a trav\u00e9s de la fusi\u00f3n coalescente y la fusi\u00f3n ascendente.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Chasis de Dante",
+            "description": "Componente del chasis del warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Neur\u00f3pticas de Dante",
+            "description": "Componente de las neur\u00f3pticas del warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Sistemas de Dante",
+            "description": "Componente de los sistemas del warframe Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Chasis de Oberon",
             "description": "Componente del chasis del warframe Oberon.",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "Sistemas de Nautilus",
             "description": "Un componente de fabricaci\u00f3n de centinela.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "Hoja de Ruvox",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "Guante Ruvox",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },

@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "Orokinlerin s\u0131rlar\u0131n\u0131 i\u00e7eren yapay doku. Bu doku sadece Void'in g\u00fcc\u00fc ile a\u00e7\u0131labilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "Orokinlerin s\u0131rlar\u0131n\u0131 i\u00e7eren yapay doku. Bu doku sadece Void'in g\u00fcc\u00fc ile a\u00e7\u0131labilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "Orokinlerin s\u0131rlar\u0131n\u0131 i\u00e7eren yapay doku. Bu doku sadece Void'in g\u00fcc\u00fc ile a\u00e7\u0131labilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "Orokinlerin s\u0131rlar\u0131n\u0131 i\u00e7eren yapay doku. Bu doku sadece Void'in g\u00fcc\u00fc ile a\u00e7\u0131labilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "Orokinlerin s\u0131rlar\u0131n\u0131 i\u00e7eren yapay doku. Bu doku sadece Void'in g\u00fcc\u00fc ile a\u00e7\u0131labilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "Condroc Kanat",
-            "description": "Condroc'larin kanad\u0131ndaki pen\u00e7e bir kemi\u011fi kesebilecek kadar keskindir.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Condroc'larin kanad\u0131ndaki pen\u00e7e bir kemi\u011fi kesebilecek kadar keskindir.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "Cetus Wisp",
-            "description": "Geceleri en yayg\u0131n g\u00f6r\u00fclen bu ta\u015f ya\u015fam formlar\u0131, Eidolon'un dokundu\u011fu k\u0131y\u0131 \u015feritlerine \u00e7ekilir. Eidolon Ovalar\u0131'ndaki g\u00f6llerin \u00e7evresinde g\u00fcn\u00fcn her saati bulunabilir. K\u00f6kenleri bilinmiyor.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Geceleri en yayg\u0131n g\u00f6r\u00fclen bu ta\u015f ya\u015fam formlar\u0131, Eidolon'un dokundu\u011fu k\u0131y\u0131 \u015feritlerine \u00e7ekilir. Eidolon Ovalar\u0131'ndaki g\u00f6llerin \u00e7evresinde g\u00fcn\u00fcn her saati bulunabilir. K\u00f6kenleri bilinmiyor.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "Maprico",
-            "description": "Bu dayan\u0131kl\u0131 meyve kal\u0131n kabu\u011fu sayesinde sert ko\u015fullara dayan\u0131r. \u0130\u00e7i \u00e7ok tatl\u0131d\u0131r.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Bu dayan\u0131kl\u0131 meyve kal\u0131n kabu\u011fu sayesinde sert ko\u015fullara dayan\u0131r. \u0130\u00e7i \u00e7ok tatl\u0131d\u0131r.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "Kuaka Spinal Pen\u00e7esi",
-            "description": "Kuaka'n\u0131n omurilik pen\u00e7elerinin kas kiri\u015fi d\u00f6v\u00fclerek dayan\u0131kl\u0131 ve esnek bir deri olu\u015fturulabilir.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Kuaka'n\u0131n omurilik pen\u00e7elerinin kas kiri\u015fi d\u00f6v\u00fclerek dayan\u0131kl\u0131 ve esnek bir deri olu\u015fturulabilir.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "Grokdrul",
-            "description": "Tehlikeli bir polisakkarit ve uzun zincirli polimerlerin zehirli bir kar\u0131\u015f\u0131m\u0131 olan Grokdrul, Grineer \u00fcretimindeki s\u0131radan bir kimyasald\u0131r.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Tehlikeli bir polisakkarit ve uzun zincirli polimerlerin zehirli bir kar\u0131\u015f\u0131m\u0131 olan Grokdrul, Grineer \u00fcretimindeki s\u0131radan bir kimyasald\u0131r.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "Iradit",
-            "description": "Ostronlar i\u00e7in de\u011ferli bir mineral.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Ostronlar i\u00e7in de\u011ferli bir mineral.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "Nistlepod",
-            "description": "Av\u0131n\u0131 yakalay\u0131p \u00f6ld\u00fcrmesi i\u00e7in Nistlebrush taraf\u0131ndan kullan\u0131lan kapan.\n\nKonum: Eidolon Ovalar\u0131",
+            "description": "Av\u0131n\u0131 yakalay\u0131p \u00f6ld\u00fcrmesi i\u00e7in Nistlebrush taraf\u0131ndan kullan\u0131lan kapan.\n\nKonum: Eidolon Ovalar\u0131, Earth",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "Entrati Lanthorn",
+            "description": "Void konumlar\u0131n\u0131 ger\u00e7ek uzaya e\u015flemek i\u00e7in kullan\u0131lan bir t\u00f6ren i\u015fareti.\n\nKonumlar: Albrecht'in Laboratuvarlar\u0131 (Deimos) ve Zariman",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "Stela",
             "description": "Void'in dokundu\u011fu bu ta\u015f, kayg\u0131 verici bir \u00f6z i\u00e7eriyor.\n\nKonum: Albrecht'in Laboratuvar\u0131 (Deimos)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "K\u0131lcal Damarlar",
+            "description": "Albrecht Entrati'nin bedenler projesi yap\u0131m\u0131nda kullan\u0131lan \u00f6nemli bir alt bile\u015fen.\nDeimos'ta Entrati Karga\u015fa g\u00f6revlerini tamamlayarak elde edilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Scintillant",
-            "description": "Orokin d\u00f6nemine ait bu nadir kal\u0131nt\u0131lar Deimos y\u00fczeyinin alt\u0131nda yer alan \u0130zolasyon Kasalar\u0131na g\u00f6z at\u0131larak bulunabilir.\n\nKonum: Cambion Drift",
+            "description": "Orokin d\u00f6nemine ait bu nadir kal\u0131nt\u0131lar Deimos y\u00fczeyinin alt\u0131nda yer alan \u0130zolasyon Kasalar\u0131na g\u00f6z at\u0131larak bulunabilir.\n\nKonum: Cambion Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulite",
-            "description": "Eti, pen\u00e7e ile k\u0131st\u0131r\u0131p \u00e7ekmekle kalmay\u0131p daha da ileri giden yar\u0131-\u015fekillendirilmi\u015f, tamamlanmam\u0131\u015f spor ta\u015f\u0131y\u0131c\u0131lar\u0131.\n\nKonum: Cambion Drift",
+            "description": "Eti, pen\u00e7e ile k\u0131st\u0131r\u0131p \u00e7ekmekle kalmay\u0131p daha da ileri giden yar\u0131-\u015fekillendirilmi\u015f, tamamlanmam\u0131\u015f spor ta\u015f\u0131y\u0131c\u0131lar\u0131.\n\nKonum: Cambion Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglion",
-            "description": "Birbirine dola\u015fm\u0131\u015f sinir lifleri, art\u0131k organlar ve ince duyu zarlar\u0131ndan olu\u015fan \u00e7\u00fcr\u00fcm\u00fc\u015f bir k\u00fcme.\n\nKonum: Cambion Drift",
+            "description": "Birbirine dola\u015fm\u0131\u015f sinir lifleri, art\u0131k organlar ve ince duyu zarlar\u0131ndan olu\u015fan \u00e7\u00fcr\u00fcm\u00fc\u015f bir k\u00fcme.\n\nKonum: Cambion Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Lucent Teroglobe",
-            "description": "Bu k\u00fcreler uzun zamand\u0131r orijinal i\u015flevlerini yapm\u0131yorlar, ancak yine de zay\u0131f g\u00fc\u00e7le t\u0131ng\u0131rd\u0131yorlar.\n\nKonum: Cambion Drift",
+            "description": "Bu k\u00fcreler uzun zamand\u0131r orijinal i\u015flevlerini yapm\u0131yorlar, ancak yine de zay\u0131f g\u00fc\u00e7le t\u0131ng\u0131rd\u0131yorlar.\n\nKonum: Cambion Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -820,7 +843,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalOrange",
-            "name": "<SHARD_ORANGE_SIMPLE> Topaz Archon Par\u00e7as\u0131",
+            "name": "<SHARD_ORANGE_SIMPLE> Yakut Archon Par\u00e7as\u0131",
             "description": "Ba\u015fta Archon'lar ve Warframe'ler olmak \u00fczere sentetik ya\u015fam formlar\u0131n\u0131 g\u00fc\u00e7lendirmek i\u00e7in kullan\u0131labilen ideal bir anti-entropik radyasyon kayna\u011f\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystal",
@@ -828,7 +851,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalOrangeMythic",
-            "name": "<SHARD_ORANGE_SIMPLE> Tauforged Topaz Archon Par\u00e7as\u0131",
+            "name": "<SHARD_ORANGE_SIMPLE> Tauforged Yakut Archon Par\u00e7as\u0131",
             "description": "Ba\u015fta Archon'lar ve Warframe'ler olmak \u00fczere sentetik ya\u015fam formlar\u0131n\u0131 g\u00fc\u00e7lendirmek i\u00e7in kullan\u0131labilen ideal bir anti-entropik radyasyon kayna\u011f\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalMythic",
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "Crisma Toroid",
-            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nProfit-Taker Orb'u etkisiz hale getirerek Crisma Toroid'leri elde et.",
+            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'teki (Ven\u00fcs) Profit-Taker Orb'u etkisiz hale getirerek Crisma Toroid'leri kazan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "Lazulite Toroid",
-            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nExploiter Orb'u etkisiz hale getirerek Lazulite Toroid'leri elde et.",
+            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'teki (Ven\u00fcs) Exploiter Orb'u etkisiz hale getirerek Lazulite Toroid'leri kazan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "Calda Toroid",
-            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Zenginle\u015ftirme Lab'lar\u0131nda ve Scyto Raknoid'lerde bulunan d\u00fc\u015fmanlardan Calda Toroid elde et. Orb Vallis \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
+            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Zenginle\u015ftirme Lab'lar\u0131nda ve Scyto Raknoid'lerde bulunan d\u00fc\u015fmanlardan Calda Toroid elde et. Orb Vallis (Ven\u00fcs) \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "Vega Toroid",
-            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Uzay \u00dcss\u00fc ve Mite Raknoid'lerde bulunan d\u00fc\u015fmanlardan Vega Toroid elde et. Orb Vallis \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
+            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Uzay \u00dcss\u00fc ve Mite Raknoid'lerde bulunan d\u00fc\u015fmanlardan Vega Toroid elde et. Orb Vallis (Ven\u00fcs) \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "Sola Toroid",
-            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Kazan\u00e7 Tap\u0131na\u011f\u0131 ve Kyte Raknoid'lerde bulunan d\u00fc\u015fmanlardan Sola Toroid elde et. Orb Vallis \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
+            "description": "\u0130\u015flevi ve kayna\u011f\u0131 belirlenemeyen bir cihaz. Vox Solaris ve Quills taraf\u0131ndan \u00f6d\u00fcllendirilmi\u015ftir.\n\nOrb Vallis'te yer alan Kazan\u00e7 Tap\u0131na\u011f\u0131 ve Kyte Raknoid'lerde bulunan d\u00fc\u015fmanlardan Sola Toroid elde et. Orb Vallis (Ven\u00fcs) \u00e7evresindeki ma\u011faralarda da bulunabilirler.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Termal Tortu",
-            "description": "Weeping Tower'\u0131n terraform i\u015flemlerinden olu\u015fmu\u015f bir yan \u00fcr\u00fcn.\n\nKonum: Orb Vallis",
+            "description": "A\u011flayan Kulelerin terraform i\u015flemlerinden olu\u015fmu\u015f bir yan \u00fcr\u00fcn.\n\nKonum: Orb Vallis, Ven\u00fcs",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Gyromag Sistemleri",
-            "description": "Baz\u0131 Corpus sistemlerinde konum ve irtifa ayar\u0131 yapan mod\u00fcler bir par\u00e7a. Orb Vallis'teki Soygun G\u00f6revleri tamamlayarak elde edilir.",
+            "description": "Baz\u0131 Corpus sistemlerinde konum ve irtifa ayar\u0131 yapan mod\u00fcler bir par\u00e7a. Orb Vallis'teki (Ven\u00fcs) Soygun G\u00f6revleri tamamlayarak elde edilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Atmo Sistemleri",
-            "description": "Origin Sisteminde kar\u015f\u0131la\u015f\u0131lan \u00e7e\u015fitli atmosfer ko\u015fullar\u0131n\u0131 dengelemede kullan\u0131lan mod\u00fcler bir par\u00e7a. Orb Vallis'teki Soygun G\u00f6revleri tamamlayarak elde edilir.",
+            "description": "Origin Sisteminde kar\u015f\u0131la\u015f\u0131lan \u00e7e\u015fitli atmosfer ko\u015fullar\u0131n\u0131 dengelemede kullan\u0131lan mod\u00fcler bir par\u00e7a. Orb Vallis'teki (Ven\u00fcs) Soygun G\u00f6revleri tamamlayarak elde edilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Repeller Sistemleri",
-            "description": "\u00c7ok a\u011f\u0131r nesnelerin tek kullan\u0131c\u0131 taraf\u0131ndan idare edilmesini sa\u011flayan kar\u015f\u0131-yer\u00e7ekimi sistemi. Orb Vallis'teki Soygun G\u00f6revleri tamamlayarak elde edilir.",
+            "description": "\u00c7ok a\u011f\u0131r nesnelerin tek kullan\u0131c\u0131 taraf\u0131ndan idare edilmesini sa\u011flayan kar\u015f\u0131-yer\u00e7ekimi sistemi. Orb Vallis'teki (Ven\u00fcs) Soygun G\u00f6revleri tamamlayarak elde edilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Mytocardia Sporu",
-            "description": "Bir\u00e7ok kullan\u0131m alan\u0131 olan mantar k\u00fctlesi.\n\nKonum: Orb Vallis",
+            "description": "Bir\u00e7ok kullan\u0131m alan\u0131 olan mantar k\u00fctlesi.\n\nKonum: Orb Vallis, Ven\u00fcs",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Gorgaricus Sporu",
-            "description": "Vallis'in dev mantarlar\u0131n\u0131n sporlar\u0131 karma\u015f\u0131k kimyasal yap\u0131lar\u0131 sebebiyle \u00e7ok tercih edilir.\n\nKonum: Orb Vallis",
+            "description": "Vallis'in dev mantarlar\u0131n\u0131n sporlar\u0131 karma\u015f\u0131k kimyasal yap\u0131lar\u0131 sebebiyle \u00e7ok tercih edilir.\n\nKonum: Orb Vallis, Ven\u00fcs",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "Tepa Nod\u00fcl\u00fc",
-            "description": "Bu bitkilerdeki renk de\u011fi\u015ftiren nod\u00fcller so\u011fuk iklimlerde ihti\u015faml\u0131 bir \u015fekilde parlar.\n\nKonum: Orb Vallis",
+            "description": "Bu bitkilerdeki renk de\u011fi\u015ftiren nod\u00fcller so\u011fuk iklimlerde ihti\u015faml\u0131 bir \u015fekilde parlar.\n\nKonum: Orb Vallis, Ven\u00fcs",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "Hisar Simulacrum",
             "description": "Standart Simulacrum arenas\u0131.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "Sanctum Simulacrum",
+            "description": "Sanctum Anatomica'da bir sava\u015f\u0131 sim\u00fcle et. Bu simulacrum d\u00fc\u015fman zorlu\u011funun standart maksimum seviyenin 25 seviye \u00fczerine ayarlanmas\u0131na olanak tan\u0131r.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2272,7 +2303,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEntroplasmaItem",
             "name": "Tromyzon Entroplazma",
-            "description": "Kulelerdeki at\u0131k maddeleri ayr\u0131\u015ft\u0131ran bir \u00e7\u00f6zelti.\n\nTromyzon servobal\u0131\u011f\u0131nda bulunur.",
+            "description": "A\u011flayan Kulelerden gelen at\u0131k \u00fcr\u00fcn\u00fc yeniden dejenere olmu\u015f maddeye d\u00f6n\u00fc\u015ft\u00fcren bir \u00e7\u00f6zelti.\n\nTromyzon servobal\u0131\u011f\u0131 ayr\u0131\u015ft\u0131r\u0131larak elde edilebilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "Tiametrite",
-            "description": "Bas\u0131n\u00e7 alt\u0131nda yo\u011funla\u015fm\u0131\u015f Infested n\u00f6rotransmit\u00f6rler.\nCambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Bas\u0131n\u00e7 alt\u0131nda yo\u011funla\u015fm\u0131\u015f Infested n\u00f6rotransmit\u00f6rler.\n\nDeimos'ta yer alan Cambion Drift'teki Mavi Maden Lezyonlar\u0131nda, Sagiant Entrati Tabutu, ve \u0130zolasyon Kasas\u0131 Bounty G\u00f6revlerindeki Bonus Kasalar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "Dagonic",
-            "description": "Ge\u00e7en y\u00fczy\u0131llar boyunca sertle\u015fmi\u015f Ekzokrin s\u0131v\u0131s\u0131n\u0131n kal\u0131nt\u0131lar\u0131.\nCambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Ge\u00e7en y\u00fczy\u0131llar boyunca sertle\u015fmi\u015f Ekzokrin s\u0131v\u0131s\u0131n\u0131n kal\u0131nt\u0131lar\u0131.\n\nDeimos'ta yer alan Cambion Drift'teki Mavi Maden Lezyonlar\u0131nda, Sagiant Entrati Tabutu, ve \u0130zolasyon Kasas\u0131 Bounty G\u00f6revlerindeki Bonus Kasalar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "Adramalyum",
-            "description": "Kuvvetli ve metalik, y\u00fcksel elastik mukavemete sahip.\nCambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Kuvvetli ve metalik, y\u00fcksel elastik mukavemete sahip.\n\nDeimos'ta yer alan Cambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan, Spitia Infested Kistlerden ve Rolizor Infested Kistlerden bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "Bafolit",
-            "description": "Infested proteininin b\u00fcy\u00fcmesi sonucu bi\u00e7imlendirilebilir.\nCambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Infested proteininin i\u00e7 i\u00e7e ge\u00e7mi\u015f damarlar\u0131 nedeniyle \u015fekillendirilebilir.\n\nDeimos'ta yer alan Cambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan, Rolizor Infested Kistlerde ve \u0130zolasyon Kasas\u0131 Bounty G\u00f6revlerindeki Bonus Kasalar\u0131ndan bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "Necrathene",
-            "description": "Enfekte olmu\u015f kabuklar\u0131n i\u00e7inde binlerce y\u0131ld\u0131r korunmu\u015f bir halde.\nCambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Infested kabuklar\u0131n i\u00e7inde binlerce y\u0131ld\u0131r korunmu\u015f bir k\u00fctle.\n\nDeimos'ta yer alan Cambion Drift'teki Mavi Maden Lezyonlar\u0131ndan ve Requiem Obelisklerden bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "Thaumica",
-            "description": "Infested taraf\u0131ndan \u015fekillendirilebilir ancak buna kar\u015f\u0131 diren\u00e7li kal\u0131r.\nCambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Infested taraf\u0131ndan \u015fekillendirilebilir ancak buna kar\u015f\u0131 diren\u00e7li kal\u0131r.\n\nDeimos'ta yer alan Cambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan, Requiem Obelisklerden ve Spitia Infested Kistlerinden bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "Heciphron",
-            "description": "Enfekte kitlelerin neo-lenf sistemlerindeki k\u00fcmeler.\nCambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Infested kitlelerin neo-lenf sistemlerindeki k\u00fcmeler.\n\nDeimos'ta yer alan Cambion Drift'teki Mavi Maden Lezyonlar\u0131ndan bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "Namalon",
-            "description": "Canl\u0131 organlar\u0131n \u015feklini taklit eden Infested mineral birikintileri.\nCambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan bulunabilir. Konum: Deimos.",
+            "description": "Canl\u0131 organlar\u0131n \u015feklini taklit eden Infested mineral birikintileri.\n\nDeimos'ta yer alan Cambion Drift'teki Sar\u0131 Maden Lezyonlar\u0131ndan ve \u0130zolasyon Kasas\u0131 Bounty G\u00f6revlerindeki Bonus Kasalar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "Azurit",
-            "description": "Baz\u0131 lekelere sahip mavi de\u011ferli bir ta\u015f.\nEidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Baz\u0131 lekelere sahip mavi de\u011ferli bir ta\u015f.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "Devar",
-            "description": "Bulan\u0131k bir kristal.\nEidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Bulan\u0131k bir kristal.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "Pyrol",
-            "description": "Lekelenmi\u015f hassas bir metal.\nEidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Lekelenmi\u015f hassas bir metal.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "Corpun",
-            "description": "Yumu\u015fak, i\u015flenebilen bir metal.\nEidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Yumu\u015fak, i\u015flenebilen bir metal.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "Crimzian",
-            "description": "Kan k\u0131rm\u0131z\u0131s\u0131 bir de\u011ferli ta\u015f.\nEidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Kan k\u0131rm\u0131z\u0131s\u0131 bir de\u011ferli ta\u015f.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "Auron",
-            "description": "Parlak, yo\u011fun ve iletken bir metal.\nEidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Parlak, yo\u011fun ve iletken bir metal.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "Veridos",
-            "description": "Y\u00fcksek yans\u0131t\u0131c\u0131l\u0131\u011fa sahip ye\u015fil de\u011ferli bir ta\u015f.\nEidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "Y\u00fcksek yans\u0131t\u0131c\u0131l\u0131\u011fa sahip ye\u015fil de\u011ferli bir ta\u015f.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki Mavi Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "Ferros",
-            "description": "\u0130\u00e7indeki yabanc\u0131 maddelerle sertle\u015fmi\u015f dayan\u0131kl\u0131 bir metal.\nEidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: D\u00fcnya.",
+            "description": "\u0130\u00e7indeki yabanc\u0131 maddelerle sertle\u015fmi\u015f dayan\u0131kl\u0131 bir metal.\n\nD\u00fcnya'da yer alan Eidolon Ovalar\u0131ndaki K\u0131z\u0131l Maden Damarlar\u0131nda ve Thumper'larda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "Phasmin",
-            "description": "Metalik par\u00e7alarla kapl\u0131 \u00fcrk\u00fct\u00fcc\u00fc ye\u015fil bir m\u00fccevher.\nOrb Vallis'teki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "Metalik par\u00e7alarla kapl\u0131 \u00fcrk\u00fct\u00fcc\u00fc ye\u015fil bir m\u00fccevher.\n\nVen\u00fcs'te yer alan Orb Vallis'teki Mavi Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "Noctrul",
-            "description": "Mavi \u0131\u015f\u0131lt\u0131lara sahip siyah bir de\u011ferli ta\u015f.\nOrb Vallis'teki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "Mavi \u0131\u015f\u0131lt\u0131lara sahip siyah bir de\u011ferli ta\u015f.\n\nVen\u00fcs'te yer alan Orb Vallis'teki Mavi Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "Travoride",
-            "description": "Ven\u00fcs atmosferinin ezici bas\u0131nc\u0131nda sertle\u015fmi\u015f bir mineral.\nOrb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "Ven\u00fcs atmosferinin ezici bas\u0131nc\u0131nda sertle\u015fmi\u015f bir mineral.\n\nVen\u00fcs'te yer alan Orb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "Axidite",
-            "description": "Buzun alt\u0131nda hapsolan s\u00fclfirik ya\u011fmurun olu\u015fturdu\u011f\u0131 bir tortu.\nOrb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "Buzun alt\u0131nda hapsolan s\u00fclfirik ya\u011fmurun olu\u015fturdu\u011f\u0131 bir tortu.\n\nVen\u00fcs'te yer alan Orb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "Hesperon",
-            "description": "S\u0131cakl\u0131k s\u0131f\u0131r\u0131n alt\u0131na indi\u011finde ta\u015ftan bile sert olabilen bir kil.\nOrb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "S\u0131cakl\u0131k s\u0131f\u0131r\u0131n alt\u0131na indi\u011finde ta\u015ftan bile sert olabilen bir kil.\n\nVen\u00fcs'te yer alan Orb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "Goblite",
-            "description": "\u00c7\u0131kar\u0131lan cevherlerin damarlar\u0131nda b\u00fcy\u00fcyen garip bir kristal.\nOrb Vallis'teki Mavi Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "\u00c7\u0131kar\u0131lan cevherlerin damarlar\u0131nda b\u00fcy\u00fcyen garip bir kristal.\n\nVen\u00fcs'te yer alan Orb Vallis'teki Mavi Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "Venerol",
-            "description": "So\u011futucu yan \u00fcr\u00fcnlerinden olu\u015fan de\u011ferli bir metal.\nOrb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131ndan bulunabilir. Konum: Ven\u00fcs.",
+            "description": "So\u011futma s\u0131v\u0131s\u0131 yan \u00fcr\u00fcnlerinden d\u00f6v\u00fclen de\u011ferli bir metal.\n\nVen\u00fcs'te yer alan Orb Vallis'teki K\u0131z\u0131l Maden Damarlar\u0131nda ve a\u00e7\u0131k alandaki kaynak konteyn\u0131rlar\u0131nda bulunabilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "Eidolon'un Nefesi",
-            "description": "Yaln\u0131zca Eidolon'un Ovalar\u0131nda bulunan ve en saf haline kadar rafine edilmi\u015f bir gaz. Cetus'taki Bounty G\u00f6revleri tamamlanarak elde edilir.",
+            "description": "Yaln\u0131zca Eidolon'un Ovalar\u0131nda bulunan ve en saf haline kadar rafine edilmi\u015f bir gaz. \n\nKonum: Eidolon Ovalar\u0131 Bounty G\u00f6revleri (Earth) ",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Hunhow'un Veri Bankas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "Dog Days Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "Dog Days Gece Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "Cetus Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Corpus Gemi K\u00f6pr\u00fc Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Corpus Gemi Hangar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Corpus Depo Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "Havan Topu Batarya Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Corpus Gemi Y\u00f6r\u00fcnge Bombard\u0131man Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "Deck 12 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "Deimos Kasa Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "Deimos \u0130lerleme Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "Deimos Mahzen Mezar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "Deimos Derinlikler Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "Deimos Yeralt\u0131 Mezarl\u0131\u011f\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "Deimos Obruk Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "Deimos D\u00fc\u015f\u00fc\u015f Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "Deimos Iss\u0131zl\u0131k Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "Deimos Kalp Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "Deimos Necralisk Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "Deimos Cambion Drift Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "Deimos Yeralt\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "Deimos Membran Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "Deimos E\u015fik Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "Deimos Oda Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "Deimos T\u00fcnelleri Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Dax Kamp\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Konaklama Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Lunaro Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Opera Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Park Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Kasaba Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "Yeralt\u0131 D\u00fcnyas\u0131 Varo\u015flar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "Orowyrm Arena Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Krater Adac\u0131\u011f\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "K\u00fcrs\u00fc Adac\u0131\u011f\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "Dolamba\u00e7l\u0131 Adalar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "K\u00fc\u00e7\u00fck Adac\u0131k Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "Havza Adac\u0131\u011f\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Amfitiyatro Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "As\u0131l\u0131 K\u00f6rfez Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "Anakara K\u00f6y Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "Cehennem Tepesi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "\u00dcst Liman Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "Kale Kasabas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Teshin'in Ma\u011faras\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "Eidolon Ovalar\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "Fortuna Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "Gaz \u015eehri Alad Laboratuvar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "Gaz \u015eehri \u00dcst Lojistik Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "Gaz \u015eehri \u00c7\u0131kmaz Sokak Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "Gaz \u015eehri Merkez D\u00fc\u015fme Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "Gaz \u015eehri Patika Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "Gaz \u015eehri Asans\u00f6r Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "Gaz \u015eehri Bulut Manzara Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "Gaz \u015eehri Koridor Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "Gaz \u015eehri Alt Bekleme Odas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "Gaz \u015eehri Element Da\u011f\u0131t\u0131m Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "Gaz \u015eehri Reg\u00fclat\u00f6r Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "Gaz \u015eehri Element Ar\u0131tma Fabrikas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "Gaz \u015eehri Lobi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Grineer Orman Su Pompas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Grineer Orman Fabrikas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Grineer Orman Sanayi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "Kuva Kalesi Yar\u0131k Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Grineer Galleon Kargo Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Grineer Sealab Santrif\u00fcj Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Grineer Yerle\u015fkesi Top\u00e7u Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Harrow'un Tap\u0131nak Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Inaros Lahit Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Infested Gemi Hologram Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Onkko'nun Komuta Merkezi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Orokin Kulesi Tahliye Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "Lua Balkon Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "Orbiter Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Granum Void Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Teshin \u0130ltica Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "Lunaro Arena Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Umbra'n\u0131n Avlu Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "Arbiter'in Mahkeme Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "Lua Bar\u0131nd\u0131rma Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "Lua Bak\u0131mevi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "Suda'n\u0131n Veri Bankas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Lotus'un Odas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Corpus Buzlu Gezegen Kal\u0131nt\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Amaryn'n\u0131n Geri \u00c7ekilme Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Grineer Tersane \u00dcretim Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "Silver Grove Tap\u0131nak Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Ergo'nun Konsey Odas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Mycona Koloni Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Corpus Gaz \u015eehri Ge\u00e7itleri Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Veil'in Ba\u011flanma Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Hunhow'un Oda Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Infested Gemi K\u00f6pr\u00fc Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Orokin Derelict Meydan Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "Sanctuary Ge\u00e7it Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Cressa Garrison Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Grineer Yerle\u015fkesi Reakt\u00f6r Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "Kuva Taht Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "Praghasa Taht Odas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "The War Within Se\u00e7im Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "Ventkid Clubhouse Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "Orb Vallis Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "Renkli Anahtar Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "Saturn Six Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "So\u011fuk Derinlikler Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "Albrecht'in Ar\u015fiv Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "Albrecht'in B\u00fcro Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Dante'nin Geri \u00c7ekilme Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "Sanctum Anatomica Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "Terkedilmi\u015f Bedenler Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "Par\u00e7alanm\u0131\u015f Ge\u00e7it Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "Fabrica Anatomica Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "Zariman Amfitiyatro Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "Zariman Dormizon Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "Zariman Kargo Liman\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "Zariman H\u00fccre Blo\u011fu Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "Zariman Tar\u0131m B\u00f6lgesi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "Zariman Legems Salonu Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "Zariman Yerle\u015fim Alan\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "Zariman Lunaro Kortu Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "Zariman Albrecht Park\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "Zariman Huzur Seviyeleri Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "Zariman Melek Konaklama Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "Zariman Chrysalith Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "Zariman Okul Bah\u00e7esi Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "Zariman Kenetleme Liman\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "Zariman Relic Lahiti Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "Lua Circulus Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Sentient Balkon Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Sentient \u00c7e\u015fme Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Sentient Havza Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Sentient Meydan Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Sentient Mihrap Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,21 +5332,21 @@
             "name": "Veilbreak Orman Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "Veilbreak Murex Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "Veilbreak Fabrika Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "G\u00f6zlemci Vitreum",
+            "description": "Orbiter i\u00e7in tetikte bir g\u00f6z.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "Noctua'n\u0131n Paragrimm'i",
+            "description": "Orbiter'inde sana e\u015flik etmek i\u00e7in Noctua'n\u0131n sayfalar\u0131ndan bir Paragrimm y\u00fckseliyor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Belric ve Rania Yeniden Bir Arada",
             "description": "Belric ve Rania, a\u015f\u0131k olanlar\u0131n kristalde saklanan bir an\u0131s\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "Neon Pride Kanatlar\u0131",
+            "description": "Bu \u0131\u015f\u0131lt\u0131l\u0131 Orbiter dekorasyonu ile Pride'\u0131 kutla.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "Arthur Pelu\u015f",
+            "description": "\u201c1999 d\u00f6nemine ili\u015fkin \u00e7al\u0131\u015fmalar\u0131m, Pelu\u015f Ahbap olarak bilinen paha bi\u00e7ilmez bir kal\u0131nt\u0131y\u0131 ortaya \u00e7\u0131kard\u0131. Ge\u00e7mi\u015fin harikalar\u0131n\u0131 yeniden yaratmal\u0131y\u0131z.\u201d - Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "Kumsal Kavat Pelu\u015f",
             "description": "Taktisel Alert'e kat\u0131l\u0131m\u0131n\u0131z\u0131 hat\u0131rlatan \u00e7ok \u00f6zel bir Pelu\u015f: Dog Days. POFUDUK B\u0130R ONUR N\u0130\u015eANI!",
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "G\u00fcn Do\u011fumu Kavat Pelu\u015f",
             "description": "Taktisel Alert'e kat\u0131l\u0131m\u0131n\u0131z\u0131 hat\u0131rlatan \u00e7ok \u00f6zel bir Pelu\u015f: Dog Days. POFUDUK B\u0130R ONUR N\u0130\u015eANI!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Ordis Semboll\u00fc Pelu\u015f",
+            "description": "'Operat\u00f6r\u00fcn bir\u00e7ok b\u00fcy\u00fcleyici formda Pelu\u015flar\u0131 var. Ordis, Operat\u00f6r\u00fcn koleksiyona sad\u0131k bir Cephalon ekleyebilece\u011fini d\u00fc\u015f\u00fcnd\u00fc!' -Ordis",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "B\u00fcy\u00fck bir av\u0131n hat\u0131ras\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "Pride Sergisi 2024",
+            "description": "Bu Sergi, Pride'\u0131 kutlar. RoboMythos taraf\u0131ndan dizayn edilmi\u015ftir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -8196,7 +8254,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ZarimanApartment/ZARxPortraitFrameFemale",
             "name": "Zariman Yonta Portresi",
-            "description": "Ar\u015fimet Yonta'n\u0131n boyal\u0131 bir portresi.",
+            "description": "Ar\u015fimet Yonta'n\u0131n bir ya\u011fl\u0131 boya portresi.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Noggle Heykeli - Baruuk Prime",
+            "description": "Baruuk Prime k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Baruuk Prime Mandala",
             "description": "Baruuk Prime'\u0131n huzur dolu mandalas\u0131yla Orbiter'ini s\u00fcsle. Bu yap\u0131, meditasyon ve tefekk\u00fcr\u00fc te\u015fvik eder.",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Noggle Heykeli - Grendel Prime",
+            "description": "Grendel Prime k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "Grimoire Altar",
             "description": "Grimoire'\u0131n\u0131 onurlu bir yerde sergile.",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Noggle Heykeli - Hildryn Prime",
+            "description": "Hildryn Prime k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Noggle Heykeli - Hydroid",
             "description": "Hydroid k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Noggle Heykeli - Inaros",
             "description": "Inaros k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "Inaros Lahiti Dekorasyonu",
+            "description": "Inaros, bu koruyucu lahitin sergilendi\u011fi her yerde ho\u015f kar\u015f\u0131lan\u0131r.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Javi Ophiuchus Karalamas\u0131",
             "description": "Javi'nin \u00f6\u011frencisi ol. Bu Ophiuchus karalamas\u0131 Drusus Leverian'\u0131n Lavos kay\u0131tlar\u0131na dayanmaktad\u0131r",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Javi Luminosity Karalamas\u0131",
             "description": "Javi'nin \u00f6\u011frencisi ol. Bu luminosity karalamas\u0131 Drusus Leverian'\u0131n Lavos kay\u0131tlar\u0131na dayanmaktad\u0131r.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Javi Genom Karalamas\u0131",
             "description": "Javi'nin \u00f6\u011frencisi ol. Bu genom karalamas\u0131 Drusus Leverian'\u0131n Lavos kay\u0131tlar\u0131na dayanmaktad\u0131r.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "Chimalli ve Tequihua Dekorasyonu",
+            "description": "Bu de\u011ferli silahlar\u0131 sergiledi\u011finde Styanax Tonatiuh'u onurland\u0131racaks\u0131n.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Noggle Heykeli - Kahl-175",
             "description": "Kahl-175 k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "Dagath Prex",
             "description": "Su\u00e7layan Ayna",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "Dante Prex",
+            "description": "Tarihin Koruyucusu",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "Sergi - TennoCon 2024",
+            "description": "TennoCon 2024 kutlamalar\u0131na kat\u0131lan t\u00fcm kullan\u0131c\u0131lara arma\u011fan edilmi\u015ftir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Noggle Heykeli - Teshin",
             "description": "Teshin'in sallanan k\u00fc\u00e7\u00fck bir heykeli.",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Noggle Heykeli - Vor",
             "description": "Kaptan Vor k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Noggle Heykeli - Wisp Prime",
+            "description": "Wisp Prime k\u00fc\u00e7\u00fck oynar fig\u00fcr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "HELMINTH B\u0130RLE\u015eT\u0130R\u0130C\u0130 SEGMENT\u0130",
-            "description": "Helminth'in Archon Par\u00e7alar\u0131n\u0131 daha g\u00fc\u00e7l\u00fc varyantlara d\u00f6n\u00fc\u015ft\u00fcrmesini sa\u011flar.",
+            "description": "Helminth'in, B\u00fct\u00fcnle\u015ftirici F\u00fczyon ve Y\u00fckseli\u015f F\u00fczyonu arac\u0131l\u0131\u011f\u0131yla Archon Par\u00e7alar\u0131n\u0131 daha g\u00fc\u00e7l\u00fc t\u00fcrlere d\u00f6n\u00fc\u015ft\u00fcrmesini sa\u011flar.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Dante G\u00f6vde",
+            "description": "Dante Warframe i\u00e7in G\u00f6vde bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Dante N\u00f6roptikleri",
+            "description": "Dante Warframe i\u00e7in N\u00f6roptik bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Dante Sistemleri",
+            "description": "Dante Warframe i\u00e7in Sistem bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon G\u00f6vde",
             "description": "Oberon Warframe i\u00e7in G\u00f6vde bile\u015feni.",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "Nautilus Sistemleri",
             "description": "Bir sentinel \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "Ruvox B\u0131\u00e7ak",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "Ruvox Eldiven",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },

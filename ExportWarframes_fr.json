@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Puits de Vie",
-                    "description": "Cr\u00e9e un Puits de Vie sur un ennemi. Les alli\u00e9s proches de la cible r\u00e9g\u00e9n\u00e8rent progressivement leur Sant\u00e9 et sont immunis\u00e9s contre les Effets de Statut. Les alli\u00e9s gagnent des points de Sant\u00e9 suppl\u00e9mentaires lorsqu'ils attaquent la cible."
+                    "description": "Cr\u00e9e un Puits de Vie sur un ennemi. Les alli\u00e9s proches de la cible r\u00e9g\u00e9n\u00e8rent progressivement leur Sant\u00e9 et sont immunis\u00e9s contre les Effets de Statut. Les D\u00e9g\u00e2ts d'Effet de Statut destin\u00e9s aux alli\u00e9s proches seront absorb\u00e9s par l'ennemi. Les alli\u00e9s gagnent des points de Sant\u00e9 suppl\u00e9mentaires lorsqu'ils attaquent la cible."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u00e9n\u00e9diction",
-                    "description": "Restaure la Sant\u00e9 et les Boucliers des alli\u00e9s \u00e0 port\u00e9e d'Affinit\u00e9 de Trinity tout en leur conf\u00e9rant une r\u00e9sistance partielle aux D\u00e9g\u00e2ts pendant une courte dur\u00e9e."
+                    "description": "Restaure la Sant\u00e9 et les Boucliers des alli\u00e9s proches tout en r\u00e9duisant les d\u00e9g\u00e2ts qu'ils subissent des ennemis."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Puits de Vie",
-                    "description": "Cr\u00e9e un Puits de Vie sur un ennemi. Les alli\u00e9s proches de la cible r\u00e9g\u00e9n\u00e8rent progressivement leur Sant\u00e9 et sont immunis\u00e9s contre les Effets de Statut. Les alli\u00e9s gagnent des points de Sant\u00e9 suppl\u00e9mentaires lorsqu'ils attaquent la cible."
+                    "description": "Cr\u00e9e un Puits de Vie sur un ennemi. Les alli\u00e9s proches de la cible r\u00e9g\u00e9n\u00e8rent progressivement leur Sant\u00e9 et sont immunis\u00e9s contre les Effets de Statut. Les D\u00e9g\u00e2ts d'Effet de Statut destin\u00e9s aux alli\u00e9s proches seront absorb\u00e9s par l'ennemi. Les alli\u00e9s gagnent des points de Sant\u00e9 suppl\u00e9mentaires lorsqu'ils attaquent la cible."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u00e9n\u00e9diction",
-                    "description": "Restaure la Sant\u00e9 et les Boucliers des alli\u00e9s \u00e0 port\u00e9e d'Affinit\u00e9 de Trinity tout en leur conf\u00e9rant une r\u00e9sistance partielle aux D\u00e9g\u00e2ts pendant une courte dur\u00e9e."
+                    "description": "Restaure la Sant\u00e9 et les Boucliers des alli\u00e9s proches tout en r\u00e9duisant les d\u00e9g\u00e2ts qu'ils subissent des ennemis."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Lorsqu'il agonise, Inaros s'enferme dans un Sarcophage. Il peut alors se r\u00e9g\u00e9n\u00e9rer en drainant la force vitale des ennemis et alli\u00e9s proches.",
+            "passiveDescription": "Lorsqu'Inaros subit des d\u00e9g\u00e2ts mortels, il s'enferme dans un sarcophage et se r\u00e9incarne sous forme de sable pour attaquer les ennemis, drainant leur force vitale pour se r\u00e9animer.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Projette une vague de sable maudit sur les ennemis, qui les aveugle et vole leur Sant\u00e9."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Inhumation",
-                    "description": "Maintenez le Pouvoir pour capturer les ennemis dans des sables mouvants et attirez-les \u00e0 vous pour les d\u00e9vorer; ceci vole leur Sant\u00e9 et cr\u00e9e, \u00e0 terme, un Spectre de Sable alli\u00e9."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Temp\u00eate de Sable",
-                    "description": "Transformez-vous en un tourbillon de sable qui envoie voler les ennemis et d\u00e9vore ceux pris dans les sables mouvants."
+                    "description": "Devenez une temp\u00eate de sable. Inaros d\u00e9vore les ennemis entra\u00een\u00e9s dans son tourbillon et se r\u00e9g\u00e9n\u00e8re."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Carapace de Scarab\u00e9es",
+                    "description": "Activez pour former une armure en drainant la Sant\u00e9 d'Inaros. Activez \u00e0 nouveau pour arr\u00eater la formation pr\u00e9matur\u00e9ment. La couche protectrice r\u00e9duit les d\u00e9g\u00e2ts et absorbe les Effets de Statut."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Nu\u00e9e de Scarab\u00e9es",
-                    "description": "Chargez ce Pouvoir pour transformer la Sant\u00e9 en une Armure de Scarab\u00e9es renforc\u00e9e. Rel\u00e2chez pour frapper les ennemis avec une nu\u00e9e de scarab\u00e9es. Les ennemis survivants verront leur Sant\u00e9 drain\u00e9e et distribu\u00e9e \u00e0 vos alli\u00e9s."
+                    "description": "Invoquez une Nu\u00e9e de Scarab\u00e9es pour attaquer les ennemis avec un Effet de Statut Corrosif garanti. Les D\u00e9g\u00e2ts s'ajustent \u00e0 la Sant\u00e9 d'Inaros. Les ennemis \u00e9limin\u00e9s alors qu'ils \u00e9taient dans la nu\u00e9e invoquent un Kavat des Sables qui combat aux c\u00f4t\u00e9s d'Inaros et guide les scarab\u00e9es vers d'autres ennemis."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Lorsqu'il agonise, Inaros s'enferme dans un Sarcophage. Il peut alors se r\u00e9g\u00e9n\u00e9rer en drainant la force vitale des ennemis et alli\u00e9s proches.",
+            "passiveDescription": "Lorsqu'Inaros subit des d\u00e9g\u00e2ts mortels, il s'enferme dans un sarcophage et se r\u00e9incarne sous forme de sable pour attaquer les ennemis, drainant leur force vitale pour se r\u00e9animer.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Projette une vague de sable maudit sur les ennemis, qui les aveugle et vole leur Sant\u00e9."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Inhumation",
-                    "description": "Maintenez le Pouvoir pour capturer les ennemis dans des sables mouvants et attirez-les \u00e0 vous pour les d\u00e9vorer; ceci vole leur Sant\u00e9 et cr\u00e9e, \u00e0 terme, un Spectre de Sable alli\u00e9."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Temp\u00eate de Sable",
-                    "description": "Transformez-vous en un tourbillon de sable qui envoie voler les ennemis et d\u00e9vore ceux pris dans les sables mouvants."
+                    "description": "Devenez une temp\u00eate de sable. Inaros d\u00e9vore les ennemis entra\u00een\u00e9s dans son tourbillon et se r\u00e9g\u00e9n\u00e8re."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Carapace de Scarab\u00e9es",
+                    "description": "Activez pour former une armure en drainant la Sant\u00e9 d'Inaros. Activez \u00e0 nouveau pour arr\u00eater la formation pr\u00e9matur\u00e9ment. La couche protectrice r\u00e9duit les d\u00e9g\u00e2ts et absorbe les Effets de Statut."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Nu\u00e9e de Scarab\u00e9es",
-                    "description": "Chargez ce Pouvoir pour transformer la Sant\u00e9 en une Armure de Scarab\u00e9es renforc\u00e9e. Rel\u00e2chez pour frapper les ennemis avec une nu\u00e9e de scarab\u00e9es. Les ennemis survivants verront leur Sant\u00e9 drain\u00e9e et distribu\u00e9e \u00e0 vos alli\u00e9s."
+                    "description": "Invoquez une Nu\u00e9e de Scarab\u00e9es pour attaquer les ennemis avec un Effet de Statut Corrosif garanti. Les D\u00e9g\u00e2ts s'ajustent \u00e0 la Sant\u00e9 d'Inaros. Les ennemis \u00e9limin\u00e9s alors qu'ils \u00e9taient dans la nu\u00e9e invoquent un Kavat des Sables qui combat aux c\u00f4t\u00e9s d'Inaros et guide les scarab\u00e9es vers d'autres ennemis."
                 }
             ],
             "productCategory": "Suits"
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Jugement",
                     "description": "Soulevez dans les airs tous les ennemis \u00e0 proximit\u00e9, puis \u00e9crasez-les au sol avec conviction. Les ennemis \u00e9limin\u00e9s ont une chance de produire un Orbe de Sant\u00e9."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Protecteur des connaissances. Gardien du pass\u00e9. Chercheur audacieux de la tradition du Cabinet de Curiosit\u00e9s. Dante compose des contes myst\u00e9rieux pour soutenir ses alli\u00e9s et d\u00e9vaster ses ennemis.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Le Noctua scanne les cibles et enregistre les informations pour votre Codex. Les Chances de Statut augmentent de |CHANCE|% sur les cibles compl\u00e8tement scann\u00e9es.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "Ouvrez le Noctua, le Volume Exalt\u00e9 de Dante, et d\u00e9cha\u00eenez des malheurs digne d'un conte sur ses ennemis."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Verset L\u00e9ger",
+                    "description": "La composition revitalisante de Dante lui conf\u00e8re, ainsi qu'\u00e0 ses alli\u00e9s, Garde Renforc\u00e9e et augmente leur Sant\u00e9."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Verset Sombre",
+                    "description": "La composition de Dante fait couler le sang des ennemis proches, leur infligeant des D\u00e9g\u00e2ts Tranchants."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Verset Final",
+                    "description": "Dante doit composer deux autres Versets avant son Verset Final.\n\nTRIOMPHE: deux Versets L\u00e9gers lanc\u00e9s successivement revigorent les alli\u00e9s avec un buff augmentant la Sant\u00e9 et conf\u00e8rent Garde Renforc\u00e9e. Les \u00e9liminations et les assistances la r\u00e9g\u00e9n\u00e8rent bri\u00e8vement.<br>Dante doit composer deux autres Versets avant son Verset Final.\n\nTRAG\u00c9DIE: deux Versets Sombres lanc\u00e9s successivement attaquent les ennemis. Tous les D\u00e9g\u00e2ts sur la dur\u00e9e qu\u2019ils ont subis s\u2019accumulent en une seule explosion.<br>Dante doit composer deux autres Versets avant son Verset Final.\n\nGARDIEN DES MOTS: un Verset L\u00e9ger suivi d'un Verset sombre soutient les alli\u00e9s gr\u00e2ce \u00e0 des copies du Noctua. Ces copies synchronisent leurs attaques avec celles de leur alli\u00e9 d\u00e9sign\u00e9.<br>Dante doit composer deux autres Versets avant son Verset Final.\n\nPAGE VOLANTE: un Verset Sombre suivi d'un Verset L\u00e9ger invoque des Paragrimmes qui fondent sur les ennemis, les rendant vuln\u00e9rables aux Chances de Statut et \u00e9loignant les attaques ennemies des alli\u00e9s."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Leurre",
-                    "description": "Loki d\u00e9ploie une copie holographique de lui-m\u00eame, qui attire le feu de l'ennemi."
+                    "description": "Loki d\u00e9ploie une copie holographique de lui-m\u00eame qui attire le feu de l'ennemi et absorbe une partie de la Sant\u00e9 et des Boucliers de l'ennemi \u00e0 proximit\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Leurre",
-                    "description": "Loki d\u00e9ploie une copie holographique de lui-m\u00eame, qui attire le feu de l'ennemi."
+                    "description": "Loki d\u00e9ploie une copie holographique de lui-m\u00eame qui attire le feu de l'ennemi et absorbe une partie de la Sant\u00e9 et des Boucliers de l'ennemi \u00e0 proximit\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "\u00c9clipse",
-                    "description": "Se tenant dans la lumi\u00e8re, Mirage inflige de lourds D\u00e9g\u00e2ts avec ses armes, tandis que les ombres font d'elle une cible difficile \u00e0 traquer et encore plus difficile \u00e0 blesser."
+                    "description": "(APPUYER) R\u00e9duit temporairement les D\u00e9g\u00e2ts que Mirage subit des ennemis.\n(MAINTENIR) Augmente temporairement les D\u00e9g\u00e2ts de l'arme de Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "\u00c9clipse",
-                    "description": "Se tenant dans la lumi\u00e8re, Mirage inflige de lourds D\u00e9g\u00e2ts avec ses armes, tandis que les ombres font d'elle une cible difficile \u00e0 traquer et encore plus difficile \u00e0 blesser."
+                    "description": "(APPUYER) R\u00e9duit temporairement les D\u00e9g\u00e2ts que Mirage subit des ennemis.\n(MAINTENIR) Augmente temporairement les D\u00e9g\u00e2ts de l'arme de Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "A une chance d'aveugler les ennemis pendant |DURATION|s lorsqu'elle est expos\u00e9e \u00e0 une lumi\u00e8re vive.",
+            "passiveDescription": "Une chance d'aveugler les ennemis pendant |DURATION|s lorsque Gara lance des Pouvoirs.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "A une chance d'aveugler les ennemis pendant |DURATION|s lorsqu'elle est expos\u00e9e \u00e0 une lumi\u00e8re vive.",
+            "passiveDescription": "Une chance d'aveugler les ennemis pendant |DURATION|s lorsque Gara lance des Pouvoirs.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -3438,7 +3479,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GunFuAbility",
                     "abilityName": "Pacificateurs",
-                    "description": "Extr\u00eamement concentr\u00e9e, Mesa d\u00e9gaine ses Pistolets Pacificateurs, abattant ses ennemis plus vite que son ombre."
+                    "description": "Extr\u00eamement concentr\u00e9e, Mesa d\u00e9gaine ses R\u00e9gulateurs, abattant ses ennemis plus vite que son ombre."
                 }
             ],
             "productCategory": "Suits"
@@ -3479,7 +3520,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GunFuAbility",
                     "abilityName": "Pacificateurs",
-                    "description": "Extr\u00eamement concentr\u00e9e, Mesa d\u00e9gaine ses Pistolets Pacificateurs, abattant ses ennemis plus vite que son ombre."
+                    "description": "Extr\u00eamement concentr\u00e9e, Mesa d\u00e9gaine ses R\u00e9gulateurs, abattant ses ennemis plus vite que son ombre."
                 }
             ],
             "productCategory": "Suits"

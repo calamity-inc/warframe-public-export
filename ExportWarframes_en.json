@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Well of Life",
-                    "description": "Create a well of life on an enemy. Allies near the target gradually regenerate health and are immune to Status Effects. Allies gain additional health when they attack the target."
+                    "description": "Create a well of life on an enemy. Allies near the target gradually regenerate health and are immune to Status Effects. Status Effect damage intended for nearby allies will be absorbed by the enemy. Allies gain additional health when they attack the enemy."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Blessing",
-                    "description": "Restore the health and shields of allies within Trinity's affinity aura while giving them some damage resistance."
+                    "description": "Restore the health and shields of nearby allies while reducing the damage they take from enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Well of Life",
-                    "description": "Create a well of life on an enemy. Allies near the target gradually regenerate health and are immune to Status Effects. Allies gain additional health when they attack the target."
+                    "description": "Create a well of life on an enemy. Allies near the target gradually regenerate health and are immune to Status Effects. Status Effect damage intended for nearby allies will be absorbed by the enemy. Allies gain additional health when they attack the enemy."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Blessing",
-                    "description": "Restore the health and shields of allies within Trinity's affinity aura while giving them some damage resistance."
+                    "description": "Restore the health and shields of nearby allies while reducing the damage they take from enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "While bleeding-out, Inaros becomes entombed in a protective Sarcophagus. He can revive himself by draining the life-force from nearby enemies and allies.",
+            "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Blast enemies with a wave of cursed sand that blinds them and steals their health."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devour",
-                    "description": "Hold power to trap target in quicksand and draw them in for devouring; this steals health and ultimately creates a friendly Sand Shadow."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandstorm",
-                    "description": "Become a whirling spiral of sand that sends enemies flying and devours those trapped in quicksand."
+                    "description": "Become a sandstorm. Inaros devours enemies pulled into his whirlwind, healing himself."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Scarab Shell",
+                    "description": "Activate to form Armor by draining Inaros' Health. Activate again to stop the formation early. The protective layer reduces incoming Damage and absorbs Status Effects."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Charge to transform Health into hardened Scarab Armor. Discharge to blast enemies with a scarab swarm. Survivors have their Health drained and bestowed on allies."
+                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed Corrosion Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "While bleeding-out, Inaros becomes entombed in a protective Sarcophagus. He can revive himself by draining the life-force from nearby enemies and allies.",
+            "passiveDescription": "When Inaros takes lethal damage, he entombs himself in a sarcophagus and incarnates as sand to attack enemies, draining their lifeforce to revive himself.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Blast enemies with a wave of cursed sand that blinds them and steals their health."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devour",
-                    "description": "Hold power to trap target in quicksand and draw them in for devouring; this steals health and ultimately creates a friendly Sand Shadow."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandstorm",
-                    "description": "Become a whirling spiral of sand that sends enemies flying and devours those trapped in quicksand."
+                    "description": "Become a sandstorm. Inaros devours enemies pulled into his whirlwind, healing himself."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Scarab Shell",
+                    "description": "Activate to form Armor by draining Inaros' Health. Activate again to stop the formation early. The protective layer reduces incoming Damage and absorbs Status Effects."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Charge to transform Health into hardened Scarab Armor. Discharge to blast enemies with a scarab swarm. Survivors have their Health drained and bestowed on allies."
+                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed Corrosion Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Reckoning",
                     "description": "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Orb."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Seeker of knowledge. Keeper of history. Daring researcher of Leverian lore. Dante composes arcane tales to support allies and devastate enemies.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Noctua scans targets, recording information for your Codex. Status Chance increases by |CHANCE|% on fully scanned targets.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "Open Noctua, Dante\u2019s Exalted Tome, and unleash a tale of woe upon his enemies."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Light Verse",
+                    "description": "Dante's vitalizing composition grants him and his allies Overguard and increases their Health."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Dark Verse",
+                    "description": "Dante's composition draws blood from nearby enemies, inflicting Slash Damage upon them."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Final Verse",
+                    "description": "Dante must compose two other Verses before his Final Verse.\n\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.<br>Dante must compose two other Verses before his Final Verse.\n\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Any Damage Over Time they have suffered accumulates in a single blast.<br>Dante must compose two other Verses before his Final Verse.\n\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally\u2019s attacks.<br>Dante must compose two other Verses before his Final Verse.\n\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and drawing enemy attacks away from allies."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki deploys a holographic copy of himself, drawing enemy fire."
+                    "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki deploys a holographic copy of himself, drawing enemy fire."
+                    "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Standing in light, Mirage deals heavy damage, while the shadows make Mirage difficult to track and even harder to hurt."
+                    "description": "(TAP) Temporarily reduce the damage Mirage takes from enemies.\n(HOLD) Temporarily increase Mirage's weapon damage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Standing in light, Mirage deals heavy damage, while the shadows make Mirage difficult to track and even harder to hurt."
+                    "description": "(TAP) Temporarily reduce the damage Mirage takes from enemies.\n(HOLD) Temporarily increase Mirage's weapon damage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when exposed to bright light.",
+            "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when exposed to bright light.",
+            "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",

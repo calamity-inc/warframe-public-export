@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "\u4e00\u500b\u5305\u542b\u8457 Orokin \u79d8\u5bc6\u7684\u795e\u5668\u3002\u5b83\u53ea\u80fd\u900f\u904e\u865b\u7a7a\u4e4b\u529b\u4f86\u958b\u555f\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "\u4e00\u500b\u5305\u542b\u8457 Orokin \u79d8\u5bc6\u7684\u795e\u5668\u3002\u5b83\u53ea\u80fd\u900f\u904e\u865b\u7a7a\u4e4b\u529b\u4f86\u958b\u555f\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "\u4e00\u500b\u5305\u542b\u8457 Orokin \u79d8\u5bc6\u7684\u795e\u5668\u3002\u5b83\u53ea\u80fd\u900f\u904e\u865b\u7a7a\u4e4b\u529b\u4f86\u958b\u555f\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "\u4e00\u500b\u5305\u542b\u8457 Orokin \u79d8\u5bc6\u7684\u795e\u5668\u3002\u5b83\u53ea\u80fd\u900f\u904e\u865b\u7a7a\u4e4b\u529b\u4f86\u958b\u555f\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "\u4e00\u500b\u5305\u542b\u8457 Orokin \u79d8\u5bc6\u7684\u795e\u5668\u3002\u5b83\u53ea\u80fd\u900f\u904e\u865b\u7a7a\u4e4b\u529b\u4f86\u958b\u555f\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "\u79bf\u9df9\u7fc5\u8180",
-            "description": "\u79bf\u9df9\u7fc5\u8180\u4e0a\u7684\u5229\u722a\u53ef\u4ee5\u6495\u958b\u9aa8\u982d\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce",
+            "description": "\u79bf\u9df9\u7fc5\u8180\u4e0a\u7684\u5229\u722a\u53ef\u4ee5\u6495\u958b\u9aa8\u982d\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "\u5e0c\u5716\u65af\u5e7d\u9b42",
-            "description": "\u9019\u985e\u77f3\u982d\u822c\u7684\u751f\u547d\u9ad4\u6700\u5e38\u5728\u591c\u9593\u51fa\u6c92\uff0c\u4e26\u4e14\u6703\u53d7\u591c\u9748\u6240\u89f8\u53ca\u7684\u6d77\u5cb8\u7dda\u5438\u5f15\u3002\u5b83\u5011\u96a8\u6642\u90fd\u6703\u5728\u591c\u9748\u5e73\u91ce\u7684\u6e56\u7554\u9644\u8fd1\u5f98\u5f8a\uff0c\u4f46\u5176\u8d77\u6e90\u4ecd\u7136\u4e0d\u660e\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\u3002",
+            "description": "\u9019\u985e\u77f3\u982d\u822c\u7684\u751f\u547d\u9ad4\u6700\u5e38\u5728\u591c\u9593\u51fa\u6c92\uff0c\u4e26\u4e14\u6703\u53d7\u591c\u9748\u6240\u89f8\u53ca\u7684\u6d77\u5cb8\u7dda\u5438\u5f15\u3002\u5b83\u5011\u96a8\u6642\u90fd\u6703\u5728\u591c\u9748\u5e73\u91ce\u7684\u6e56\u7554\u9644\u8fd1\u5f98\u5f8a\uff0c\u4f46\u5176\u8d77\u6e90\u4ecd\u7136\u4e0d\u660e\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "\u99ac\u5229\u53ef",
-            "description": "\u9019\u7a2e\u9811\u5f37\u7684\u679c\u5be6\u6709\u8457\u80fd\u62b5\u6297\u56b4\u82db\u74b0\u5883\u7684\u5805\u786c\u5916\u76ae\uff0c\u5c07\u98fd\u6eff\u7684\u751c\u7f8e\u679c\u8089\u96b1\u85cf\u5176\u4e2d\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce",
+            "description": "\u9019\u7a2e\u9811\u5f37\u7684\u679c\u5be6\u6709\u8457\u80fd\u62b5\u6297\u56b4\u82db\u74b0\u5883\u7684\u5805\u786c\u5916\u76ae\uff0c\u5c07\u98fd\u6eff\u7684\u751c\u7f8e\u679c\u8089\u96b1\u85cf\u5176\u4e2d\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "\u5eab\u963f\u5361\u810a\u722a",
-            "description": "\u5f9e\u5eab\u963f\u5361\u7684\u810a\u722a\u4e0a\u53d6\u5f97\u7684\u808c\u8171\uff0c\u53ef\u4ee5\u66ec\u88fd\u6210\u65e2\u5f37\u97cc\u4e14\u5177\u5f48\u6027\u7684\u76ae\u9769\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce",
+            "description": "\u5f9e\u5eab\u963f\u5361\u7684\u810a\u722a\u4e0a\u53d6\u5f97\u7684\u808c\u8171\uff0c\u53ef\u4ee5\u66ec\u88fd\u6210\u65e2\u5f37\u97cc\u4e14\u5177\u5f48\u6027\u7684\u76ae\u9769\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "\u845b\u514b\u5ea6",
-            "description": "\u845b\u514b\u5ea6\u662f\u591a\u91a3\u985e\u8207\u9577\u93c8\u805a\u5408\u7269\u7684\u6709\u6bd2\u6df7\u5408\u7269\uff0c\u70ba\u6a19\u6e96\u7684 Grineer \u5de5\u696d\u5316\u5b78\u6750\u6599\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce",
+            "description": "\u845b\u514b\u5ea6\u662f\u591a\u91a3\u985e\u8207\u9577\u93c8\u805a\u5408\u7269\u7684\u6709\u6bd2\u6df7\u5408\u7269\uff0c\u70ba\u6a19\u6e96\u7684 Grineer \u5de5\u696d\u5316\u5b78\u6750\u6599\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "\u4f0a\u840a\u9ad4",
-            "description": "Ostron \u4eba\u7684\u5bf6\u8cb4\u7926\u7269\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u539f",
+            "description": "Ostron \u4eba\u7684\u5bf6\u8cb4\u7926\u7269\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u539f\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "\u5c3c\u641c\u83a2",
-            "description": "\u5c3c\u641c\u53e2\u4ee5\u6b64\u56f0\u4f4f\u4e26\u6bba\u6b7b\u7375\u7269\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce",
+            "description": "\u5c3c\u641c\u53e2\u4ee5\u6b64\u56f0\u4f4f\u4e26\u6bba\u6b7b\u7375\u7269\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "\u6e90\u62d3\u6c0f\u71c8\u7c60",
+            "description": "\u7528\u4f86\u5c07\u865b\u7a7a\u4f4d\u7f6e\u6620\u5c04\u5230\u771f\u5be6\u7a7a\u9593\u7684\u5100\u5f0f\u4fe1\u6a19\u3002\n\n\u5730\u9ede\uff1a\u963f\u723e\u5e03\u96f7\u5e0c\u7279\u7684\u5be6\u9a57\u5ba4\uff08\u706b\u885b\u4e8c\uff09\u53ca\u624e\u65e5\u66fc\u865f",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "\u77f3\u7891",
             "description": "\u9019\u584a\u865b\u7a7a\u89f8\u53ca\u904e\u7684\u77f3\u982d\u860a\u542b\u8457\u90aa\u60e1\u7684\u672c\u8cea\u3002\n\n\u5730\u9ede\uff1a\u963f\u723e\u5e03\u96f7\u5e0c\u7279\u7684\u5be6\u9a57\u5ba4\uff08\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "\u8f09\u9ad4\u6bdb\u7d30\u7ba1",
+            "description": "\u7528\u65bc\u5efa\u9020\u963f\u723e\u5e03\u96f7\u5e0c\u7279\uff0e\u6e90\u62d3\u6c0f\u7684\u8f09\u9ad4\u7684\u4e00\u7a2e\u5fc5\u4e0d\u53ef\u5c11\u7684\u5b50\u90e8\u4ef6\u3002\n\u900f\u904e\u5b8c\u6210\u706b\u885b\u4e8c\u4e0a\u7684\u6e90\u62d3\u6c0f\u4e2d\u65b7\u4efb\u52d9\u4f86\u7372\u53d6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "\u9583\u720d\u865b\u9748",
-            "description": "\u9019\u4e9b Orokin \u6642\u671f\u7a00\u6709\u4e14\u61f8\u6d6e\u65bc\u7a7a\u4e2d\u7684\u907a\u8de1\uff0c\u8fc4\u4eca\u4ecd\u76e3\u8996\u8457\u706b\u885b\u4e8c\u5730\u5e95\u6df1\u8655\u7684\u9694\u96e2\u5eab\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730",
+            "description": "\u9019\u4e9b Orokin \u6642\u671f\u7a00\u6709\u4e14\u61f8\u6d6e\u65bc\u7a7a\u4e2d\u7684\u907a\u8de1\uff0c\u8fc4\u4eca\u4ecd\u76e3\u8996\u8457\u706b\u885b\u4e8c\u5730\u5e95\u6df1\u8655\u7684\u9694\u96e2\u5eab\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "\u7e6b\u722a\u5b62\u7c7d",
-            "description": "\u534a\u6210\u5f62\uff0c\u4e0d\u5b8c\u6574\u7684\u5b62\u5b50\u5a92\u4ecb\uff0c\u55ae\u55ae\u53ea\u662f\u5e36\u6709\u9264\u722a\u7684\u4e00\u584a\u62bd\u6410\u7684\u8840\u8089\u800c\u5df2\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730",
+            "description": "\u534a\u6210\u5f62\uff0c\u4e0d\u5b8c\u6574\u7684\u5b62\u5b50\u5a92\u4ecb\uff0c\u55ae\u55ae\u53ea\u662f\u5e36\u6709\u9264\u722a\u7684\u4e00\u584a\u62bd\u6410\u7684\u8840\u8089\u800c\u5df2\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "\u795e\u7d93\u7d50\u7bc0",
-            "description": "\u7531\u795e\u7d93\u7e96\u7dad\u3001\u8907\u5f0f\u5668\u5b98\uff0c\u4ee5\u53ca\u611f\u77e5\u8584\u819c\u7d44\u6210\u7684\u4e00\u5718\u6389\u843d\u7269\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730",
+            "description": "\u7531\u795e\u7d93\u7e96\u7dad\u3001\u8907\u5f0f\u5668\u5b98\uff0c\u4ee5\u53ca\u611f\u77e5\u8584\u819c\u7d44\u6210\u7684\u4e00\u5718\u6389\u843d\u7269\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "\u767c\u5149\u6e90\u7403",
-            "description": "\u9019\u4e9b\u7403\u9ad4\u65e9\u5df2\u5be6\u73fe\u4e86\u5b83\u5011\u7684\u529f\u7528\uff0c\u7136\u800c\u4ecd\u4ee5\u5fae\u5f31\u7684\u529b\u91cf\u55e1\u55e1\u4f5c\u97ff\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730",
+            "description": "\u9019\u4e9b\u7403\u9ad4\u65e9\u5df2\u5be6\u73fe\u4e86\u5b83\u5011\u7684\u529f\u7528\uff0c\u7136\u800c\u4ecd\u4ee5\u5fae\u5f31\u7684\u529b\u91cf\u55e1\u55e1\u4f5c\u97ff\u3002\n\n\u5730\u9ede\uff1a\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "\u8056\u6cb9\u74b0\u578b\u88dd\u7f6e",
-            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u8056\u6cb9\u74b0\u578b\u88dd\u7f6e\u53ef\u900f\u904e\u64ca\u6557\u5229\u6f64\u6536\u5272\u8005\u5713\u86db\u7372\u5f97\u3002",
+            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u8056\u6cb9\u74b0\u578b\u88dd\u7f6e\u53ef\u5728\u91d1\u661f\u7684\u5967\u5e03\u5c71\u8c37\u88e1\u900f\u904e\u64ca\u6557\u5229\u6f64\u6536\u5272\u8005\u5713\u86db\u7372\u5f97\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "\u5929\u85cd\u74b0\u578b\u88dd\u7f6e",
-            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u5929\u85cd\u74b0\u578b\u88dd\u7f6e\u53ef\u900f\u904e\u64ca\u6557\u525d\u524a\u8005\u5713\u86db\u7372\u5f97\u3002",
+            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u5929\u85cd\u74b0\u578b\u88dd\u7f6e\u53ef\u5728\u91d1\u661f\u7684\u5967\u5e03\u5c71\u8c37\u88e1\u900f\u904e\u64ca\u6557\u525d\u524a\u8005\u5713\u86db\u7372\u5f97\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "\u544a\u9054\u74b0\u578b\u88dd\u7f6e",
-            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u544a\u9054\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u6607\u83ef\u5be6\u9a57\u5ba4\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u585e\u6258\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
+            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u544a\u9054\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u6607\u83ef\u5be6\u9a57\u5ba4\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u585e\u6258\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u91d1\u661f\u7684\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "\u7dad\u52a0\u74b0\u578b\u88dd\u7f6e",
-            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u7dad\u52a0\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u592a\u7a7a\u7ad9\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u5fae\u87ce\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
+            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u7dad\u52a0\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u592a\u7a7a\u7ad9\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u5fae\u87ce\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u91d1\u661f\u7684\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "\u7d22\u62c9\u74b0\u578b\u88dd\u7f6e",
-            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u7d22\u62c9\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u6f64\u76c8\u5bfa\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u51f1\u5854\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
+            "description": "\u4e00\u7a2e\u529f\u80fd\u53ca\u8d77\u6e90\u672a\u77e5\u7684\u88dd\u7f6e\u3002\u7d22\u62c9\u91cc\u65af\u4e4b\u8072\u4ee5\u53ca\u591c\u7fbd\u5c0d\u5176\u6975\u5ea6\u91cd\u8996\u3002\n\n\u7d22\u62c9\u74b0\u578b\u88dd\u7f6e\u53ef\u5f9e\u4f4d\u65bc\u5967\u5e03\u5c71\u8c37\u300c\u6f64\u76c8\u5bfa\u300d\u7684\u6575\u4eba\uff0c\u4ee5\u53ca\u51f1\u5854\u86db\u5f62\u6a5f\u4e0a\u7372\u5f97\u3002\u4e5f\u53ef\u4ee5\u5728\u91d1\u661f\u7684\u5967\u5e03\u5c71\u8c37\u5468\u906d\u7684\u6d1e\u7a74\u4e2d\u4ee5\u62fe\u53d6\u7269\u7684\u5f62\u5f0f\u627e\u5230\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "\u71b1\u80fd\u8edf\u6ce5",
-            "description": "\u5730\u7403\u5316\u904e\u7a0b\u4e2d\u6ef2\u6d41\u4e4b\u5854\u7684\u526f\u7522\u7269\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37",
+            "description": "\u5730\u7403\u5316\u904e\u7a0b\u4e2d\u6ef2\u6d41\u4e4b\u5854\u7684\u526f\u7522\u7269\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "\u9640\u87ba\u5100\u78c1\u62b5\u7cfb\u7d71",
-            "description": "\u4e00\u7a2e\u53ef\u4ee5\u5728\u5404\u7a2e Corpus \u7cfb\u7d71\u4e2d\u8abf\u7bc0\u4f4d\u7f6e\u53ca\u9ad8\u5ea6\u7684\u6a21\u7d44\u90e8\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u5967\u5e03\u5c71\u8c37\u4e0a\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
+            "description": "\u4e00\u7a2e\u53ef\u4ee5\u5728\u5404\u7a2e Corpus \u7cfb\u7d71\u4e2d\u8abf\u7bc0\u4f4d\u7f6e\u53ca\u9ad8\u5ea6\u7684\u6a21\u7d44\u90e8\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u91d1\u661f\u4e0a\u7684\u5967\u5e03\u5c71\u8c37\u88e1\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "\u5927\u6c23\u7cfb\u7d71",
-            "description": "\u4e00\u7a2e\u53ef\u4ee5\u62b5\u92b7\u5728\u59cb\u6e90\u661f\u7cfb\u4e2d\u9047\u5230\u7684\u8a31\u591a\u5927\u6c23\u689d\u4ef6\u7684\u6a21\u7d44\u90e8\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u5967\u5e03\u5c71\u8c37\u4e0a\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
+            "description": "\u4e00\u7a2e\u53ef\u4ee5\u62b5\u92b7\u5728\u59cb\u6e90\u661f\u7cfb\u4e2d\u9047\u5230\u7684\u8a31\u591a\u5927\u6c23\u689d\u4ef6\u7684\u6a21\u7d44\u90e8\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u91d1\u661f\u4e0a\u7684\u5967\u5e03\u5c71\u8c37\u88e1\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "\u62b5\u91cd\u7cfb\u7d71",
-            "description": "\u53cd\u91cd\u529b\u7cfb\u7d71\u53ef\u4ee5\u8b93\u4e00\u540d\u4f7f\u7528\u8005\u55ae\u7368\u64cd\u63a7\u6c89\u91cd\u7684\u7269\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u5967\u5e03\u5c71\u8c37\u4e0a\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
+            "description": "\u53cd\u91cd\u529b\u7cfb\u7d71\u53ef\u4ee5\u8b93\u4e00\u540d\u4f7f\u7528\u8005\u55ae\u7368\u64cd\u63a7\u6c89\u91cd\u7684\u7269\u4ef6\u3002\u900f\u904e\u5b8c\u6210\u91d1\u661f\u4e0a\u7684\u5967\u5e03\u5c71\u8c37\u88e1\u7684\u6436\u52ab\u884c\u52d5\u53d6\u5f97\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "\u5fc3\u808c\u83cc\u5b62\u5b50",
-            "description": "\u4e00\u7a2e\u771f\u83cc\u9ad4\uff0c\u56e0\u70ba\u5176\u591a\u7a2e\u7528\u9014\u800c\u88ab\u73cd\u8996\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37",
+            "description": "\u4e00\u7a2e\u771f\u83cc\u9ad4\uff0c\u56e0\u70ba\u5176\u591a\u7a2e\u7528\u9014\u800c\u88ab\u73cd\u8996\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "\u845b\u5609\u91cc\u83cc\u5b62\u5b50",
-            "description": "\u9019\u7a2e\u5c71\u8c37\u5de8\u5927\u83cc\u985e\u7684\u751f\u6b96\u5b62\u5b50\u7531\u65bc\u5176\u5305\u542b\u7684\u8907\u96dc\u5316\u5408\u7269\u800c\u4ee4\u4eba\u5782\u6d8e\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37",
+            "description": "\u9019\u7a2e\u5c71\u8c37\u5de8\u5927\u83cc\u985e\u7684\u751f\u6b96\u5b62\u5b50\u7531\u65bc\u5176\u5305\u542b\u7684\u8907\u96dc\u5316\u5408\u7269\u800c\u4ee4\u4eba\u5782\u6d8e\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "\u7df9\u5e15\u7624",
-            "description": "\u9019\u4e9b\u690d\u7269\u767c\u5149\u7684\u7d50\u7624\u5728\u5bd2\u51b7\u7684\u74b0\u5883\u4e2d\u767c\u51fa\u660e\u4eae\u7684\u5149\u8f1d\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37",
+            "description": "\u9019\u4e9b\u690d\u7269\u767c\u5149\u7684\u7d50\u7624\u5728\u5bd2\u51b7\u7684\u74b0\u5883\u4e2d\u767c\u51fa\u660e\u4eae\u7684\u5149\u8f1d\u3002\n\n\u5730\u9ede\uff1a\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "\u5821\u58d8\u5e7b\u5f71\u88dd\u7f6e",
             "description": "\u6a19\u6e96\u5e7b\u5f71\u88dd\u7f6e\u5834\u6240\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "\u8056\u5802\u5e7b\u5f71\u88dd\u7f6e",
+            "description": "\u5728\u89e3\u5256\u8056\u5802\u4e2d\u6a21\u64ec\u6230\u9b25\uff0c\u6b64\u5e7b\u5f71\u88dd\u7f6e\u8a2d\u5b9a\u7684\u6575\u4eba\u96e3\u5ea6\u80fd\u6bd4\u6a19\u6e96\u8a2d\u5b9a\u7684\u4e0a\u9650\u591a 25 \u7b49\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "\u5929\u78e8\u77f3",
-            "description": "\u5728\u9ad8\u58d3\u4e0b\u51dd\u7d50\u7684\u795e\u7d93\u50b3\u905e\u7269\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u5728\u9ad8\u58d3\u4e0b\u51dd\u7d50\u7684\u795e\u7d93\u50b3\u905e\u7269\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\u75c5\u7076\u3001\u63a2\u6e90\u6e90\u62d3\u6c0f\u5323\u5b50\uff0c\u4ee5\u53ca\u9694\u96e2\u5eab\u8cde\u91d1\u4efb\u52d9\u4e2d\u7684\u984d\u5916\u5bf6\u5eab\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "\u5927\u6efe\u77f3",
-            "description": "\u5916\u5206\u6ccc\u6db2\u5f62\u6210\u7684\u5c0f\u6eaa\uff0c\u7d93\u904e\u6578\u500b\u4e16\u7d00\u786c\u5316\u800c\u6210\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u5916\u5206\u6ccc\u6db2\u5f62\u6210\u7684\u5c0f\u6eaa\uff0c\u7d93\u904e\u6578\u500b\u4e16\u7d00\u786c\u5316\u800c\u6210\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\u75c5\u7076\u3001\u63a2\u6e90\u6e90\u62d3\u6c0f\u5323\u5b50\uff0c\u4ee5\u53ca\u9694\u96e2\u5eab\u8cde\u91d1\u4efb\u52d9\u4e2d\u7684\u984d\u5916\u5bf6\u5eab\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "\u4e9e\u8108\u7926",
-            "description": "\u7d50\u5be6\u4e14\u5e36\u6709\u91d1\u5c6c\u7279\u6027\uff0c\u5177\u6709\u9ad8\u5ea6\u5f48\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u7d50\u5be6\u4e14\u5e36\u6709\u91d1\u5c6c\u7279\u6027\uff0c\u5177\u6709\u9ad8\u5ea6\u5f48\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u7926\u8108\u75c5\u7076\u3001\u65af\u63d0\u4e9e Infested \u56ca\u80de\uff0c\u4ee5\u53ca\u88f8\u4fd0\u7d22 Infested \u56ca\u80de\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "\u5df4\u5f17\u7926",
-            "description": "\u7531\u65bc\u5b58\u5728\u5167\u9577\u7684\u611f\u67d3\u86cb\u767d\u8108\u7d61\uff0c\u5df4\u5f17\u7926\u5177\u6709\u53ef\u5851\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u7531\u65bc\u5b58\u5728\u5167\u9577\u7684\u611f\u67d3\u86cb\u767d\u8108\u7d61\uff0c\u5df4\u5f17\u7926\u5177\u6709\u53ef\u5851\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u7926\u8108\u75c5\u7076\u3001\u88f8\u4fd0\u7d22 Infested \u56ca\u80de\uff0c\u4ee5\u53ca\u9694\u96e2\u5eab\u8cde\u91d1\u4efb\u52d9\u4e2d\u7684\u984d\u5916\u5bf6\u5eab\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "\u4ea1\u9ab8\u77f3",
-            "description": "\u5728\u611f\u67d3\u83a2\u6bbc\u5167\u7dca\u7dca\u58d3\u7e2e\u4e26\u4fdd\u5b58\u8d85\u904e\u6578\u5343\u5e74\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u5728\u611f\u67d3\u83a2\u6bbc\u5167\u7dca\u7dca\u58d3\u7e2e\u4e26\u4fdd\u5b58\u8d85\u904e\u6578\u5343\u5e74\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\u75c5\u7076\uff0c\u4ee5\u53ca\u93ae\u9b42\u65b9\u5c16\u7891\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "\u5947\u9b54\u7926",
-            "description": "\u53ef\u4ee5\u900f\u904e\u611f\u67d3\u7269\u9444\u9020\u4e0d\u904e\u4ecd\u7dad\u6301\u5c0d\u611f\u67d3\u7684\u62b5\u6297\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u53ef\u4ee5\u900f\u904e\u611f\u67d3\u7269\u9444\u9020\u4e0d\u904e\u4ecd\u7dad\u6301\u5c0d\u611f\u67d3\u7684\u62b5\u6297\u6027\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u75c5\u7076\u3001\u93ae\u9b42\u65b9\u5c16\u7891\uff0c\u4ee5\u53ca\u65af\u63d0\u4e9e Infested \u56ca\u80de\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "\u8d6b\u9f8d\u77f3",
-            "description": "\u611f\u67d3\u751f\u7269\u8cea\u7684\u8907\u5f0f\u6dcb\u5df4\u7cfb\u7d71\u5167\u7684\u805a\u5408\u9ad4\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u611f\u67d3\u751f\u7269\u8cea\u7684\u8907\u5f0f\u6dcb\u5df4\u7cfb\u7d71\u5167\u7684\u805a\u5408\u9ad4\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "\u64ec\u6a21\u7926",
-            "description": "\u6a21\u4eff\u751f\u7269\u5668\u5b98\u5f62\u614b\u7684\u611f\u67d3\u7926\u77f3\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u75c5\u7076\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
+            "description": "\u6a21\u4eff\u751f\u7269\u5668\u5b98\u5f62\u614b\u7684\u611f\u67d3\u7926\u77f3\u3002\n\u4f86\u6e90\uff1a\u9ec3\u8272\u7926\u8108\u75c5\u7076\uff0c\u4ee5\u53ca\u9694\u96e2\u5eab\u8cde\u91d1\u4efb\u52d9\u4e2d\u7684\u984d\u5916\u5bf6\u5eab\uff08\u9b54\u88d4\u7981\u5730\uff0c\u706b\u885b\u4e8c\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "\u85cd\u9285\u7926\u77f3",
-            "description": "\u4e00\u9846\u593e\u96dc\u5c64\u72c0\u96dc\u8cea\u7684\u85cd\u8272\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u9846\u593e\u96dc\u5c64\u72c0\u96dc\u8cea\u7684\u85cd\u8272\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "\u5144\u5f1f\u4e4b\u77f3",
-            "description": "\u4e00\u9846\u593e\u96dc\u5c64\u72c0\u96dc\u8cea\u7684\u85cd\u8272\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u9846\u6e3e\u6fc1\u7684\u6676\u9ad4\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "\u708e\u6676",
-            "description": "\u4e00\u7a2e\u7070\u6697\u3001\u8106\u6027\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u7a2e\u7070\u6697\u3001\u8106\u6027\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "\u4e9e\u9285",
-            "description": "\u4e00\u7a2e\u67d4\u8edf\u3001\u5ef6\u5c55\u6027\u597d\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u7a2e\u67d4\u8edf\u3001\u5ef6\u5c55\u6027\u597d\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "\u7dcb\u7d05\u77f3",
-            "description": "\u4e00\u9846\u8840\u7d05\u7684\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u9846\u8840\u7d05\u7684\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "\u91d1\u8f1d",
-            "description": "\u4e00\u7a2e\u660e\u4eae\u3001\u6c89\u91cd\u4e26\u4e14\u50b3\u5c0e\u6027\u597d\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u7a2e\u660e\u4eae\u3001\u6c89\u91cd\u4e26\u4e14\u50b3\u5c0e\u6027\u597d\u7684\u91d1\u5c6c\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "\u7fe0\u87a2\u77f3",
-            "description": "\u4e00\u7a2e\u5177\u9ad8\u53cd\u5149\u5ea6\u3001\u7da0\u8272\u7684\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u7a2e\u5177\u9ad8\u53cd\u5149\u5ea6\u3001\u7da0\u8272\u7684\u5bf6\u77f3\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "\u9435\u5ca9",
-            "description": "\u4e00\u7a2e\u5f48\u6027\u826f\u597d\u7684\u91d1\u5c6c\uff0c\u85c9\u7531\u5176\u4e2d\u7684\u96dc\u8cea\u786c\u5316\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
+            "description": "\u4e00\u7a2e\u5f48\u6027\u826f\u597d\u7684\u91d1\u5c6c\uff0c\u85c9\u7531\u5176\u4e2d\u7684\u96dc\u8cea\u786c\u5316\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u91cd\u64ca\u8005\uff08\u591c\u9748\u5e73\u91ce\uff0c\u5730\u7403\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "\u7fe1\u65af\u654f\u77f3",
-            "description": "\u4e00\u7a2e\u88ab\u767c\u73fe\u5305\u88f9\u5728\u91d1\u5c6c\u788e\u7247\u4e2d\u7684\u5bf6\u77f3\uff0c\u6709\u8457\u602a\u8a95\u7684\u7da0\u8272\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u4e00\u7a2e\u88ab\u767c\u73fe\u5305\u88f9\u5728\u91d1\u5c6c\u788e\u7247\u4e2d\u7684\u5bf6\u77f3\uff0c\u6709\u8457\u602a\u8a95\u7684\u7da0\u8272\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "\u591c\u77f3",
-            "description": "\u4e00\u7a2e\u9ed1\u8272\u7684\u5bf6\u77f3\uff0c\u5167\u6709\u8272\u5f69\u6591\u6595\u7684\u85cd\u8272\u96dc\u8cea\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u4e00\u7a2e\u9ed1\u8272\u7684\u5bf6\u77f3\uff0c\u5167\u6709\u8272\u5f69\u6591\u6595\u7684\u85cd\u8272\u96dc\u8cea\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "\u9435\u93b3\u7926",
-            "description": "\u4e00\u7a2e\u88ab\u91d1\u661f\u7684\u5de8\u5927\u5927\u6c23\u58d3\u786c\u5316\u7684\u7926\u7269\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u4e00\u7a2e\u88ab\u91d1\u661f\u7684\u5de8\u5927\u5927\u6c23\u58d3\u786c\u5316\u7684\u7926\u7269\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "\u9178\u5316\u7926\u7269",
-            "description": "\u9178\u96e8\u5728\u51b0\u4e0b\u5f62\u6210\u7684\u6c89\u7a4d\u7269\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u9178\u96e8\u5728\u51b0\u4e0b\u5f62\u6210\u7684\u6c89\u7a4d\u7269\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "\u9577\u5e9a\u7926\u77f3",
-            "description": "\u8655\u65bc\u96f6\u5ea6\u4ee5\u4e0b\u6642\u9ecf\u571f\u5f37\u5316\u6210\u4e86\u6975\u5176\u8010\u7528\u7684\u77f3\u982d\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u8655\u65bc\u96f6\u5ea6\u4ee5\u4e0b\u6642\u9ecf\u571f\u5f37\u5316\u6210\u4e86\u6975\u5176\u8010\u7528\u7684\u77f3\u982d\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "\u586b\u5145\u7d30\u77f3",
-            "description": "\u4e00\u7a2e\u4e0d\u53ef\u601d\u8b70\u7684\u5bf6\u77f3\uff0c\u751f\u9577\u5728\u63a1\u51fa\u7926\u77f3\u7684\u5ca9\u8108\u4e2d\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u4e00\u7a2e\u4e0d\u53ef\u601d\u8b70\u7684\u5bf6\u77f3\uff0c\u751f\u9577\u5728\u63a1\u51fa\u7926\u77f3\u7684\u5ca9\u8108\u4e2d\u3002\n\u4f86\u6e90\uff1a\u85cd\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "\u555f\u660e\u7926\u77f3",
-            "description": "\u4e00\u7a2e\u73cd\u8cb4\u7684\u91d1\u5c6c\uff0c\u7531\u51b7\u537b\u6db2\u526f\u7522\u7269\u51b6\u7149\u800c\u6210\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
+            "description": "\u4e00\u7a2e\u73cd\u8cb4\u7684\u91d1\u5c6c\uff0c\u7531\u51b7\u537b\u6db2\u526f\u7522\u7269\u51b6\u7149\u800c\u6210\u3002\n\u4f86\u6e90\uff1a\u7d05\u8272\u7926\u8108\uff0c\u4ee5\u53ca\u8cc7\u6e90\u5132\u5b58\u5bb9\u5668\uff08\u5967\u5e03\u5c71\u8c37\uff0c\u91d1\u661f\uff09",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "\u591c\u9748\u4e4b\u606f",
-            "description": "\u4e00\u7a2e\u53ea\u80fd\u5728\u591c\u9748\u5e73\u91ce\u4e0a\u627e\u5230\u7684\u6c23\u9ad4\uff0c\u5df2\u88ab\u7cbe\u7149\u5230\u4e86\u6700\u7d14\u7cb9\u7684\u72c0\u614b\u3002\u900f\u904e\u5b8c\u6210\u5e0c\u5716\u65af\u8cde\u91d1\u4efb\u52d9\u53d6\u5f97\u3002",
+            "description": "\u4e00\u7a2e\u53ea\u80fd\u5728\u591c\u9748\u5e73\u91ce\u4e0a\u627e\u5230\u7684\u6c23\u9ad4\uff0c\u5df2\u88ab\u7cbe\u7149\u5230\u4e86\u6700\u7d14\u7cb9\u7684\u72c0\u614b\u3002\u900f\u904e\u5b8c\u6210\u5e0c\u5716\u65af\u8cde\u91d1\u4efb\u52d9\u53d6\u5f97\u3002\n\n\u5730\u9ede\uff1a\u591c\u9748\u5e73\u91ce\u8cde\u91d1\u4efb\u52d9\uff0c\u5730\u7403",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Hunhow \u6578\u64da\u666f\u89c0\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "\u4e09\u4f0f\u5929\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "\u4e09\u4f0f\u5929\u591c\u665a\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "\u5e0c\u5716\u65af\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Corpus \u8239\u8236\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Corpus \u8239\u8266\u5eab\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Corpus \u8ca8\u5132\u5009\u5eab\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "\u5de8\u7832\u7832\u81fa\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Corpus \u592a\u7a7a\u8ecc\u9053\u7832\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "12 \u865f\u7532\u677f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "\u706b\u885b\u4e8c\u9694\u96e2\u5eab\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "\u706b\u885b\u4e8c\u7a81\u570d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "\u706b\u885b\u4e8c\u96b1\u7a96\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "\u706b\u885b\u4e8c\u6df1\u9083\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "\u706b\u885b\u4e8c\u5893\u7a9f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "\u706b\u885b\u4e8c\u5929\u7136\u4e95\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "\u706b\u885b\u4e8c\u58ae\u843d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "\u706b\u885b\u4e8c\u907a\u68c4\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "\u706b\u885b\u4e8c\u9b54\u5fc3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "\u706b\u885b\u4e8c\u4ea1\u9ab8\u6bbf\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "\u706b\u885b\u4e8c\u9b54\u88d4\u7981\u5730\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "\u706b\u885b\u4e8c\u5730\u5e95\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "\u706b\u885b\u4e8c\u8584\u819c\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "\u706b\u885b\u4e8c\u908a\u969b\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "\u706b\u885b\u4e8c\u5fc3\u5ba4\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "\u706b\u885b\u4e8c\u96a7\u9053\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "\u5730\u7a9f\u7981\u885b\u71df\u5730\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "\u5730\u7a9f\u5bc4\u61a9\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "\u5730\u7a9f\u6708\u52d5\u7403\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "\u5730\u7a9f\u6b4c\u5287\u9662\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "\u5730\u7a9f\u516c\u5712\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "\u5730\u7a9f\u5c0f\u93ae\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "\u5730\u7a9f\u51a5\u90ca\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "\u5967\u91d1\u86df\u9f8d\u7af6\u6280\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "\u9695\u5751\u5217\u5dbc\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "\u6d6e\u81fa\u5217\u5dbc\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "\u66f2\u6298\u7fa4\u5cf6\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "\u5c0f\u578b\u5217\u5dbc\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "\u76c6\u5730\u5217\u5dbc\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "\u5713\u5f62\u5287\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "\u6a94\u6848\u82d1\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "\u5927\u9678\u6751\u5b50\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "\u51a5\u5e02\u5730\u5340\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "\u5929\u5e02\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "\u57ce\u5821\u93ae\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Teshin \u7684\u6d1e\u7a9f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "\u591c\u9748\u5e73\u91ce\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "\u798f\u723e\u5716\u5a1c\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "\u96c6\u6c23\u57ce Alad \u7684\u5be6\u9a57\u5ba4\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "\u96c6\u6c23\u57ce\u4e0a\u5c64\u7269\u6d41\u90e8\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "\u96c6\u6c23\u57ce\u6b7b\u4ea1\u51fa\u53e3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "\u96c6\u6c23\u57ce\u4e2d\u592e\u964d\u843d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "\u96c6\u6c23\u57ce\u8d70\u9053\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "\u96c6\u6c23\u57ce\u5347\u964d\u6a5f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "\u96c6\u6c23\u57ce\u96f2\u9704\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "\u96c6\u6c23\u57ce\u8d70\u5eca\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "\u96c6\u6c23\u57ce\u7384\u95dc\u5e95\u5c64\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "\u96c6\u6c23\u57ce\u5143\u7d20\u5206\u914d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "\u96c6\u6c23\u57ce\u8abf\u7bc0\u5668\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "\u96c6\u6c23\u57ce\u5143\u7d20\u7cbe\u7149\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "\u96c6\u6c23\u57ce\u5927\u5ef3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Grineer \u68ee\u6797\u6c34\u6cf5\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Grineer \u68ee\u6797\u5de5\u5ee0\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Grineer \u68ee\u6797\u5de5\u696d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "\u8d64\u6bd2\u8981\u585e\u88c2\u7e2b\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Grineer \u5e06\u8239\u6230\u8266\u8ca8\u8259\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Grineer \u6d77\u5e95\u5be6\u9a57\u5ba4\u96e2\u5fc3\u6a5f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Grineer \u99d0\u7d2e\u5730\u706b\u7832\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Harrow \u795e\u5edf\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Inaros \u53e4\u5893\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Infested \u8239\u8266\u5168\u50cf\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Onkko \u7684\u6307\u63ee\u6240\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Orokin \u9ad8\u5854\u64a4\u96e2\u9ede\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "\u6708\u7403\u6a13\u5ef3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "\u8ecc\u9053\u98db\u884c\u5668\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Granum \u865b\u7a7a\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Teshin \u7684\u96b1\u5c45\u8655\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "\u6708\u52d5\u7403\u7af6\u6280\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Umbra \u5ead\u9662\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "\u4ef2\u88c1\u8005\u6cd5\u5ead\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "\u6708\u7403\u62d8\u7981\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "\u6708\u7403\u82d7\u5703\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "\u8607\u9054\u6578\u64da\u666f\u89c0\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Lotus \u5927\u5ef3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Corpus \u51b0\u5c01\u661f\u7403\u6b98\u9ab8\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Amaryn \u7684\u907f\u96e3\u6240\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Grineer \u9020\u8239\u5ee0\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "\u843d\u9280\u6a39\u5ead\u8056\u6240\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Ergo \u7684\u6703\u8b70\u5ba4\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Mycona \u6b96\u6c11\u5730\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Corpus \u96c6\u6c23\u57ce\u7ba1\u9053\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Veil \u7684\u62d8\u675f\u81fa\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Hunhow \u5927\u5ef3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Infested \u8239\u8236\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Orokin \u907a\u8de1\u5ee3\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "\u8056\u6bbf\u901a\u9053\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Cressa \u7684\u99d0\u7d2e\u8655\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Grineer \u99d0\u7d2e\u5730\u53cd\u61c9\u7210\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "\u8d64\u6bd2\u738b\u5ea7\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "\u666e\u62c9\u5496\u85a9\u89b2\u898b\u5ba4\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "\u5167\u6230\u6289\u64c7\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "\u901a\u98a8\u5c0f\u5b50\u4ff1\u6a02\u90e8\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "\u5967\u5e03\u5c71\u8c37\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "\u8272\u9375\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "\u571f\u661f\u516d\u865f\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "\u51b7\u5bd2\u5fb9\u9aa8\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "\u963f\u723e\u5e03\u96f7\u5e0c\u7279\u7684\u6a94\u6848\u5eab\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "\u963f\u723e\u5e03\u96f7\u5e0c\u7279\u7684\u8fa6\u4e8b\u8655\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Dante \u7684\u9000\u96b1\u8655\u5834\u666f",
+            "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "\u89e3\u5256\u8056\u5802\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "The Abandoned Vessel Scene",
+            "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "\u788e\u8a9e\u5cfd\u8c37\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "\u89e3\u5256\u69cb\u9020\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "\u624e\u65e5\u66fc\u5713\u5f62\u5287\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "\u624e\u65e5\u66fc\u5be2\u5340\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "\u624e\u65e5\u66fc\u8ca8\u8259\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "\u624e\u65e5\u66fc\u76e3\u7344\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "\u624e\u65e5\u66fc\u6c34\u683d\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "\u624e\u65e5\u66fc\u5f8b\u6cd5\u9662\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "\u624e\u65e5\u66fc\u5c45\u4f4f\u5340\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "\u624e\u65e5\u66fc\u6708\u52d5\u7403\u5834\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "\u624e\u65e5\u66fc\u963f\u723e\u5e03\u96f7\u5e0c\u7279\u516c\u5712\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "\u624e\u65e5\u66fc\u5be7\u975c\u4e4b\u5c64\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "\u624e\u65e5\u66fc\u5929\u4f7f\u6b47\u606f\u8655\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "\u624e\u65e5\u66fc\u86f9\u5dd6\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "\u624e\u65e5\u66fc\u6821\u5712\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "\u624e\u65e5\u66fc\u505c\u9760\u6e2f\u7063\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "\u624e\u65e5\u66fc\u8056\u7269\u9a45\u52d5\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "\u6708\u7403 Circulus \u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Sentient \u6a13\u5ef3\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Sentient \u6e90\u6cc9\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Sentient \u76c6\u5730\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Sentient \u5ef3\u5802\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Sentient \u8056\u58c7\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,21 +5332,21 @@
             "name": "\u7834\u51aa\u68ee\u6797\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "\u7834\u51aa\u9aa8\u87ba\u6bcd\u8266\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "\u7834\u51aa\u5de5\u5ee0\u5834\u666f",
             "description": "\u89e3\u9396\u6b64\u5834\u666f\u4ee5\u4fbf\u5728 Captura \u6a21\u5f0f\u4f7f\u7528\uff0c\u53ef\u4ee5\u5f9e\u8ecd\u68b0\u5eab\u7684\u5916\u89c0\u6a19\u7c64\u9032\u5165\u3002",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "\u654f\u92b3\u8996\u7db2\u819c",
+            "description": "\u8ecc\u9053\u98db\u884c\u5668\u7684\u654f\u92b3\u4e4b\u773c\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "\u667a\u5178\u5e7d\u96bc",
+            "description": "\u667a\u5178\u7684\u9801\u4e2d\u98db\u51fa\u4e00\u96bb\u5e7d\u96bc\u4f86\u5728\u4f60\u7684\u8ecc\u9053\u98db\u884c\u5668\u4e2d\u8207\u4f60\u4f5c\u4f34\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Belric \u548c Rania\u30fb\u7de3\u7e8c",
             "description": "Belric \u548c Rania \u9019\u5c0d\u6200\u4eba\u7684\u56de\u61b6\u5728\u6c34\u6676\u5167\u6c38\u7559\u5b58\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "\u9713\u8679\u9a55\u50b2\u4e4b\u7ffc",
+            "description": "\u900f\u904e\u9019\u500b\u9583\u8000\u7684\u8ecc\u9053\u98db\u884c\u5668\u88dd\u98fe\u4f86\u6b61\u6176\u540c\u5fd7\u9a55\u50b2\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "\u4e9e\u745f\u73a9\u5076",
+            "description": "\u300c\u6211\u5c0d 1999 \u6642\u671f\u7684\u7814\u7a76\u767c\u73fe\u5230\u4e00\u500b\u540d\u53eb\u300c\u7d68\u6bdb\u642d\u6a94\u300d\u7684\u7121\u50f9\u6587\u7269\u3002\u6211\u5011\u5fc5\u9808\u91cd\u65b0\u5275\u9020\u904e\u53bb\u7684\u5947\u8e5f\u3002\u300d\u2500\u2500Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "\u6d77\u7058\u5eab\u5a03\u73a9\u5076",
             "description": "\u4e00\u500b\u975e\u5e38\u7279\u5225\u7684\u73a9\u5076\uff0c\u4ee5\u7d00\u5ff5\u4f60\u5728\u6230\u8853\u8b66\u5831\uff1a\u4e09\u4f0f\u5929\u4e2d\u7684\u53c3\u8207\u3002\u70ba\u4e86\u6fd5\u6f09\u6f09\u7684\u69ae\u8b7d\uff01",
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "\u65e5\u51fa\u5eab\u5a03\u73a9\u5076",
             "description": "\u4e00\u500b\u975e\u5e38\u7279\u5225\u7684\u73a9\u5076\uff0c\u4ee5\u7d00\u5ff5\u4f60\u5728\u6230\u8853\u8b66\u5831\uff1a\u4e09\u4f0f\u5929\u4e2d\u7684\u53c3\u8207\u3002\u70ba\u4e86\u6fd5\u6f09\u6f09\u7684\u69ae\u8b7d\uff01",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Ordis \u5316\u8eab\u73a9\u5076",
+            "description": "\u300c\u6307\u63ee\u5b98\u6536\u85cf\u4e86\u5404\u5f0f\u8ff7\u4eba\u7684\u73a9\u5076\uff0cOrdis \u89ba\u5f97\u6307\u63ee\u5b98\u4e5f\u6703\u60f3\u8981\u4e00\u6b3e\u5fe0\u8aa0\u4e2d\u6a1e\u7684\u73a9\u5076\u5427\uff01\u300d\u2500\u2500 Ordis",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "\u4e00\u500b\u73cd\u60dc\u6355\u7372\u7684\u6a19\u672c\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "\u540c\u5fd7\u9a55\u50b2\u5c55\u793a\u5716 2024",
+            "description": "\u4ee5\u9019\u500b\u5c55\u793a\u5716\u4f86\u6176\u795d\u540c\u5fd7\u9a55\u50b2\u3002\u7531 RoboMythos \u6240\u8a2d\u8a08\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Baruuk Prime \u6416\u982d\u5a03\u5a03",
+            "description": "\u4e00\u5c0f\u5ea7 Baruuk Prime \u7684\u6416\u982d\u5a03\u5a03\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Baruuk Prime \u66fc\u9640\u7f85",
             "description": "\u900f\u904e Baruuk Prime \u5be7\u975c\u7684\u66fc\u9640\u7f85\u4f86\u6a19\u8a18\u4f60\u7684\u8ecc\u9053\u98db\u884c\u5668\u3002\u5176\u5f62\u614b\u9f13\u52f5\u51a5\u60f3\u8207\u6c89\u601d\u3002",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Grendel Prime \u6416\u982d\u5a03\u5a03",
+            "description": "\u4e00\u5c0f\u5ea7 Grendel Prime \u7684\u6416\u982d\u5a03\u5a03\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "\u9b54\u5178\u796d\u81fa",
             "description": "\u5c07\u4f60\u7684\u9b54\u5178\u5c55\u793a\u5728\u4e00\u500b\u5149\u69ae\u7684\u5730\u65b9\u3002",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Hildryn Prime \u6416\u982d\u5a03\u5a03",
+            "description": "\u4e00\u5c0f\u5ea7 Hildryn Prime \u7684\u6416\u982d\u5a03\u5a03\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Hydroid \u6416\u982d\u5a03\u5a03",
             "description": "\u4e00\u5c0f\u5ea7 Hydroid \u7684\u6416\u982d\u5a03\u5a03\u3002",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Inaros \u6416\u982d\u5a03\u5a03",
             "description": "\u4e00\u5c0f\u5ea7 Inaros \u7684\u6416\u982d\u5a03\u5a03\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "Inaros \u77f3\u68fa\u88dd\u98fe\u7269",
+            "description": "\u5728\u4efb\u4f55\u6709\u5c55\u793a\u9019\u7a2e\u4fdd\u8b77\u6027\u77f3\u68fa\u7684\u7a7a\u9593\u88e1\uff0cInaros \u90fd\u80fd\u611f\u5230\u8cd3\u81f3\u5982\u6b78\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Javi \u7684\u5857\u9d09\uff08\u86c7\u592b\u5ea7\uff09",
             "description": "\u6210\u70ba Javi \u7684\u5b78\u751f\u3002\u9019\u500b\u86c7\u592b\u5ea7\u5857\u9d09\u662f\u6839\u64da Drusus Leverian \u5c0d Lavos \u7684\u7d00\u9304\u3002",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Javi \u7684\u5857\u9d09\uff08\u5149\u5ea6\uff09",
             "description": "\u6210\u70ba Javi \u7684\u5b78\u751f\u3002\u9019\u500b\u5149\u5ea6\u5857\u9d09\u662f\u6839\u64da Drusus Leverian \u5c0d Lavos \u7684\u7d00\u9304\u3002",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Javi \u7684\u5857\u9d09\uff08\u57fa\u56e0\u7d44\uff09",
             "description": "\u6210\u70ba Javi \u7684\u5b78\u751f\u3002\u9019\u500b\u57fa\u56e0\u7d44\u5857\u9d09\u662f\u6839\u64da Drusus Leverian \u5c0d Lavos \u7684\u7d00\u9304\u3002",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "\u7fbd\u76fe & \u86c7\u77db\u88dd\u98fe\u7269",
+            "description": "\u7576\u4f60\u5c55\u793a\u9019\u4e9b\u73cd\u611b\u7684\u8ecd\u5099\u6642\uff0c\u4f60\u5c07\u5411 Styanax \u6258\u7d0d\u8482\u70cf\u81f4\u656c\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Kahl-175 \u6416\u982d\u5a03\u5a03",
             "description": "\u4e00\u5c0f\u5ea7 Kahl-175 \u7684\u6416\u982d\u5a03\u5a03\u3002",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "\u5361\u724c \u2014 Dagath",
             "description": "\u8b74\u8cac\u4e4b\u93e1",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "\u5361\u724c \u2014 Dante",
+            "description": "\u6b77\u53f2\u7684\u76e3\u8b77\u8005",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "\u5c55\u793a\u5716\uff0dTennoCon 2024",
+            "description": "\u6388\u4e88\u4e00\u540c\u53c3\u8207\u6b61\u6176 TennoCon 2024 \u6176\u5178\u7684\u73a9\u5bb6\u3002",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Teshin \u6416\u982d\u5a03\u5a03",
             "description": "\u4e00\u5c0f\u5ea7 Teshin \u7684\u6416\u982d\u5a03\u5a03\u3002",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Vor \u6416\u982d\u5a03\u5a03",
             "description": "\u4e00\u5c0f\u5ea7 Vor \u4e0a\u5c09\u7684\u6416\u982d\u5a03\u5a03\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Wisp Prime \u6416\u982d\u5a03\u5a03",
+            "description": "\u4e00\u5c0f\u5ea7 Wisp Prime \u7684\u6416\u982d\u5a03\u5a03\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "HELMINTH \u805a\u7d50\u6a21\u7d44",
-            "description": "\u5141\u8a31 Helminth \u878d\u5408\u57f7\u653f\u5b98\u9748\u77f3\u4ee5\u7372\u5f97\u66f4\u5f37\u5927\u7684\u9748\u77f3\u8b8a\u9ad4\u3002",
+            "description": "\u5141\u8a31 Helminth \u900f\u904e\u805a\u7d50\u878d\u5408\u4ee5\u53ca\u8e8d\u6607\u878d\u5408\uff0c\u5c07\u57f7\u653f\u5b98\u9748\u77f3\u8b8a\u70ba\u66f4\u5f37\u5927\u7684\u9748\u77f3\u8b8a\u9ad4\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Dante \u6a5f\u9ad4",
+            "description": "Dante Warframe \u7684\u6a5f\u9ad4\u7d44\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Dante \u982d\u90e8\u795e\u7d93\u5149\u5143",
+            "description": "Dante Warframe \u7684\u982d\u90e8\u795e\u7d93\u5149\u5143\u7d44\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Dante \u7cfb\u7d71",
+            "description": "Dante Warframe \u7684\u7cfb\u7d71\u7d44\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon \u6a5f\u9ad4",
             "description": "Oberon Warframe \u7684\u6a5f\u9ad4\u7d44\u4ef6\u3002",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "\u9e1a\u9d61\u87ba\u7cfb\u7d71",
             "description": "\u88fd\u4f5c\u5b88\u8b77\u7684\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "\u53f2\u97fb \u5200\u5203",
+            "description": "\u88fd\u4f5c\u6b66\u5668\u7684\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "\u53f2\u97fb \u624b\u5957",
+            "description": "\u88fd\u4f5c\u6b66\u5668\u7684\u90e8\u4ef6\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },

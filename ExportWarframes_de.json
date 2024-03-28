@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Quell des Lebens",
-                    "description": "Erschaffe einen Quell des Lebens auf einem Gegner. Verb\u00fcndete in der N\u00e4he des Ziels regenerieren stufenweise ihre Gesundheit und sind immun gegen Statuseffekte. Verb\u00fcndete erhalten zus\u00e4tzliche Gesundheit, wenn sie das Ziel angreifen."
+                    "description": "Erzeuge einen Quell des Lebens auf einem Feind. Verb\u00fcndete in der N\u00e4he des Ziels regenerieren langsam ihre Gesundheit und sind immun gegen Statuseffekte. Schaden durch Statuseffekte, der f\u00fcr Verb\u00fcndete in der N\u00e4he bestimmt ist, wird vom Feind absorbiert. Verb\u00fcndete erhalten zus\u00e4tzliche Gesundheit, wenn sie den Feind angreifen."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Segen",
-                    "description": "Stelle das Leben und die Schilde von Verb\u00fcndeten innerhalb von Trinitys Erfahrungaura wieder her und gib ihnen ein gewisses Ma\u00df Schadensresistenz."
+                    "description": "Gesundheit und Schilde von nahen Verb\u00fcndeten werden wiederhergestellt, w\u00e4hrend ihr erlittener Schaden durch Gegner reduziert wird."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Quell des Lebens",
-                    "description": "Erschaffe einen Quell des Lebens auf einem Gegner. Verb\u00fcndete in der N\u00e4he des Ziels regenerieren stufenweise ihre Gesundheit und sind immun gegen Statuseffekte. Verb\u00fcndete erhalten zus\u00e4tzliche Gesundheit, wenn sie das Ziel angreifen."
+                    "description": "Erzeuge einen Quell des Lebens auf einem Feind. Verb\u00fcndete in der N\u00e4he des Ziels regenerieren langsam ihre Gesundheit und sind immun gegen Statuseffekte. Schaden durch Statuseffekte, der f\u00fcr Verb\u00fcndete in der N\u00e4he bestimmt ist, wird vom Feind absorbiert. Verb\u00fcndete erhalten zus\u00e4tzliche Gesundheit, wenn sie den Feind angreifen."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Segen",
-                    "description": "Stelle das Leben und die Schilde von Verb\u00fcndeten innerhalb von Trinitys Erfahrungaura wieder her und gib ihnen ein gewisses Ma\u00df Schadensresistenz."
+                    "description": "Gesundheit und Schilde von nahen Verb\u00fcndeten werden wiederhergestellt, w\u00e4hrend ihr erlittener Schaden durch Gegner reduziert wird."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "W\u00e4hrend des Ausblutens wird Inaros in einem sch\u00fctzenden Sarkophag begraben. Er kann sich selbst wiederbeleben, indem er naheliegenden Gegnern und Verb\u00fcndeten das Leben entzieht.",
+            "passiveDescription": "Wenn Inaros t\u00f6dlichen Schaden erleidet, begr\u00e4bt er sich in einem Sarkophag und inkarniert sich als Sand, um Feinde anzugreifen und ihnen die Lebenskraft zu entziehen, um sich wiederzubeleben.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Vernichte Gegner mit einer Welle aus verfluchtem Sand, die sie blendet und ihre Gesundheit stiehlt."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Verschlingen",
-                    "description": "Verf\u00fcge \u00fcber die Macht, ein Ziel im Treibsand festzuhalten, um es zu verschlingen, seine Gesundheit zu stehlen und letztendlich einen verb\u00fcndeten Sandschatten zu schaffen."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandsturm",
-                    "description": "Werde zu einer wirbelnden Spirale aus Sand, die Gegner davonschleudert und jene verschlingt, die im Treibsand gefangen wurden."
+                    "description": "Werde ein Sandsturm. Inaros verschlingt Feinde, die in seinen Wirbelwind gezogen werden, und heilt sich selbst."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Skarab\u00e4us-H\u00fclle",
+                    "description": "Aktiviere diese Funktion, um eine R\u00fcstung zu bilden, indem du Inaros' Gesundheit entziehst. Erneute Aktivierung stoppt die Formation vorzeitig. Die Schutzschicht reduziert eingehenden Schaden und absorbiert Statuseffekte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Skarab\u00e4us-Schwarm",
-                    "description": "Aufladen verwandelt Gesundheit in eine geh\u00e4rtete Skarab\u00e4us-R\u00fcstung. Entladen sendet einen Skarab\u00e4us-Schwarm auf deine Gegner, der \u00dcberlebenden ihre Gesundheit entzieht und deinen Verb\u00fcndeten hinzuf\u00fcgt."
+                    "description": "Rufe einen Skarab\u00e4us-Schwarm herbei, um Feinde mit garantiertem Korrosion-Status anzugreifen. Der Schaden skaliert mit der Gesundheit von Inaros. Feinde, die im Schwarm get\u00f6tet werden, rufen eine Sand-Kavat, die an der Seite von Inaros k\u00e4mpft und die Skarab\u00e4en zu anderen Feinden f\u00fchrt."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "W\u00e4hrend des Ausblutens wird Inaros in einem sch\u00fctzenden Sarkophag begraben. Er kann sich selbst wiederbeleben, indem er naheliegenden Gegnern und Verb\u00fcndeten das Leben entzieht.",
+            "passiveDescription": "Wenn Inaros t\u00f6dlichen Schaden erleidet, begr\u00e4bt er sich in einem Sarkophag und inkarniert sich als Sand, um Feinde anzugreifen und ihnen die Lebenskraft zu entziehen, um sich wiederzubeleben.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Vernichte Gegner mit einer Welle aus verfluchtem Sand, die sie blendet und ihre Gesundheit stiehlt."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Verschlingen",
-                    "description": "Verf\u00fcge \u00fcber die Macht, ein Ziel im Treibsand festzuhalten, um es zu verschlingen, seine Gesundheit zu stehlen und letztendlich einen verb\u00fcndeten Sandschatten zu schaffen."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Sandsturm",
-                    "description": "Werde zu einer wirbelnden Spirale aus Sand, die Gegner davonschleudert und jene verschlingt, die im Treibsand gefangen wurden."
+                    "description": "Werde ein Sandsturm. Inaros verschlingt Feinde, die in seinen Wirbelwind gezogen werden, und heilt sich selbst."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Skarab\u00e4us-H\u00fclle",
+                    "description": "Aktiviere diese Funktion, um eine R\u00fcstung zu bilden, indem du Inaros' Gesundheit entziehst. Erneute Aktivierung stoppt die Formation vorzeitig. Die Schutzschicht reduziert eingehenden Schaden und absorbiert Statuseffekte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Skarab\u00e4us-Schwarm",
-                    "description": "Aufladen verwandelt Gesundheit in eine geh\u00e4rtete Skarab\u00e4us-R\u00fcstung. Entladen sendet einen Skarab\u00e4us-Schwarm auf deine Gegner, der \u00dcberlebenden ihre Gesundheit entzieht und deinen Verb\u00fcndeten hinzuf\u00fcgt."
+                    "description": "Rufe einen Skarab\u00e4us-Schwarm herbei, um Feinde mit garantiertem Korrosion-Status anzugreifen. Der Schaden skaliert mit der Gesundheit von Inaros. Feinde, die im Schwarm get\u00f6tet werden, rufen eine Sand-Kavat, die an der Seite von Inaros k\u00e4mpft und die Skarab\u00e4en zu anderen Feinden f\u00fchrt."
                 }
             ],
             "productCategory": "Suits"
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Abrechnung",
                     "description": "Hebt alle nahen Feinde in den Himmel und schmettert sie mit der Kraft der \u00dcberzeugung nieder. Gegner, die auf diese Weise get\u00f6tet werden, haben die Chance eine Gesundheitskugel fallen zu lassen."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Wissenssuchender. Bewahrer der Geschichte. Wagemutiger Forscher der Leverian-\u00dcberlieferungen. Dante verfasst geheimnisvolle Geschichten, um Verb\u00fcndete zu unterst\u00fctzen und Feinde zu vernichten.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Noctua scannt Ziele und zeichnet Informationen f\u00fcr deinen Codex auf. Statuschance erh\u00f6ht sich bei komplett gescannten Zielen um |CHANCE| %.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "\u00d6ffne Noctua, Dantes Erhabenen Foliant, und entfessele eine Geschichte des Leidens \u00fcber seine Feinde."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Licht-Vers",
+                    "description": "Dantes vitalisierende Komposition verleiht ihm und seinen Verb\u00fcndeten \u00dcberschutz und erh\u00f6ht ihre Gesundheit."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Dunkel-Vers",
+                    "description": "Dantes Komposition entzieht nahen Feinden Blut und f\u00fcgt ihnen Schnittschaden zu."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Letzter Vers",
+                    "description": "Dante muss vor seinem Letzten Vers zwei weitere Verse verfassen.\n\nTRIUMPH: Der Einsatz von zwei Licht-Versen nacheinander, kr\u00e4ftigt Verb\u00fcndete mit einem Buff, der die Gesundheit erh\u00f6ht und \u00dcberschutz gew\u00e4hrt. Kills und Unterst\u00fctzungen regenerieren \u00dcberschutz kurzzeitig.<br>Dante muss vor seinem Letzten Vers zwei weitere Verse verfassen.\n\nTRAG\u00d6DIE: Der Einsatz von zwei Dunkel-Versen nacheinander, greift Feinde an. Jeglicher Schaden, den sie im Laufe der Zeit erleiden, summiert sich in einer einzigen Explosion.<br>Dante muss vor seinem Letzten Vers zwei weitere Verse verfassen.\n\nWORTW\u00c4CHTER: Ein Licht-Vers, gefolgt von einem Dunkel-Vers, unterst\u00fctzt Verb\u00fcndete mit Kopien von Noctua. Die Kopien synchronisieren ihre Angriffe mit den Angriffen ihrer Verb\u00fcndeten.<br>Dante muss vor seinem Letzten Vers zwei weitere Verse verfassen.\n\nSEITENFLUG: Ein Dunkel-Vers, gefolgt von einem Licht-Vers, ruft Paragrimms herbei, die auf Feinde herabst\u00fcrzen, sie f\u00fcr Statuschance anf\u00e4llig machen und feindliche Angriffe von Verb\u00fcndeten ablenken."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "K\u00f6der",
-                    "description": "Loki erzeugt eine holographische Kopie von sich selbst, die das feindliche Feuer auf sich lenkt."
+                    "description": "Loki erzeugt eine holografische Kopie von sich selbst, die feindliches Feuer auf sich lenkt und einen Teil der Gesundheit und Schilde naher Feinde absorbiert."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "K\u00f6der",
-                    "description": "Loki erzeugt eine holographische Kopie von sich selbst, die das feindliche Feuer auf sich lenkt."
+                    "description": "Loki erzeugt eine holografische Kopie von sich selbst, die feindliches Feuer auf sich lenkt und einen Teil der Gesundheit und Schilde naher Feinde absorbiert."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eklipse",
-                    "description": "Im Licht wird Mirage zur Hauptattraktion und teilt heftigen Schaden aus, w\u00e4hrend die Schatten ihre Spur verwischen und es schwer machen, sie zu verwunden."
+                    "description": "(ANTIPPEN) Reduziert vor\u00fcbergehend den Schaden, den Mirage von Gegnern erh\u00e4lt.\n(HALTEN) Erh\u00f6ht vor\u00fcbergehend Mirages Waffenschaden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eklipse",
-                    "description": "Im Licht wird Mirage zur Hauptattraktion und teilt heftigen Schaden aus, w\u00e4hrend die Schatten ihre Spur verwischen und es schwer machen, sie zu verwunden."
+                    "description": "(ANTIPPEN) Reduziert vor\u00fcbergehend den Schaden, den Mirage von Gegnern erh\u00e4lt.\n(HALTEN) Erh\u00f6ht vor\u00fcbergehend Mirages Waffenschaden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Hat die Chance f\u00fcr |DURATION|s f\u00fcr radiale Blendung zu sorgen, wenn sie hellem Licht ausgesetzt ist.",
+            "passiveDescription": "Chance auf radiale Blendung, die |DURATION| s anh\u00e4lt, wenn Gara F\u00e4higkeiten einsetzt.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Hat die Chance f\u00fcr |DURATION|s f\u00fcr radiale Blendung zu sorgen, wenn sie hellem Licht ausgesetzt ist.",
+            "passiveDescription": "Chance auf radiale Blendung, die |DURATION| s anh\u00e4lt, wenn Gara F\u00e4higkeiten einsetzt.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2951,7 +2992,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
                     "abilityName": "Tribut",
-                    "description": "Schalte durch die vier Buffs und fordert einen davon ein, wenn er auf einen Feinde angewendet wird. Dornen verringert eingehenden Schaden. Staub verringert die Genauigkeit von Feinden. Vollmond erh\u00f6ht den Schaden von Begleitern. Verfangen verlangsamt Feinde in Reichweite."
+                    "description": "Schalte durch die vier Buffs und fordere einen davon ein, wenn er auf einen Feind angewendet wird. Dornen verringert eingehenden Schaden. Staub verringert die Genauigkeit von Feinden. Vollmond erh\u00f6ht den Schaden von Begleitern. Verfangen verlangsamt Feinde in Reichweite."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
@@ -2993,7 +3034,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
                     "abilityName": "Tribut",
-                    "description": "Schalte durch die vier Buffs und fordert einen davon ein, wenn er auf einen Feinde angewendet wird. Dornen verringert eingehenden Schaden. Staub verringert die Genauigkeit von Feinden. Vollmond erh\u00f6ht den Schaden von Begleitern. Verfangen verlangsamt Feinde in Reichweite."
+                    "description": "Schalte durch die vier Buffs und fordere einen davon ein, wenn er auf einen Feind angewendet wird. Dornen verringert eingehenden Schaden. Staub verringert die Genauigkeit von Feinden. Vollmond erh\u00f6ht den Schaden von Begleitern. Verfangen verlangsamt Feinde in Reichweite."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",

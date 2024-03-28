@@ -548,7 +548,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Fuente de vida",
-                    "description": "Crea una fuente de vida en un enemigo. Los aliados que est\u00e1n cerca del objetivo regeneran gradualmente su salud y son inmunes a los efectos de estado. Los aliados obtienen salud adicional cuando atacan al objetivo."
+                    "description": "Crea una fuente de vida en un enemigo. Los aliados que est\u00e1n cerca del objetivo regeneran gradualmente su salud y son inmunes a los efectos de estado. El da\u00f1o de los efectos de estado destinado a aliados cercanos ser\u00e1 absorbido por los enemigos. Los aliados obtienen salud adicional cuando atacan al objetivo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Bendici\u00f3n",
-                    "description": "Restaura la salud y escudos a los aliados dentro del rango de afinidad de Trinity mientras que otorga algo de resistencia al da\u00f1o."
+                    "description": "Restaura la salud y los escudos de los aliados cercanos mientras reduce el da\u00f1o que reciben de los enemigos."
                 }
             ],
             "productCategory": "Suits"
@@ -586,7 +586,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
                     "abilityName": "Fuente de vida",
-                    "description": "Crea una fuente de vida en un enemigo. Los aliados que est\u00e1n cerca del objetivo regeneran gradualmente su salud y son inmunes a los efectos de estado. Los aliados obtienen salud adicional cuando atacan al objetivo."
+                    "description": "Crea una fuente de vida en un enemigo. Los aliados que est\u00e1n cerca del objetivo regeneran gradualmente su salud y son inmunes a los efectos de estado. El da\u00f1o de los efectos de estado destinado a aliados cercanos ser\u00e1 absorbido por los enemigos. Los aliados obtienen salud adicional cuando atacan al objetivo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "Bendici\u00f3n",
-                    "description": "Restaura la salud y escudos a los aliados dentro del rango de afinidad de Trinity mientras que otorga algo de resistencia al da\u00f1o."
+                    "description": "Restaura la salud y los escudos de los aliados cercanos mientras reduce el da\u00f1o que reciben de los enemigos."
                 }
             ],
             "productCategory": "Suits"
@@ -885,7 +885,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Mientras se desangra, Inaros se sepulta en un Sarc\u00f3fago protector. \u00c9l puede revivirse a s\u00ed mismo drenando la fuerza-vital de los enemigos y aliados cercanos.",
+            "passiveDescription": "Cuando Inaros sufre da\u00f1o letal, se entierra en un sarc\u00f3fago y se encarna en arena para atacar a los enemigos y drenar su fuerza vital para revivir.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -893,19 +893,19 @@
                     "description": "Azota a los enemigos con una ola de arena maldita que los ciega y les roba su salud."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devorar",
-                    "description": "Mantiene el poder para atrapar al objetivo en arenas movedizas y tenerlos listos para devorar; esto roba la salud y por \u00faltimo crea una sombra de arena aliada."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Tormenta de arena",
-                    "description": "Convi\u00e9rtete en un ventarr\u00f3n espiral de arena que env\u00eda a los enemigos volando y devora a aquellos que est\u00e1n atrapados en arena movediza."
+                    "description": "Convi\u00e9rtete en una tormenta de arena. Inaros devora a los enemigos atra\u00eddos hacia su torbellino y se cura a s\u00ed mismo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Coraza de escarabajos",
+                    "description": "Act\u00edvala para formar una armadura drenando la salud de Inaros. Act\u00edvala nuevamente para detener antes la formaci\u00f3n. La capa protectora reduce el da\u00f1o entrante y absorbe los efectos de estado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Enjambre de escarabajos",
-                    "description": "Carga para transformar la salud en una armadura endurecida de escarabajos. Descarga para azotar a los enemigos con un enjambre de escarabajos. Los sobrevivientes tienen su salud drenada y concedida a los aliados."
+                    "description": "Invoca un Enjambre de escarabajos para atacar a los enemigos con un efecto de estado corrosivo garantizado. El da\u00f1o aumenta con la salud de Inaros. Los enemigos asesinados en el enjambre invocan una Manada de kavats que luchan junto a Inaros y gu\u00edan a los escarabajos hacia otros enemigos."
                 }
             ],
             "productCategory": "Suits"
@@ -923,7 +923,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Mientras se desangra, Inaros se sepulta en un Sarc\u00f3fago protector. \u00c9l puede revivirse a s\u00ed mismo drenando la fuerza-vital de los enemigos y aliados cercanos.",
+            "passiveDescription": "Cuando Inaros sufre da\u00f1o letal, se entierra en un sarc\u00f3fago y se encarna en arena para atacar a los enemigos y drenar su fuerza vital para revivir.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
@@ -931,19 +931,19 @@
                     "description": "Azota a los enemigos con una ola de arena maldita que los ciega y les roba su salud."
                 },
                 {
-                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility",
-                    "abilityName": "Devorar",
-                    "description": "Mantiene el poder para atrapar al objetivo en arenas movedizas y tenerlos listos para devorar; esto roba la salud y por \u00faltimo crea una sombra de arena aliada."
-                },
-                {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
                     "abilityName": "Tormenta de arena",
-                    "description": "Convi\u00e9rtete en un ventarr\u00f3n espiral de arena que env\u00eda a los enemigos volando y devora a aquellos que est\u00e1n atrapados en arena movediza."
+                    "description": "Convi\u00e9rtete en una tormenta de arena. Inaros devora a los enemigos atra\u00eddos hacia su torbellino y se cura a s\u00ed mismo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                    "abilityName": "Coraza de escarabajos",
+                    "description": "Act\u00edvala para formar una armadura drenando la salud de Inaros. Act\u00edvala nuevamente para detener antes la formaci\u00f3n. La capa protectora reduce el da\u00f1o entrante y absorbe los efectos de estado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Enjambre de escarabajos",
-                    "description": "Carga para transformar la salud en una armadura endurecida de escarabajos. Descarga para azotar a los enemigos con un enjambre de escarabajos. Los sobrevivientes tienen su salud drenada y concedida a los aliados."
+                    "description": "Invoca un Enjambre de escarabajos para atacar a los enemigos con un efecto de estado corrosivo garantizado. El da\u00f1o aumenta con la salud de Inaros. Los enemigos asesinados en el enjambre invocan una Manada de kavats que luchan junto a Inaros y gu\u00edan a los escarabajos hacia otros enemigos."
                 }
             ],
             "productCategory": "Suits"
@@ -1521,6 +1521,47 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Ajuste de cuentas",
                     "description": "Eleva r\u00e1pidamente a los enemigos al aire y luego los lanza hacia abajo con convicci\u00f3n. Los enemigos que sucumben a este poder tienen una probabilidad de generar una esfera de salud."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+            "name": "Dante",
+            "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "description": "Buscador de conocimiento. Guardi\u00e1n de la historia. Atrevido investigador del saber popular del Leverian. Dante compone cuentos arcanos para apoyar a los aliados y devastar a los enemigos.",
+            "health": 300,
+            "shield": 150,
+            "armor": 145,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "El Noctua escanea objetivos y registra informaci\u00f3n para el C\u00f3dice. La probabilidad de estado aumenta en un |CHANCE| % en los objetivos completamente escaneados.",
+            "exalted": [
+                "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                    "abilityName": "Noctua",
+                    "description": "Abre el Noctua, el tomo exaltado de Dante, y desata una historia tr\u00e1gica sobre sus enemigos."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                    "abilityName": "Verso claro",
+                    "description": "La composici\u00f3n revitalizante de Dante les otorga sobreguardia a \u00e9l y a sus aliados y aumenta su salud."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                    "abilityName": "Verso oscuro",
+                    "description": "La composici\u00f3n de Dante extrae sangre de los enemigos cercanos, caus\u00e1ndoles da\u00f1o cortante."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                    "abilityName": "Verso final",
+                    "description": "Dante debe componer otros dos Versos antes de su Verso final.\n\nTRIUNFO: Dos Versos claros lanzados en sucesi\u00f3n vigorizan a los aliados con una mejora que aumenta la salud y otorga sobreguardia. Los asesinatos y las asistencias de asesinatos regeneran brevemente la Sobreguardia.<br>Dante debe componer otros dos Versos antes de su Verso final.\n\nTRAGEDIA: Dos Versos oscuros lanzados en sucesi\u00f3n atacan a los enemigos. Cualquier da\u00f1o a lo largo del tiempo que hayan sufrido se acumula en una sola explosi\u00f3n.<br>Dante debe componer otros dos Versos antes de su Verso final.\n\nGUARDI\u00c1N DE LA PALABRA: Un Verso claro seguido de un Verso oscuro apoya a los aliados con copias del Noctua. Las copias del Noctua sincronizan sus ataques con los ataques de su aliado designado.<br>Dante debe componer otros dos Versos antes de su Verso final.\n\nP\u00c1GINA VOLADORA: Un Verso oscuro seguido de un Verso claro invoca Paragrimms que se abalanzan sobre los enemigos, haci\u00e9ndolos vulnerables a la probabilidad de estado y alejando los ataques enemigos de los aliados."
                 }
             ],
             "productCategory": "Suits"
@@ -2126,7 +2167,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Se\u00f1uelo",
-                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo, atrayendo as\u00ed el fuego enemigo."
+                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo y absorbe una parte de la salud y los escudos de los enemigos cercanos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2164,7 +2205,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
                     "abilityName": "Se\u00f1uelo",
-                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo, atrayendo as\u00ed el fuego enemigo."
+                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo y absorbe una parte de la salud y los escudos de los enemigos cercanos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
@@ -2566,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Permaneciendo bajo la luz, Mirage causa graves da\u00f1os, mientras que las sombras hacen que sea dif\u00edcil de seguir y a\u00fan m\u00e1s dif\u00edcil de herir."
+                    "description": "(PRESIONA) Reduce temporalmente el da\u00f1o que Mirage recibe de los enemigos.\n(MANT\u00c9N) Aumenta temporalmente el da\u00f1o del arma de Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2604,7 +2645,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
                     "abilityName": "Eclipse",
-                    "description": "Permaneciendo bajo la luz, Mirage causa graves da\u00f1os, mientras que las sombras hacen que sea dif\u00edcil de seguir y a\u00fan m\u00e1s dif\u00edcil de herir."
+                    "description": "(PRESIONA) Reduce temporalmente el da\u00f1o que Mirage recibe de los enemigos.\n(MANT\u00c9N) Aumenta temporalmente el da\u00f1o del arma de Mirage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
@@ -2665,7 +2706,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Tiene una probabilidad de crear una ceguera radial que dura |DURATION|s cuando se expone a luces brillantes.",
+            "passiveDescription": "La probabilidad de crear un destello radial que dure |DURATION| s cuando Gara lanza sus habilidades.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -2703,7 +2744,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Tiene una probabilidad de crear una ceguera radial que dura |DURATION|s cuando se expone a luces brillantes.",
+            "passiveDescription": "La probabilidad de crear un destello radial que dure |DURATION| s cuando Gara lanza sus habilidades.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",

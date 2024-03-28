@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "Condroc-Fl\u00fcgel",
-            "description": "Die Klauen am Fl\u00fcgel eines Condrocs sind scharf genug, um durch Knochen zu schneiden.\n\nOrt: Ebenen von Eidolon",
+            "description": "Die Klauen am Fl\u00fcgel eines Condrocs sind scharf genug, um durch Knochen zu schneiden.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "Cetus-Irrlicht",
-            "description": "Diese steinernen Lebensformen sind vor allem nachts anzutreffen und werden von den vom Eidolon ber\u00fchrten Ufern angezogen. Sie halten sich rund um die Seen auf den Ebenen von Eidolon zu jeder Stunde auf. Ihre Herkunft bleibt r\u00e4tselhaft.\n\nStandort: Ebenen von Eidolon",
+            "description": "Diese steinernen Lebensformen sind vor allem nachts anzutreffen und werden von den vom Eidolon ber\u00fchrten Ufern angezogen. Sie halten sich rund um die Seen in den Ebenen von Eidolon zu jeder Stunde auf. Ihre Herkunft bleibt r\u00e4tselhaft.\n\nStandort: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "Maprico",
-            "description": "Diese z\u00e4he Frucht hat eine dicke Haut, um rauen Witterungen zu widerstehen. Das Innere besteht jedoch aus saftigem Fruchtfleisch.\n\nOrt: Ebenen von Eidolon",
+            "description": "Diese z\u00e4he Frucht hat eine dicke Haut, um rauen Witterungen zu widerstehen. Das Innere besteht jedoch aus saftigem Fruchtfleisch.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "Kuaka-R\u00fcckenkralle",
-            "description": "Die Sehne der R\u00fcckenkrallen eines Kuaka kann gegerbt werden, um ein robustes, flexibles Leder zu erhalten.\n\nOrt: Ebenen von Eidolon",
+            "description": "Die Sehne der R\u00fcckenkrallen eines Kuaka kann gegerbt werden, um ein robustes, flexibles Leder zu erhalten.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "Grokdrul",
-            "description": "Als sch\u00e4dliche Mischung aus Polysacchariden und langkettigen Polymeren, ist Grokdrul eine Chemikalie, die standardm\u00e4\u00dfig in der Grineer Produktion verwendet wird.\n\nOrt: Ebenen von Eidolon",
+            "description": "Als sch\u00e4dliche Mischung aus Polysacchariden und langkettigen Polymeren, ist Grokdrul eine Chemikalie, die standardm\u00e4\u00dfig in der Grineer Produktion verwendet wird.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "Iradite",
-            "description": "Ein f\u00fcr die Ostron wertvolles Mineral.\n\nOrt: Ebenen von Eidolon",
+            "description": "Ein f\u00fcr die Ostron wertvolles Mineral.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "Nistlekapsel",
-            "description": "Vom Nistlebusch dazu genutzt, Beute zu fangen und zu t\u00f6ten.\n\nOrt: Ebenen von Eidolon",
+            "description": "Vom Nistlebusch dazu genutzt, Beute zu fangen und zu t\u00f6ten.\n\nOrt: Ebenen von Eidolon, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "Entrati Latorne",
+            "description": "Ein zeremonielles Leuchtfeuer, das verwendet wird, um Void-Standorte im realen Raum abzubilden.\n\nOrt: Albrechts Labore (Deimos) und Zariman",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "Stela",
             "description": "Dieser vom Void ber\u00fchrte Stein enth\u00e4lt eine unheilvolle Essenz.\n\nOrt: Albrechts Labore (Deimos)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "Gef\u00e4\u00dfkapillaren",
+            "description": "Eine entscheidende Unterkomponente beim Bau der Gef\u00e4\u00dfe von Albrecht Entrati.\nWird durch das Abschlie\u00dfen von Entrati St\u00f6rung-Missionen auf Deimos erlangt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Scintillant",
-            "description": "Die seltenen, schwebenden Relikte der Orokin \u00c4ra \u00fcberwachen immer noch die Isolationsgew\u00f6lbe unter der Oberfl\u00e4che von Deimos.\n\nOrt: Cambion-Drift",
+            "description": "Die seltenen, schwebenden Relikte der Orokin \u00c4ra \u00fcberwachen immer noch die Isolationsgew\u00f6lbe unter der Oberfl\u00e4che von Deimos.\n\nOrt: Cambion-Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulit",
-            "description": "Halbgeformte, unvollst\u00e4ndige Sporentr\u00e4ger - kaum mehr als zuckendes Fleisch, mit Krallen zum Festklammern.\n\nOrt: Cambion-Drift",
+            "description": "Halbgeformte, unvollst\u00e4ndige Sporentr\u00e4ger - kaum mehr als zuckendes Fleisch, mit Krallen zum Festklammern.\n\nOrt: Cambion-Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglion",
-            "description": "Ein abgefallener Klumpen aus verwickelten Nervenfasern, \u00fcberfl\u00fcssigen Organen und d\u00fcnnen sensorischen Membranen.\n\nOrt: Cambion-Drift",
+            "description": "Ein abgefallener Klumpen aus verwickelten Nervenfasern, \u00fcberfl\u00fcssigen Organen und d\u00fcnnen sensorischen Membranen.\n\nOrt: Cambion-Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Gl\u00e4nzende Terokugel",
-            "description": "Diese Kugeln haben ihre urspr\u00fcngliche Funktion l\u00e4ngst erf\u00fcllt, enthalten jedoch immer noch ein wenig Energie.\n\nOrt: Cambion-Drift",
+            "description": "Diese Kugeln haben ihre urspr\u00fcngliche Funktion l\u00e4ngst erf\u00fcllt, enthalten jedoch immer noch ein wenig Energie.\n\nOrt: Cambion-Drift, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "Crisma-Toroid",
-            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Crisma-Toroide, indem du den Profiteintreiber besiegst.",
+            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Crisma-Toroide, indem du den Profiteintreiber im Orbis-Tal (Venus) besiegst.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "Lazulit-Toroid",
-            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Lazulit-Toroide, indem du den Ausbeuter besiegst.",
+            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Lazulit-Toroide, indem du den Profiteintreiber im Orbis-Tal (Venus) besiegst.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "Calda-Toroid",
-            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Calda-Toroide von Gegnern in den Bereicherungs-Laboren im Orbis-Tal und von Scyto-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals gefunden werden.",
+            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Calda-Toroide von Gegnern in den Bereicherungslaboren im Orbis-Tal und von Scyto-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals (Venus) gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "Vega-Toroid",
-            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Vega-Toroide von Gegnern im Weltraumhafen im Orbis-Tal und von Milben-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals gefunden werden.",
+            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Vega-Toroide von Gegnern im Weltraumhafen im Orbis-Tal und von Milben-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals (Venus) gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "Sola-Toroid",
-            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Sola-Toroide von Gegnern im Tempel des Profits im Orbis-Tal und von Kyta-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals gefunden werden.",
+            "description": "Ein Ger\u00e4t von unbestimmter Funktion und Herkunft. Wird von den Vox Solaris und den Quill gesch\u00e4tzt.\n\nErhalte Sola-Toroide von Gegnern im Tempel des Profits im Orbis-Tal und von Kyta-Arachnoiden. Sie k\u00f6nnen auch als Beute in den H\u00f6hlen des Orbis-Tals (Venus) gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Thermalschlamm",
-            "description": "Ein Nebenprodukt von den Terraforming-Prozessen der Weinenden T\u00fcrme.\n\nOrt: Orbis-Tal",
+            "description": "Ein Nebenprodukt von den Terraforming-Prozessen der Weinenden T\u00fcrme.\n\nOrt: Orbis-Tal, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Gyromag-Systeme",
-            "description": "Eine modulare Komponente, die Einstellung und H\u00f6he in verschiedenen Corpus Systemen regelt. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal.",
+            "description": "Eine modulare Komponente, die Einstellung und H\u00f6he in verschiedenen Corpus Systemen regelt. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Atmo-Systeme",
-            "description": "Eine modulare Komponente, die f\u00fcr die Vielzahl der atmosph\u00e4rischen Bedingungen, die man im Ursprungssystem antrifft, kompensiert. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal.",
+            "description": "Eine modulare Komponente, die f\u00fcr die Vielzahl der atmosph\u00e4rischen Bedingungen, die man im Ursprungssystem antrifft, kompensiert. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Anti-Grav-Systeme",
-            "description": "Ein Anti-Schwerkraft-System, mit dem sich massive und schwere Objekte von einem einzelnen Nutzer manipulieren lassen. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal.",
+            "description": "Ein Anti-Schwerkraft-System, mit dem sich massive und schwere Objekte von einem einzelnen Nutzer manipulieren lassen. Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Mytocardia-Sporen",
-            "description": "Ein Pilzgew\u00e4chs, welches f\u00fcr seine Vielseitigkeit gesch\u00e4tzt wird.\n\nOrt: Orbis-Tal",
+            "description": "Ein Pilzgew\u00e4chs, welches f\u00fcr seine Vielseitigkeit gesch\u00e4tzt wird.\n\nOrt: Orbis-Tal, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Gorgaricus-Sporen",
-            "description": "Die fruchtbaren Sporen der riesigen Tal-Pilze, werden f\u00fcr ihre komplexen, chemischen Verbindungen sehr gesch\u00e4tzt.\n\nOrt: Orbis-Tal",
+            "description": "Die fruchtbaren Sporen der riesigen Tal-Pilze, werden f\u00fcr ihre komplexen, chemischen Verbindungen sehr gesch\u00e4tzt.\n\nOrt: Orbis-Tal, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "Tepa-Knolle",
-            "description": "Die schillernden Knollen dieser Pflanzen leuchten in kalter Umgebung hell auf.\n\nOrt: Orbis-Tal",
+            "description": "Die schillernden Knollen dieser Pflanzen leuchten in kalter Umgebung hell auf.\n\nOrt: Orbis-Tal, Venus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "Simulacrum: Die Zitadelle",
             "description": "Die regul\u00e4re Arena f\u00fcr das Simulacrum.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "Sanctum Simulacrum",
+            "description": "Simuliere eine Schlacht im Sanctum Anatomica. Mit diesem Simulacrum kann der Schwierigkeitsgrad der Gegner um 25 Stufen \u00fcber dem Standardmaximum eingestellt werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "Tiametrit",
-            "description": "Befallene Neurotransmitter kondensiert unter Druck.\nFundort: Cambian-Drift, Deimos, aus blauen L\u00e4sionen.",
+            "description": "Befallene Neurotransmitter kondensiert unter Druck.\n\nFundort: Cambion-Drift, Deimos, aus blauen L\u00e4sionen, Sagiant Entrati Urnen und Bonus-Gew\u00f6lben in Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "Dagonik",
-            "description": "Rinnsale von Excorine-Fl\u00fcssigkeit, die im Laufe der Jahrhunderte geh\u00e4rtet wurden.\nFundort: Cambian-Drift, Deimos, aus blauen L\u00e4sionen.",
+            "description": "Rinnsale von Excorine-Fl\u00fcssigkeit, die im Laufe der Jahrhunderte geh\u00e4rtet wurden.\n\nFundort: Cambion-Drift, Deimos, aus blauen L\u00e4sionen, Sagiant Entrati Urnen und Bonus-Gew\u00f6lben in Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "Adramalium",
-            "description": "Sehnig und metallisch, von gro\u00dfer elastischer Kraft.\nFundort: Cambian-Drift, Deimos, aus gelben L\u00e4sionen.",
+            "description": "Sehnig und metallisch, von gro\u00dfer elastischer Kraft.\n\nFundort: Cambion-Drift, Deimos, aus gelben L\u00e4sionen, Befallenen Spitia Zysten und Befallenen Rolizor Zysten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "Bapholit",
-            "description": "Formbar, dank eingeschlossener Venen befallenen Proteins.\nFundort: Cambian-Drift, Deimos, aus gelben L\u00e4sionen.",
+            "description": "Formbar, dank eingeschlossener Venen befallenen Proteins.\n\nFundort: Cambion-Drift, Deimos, aus gelben L\u00e4sionen, Befallenen Rolizor Zysten und Bonus-Gew\u00f6lben in Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2735,7 +2766,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemAItem",
             "name": "Xenorhast",
-            "description": "Eine Knolle urspr\u00fcnglicher Materie, eingeschlossen in befallenes Fleisch.\nFundort: Cambian-Drift, Deimos, aus blauen L\u00e4sionen.",
+            "description": "Eine Knolle urspr\u00fcnglicher Materie, eingeschlossen in befallenes Fleisch.\nFundort: Cambion-Drift, Deimos, aus blauen L\u00e4sionen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2749,7 +2780,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemBItem",
             "name": "Embolos",
-            "description": "Dieser seltene Edelstein bildet sich in geronnenen Massen, innerhalb des Befalls.\nFundort: Cambian-Drift, Deimos, aus roten L\u00e4sionen.",
+            "description": "Dieser seltene Edelstein bildet sich in geronnenen Massen, innerhalb des Befalls.\nFundort: Cambion-Drift, Deimos, aus roten L\u00e4sionen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "Necrathan",
-            "description": "Eingeklemmt in befallenen H\u00fcllen, seit Jahrtausenden konserviert.\nFundort: Cambian-Drift, Deimos, aus blauen L\u00e4sionen.",
+            "description": "Eingeklemmt in befallenen H\u00fcllen, seit Jahrtausenden konserviert.\n\nFundort: Cambion-Drift, Deimos, aus blauen L\u00e4sionen und Requiem Obelisken.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "Thaumica",
-            "description": "Kann durch den Befall geformt werden, bleibt aber dagegen resistent.\nFundort: Cambian-Drift, Deimos, aus gelben L\u00e4sionen.",
+            "description": "Kann durch den Befall geformt werden, bleibt aber dagegen resistent.\n\nFundort: Cambion-Drift, Deimos, aus gelben L\u00e4sionen, Requiem-Obelisken und Befallenen Spitia Zysten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "Heciphron",
-            "description": "Aggregate in den Neo-Lymphsystemen befallener Massen.\nFundort: Cambian-Drift, Deimos, aus blauen L\u00e4sionen.",
+            "description": "Aggregate in den Neo-Lymphsystemen befallener Massen.\n\nFundort: Cambion-Drift, Deimos, aus blauen L\u00e4sionen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "Namalon",
-            "description": "Befallene Mineralablagerungen, welche die Form lebender Organe nachahmen.\nFundort: Cambian-Drift, Deimos, aus gelben L\u00e4sionen.",
+            "description": "Befallene Mineralablagerungen, welche die Form lebender Organe nachahmen.\n\nFundort: Cambion-Drift, Deimos, aus gelben L\u00e4sionen und Bonus-Gew\u00f6lben aus Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "Azurit",
-            "description": "Ein blauer Edelstein, der mit Verunreinigungen \u00fcberzogen ist.\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern. ",
+            "description": "Ein blauer Edelstein, der mit Verunreinigungen \u00fcberzogen ist.\n\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "Devar",
-            "description": "Ein tr\u00fcber Kristall.\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern. ",
+            "description": "Ein tr\u00fcber Kristall.\n\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "Pyrol",
-            "description": "Ein angelaufenes, spr\u00f6des Metall.\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern.",
+            "description": "Ein angelaufenes, spr\u00f6des Metall.\n\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "Coprun",
-            "description": "Ein weiches, formbares Metall.\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern.",
+            "description": "Ein weiches, formbares Metall.\n\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "Crimzian",
-            "description": "Ein blutroter Edelstein.\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern. ",
+            "description": "Ein blutroter Edelstein.\n\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "Auron",
-            "description": "Ein brillantes, dichtes und leitf\u00e4higes Metall.\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern.",
+            "description": "Ein brillantes, dichtes und leitf\u00e4higes Metall.\n\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "Veridos",
-            "description": "Ein stark reflektierender, gr\u00fcner Edelstein.\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern.",
+            "description": "Ein stark reflektierender, gr\u00fcner Edelstein.\n\nFundort: Ebenen von Eidolon, Erde, aus blauen Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "Ferros",
-            "description": "Ein widerstansf\u00e4higes Metall, das durch Verunreinigungen im Inneren geh\u00e4rtet wird.\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern.",
+            "description": "Ein widerstansf\u00e4higes Metall, das durch Verunreinigungen im Inneren geh\u00e4rtet wird.\n\nFundort: Ebenen von Eidolon, Erde, aus roten Erzadern und von Klopfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "Phasmin",
-            "description": "Ein unheimlich gr\u00fcner Edelstein, der in metallischen Splittern eingeschlossen gefunden wird.\nFundort: Orbis-Tal, Venus, aus roten Erzadern.",
+            "description": "Ein unheimlich gr\u00fcner Edelstein, der in metallischen Splittern eingeschlossen gefunden wird.\n\nFundort: Orbis-Tal, Venus, aus roten Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "Noctrul",
-            "description": "Ein schwarzer Edelstein mit schillernden blauen Verunreinigungen.\nFundort: Orbis-Tal, Venus, aus blauen Erzadern.",
+            "description": "Ein schwarzer Edelstein mit schillernden blauen Verunreinigungen.\n\nFundort: Orbis-Tal, Venus, aus blauen Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "Travorid",
-            "description": "Ein Mineral, das durch den massiven Druck der Venusatmosph\u00e4re geh\u00e4rtet wurde.\nFundort: Orbis-Tal, Venus, aus roten Erzadern.",
+            "description": "Ein Mineral, das durch den massiven Druck der Venusatmosph\u00e4re geh\u00e4rtet wurde.\n\nFundort: Orbis-Tal, Venus, aus roten Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "Axidite",
-            "description": "Ein Sediment, das sich aus Schwefelregen gebildet hat, der unter Eis eingeschlossen wurde.\nFundort: Orbis-Tal, Venus, aus roten Erzadern.",
+            "description": "Ein Sediment, das sich aus Schwefelregen gebildet hat, der unter Eis eingeschlossen wurde.\n\nFundort: Orbis-Tal, Venus, aus roten Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "Hesperon",
-            "description": "Ton, der sich zu extrem haltbarem Stein verfestigt, wenn er auf Temperaturen unter Null gebracht wird.\nFundort: Orbis-Tal, Venus, aus roten Erzadern.",
+            "description": "Ton, der sich zu extrem haltbarem Stein verfestigt, wenn er auf Temperaturen unter Null gebracht wird.\n\nFundort: Orbis-Tal, Venus, aus roten Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "Goblite",
-            "description": "Ein seltsamer Kristall, der in ausgebeuteten Erzadern w\u00e4chst.\nFundort: Orbis-Tal, Venus, aus bluen Erzadern.",
+            "description": "Ein seltsamer Kristall, der in ausgebeuteten Erzadern w\u00e4chst.\n\nFundort: Orbis-Tal, Venus, aus blauen Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "Venerol",
-            "description": "Ein Edelmetall, das aus Nebenprodukten von K\u00fchlmitteln geschmiedet wird.\nFundort: Orbis-Tal, Venus, aus roten Erzadern.",
+            "description": "Ein Edelmetall, das aus K\u00fchlmittelnebenprodukten geschmiedet wird.\n\nGefunden im Orbis-Tal, Venus, aus roten Erzadern und aus Ressourcencontainern in der Landschaft.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "Atem des Eidolon",
-            "description": "Ein Gas, das nur in den Ebenen von Eidolon gefunden werden kann, zu seiner reinsten Form verfeinert. Erh\u00e4ltlich durch den Abschluss von Auftr\u00e4gen in Cetus.",
+            "description": "Ein Gas, das nur in den Ebenen von Eidolon gefunden werden kann, zu seiner reinsten Form verfeinert. \n\nFundort: Ebenen von Eidolon Auftr\u00e4ge, Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Photora-Szene: Hunhows Datenumgebung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "Photora-Szene: Hitzefrei",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "Photora-Szene: Hitzefrei bei Nacht",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "Photora-Szene: Cetus",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Photora-Szene: Corpus Schiffsbr\u00fccke",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Photora-Szene: Corpus Schiffshangar",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Photora-Szene: Corpus Lagerhaus",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "Photora-Szene: Artillerie-Batterie",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Photora-Szene: Corpus Orbitalkanone",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "Photora-Szene: Deck 12",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "Photora-Szene: Deimos Gew\u00f6lbe",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "Photora-Szene: Deimos Durchbruch",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "Photora-Szene: Deimos Gruft",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "Photora-Szene: Deimos Tiefen",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "Photora-Szene: Deimos Katakomben",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "Photora-Szene: Deimos Cenote",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "Photora-Szene: Deimos Untergang",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "Photora-Szene: Deimos Verlassen",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "Photora-Szene: Herz von Deimos",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "Photora-Szene: Deimos Necralisk",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "Photora-Szene: Deimos Cambion-Drift",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "Photora-Szene: Deimos Tiefen",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "Photora-Szene: Deimos Membran",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "Photora-Szene: Deimos Abhang",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "Photora-Szene: Deimos Kammer",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "Photora-Szene: Deimos Tunnel",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "Photora-Szene: Gruft Dax-Camp",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "Photora-Szene: Gruftbehausung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "Photora-Szene: Gruft Lunaro",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "Photora-Szene: Gruftoper",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "Photora-Szene: Gruftpark",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "Photora-Szene: Gruftgemeinschaft",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "Photora-Szene: Gruftperipherie",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "Photora-Szene: Orowyrm Arena",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Photora-Szene: Kraterinsel",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "Photora-Szene: Kraterpodium",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "Photora-Szene: Inselwindung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "Photora-Szene: Kleiner Krater",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "Photora-Szene: Kraterbecken",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Photora-Szene: Amphitheater",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "Photora-Szene: Archarbor",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "Photora-Szene: Festland-Weiler",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "Photora-Szene: Tiefh\u00fcgelregion",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "Photora-Szene: Obere Zuflucht",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "Photora-Szene: Burgstadt",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Photora-Szene: Teshins H\u00f6hle",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "Photora-Szene: Ebenen von Eidolon",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "Photora-Szene: Fortuna",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "Photora-Szene: Gas City Alads Labor",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "Photora-Szene: Gas City Obere Logistik",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "Photora-Szene: Gas City Sackgasse",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "Photora-Szene: Gas City Zentrales Lager",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "Photora-Szene: Gas City Laufgang",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "Photora-Szene: Gas City Lifte",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "Photora-Szene: Gas City Bew\u00f6lkte Aussicht",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "Photora-Szene: Gas City Korridore",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "Photora-Szene: Gas City Unteres Foyer",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "Photora-Szene: Gas City Element-Ausgabe",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "Photora-Szene: Gas City Regulatoren",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "Photora-Szene: Gas City Element-Verfeinerung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "Photora-Szene: Gas City Lobby",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Photora-Szene: Grineer Wald Wasserpumpen",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Photora-Szene: Grineer Wald Fabrik",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Photora-Szene: Grineer Wald Industrie",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "Photora-Szene: Kuva Festung Spalte",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Photora-Szene: Grineer Galeonenlager",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Photora-Szene: Grineer Unterwasserlabor Zentrifuge",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Photora-Szene: Grineer Siedlung Artillerie",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Photora-Szene: Harrows Tempel",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Photora-Szene: Inaros' Grab",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Photora-Szene: Befallenes Schiff-Hologramm",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Photora-Szene: Onkkos Kommandoposten",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Photora-Szene: Orokin Turm Extraktionszene",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "Photora-Szene: Lua Balkon",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "Photora-Szene: Orbiter",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Photora-Szene: Granum-Void",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Photora-Szene: Teshins Refugium",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "Photora-Szene: Lunaro Arena",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Photora-Szene: Umbras Hof",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "Photora-Szene: Arbiters Tribunal",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "Photora-Szene: Lua Eind\u00e4mmung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "Photora-Szene: Lua Kinderzimmer",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "Photora-Szene: Sudas Datenumgebung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Photora-Szene: Kammer der Lotus",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Photora-Szene: Corpus Eisplanetenwrack",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Photora-Szene: Amaryns Zufluchtsort",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Photora-Szene: Grineer Werftmanufaktur",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "Photora-Szene: Silberner Hain Schrein",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Photora-Szene: Ergos Sitzungszimmer",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Photora-Szene: Mycona Kolonie",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Photora-Szene: Corpus Gas City-Leitung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Photora-Szene: Veils Bindung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Photora-Szene: Hunhows Kammer",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Photora-Szene: Befallene Schiffsbr\u00fccke",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Photora-Szene: Orokin Wrack Plaza",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "Photora-Szene: Sanctuary Verbindung",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Photora-Szene: Cressas Garnison",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Photora-Szene: Grineer Siedlungsreaktor",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "Photora-Szene: Kuva Thron",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "Photora-Szene: Praghasa Thronraum",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "Photora-Szene: Der Innere Krieg",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "Photora-Szene: Schachtkinder Klubhaus",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "Photora-Szene: Orbis-Tal",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "Photora-Szene: Farbschl\u00fcssel",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "Photora-Szene: Saturn Six",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "Photora-Szene: The Cold Below",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "Photora-Szene: Albrechts Archiv",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "Photora-Szene: Albrechts B\u00fcro",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Photora-Szene: Dantes Zufluchtsort",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "Photora-Szene: Sanctum Anatomica",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "Photora-Szene: Das verlassene Gef\u00e4\u00df",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "Photora-Szene: Fragmentum-Schlund",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "Photora-Szene: Fabrica Anatomica",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "Photora-Szene: Zariman Amphitheater",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "Photora-Szene: Zariman Dormizone",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "Photora-Szene: Zariman Ladebucht",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "Photora-Szene: Zariman Br\u00fccke",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "Photora-Szene: Zariman Landwirtschaft",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "Photora-Szene: Zariman Legem-Halle",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "Photora-Szene: Zariman Habitat-Bereich",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "Photora-Szene: Zariman Lunaro-Hof",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "Photora-Szene: Zariman Albrecht-Park",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "Photora-Szene: Zariman Ruhe-Level",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "Photora-Szene: Zariman Engel-Schlafplatz",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "Photora-Szene: Zariman Chrysalith",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "Photora-Szene: Zariman Schulhof",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "Photora-Szene: Zariman Andockbucht",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "Photora-Szene: Zariman Reliquiar-Antrieb",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "Photora-Szene: Lua Circulus",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Photora-Szene: Sentient Balkon",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Photora-Szene: Sentient Brunnen",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Photora-Szene: Sentient Becken",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Photora-Szene: Sentient Halle",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Photora-Szene: Sentient Altar",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,21 +5332,21 @@
             "name": "Photora-Szene: Schleierschnitter Wald",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "Photora-Szene: Schleierschnitter Murex",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "Photora-Szene: Schleierschnitter Fabrik",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "Observierendes Vitreum",
+            "description": "Ein wachsames Auge f\u00fcr den Orbiter.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "Noctuas Paragrimm",
+            "description": "Ein Paragrimm steigt aus Noctuas Seiten auf, um dich in deinem Orbiter zu begleiten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Belric und Rania wiedervereint",
             "description": "Eine Erinnerung an das Liebespaar, Belric und Rania, in Kristall erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "Neon Pride Schwingen",
+            "description": "Feiert Pride mit dieser strahlenden Dekoration f\u00fcr den Orbiter.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "Floof: Arthur",
+            "description": "'Meine Studien aus dem Jahr 1999 haben ein unsch\u00e4tzbares Relikt namens Stuffie Buddy entdeckt. Wir m\u00fcssen die Wunder der Vergangenheit neu erschaffen.' - Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "Floof: Strand Kavat",
             "description": "Ein spezieller Floof, der deine Teilnahme an der Taktischen Alarmierung: Hitzefrei feiert. F\u00dcR SCHWAMMIGE EHRE!",
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "Floof: Morgenrot Kavat",
             "description": "Ein spezieller Floof, der deine Teilnahme an der Taktischen Alarmierung: Hitzefrei feiert. F\u00dcR SCHWAMMIGE EHRE!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Floof: Ordis verk\u00f6rpert",
+            "description": "'Der Operator hat Floofs in vielen bezaubernden Formen. Ordis dachte, der Operator k\u00f6nnte der Sammlung ein treues Cephalon hinzuf\u00fcgen!' - Ordis",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "Die Troph\u00e4e eines gesch\u00e4tzten Fanges.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "Display: Pride 2024",
+            "description": "Dieses Display zelebriert Pride. Entworfen von RoboMythos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Noggle-Statue: Baruuk Prime",
+            "description": "Eine kleine Wackelfigur von Baruuk Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Baruuk Mandala Prime",
             "description": "Schm\u00fccke deinen Orbiter mit Baruuks beruhigendem Mandala Prime. Die Konfiguration f\u00f6rdert Meditation und Besinnung.",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Noggle-Statue: Grendel Prime",
+            "description": "Eine kleine Wackelfigur von Grendel Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "Grimoire-Altar",
             "description": "Stelle dein Grimoire an einem Ehrenplatz zur Schau.",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Noggle-Statue: Hildryn Prime",
+            "description": "Eine kleine Wackelfigur von Hildryn Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Noggle-Statue: Hydroid",
             "description": "Eine kleine Wackelfigur von Hydroid.",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Noggle-Statue: Inaros",
             "description": "Eine kleine Wackelfigur von Inaros.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "Dekoration: Inaros' Sarkophag",
+            "description": "Inaros f\u00fchlt sich in jedem Raum willkommen, der diesen sch\u00fctzenden Sarkophag zur Schau stellt.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Javis Ophiuchus-Gekritzel",
             "description": "Werde ein Javi-Sch\u00fcler. Dieses Ophiuchus-Gekritzel basiert auf den Aufzeichnungen von Drusus Leverian \u00fcber Lavos",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Javis Luminosit\u00e4t-Gekritzel",
             "description": "Werde ein Javi-Sch\u00fcler. Dieses Luminosit\u00e4t-Gekritzel basiert auf den Aufzeichnungen von Drusus Leverian \u00fcber Lavos.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Javis Erbgut-Gekritzel",
             "description": "Werde ein Javi-Sch\u00fcler. Dieses Erbgut-Gekritzel basiert auf den Aufzeichnungen von Drusus Leverian \u00fcber Lavos.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "Dekoration: Chimalli & Tequihua",
+            "description": "Du ehrst Styanax Tonatiuh, wenn du diese gesch\u00e4tzte Bewaffnung zur Schau stellst.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Noggle-Statue: Kahl-175",
             "description": "Eine kleine Wackelfigur von Kahl-175.",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "Dagath Prex",
             "description": "Der Spiegel, der anklagt",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "Dante Prex",
+            "description": "Bewahrer der Geschichte",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "Display: TennoCon 2024",
+            "description": "An jene \u00fcberreicht, die sich zur Feier der TennoCon 2024 zusammengefunden haben.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Noggle-Statue: Teshin",
             "description": "Eine kleine Wackelfigur von Teshin.",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Noggle-Statue: Vor",
             "description": "Eine kleine Wackelfigur von Captain Vor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Noggle-Statue: Wisp Prime",
+            "description": "Eine kleine Wackelfigur von Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "HELMINTH-SEGMENT: KOALESZENZ",
-            "description": "Bem\u00e4chtigt Helminth Archon-Scherben zu m\u00e4chtigeren Varianten zu fusionieren.",
+            "description": "Erm\u00f6glicht Helminth, Archon Scherben durch Koaleszenz-Fusion und Aufstiegs-Fusion zu st\u00e4rkeren Varianten zu verschmelzen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Dante: Chassis",
+            "description": "Chassis-Komponente f\u00fcr den Dante Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Dante: Neuroptik",
+            "description": "Neuroptik-Komponente f\u00fcr den Dante Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Dante: Systeme",
+            "description": "Systeme-Komponente f\u00fcr den Dante Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon: Chassis",
             "description": "Chassis-Komponente f\u00fcr den Oberon Warframe.",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "Nautilus: Systeme",
             "description": "Eine Komponente f\u00fcr die Herstellung von W\u00e4chtern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "Ruvox: Klinge",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "Ruvox: Handschuh",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },

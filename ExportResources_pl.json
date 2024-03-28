@@ -85,11 +85,19 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "name": "Void Relic",
+            "description": "Artefakt zawieraj\u0105cy sekrety Orokin. Tylko wykorzystuj\u0105c energi\u0119 Pustki, mo\u017cna go otworzy\u0107.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjection",
             "name": "Lith Relic",
             "description": "Artefakt zawieraj\u0105cy sekrety Orokin. Tylko wykorzystuj\u0105c energi\u0119 Pustki, mo\u017cna go otworzy\u0107.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -97,7 +105,7 @@
             "name": "Meso Relic",
             "description": "Artefakt zawieraj\u0105cy sekrety Orokin. Tylko wykorzystuj\u0105c energi\u0119 Pustki, mo\u017cna go otworzy\u0107.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -105,7 +113,7 @@
             "name": "Neo Relic",
             "description": "Artefakt zawieraj\u0105cy sekrety Orokin. Tylko wykorzystuj\u0105c energi\u0119 Pustki, mo\u017cna go otworzy\u0107.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -113,7 +121,7 @@
             "name": "Axi Relic",
             "description": "Artefakt zawieraj\u0105cy sekrety Orokin. Tylko wykorzystuj\u0105c energi\u0119 Pustki, mo\u017cna go otworzy\u0107.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Game/VoidProjectionItem",
+            "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
             "excludeFromCodex": true
         },
         {
@@ -376,49 +384,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
             "name": "Skrzyd\u0142o Kondroka",
-            "description": "Pi\u00f3ro ze skrzyd\u0142a Kondroka jest na tyle ostre, \u017ce mo\u017ce przeci\u0105\u0107 ko\u015b\u0107.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "Pi\u00f3ro ze skrzyd\u0142a Kondroka jest na tyle ostre, \u017ce mo\u017ce przeci\u0105\u0107 ko\u015b\u0107.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
             "name": "Ognik Cetus",
-            "description": "Najcz\u0119\u015bciej spotykane noc\u0105, te kamienne formy \u017cycia ci\u0105gn\u0105 do brzeg\u00f3w zbiornik\u00f3w wodnych, kt\u00f3re zosta\u0142y dotkni\u0119te przez Eidolona. Mo\u017cna je znale\u017a\u0107 w okolicach jezior o ka\u017cdej porze dnia. Ich pochodzenie pozostaje nieznane.\n\nWyst\u0119puje na: R\u00f3wniny Eidolon",
+            "description": "Najcz\u0119\u015bciej spotykane noc\u0105, te kamienne formy \u017cycia ci\u0105gn\u0105 do brzeg\u00f3w zbiornik\u00f3w wodnych, kt\u00f3re zosta\u0142y dotkni\u0119te przez Eidolona. Mo\u017cna je znale\u017a\u0107 w okolicach jezior o ka\u017cdej porze dnia. Ich pochodzenie pozostaje nieznane.\n\nWyst\u0119puje na: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
             "name": "Mapriko",
-            "description": "Ten twardy owoc posiada grub\u0105 sk\u00f3r\u0119, zdoln\u0105 wytrzyma\u0107 naprawd\u0119 wiele, pod ni\u0105 natomiast skrywa si\u0119 ca\u0142a masa s\u0142odkiego mi\u0105\u017cszu.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "Ten twardy owoc posiada grub\u0105 sk\u00f3r\u0119, zdoln\u0105 wytrzyma\u0107 naprawd\u0119 wiele, pod ni\u0105 natomiast skrywa si\u0119 ca\u0142a masa s\u0142odkiego mi\u0105\u017cszu.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
             "name": "Pazur Grzbietowy Kuaki",
-            "description": "\u015aci\u0119gna z pazura grzbietowego Kuaki, mo\u017cna wygarbowa\u0107 w celu stworzenia elastycznej i wytrzyma\u0142ej sk\u00f3ry.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "\u015aci\u0119gna z pazura grzbietowego Kuaki, mo\u017cna wygarbowa\u0107 w celu stworzenia elastycznej i wytrzyma\u0142ej sk\u00f3ry.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
             "name": "Grokdrul",
-            "description": "Ohydna mieszanka polisacharyd\u00f3w i d\u0142ugo-\u0142a\u0144cuchowych polimer\u00f3w, Grokdrul jest podstawowym substratem u\u017cywanym w produkcji Grineer.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "Ohydna mieszanka polisacharyd\u00f3w i d\u0142ugo-\u0142a\u0144cuchowych polimer\u00f3w, Grokdrul jest podstawowym substratem u\u017cywanym w produkcji Grineer.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
             "name": "Iradyt",
-            "description": "Minera\u0142 ceniony przez Ostron\u00f3w.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "Minera\u0142 ceniony przez Ostron\u00f3w.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
             "name": "Cierniostr\u0105k",
-            "description": "Wykorzystywane przez Cierniokrzew do chwytania i zabijania ofiar.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon",
+            "description": "Wykorzystywane przez Cierniokrzew do chwytania i zabijania ofiar.\n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -530,11 +538,26 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
+            "name": "Latarnia Entrati",
+            "description": "Ceremonialny znacznik wykorzystywany do mapowania lokalizacji Pustki w rzeczywistej przestrzeni.\n\nPo\u0142o\u017cenie: Laboratoria Albrechta (Deimos) i Zariman",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
             "name": "Stela",
             "description": "Ten dotkni\u0119ty Pustk\u0105 kamie\u0144 zawiera niepokoj\u0105c\u0105 esencj\u0119.\n\nPo\u0142o\u017cenie: Laboratorium Albrechta (Deimos)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries",
+            "name": "Kapilary Obiektu",
+            "description": "Kluczowy komponent konstrukcji Obiekt\u00f3w Albrechta Netratiego.\nMo\u017ce zosta\u0107 uzyskany podczas misji Zak\u0142\u00f3ce\u0144 Entrati na Deimosie.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
@@ -713,28 +736,28 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Scyntylant",
-            "description": "Te rzadkie, unosz\u0105ce si\u0119 w powietrzu relikty Ery Orokin mog\u0105 wci\u0105\u017c by\u0107 zauwa\u017cone, podczas monitorowania podziemnych skarbc\u00f3w izolacyjnych g\u0142\u0119boko pod powierzchni\u0105 Deimosa.\n\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "Te rzadkie, unosz\u0105ce si\u0119 w powietrzu relikty Ery Orokin mog\u0105 wci\u0105\u017c by\u0107 zauwa\u017cone, podczas monitorowania podziemnych skarbc\u00f3w izolacyjnych g\u0142\u0119boko pod powierzchni\u0105 Deimosa.\n\nPo\u0142o\u017cenie: Dryf Kambionu, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulit",
-            "description": "W po\u0142owie uformowani, niekompletni nosiciele zarodnik\u00f3w, niewiele wi\u0119cej ni\u017c drgaj\u0105ce mi\u0119so z pazurami pozwalaj\u0105cymi si\u0119 czego\u015b chwyta\u0107.\n\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "W po\u0142owie uformowani, niekompletni nosiciele zarodnik\u00f3w, niewiele wi\u0119cej ni\u017c drgaj\u0105ce mi\u0119so z pazurami pozwalaj\u0105cymi si\u0119 czego\u015b chwyta\u0107.\n\nPo\u0142o\u017cenie: Dryf Kambionu, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglion",
-            "description": "Upad\u0142a k\u0119pka spl\u0105tanych w\u0142\u00f3kien nerwowych, zb\u0119dnych narz\u0105d\u00f3w i cienkich b\u0142on czuciowych.\n\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "Upad\u0142a k\u0119pka spl\u0105tanych w\u0142\u00f3kien nerwowych, zb\u0119dnych narz\u0105d\u00f3w i cienkich b\u0142on czuciowych.\n\nPo\u0142o\u017cenie: Dryf Kambionu, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Przejrzysty Teroglob",
-            "description": "Te kule ju\u017c dawno spe\u0142ni\u0142y swoje pierwotne funkcje, ale nadal pulsuj\u0105 z nik\u0142\u0105 moc\u0105.\n\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "Te kule ju\u017c dawno spe\u0142ni\u0142y swoje pierwotne funkcje, ale nadal pulsuj\u0105 z nik\u0142\u0105 moc\u0105.\n\nPo\u0142o\u017cenie: Dryf Kambionu, Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -853,70 +876,70 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
             "name": "Toroid Crisma",
-            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Crisma mog\u0105 zosta\u0107 zdobyte po pokonaniu Zyskobiorczyni.",
+            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Crisma mog\u0105 zosta\u0107 zdobyte po pokonaniu Zyskobiorczyni w Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
             "name": "Toroid Lazuryt",
-            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Lazuryt mog\u0105 zosta\u0107 zdobyte po pokonaniu Matki Wyzysku.",
+            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Lazurytu mog\u0105 zosta\u0107 zdobyte po pokonaniu Matki Wyzysku w Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
             "name": "Toroid Calda",
-            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Calda mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w Laboratorium Wzbogacania w Orb Vallis i Raknoid\u00f3w Scyto, oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis.",
+            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Calda mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w Laboratorium Wzbogacania w Orb Vallis i Raknoid\u00f3w Scyto oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
             "name": "Toroid Vega",
-            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Vega mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w Porcie Kosmicznym w Orb Vallis i Raknoid\u00f3w Mite, oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis.",
+            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Vega mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w Porcie Kosmicznym w Orb Vallis i Raknoid\u00f3w Mite oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
             "name": "Toroid Sola",
-            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Sola mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w \u015awi\u0105tyni Zysku w Orb Vallis i Raknoid\u00f3w Kyta, oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis.",
+            "description": "Urz\u0105dzenie o nieokre\u015blonej funkcji i pochodzeniu. Cenione przez Vox Solaris i Quill\u00f3w.\n\nToroidy Sola mog\u0105 zosta\u0107 zdobyte z przeciwnik\u00f3w w \u015awi\u0105tyni Zysku w Orb Vallis i Raknoid\u00f3w Kyta oraz zosta\u0107 znalezione w jaskiniach w Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Osad Termiczny",
-            "description": "Produkt uboczny z proces\u00f3w terraformowania P\u0142acz\u0105cych Wie\u017c.\n\nPo\u0142o\u017cenie: Orb Vallis",
+            "description": "Produkt uboczny z proces\u00f3w terraformowania P\u0142acz\u0105cych Wie\u017c.\n\nPo\u0142o\u017cenie: Orb Vallis, Wenus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Systemy Gyromag",
-            "description": "Modularny komponent, kt\u00f3ry reguluje szeroko\u015b\u0107 i wysoko\u015b\u0107 w r\u00f3\u017cnych systemach Corpus. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis.",
+            "description": "Modularny komponent, kt\u00f3ry reguluje szeroko\u015b\u0107 i wysoko\u015b\u0107 w r\u00f3\u017cnych systemach Corpus. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Systemy Atmo",
-            "description": "Modu\u0142owy komponent, kt\u00f3ry kompensuje wiele warunk\u00f3w atmosferycznych napotkanych w systemie Origin. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis.",
+            "description": "Modu\u0142owy komponent, kt\u00f3ry kompensuje wiele warunk\u00f3w atmosferycznych napotkanych w systemie Origin. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Systemy Repeller",
-            "description": "System antygrawitacyjny umo\u017cliwiaj\u0105cy manipulowanie masywnymi obiektami przez jednego u\u017cytkownika. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis.",
+            "description": "System antygrawitacyjny umo\u017cliwiaj\u0105cy manipulowanie masywnymi obiektami przez jednego u\u017cytkownika. Zdobywany przy uko\u0144czeniu Napadu na Orb Vallis (Wenus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Grzyb Mytocardia",
-            "description": "Grzybnia ceniona za r\u00f3\u017cnorodne zastosowania.\n\nPo\u0142o\u017cenie: Orb Vallis",
+            "description": "Grzybnia ceniona za r\u00f3\u017cnorodne zastosowania.\n\nPo\u0142o\u017cenie: Orb Vallis, Wenus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -930,7 +953,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Grzyb Gorgaricus",
-            "description": "Reprodukcyjny zarodnik gigantycznych grzyb\u00f3w Vallis jest wysoce po\u017c\u0105dany ze wzgl\u0119du na z\u0142o\u017cone zwi\u0105zki chemiczne, kt\u00f3re zawiera.\n\nPo\u0142o\u017cenie: Orb Vallis",
+            "description": "Reprodukcyjny zarodnik gigantycznych grzyb\u00f3w Vallis jest wysoce po\u017c\u0105dany ze wzgl\u0119du na z\u0142o\u017cone zwi\u0105zki chemiczne, kt\u00f3re zawiera.\n\nPo\u0142o\u017cenie: Orb Vallis, Wenus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -944,7 +967,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "Guzek Tepa",
-            "description": "Po\u0142yskuj\u0105ce guzki na tych ro\u015blinach \u015bwiec\u0105 jasno w zimnym otoczeniu.\n\nPo\u0142o\u017cenie: Orb Vallis",
+            "description": "Po\u0142yskuj\u0105ce guzki na tych ro\u015blinach \u015bwiec\u0105 jasno w zimnym otoczeniu.\n\nPo\u0142o\u017cenie: Orb Vallis, Wenus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1040,6 +1063,14 @@
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDefault",
             "name": "Cytadela Symulakra",
             "description": "Standardowa strefa dla Symulakra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileEntrati",
+            "name": "Symulakr Sanctum",
+            "description": "Symuluj bitw\u0119 w Sanctum Anatomica. Ta symulacja pozwala ustawi\u0107 poziom trudno\u015bci wroga o 25 poziom\u00f3w powy\u017cej standardowego maksimum.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile",
             "excludeFromCodex": true
@@ -2679,7 +2710,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
             "name": "Tiametryt",
-            "description": "Neuroprzeka\u017aniki Plagi skondensowane pod ci\u015bnieniem.\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Neuroprzeka\u017aniki Plagi skondensowane pod ci\u015bnieniem.\n\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia, Szkatu\u0142y Sagiant Entrati i ukryte pomieszczenia Skarbc\u00f3w Izolacyjnych w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2693,7 +2724,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
             "name": "Dagonik",
-            "description": "Strumyczki p\u0142ynu Egzokrynowego utwardzonego przez mijaj\u0105ce wieki.\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Strumyczki p\u0142ynu Egzokrynowego utwardzonego przez mijaj\u0105ce wieki.\n\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia, Urny Entrati i ukryte pomieszczenia Skarbc\u00f3w Izolacyjnych w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2707,7 +2738,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
             "name": "Adramalium",
-            "description": "Mi\u0119sisty i metaliczny, posiada du\u017c\u0105 spr\u0119\u017cysto\u015b\u0107.\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Mi\u0119sisty i metaliczny, posiada du\u017c\u0105 spr\u0119\u017cysto\u015b\u0107.\n\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia, Torbiele Spitia i Rolizor Plagi w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2721,7 +2752,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
             "name": "Bafolit",
-            "description": "Sw\u0105 kowalno\u015b\u0107 zawdzi\u0119cza wrodzonym \u017cy\u0142om bia\u0142ek Plagi.\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Sw\u0105 kowalno\u015b\u0107 zawdzi\u0119cza wrodzonym \u017cy\u0142om bia\u0142ek Plagi.\n\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia, Torbiele Rolizor Plagi i ukryte pomieszczenia Skarbc\u00f3w Izolacyjnych w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2763,7 +2794,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
             "name": "Nekratyna",
-            "description": "\u015aciskana wewn\u0105trz \u0142usek Plagi, zachowana na tysi\u0105clecia.\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "\u015aciskana wewn\u0105trz \u0142usek Plagi, zachowana na tysi\u0105clecia.\n\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia i Obeliski Requiem w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2777,7 +2808,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
             "name": "Taumika",
-            "description": "Mo\u017ce by\u0107 formowany przez Plag\u0119, ale pozostaje na ni\u0105 odporny.\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Mo\u017ce by\u0107 formowany przez Plag\u0119, ale pozostaje na ni\u0105 odporny.\n\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia, Obelisk Requiem i Torbiel Spitia Plagi na Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2791,7 +2822,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
             "name": "Hecyfron",
-            "description": "Kruszywa w uk\u0142adach neolimfatycznych mas Plagi.\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Kruszywa w uk\u0142adach neolimfatycznych mas Plagi.\n\nPo\u0142o\u017cenie: Niebieskie Owrzodzenia w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2805,7 +2836,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
             "name": "Namalon",
-            "description": "Z\u0142o\u017ca minera\u0142\u00f3w Plagi imituj\u0105ce \u017cywe organy.\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia na Dryfie Kambionu, Deimos.",
+            "description": "Z\u0142o\u017ca minera\u0142\u00f3w Plagi imituj\u0105ce \u017cywe organy.\n\nPo\u0142o\u017cenie: \u017b\u00f3\u0142te Owrzodzenia i ukryte pomieszczenia Skarbc\u00f3w Izolacyjnych w Dryfie Kambionu, Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2819,7 +2850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
             "name": "Azuryt",
-            "description": "Niebieski kryszta\u0142 ze skazami.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Niebieski kryszta\u0142 ze skazami.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2833,7 +2864,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
             "name": "Devar",
-            "description": "Niebieski kryszta\u0142 ze skazami.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Niebieski kryszta\u0142 ze skazami.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2847,7 +2878,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
             "name": "Pyrol",
-            "description": "Kruchy, matowy metal.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Kruchy, matowy metal.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2861,7 +2892,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
             "name": "Coprun",
-            "description": "Mi\u0119kki, \u0142atwy w obr\u00f3bce metal.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Mi\u0119kki, \u0142atwy w obr\u00f3bce metal.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2903,7 +2934,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
             "name": "Crimzian",
-            "description": "Krwistoczerwony kryszta\u0142.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Krwistoczerwony kryszta\u0142.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2917,7 +2948,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
             "name": "Auron",
-            "description": "Ci\u0119\u017cki, l\u015bni\u0105cy metal o du\u017cej przewodno\u015bci.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Ci\u0119\u017cki, l\u015bni\u0105cy metal o du\u017cej przewodno\u015bci.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2931,7 +2962,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
             "name": "Veridos",
-            "description": "Zielony kryszta\u0142 odbijaj\u0105cy \u015bwiat\u0142o.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na R\u00f3wninach Eidolon, Ziemia.",
+            "description": "Zielony kryszta\u0142 odbijaj\u0105cy \u015bwiat\u0142o.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i Kolosy na R\u00f3wninach Eidolon, Ziemia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2945,7 +2976,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
             "name": "Ferros",
-            "description": "Wytrzyma\u0142y metal, utwardzony przez zawarte w nim zanieczyszczenia.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na R\u00f3wninach Eidolon.",
+            "description": "Wytrzyma\u0142y metal, utwardzony przez zawarte w nim zanieczyszczenia.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i Kolosy na R\u00f3wninach Eidolon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2959,7 +2990,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
             "name": "Phasmin",
-            "description": "Niesamowicie zielony klejnot znaleziony w metalicznych od\u0142amkach.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na Orb Vallis, Wenus.",
+            "description": "Niesamowicie zielony klejnot znaleziony w metalicznych od\u0142amkach.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2973,7 +3004,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
             "name": "Noctrul",
-            "description": "Czarny kamie\u0144 z opalizuj\u0105cymi niebieskimi nieczysto\u015bciami.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na Orb Vallis, Wenus.",
+            "description": "Czarny kamie\u0144 z opalizuj\u0105cymi niebieskimi nieczysto\u015bciami.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -2987,7 +3018,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
             "name": "Travoryt",
-            "description": "Minera\u0142 utwardzony przez mia\u017cd\u017c\u0105cy nacisk wenusja\u0144skiej atmosfery.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na Orb Vallis, Wenus.",
+            "description": "Minera\u0142 utwardzony przez mia\u017cd\u017c\u0105cy nacisk wenusja\u0144skiej atmosfery.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3001,7 +3032,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
             "name": "Axidryt",
-            "description": "Osad uformowany z siarkowego deszczu, kt\u00f3ry zosta\u0142 uwi\u0119ziony pod lodem.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na Orb Vallis, Wenus.",
+            "description": "Osad uformowany z siarkowego deszczu, kt\u00f3ry zosta\u0142 uwi\u0119ziony pod lodem.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3057,7 +3088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
             "name": "Hesperon",
-            "description": "Glina, kt\u00f3ra utwardza si\u0119 w wyj\u0105tkowo wytrzyma\u0142y kamie\u0144, je\u015bli zostanie sch\u0142odzona poni\u017cej zera.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na Orb Vallis, Wenus.",
+            "description": "Glina, kt\u00f3ra utwardza si\u0119 w wyj\u0105tkowo wytrzyma\u0142y kamie\u0144, je\u015bli zostanie sch\u0142odzona poni\u017cej zera.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3071,7 +3102,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
             "name": "Goblyt",
-            "description": "Dziwny kryszta\u0142, kt\u00f3ry ro\u015bnie w \u017cy\u0142ach wydobywanej rudy.\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy na Orb Vallis, Wenus.",
+            "description": "Dziwny kryszta\u0142, kt\u00f3ry ro\u015bnie w \u017cy\u0142ach wydobywanej rudy.\n\nPo\u0142o\u017cenie: Z\u0142o\u017ca niebieskiej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3085,7 +3116,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
             "name": "Venerol",
-            "description": "Cenny metal wykuty z produkt\u00f3w ubocznych ch\u0142odziwa.\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy na Orb Vallis, Wenus.",
+            "description": "Cenny metal wykuty z produkt\u00f3w ubocznych ch\u0142odziwa. \n\nPo\u0142o\u017cenie: Z\u0142o\u017ca czerwonej rudy i pojemniki z zasobami na Orb Vallis, Wenus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Gems/GemItem"
         },
@@ -3570,7 +3601,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
             "name": "Oddech Eidolona",
-            "description": "Gaz obecny wy\u0142\u0105cznie na R\u00f3wninach Eidolon, rafinowany do najczystszej postaci. Zdobywany przez wykonywanie Zlece\u0144 od Konzu.",
+            "description": "Gaz obecny wy\u0142\u0105cznie na R\u00f3wninach Eidolon, rafinowany do najczystszej postaci. \n\nPo\u0142o\u017cenie: R\u00f3wniny Eidolon, Ziemia",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4008,36 +4039,35 @@
             "name": "Scena: Bank Pami\u0119ci Hunhowa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeach",
             "name": "Scena: Kaniku\u0142a",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBeachNight",
             "name": "Scena: Kaniku\u0142a Noc\u0105",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCetusTown",
             "name": "Scena: Cetus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipBridge",
             "name": "Scena: Mostku Statku Corpus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4045,7 +4075,7 @@
             "name": "Scena: Hangaru Statk\u00f3w Corpus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4053,21 +4083,21 @@
             "name": "Scena: Magazyn Corpus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipMedCargoRoom",
             "name": "Scena: Bateria Artylerii",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileCorpusShipOrbitalStrike",
             "name": "Scena: Dzia\u0142 Orbitalnych Na Statku Corpus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus",
             "excludeFromCodex": true
         },
         {
@@ -4075,14 +4105,14 @@
             "name": "Scena: Pok\u0142ad 12",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosBouncy",
             "name": "Scena: Skarbca Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4090,7 +4120,7 @@
             "name": "Scena: Prze\u0142omu Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4098,21 +4128,21 @@
             "name": "Scena: Krypta Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCalamity",
             "name": "Scena: G\u0142\u0119biny Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosCatacombs",
             "name": "Scena: Katakumb Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4120,14 +4150,14 @@
             "name": "Scena: Studnia Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosDownfall",
             "name": "Scena: Upadku Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4135,21 +4165,21 @@
             "name": "Scena: Opuszczony Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHeart",
             "name": "Scena: Serce Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosHub",
             "name": "Scena: Nekralisku Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4157,7 +4187,7 @@
             "name": "Scena: Dryfu Kambionu Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4165,7 +4195,7 @@
             "name": "Scena: G\u0142\u0119bi Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4173,21 +4203,21 @@
             "name": "Scena: Membrana Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosSpawn",
             "name": "Scena: Skraj Deimosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimos"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDeimosTomb",
             "name": "Scena: Komnat Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4195,7 +4225,7 @@
             "name": "Scena: Tuneli Deimos",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDeimosReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4210,311 +4240,301 @@
             "name": "Scena: Ob\u00f3z Daks\u00f3w w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLivingQuarters",
             "name": "Scena: Zakwaterowanie w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaLunaro",
             "name": "Scena: Lunaro w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaOpera",
             "name": "Scena: Opera w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaPark",
             "name": "Scena: Park w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaTown",
             "name": "Scena: Miasteczko w Podziemiach",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
             "name": "Scena: Rubie\u017ce Podziemi",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
             "name": "Scena: Arena Oro\u017cmija",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Scena: Krater",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapB",
             "name": "Scena: Podium",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapC",
             "name": "Scena: Kr\u0119te Wyspy",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapD",
             "name": "Scena: Ma\u0142a Wyspa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapE",
             "name": "Scena: Zag\u0142\u0119bie",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Scena: Amfiteatr",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
             "name": "Scena: Archiwalia",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandA",
             "name": "Scena: Przysio\u0142ek Kontynentalny",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAEast",
             "name": "Scena: Region Spodg\u00f3rza",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandAWest",
             "name": "Scena: Nadzamcze",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriMainlandTown",
             "name": "Scena: Podgrodzie",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Scena: Jaskinia Teshina",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileEidolonLandscape",
             "name": "Scena: R\u00f3wniny Eidolon",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileFortunaTown",
             "name": "Scena: Fortuna",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityAssassinate",
             "name": "Scena: Laboratorium Alada w Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerA",
             "name": "Scena: Wy\u017csza Logistyka Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConCornerEOpen",
             "name": "Scena: \u015alepy Zau\u0142ek Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConPlusDOpen",
             "name": "Scena: Centralne L\u0105dowisko Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConStraightEOpen",
             "name": "Scena: Chodnik Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConVerticalA",
             "name": "Scena: Windy Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnector14Alt",
             "name": "Scena: Aleja Chmur Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityConnectorTwo",
             "name": "Scena: Korytarz Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityExitFour",
             "name": "Scena: Ni\u017csze Foyer Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityGasConPlusC",
             "name": "Scena: Dystrybucja Element\u00f3w Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateFive",
             "name": "Scena: Regulatory Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCityIntermediateSix",
             "name": "Scena: Udoskonalanie Elementarne Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGasCitySpawnTwo",
             "name": "Scena: Hol Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestCaveIntermediateA",
             "name": "Scena: Pompa Wodna Lasu Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateA",
             "name": "Scena: Fabryka Lasu Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerForestIntermediateB",
             "name": "Scena: Przemys\u0142 Lasu Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
             "name": "Scena: Szczelina Fortecy Kuva",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerGalleonDefense",
             "name": "Scena: \u0141adunek Galeona Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
             "name": "Scena: Wir\u00f3wka Podwodnego Laboratorium Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
             "name": "Scena: Artyleria Osady Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHarrowRedVeilTemple",
             "name": "Scena: \u015awi\u0105tynia Harrowa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileHydroidRelay",
@@ -4528,49 +4548,49 @@
             "name": "Scena: Krypta Inarosa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileInfestedPurify02Objective",
             "name": "Scena: Hologram Statku Plagi",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOnkosCave",
             "name": "Scena: Stanowisko Dowodzenia Onkko",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOstron"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinExtraction",
             "name": "Scena: Punkt Ewakuacyjny Wie\u017cy Orokin",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
             "name": "Scena: Balkon Lua",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePlayerShip",
             "name": "Scena: Orbiter",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory",
             "name": "Scena: Pustki Granuma",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4578,168 +4598,168 @@
             "name": "Scena: Schronienie Teshina",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTilePvPTennoBallMoon",
             "name": "Scena: Arena Lunaro",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
             "name": "Scena: Dziedziniec Umbry",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbiters",
             "name": "Scena: Trybuna\u0142 Arbitr\u00f3w",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersContainment",
             "name": "Scena: Wi\u0119zienie Lua",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateArbitersNursery",
             "name": "Scena: Przedszkole Lua",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalon",
             "name": "Scena: Bank Pami\u0119ci Sudy",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonLotusThrone",
             "name": "Scena: Komnata Lotus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateCephalonWreckage",
             "name": "Scena: Wrak Statku Lodowej Planety Corpus",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLoka",
             "name": "Scena: Odwr\u00f3t Amaryn",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaConveyor",
             "name": "Scena: Fabryka Stoczni Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateNewLokaSilverGrove",
             "name": "Scena: Kapliczka Srebrzystego Gaju",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrin",
             "name": "Scena: Sala Konferencyjna Ergo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinColonist",
             "name": "Scena: Kolonia Mycon\u00f3w",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicatePerrinPipeHallway",
             "name": "Scena: Przeka\u017anik Corpus Gazozo",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseCorpus"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeil",
             "name": "Scena: Wi\u0119zy Woalu",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilHunhow",
             "name": "Scena: Komnata Hunhowa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip",
             "name": "Scena: Mostek Statku Plagi",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseInfested"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisDerelictHub",
             "name": "Scena: Plaza Wraku Orokin",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSimarisOnslaught",
             "name": "Scena: Kana\u0142 Sanktuarium",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridian",
             "name": "Scena: Garnizon Cressy",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSyndicates"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianCave",
             "name": "Scena: Reaktor Osady Grineer",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileSyndicateSteelMeridianQueensThrone",
             "name": "Scena: Tron Kuvy",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileTNWBallasThroneRoomEnding",
             "name": "Scena: Sala tronowa Praghasa",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresQuestComplete",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
             "excludeFromCodex": true
         },
         {
@@ -4747,42 +4767,42 @@
             "name": "Scena: Wyb\u00f3r Wewn\u0119trznej Wojny",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVentKids",
             "name": "Scena: Domek Klubowy Nawiewniak\u00f3w",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileVenusLandscape",
             "name": "Scena: Orb Vallis",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSU"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWhiteBox",
             "name": "Scena: Jednolite T\u0142o",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseTenno"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWolfSixPrison",
             "name": "Scena: Saturn Sze\u015b\u0107",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseGrineer"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena",
             "name": "Scena: The Cold Below",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": true,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
@@ -5103,160 +5123,154 @@
             "name": "Scena: Archiwa Albrechta",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileCapRoomNarrow",
             "name": "Scena: Biuro Albrechta",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileDeadEndSecret",
+            "name": "Scena: Odwr\u00f3t Dantego",
+            "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileHubLabMITW",
             "name": "Scena: Sanctum Anatomica",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileIntFailureMITW",
+            "name": "Scena: Porzucony Obiekt",
+            "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
             "name": "Scena: Kotliny Rozcz\u0142onkowanego",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileTriExperiment",
             "name": "Scena: Fabrica Anatomica",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarAmphitheatre",
             "name": "Scena: Amfiteatr Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarApartment",
             "name": "Scena: Dormizon Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCargoBay",
             "name": "Scena: \u0141adownia Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarCellBlock",
             "name": "Scena: Bryg Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarHydroponics",
             "name": "Scena: Agri-strefa Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarIndoctrinationHall",
             "name": "Scena: Hala Legem\u00f3w Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLivingQuarters",
             "name": "Scena: Strefa mieszkalna Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarLunaroCourt",
             "name": "Scena: Kort Lunaro Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkA",
             "name": "Scena: Park Albrechta Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkB",
             "name": "Scena: Poziomy Ciszy Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkC",
             "name": "Scena: Anielska Grz\u0119da Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarParkHub",
             "name": "Scena: Chryzalitu Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarSchool",
             "name": "Scena Szkolnego Dziedzi\u0144ca Zariman",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarShuttleBay",
             "name": "Scena: Dok\u00f3w Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Zariman/PhotoboothTileZarVoidEngine",
             "name": "Scena: Relikwiarza nap\u0119dowego Zarimana",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseZariman"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
@@ -5271,14 +5285,14 @@
             "name": "Scena: Circulus Lua",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne",
             "name": "Scena: Balkonu \u015awiadomych",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5286,7 +5300,7 @@
             "name": "Scena: Fontanny \u015awiadomych",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5294,7 +5308,7 @@
             "name": "Scena: Zag\u0142\u0119bia \u015awiadomych",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5302,7 +5316,7 @@
             "name": "Scena: Sali \u015awiadomych",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5310,7 +5324,7 @@
             "name": "Scena: O\u0142tarza \u015awiadomych",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileRequiresOwnership",
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseSentient",
             "excludeFromCodex": true
         },
         {
@@ -5318,33 +5332,33 @@
             "name": "Scena Lasu \u0141amania Woali",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerMurex",
             "name": "Scena Mureksu \u0141amania Woali",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/PhotoboothTileVeilbreakerVallis",
             "name": "Scena Fabryki \u0141amania Woali",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
-            "name": "S\u0142oneczna Sto\u017ckoszyszka",
-            "description": "T\u0119 pospolit\u0105 ro\u015blin\u0119 mo\u017cna znale\u017a\u0107 tylko w czasie dnia. Zdobywana przez u\u017cycie Skanera Kodeksu na ro\u015blinie S\u0142oneczna Sto\u017ckoszyszka, kt\u00f3r\u0105 znale\u017a\u0107 mo\u017cna w lasach na Ziemi.",
+            "name": "S\u0142oneczna Szyszka",
+            "description": "T\u0119 pospolit\u0105 ro\u015blin\u0119 mo\u017cna znale\u017a\u0107 tylko w czasie dnia. Zdobywana przez u\u017cycie Skanera Kodeksu na ro\u015blinie S\u0142oneczna Szyszka, kt\u00f3r\u0105 znale\u017a\u0107 mo\u017cna w lasach na Ziemi.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
-            "name": "Ksi\u0119\u017cycowa Sto\u017ckoszyszka",
-            "description": "T\u0119 pospolit\u0105 ro\u015blin\u0119 mo\u017cna znale\u017a\u0107 tylko w czasie nocy. Zdobywana przez u\u017cycie Skanera Kodeksu na ro\u015blinie Ksi\u0119\u017cycowa Sto\u017ckoszyszka, kt\u00f3r\u0105 znale\u017a\u0107 mo\u017cna w lasach na Ziemi.",
+            "name": "Ksi\u0119\u017cycowa Szyszka",
+            "description": "T\u0119 pospolit\u0105 ro\u015blin\u0119 mo\u017cna znale\u017a\u0107 tylko w czasie nocy. Zdobywana przez u\u017cycie Skanera Kodeksu na ro\u015blinie Ksi\u0119\u017cycowa Szyszka, kt\u00f3r\u0105 znale\u017a\u0107 mo\u017cna w lasach na Ziemi.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6201,11 +6215,33 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/ORKxLabVesselEyeDeco",
+            "name": "Baczne Vitreum",
+            "description": "Niestrudzony obserwator Orbitera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/EntratiLabs/PagemasterOwl",
+            "name": "Paragrimm Noctua",
+            "description": "Paragrimm rodzi si\u0119 ze stron Noctua, aby towarzyszy\u0107 Ci na pok\u0142adzie Orbitera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/CitrineComboCrystalShipDeco",
             "name": "Zjednoczeni Belric i Rania",
             "description": "Pami\u0119\u0107 o kochankach, Belricu i Ranii, zachowana w krysztale.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/NeonPrideWings",
+            "name": "Neonowe Skrzyd\u0142a Dumy",
+            "description": "\u015awi\u0119tuj Dum\u0119 t\u0105 promienn\u0105 dekoracj\u0105 Orbitera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Events/TickerValentineWings",
@@ -7150,6 +7186,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyArthur",
+            "name": "Pluszak Artura",
+            "description": "'Moje badania przeprowadzone w roku 1999 pozwoli\u0142y odnale\u017a\u0107 bezcenny relikt znany jako Puszysty Przyjaciel. Musimy odtworzy\u0107 to cudo przesz\u0142o\u015bci.' - Loid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBeachKavat",
             "name": "Pluszak Kavata Pla\u017cowego",
             "description": "Wyj\u0105tkowy Pluszak upami\u0119tniaj\u0105cy Tw\u00f3j udzia\u0142 w Alarmie Taktycznym: Kaniku\u0142a. ZA WYGRAN\u0104!",
@@ -7207,7 +7250,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDesertSkate",
-            "name": "Pluszak Pustynnego \u015alizgacza",
+            "name": "Pluszak Pustynnej P\u0142aszczki",
             "description": "Unikaj niepewnego gruntu dzi\u0119ki temu ma\u0142emu przytulaskowi!",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -7335,6 +7378,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMorningKavat",
             "name": "Pluszak Kavata Wschodz\u0105cego S\u0142o\u0144ca",
             "description": "Wyj\u0105tkowy Pluszak upami\u0119tniaj\u0105cy Tw\u00f3j udzia\u0142 w Alarmie Taktycznym: Kaniku\u0142a. ZA WYGRAN\u0104!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis",
+            "name": "Pluszak Ordisa",
+            "description": "Ordis: 'Operator ma Pluszaki w wielu uroczych formach. Ordis pomy\u015bla\u0142, \u017ce Operator m\u00f3g\u0142by doda\u0107 lojalnego Cefalona do kolekcji!'",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -7591,6 +7641,14 @@
             "description": "Trofeum upami\u0119tniaj\u0105ce znacz\u0105c\u0105 zdobycz.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Pride2024Display",
+            "name": "Wy\u015bwietlacz Dumy 2024",
+            "description": "Wy\u015bwietlacz na cze\u015b\u0107 Dumy. Zaprojektowany przez RoboMythos.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/PrideCommunityDisplay",
@@ -9297,6 +9355,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimeBobbleHead",
+            "name": "Figurka Noggle \u2014 Baruuk Prime",
+            "description": "Ma\u0142a, chwiejna figurka Baruuka Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BaruukPrimePattern",
             "name": "Mandala Baruuka Prime",
             "description": "Naznacz sw\u00f3j Orbiter t\u0105 spokojn\u0105 mandal\u0105 Baruuka Prime. Jej konfiguracja zach\u0119ca do medytacji i kontemplacji.",
@@ -10197,6 +10263,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/GrendelPrimeBobbleHead",
+            "name": "Figurka Noggle \u2014 Grendel Prime",
+            "description": "Ma\u0142a, chwiejna figurka Grendela Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GrimoireAltar",
             "name": "O\u0142tarz Grymuaru",
             "description": "Wystaw sw\u00f3j Grymuar na honorowym miejscu.",
@@ -10360,6 +10434,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/HildrynPrimeBobbleHead",
+            "name": "Figurka Noggle \u2014 Hildryn Prime",
+            "description": "Ma\u0142a, chwiejna figurka Hildryn Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HydroidBobbleHead",
             "name": "Figurka Noggle \u2014 Hydroid",
             "description": "Ma\u0142a, chwiejna figurka Hydroida.",
@@ -10377,6 +10458,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosBobbleHead",
             "name": "Figurka Noggle \u2014 Inaros",
             "description": "Ma\u0142a, chwiejna figurka Inarosa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/InarosCoffin",
+            "name": "Dekoracja: Sarkofag Inarosa",
+            "description": "Inaros czuje si\u0119 mile widziany w ka\u017cdej przestrzeni, w kt\u00f3rej znajduje si\u0119 ten ochronny sarkofag.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10471,21 +10559,21 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterB",
             "name": "Bazgro\u0142y Javiego: W\u0119\u017cownik",
             "description": "Zosta\u0144 uczniem Javiego. Te bazgro\u0142y W\u0119\u017cownika s\u0105 oparte na zapisach Drususa Leveriana na temat Lavosa",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterC",
             "name": "Bazgro\u0142y Javiego: Jasno\u015b\u0107",
             "description": "Zosta\u0144 uczniem Javiego. Te bazgro\u0142y jasno\u015bci s\u0105 oparte na zapisach Drususa Leveriana na temat Lavosa.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JavisExperimentsPosterD",
             "name": "Bazgro\u0142y Javiego: Genom",
             "description": "Zosta\u0144 uczniem Javiego. Te bazgro\u0142y genotypu s\u0105 oparte na zapisach Drususa Leveriana na temat Lavosa.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -11960,6 +12048,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco",
+            "name": "Dekoracja Chimalli i Tequihua",
+            "description": "Oddasz cze\u015b\u0107 Styanaxowi Tonatiuh, pokazuj\u0105c to cenne uzbrojenie.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
             "name": "Figurka Noggle \u2014 Kahl-175",
             "description": "Ma\u0142a, chwiejna figurka Khal-175.",
@@ -12034,6 +12129,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDagath",
             "name": "Prex: Dagath",
             "description": "Lustro, kt\u00f3re oskar\u017ca",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardDante",
+            "name": "Prex: Dante",
+            "description": "Stra\u017cnik historii",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12500,6 +12602,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2024Display",
+            "name": "Wy\u015bwietlacz: TennoCon 2024",
+            "description": "Podarowana uczestnikom TennoCon 2024.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
             "name": "Figurka Noggle \u2014 Teshin",
             "description": "Ma\u0142a, chwiejna figurka Teshina.",
@@ -12644,6 +12753,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/VorBobbleHead",
             "name": "Figurka Noggle \u2014 Vor",
             "description": "Ma\u0142a, chwiejna figurka Kapitana Vora.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/WispPrimeBobbleHead",
+            "name": "Figurka Noggle \u2014 Wisp Prime",
+            "description": "Ma\u0142a, chwiejna figurka Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13056,7 +13172,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardUpgradeFeatureItem",
             "name": "SEGMENT TRANSMUTACJI HELMINTH",
-            "description": "Pozwala Helminthowi na \u0142\u0105czenie Okruch\u00f3w Archona w pot\u0119\u017cniejsze warianty.",
+            "description": "Pozwala Helminthowi na \u0142\u0105czenie Okruch\u00f3w Archona w pot\u0119\u017cniejsze warianty poprzez Transmutacj\u0119 i Fuzj\u0119.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15658,6 +15774,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterChassisComponent",
+            "name": "Dante: Pow\u0142oka",
+            "description": "Pow\u0142oka dla Warframe'a Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterHelmetComponent",
+            "name": "Dante: Neurooptyka",
+            "description": "Neurooptyka dla Warframe'a Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PagemasterSystemsComponent",
+            "name": "Dante: Systemy",
+            "description": "Systemy dla Warframe'a Dante.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon: Pow\u0142oka",
             "description": "Pow\u0142oka dla Warframe'a Oberon.",
@@ -17272,6 +17409,20 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
             "name": "Nautilus: Systemy",
             "description": "Element wytwarzania Stra\u017cnik\u00f3w.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBlade",
+            "name": "Ruvox: Ostrze",
+            "description": "Element wytwarzania Broni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonGlove",
+            "name": "Ruvox: R\u0119kawica",
+            "description": "Element wytwarzania Broni.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
