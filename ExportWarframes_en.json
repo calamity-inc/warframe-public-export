@@ -1649,6 +1649,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+            "name": "Protea Prime",
+            "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
+            "description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
+            "health": 270,
+            "shield": 455,
+            "armor": 185,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.2,
+            "passiveDescription": "Every |CASTS|th Power Cast is granted +|STRENGTH|% Ability Strength.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+                    "abilityName": "Grenade Fan",
+                    "description": "Throw out grenades in an arc.\n\n(TAP) SHRAPNEL VORTEX\nCreates a slashing, staggering swirl of shrapnel.\n\n(HOLD) SHIELD SATELLITES\nProtea reconfigures Grenades to work as overcharging shield generators, protecting her, her allies and companions. When Shields break, a Satellite is destroyed to double minimum Shield Gate invincibility time."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+                    "abilityName": "Blaze Artillery",
+                    "description": "Deploys an artillery unit to blast plasma charges at enemies it faces. Each enemy hit increases the power of subsequent plasma attacks."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+                    "abilityName": "Dispensary",
+                    "description": "Deploys a device that generates 3 pickups after a short delay: empowered health orb, universal ammo pack and energy orb."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+                    "abilityName": "Temporal Anchor",
+                    "description": "Drops a Temporal Anchor which, after a short duration, Protea rewinds to trigger a temporal implosion. Implosion damage increases based on damage dealt between anchor drop and rewind. Everything lost or expended in that time is returned.\nDying while Anchor is active rewinds Protea to the anchor, saving her. Protea is knocked down and the anchor vanishes."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
             "name": "Protea",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",

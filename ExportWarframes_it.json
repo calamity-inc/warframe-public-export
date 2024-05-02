@@ -1649,6 +1649,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+            "name": "Protea Prime",
+            "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
+            "description": "Contempla la figlia di due padri. Protea Prime ha realizzato la visione di Parvos Granum di un guardiano in grado di manipolare il tempo. Ora sostiene l'ideale Tenno di difendere i pi\u00f9 deboli.",
+            "health": 270,
+            "shield": 455,
+            "armor": 185,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.2,
+            "passiveDescription": "Ogni |CASTS|\u00b0 Abilit\u00e0 attivata ricevi +|STRENGTH|% di Potenza Abilit\u00e0.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+                    "abilityName": "Grenade Fan",
+                    "description": "Lancia granate ad arco.\n\n(PREMI) SHRAPNEL VORTEX\nCrea un vortice di schegge taglienti.\n\n(TIENI PREMUTO) SHIELD SATELLITE\nProtea riconfigura le Granate in modo che funzionino come generatori di sovraccarica dello scudo, proteggendo lei, i suoi alleati e i compagni. Quando gli Scudi vengono prosciugati, un Satellite viene distrutto per raddoppiare il tempo minimo dell'invicibilit\u00e0 di Shield Gate."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+                    "abilityName": "Blaze Artillery",
+                    "description": "Dispiega un'unit\u00e0 d'artiglieria che fa esplodere cariche di plasma sui nemici che affronta. Ogni nemico colpito incrementa il potere dei successivi attacchi al plasma."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+                    "abilityName": "Dispensary",
+                    "description": "Dispiega un dispositivo che dopo un breve lasso di tempo genera 3 oggetti: una sfera salute potenziata, un pacchetto munizioni universale e una sfera di energia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+                    "abilityName": "Temporal Anchor",
+                    "description": "Protea rilascia una Temporal Anchor che riavvolge dopo un breve periodo innescando un'implosione temporale. Il danno implosione aumenta in base a quello inflitto tra la caduta dell'ancora e il suo riavvolgimento. Tutto ci\u00f2 che \u00e8 stato perso o consumato in quel lasso di tempo viene restituito.\nMorire mentre Anchor \u00e8 attiva riporta Protea all'ancora, salvandola. Protea viene atterrata e l'ancora svanisce."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
             "name": "Protea",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",

@@ -1649,6 +1649,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+            "name": "Protea Prime",
+            "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
+            "description": "He aqu\u00ed la hija de dos padres. Protea Prime hizo realidad la visi\u00f3n de Parvos Granum de un guardi\u00e1n capaz de controlar el tiempo. Ahora preserva el ideal tenno de defender a los indefensos.",
+            "health": 270,
+            "shield": 455,
+            "armor": 185,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.2,
+            "passiveDescription": "Cada |CASTS|\u00b0 lanzamiento de poder otorga +|STRENGTH| % de fuerza de habilidad.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+                    "abilityName": "Abanico de granadas",
+                    "description": "Lanza granadas en arco.\n\n(PRESIONAR) V\u00d3RTICE DE METRALLA\nCrea un remolino de metralla cortante aturdidora.\n\n(MANTENER) SAT\u00c9LITES DE ESCUDO\nProtea reconfigura las granadas para que funcionen como generadores de escudo con sobrecarga, protegi\u00e9ndola a ella, a sus aliados y a sus compa\u00f1eros. Cuando los escudos se agotan, un sat\u00e9lite se destruye para duplicar el tiempo m\u00ednimo de invulnerabilidad de absorci\u00f3n de da\u00f1o en los escudos."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+                    "abilityName": "Artiller\u00eda incendiaria",
+                    "description": "Despliega una unidad de artiller\u00eda para disparar cargas de plasma a los enemigos que enfrenta. Cada enemigo da\u00f1ado aumenta el poder de los ataques de plasma posteriores."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+                    "abilityName": "Dispensario",
+                    "description": "Despliega un dispositivo que genera 3 tipos de recursos despu\u00e9s de un breve retraso: orbe de salud potenciado, paquete de munici\u00f3n universal y orbe de energ\u00eda."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+                    "abilityName": "Ancla temporal",
+                    "description": "Suelta un Ancla temporal que, despu\u00e9s de cierto tiempo, Protea rebobina para desencadenar una implosi\u00f3n temporal. El da\u00f1o por implosi\u00f3n aumenta en funci\u00f3n del da\u00f1o infligido entre la colocaci\u00f3n del ancla y el rebobinado. Todo lo perdido o gastado en ese tiempo se devuelve.\nMorir mientras un Ancla est\u00e1 activa rebobina Protea hacia el ancla, salv\u00e1ndola. Protea es derribada y el ancla se desvanece."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
             "name": "Protea",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",

@@ -3953,6 +3953,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTenCreds",
+            "name": "Nora's Mix Vol. 5 \u30af\u30ec\u30c9",
+            "description": "Nightwave\u306e\u63d0\u4f9b\u54c1\u3092\u8cfc\u5165\u3059\u308b\u305f\u3081\u306e\u901a\u8ca8\u3002\u524d\u30b7\u30ea\u30fc\u30ba\u306eNightwave\u30af\u30ec\u30c9\u306f\u6226\u5229\u54c1\u3068\u3057\u3066\u53d6\u3063\u3066\u304a\u304f\u306e\u3082\u3088\u3057\u3001\u3042\u308b\u3044\u306f\u58f2\u5374\u3057\u3066<CREDITS>\u30af\u30ec\u30b8\u30c3\u30c8\u3092\u5f97\u3089\u308c\u307e\u3059\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThreeCreds",
             "name": "\u5e55\u9593 III \u30af\u30ec\u30c9",
             "description": "Nightwave\u306e\u63d0\u4f9b\u54c1\u3092\u8cfc\u5165\u3059\u308b\u305f\u3081\u306e\u901a\u8ca8\u3002\u524d\u30b7\u30ea\u30fc\u30ba\u306eNightwave\u30af\u30ec\u30c9\u306f\u6226\u5229\u54c1\u3068\u3057\u3066\u53d6\u3063\u3066\u304a\u304f\u306e\u3082\u3088\u3057\u3001\u3042\u308b\u3044\u306f\u58f2\u5374\u3057\u3066<CREDITS>\u30af\u30ec\u30b8\u30c3\u30c8\u3092\u5f97\u3089\u308c\u307e\u3059\u3002",
@@ -15872,6 +15880,30 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeChassisComponent",
+            "name": "Protea Prime \u30b7\u30e3\u30fc\u30b7",
+            "description": "Protea Prime\u306e\u30b7\u30e3\u30fc\u30b7\u30d1\u30fc\u30c4\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeHelmetComponent",
+            "name": "Protea Prime \u30cb\u30e5\u30fc\u30ed\u30c6\u30a3\u30c3\u30af",
+            "description": "Protea Prime\u306e\u30cb\u30e5\u30fc\u30ed\u30c6\u30a3\u30c3\u30af\u30d1\u30fc\u30c4\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeSystemsComponent",
+            "name": "Protea Prime \u30b7\u30b9\u30c6\u30e0",
+            "description": "Protea Prime\u306e\u30b7\u30b9\u30c6\u30e0\u30d1\u30fc\u30c4\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaSystemsComponent",
             "name": "Protea \u30b7\u30b9\u30c6\u30e0",
             "description": "Protea \u306e\u30b7\u30b9\u30c6\u30e0\u30d1\u30fc\u30c4\u3002",
@@ -18030,6 +18062,22 @@
             "primeSellingPrice": 100
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OkinaPrimeBlade",
+            "name": "Okina Prime \u30d6\u30ec\u30fc\u30c9",
+            "description": "Prime\u7248\u6b66\u5668\u4f5c\u6210\u7528\u306e\u90e8\u54c1\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OkinaPrimeHandle",
+            "name": "Okina Prime \u30cf\u30f3\u30c9\u30eb",
+            "description": "Prime\u7248\u6b66\u5668\u4f5c\u6210\u7528\u306e\u90e8\u54c1\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PanderoPrimeBarrel",
             "name": "Pandero Prime \u30d0\u30ec\u30eb",
             "description": "Prime\u7248\u6b66\u5668\u4f5c\u6210\u7528\u306e\u90e8\u54c1\u3002",
@@ -19270,6 +19318,22 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 65
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VeloxPrimeBarrel",
+            "name": "Velox Prime \u30d0\u30ec\u30eb",
+            "description": "Prime\u7248\u6b66\u5668\u4f5c\u6210\u7528\u306e\u90e8\u54c1\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VeloxPrimeReceiver",
+            "name": "Velox Prime \u30ec\u30b7\u30fc\u30d0\u30fc",
+            "description": "Prime\u7248\u6b66\u5668\u4f5c\u6210\u7528\u306e\u90e8\u54c1\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VolnusPrimeHandle",
