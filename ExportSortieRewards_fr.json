@@ -833,7 +833,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHorsingAround",
                 "name": "Cavalerie A\u00e9roport\u00e9e",
-                "description": "Volez avec votre Kaithe sur 1 500 m\u00e8tres",
+                "description": "Volez avec votre Kaithe sur |COUNT| m\u00e8tres",
                 "standing": 4500,
                 "required": 1500
             },
@@ -847,7 +847,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySkeletonsInTheCloset",
                 "name": "Des squelettes dans le placard",
-                "description": "\u00c9liminer 50 ennemis Dax \u00e0 Duviri",
+                "description": "\u00c9liminer |COUNT| ennemis Dax \u00e0 Duviri",
                 "standing": 4500,
                 "required": 50
             },
@@ -1371,7 +1371,7 @@
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPermanentKillEnemies25",
-                "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPermanentKillEnemies25_Name",
+                "name": "Pas d'avertissements XXV",
                 "description": "\u00c9liminer |COUNT| ennemis.",
                 "standing": 4500,
                 "required": 500
@@ -2785,6 +2785,11 @@
             "description": "Des enregistrements pr\u00e9serv\u00e9s indiquent que cette souche Kavat Deaeira a \u00e9t\u00e9 d\u00e9velopp\u00e9e et favoris\u00e9e par les Orokins. [Laur\u00e9at du Concours \"Tenno's Best Friend\"]"
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackDaybreak",
+            "name": "Kit de Masquage G\u00e9n\u00e9tique Kavat de l'Aube",
+            "description": "Les Orokins ont con\u00e7u cette structure d'ADN pour que leurs Kavats incarnent la saison du renouveau."
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackEntrati",
             "name": "Kit de Masquage G\u00e9n\u00e9tique Kavat Kalymos",
             "description": "Donnez \u00e0 votre Kavat le look du fid\u00e8le compagnon d'Albrecht Entrati, Kalymos."
@@ -2843,6 +2848,11 @@
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackContest",
             "name": "Kit de Masquage G\u00e9n\u00e9tique Kubrow Heino",
             "description": "Ce motif de pelage correspond aux anc\u00eatres Heino de votre Kubrow, pr\u00e9serv\u00e9 gr\u00e2ce \u00e0 une souche g\u00e9n\u00e9tique maintenue par le Ma\u00eetre Kubrow Skvirl. [Laur\u00e9at du Concours \"Tenno's Best Friend\"]"
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackDaybreak",
+            "name": "Kit de Masquage G\u00e9n\u00e9tique Kubrow de l'Aube",
+            "description": "Les Orokins ont con\u00e7u cette structure d'ADN pour que leurs Kubrows incarnent la saison du renouveau."
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackLiquid",

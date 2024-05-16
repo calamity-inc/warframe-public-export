@@ -833,7 +833,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHorsingAround",
                 "name": "Prendere il Volo",
-                "description": "Vola con il tuo Kaithe per 1500 metri",
+                "description": "Vola con il tuo Kaithe per |COUNT| metri",
                 "standing": 4500,
                 "required": 1500
             },
@@ -847,7 +847,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySkeletonsInTheCloset",
                 "name": "Scheletri nell'Armadio",
-                "description": "Uccidi 50 nemici Dax su Duviri",
+                "description": "Uccidi |COUNT| nemici Dax su Duviri",
                 "standing": 4500,
                 "required": 50
             },
@@ -1371,7 +1371,7 @@
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPermanentKillEnemies25",
-                "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPermanentKillEnemies25_Name",
+                "name": "Non un Colpo d'Avvertimento XXV",
                 "description": "Uccidi |COUNT| nemici.",
                 "standing": 4500,
                 "required": 500
@@ -2785,6 +2785,11 @@
             "description": "La documentazione rimasta afferma che la razza Kavat Deaeira \u00e8 stata sviluppata e poi divenuta la prediletta dagli Orokin. [Vincitore del Contest Tenno's Best Friend]"
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackDaybreak",
+            "name": "Kit Genetico-Estetico Kavat Daybreak",
+            "description": "Gli Orokin hanno modificato questa struttura del DNA per far s\u00ec che i loro Kavat incarnassero la stagione del rinnovamento."
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackEntrati",
             "name": "Kit Genetico-Estetico Kavat Kalymos",
             "description": "Dai al tuo Kavat l'aspetto del fedele compagno di Albrecht Entrati, Kalymos."
@@ -2843,6 +2848,11 @@
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackContest",
             "name": "Kit Genetico-Estetico Kubrow Heino",
             "description": "Pattern pelo corrispondente agli antenati Heino del tuo Kubrow, ottenuto da una linea di geni preservata dallo specialista Kubrow Skvirl. [Vincitore de Il Miglior Amico Del Tenno]"
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackDaybreak",
+            "name": "Kit Genetico-Estetico Kubrow Daybreak",
+            "description": "Gli Orokin hanno modificato questa struttura del DNA per far s\u00ec che i loro Kubrow incarnassero la stagione del rinnovamento."
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackLiquid",

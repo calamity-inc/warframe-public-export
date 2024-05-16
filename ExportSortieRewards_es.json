@@ -833,7 +833,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHorsingAround",
                 "name": "Cabalgando",
-                "description": "Vuela con tu kaithe por 1500 metros",
+                "description": "Vuela con tu kaithe por |COUNT| metros",
                 "standing": 4500,
                 "required": 1500
             },
@@ -847,7 +847,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySkeletonsInTheCloset",
                 "name": "Esqueletos en el armario",
-                "description": "Mata a 50 enemigos Dax en Duviri",
+                "description": "Mata a |COUNT| enemigos Dax en Duviri",
                 "standing": 4500,
                 "required": 50
             },
@@ -1371,7 +1371,7 @@
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPermanentKillEnemies25",
-                "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPermanentKillEnemies25_Name",
+                "name": "No es un tiro de advertencia XXV",
                 "description": "Mata |COUNT| enemigos.",
                 "standing": 4500,
                 "required": 500
@@ -2785,6 +2785,11 @@
             "description": "Los registros restantes indican que la raza Deaeira de kavat fue desarrollada y favorecida por los orokin. [Ganador del concurso El Mejor Amigo del Tenno]"
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackDaybreak",
+            "name": "Kit de enmascaramiento gen\u00e9tico Amanecer de kavat",
+            "description": "Los orokin dise\u00f1aron esta estructura de ADN para que sus kavats personificaran la temporada de la renovaci\u00f3n."
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackEntrati",
             "name": "Kit de enmascaramiento gen\u00e9tico Kalymos de kavat",
             "description": "Dale a tu kavat la apariencia del fiel compa\u00f1ero de Albrecht Entrati, Kalymos."
@@ -2843,6 +2848,11 @@
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackContest",
             "name": "Kit de enmascaramiento gen\u00e9tico Heino de kubrow",
             "description": "Patr\u00f3n de pelaje correspondiente a los ancestros Heino de tu kubrow, de una l\u00ednea gen\u00e9tica preservada por el maestro de kubrows Skvirl. [Ganador del concurso El Mejor Amigo del Tenno]"
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackDaybreak",
+            "name": "Kit de enmascaramiento gen\u00e9tico Amanecer de kubrow",
+            "description": "Los orokin dise\u00f1aron esta estructura de ADN para que sus kubrows personificaran la temporada de la renovaci\u00f3n."
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackLiquid",
