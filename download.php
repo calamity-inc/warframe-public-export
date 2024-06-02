@@ -8,7 +8,11 @@ foreach (scandir(".") as $file)
 		{
 			$line = str_replace("\r", "", $line);
 			$name = explode("!", $line)[0];
-			if ($name != "ExportManifest.json" || $file == "index_en.txt")
+			if (substr($name, 0, 13) == "ExportRecipes")
+			{
+				$name = "ExportRecipes.json";
+			}
+			if (($name != "ExportManifest.json" && $name != "ExportRecipes.json") || $file == "index_en.txt")
 			{
 				echo "Downloading $name...\n";
 				$data = file_get_contents("https://content.warframe.com/PublicExport/Manifest/".$line);
