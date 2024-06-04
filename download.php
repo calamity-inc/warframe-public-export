@@ -16,7 +16,7 @@ foreach (scandir(".") as $file)
 			{
 				echo "Downloading $name...\n";
 				$data = file_get_contents("https://content.warframe.com/PublicExport/Manifest/".$line);
-				$data = str_replace("\\r\r\n", "\\n", $data);
+				$data = str_replace("\\r\r\n", "\\r\\n", $data);
 				$data = str_replace("\t", "\\t", $data); // ExportWarframes_pl & ExportWeapons_pl use raw tabs in some strings
 				$data = json_encode(json_decode($data, true), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 				file_put_contents($name, $data);
