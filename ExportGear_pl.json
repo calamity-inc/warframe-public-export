@@ -3,7 +3,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA",
             "name": "Resztki Fass",
-            "description": "Kawa\u0142ek Wyrma Fass, zebrany po jego wybuchowej \u015bmierci. Mo\u017ce s\u0142u\u017cy\u0107 do zwabienia Glutinoksa, Ostimira i Witreospina.\r\n\r\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "Kawa\u0142ek Wyrma Fass, zebrany po jego wybuchowej \u015bmierci. Mo\u017ce s\u0142u\u017cy\u0107 do zwabienia Glutinoksa, Ostimira i Witreospina.\r\n\r\nPo\u0142o\u017cenie: Dryf Kambionu na Deimosie, kiedy aktywny jest Wyrm Fass",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -17,7 +17,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA",
             "name": "Resztki Vome",
-            "description": "Kawa\u0142 surowego mi\u0119sa, odpad\u0142 z Wyrma Vome w jej \u015bmiertelnym spazmie. Mo\u017ce s\u0142u\u017cy\u0107 do zwabienia Chrz\u0105stkordzenia i Duroida.\r\n\r\nPo\u0142o\u017cenie: Dryf Kambionu",
+            "description": "Kawa\u0142 surowego mi\u0119sa, odpad\u0142 z Wyrma Vome w jej \u015bmiertelnym spazmie. Mo\u017ce s\u0142u\u017cy\u0107 do zwabienia Chrz\u0105stkordzenia i Duroida.\r\n\r\nPo\u0142o\u017cenie: Dryf Kambionu na Deimosie, kiedy aktywny jest Wyrm Fass",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -527,8 +527,8 @@
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitC",
-            "name": "Boja Grustrag Trzy",
-            "description": "Wywabia Grustrag Trzy z ukrycia. Przedmiot jednorazowego u\u017cytku, kt\u00f3ry mo\u017cna wykorzysta\u0107 w miejscu gdzie normalnie pojawia si\u0119 zab\u00f3jca.",
+            "name": "Boja Trio Grustrag",
+            "description": "Zmusza Trio Grustrag do przybycia. Przedmiot jednorazowego u\u017cytku, kt\u00f3ry mo\u017cna wykorzysta\u0107 w miejscu, gdzie normalnie mo\u017ce pojawi\u0107 si\u0119 zab\u00f3jca.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -759,14 +759,14 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
             "name": "Zaawansowane Wiert\u0142o Nosam",
-            "description": "Narz\u0119dzie ulepszone cybernetyk\u0105, kt\u00f3re mo\u017ce zlokalizowa\u0107 pobliskie kryszta\u0142y i \u017cy\u0142y rud, oraz ma szans\u0119 pozyskania Klejnot\u00f3w Eidolon.",
+            "description": "Narz\u0119dzie ulepszone cybernetyk\u0105, kt\u00f3re mo\u017ce zlokalizowa\u0107 pobliskie kryszta\u0142y i \u017cy\u0142y rud, oraz ma szans\u0119 wydobycia Rzadkich Klejnot\u00f3w w dowolnej lokacji.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
             "name": "Wiert\u0142o Plazmowe Sunpoint",
-            "description": "Szybko rozgrzewaj\u0105ce si\u0119 narz\u0119dzie g\u00f3rnicze o wysokiej wydajno\u015bci, umo\u017cliwiaj\u0105ce wydobycie najrzadszych materia\u0142\u00f3w z chirurgiczn\u0105 precyzj\u0105.",
+            "description": "Szybko rozgrzewaj\u0105ce si\u0119 narz\u0119dzie g\u00f3rnicze o wysokiej wydajno\u015bci, umo\u017cliwiaj\u0105ce wydobycie najrzadszych materia\u0142\u00f3w z chirurgiczn\u0105 precyzj\u0105. Mo\u017ce by\u0107 u\u017cywane do odzyskiwania Rzadkich Kamieni szlachetnych w otwartym \u015bwiecie.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
@@ -920,28 +920,28 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
             "name": "Smoczy Klucz \u2014 Wygaszony",
-            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca zadawane obra\u017cenia.",
+            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca zadawane obra\u017cenia.\r\n\r\nSchemat mo\u017cna uzyska\u0107 w Laboratorium Orokin w Dojo Klanu.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
             "name": "Smoczy Klucz \u2014 Krwawi\u0105cy",
-            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca maksymaln\u0105 ilo\u015b\u0107 \u017bycia.",
+            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca maksymaln\u0105 ilo\u015b\u0107 \u017bycia.\r\n\r\nSchemat mo\u017cna uzyska\u0107 w Laboratorium Orokin w Dojo Klanu.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
             "name": "Smoczy Klucz \u2014 Niszczej\u0105cy",
-            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca pojemno\u015b\u0107 Tarczy. Czas dzia\u0142ania Bramkowania Tarcz jest ograniczony do 0,33 s.",
+            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca pojemno\u015b\u0107 Tarczy. Czas dzia\u0142ania Bramkowania Tarcz jest ograniczony do 0,33 s.\r\n\r\nSchemat mo\u017cna uzyska\u0107 w Laboratorium Orokin w Dojo Klanu.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
             "name": "Smoczy Klucz \u2014 Kulej\u0105cy",
-            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca pr\u0119dko\u015b\u0107 poruszania.",
+            "description": "Wyposa\u017cenie tego klucza w Sprz\u0119cie znacznie obni\u017ca pr\u0119dko\u015b\u0107 poruszania.\r\n\r\nSchemat mo\u017cna uzyska\u0107 w Laboratorium Orokin w Dojo Klanu.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },

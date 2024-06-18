@@ -1,13 +1,6 @@
 {
     "ExportSortieRewards": [
         {
-            "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawRifleRandomMod",
-            "rarity": "COMMON",
-            "tier": 0,
-            "itemCount": 1,
-            "probability": 0.07
-        },
-        {
             "rewardName": "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexF",
             "rarity": "COMMON",
             "tier": 0,
@@ -85,6 +78,13 @@
             "probability": 0.032699998
         },
         {
+            "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawRifleRandomMod",
+            "rarity": "COMMON",
+            "tier": 0,
+            "itemCount": 1,
+            "probability": 0.07
+        },
+        {
             "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawPistolRandomMod",
             "rarity": "COMMON",
             "tier": 0,
@@ -117,7 +117,7 @@
             "rarity": "COMMON",
             "tier": 0,
             "itemCount": 1,
-            "probability": 0.0099999886
+            "probability": 0.010000138
         }
     ],
     "ExportNightwave": {
@@ -847,7 +847,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySkeletonsInTheCloset",
                 "name": "Szkielety w szafie",
-                "description": "Pokonaj |COUNT| Przeciwnik\u00f3w Dax na Duviri",
+                "description": "Pokonaj przeciwnik\u00f3w Dax na Duviri: |COUNT|",
                 "standing": 4500,
                 "required": 50
             },
@@ -1699,7 +1699,7 @@
             {
                 "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/DaybreakCedoSkin",
                 "name": "Cedo: Sk\u00f3rka Brzasku",
-                "description": "Watch your enemies fall before this weapon of the sunrise. A vibrant skin for the Cedo."
+                "description": "Patrz, jak wrogowie padaj\u0105 przed t\u0105 broni\u0105 wschodu s\u0142o\u0144ca. T\u0119tni\u0105ca \u017cyciem sk\u00f3rka dla Cedo."
             },
             {
                 "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem",
@@ -1778,9 +1778,9 @@
                 "name": "Zestaw Pancerza: Brzask",
                 "description": "Ol\u015bnij przyjaci\u00f3\u0142 i wrog\u00f3w s\u0142onecznym blaskiem tego pancerza.",
                 "components": [
-                    "Daybreak Shoulder Plates",
-                    "Daybreak Chest Plate",
-                    "Daybreak Leg Plates"
+                    "Naramienniki: Brzask",
+                    "Napier\u015bnik: Brzask",
+                    "Nagolenniki: Brzask"
                 ]
             },
             {
@@ -2425,7 +2425,7 @@
             },
             {
                 "uniqueName": "CrewBattleNode543",
-                "name": "Chruma Sabmir"
+                "name": "Chmura Sabmir"
             }
         ]
     },

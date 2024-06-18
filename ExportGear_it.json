@@ -3,7 +3,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA",
             "name": "Residuo Fass",
-            "description": "Un pezzo di Wyrm Fass, raccolto dopo la sua morte esplosiva. Utilizzato per attirare Glutinox, Ostimyr e Vitreospina.\r\n\r\nPosizione: Cambion Drift",
+            "description": "Un pezzo di Wyrm Fass, raccolto dopo la sua morte esplosiva. Utilizzato per attirare Glutinox, Ostimyr e Vitreospina.\r\n\r\nPosizione: Cambion Drift (Deimos) durante la fase Vome",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -17,7 +17,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA",
             "name": "Residuo Vome",
-            "description": "Un pezzo di carne cruda, caduto da Wyrm Vome nel suo spasmo di morte. Utilizzato per attirare Chondricord e Duroid.\r\n\r\nPosizione: Cambion Drift",
+            "description": "Un pezzo di carne cruda, caduto da Wyrm Vome nel suo spasmo di morte. Utilizzato per attirare Chondricord e Duroid.\r\n\r\nPosizione: Cambion Drift (Deimos) durante la fase Fass",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -759,14 +759,14 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
             "name": "Taglio Nosam Avanzato",
-            "description": "Migliorato con tecnologie cibernetiche, questo strumento \u00e8 in grado di individuare sia le gemme nelle vicinanze che le vene minerali, ed ha la possibilit\u00e0 di recuperare Gemme di Eidolon.",
+            "description": "Migliorato con tecnologie cibernetiche, questo strumento \u00e8 in grado di individuare sia le gemme nelle vicinanze che le vene minerali, ed ha la possibilit\u00e0 di recuperare Gemme Rare su qualsiasi paesaggio.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
             "name": "Trapano Sunpoint Plasma",
-            "description": "Strumento di estrazione mineraria ad alta intensit\u00e0 e ad alta velocit\u00e0 in grado di estrarre il pi\u00f9 raro dei materiali con precisione chirurgica.",
+            "description": "Strumento di estrazione mineraria ad alta intensit\u00e0 e ad alta velocit\u00e0 in grado di estrarre il pi\u00f9 raro dei materiali con precisione chirurgica. Pu\u00f2 essere utilizzato per recuperare Gemme Rare su qualsiasi paesaggio.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
@@ -920,28 +920,28 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
             "name": "Chiave Drago Spento",
-            "description": "Questa chiave riduce pesantemente i danni inflitti mentre \u00e8 equipaggiata.",
+            "description": "Questa chiave riduce notevolmente i danni inflitti mentre \u00e8 equipaggiata.\r\n\r\nLo schema pu\u00f2 essere ottenuto dai Lab. Orokin nel Dojo del Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
             "name": "Chiave Drago Sanguinante",
-            "description": "La salute \u00e8 notevolmente ridotta con questa chiave equipaggiata.",
+            "description": "Questa chiave riduce notevolmente la salute mentre \u00e8 equipaggiata.\r\n\r\nLo schema pu\u00f2 essere ottenuto dai Lab. Orokin nel Dojo del Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
             "name": "Chiave Drago Smunto",
-            "description": "Gli Scudi sono notevolmente ridotti mentre la chiave \u00e8 equipaggiata. La durata completa di Shield Gate \u00e8 limitata a 0,33 secondi.",
+            "description": "Gli Scudi sono notevolmente ridotti mentre la chiave \u00e8 equipaggiata. La durata completa di Shield Gate \u00e8 limitata a 0.33s.\r\n\r\nLo schema pu\u00f2 essere ottenuto tramite il Lab. Orokin nel Dojo del Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
             "name": "Chiave Drago Zoppo",
-            "description": "Questa chiave riduce pesantemente la velocit\u00e0 mentre \u00e8 equipaggiata.",
+            "description": "Questa chiave riduce notevolmente la velocit\u00e0 mentre \u00e8 equipaggiata.\r\n\r\nLo schema pu\u00f2 essere ottenuto dai Lab. Orokin nel Dojo del Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },

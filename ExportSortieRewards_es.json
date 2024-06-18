@@ -1,13 +1,6 @@
 {
     "ExportSortieRewards": [
         {
-            "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawRifleRandomMod",
-            "rarity": "COMMON",
-            "tier": 0,
-            "itemCount": 1,
-            "probability": 0.07
-        },
-        {
             "rewardName": "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexF",
             "rarity": "COMMON",
             "tier": 0,
@@ -85,6 +78,13 @@
             "probability": 0.032699998
         },
         {
+            "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawRifleRandomMod",
+            "rarity": "COMMON",
+            "tier": 0,
+            "itemCount": 1,
+            "probability": 0.07
+        },
+        {
             "rewardName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawPistolRandomMod",
             "rarity": "COMMON",
             "tier": 0,
@@ -117,7 +117,7 @@
             "rarity": "COMMON",
             "tier": 0,
             "itemCount": 1,
-            "probability": 0.0099999886
+            "probability": 0.010000138
         }
     ],
     "ExportNightwave": {
@@ -833,7 +833,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHorsingAround",
                 "name": "Cabalgando",
-                "description": "Vuela con tu kaithe por |COUNT| metros",
+                "description": "Vuela |COUNT| metros con tu kaithe",
                 "standing": 4500,
                 "required": 1500
             },
@@ -847,7 +847,7 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySkeletonsInTheCloset",
                 "name": "Esqueletos en el armario",
-                "description": "Mata a |COUNT| enemigos Dax en Duviri",
+                "description": "Mata |COUNT| enemigos Dax en Duviri",
                 "standing": 4500,
                 "required": 50
             },
@@ -1699,7 +1699,7 @@
             {
                 "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/DaybreakCedoSkin",
                 "name": "Dise\u00f1o Amanecer de Cedo",
-                "description": "Watch your enemies fall before this weapon of the sunrise. A vibrant skin for the Cedo."
+                "description": "Observa c\u00f3mo caen tus enemigos ante esta arma del amanecer. Un dise\u00f1o vibrante para la Cedo."
             },
             {
                 "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem",
@@ -1778,9 +1778,9 @@
                 "name": "Paquete de armadura Amanecer",
                 "description": "Deslumbra a amigos y enemigos por igual con el resplandor solar de esta armadura.",
                 "components": [
-                    "Daybreak Shoulder Plates",
-                    "Daybreak Chest Plate",
-                    "Daybreak Leg Plates"
+                    "Hombreras de placas Amanecer",
+                    "Peto de placas Amanecer",
+                    "Espinilleras de placas Amanecer"
                 ]
             },
             {
@@ -2425,7 +2425,7 @@
             },
             {
                 "uniqueName": "CrewBattleNode543",
-                "name": "Nube Sabmir"
+                "name": "Nube de Sabmir"
             }
         ]
     },

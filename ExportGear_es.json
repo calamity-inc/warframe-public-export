@@ -3,7 +3,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA",
             "name": "Residuo de Fass",
-            "description": "Un trozo de wyrm Fass, recolectado tras su explosiva muerte. Usado para atraer glutinox, ostimirs y vitreospinas.\r\n\r\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Un trozo de wyrm Fass, recolectado tras su explosiva muerte. Usado para atraer glutinox, ostimirs y vitreospinas.\r\n\r\nUbicaci\u00f3n: Deriva Cambion en Deimos mientras Vome est\u00e1 activo",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -17,7 +17,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA",
             "name": "Residuo de Vome",
-            "description": "Un trozo de carne cruda que cay\u00f3 del wyrm Vome en el espasmo de su muerte. Usado para atraer condricords y duroides.\r\n\r\nUbicaci\u00f3n: Deriva Cambion",
+            "description": "Un trozo de carne cruda que cay\u00f3 del wyrm Vome durante su espasmo final. Usado para atraer condricords y duroides.\r\n\r\nUbicaci\u00f3n: Deriva Cambion en Deimos cuando Fass est\u00e1 activo",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -759,14 +759,14 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
             "name": "Cortador Nosam avanzado",
-            "description": "Mejorada con componentes cibern\u00e9ticos, esta herramienta es capaz de detectar gemas cercanas y menas de minerales y tiene la posibilidad de extraer gemas eidolon.",
+            "description": "Mejorada con componentes cibern\u00e9ticos, esta herramienta es capaz de detectar gemas cercanas y vetas de minerales y tiene la posibilidad de extraer gemas raras en cualquier paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
             "name": "Taladro de plasma solar",
-            "description": "Ignici\u00f3n r\u00e1pida, herramienta de miner\u00eda de alta intensidad capaz de extraer el m\u00e1s raro de los materiales con precisi\u00f3n quir\u00fargica.",
+            "description": "Ignici\u00f3n r\u00e1pida, herramienta de miner\u00eda de alta intensidad capaz de extraer el m\u00e1s raro de los materiales con precisi\u00f3n quir\u00fargica. Puede usarse para recuperar gemas raras en cualquier paisaje.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
@@ -920,28 +920,28 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
             "name": "Llave de Drag\u00f3n Extinguida",
-            "description": "El da\u00f1o se ve enormemente reducido al llevar esta llave equipada.",
+            "description": "El da\u00f1o se ve enormemente reducido al llevar esta llave equipada.\r\n\r\nEl plano se puede obtener en el laboratorio orokin del dojo de un clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
             "name": "Llave de Drag\u00f3n Ensangrentada",
-            "description": "La salud se ve enormemente reducida al llevar esta llave equipada.",
+            "description": "La salud se reduce considerablemente al llevar esta llave equipada.\r\n\r\nEl plano se puede obtener en el laboratorio orokin del dojo de un clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
             "name": "Llave de Drag\u00f3n Deteriorada",
-            "description": "Los escudos se reducen considerablemente mientras la llave est\u00e1 equipada. La duraci\u00f3n completa de absorci\u00f3n de da\u00f1o en escudos tiene un l\u00edmite de 0.33 s.",
+            "description": "Los escudos se reducen considerablemente mientras la llave est\u00e1 equipada. La duraci\u00f3n completa de absorci\u00f3n de da\u00f1o en escudos tiene un l\u00edmite de 0.33 s.\r\n\r\nEl plano se puede obtener en el laboratorio orokin del dojo de un clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
             "name": "Llave de Drag\u00f3n Lisiadora",
-            "description": "La velocidad se ve enormemente reducida al llevar esta llave equipada.",
+            "description": "La velocidad se reduce considerablemente cuando la llave est\u00e1 equipada.\r\n\r\nEl plano se puede obtener en el laboratorio orokin del dojo de un clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },

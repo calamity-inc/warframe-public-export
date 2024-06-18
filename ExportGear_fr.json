@@ -3,7 +3,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/InfestedFishBaitA",
             "name": "R\u00e9sidu de Fass",
-            "description": "Un morceau du Wyrm Fass, r\u00e9cup\u00e9r\u00e9 apr\u00e8s sa mort explosive. Peut \u00eatre utilis\u00e9 pour attirer des Glutinox, des Ostimyrs et des Vitreospinas.\r\n\r\nLieu: Puy de Cambion",
+            "description": "Un morceau du Wyrm Fass, r\u00e9cup\u00e9r\u00e9 apr\u00e8s sa mort explosive. Peut \u00eatre utilis\u00e9 pour attirer des Glutinox, des Ostimyrs et des Vitreospinas.\r\n\r\nLieu: Puy de Cambion sur Deimos pendant que Vome est actif",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -17,7 +17,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/FishBait/Infested/OrokinFishBaitA",
             "name": "R\u00e9sidu de Vome",
-            "description": "Un morceau de chair crue, tomb\u00e9 du Wyrm Vome pendant son dernier spasme. Peut \u00eatre utilis\u00e9 pour attirer les Chondricords et les Duro\u00efdes.\r\n\r\nLieu: Puy de Cambion",
+            "description": "Un morceau de chair crue, tomb\u00e9 du Wyrm Vome pendant son dernier spasme. Peut \u00eatre utilis\u00e9 pour attirer les Chondricords et les Duro\u00efdes.\r\n\r\nLieu: Puy de Cambion sur Deimos pendant que Fass est actif",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/FishBait/Infested/BaseInfestedFishBait"
         },
@@ -759,14 +759,14 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
             "name": "Tailleur Nosam Avanc\u00e9",
-            "description": "Am\u00e9lior\u00e9 avec la cybern\u00e9tique, cet outil est capable de localiser les gemmes et veines de minerais proches et a une chance de r\u00e9cup\u00e9rer des Gemmes d'Eidolon.",
+            "description": "Am\u00e9lior\u00e9 avec la cybern\u00e9tique, cet outil est capable de localiser les gemmes et veines de minerais proches et a une chance de r\u00e9cup\u00e9rer des Gemmes rares dans tous les paysages.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
             "name": "Perceuse \u00e0 Plasma Sunpoint",
-            "description": "Outil de minage d'intensit\u00e9 \u00e9lev\u00e9e et dot\u00e9 d'un temps de chauffe minime pouvant extraire les mat\u00e9riaux les plus rares avec une pr\u00e9cision chirurgicale.",
+            "description": "Outil de minage d'intensit\u00e9 \u00e9lev\u00e9e et dot\u00e9 d'un temps de chauffe minime pouvant extraire les mat\u00e9riaux les plus rares avec une pr\u00e9cision chirurgicale. Peut \u00eatre utilis\u00e9 pour r\u00e9cup\u00e9rer des Gemmes rares dans n\u2019importe quel paysage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
         },
@@ -920,28 +920,28 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
             "name": "Cl\u00e9 de Dragon \u00c9teint",
-            "description": "Les D\u00e9g\u00e2ts sont consid\u00e9rablement r\u00e9duits lorsque la cl\u00e9 est \u00e9quip\u00e9e.",
+            "description": "Les D\u00e9g\u00e2ts sont consid\u00e9rablement r\u00e9duits lorsque la cl\u00e9 est \u00e9quip\u00e9e.\r\n\r\nSch\u00e9ma obtenu via le Laboratoire Orokin du Dojo de Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
             "name": "Cl\u00e9 de Dragon Saignant",
-            "description": "La Sant\u00e9 est consid\u00e9rablement r\u00e9duite lorsque la cl\u00e9 est \u00e9quip\u00e9e.",
+            "description": "La Sant\u00e9 est consid\u00e9rablement r\u00e9duite lorsque la cl\u00e9 est \u00e9quip\u00e9e.\r\n\r\nSch\u00e9ma obtenu via le Laboratoire Orokin du Dojo de Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
             "name": "Cl\u00e9 de Dragon Pourrissant",
-            "description": "Les Boucliers sont consid\u00e9rablement r\u00e9duits lorsque la cl\u00e9 est \u00e9quip\u00e9e. La dur\u00e9e du Ralentissement par Boucliers complet est plafonn\u00e9e \u00e0 0,33s.",
+            "description": "Les Boucliers sont consid\u00e9rablement r\u00e9duits lorsque la cl\u00e9 est \u00e9quip\u00e9e. La dur\u00e9e du Ralentissement par Boucliers complet est plafonn\u00e9e \u00e0 0,33s.\r\n\r\nSch\u00e9ma obtenu via le Laboratoire Orokin du Dojo de Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
             "name": "Cl\u00e9 de Dragon Entrav\u00e9",
-            "description": "La Vitesse est consid\u00e9rablement r\u00e9duite lorsque la cl\u00e9 est \u00e9quip\u00e9e.",
+            "description": "La Vitesse est consid\u00e9rablement r\u00e9duite lorsque la cl\u00e9 est \u00e9quip\u00e9e.\r\n\r\nSch\u00e9ma obtenu via le Laboratoire Orokin du Dojo de Clan.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
         },

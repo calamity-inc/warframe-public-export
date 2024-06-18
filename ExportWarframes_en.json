@@ -218,7 +218,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
                     "abilityName": "Mend & Maim",
-                    "description": "In Night-Form, allies' Shields are replenished with each nearby enemy killed. In Day-Form, enemies are inflicted with Bleed Status Effect. Deactivate while in Night-Form to restore Health and Shields for Equinox and allies. Deactivate while in Day-Form to cast a wave of slashing force."
+                    "description": "In Night-Form, allies' Shields are replenished with each nearby enemy killed. In Day-Form, enemies are inflicted with <DT_SLASH>Slash Status Effect. Deactivate while in Night-Form to restore Health and Shields for Equinox and allies. Deactivate while in Day-Form to cast a wave of slashing force."
                 }
             ],
             "productCategory": "Suits"
@@ -256,7 +256,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
                     "abilityName": "Mend & Maim",
-                    "description": "In Night-Form, allies' Shields are replenished with each nearby enemy killed. In Day-Form, enemies are inflicted with Bleed Status Effect. Deactivate while in Night-Form to restore Health and Shields for Equinox and allies. Deactivate while in Day-Form to cast a wave of slashing force."
+                    "description": "In Night-Form, allies' Shields are replenished with each nearby enemy killed. In Day-Form, enemies are inflicted with <DT_SLASH>Slash Status Effect. Deactivate while in Night-Form to restore Health and Shields for Equinox and allies. Deactivate while in Day-Form to cast a wave of slashing force."
                 }
             ],
             "productCategory": "Suits"
@@ -434,7 +434,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfShroudAbility",
                     "abilityName": "Shroud of Dynar",
-                    "description": "(TAP) Dynar shrouds Voruna with invisibility and accelerates her speed. Invisibility ends when Voruna attacks. For a short time after invisibility ends, melee attacks have increased Critical Damage, Status Chance, Critical Chance and inflict Bleed. Melee kill an enemy during this time to extend the melee buff once per cast.\r\n\r\n(HOLD) Dynar guards Voruna, increasing her Parkour Velocity."
+                    "description": "(TAP) Dynar shrouds Voruna with invisibility and accelerates her speed. Invisibility ends when Voruna attacks. For a short time after invisibility ends, melee attacks have increased Critical Damage, Status Chance, Critical Chance and inflict <DT_SLASH>Slash Status Effects. Melee kill an enemy during this time to extend the melee buff once per cast.\r\n\r\n(HOLD) Dynar guards Voruna, increasing her Parkour Velocity."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfBiteAbility",
@@ -905,7 +905,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed Corrosion Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
+                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed <DT_CORROSIVE>Corrosive Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -943,7 +943,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
                     "abilityName": "Scarab Swarm",
-                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed Corrosion Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
+                    "description": "Summon a Scarab Swarm to attack enemies with guaranteed <DT_CORROSIVE>Corrosive Status. Damage scales with Inaros' Health. Enemies killed while immersed in the swarm summon a Swarm Kavat that fights alongside Inaros and guides the scarabs to other enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -1348,7 +1348,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <PT_CAUSTIC_BURN>Corrosion Status, with initial Status reducing Armor by |PCT|%.",
+            "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
@@ -1363,7 +1363,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
                     "abilityName": "Plunder",
-                    "description": "Plunder Armor from nearby enemies and increase <DT_CORROSIVE>Corrosive Damage on your Abilities and weapons. Enemies affected by <DT_CORROSIVE>Corrosion Status offer a greater increase."
+                    "description": "Plunder Armor from nearby enemies and increase <DT_CORROSIVE>Corrosive Damage on your Abilities and weapons. Enemies affected by <DT_CORROSIVE>Corrosive Status offer a greater increase."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
@@ -1386,7 +1386,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <PT_CAUSTIC_BURN>Corrosion Status, with initial Status reducing Armor by |PCT|%.",
+            "passiveDescription": "Enemies damaged by Hydroid are more vulnerable to <DT_CORROSIVE>Corrosive Status, with initial Status reducing Armor by |PCT|%.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
@@ -1401,7 +1401,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
                     "abilityName": "Plunder",
-                    "description": "Plunder Armor from nearby enemies and increase <DT_CORROSIVE>Corrosive Damage on your Abilities and weapons. Enemies affected by <DT_CORROSIVE>Corrosion Status offer a greater increase."
+                    "description": "Plunder Armor from nearby enemies and increase <DT_CORROSIVE>Corrosive Damage on your Abilities and weapons. Enemies affected by <DT_CORROSIVE>Corrosive Status offer a greater increase."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
@@ -1556,12 +1556,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
                     "abilityName": "Dark Verse",
-                    "description": "Dante's composition draws blood from nearby enemies, inflicting Slash Damage upon them."
+                    "description": "Dante's composition draws blood from nearby enemies, inflicting <DT_SLASH>Slash Damage upon them."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
                     "abilityName": "Final Verse",
-                    "description": "Dante must compose two other Verses before his Final Verse.\r\n\r\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Any Damage Over Time they have suffered accumulates in a single blast.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally\u2019s attacks.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and Status Damage, as well as drawing enemy attacks away from allies."
+                    "description": "Dante must compose two other Verses before his Final Verse.\r\n\r\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Damage Over Time from <DT_SLASH>Slash, <DT_FIRE>Heat and <DT_POISON>Toxin Status Effects accumulates in a single blast.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally\u2019s attacks.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and Status Damage, as well as drawing enemy attacks away from allies."
                 }
             ],
             "productCategory": "Suits"
@@ -1737,7 +1737,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Bleed effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+            "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1775,7 +1775,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.2,
-            "passiveDescription": "Bleed effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+            "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -2139,7 +2139,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
                     "abilityName": "Polarize",
-                    "description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting bleed status."
+                    "description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting <DT_SLASH>Slash Status Effect."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CrushAbility",
@@ -2177,7 +2177,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
                     "abilityName": "Polarize",
-                    "description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting bleed status."
+                    "description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting <DT_SLASH>Slash Status Effect."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CrushAbility",
@@ -2825,7 +2825,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShardsAbility",
                     "abilityName": "Fractured Blast",
-                    "description": "Slash and stagger enemies with a crystal blast that inflicts Bleed. Enemies afflicted with this Status Effect have an increased chance of dropping Health and Energy Orbs."
+                    "description": "Slash and stagger enemies with a crystal blast that inflicts <DT_SLASH>Slash Status. Enemies afflicted with this Status Effect have an increased chance of dropping Health and Energy Orbs."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShellAbility",
@@ -2881,7 +2881,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
                     "abilityName": "Seeking Talons",
-                    "description": "Charge to expand the targeting area, release to send Garuda's talons careening toward each target in area. Surviving enemies are prone to bleeding."
+                    "description": "Charge to expand the targeting area, release to send Garuda's talons careening toward each target in area. Surviving enemies are prone to <DT_SLASH>Slash Status."
                 }
             ],
             "productCategory": "Suits"
@@ -2922,7 +2922,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
                     "abilityName": "Seeking Talons",
-                    "description": "Charge to expand the targeting area, release to send Garuda's talons careening toward each target in area. Surviving enemies are prone to bleeding."
+                    "description": "Charge to expand the targeting area, release to send Garuda's talons careening toward each target in area. Surviving enemies are prone to <DT_SLASH>Slash Status."
                 }
             ],
             "productCategory": "Suits"
@@ -2940,7 +2940,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "Striking Frost Prime with a melee attack has a |CHANCE|% chance to freeze the attacker for |DURATION|s.",
+            "passiveDescription": "Cold Status Effects from Frost's Abilities have their duration increased by |DURATION|%. Frost gains |ARMOR| Armor per enemy inflicted with <DT_FREEZE>Cold Status within |RADIUS|m.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
@@ -2978,7 +2978,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "Striking Frost with a melee attack has a |CHANCE|% chance to freeze the attacker for |DURATION|s.",
+            "passiveDescription": "Cold Status Effects from Frost's Abilities have their duration increased by |DURATION|%. Frost gains |ARMOR| Armor per enemy inflicted with <DT_FREEZE>Cold Status within |RADIUS|m.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
@@ -3109,7 +3109,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraSlashDashNewAbility",
                     "abilityName": "Slash Dash",
-                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict bleed status."
+                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraRadialRoarAbility",
@@ -3119,7 +3119,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraRadialJavelinAbility",
                     "abilityName": "Radial Javelin",
-                    "description": "Radial javelins impale nearby enemies, inflicting bleed status."
+                    "description": "Radial javelins impale nearby enemies, inflicting <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraSwordOfDoomAbility",
@@ -3151,7 +3151,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SlashDashNewAbility",
                     "abilityName": "Slash Dash",
-                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict bleed status."
+                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
@@ -3161,7 +3161,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
                     "abilityName": "Radial Javelin",
-                    "description": "Radial javelins impale nearby enemies, inflicting bleed status."
+                    "description": "Radial javelins impale nearby enemies, inflicting <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwordOfDoomAbility",
@@ -3193,7 +3193,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SlashDashNewAbility",
                     "abilityName": "Slash Dash",
-                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict bleed status."
+                    "description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
@@ -3203,7 +3203,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
                     "abilityName": "Radial Javelin",
-                    "description": "Radial javelins impale nearby enemies, inflicting bleed status."
+                    "description": "Radial javelins impale nearby enemies, inflicting <DT_SLASH>Slash Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwordOfDoomAbility",
@@ -3227,12 +3227,12 @@
             "masteryReq": 0,
             "longDescription": "Three figures waited behind a simple table. Their attention on a single chair, bathed in light. An old woman\u2019s voice from the shadow: 'Send her in'. Across the room a security officer, stern and plain, opened the door. The outline of a young woman appeared at the door. She hesitated, but only for an instant, then crossed the room and sat.\r\n\r\nThere was a gasp as the light hit her face. Her right eye was bright and blinking, but her left was a greasy slit. Her skin had been burned moon-white. Her mouth was a sagging gash without lips or expression. Her military beret was pulled snug over a scarred and hairless scalp.\r\n\r\nThe old voice: 'Your name is Kaleen.' Kaleen nodded. 'You were the principal investigator of the Zariman?' Kaleen\u2019s voice was a jagged whisper, a rigid face. 'Yes.'\r\n\r\nKaleen coughed, straightened: 'The Zariman was lost making the fold from Saturn to the Outer gates. Mechanical failure. I notified families and filed a report with the inspectors. Nothing ever returns from the fold, so I closed the case.'\r\n\r\n'But you reopened the case, days later.'\r\n\r\n'I didn\u2019t believe it myself until I stepped aboard the ship. It was completely intact, full environmental, as if it had never left.'\r\n\r\n'And the crew was gone.'\r\n\r\n'Not exactly.' Kaleen hesitated. 'We thought it was empty but we began to find...' Her face twitched at remembered pain, 'We began to find children hiding in the ship.'\r\n\r\n'And that is when you violated procedure?'\r\n\r\nKaleen bowed her head, a tear welling in her sightless eye. 'They were children. They were afraid. They needed comfort.'\r\n\r\n'So you broke quarantine and this happened to you.'\r\n\r\nThere was silence as Kaleen touched her face, 'So what have you done with them?'\r\n\r\nThe old woman gestured for the officer to take Kaleen away. The meeting was over. When Kaleen reached the door she twisted out of his grip and shot back, 'Why would you do that? Why would you put children on a military ship?'\r\n\r\n'We didn\u2019t. That would violate procedure.'",
             "sprintSpeed": 1.1,
-            "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within |RANGE|m engulfed in flame<DT_FIRE>.",
+            "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within |RANGE|m affected by <DT_FIRE>Heat Status Effect.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBallAbility",
                     "abilityName": "Fireball",
-                    "description": "Charge and release a fiery projectile that ignites enemies on contact."
+                    "description": "Release a fiery projectile that ignites enemies on contact."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberImmolationAbility",
@@ -3266,12 +3266,12 @@
             "masteryReq": 0,
             "longDescription": "Three figures waited behind a simple table. Their attention on a single chair, bathed in light. An old woman\u2019s voice from the shadow: 'Send her in'. Across the room a security officer, stern and plain, opened the door. The outline of a young woman appeared at the door. She hesitated, but only for an instant, then crossed the room and sat.\r\n\r\nThere was a gasp as the light hit her face. Her right eye was bright and blinking, but her left was a greasy slit. Her skin had been burned moon-white. Her mouth was a sagging gash without lips or expression. Her military beret was pulled snug over a scarred and hairless scalp.\r\n\r\nThe old voice: 'Your name is Kaleen.' Kaleen nodded. 'You were the principal investigator of the Zariman?' Kaleen\u2019s voice was a jagged whisper, a rigid face. 'Yes.'\r\n\r\nKaleen coughed, straightened: 'The Zariman was lost making the fold from Saturn to the Outer gates. Mechanical failure. I notified families and filed a report with the inspectors. Nothing ever returns from the fold, so I closed the case.'\r\n\r\n'But you reopened the case, days later.'\r\n\r\n'I didn\u2019t believe it myself until I stepped aboard the ship. It was completely intact, full environmental, as if it had never left.'\r\n\r\n'And the crew was gone.'\r\n\r\n'Not exactly.' Kaleen hesitated. 'We thought it was empty but we began to find...' Her face twitched at remembered pain, 'We began to find children hiding in the ship.'\r\n\r\n'And that is when you violated procedure?'\r\n\r\nKaleen bowed her head, a tear welling in her sightless eye. 'They were children. They were afraid. They needed comfort.'\r\n\r\n'So you broke quarantine and this happened to you.'\r\n\r\nThere was silence as Kaleen touched her face, 'So what have you done with them?'\r\n\r\nThe old woman gestured for the officer to take Kaleen away. The meeting was over. When Kaleen reached the door she twisted out of his grip and shot back, 'Why would you do that? Why would you put children on a military ship?'\r\n\r\n'We didn\u2019t. That would violate procedure.'",
             "sprintSpeed": 1.1,
-            "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within |RANGE|m engulfed in flame<DT_FIRE>.",
+            "passiveDescription": "Receive |STRENGTH|% Ability Strength for every enemy within |RANGE|m affected by <DT_FIRE>Heat Status Effect.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBallAbility",
                     "abilityName": "Fireball",
-                    "description": "Charge and release a fiery projectile that ignites enemies on contact."
+                    "description": "Release a fiery projectile that ignites enemies on contact."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberImmolationAbility",
@@ -3461,12 +3461,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathVolleyAbility",
                     "abilityName": "Wyrd Scythes",
-                    "description": "Wyrd Scythes surround Dagath and seek out nearby enemies. Those struck are slowed and suffer <DT_VIRAL> Viral Damage with a guaranteed Status Effect. The scythes also spread Doom and extend its duration."
+                    "description": "Wyrd Scythes surround Dagath and seek out nearby enemies. Those struck are slowed and suffer <DT_VIRAL>Viral Damage with a guaranteed Status Effect. The scythes also spread Doom and extend its duration."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathCurseAbility",
                     "abilityName": "Doom",
-                    "description": "Condemn nearby enemies to their doom. A portion of the damage Dagath deals is revisited upon them by a Wyrd Scythe. They also suffer <DT_VIRAL> Viral Damage."
+                    "description": "Condemn nearby enemies to their doom. A portion of the damage Dagath deals is revisited upon them by a Wyrd Scythe. They also suffer <DT_VIRAL>Viral Damage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathApparitionAbility",
@@ -3476,7 +3476,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathHorseAbility",
                     "abilityName": "Rakhali\u2019s Cavalry",
-                    "description": "Phantom Kaithes charge forth, inflicting <DT_VIRAL> Viral Damage upon all in their path. Their attack strips the defenses of Doomed enemies."
+                    "description": "Phantom Kaithes charge forth, inflicting <DT_VIRAL>Viral Damage upon all in their path. Their attack strips the defenses of Doomed enemies."
                 }
             ],
             "productCategory": "Suits"
@@ -3581,22 +3581,63 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcretePillarAbility",
                     "abilityName": "Chyrinka Pillar",
-                    "description": "Summon a Chyrinka Pillar that slows enemies. It pulses <DT_RADIATION> Radiation Damage with a guaranteed Status Effect."
+                    "description": "Summon a Chyrinka Pillar that slows enemies. It pulses <DT_RADIATION>Radiation Damage with a guaranteed Status Effect."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteWallAbility",
                     "abilityName": "Containment Wall",
-                    "description": "Contain the threat. Qorvex summons walls that slam together, damaging all enemies caught between them and inflicting <DT_RADIATION> Radiation Status."
+                    "description": "Contain the threat. Qorvex summons walls that slam together, damaging all enemies caught between them and inflicting <DT_RADIATION>Radiation Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteAuraAbility",
                     "abilityName": "Disometric Guard",
-                    "description": "Guard yourself and nearby allies against Status Effects. Each time Qorvex kills or assists in killing an enemy affected by <DT_RADIATION> Radiation Status, the number of Status Effects Disometric Guard can prevent increases."
+                    "description": "Guard yourself and nearby allies against Status Effects. Each time Qorvex kills or assists in killing an enemy affected by <DT_RADIATION>Radiation Status, the number of Status Effects Disometric Guard can prevent increases."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteLaserAbility",
                     "abilityName": "Crucible Blast",
-                    "description": "Release a beam from Qorvex's Crucible Core. Each enemy struck suffers <DT_RADIATION> Radiation Damage with a guaranteed Status Effect. Enemies affected by <DT_RADIATION> Radiation Status explode in a chain reaction."
+                    "description": "Release a beam from Qorvex's Crucible Core. Each enemy struck suffers <DT_RADIATION>Radiation Damage with a guaranteed Status Effect. Enemies affected by <DT_RADIATION>Radiation Status explode in a chain reaction."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Choir/Choir",
+            "name": "Jade",
+            "parentName": "/Lotus/Powersuits/Choir/ChoirBaseSuit",
+            "description": "Become enraptured by the song of devastation. Through her, the Jade Light can be a force of destruction or a source of support.",
+            "health": 365,
+            "shield": 450,
+            "armor": 135,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Jade's profound understanding of the relationship between life and death grants her two Aura Mod Slots. Some of her Abilities apply Judgments, increasing enemy damage vulnerability by |CHANCE|% for |DURATION|s.",
+            "exalted": [
+                "/Lotus/Powersuits/Choir/ChoirEruptWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirPoolAbility",
+                    "abilityName": "Light's Judgment",
+                    "description": "Create a well of light that heals allies and hurts enemies. Those who enter the well will be highlighted by Judgments."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirChorusAbility",
+                    "abilityName": "Symphony of Mercy",
+                    "description": "Cycle through three songs that strengthen allies. Power of The Seven increases Ability Strength. Deathbringer increases Weapon Damage. Spirit of Resilience increases Shield Effectiveness. Extend the duration of each song by killing enemies surrounded by Judgments."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEyesAbility",
+                    "abilityName": "Ophanim Eyes",
+                    "description": "Jade summons an accusatory gaze that slows nearby enemies and dissolves their Shields and Armor. When the gaze falls upon allies, they can be revived from a distance."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEruptAbility",
+                    "abilityName": "Glory on High",
+                    "description": "Soar with destructive power. Use alternate-fire to detonate Judgments, causing an explosion of Jade Light. Enemies inside the Light's Judgment radius empower the explosion."
                 }
             ],
             "productCategory": "Suits"
@@ -3619,7 +3660,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenRotAbility",
                     "abilityName": "Xata's Whisper",
-                    "description": "Wield Void damage for all attacks from equipped weapons when activated."
+                    "description": "Wield <DT_RADIANT>Void Damage for all attacks from equipped weapons when activated."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenGraspAbility",
@@ -3634,7 +3675,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenDestructAbility",
                     "abilityName": "The Vast Untime",
-                    "description": "Temporarily shed the outer pieces of Xaku in a destructive blast, then stalk the battlefield in a new, swifter skeletal form. Enemies damaged by the body shrapnel are rendered weaker to Void Damage. Xaku's other active abilities' duration is frozen in time and resumes once The Vast Untime expires."
+                    "description": "Temporarily shed the outer pieces of Xaku in a destructive blast, then stalk the battlefield in a new, swifter skeletal form. Enemies damaged by the body shrapnel are rendered weaker to <DT_RADIANT>Void Damage. Xaku's other active abilities' duration is frozen in time and resumes once The Vast Untime expires."
                 }
             ],
             "productCategory": "Suits"
@@ -4170,7 +4211,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Sickening Pulse",
-            "description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except Bleed, <DT_FIRE>Heat, and <DT_POISON>Toxin effects which are duplicated with fresh timers."
+            "description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except <DT_SLASH>Slash, <DT_FIRE>Heat, and <DT_POISON>Toxin effects which are duplicated with fresh timers."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",
@@ -4195,7 +4236,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStatusAbility",
             "abilityName": "Expedite Suffering",
-            "description": "Affect enemies in a cone, removing any Bleed and Poison status from them and dealing any remaining damage not yet suffered in a single burst."
+            "description": "Condense all <DT_SLASH>Slash and <DT_POISON>Toxin Status Effects into a single damage instance."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStrengthAbility",
