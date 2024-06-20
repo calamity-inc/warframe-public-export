@@ -540,7 +540,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
             "name": "Farol Entrati",
-            "description": "Um farol cerimonial usado para mapear locais do Void no espa\u00e7o real.\r\n\r\nLocaliza\u00e7\u00f5es: Laborat\u00f3rios do Albrecht (Deimos) e na Zariman",
+            "description": "Um farol cerimonial utilizado para mapear locais do Void no espa\u00e7o real.\r\n\r\nLocaliza\u00e7\u00e3o: na Zariman ou nos Laborat\u00f3rios do Albrecht, em Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "excludeFromCodex": true
@@ -1065,7 +1065,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
             "name": "Farol Entrati",
-            "description": "Um farol cerimonial usado para mapear locais do Void no espa\u00e7o real.\r\n\r\nLocaliza\u00e7\u00f5es: Laborat\u00f3rios do Albrecht (Deimos) e na Zariman",
+            "description": "Um farol cerimonial utilizado para mapear locais do Void no espa\u00e7o real.\r\n\r\nLocaliza\u00e7\u00e3o: na Zariman ou nos Laborat\u00f3rios do Albrecht, em Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "longDescription": "A parte mais apreciada de um Eidolon. As j\u00f3ias criadas a partir de um fragmento de Eidolon s\u00e3o mais apreciadas em Cetus."
@@ -13952,6 +13952,15 @@
             "description": "O tema musical tradicional do Vauban Prime para ouvir no Somachord em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/WispPrimeSongItem",
+            "name": "Tema da Wisp Prime",
+            "description": "O tema musical tradicional da Wisp Prime para ouvir no Somachord em sua Orbital.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
             "showInInventory": false
         },
         {

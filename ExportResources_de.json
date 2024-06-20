@@ -540,7 +540,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
             "name": "Entrati Latorne",
-            "description": "Ein zeremonielles Leuchtfeuer, das verwendet wird, um Void-Standorte im realen Raum abzubilden.\r\n\r\nOrt: Albrechts Labore (Deimos) und Zariman",
+            "description": "Ein zeremonielles Leuchtfeuer, das verwendet wird, um Void-Standorte im realen Raum abzubilden.\r\n\r\nFundort: Albrechts Labore (Deimos) und Zariman",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "excludeFromCodex": true
@@ -1065,7 +1065,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
             "name": "Entrati Latorne",
-            "description": "Ein zeremonielles Leuchtfeuer, das verwendet wird, um Void-Standorte im realen Raum abzubilden.\r\n\r\nOrt: Albrechts Labore (Deimos) und Zariman",
+            "description": "Ein zeremonielles Leuchtfeuer, das verwendet wird, um Void-Standorte im realen Raum abzubilden.\r\n\r\nFundort: Albrechts Labore (Deimos) und Zariman",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "longDescription": "Das meist gesch\u00e4tzte Teil eines Eidolons. Schmuck aus Eidolon Scherben wird in Cetus hoch gehandelt."
@@ -13952,6 +13952,15 @@
             "description": "Vauban Primes bevorzugtes Musikthema, das im Orbiter mit Somachord abgespielt werden kann.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/WispPrimeSongItem",
+            "name": "Thema: Wisp Prime",
+            "description": "Wisp Primes bevorzugtes Musikthema, das im Orbiter mit Somachord abgespielt werden kann.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
             "showInInventory": false
         },
         {
