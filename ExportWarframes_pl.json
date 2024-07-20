@@ -563,7 +563,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u0142ogos\u0142awie\u0144stwo",
-                    "description": "Przywraca \u017bycie i Tarcze pobliskich przeciwnik\u00f3w oraz redukuje otrzymywane przez nich obra\u017cenia."
+                    "description": "Przywraca \u017bycie i Tarcze pobliskim sojusznikom oraz redukuje otrzymywane przez nich obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -601,7 +601,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
                     "abilityName": "B\u0142ogos\u0142awie\u0144stwo",
-                    "description": "Przywraca \u017bycie i Tarcze pobliskich przeciwnik\u00f3w oraz redukuje otrzymywane przez nich obra\u017cenia."
+                    "description": "Przywraca \u017bycie i Tarcze pobliskim sojusznikom oraz redukuje otrzymywane przez nich obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -4079,27 +4079,27 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Kule Energii lub Uniwersalne zapewniaj\u0105 Lavosowi |DURATION|-sekundow\u0105 odporno\u015b\u0107 na zmiany statusowe.\r\n\r\nPrzytrzymaj dowoln\u0105 umiej\u0119tno\u015b\u0107, aby nasyci\u0107 jej kolejne u\u017cycie o dodatkowe Obra\u017cenia od \u017bywio\u0142\u00f3w i Statusu.",
+            "passiveDescription": "Kule Energii lub Uniwersalne zapewniaj\u0105 Lavosowi |DURATION|-sekundow\u0105 odporno\u015b\u0107 na Efekty Statusu.\r\n\r\nPrzytrzymaj dowoln\u0105 umiej\u0119tno\u015b\u0107, aby nasyci\u0107 jej kolejne u\u017cycie o dodatkowe Obra\u017cenia od \u017bywio\u0142\u00f3w i Statusu.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
                     "abilityName": "W\u0119\u017cowe Uk\u0105szenie",
-                    "description": "Uderz toksycznym ciosem w\u0119\u017ca, poch\u0142aniaj\u0105cym cel, by uleczy\u0107 Lavosa.\r\n\r\nPrzytrzymaj, aby nasyci\u0107 wszystkie zdolno\u015bci <DT_POISON> Obra\u017ceniami od Toksyny."
+                    "description": "Jadowity atak w\u0119\u017cy Lavosa, przywraca \u017cycie po trafieniu wroga.\r\n\r\nPrzytrzymaj, aby nasyci\u0107 wszystkie zdolno\u015bci <DT_POISON>Obr. Toksycznymi."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
                     "abilityName": "Wysyp Fiolek",
-                    "description": "P\u0119d\u017a do przodu, przebijaj\u0105c si\u0119 przez przeciwnik\u00f3w i pozostawiaj\u0105c za sob\u0105 lodowy \u015blad roztrzaskanych fiolek.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 <DT_FREEZE>Obra\u017ceniami od Zimna."
+                    "description": "Rzu\u0107 si\u0119 przez siebie, taranuj\u0105c wrog\u00f3w i pozostawiaj\u0105c za sob\u0105 mro\u017c\u0105cy \u015blad rozbitych fiolek.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 <DT_FREEZE>Obr. od Zimna."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
                     "abilityName": "Sonda Transmutacji",
-                    "description": "Wystrzel sond\u0119, kt\u00f3ra zamienia Kule \u017bycia i Energii na Uniwersalne Kule (daj\u0105ce obie te rzeczy), a podnoszon\u0105 amunicj\u0119 w Amunicj\u0119 Uniwersaln\u0105. Sonda og\u0142usza pobliskich wrog\u00f3w, skracaj\u0105c czas odnowienia innych umiej\u0119tno\u015bci o 1.5 sekundy za ka\u017cdego pora\u017conego przeciwnika.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 Obra\u017ceniami <DT_ELECTRICITY>Elektrycznymi."
+                    "description": "Wystrzel sond\u0119, kt\u00f3ra zamienia Kule \u017bycia i Energii na Uniwersalne Kule (przyznaj\u0105\u0107e zar\u00f3wno \u017bycie i Energi\u0119), a oraz pakiety amunicji w Uniwersalne Pakiety Amunicji. Sonda og\u0142usza pobliskich wrog\u00f3w, skracaj\u0105c czas odnowienia innych umiej\u0119tno\u015bci o 1.5 sekundy za ka\u017cdego pora\u017conego przeciwnika.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 <DT_ELECTRICITY>Obr. od Elektryczno\u015bci."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
                     "abilityName": "Katalizacja",
-                    "description": "Lavos rozrzuca Pr\u00f3bniki Katalizatora, kt\u00f3re zalewaj\u0105 wrog\u00f3w pal\u0105cym \u017celem. Obra\u017cenia zostan\u0105 podwojone za ka\u017cdy \u017cywio\u0142 na\u0142o\u017cony na przeciwnika.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 <DT_FIRE> Obra\u017ceniami od Ognia."
+                    "description": "Lavos rozrzuca Pr\u00f3bniki Katalizatora, kt\u00f3re zalewaj\u0105 wrog\u00f3w pal\u0105cym \u017celem. Obra\u017cenia zostan\u0105 podwojone za ka\u017cdy \u017cywio\u0142 na\u0142o\u017cony na przeciwnika.\r\n\r\nPrzytrzymaj, by nasyci\u0107 nast\u0119pn\u0105 umiej\u0119tno\u015b\u0107 <DT_FIRE>Obr. od Ognia."
                 }
             ],
             "productCategory": "Suits"
