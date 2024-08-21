@@ -125,38 +125,6 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "name": "Axi M5 Relic",
-            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeGold",
-            "name": "Axi M5 Relic",
-            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimePlatinum",
-            "name": "Axi M5 Relic",
-            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeSilver",
-            "name": "Axi M5 Relic",
-            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
             "uniqueName": "/Lotus/Types/Game/Projections/T5VoidProjectionImmortal",
             "name": "Requiem Relic",
             "description": "Enth\u00e4lt Requiem-Mods und andere Mysterien.",
@@ -643,21 +611,21 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartChassisItem",
             "name": "Voidrig: Karkasse",
-            "description": "Karkasse-Komponente f\u00fcr den VOIDRIG Necramech.",
+            "description": "Karkasse-Komponente f\u00fcr den Voidrig Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartEngineItem",
             "name": "Voidrig: Antrieb",
-            "description": "Antrieb-Komponente f\u00fcr den VOIDRIG Necramech.",
+            "description": "Antrieb-Komponente f\u00fcr den Voidrig Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartSystemsItem",
             "name": "Voidrig: H\u00fclse",
-            "description": "H\u00fclsen-Komponente f\u00fcr den VOIDRIG Necramech.",
+            "description": "H\u00fclsen-Komponente f\u00fcr den Voidrig Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -671,21 +639,21 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartChassisItem",
             "name": "Bonewidow: Karkasse",
-            "description": "H\u00fclsen-Komponente f\u00fcr den BONEWIDOW Necramech.",
+            "description": "Karkasse-Komponente f\u00fcr den Bonewidow Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartEngineItem",
             "name": "Bonewidow: Antrieb",
-            "description": "Antrieb-Komponente f\u00fcr den BONEWIDOW Necramech.",
+            "description": "Antrieb-Komponente f\u00fcr den Bonewidow Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartSystemsItem",
             "name": "Bonewidow: H\u00fclse",
-            "description": "H\u00fclsen-Komponente f\u00fcr den BONEWIDOW Necramech.",
+            "description": "H\u00fclsen-Komponente f\u00fcr den Bonewidow Necramech.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4007,6 +3975,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionEightCreds",
             "name": "Noras Mix - Vol. 4 Cred",
+            "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
+            "name": "Noras Mix - Vol. 7 Cred",
             "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -9337,6 +9313,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco",
+            "name": "Arthurs KinePage",
+            "description": "Bleiben Sie \u00fcberall und jederzeit in Verbindung mit der All-in-One-Kommunikationsrevolution KinePage von Kinemantik! Mit einem riesigen Speicher von 2 Megabyte wird Ihnen nie der Speicherplatz ausgehen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/AshBobbleHead",
             "name": "Noggle-Statue: Ash",
             "description": "Eine kleine Wackelfigur von Ash.",
@@ -11958,6 +11941,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/RathuumEventPoster",
+            "name": "Display: Rathuum",
+            "description": "Bestaune Kela De Thaym und ihre Krieger des Rathuum.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/RedVeilSyndicateOrnament",
             "name": "Zeichen-Skulptur",
             "description": "Eine kleine Ikone der Red Veil zum Platzieren in deinem Orbiter.",
@@ -12218,6 +12209,14 @@
             "description": "Du ehrst Styanax Tonatiuh, wenn du diese gesch\u00e4tzte Bewaffnung zur Schau stellst.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/SummerGameFestPoster",
+            "name": "Display: Protea Hitzefrei",
+            "description": "Es gibt nichts Besseres, als sich nach einer guten Schlacht zur\u00fcckzulehnen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
@@ -16406,6 +16405,30 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent",
+            "name": "Sevagoth Prime: Chassis",
+            "description": "Chassis-Komponente f\u00fcr den Sevagoth Prime Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent",
+            "name": "Sevagoth Prime: Neuroptik",
+            "description": "Neuroptik-Komponente f\u00fcr den Sevagoth Prime Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent",
+            "name": "Sevagoth Prime: Systeme",
+            "description": "Systeme-Komponente f\u00fcr den Sevagoth Prime Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisComponent",
             "name": "Styanax: Chassis",
             "description": "Chassis-Komponente f\u00fcr den Styanax Warframe.",
@@ -17785,6 +17808,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeBarrel",
+            "name": "Epitaph Prime: Lauf",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Prime Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeReceiver",
+            "name": "Epitaph Prime: Geh\u00e4use",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Prime Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/FragorPrimeHandle",
             "name": "Fragor Prime: Griff",
             "description": "Eine Komponente f\u00fcr die Herstellung von Prime Waffen.",
@@ -18367,6 +18406,30 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NagantakaPrimeStock",
             "name": "Nagantaka Prime: Schaft",
             "description": "Eine Komponente f\u00fcr die Herstellung von Prime Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCarapace",
+            "name": "Nautilus Prime: Panzer",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Prime W\u00e4chtern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCerebrum",
+            "name": "Nautilus Prime: Cerebrum",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Prime W\u00e4chtern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeSystems",
+            "name": "Nautilus Prime: Systeme",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Prime W\u00e4chtern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 45

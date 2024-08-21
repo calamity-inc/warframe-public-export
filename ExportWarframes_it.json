@@ -341,6 +341,84 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
+            "name": "Ombra di Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+            "description": "Quando la Tempestarii divenne un fantasma del void, Sevagoth abbandon\u00f2 il suo corpo e si trasform\u00f2 in un'Ombra, per continuare il suo solenne dovere di salvare vite.",
+            "health": 270,
+            "shield": 135,
+            "armor": 475,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                    "abilityName": "Embrace",
+                    "description": "Mani spettrali trascinano i nemici in una massa deforme."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                    "abilityName": "Consume",
+                    "description": "Scatta attraverso i nemici e strappa le loro anime per curare l'Ombra."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                    "abilityName": "Death's Harvest",
+                    "description": "Infliggi una condizione straziante ai nemici vicini. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                    "abilityName": "Reunite",
+                    "description": "Sevagoth e la sua Ombra diventano una cosa sola."
+                }
+            ],
+            "productCategory": "SpecialItems"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+            "name": "Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+            "description": "Il timoniere dorato emerge dalla tempesta, la sua ombra \u00e8 un richiamo per le anime condannate.",
+            "health": 270,
+            "shield": 270,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 0.94999999,
+            "passiveDescription": "Alla morte di Sevagoth, diventa la sua Ombra e combatti per resuscitarlo raccogliendo le anime necessarie per ricostruire la sua lapide. ",
+            "exalted": [
+                "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                    "abilityName": "Reap",
+                    "description": "L'Ombra di Sevagoth avanza, massacrando i nemici sul suo cammino. I sopravvissuti subiscono il danno di Death\u2019s Harvest nel tempo. Le anime dei morti contribuiranno al riempimento del Pozzo della Morte."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                    "abilityName": "Sow",
+                    "description": "Pianta il seme della morte nei bersagli vicini per prosciugare la loro forza vitale. Raccogli ci\u00f2 che hai seminato per detonare i nemici colpiti, infliggendo una percentuale della loro salute come danno ad area. Le anime dei morti contribuiranno al riempimento del Pozzo della Morte. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                    "abilityName": "Gloom",
+                    "description": "Evoca un'ondata d'impulso radiale che intrappola e rallenta i nemici, sottraendo la loro forza vitale per il Pozzo della Morte. Gli alleati all'interno dell'ondata rubano salute ad ogni attacco. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                    "abilityName": "Exalted Shadow",
+                    "description": "Quando il Pozzo della Morte si riempie, la forma Ombra di Sevagoth \u00e8 pronta per essere rilasciata. Fai a pezzi i nemici con una collezione di abilit\u00e0 focalizzate sul corpo a corpo. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
             "name": "Wisp Prime",
             "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",

@@ -341,6 +341,84 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
+            "name": "Sombra do Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+            "description": "Quando a Tempestarii se tornou um fantasma do Void, o Sevagoth se separou do seu corpo e se tornou uma Sombra, atendendo ao seu dever solene de salvar vidas.",
+            "health": 270,
+            "shield": 135,
+            "armor": 475,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                    "abilityName": "Embrace",
+                    "description": "M\u00e3os fantasmag\u00f3ricas que puxar\u00e3o os inimigos e os convulsionar\u00e3o em uma massa de corpos inst\u00e1vel."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                    "abilityName": "Consume",
+                    "description": "Avan\u00e7ar\u00e1 atrav\u00e9s dos inimigos e arrancar\u00e1 suas almas para curar a Sombra."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                    "abilityName": "Death's Harvest",
+                    "description": "Aplicar\u00e1 um efeito aterrorizante em inimigos pr\u00f3ximos. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                    "abilityName": "Reunite",
+                    "description": "Sevagoth e sua Sombra se tornar\u00e3o um s\u00f3."
+                }
+            ],
+            "productCategory": "SpecialItems"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+            "name": "Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+            "description": "O comandante dourado emerge da tempestade, com sua sombra atraindo as almas condenadas.",
+            "health": 270,
+            "shield": 270,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 0.94999999,
+            "passiveDescription": "Ap\u00f3s morrer, torne-se a Sombra de Sevagoth e lute para ressuscit\u00e1-lo, coletando as almas necess\u00e1rias para reconstruir sua l\u00e1pide. ",
+            "exalted": [
+                "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                    "abilityName": "Reap",
+                    "description": "A Sombra do Sevagoth avan\u00e7ar\u00e1, devastando os inimigos presentes no seu caminho. Os sobreviventes receber\u00e3o o dano da habilidade Death\u2019s Harvest ao longo do tempo. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                    "abilityName": "Sow",
+                    "description": "Plantar\u00e1 uma semente da morte em alvos pr\u00f3ximos, drenando sua energia vital. Utilizar a habilidade Reap far\u00e1 com que os inimigos afetados explodam, causando uma porcentagem de sua Vida como dano ao redor deles. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                    "abilityName": "Gloom",
+                    "description": "Conjurar\u00e1 um pulso radial que restringir\u00e1 o movimento dos inimigos, drenando sua energia vital para o Po\u00e7o da Morte. Os Aliados que estiverem no efeito do pulso receber\u00e3o roubo de Vida em cada ataque realizado. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                    "abilityName": "Exalted Shadow",
+                    "description": "Quando o Po\u00e7o da Morte for preenchido completamente, a Sombra do Sevagoth estar\u00e1 pronta para ser liberada. Dilacere seus inimigos utilizando um conjunto de habilidades focadas em ataques corpo a corpo. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
             "name": "Wisp Prime",
             "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",
@@ -3918,7 +3996,7 @@
             "uniqueName": "/Lotus/Powersuits/Banshee/BansheePrime",
             "name": "Banshee Prime",
             "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
-            "description": "A Banshee Prime ataca seus inimigos com a manipula\u00e7\u00e3o das for\u00e7as s\u00f4nicas, desferindo ataques letais. Apresenta Polaridades de Mods alteradas para fornecer uma maior personaliza\u00e7\u00e3o.",
+            "description": "A Banshee Prime ataca seus inimigos atrav\u00e9s da manipula\u00e7\u00e3o letal das for\u00e7as s\u00f4nicas, e inclui Polaridades de Mods alteradas para fornecer uma maior personaliza\u00e7\u00e3o.",
             "health": 270,
             "shield": 270,
             "armor": 135,
@@ -3927,27 +4005,27 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Silencia todas as suas armas equipadas, para que os inimigos n\u00e3o consigam escutar seus disparos e ataques.",
+            "passiveDescription": "Silenciar\u00e1 todas as suas armas equipadas, fazendo com que os inimigos n\u00e3o escutem seus ataques.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PushAbility",
                     "abilityName": "Sonic Boom",
-                    "description": "A Banshee desferir\u00e1 uma onda de choque s\u00f4nica que empurrar\u00e1 os alvos inimigos no alcance com for\u00e7a suficiente para incapacit\u00e1-los, ou at\u00e9 mesmo mat\u00e1-los."
+                    "description": "A Banshee desferir\u00e1 uma onda de choque s\u00f4nica, que empurrar\u00e1 os inimigos no alcance com for\u00e7a suficiente para incapacit\u00e1-los, ou at\u00e9 mesmo elimin\u00e1-los."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonarAbility",
                     "abilityName": "Sonar",
-                    "description": "Utilizando o poder ac\u00fastico, a habilidade Sonar da Banshee localizar\u00e1 e marcar\u00e1 os inimigos, expondo seus pontos fracos para ela e seus aliados."
+                    "description": "Utilizando seu poder ac\u00fastico, a habilidade Sonar da Banshee localizar\u00e1 e marcar\u00e1 os inimigos, expondo seus pontos fracos para ela e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
                     "abilityName": "Silence",
-                    "description": "A habilidade Silence envolver\u00e1 Banshee com uma aura que atordoar\u00e1 os inimigos, limitando a percep\u00e7\u00e3o e resposta t\u00e1tica deles contra os disparos e ataques de Warframes e seus armamentos."
+                    "description": "A habilidade Silence envolver\u00e1 a Banshee com uma aura que atordoar\u00e1 os inimigos, limitando a percep\u00e7\u00e3o e resposta t\u00e1tica deles contra ataques de armas e Warframes."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonicEarthQuakeAbility",
                     "abilityName": "Sound Quake",
-                    "description": "Canalizando toda a sua energia ac\u00fastica no ambiente ao seu redor, Banshee gerar\u00e1 reverbera\u00e7\u00f5es ultrass\u00f4nicas no solo, fazendo com que ele trema e vibre violentamente."
+                    "description": "Canalizando toda a sua energia ac\u00fastica no ambiente ao seu redor, a Banshee causar\u00e1 reverbera\u00e7\u00f5es ultrass\u00f4nicas no solo, fazendo com que ele vibre violentamente."
                 }
             ],
             "productCategory": "Suits"
@@ -3956,7 +4034,7 @@
             "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
             "name": "Banshee",
             "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
-            "description": "O grito da Banshee \u00e9 um pren\u00fancio da morte. Ela fornece controle de grupo e identifica os pontos fracos dos inimigos com ataques s\u00f4nicos. Poucos conseguem manter sua posi\u00e7\u00e3o quando atingidos pelo seu poder.",
+            "description": "O grito da Banshee \u00e9 um pren\u00fancio da morte. Utilizando ataques s\u00f4nicos, ela fornece controle de grupo e identifica os pontos fracos dos inimigos. Poucos s\u00e3o p\u00e1reos para ela no campo de batalha ao serem atingidos pelo seu poder.",
             "health": 270,
             "shield": 270,
             "armor": 105,
@@ -3965,27 +4043,27 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Silencia todas as suas armas equipadas, para que os inimigos n\u00e3o consigam escutar seus disparos e ataques.",
+            "passiveDescription": "Silenciar\u00e1 todas as suas armas equipadas, fazendo com que os inimigos n\u00e3o escutem seus ataques.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PushAbility",
                     "abilityName": "Sonic Boom",
-                    "description": "A Banshee desferir\u00e1 uma onda de choque s\u00f4nica que empurrar\u00e1 os alvos inimigos no alcance com for\u00e7a suficiente para incapacit\u00e1-los, ou at\u00e9 mesmo mat\u00e1-los."
+                    "description": "A Banshee desferir\u00e1 uma onda de choque s\u00f4nica, que empurrar\u00e1 os inimigos no alcance com for\u00e7a suficiente para incapacit\u00e1-los, ou at\u00e9 mesmo elimin\u00e1-los."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonarAbility",
                     "abilityName": "Sonar",
-                    "description": "Utilizando o poder ac\u00fastico, a habilidade Sonar da Banshee localizar\u00e1 e marcar\u00e1 os inimigos, expondo seus pontos fracos para ela e seus aliados."
+                    "description": "Utilizando seu poder ac\u00fastico, a habilidade Sonar da Banshee localizar\u00e1 e marcar\u00e1 os inimigos, expondo seus pontos fracos para ela e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
                     "abilityName": "Silence",
-                    "description": "A habilidade Silence envolver\u00e1 Banshee com uma aura que atordoar\u00e1 os inimigos, limitando a percep\u00e7\u00e3o e resposta t\u00e1tica deles contra os disparos e ataques de Warframes e seus armamentos."
+                    "description": "A habilidade Silence envolver\u00e1 a Banshee com uma aura que atordoar\u00e1 os inimigos, limitando a percep\u00e7\u00e3o e resposta t\u00e1tica deles contra ataques de armas e Warframes."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonicEarthQuakeAbility",
                     "abilityName": "Sound Quake",
-                    "description": "Canalizando toda a sua energia ac\u00fastica no ambiente ao seu redor, Banshee gerar\u00e1 reverbera\u00e7\u00f5es ultrass\u00f4nicas no solo, fazendo com que ele trema e vibre violentamente."
+                    "description": "Canalizando toda a sua energia ac\u00fastica no ambiente ao seu redor, a Banshee causar\u00e1 reverbera\u00e7\u00f5es ultrass\u00f4nicas no solo, fazendo com que ele vibre violentamente."
                 }
             ],
             "productCategory": "Suits"

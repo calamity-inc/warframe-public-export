@@ -125,38 +125,6 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "name": "Axi M5 Relic",
-            "description": "Um artefato que cont\u00e9m segredos dos Orokins. Ele s\u00f3 pode ser aberto pelo poder do Void.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeGold",
-            "name": "Axi M5 Relic",
-            "description": "Um artefato que cont\u00e9m segredos dos Orokins. Ele s\u00f3 pode ser aberto pelo poder do Void.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimePlatinum",
-            "name": "Axi M5 Relic",
-            "description": "Um artefato que cont\u00e9m segredos dos Orokins. Ele s\u00f3 pode ser aberto pelo poder do Void.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
-            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeSilver",
-            "name": "Axi M5 Relic",
-            "description": "Um artefato que cont\u00e9m segredos dos Orokins. Ele s\u00f3 pode ser aberto pelo poder do Void.",
-            "codexSecret": true,
-            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-            "excludeFromCodex": true
-        },
-        {
             "uniqueName": "/Lotus/Types/Game/Projections/T5VoidProjectionImmortal",
             "name": "Requiem Relic",
             "description": "Possui Mods R\u00e9quiem e outros mist\u00e9rios.",
@@ -4007,6 +3975,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionEightCreds",
             "name": "Cr\u00e9ditos do Mix da Nora Vol. 4",
+            "description": "Usados para obter as Oferendas de Cr\u00e9ditos da Nightwave, os Cr\u00e9ditos dos Cap\u00edtulos anteriores podem ser mantidos como recorda\u00e7\u00f5es ou vendidos por <CREDITS>Cr\u00e9ditos normais.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
+            "name": "Cr\u00e9ditos do Mix da Nora Vol. 7",
             "description": "Usados para obter as Oferendas de Cr\u00e9ditos da Nightwave, os Cr\u00e9ditos dos Cap\u00edtulos anteriores podem ser mantidos como recorda\u00e7\u00f5es ou vendidos por <CREDITS>Cr\u00e9ditos normais.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -9337,6 +9313,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco",
+            "name": "KinePage do Arthur",
+            "description": "Permane\u00e7a conectado em qualquer lugar, a qualquer hora, com o revolucion\u00e1rio comunicador completo KinePage da Kinemantik! Com uma mem\u00f3ria massiva de 2 megabytes, voc\u00ea nunca ficar\u00e1 sem espa\u00e7o de armazenamento.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/AshBobbleHead",
             "name": "Estatueta: Ash",
             "description": "Uma estatueta articulada do Ash.",
@@ -11958,6 +11941,14 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/RathuumEventPoster",
+            "name": "Exibidor do Rathuum",
+            "description": "Contemple a Kela De Thaym e seus guerreiros do Rathuum.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/RedVeilSyndicateOrnament",
             "name": "Escultura: Mark",
             "description": "Uma estatueta do V\u00e9u Rubro para colocar na sua Orbital.",
@@ -12218,6 +12209,14 @@
             "description": "Voc\u00ea honrar\u00e1 o Styanax Tonatiuh ao exibir estes armamentos preciosos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/SummerGameFestPoster",
+            "name": "Exibidor da Protea nos Dias de C\u00e3o",
+            "description": "N\u00e3o h\u00e1 nada como relaxar e apreciar o p\u00f4r do sol ap\u00f3s uma boa batalha de Soaktron.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead",
@@ -16406,6 +16405,30 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent",
+            "name": "Sevagoth Prime: Chassi",
+            "description": "Chassi componente do Warframe Sevagoth Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent",
+            "name": "Sevagoth Prime: Neurovisor",
+            "description": "Neurovisor componente do Warframe Sevagoth Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent",
+            "name": "Sevagoth Prime: Sistemas",
+            "description": "Sistemas componentes do Warframe Sevagoth Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisComponent",
             "name": "Styanax: Chassi",
             "description": "Chassi componente do Warframe Styanax.",
@@ -17785,6 +17808,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeBarrel",
+            "name": "Epitaph Prime: Cano",
+            "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeReceiver",
+            "name": "Epitaph Prime: Receptor",
+            "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/FragorPrimeHandle",
             "name": "Fragor Prime: Cabo",
             "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
@@ -18367,6 +18406,30 @@
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NagantakaPrimeStock",
             "name": "Nagantaka Prime: Coronha",
             "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCarapace",
+            "name": "Nautilus Prime: Carapa\u00e7a",
+            "description": "Um componente de fabrica\u00e7\u00e3o de sentinelas Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCerebrum",
+            "name": "Nautilus Prime: C\u00e9rebro",
+            "description": "Um componente de fabrica\u00e7\u00e3o de sentinelas Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeSystems",
+            "name": "Nautilus Prime: Sistemas",
+            "description": "Um componente de fabrica\u00e7\u00e3o de sentinelas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 45

@@ -341,6 +341,84 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
+            "name": "Sevagoth Prime \u5e7b\u5f71",
+            "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+            "description": "\u7576\u66b4\u98a8\u865f\u6210\u70ba\u4e00\u8258\u7a7f\u68ad\u865b\u7a7a\u7684\u5e7d\u9748\u8239\u6642\uff0cSevagoth \u812b\u4e0b\u4e86\u81ea\u5df1\u7684\u8eab\u8ec0\u4e26\u6210\u70ba\u4e86\u5e7b\u5f71\u4f86\u7e7c\u7e8c\u4ed6\u62ef\u6551\u751f\u547d\u7684\u838a\u56b4\u8077\u8cac\u3002",
+            "health": 270,
+            "shield": 135,
+            "armor": 475,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                    "abilityName": "\u5e7d\u9b42\u6697\u64c1",
+                    "description": "\u9b3c\u624b\u5c07\u6575\u4eba\u62c9\u5165\u5287\u70c8\u7684\u5718\u584a\u4e4b\u4e2d\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                    "abilityName": "\u9b42\u98db\u9b44\u6563",
+                    "description": "\u885d\u7834\u6575\u4eba\u4e26\u6495\u51fa\u4ed6\u5011\u7684\u9748\u9b42\u4f86\u6cbb\u7652\u5e7b\u5f71\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                    "abilityName": "\u6b7b\u4ea1\u6536\u5272",
+                    "description": "\u4f7f\u9644\u8fd1\u6575\u4eba\u906d\u53d7\u6298\u78e8\u3002 "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                    "abilityName": "\u4e8c\u5408\u70ba\u4e00",
+                    "description": "Sevagoth \u8207\u4ed6\u7684\u5e7d\u5f71\u4e8c\u5408\u70ba\u4e00\u3002"
+                }
+            ],
+            "productCategory": "SpecialItems"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+            "name": "Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+            "description": "\u934d\u91d1\u7684\u8235\u624b\u5f9e\u98a8\u66b4\u4e2d\u51fa\u73fe\uff0c\u4ed6\u7684\u6697\u5f71\u8a98\u60d1\u90a3\u4e9b\u6ce8\u5b9a\u6bc0\u6ec5\u7684\u4ea1\u9b42\u3002",
+            "health": 270,
+            "shield": 270,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 0.94999999,
+            "passiveDescription": "\u6b7b\u4ea1\u6642\uff0c\u6210\u70ba Sevagoth \u7684\u5e7b\u5f71\u4e26\u901a\u904e\u6230\u9b25\u4f86\u6536\u96c6\u91cd\u5efa\u4ed6\u7684\u5893\u7891\u6240\u9700\u8981\u7684\u9748\u9b42\u3002",
+            "exalted": [
+                "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                    "abilityName": "\u6536\u7a6b",
+                    "description": "Sevagoth \u7684\u5e7b\u5f71\u5411\u5916\u98db\u53bb\uff0c\u8086\u8650\u4ed6\u8def\u5f91\u4e0a\u7684\u6575\u4eba\u3002\u5016\u5b58\u8005\u96a8\u8457\u6642\u9593\u906d\u53d7\u300c\u6b7b\u4ea1\u6536\u5272\u300d\u7684\u50b7\u5bb3\u3002\u4ea1\u9b42\u5c07\u704c\u6ce8\u6b7b\u4ea1\u4e4b\u4e95\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                    "abilityName": "\u64ad\u7a2e",
+                    "description": "\u5728\u9644\u8fd1\u76ee\u6a19\u8eab\u4e0a\u7a2e\u4e0b\u6b7b\u4ea1\u4e4b\u7c7d\u4f86\u67af\u7aed\u4ed6\u5011\u7684\u751f\u547d\u529b\u3002\u300c\u6536\u7a6b\u300d\u5df2\u64ad\u4e0b\u7684\u7a2e\u5b50\u4f86\u5f15\u7206\u53d7\u60a3\u7684\u6575\u4eba\uff0c\u5c0d\u4ed6\u5011\u9020\u6210\u751f\u547d\u767e\u5206\u6bd4\u7684\u7bc4\u570d\u50b7\u5bb3\u3002\u4ea1\u9b42\u5c07\u704c\u6ce8\u6b7b\u4ea1\u4e4b\u4e95\u3002 "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                    "abilityName": "\u5e7d\u6028",
+                    "description": "\u53ec\u559a\u4e00\u9053\u8108\u885d\u6ce2\u4f86\u4f7f\u6575\u4eba\u53d7\u56f0\u8ddf\u7de9\u901f\uff0c\u540c\u6642\u6c72\u53d6\u4ed6\u5011\u7684\u751f\u547d\u529b\u4ee5\u704c\u6ce8\u6b7b\u4ea1\u4e4b\u4e95\u3002\u5728\u6ce2\u5167\u7684\u53cb\u65b9\u900f\u904e\u6bcf\u6b21\u653b\u64ca\u4f86\u7aca\u53d6\u751f\u547d\u3002 "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                    "abilityName": "\u986f\u8d6b\u5e7b\u5f71",
+                    "description": "\u6b7b\u4ea1\u4e4b\u4e95\u586b\u6eff\u6642\uff0cSevagoth \u7684\u5e7b\u5f71\u5f62\u614b\u5df2\u6e96\u5099\u597d\u91cb\u51fa\u3002\u900f\u904e\u4e00\u7cfb\u5217\u96c6\u4e2d\u65bc\u8fd1\u6230\u7684\u6280\u80fd\u4f86\u6495\u88c2\u6575\u4eba\u3002"
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
             "name": "Wisp Prime",
             "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",

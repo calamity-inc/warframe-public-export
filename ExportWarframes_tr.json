@@ -274,7 +274,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Yareli'nin |TIME|s hareket etmesi halinde \u0130kincil silahlar\u0131 +%|CHANCE| Kritik \u015eans kazan\u0131r.",
+            "passiveDescription": "Yareli'nin |TIME|sn hareket etmesi halinde \u0130kincil silahlar\u0131 +%|CHANCE| Kritik \u015eans kazan\u0131r.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
@@ -315,6 +315,84 @@
             "passiveDescription": "Sevagoth \u00f6ld\u00fc\u011f\u00fcnde, G\u00f6lgesi olarak oyna ve mezar ta\u015f\u0131n\u0131 yeniden in\u015fa etmek i\u00e7in gereken ruhlar\u0131 toplayarak onu diriltmek i\u00e7in sava\u015f. ",
             "exalted": [
                 "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                    "abilityName": "Reap",
+                    "description": "Sevagoth'un G\u00f6lgesi, d\u0131\u015far\u0131 ta\u015farak yolundaki d\u00fc\u015fmanlar\u0131 tahrip eder. Hayatta kalanlar, Death's Harvest s\u00fcresince hasar al\u0131r. \u00d6lenlerin ruhlar\u0131 \u00d6l\u00fcm Kuyusunu doldurur."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                    "abilityName": "Sow",
+                    "description": "Hayat enerjilerini \u00e7ekmek i\u00e7in yak\u0131ndaki hedeflere bir \u00f6l\u00fcm tohumu ek. Reap ile etkilenen d\u00fc\u015fmanlar\u0131 patlatarak ektiklerini bi\u00e7 ve sa\u011fl\u0131klar\u0131n\u0131n belirli bir y\u00fczdesini Radyal Hasar olarak ver. \u00d6lenlerin ruhlar\u0131 \u00d6l\u00fcm Kuyusunu doldurur. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                    "abilityName": "Gloom",
+                    "description": "\u00d6l\u00fcm Kuyusu i\u00e7in d\u00fc\u015fmanlar\u0131 tuza\u011fa d\u00fc\u015f\u00fcren ve yava\u015flatan radyal bir dalga \u00e7a\u011f\u0131r. Dalgan\u0131n i\u00e7inde yer alan m\u00fcttefikler her sald\u0131r\u0131da d\u00fc\u015fmandan Sa\u011fl\u0131k \u00e7alar. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                    "abilityName": "Exalted Shadow",
+                    "description": "\u00d6l\u00fcm Kuyusu doldu\u011funda, Sevagoth'un G\u00f6lgesi serbest b\u0131rak\u0131lmaya haz\u0131rd\u0131r. Yak\u0131n d\u00f6v\u00fc\u015f odakl\u0131 yeteneklerin bir koleksiyonu ile d\u00fc\u015fmanlar\u0131 par\u00e7ala. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
+            "name": "Sevagoth Prime'\u0131n G\u00f6lgesi",
+            "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+            "description": "Tempestarii bir Void hayaletine d\u00f6n\u00fc\u015ft\u00fc\u011f\u00fcnde Sevagoth bedenini bir kenara b\u0131rakt\u0131 ve hayat kurtarma g\u00f6revini s\u00fcrd\u00fcrmek i\u00e7in bir G\u00f6lge oldu.",
+            "health": 270,
+            "shield": 135,
+            "armor": 475,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                    "abilityName": "Embrace",
+                    "description": "Hayalet eller, d\u00fc\u015fmanlar\u0131 k\u0131vr\u0131ml\u0131 bir k\u00fctle i\u00e7ine \u00e7eker."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                    "abilityName": "Consume",
+                    "description": "D\u00fc\u015fmanlara sald\u0131r ve G\u00f6lgeyi iyile\u015ftirmek i\u00e7in ruhlar\u0131n\u0131 s\u00f6k."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                    "abilityName": "Death's Harvest",
+                    "description": "Yak\u0131ndaki d\u00fc\u015fmanlara zor anlar ya\u015fat. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                    "abilityName": "Reunite",
+                    "description": "Sevagoth ve G\u00f6lgesi tek v\u00fccut olur."
+                }
+            ],
+            "productCategory": "SpecialItems"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+            "name": "Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+            "description": "Yald\u0131zl\u0131 kaptan f\u0131rt\u0131nadan \u00e7\u0131k\u0131yor, g\u00f6lgesi ise \u00f6l\u00fcme mahkum ruhlar i\u00e7in bir cazibeyi tetikliyor.",
+            "health": 270,
+            "shield": 270,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 0.94999999,
+            "passiveDescription": "Sevagoth \u00f6ld\u00fc\u011f\u00fcnde, G\u00f6lgesi olarak oyna ve mezar ta\u015f\u0131n\u0131 yeniden in\u015fa etmek i\u00e7in gereken ruhlar\u0131 toplayarak onu diriltmek i\u00e7in sava\u015f. ",
+            "exalted": [
+                "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
             ],
             "abilities": [
                 {
@@ -2276,7 +2354,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Vah\u015fi kavat, Venari, Khora'n\u0131n yan\u0131nda sava\u015f\u0131r ve aktif durumda iken ona %|SPEED| H\u0131z artt\u0131r\u0131m\u0131 sa\u011flar. Venari \u00f6ld\u00fckten |RESPAWN|s sonra tekrar dirilir.",
+            "passiveDescription": "Vah\u015fi kavat, Venari, Khora'n\u0131n yan\u0131nda sava\u015f\u0131r ve aktif durumda iken ona %|SPEED| H\u0131z artt\u0131r\u0131m\u0131 sa\u011flar. Venari \u00f6ld\u00fckten |RESPAWN|sn sonra tekrar dirilir.",
             "exalted": [
                 "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
             ],
@@ -2317,7 +2395,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Vah\u015fi kavat, Venari, Khora'n\u0131n yan\u0131nda sava\u015f\u0131r ve aktif durumda iken ona %|SPEED| H\u0131z artt\u0131r\u0131m\u0131 sa\u011flar. Venari \u00f6ld\u00fckten |RESPAWN|s sonra tekrar dirilir.",
+            "passiveDescription": "Vah\u015fi kavat, Venari, Khora'n\u0131n yan\u0131nda sava\u015f\u0131r ve aktif durumda iken ona %|SPEED| H\u0131z artt\u0131r\u0131m\u0131 sa\u011flar. Venari \u00f6ld\u00fckten |RESPAWN|sn sonra tekrar dirilir.",
             "exalted": [
                 "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
             ],
@@ -2516,7 +2594,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "E\u011fer Nidus en az |STACKS| Mutasyon y\u0131\u011f\u0131n\u0131 \u00f6ld\u00fcr\u00fcrse, bu |STACKS| y\u0131\u011f\u0131nlar kullan\u0131l\u0131r, bu durum |DURATION|s boyunca dokunulmazl\u0131k sa\u011flar ve %|HEAL| Sa\u011fl\u0131k verir.",
+            "passiveDescription": "E\u011fer Nidus en az |STACKS| Mutasyon y\u0131\u011f\u0131n\u0131 \u00f6ld\u00fcr\u00fcrse, bu |STACKS| y\u0131\u011f\u0131nlar kullan\u0131l\u0131r, bu durum |DURATION|sn boyunca dokunulmazl\u0131k sa\u011flar ve %|HEAL| Sa\u011fl\u0131k verir.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
@@ -2554,7 +2632,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "E\u011fer Nidus en az |STACKS| Mutasyon y\u0131\u011f\u0131n\u0131 \u00f6ld\u00fcr\u00fcrse, bu |STACKS| y\u0131\u011f\u0131nlar kullan\u0131l\u0131r, bu durum |DURATION|s boyunca dokunulmazl\u0131k sa\u011flar ve %|HEAL| Sa\u011fl\u0131k verir.",
+            "passiveDescription": "E\u011fer Nidus en az |STACKS| Mutasyon y\u0131\u011f\u0131n\u0131 \u00f6ld\u00fcr\u00fcrse, bu |STACKS| y\u0131\u011f\u0131nlar kullan\u0131l\u0131r, bu durum |DURATION|sn boyunca dokunulmazl\u0131k sa\u011flar ve %|HEAL| Sa\u011fl\u0131k verir.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
@@ -3851,7 +3929,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Yetenekler kullan\u0131ld\u0131\u011f\u0131nda |RANGE|m \u00e7ap\u0131ndaki yolda\u015flar\u0131n\u0131z ve Octavia i\u00e7in |DURATION|s boyunca |ENERGY| enerji sa\u011flan\u0131r.",
+            "passiveDescription": "Yetenekler kullan\u0131ld\u0131\u011f\u0131nda |RANGE|m \u00e7ap\u0131ndaki yolda\u015flar\u0131n\u0131z ve Octavia i\u00e7in |DURATION|sn boyunca |ENERGY| enerji sa\u011flan\u0131r.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
@@ -3889,7 +3967,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "Yetenekler kullan\u0131ld\u0131\u011f\u0131nda |RANGE|m \u00e7ap\u0131ndaki yolda\u015flar\u0131n\u0131z ve Octavia i\u00e7in |DURATION|s boyunca |ENERGY| enerji sa\u011flan\u0131r.",
+            "passiveDescription": "Yetenekler kullan\u0131ld\u0131\u011f\u0131nda |RANGE|m \u00e7ap\u0131ndaki yolda\u015flar\u0131n\u0131z ve Octavia i\u00e7in |DURATION|sn boyunca |ENERGY| enerji sa\u011flan\u0131r.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",

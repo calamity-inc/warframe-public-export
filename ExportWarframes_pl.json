@@ -341,6 +341,84 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
+            "name": "Cie\u0144 Sevagotha Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+            "description": "Gdy Tempestarii sta\u0142a si\u0119 fantomem pustki, Sevagoth opu\u015bci\u0142 swoje cia\u0142o i sta\u0142 si\u0119 Cieniem, by kontynuowa\u0107 misj\u0119 ratowania kolejnych istnie\u0144.",
+            "health": 270,
+            "shield": 135,
+            "armor": 475,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                    "abilityName": "Obj\u0119cia",
+                    "description": "Widmowe r\u0119ce \u015bci\u0105gaj\u0105 wrog\u00f3w w bezw\u0142adn\u0105 mas\u0119."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                    "abilityName": "Poch\u0142oni\u0119cie",
+                    "description": "Szar\u017cuj przez wrog\u00f3w i wyrywaj ich dusze, aby uleczy\u0107 Cie\u0144."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                    "abilityName": "\u017bniwa \u015amierci",
+                    "description": "Wprowad\u017a pobliskich wrog\u00f3w w stan agonii. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                    "abilityName": "Zjednoczenie",
+                    "description": "Sevagoth i jego Cie\u0144 staj\u0105 si\u0119 jedno\u015bci\u0105."
+                }
+            ],
+            "productCategory": "SpecialItems"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Wraith/SevagothPrime",
+            "name": "Sevagoth Prime",
+            "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+            "description": "Poz\u0142acany sternik wy\u0142ania si\u0119 z burzy, a jego cie\u0144 jest przyn\u0119t\u0105 dla skazanych na zag\u0142ad\u0119 dusz.",
+            "health": 270,
+            "shield": 270,
+            "armor": 185,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 0.94999999,
+            "passiveDescription": "W czasie \u015bmierci sta\u0144 si\u0119 Cieniem Sevagotha i walcz, aby go wskrzesi\u0107 poprzez zdobywanie dusz wymaganych do odbudowy jego nagrobka. ",
+            "exalted": [
+                "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                    "abilityName": "Zbiory",
+                    "description": "Cie\u0144 Sevagotha leci do przodu, niszcz\u0105c wrog\u00f3w na swojej drodze. Ocalali otrzymuj\u0105 obra\u017cenia w czasie od \u017bniw \u015amierci. Dusze zmar\u0142ych wype\u0142niaj\u0105 Studni\u0119 \u015amierci."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                    "abilityName": "Siew",
+                    "description": "Zasiej ziarno \u015bmierci w pobliskich wrogach, aby wyssa\u0107 ich si\u0142\u0119 \u017cyciow\u0105. Zbierz swoje \u017cniwo, aby zdetonowa\u0107 dotkni\u0119tych wrog\u00f3w, zadaj\u0105c procent obra\u017ce\u0144 ich \u017cycia jako obra\u017cenia w czasie. Dusze zmar\u0142ych wype\u0142niaj\u0105 Studni\u0119 \u015amierci. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                    "abilityName": "Przygn\u0119bienie",
+                    "description": "Przywo\u0142aj obszarow\u0105 fal\u0119 pulsacyjn\u0105, kt\u00f3ra usidla i spowalnia wrog\u00f3w, wysysaj\u0105c ich si\u0142\u0119 \u017cyciow\u0105 do Studni \u015amierci. Sojusznicy wewn\u0105trz fali kradn\u0105 \u017cycie z ka\u017cdym atakiem. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                    "abilityName": "Egzaltowany Cie\u0144",
+                    "description": "Gdy Studnia \u015amierci si\u0119 wype\u0142ni, posta\u0107 Cienia Sevagotha jest gotowa do uwolnienia. Rozerwij wroga na strz\u0119py kolekcj\u0105 umiej\u0119tno\u015bci skupionych na walce wr\u0119cz. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
             "name": "Wisp Prime",
             "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",
@@ -2129,12 +2207,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
                     "abilityName": "Przyci\u0105gni\u0119cie",
-                    "description": "Stworzony przez Mag wir magnetyczny og\u0142usza przeciwnik\u00f3w. Wir ten przyci\u0105ga od\u0142amki stworzone przez polaryzacj\u0119 oraz og\u0142uszonych wrog\u00f3w."
+                    "description": "Mag og\u0142usza wrog\u00f3w, manifestuj\u0105c magnetyczny wir, kt\u00f3ry przyci\u0105ga Spolaryzowane Od\u0142amki i og\u0142uszonych wrog\u00f3w, umieszczaj\u0105c ich bezpo\u015brednio przed ni\u0105."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BulletAttractorAbility",
                     "abilityName": "Magnetyzm",
-                    "description": "(KLIKNIJ) Tworzy pole magnetyczne wok\u00f3\u0142 celu, kt\u00f3re usidla pobliskich wrog\u00f3w i zadaje im obra\u017cenia. Pole przyci\u0105ga od\u0142amki stworzone przez Polaryzacj\u0119 i czyni je zab\u00f3jczymi szrapnelami.\r\n(PRZYTRZYMAJ) Tworzy pole magnetyczne wok\u00f3\u0142 Mag, kt\u00f3re poch\u0142ania ataki z dystansu, zwracaj\u0105c obra\u017cenia w niszczycielskim sto\u017cku przed ni\u0105."
+                    "description": "(KLIKNIJ) Tworzy pole magnetyczne wok\u00f3\u0142 celu, kt\u00f3re osacza pobliskich wrog\u00f3w i zadaje im obra\u017cenia. Pole przyci\u0105ga Spolaryzowane Od\u0142amki, kt\u00f3re kr\u0105\u017cy\u0142y wok\u00f3\u0142 Mag, i czyni je zab\u00f3jczymi szrapnelami.\r\n(PRZYTRZYMAJ) Tworzy pole magnetyczne wok\u00f3\u0142 Mag, kt\u00f3re poch\u0142ania ataki z dystansu, zwracaj\u0105c obra\u017cenia w niszczycielskim sto\u017cku przed ni\u0105."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
@@ -2167,12 +2245,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
                     "abilityName": "Przyci\u0105gni\u0119cie",
-                    "description": "Stworzony przez Mag wir magnetyczny og\u0142usza przeciwnik\u00f3w. Wir ten przyci\u0105ga od\u0142amki stworzone przez polaryzacj\u0119 oraz og\u0142uszonych wrog\u00f3w."
+                    "description": "Mag og\u0142usza wrog\u00f3w, manifestuj\u0105c magnetyczny wir, kt\u00f3ry przyci\u0105ga Spolaryzowane Od\u0142amki i og\u0142uszonych wrog\u00f3w, umieszczaj\u0105c ich bezpo\u015brednio przed ni\u0105."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BulletAttractorAbility",
                     "abilityName": "Magnetyzm",
-                    "description": "(KLIKNIJ) Tworzy pole magnetyczne wok\u00f3\u0142 celu, kt\u00f3re usidla pobliskich wrog\u00f3w i zadaje im obra\u017cenia. Pole przyci\u0105ga od\u0142amki stworzone przez Polaryzacj\u0119 i czyni je zab\u00f3jczymi szrapnelami.\r\n(PRZYTRZYMAJ) Tworzy pole magnetyczne wok\u00f3\u0142 Mag, kt\u00f3re poch\u0142ania ataki z dystansu, zwracaj\u0105c obra\u017cenia w niszczycielskim sto\u017cku przed ni\u0105."
+                    "description": "(KLIKNIJ) Tworzy pole magnetyczne wok\u00f3\u0142 celu, kt\u00f3re osacza pobliskich wrog\u00f3w i zadaje im obra\u017cenia. Pole przyci\u0105ga Spolaryzowane Od\u0142amki, kt\u00f3re kr\u0105\u017cy\u0142y wok\u00f3\u0142 Mag, i czyni je zab\u00f3jczymi szrapnelami.\r\n(PRZYTRZYMAJ) Tworzy pole magnetyczne wok\u00f3\u0142 Mag, kt\u00f3re poch\u0142ania ataki z dystansu, zwracaj\u0105c obra\u017cenia w niszczycielskim sto\u017cku przed ni\u0105."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
@@ -3665,7 +3743,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenGraspAbility",
                     "abilityName": "U\u015bcisk Lohk",
-                    "description": "Wici Pustki kradn\u0105 bro\u0144 pobliskim wrogom, aby u\u017cywa\u0107 jej jako w\u0142asnej, unosz\u0105cej si\u0119 w powietrzu or\u0119\u017ca o automatycznym namierzaniu. Zadawane obra\u017cenia rosn\u0105 w zale\u017cno\u015bci od poziomu wroga. Liczba z\u0142apanych broni okre\u015bla r\u00f3wnie\u017c mno\u017cnik obra\u017ce\u0144 promienia pustki Zaginiony: Zaprzeczenie."
+                    "description": "Wici Pustki kradn\u0105 bro\u0144 pobliskim wrogom, aby u\u017cywa\u0107 jej jako w\u0142asnego, unosz\u0105cego si\u0119 w powietrzu or\u0119\u017ca o automatycznym namierzaniu. Zadawane obra\u017cenia rosn\u0105 w zale\u017cno\u015bci od poziomu wroga. Liczba z\u0142apanych broni okre\u015bla r\u00f3wnie\u017c mno\u017cnik obra\u017ce\u0144 promienia pustki Zaginiony: Zaprzeczenie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenEmbraceAbility",
