@@ -11,14 +11,14 @@
         {
             "uniqueName": "/Lotus/Types/Game/CatbrowPet/CatbrowGeneticSignature",
             "name": "Genetischer Code: Kavat",
-            "description": "Enth\u00e4lt die genetische Codesequenz einer Kavat.\r\n\r\nFundort: Erh\u00e4ltlich, indem man einen Codex-Scanner bei wilde Kavats nutzt, die durch das Orokin Wrack auf Deimos streifen.",
+            "description": "Enth\u00e4lt die genetische Codesequenz einer Kavat.\r\n\r\nQuelle: Erh\u00e4ltlich, indem man einen Codex-Scanner bei wilde Kavats nutzt, die durch das Orokin Wrack auf Deimos streifen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Game/CatbrowPet/CatbrowGeneticSignatureStarterPack",
             "name": "Genetischer Code: Kavat",
-            "description": "Enth\u00e4lt die genetische Codesequenz einer Kavat.\r\n\r\nFundort: Erh\u00e4ltlich, indem man einen Codex-Scanner bei wilde Kavats nutzt, die durch das Orokin Wrack auf Deimos streifen.",
+            "description": "Enth\u00e4lt die genetische Codesequenz einer Kavat.\r\n\r\nQuelle: Erh\u00e4ltlich, indem man einen Codex-Scanner bei wilde Kavats nutzt, die durch das Orokin Wrack auf Deimos streifen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -35,7 +35,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowEgg",
             "name": "Kubrow-Ei",
-            "description": "Dieses Ei wird verwendet, um den Genetischen Code eines Kubrow in einen Klon zu verpflanzen.\r\n\r\nFundort: In Kubrow Bauten in den Grineer W\u00e4ldern auf der Erde.",
+            "description": "Dieses Ei wird verwendet, um den Genetischen Code eines Kubrow in einen Klon zu verpflanzen.\r\n\r\nQuelle: In Kubrow Bauten in den Grineer W\u00e4ldern auf der Erde.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowPetEggItem",
             "showInInventory": false
@@ -101,11 +101,75 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultABronze",
+            "name": "Lith D6 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T1VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultAGold",
+            "name": "Lith D6 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultAPlatinum",
+            "name": "Lith D6 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultASilver",
+            "name": "Lith D6 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T2VoidProjection",
             "name": "Meso Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultABronze",
+            "name": "Meso H8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T2VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultAGold",
+            "name": "Meso H8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultAPlatinum",
+            "name": "Meso H8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultASilver",
+            "name": "Meso H8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionGarudaKhoraVaultABronze",
             "excludeFromCodex": true
         },
         {
@@ -117,11 +181,139 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultABronze",
+            "name": "Neo C5 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultAGold",
+            "name": "Neo C5 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultAPlatinum",
+            "name": "Neo C5 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultASilver",
+            "name": "Neo C5 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBBronze",
+            "name": "Neo K8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBGold",
+            "name": "Neo K8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBBronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBPlatinum",
+            "name": "Neo K8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBBronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBSilver",
+            "name": "Neo K8 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionGarudaKhoraVaultBBronze",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjection",
             "name": "Axi Relic",
             "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultABronze",
+            "name": "Axi G13 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultAGold",
+            "name": "Axi G13 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultAPlatinum",
+            "name": "Axi G13 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultASilver",
+            "name": "Axi G13 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultABronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBBronze",
+            "name": "Axi N11 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBGold",
+            "name": "Axi N11 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBBronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBPlatinum",
+            "name": "Axi N11 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBBronze",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBSilver",
+            "name": "Axi N11 Relic",
+            "description": "Ein Artefakt, das Orokin Geheimnisse birgt. Es kann nur durch die Macht des Void ge\u00f6ffnet werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionGarudaKhoraVaultBBronze",
             "excludeFromCodex": true
         },
         {
@@ -253,7 +445,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
             "name": "Kullervos Ruin",
-            "description": "Kullervo's fury incarnate. Acrithis will trade this prized artifact for certain items from her collection.\r\n\r\nLocation: Earned by confronting Kullervo and defeating the Orowyrm in the same Duviri mission during the Fear, Anger, or Sorrow spiral",
+            "description": "Kullervos Wut in Person. Acrithis wird dieses wertvolle Artefakt gegen bestimmte Gegenst\u00e4nde aus ihrer Sammlung eintauschen.\r\n\r\nFundort: Belohnung f\u00fcr die Konfrontation mit Kullervo und den Sieg \u00fcber den Orowyrm in derselben Duviri-Mission w\u00e4hrend der Angst--, Wut- oder Trauerspirale",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -712,49 +904,49 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingCommonItem",
             "name": "OROKIN ORIENTIERUNGS-MATRIX",
-            "description": "Eine r\u00e4umliche Orientierungsmatrix, die bei der F\u00fchrung, dem Gleichgewicht und der Bewegung eines Mechs hilft.\r\n\r\nFundort: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift auf Deimos und von feindlichen Necramechs, aus Stufe 1 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
+            "description": "Eine r\u00e4umliche Orientierungsmatrix, die bei der F\u00fchrung, dem Gleichgewicht und der Bewegung eines Mechs hilft.\r\n\r\nQuelle: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift auf Deimos und von feindlichen Necramechs, aus Stufe 1 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingRareItem",
             "name": "OROKIN ANIMUS-MATRIX",
-            "description": "Eine Kognitionsmatrix, die es Mechs erm\u00f6glicht, im Einsatzgebiet anpassungsf\u00e4hig und effizient zu sein.\r\n\r\nFundort: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift (Deimos) und von feindlichen Necramechs, aus Stufe 3 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
+            "description": "Eine Kognitionsmatrix, die es Mechs erm\u00f6glicht, im Einsatzgebiet anpassungsf\u00e4hig und effizient zu sein.\r\n\r\nQuelle: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift (Deimos) und von feindlichen Necramechs, aus Stufe 3 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingUncommonItem",
             "name": "OROKIN BALLISTIK-MATRIX",
-            "description": "Eine Mechmatrix, die die Waffengenauigkeit und -kontrolle der Maschine unterst\u00fctzt.\r\n\r\nFundort: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift (Deimos) und von feindlichen Necramechs, aus Stufe 2 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
+            "description": "Eine Mechmatrix, die die Waffengenauigkeit und -kontrolle der Maschine unterst\u00fctzt.\r\n\r\nQuelle: Belohnung aus Isolationsgew\u00f6lbe-Auftr\u00e4gen in der Cambion-Drift (Deimos) und von feindlichen Necramechs, aus Stufe 2 Isolationsgew\u00f6lbe-Auftr\u00e4gen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
             "name": "Scintillant",
-            "description": "Die seltenen, schwebenden Relikte der Orokin \u00c4ra \u00fcberwachen immer noch die Isolationsgew\u00f6lbe unter der Oberfl\u00e4che von Deimos.\r\n\r\nFundort: In der Cambion-Drift auf Deimos",
+            "description": "Die seltenen, schwebenden Relikte der Orokin \u00c4ra \u00fcberwachen immer noch die Isolationsgew\u00f6lbe unter der Oberfl\u00e4che von Deimos.\r\n\r\nQuelle: Cambion-Drift auf Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
             "name": "Pustulit",
-            "description": "Halbgeformte, unvollst\u00e4ndige Sporentr\u00e4ger - kaum mehr als zuckendes Fleisch, mit Krallen zum Festklammern.\r\n\r\nFundort: Cambion-Drift auf Deimos",
+            "description": "Halbgeformte, unvollst\u00e4ndige Sporentr\u00e4ger - kaum mehr als zuckendes Fleisch, mit Krallen zum Festklammern.\r\n\r\nQuelle: Cambion-Drift auf Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
             "name": "Ganglion",
-            "description": "Ein abgefallener Klumpen aus verwickelten Nervenfasern, \u00fcberfl\u00fcssigen Organen und d\u00fcnnen sensorischen Membranen.\r\n\r\nFundort: Cambion-Drift auf Deimos",
+            "description": "Ein abgefallener Klumpen aus verwickelten Nervenfasern, \u00fcberfl\u00fcssigen Organen und d\u00fcnnen sensorischen Membranen.\r\n\r\nQuelle: Cambion-Drift auf Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
             "name": "Gl\u00e4nzende Terokugel",
-            "description": "Diese Kugeln haben ihre urspr\u00fcngliche Funktion l\u00e4ngst erf\u00fcllt, enthalten jedoch immer noch ein wenig Energie.\r\n\r\nFundort: Cambion-Drift auf Deimos",
+            "description": "Diese Kugeln haben ihre urspr\u00fcngliche Funktion l\u00e4ngst erf\u00fcllt, enthalten jedoch immer noch ein wenig Energie.\r\n\r\nQuelle: Cambion-Drift auf Deimos",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -938,35 +1130,35 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
             "name": "Thermalschlamm",
-            "description": "Ein Nebenprodukt von den Terraforming-Prozessen der Weinenden T\u00fcrme.\r\n\r\nFundort: Aus dem Orbis-Tal auf der Venus.",
+            "description": "Ein Nebenprodukt von den Terraforming-Prozessen der Weinenden T\u00fcrme.\r\n\r\nQuelle: Aus dem Orbis-Tal auf der Venus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
             "name": "Gyromag-Systeme",
-            "description": "Eine modulare Komponente, die Einstellung und H\u00f6he in verschiedenen Corpus Systemen regelt.\r\n\r\nFundort: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
+            "description": "Eine modulare Komponente, die Einstellung und H\u00f6he in verschiedenen Corpus Systemen regelt.\r\n\r\nQuelle: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
             "name": "Atmo-Systeme",
-            "description": "Eine modulare Komponente, die f\u00fcr die Vielzahl der atmosph\u00e4rischen Bedingungen, die man im Ursprungssystem antrifft, kompensiert.\r\n\r\nFundort: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
+            "description": "Eine modulare Komponente, die f\u00fcr die Vielzahl der atmosph\u00e4rischen Bedingungen, die man im Ursprungssystem antrifft, kompensiert.\r\n\r\nQuelle: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
             "name": "Anti-Grav-Systeme",
-            "description": "Ein Anti-Schwerkraft-System, mit dem sich massive und schwere Objekte von einem einzelnen Nutzer manipulieren lassen.\r\n\r\nFundort: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
+            "description": "Ein Anti-Schwerkraft-System, mit dem sich massive und schwere Objekte von einem einzelnen Nutzer manipulieren lassen.\r\n\r\nQuelle: Erh\u00e4ltlich durch den Abschluss von Raubz\u00fcgen im Orbis-Tal (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
             "name": "Mytocardia-Sporen",
-            "description": "Ein Pilzgew\u00e4chs, welches f\u00fcr seine Vielseitigkeit gesch\u00e4tzt wird.\r\n\r\nFundort: Aus dem Orbis-Tal auf der Venus.",
+            "description": "Ein Pilzgew\u00e4chs, welches f\u00fcr seine Vielseitigkeit gesch\u00e4tzt wird.\r\n\r\nQuelle: Aus dem Orbis-Tal auf der Venus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -980,7 +1172,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
             "name": "Gorgaricus-Sporen",
-            "description": "Die fruchtbaren Sporen der riesigen Tal-Pilze, werden f\u00fcr ihre komplexen, chemischen Verbindungen sehr gesch\u00e4tzt.\r\n\r\nFundort: Aus dem Orbis-Tal auf der Venus.",
+            "description": "Die fruchtbaren Sporen der riesigen Tal-Pilze, werden f\u00fcr ihre komplexen, chemischen Verbindungen sehr gesch\u00e4tzt.\r\n\r\nQuelle: Aus dem Orbis-Tal auf der Venus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -994,7 +1186,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
             "name": "Tepa-Knolle",
-            "description": "Die schillernden Knollen dieser Pflanzen leuchten in kalter Umgebung hell auf.\r\n\r\nFundort: Aus dem Orbis-Tal auf der Venus.",
+            "description": "Die schillernden Knollen dieser Pflanzen leuchten in kalter Umgebung hell auf.\r\n\r\nQuelle: Aus dem Orbis-Tal auf der Venus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1321,35 +1513,35 @@
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
             "name": "ANDENKEN: SOHN",
-            "description": "Ein Zeichen Respekts von Sohn f\u00fcr geleistete Dienste.\r\n\r\nFundort: Erhalten von Sohn im Necralisk auf Deimos.",
+            "description": "Ein Zeichen Respekts von Sohn f\u00fcr geleistete Dienste.\r\n\r\nQuelle: Erhalten von Sohn im Necralisk auf Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Deimos/EntratiFragmentBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonC",
             "name": "ANDENKEN: TOCHTER",
-            "description": "Ein Zeichen der Dankbarkeit von Tochter.\r\n\r\nFundort: Erhalten von der Tochter im Necralisk auf Deimos.",
+            "description": "Ein Zeichen der Dankbarkeit von Tochter.\r\n\r\nQuelle: Erhalten von Tochter im Necralisk auf Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Deimos/EntratiFragmentBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/EntratiFragmentRareA",
             "name": "ANDENKEN: GROSSMUTTER",
-            "description": "Ein seltenes Zeichen der Gunst von Gro\u00dfmutter.\r\n\r\nFundort: Erhalten von Gro\u00dfmutter im Necralisk auf Deimos.",
+            "description": "Ein seltenes Zeichen der Gunst von Gro\u00dfmutter.\r\n\r\nQuelle: Erhalten von Gro\u00dfmutter im Necralisk auf Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Deimos/EntratiFragmentBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
             "name": "ANDENKEN: VATER",
-            "description": "Ein Symbol f\u00fcr Vaters Vertrauen und Zuversicht.\r\n\r\nFundort: Erhalten von Vater im Necralisk auf Deimos.",
+            "description": "Ein Symbol f\u00fcr Vaters Vertrauen und Zuversicht.\r\n\r\nQuelle: Erhalten von Vater im Necralisk auf Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Deimos/EntratiFragmentBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
             "name": "ANDENKEN: MUTTER",
-            "description": "Ein Zeichen der Wertsch\u00e4tzung von Mutter.\r\n\r\nFundort: Erhalten durch das Abschlie\u00dfen von Auftr\u00e4gen in der Cambion-Drift auf Deimos. ",
+            "description": "Ein Zeichen der Wertsch\u00e4tzung von Mutter.\r\n\r\nQuelle: Erhalten durch das Abschlie\u00dfen von Auftr\u00e4gen in der Cambion-Drift auf Deimos. ",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Deimos/EntratiFragmentBase"
         },
@@ -1363,7 +1555,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Deimos/SeriglassShard",
             "name": "Buntglasscherbe",
-            "description": "Einst Teil eines komplizierten Entrati Apparats, doch nun zerbrochen und mit einer scharfen Kante.\r\n\r\nFundort: Gro\u00dfmutter im Necralisk auf Deimos",
+            "description": "Einst Teil eines komplizierten Entrati Apparats, doch nun zerbrochen und mit einer scharfen Kante.\r\n\r\nQuelle: Erhalten von Gro\u00dfmutter im Necralisk auf Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -1466,14 +1658,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/Eidolon/InfestedEventClanIngredient",
             "name": "Befallener Katalysator",
-            "description": "Dieser raffinierte Gift-Katalysator wurde entwickelt, um das Thrax-Toxin zu verst\u00e4rken und den Schaden an dem Befallenen Geschw\u00fcr in Plagenstern Auftr\u00e4gen zu maximieren.\r\n\r\nFundort: Biolabor im Clan-Dojo",
+            "description": "Dieser raffinierte Gift-Katalysator wurde entwickelt, um das Thrax-Toxin zu verst\u00e4rken und den Schaden an dem Befallenen Geschw\u00fcr in Plagenstern Auftr\u00e4gen zu maximieren.\r\n\r\nQuelle: Biolabor im Clan-Dojo",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Eidolon/InfestedEventIngredient",
             "name": "Eidolon Phylaxis",
-            "description": "Mit dieser raffinierten Phylaxis wird die Sentient Immunit\u00e4t gegen den Befall genutzt. Speziell zur Bek\u00e4mpfung Befallener Geschw\u00fcre in Plagenstern Auftr\u00e4gen entwickelt.\r\n\r\nFundort: Nakaks Operative Vorr\u00e4te in Cetus",
+            "description": "Mit dieser raffinierten Phylaxis wird die Sentient Immunit\u00e4t gegen den Befall genutzt. Speziell zur Bek\u00e4mpfung Befallener Geschw\u00fcre in Plagenstern Auftr\u00e4gen entwickelt.\r\n\r\nQuelle: Nakaks Operative Vorr\u00e4te in Cetus",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -1496,91 +1688,91 @@
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericInfestedFishPartItem",
             "name": "G\u00e4rblase",
-            "description": "Viele Fische auf Deimos scheiden Reagenzien in ein beutelartiges Organ aus, das fl\u00fcchtige Gase erzeugt und kurze Schwebe-Phasen erm\u00f6glicht.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nOSTIMYR\r\nAQUAPULMO\r\nVITREOSPINA\r\nCRYPTOSUCTUS\r\nBARBISTEO\r\nKYMAEROS\r\nAMNIOPHYSI\r\nGLUTINOX",
+            "description": "Viele Fische auf Deimos scheiden Reagenzien in ein beutelartiges Organ aus, das fl\u00fcchtige Gase erzeugt und kurze Schwebe-Phasen erm\u00f6glicht. \r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nOstimyr\r\nAquapulmo\r\nVitreospina\r\nCryptosuctus\r\nBarbisteo\r\nKymaeros\r\nAmniophysi\r\nGlutinox",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericOrokinFishPartItem",
             "name": "Knotiges Kiemen-System",
-            "description": "Anpassungsf\u00e4hige Membrane erm\u00f6glichen vielen Fischen auf Deimos sich frei zwischen fl\u00fcssigen und gasf\u00f6rmigen Umgebungen zu bewegen.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nOSTIMYR\r\nAQUAPULMO\r\nVITREOSPINA\r\nMYXOSTOMATA\r\nDUROID",
+            "description": "Anpassungsf\u00e4hige Membrane erm\u00f6glichen vielen Fischen auf Deimos sich frei zwischen fl\u00fcssigen und gasf\u00f6rmigen Umgebungen zu bewegen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nOstimyr\r\nAquapulmo\r\nVitreospina\r\nMyxostomata\r\nDuroid",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericSharedFishPartItem",
             "name": "Gutartiger Befallener Tumor",
-            "description": "Der Befall infiziert alle Fische auf Deimos, sogar solche, die keine \u00e4u\u00dferen Mutationen aufweisen.\r\n\r\nGarantierte Beute von allen Fischen auf Deimos.",
+            "description": "Der Befall infiziert alle Fische auf Deimos, sogar solche, die keine \u00e4u\u00dferen Mutationen aufweisen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus Fischen der Cambion-Drift entfernen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishAPartItem",
             "name": "Pustelartige Kognitive Knolle",
-            "description": "Der Befall verursacht den Wachstum mehrerer, scheinbar \u00fcberfl\u00fcssiger Hirn-artiger Massen, deren Funktion mit der Aktivit\u00e4t des Hive-Bewusstseins in Verbindung stehen k\u00f6nnte.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nAQUAPULMO\r\nCRYPTOSUCTUS",
+            "description": "Der Befall verursacht das Wachstum mehrerer, scheinbar \u00fcberfl\u00fcssiger hirn-artiger Massen, deren Funktion mit der Aktivit\u00e4t des Hive-Bewusstseins in Verbindung stehen k\u00f6nnte.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nAquapulmo (Kann w\u00e4hrend Vome in Hotspots auf der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nCryptosuctus (Kann w\u00e4hrend Fass in Hotspots auf der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nKann auch von Requiem Obelisken und Befallenen Rolizor Zysten in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishBPartItem",
             "name": "Dendrit-Geschw\u00fcr",
-            "description": "Spurenelemente anderer Lebensformen sind in K\u00f6rperteilen der Befallenen nachweisbar, wie dieser scheinbar parasit\u00e4re Klumpen von an Land lebendem Tiergewebe.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nVITREOSPINA\r\nBARBISTEO",
+            "description": "Spurenelemente anderer Lebensformen sind in K\u00f6rperteilen der Befallenen nachweisbar, wie dieser scheinbar parasit\u00e4re Klumpen von an Land lebendem Tiergewebe.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nVitreospina (Kann w\u00e4hrend Vome in Hotspots in H\u00f6hlen der Cambion-Drift gefangen werden.)\r\nBarbisteo (Kann w\u00e4hrend Fass in Hotspots in H\u00f6hlen der Cambion-Drift gefangen werden.)\r\nKann auch von Befallenen Spitia Zysten in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishCPartItem",
             "name": "Ges\u00e4ttigte Muskelmasse",
-            "description": "Umweltverseuchung ist mitverantwortlich f\u00fcr Mutationen, neben Zellver\u00e4nderungen der Befallenen.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nOSTIMYR\r\nKYMAEROS",
+            "description": "Umwelt-Verseuchung ist mitverantwortlich f\u00fcr Mutationen, neben Zellver\u00e4nderungen der Befallenen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nOstimyr (Kann w\u00e4hrend Vome in Hotspots an der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nKymaeros (Kann w\u00e4hrend Fass in Hotspots an der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nKann auch von Befallenen Zysten in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishDPartItem",
             "name": "W\u00e4chsernes Talg-Vorkommen",
-            "description": "Reste urspr\u00fcnglicher K\u00f6rperfl\u00fcssigkeiten der Kreaturen bleiben auch nach einem Befall bestehen und kristallisieren oder erstarren oft zu v\u00f6llig neuen Verbindungen.\r\n\r\nExemplare:\r\nAMNIOPHYSI",
+            "description": "Reste urspr\u00fcnglicher K\u00f6rperfl\u00fcssigkeiten der Kreaturen bleiben auch nach einem Befall bestehen und kristallisieren oder erstarren oft zu v\u00f6llig neuen Verbindungen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nAmniophysi (Kann w\u00e4hrend Vome und Fass in der Cambion-Drift gefangen werden.)",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishEPartItem",
             "name": "Sporen-Sack",
-            "description": "Diese unter Druck stehenden Beh\u00e4lter Befallener Sporen m\u00fcssen sehr vorsichtig entnommen werden oder sie k\u00f6nnten explodieren und es kann zu lokaler Verseuchung kommen.\r\n\r\nExemplare:\r\nGLUTINOX",
+            "description": "Diese unter Druck stehenden Beh\u00e4lter Befallener Sporen m\u00fcssen sehr vorsichtig entnommen werden, sonst k\u00f6nnten sie explodieren und eine lokale Verseuchung verursachen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nGlutinox (Kann w\u00e4hrend Vome auf der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nKann auch von Requiem Obelisken und Befallenen Zysten in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishFPartItem",
             "name": "Okulare Stammwurzel",
-            "description": "Die Organe, die vor dem Befall einst als Augen dienten, sind immer noch mit n\u00fctzlichen Komponenten durchsetzt.\r\n\r\nExemplare:\r\nFLAGELLOCANTH",
+            "description": "Die Organe, die vor dem Befall einst als Augen dienten, sind immer noch mit n\u00fctzlichen Komponenten durchsetzt.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nFlagellocanth (Kann w\u00e4hrend Vome und Vome in Hotspots auf der Oberfl\u00e4che der Cambion-Drift mit Verarbeiteten Fass \u00dcberresten als K\u00f6der gefangen werden.)\r\nKann auch \u00fcber Auftr\u00e4ge in Isolationsgew\u00f6lben in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishGPartItem",
             "name": "Parasit\u00e4rer Fangkiefer",
-            "description": "Wird verwendet, um sich zu Nahrungszwecken an andere Lebewesen zu heften und ihnen Antikoagulanzien und Sporeletts zu injizieren.\r\n\r\nExemplare:\r\nLOBOTRISCID",
+            "description": "Wird verwendet, um sich zu Nahrungszwecken an andere Lebewesen zu heften und ihnen Antikoagulantien und Sporeletts zu injizieren.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nLobotriscid (Kann w\u00e4hrend Vome auf der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nKann auch \u00fcber Auftr\u00e4ge in Isolationsgew\u00f6lben in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishAPartItem",
             "name": "Biotischer Filter",
-            "description": "Das Filtern des z\u00e4hfl\u00fcssigen Exocrine ist ein wichtiger Teil des \u00dcberlebensprozesses und eine Erinnerung an die urspr\u00fcngliche Funktion der Kreatur.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nAQUAPULMO\r\nDUROID",
+            "description": "Das Filtern des z\u00e4hfl\u00fcssigen Exocrine ist ein wichtiger Teil des \u00dcberlebensprozesses und eine Erinnerung an die urspr\u00fcngliche Funktion der Kreatur.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nAquapulmo (Kann w\u00e4hrend Vome in Hotspots auf der Oberfl\u00e4che der Cambion-Drift gefangen werden.)\r\nDuroid (Kann w\u00e4hrend Fass in Hotspots in H\u00f6hlen der Cambion-Drift gefangen werden.)\r\nKann auch von Requiem Obelisken und Auroron Entrati Urnen in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishBPartItem",
             "name": "Kernbereich der Wirbels\u00e4ule",
-            "description": "Viele empfindliche und komplexe Nervenfasern liegen in den Gelenkwirbeln, die zu den widerstandsf\u00e4higsten Teilen der Kreatur z\u00e4hlen. K\u00f6nnen in Vitreospina gefunden werden, die ihr Leben in H\u00f6hlensystemen erk\u00e4mpfen.\r\n\r\nGarantierte Beute von diesen Exemplaren:\r\nVITREOSPINA\r\nCHONDRICORD",
+            "description": "Viele empfindliche und komplexe Nervenfasern liegen in den Gelenkwirbeln, die zu den widerstandsf\u00e4higsten Teilen der Kreatur z\u00e4hlen. K\u00f6nnen in Vitreospina gefunden werden, die ihr Leben in H\u00f6hlensystemen erk\u00e4mpfen.\r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nVitreospina (Kann w\u00e4hrend Vome und Fass in H\u00f6hlen der Cambion-Drift gefangen werden.)\r\nChondricord (Kann w\u00e4hrend Fass und Vome in Hotspots in H\u00f6hlen der Cambion-Drift gefangen werden.)\r\nKann auch \u00fcber Auftr\u00e4ge in Isolationsgew\u00f6lben und Auroron Entrati Urnen in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishCPartItem",
             "name": "Kranialer Frontbereich",
-            "description": "Unter den membranartigen Eiwei\u00dfschichten befindet sich ein sekund\u00e4rer 'Sch\u00e4del' ... flexibel, z\u00e4h und \u00e4u\u00dferst leitf\u00e4hig.\r\n\r\nExemplare:\r\nMYXOSTOMATA",
+            "description": "Unter den membranartigen Eiwei\u00dfschichten befindet sich ein sekund\u00e4rer 'Sch\u00e4del' ... flexibel, z\u00e4h und \u00e4u\u00dferst leitf\u00e4hig. \r\n\r\nQuelle: Tochter im Necralisk (Deimos) kann es aus den folgenden Fischen der Cambion-Drift entfernen:\r\nMyxostomata (Kann w\u00e4hrend Vome und Vome in Hotspots in H\u00f6hlen der Cambion-Drift mit Verarbeiteten Vome \u00dcberresten als K\u00f6der gefangen werden.)\r\nKann auch von Requiem Obelisken in der Cambion-Drift erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
@@ -1908,112 +2100,112 @@
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishAPartItem",
             "name": "Charc: Elektroplax",
-            "description": "Von den Ostron geerntet und als Katalysator f\u00fcr synthetische Waren verwendet.\r\n\r\nFundort: Ebenen von Eidolon",
+            "description": "Von den Ostron als Katalysator f\u00fcr ihre synthetischen Produkte geerntet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Charc Aalen geschnitten. Charc Aale k\u00f6nnen zu jeder Tageszeit in den Seen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem",
             "name": "Goopolla: Milz",
-            "description": "Von den Ostron als Heilmittel gegen Vergiftungen verwendet.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Wird in Heilmitteln der Ostron zur Reinigung von Giftstoffen verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Goopollas geschnitten. Goopollas k\u00f6nnen zu jeder Tageszeit in den Ozeanen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothRareFishAPartItem",
             "name": "Murk Rochen: Leber",
-            "description": "Ein Bestandteil, der von den Ostron zum Kochen und f\u00fcr Medikamente verwendet wird.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Eine Zutat, die von den Ostron zum Kochen und als Medizin verwendet wird.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Murk Rochen geschnitten. Murk Rochen k\u00f6nnen zu jeder Tageszeit in Hotpsots der Ozeane der Ebenen von Eidolon mit dem K\u00f6der: Murk Rochen gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishAPartItem",
             "name": "Sharrac: Z\u00e4hne",
-            "description": "Diese zieren oft zeremonielle Gew\u00e4nder und werden auch als Bestandteil von synthetischen Waren verwendet.",
+            "description": "Diese werden oft als Dekoration f\u00fcr zeremonielle Gew\u00e4nder oder als Reagenz f\u00fcr synthetische Stoffe verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Sharracs geschnitten. Sharracs k\u00f6nnen zu jeder Tageszeit in den Ozeanen der Ebenen von Eidolon mit dem K\u00f6der: Zwielicht gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishBPartItem",
             "name": "Karkina: Antennen",
-            "description": "Zu einem Puder zermahlt, kann diese Substanz Feuer f\u00fcr einen kurzen Zeitraum hei\u00dfer brennen lassen.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Zu Pulver gemahlen, kann diese Substanz Feuer f\u00fcr kurze Zeit hei\u00dfer brennen lassen.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Karkinas geschnitten. Karkinas k\u00f6nnen zu jeder Tageszeit in den Ozeanen der Ebenen von Eidolon mit dem K\u00f6der: Zwielicht gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishAPartItem",
             "name": "Maulfisch: Knochen",
-            "description": "Die geschnitzten Knochen des Maulfisches werden von den Ostron zur Herstellung von Ornamenten und Werkzeugen genutzt.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Die Knochen des Maulfisches werden von den Ostron geschnitzt, um daraus Schmuck und Werkzeuge herzustellen.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Maulfischen geschnitten. Maulfische k\u00f6nnen tags\u00fcber in den Seen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishBPartItem",
             "name": "Khut-Khut: Giftbeutel",
-            "description": "Dieses Gift wird von den Ostron zur H\u00e4rtung von Leder und als Reagenz bei der Herstellung von Balsamierfl\u00fcssigkeiten genutzt.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Das Gift wird zum Trocknen von Leder und als Reagenz zur Herstellung einer Einbalsamierungsfl\u00fcssigkeit verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Khut-Khuts geschnitten. Khut-Khuts k\u00f6nnen tags\u00fcber in den Teichen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishCPartItem",
             "name": "Yogwun: Magen",
-            "description": "Gereinigt und gegerbt kann dieses Organ in ein strapazierf\u00e4higes Leder verwandelt werden.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Nach dem Reinigen und Gerben kann dieses Organ in haltbares Leder verwandelt werden.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Yogwuns geschnitten. Yogwuns k\u00f6nnen tags\u00fcber in den Teichen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayUncommonFishAPartItem",
             "name": "Tralok: Augen",
-            "description": "Die Ostron kochen daraus ein Gelee, aus dem nach dem Trocknen ein starker Kleber wird.\r\n\r\nFundort: Fischer Hai-Luk in Cetus",
+            "description": "Die Ostron kochen diese zu einem Gelee, das beim Trocknen einen starken Klebstoff bildet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Traloks geschnitten. Traloks k\u00f6nnen tags\u00fcber in den Ozeanen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayUncommonFishBPartItem",
             "name": "Mortus: Horn",
-            "description": "Das Horn des Mortus Lungenfisches kann zu einem Puder zerrieben werden und f\u00fcr pflanzliche Heilmittel der Ostron verwendet werden.",
+            "description": "Das Horn des Mortus Lungenfisches wird zu Pulver zermahlen und von den Ostron in Kr\u00e4uterheilmitteln verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Mortus Lungenfischen geschnitten. Mortus Lungenfische k\u00f6nnen zu jeder Tageszeit in den Teichen der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishMeatItem",
             "name": "Fischfleisch",
-            "description": "Als Nahrungsquelle und zur Erstellung von K\u00f6dern f\u00fcr Raubfische genutzt.",
+            "description": "Wird als Nahrungsquelle und zur Herstellung von K\u00f6der f\u00fcr Raubfische verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) geschnitten, aus allen Fischen der Ebenen von Eidolon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishOilItem",
             "name": "Fisch\u00f6l",
-            "description": "Dient der Herstellung von Trennmitteln zur Reinigung von Juwelen.",
+            "description": "Wird zum Herstellen von Absolventien zum Reinigen von Edelsteinen verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) geschnitten, aus allen Fischen der Ebenen von Eidolon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishScalesItem",
             "name": "Fischschuppen",
-            "description": "Ein Material, das zum Schneidern von Kleidern und Kultivierung von Kunstfasern genutzt wird.",
+            "description": "Ein Material, das zum Schneidern von Kleidung und zur Herstellung synthetischer Stoffe verwendet wird.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) geschnitten, aus allen Fischen der Ebenen von Eidolon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightLegendaryFishAPartItem",
             "name": "Seram: K\u00e4ferpanzer",
-            "description": "Dieser dicke Panzer wird von den Ostron zur Herstellung von Werkzeugen und Waffen genutzt.",
+            "description": "Diese dicke Schale wird von den Ostron zur Herstellung von Werkzeugen und Waffen verwendet.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Glappids geschnitten. Glappids k\u00f6nnen nachts in den Ozeanen der Ebenen von Eidolon mit dem K\u00f6der: Glappid gefangen werden. Kann auch von Klopfer Bulle in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightRareFishAPartItem",
             "name": "Norg: Gehirn",
-            "description": "Eine Ostron Delikatesse.",
+            "description": "Eine Delikatesse der Ostron.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Norgs geschnitten. Norgs k\u00f6nnen nachts in den Seen der Ebenen von Eidolon mit dem K\u00f6der: Norg gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightRareFishBPartItem",
             "name": "Cuthol: F\u00fchler",
-            "description": "Die Ostron entziehen das Gift und wenden es zur Tierjagd auf ihre Waffen an.",
+            "description": "Die Ostron extrahieren das Gift und tragen es bei der Jagd auf Tiere auf ihre Waffen auf.\r\n\r\nQuelle: Von Fischer Hai-Luk in Cetus (Erde) aus Cuthols geschnitten. Cuthols k\u00f6nnen nachts in Hotpsots der Teiche der Ebenen von Eidolon gefangen werden. Kann auch von Klopfern in den Ebenen von Eidolon fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
@@ -2308,98 +2500,98 @@
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishAnoscopicSensorItem",
             "name": "Echowickler: Anoskopischer Sensor",
-            "description": "Eine kleine Kamera, die visuelle Daten mit extrem hoher Aufl\u00f6sung aufzeichnet.\r\n\r\nErworben durch Zerlegen von Echowickler Servofischen.",
+            "description": "Eine kleine Kamera, die visuelle Daten mit extrem hoher Aufl\u00f6sung aufzeichnet.\r\n\r\nQuelle: Durch das Zerlegen von Echowicklern von The Business in Fortuna (Venus). Fange Echowickler bei warmem Wetter in den Seen des Orbis-Tals.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishExaBrainItem",
             "name": "Schrubber: Exa Gehirn",
-            "description": "Ein kleines, elektronisches Gehirn, das eine Milliarde Giga-Threads pro Sekunde bearbeiten kann.\r\n\r\nErworben durch Zerlegen von Schrubber Servofischen.",
+            "description": "Ein kleines elektronisches Gehirn, das eine Milliarde Giga-Threads pro Sekunde verarbeiten kann.\r\n\r\nQuelle: Durch das Zerlegen von Schrubbern von The Business in Fortuna (Venus). Fange Schrubber bei jedem Wetter in den H\u00f6hlen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishMuonBatteryItem",
             "name": "Baubarsch: Muon Batterie",
-            "description": "Eine kleine, atomare Energiequelle.\r\n\r\nErworben durch Zerlegen von Baubarsch Servofischen.",
+            "description": "Eine kleine, atomare Energiequelle.\r\n\r\nQuelle: Durch das Zerlegen von Baubarschen von The Business in Fortuna (Venus). Fange Baubarsche bei warmem Wetter in den Teichen und Fl\u00fcssen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishParralelBiodeItem",
             "name": "Suhlwickler: Parallel-Biode",
-            "description": "Kontrolliert den elektrischen Stromfluss des gesamten Schaltkreises eines robotischen Organismus.\r\n\r\nErworben durch Zerlegen von Suhlwickler Servofischen.",
+            "description": "Steuert den Stromfluss durch die Schaltkreise in Roboterorganismen.\r\n\r\nQuelle: Durch das Zerlegen von Suhlwicklern von The Business in Fortuna (Venus). Fange Suhlwickler bei jedem Wetter in den H\u00f6hlen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishRotobladeItem",
             "name": "Aug-Aug: Rotopropeller",
-            "description": "Ein Maschinenelement, das dazu genutzt wird, robotische Organismen in K\u00fchlmittel anzutreiben.\r\n\r\nErworben durch Zerlegen von Aug-Aug Servofischen.",
+            "description": "Ein Maschinenelement, das verwendet wird, um Roboterorganismen durch K\u00fchlmittel anzutreiben.\r\n\r\nQuelle: Durch das Zerlegen von Aug-Augs von The Business in Fortuna (Venus). Fange Aug-Augs bei warmem Wetter in den Teichen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishThermalLaserItem",
             "name": "Kriller: Thermallaser",
-            "description": "Eine Waffe, die Laser \u00fcber kurze Distanzen entl\u00e4dt.\r\n\r\nErworben durch Zerlegen von Kriller Servofischen.",
+            "description": "Eine Waffe, die Laser \u00fcber kurze Distanzen abfeuert.\r\n\r\nQuelle: Durch das Zerlegen von Krillern von The Business in Fortuna (Venus). Fange Kriller bei warmem Wetter in den Seen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishVenedoCaseItem",
             "name": "Sapcaddy: Venedo Geh\u00e4use",
-            "description": "Ein stabiles, metallisches Geh\u00e4use, das gegen\u00fcber Temperaturschwankungen in der Umwelt unempfindlich ist.\r\n\r\nErworben durch Zerlegen von Sapcaddy Servofischen.",
+            "description": "Ein robustes Metallgeh\u00e4use, das Schwankungen der Umgebungstemperatur widersteht.\r\n\r\nQuelle: Durch das Zerlegen von Sapcaddys von The Business in Fortuna (Venus). Fange Sapcaddys bei kaltem Wetter in den Seen des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/GenericFishScrapItem",
             "name": "Schrott",
-            "description": "Eine Auswahl von Zahnr\u00e4dern, Gyroskopen und Dr\u00e4hten.\r\n\r\nErworben durch Zerlegen eines Servofisches.",
+            "description": "Eine Auswahl an Kettenr\u00e4dern, Gyros und Dr\u00e4hten.\r\n\r\nQuelle: Durch das Zerlegen von Servofischen aus dem Orbis-Tal von The Business in Fortuna (Venus).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEcosynthAnalyzerItem",
             "name": "Synathid: \u00d6kosynth-Analysator",
-            "description": "Eine Verarbeitungseinheit, die Umgebungsdaten effizient \u00fcberwacht.\r\n\r\nErworben durch Zerlegen von Synathid Servofischen.",
+            "description": "Eine Verarbeitungseinheit, die Umweltdaten effizient \u00fcberwacht.\r\n\r\nQuelle: Durch das Zerlegen von Synathiden von The Business in Fortuna (Venus). Fange Synathide bei jedem Wetter in Hotspots der H\u00f6hlen des Orbis-Tals. Kann auch vom Ausbeuter im Orbis-Tal fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEntroplasmaItem",
             "name": "Tromyzon: Entroplasma",
-            "description": "Ein L\u00f6sungsmittel, das Abfallprodukte aus den Weinenden T\u00fcrmen in degenerierte Materie umwandelt.\r\n\r\nErworben durch Zerlegen von Tromyzon Servofischen.",
+            "description": "Ein L\u00f6sungsmittel, das Abfallprodukte der Weinenden T\u00fcrme in degenerierte Materie umwandelt.\r\n\r\nQuelle: Durch das Zerlegen von Tromyzonen von The Business in Fortuna (Venus). Fange Tromyzone bei kaltem Wetter in den H\u00f6hlen des Orbis-Tals. Kann auch vom Ausbeuter im Orbis-Tal fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishSaganModuleItem",
             "name": "Charamote: Sagan Modul",
-            "description": "Eine Ger\u00e4t, das dazu benutzt wird, degenerierte Materie in Orokin Bio-Material umzuwandeln.\r\n\r\nErworben durch Zerlegen von Charamote Servofischen.",
+            "description": "Ein Ger\u00e4t, mit dem degenerierte Materie in Orokin-Biomaterial umgewandelt wird.\r\n\r\nQuelle: Durch das Zerlegen von Charamoten von The Business in Fortuna (Venus). Fange Charamoten bei jedem Wetter in Hotspots der H\u00f6hlen des Orbis-Tals. Kann auch vom Ausbeuter im Orbis-Tal fallen gelassen werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishDissipatorCoilItem",
             "name": "Tink: K\u00fchlk\u00f6rperspule",
-            "description": "Entl\u00e4dt \u00fcbersch\u00fcssige Hitze und Energie durch das Geh\u00e4use.\r\n\r\nErworben durch Zerlegen von Tink Servofischen.",
+            "description": "Leitet \u00fcbersch\u00fcssige W\u00e4rme und Energie durch das Geh\u00e4use ab.\r\n\r\nQuelle: Durch das Zerlegen von Tinkern von The Business in Fortuna (Venus). Fange Tinker bei kaltem Wetter in den Teichen des Orbis-Tals.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
             "name": "Langwickler: Drehbank-K\u00fchlmittel",
-            "description": "Eine Fl\u00fcssigkeit, die man mit einem K\u00fchlmittel vermischt, um ein spannkr\u00e4ftiges Gel zu erhalten, das undichte Stellen reparieren kann.\r\n\r\nErworben durch Zerlegen von Langwickler Servofischen.",
+            "description": "Eine Fl\u00fcssigkeit, die sich mit K\u00fchlmittel vermischt und ein widerstandsf\u00e4higes Gel bildet, das Lecks repariert.\r\n\r\nQuelle: Durch das Zerlegen von Langwicklern von The Business in Fortuna (Venus). Fange Langwickler bei warmem Wetter in Hotspots der Seen des Orbis-Tals.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishNeuralRelayItem",
             "name": "Weitwerfer: Neurale Verst\u00e4rker",
-            "description": "Interpretiert Signale von anderen mechanischen Organismen.\r\n\r\nErworben durch Zerlegen von Weiterfer Servofischen.",
+            "description": "Interpretiert Signale von anderen mechanischen Organismen.\r\n\r\nQuelle: Durch das Zerlegen von Weitwerfern von The Business in Fortuna (Venus). Fange Weitwerfer bei kaltem Wetter in Hotspots der Teiche des Orbis-Tals. Kann auch in Ressourcen-Containern im gesamten Orbis-Tal gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Fish/FishPartItem"
         },
@@ -3255,7 +3447,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AnkuIncarnonUnlocker",
             "name": "Incarnon-Genesis: Anku",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem erfolgreichen Rutschangriff zeitweise die Reichweite zu erh\u00f6hen und <DT_SLASH>Schnittstatus zu garantieren.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem erfolgreichen Rutschangriff zeitweise die Reichweite zu erh\u00f6hen und <DT_SLASH_COLOR>Schnittstatus zu garantieren.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3279,7 +3471,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
             "name": "Incarnon-Genesis: Dual-Ichor",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form nach einem Kill ein Feld mit <DT_POISON>Giftschaden zu erzeugen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form nach einem Kill ein Feld mit <DT_POISON_COLOR>Giftschaden zu erzeugen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3287,7 +3479,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/FuraxIncarnonUnlocker",
             "name": "Incarnon-Genesis: Furax",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form nach Schweren Schmetterangriffen die Effizienz Schwerer Angriffe zu erhalten und Felder aus <DT_FIRE>Hitzeschaden zu hinterlassen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form nach Schweren Schmetterangriffen die Effizienz Schwerer Angriffe zu erhalten und Felder aus <DT_FIRE_COLOR>Hitzeschaden zu hinterlassen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3295,7 +3487,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
             "name": "Incarnon-Genesis: Hate",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form bei Vorw\u00e4rts- und Neutralen-Kombos explosive Klingen mit <DT_FIRE>Hitzeschaden einzubetten.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form bei Vorw\u00e4rts- und Neutralen-Kombos explosive Klingen mit <DT_FIRE_COLOR>Hitzeschaden einzubetten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3317,9 +3509,17 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/OkinaIncarnonUnlocker",
+            "name": "Incarnon-Genesis: Okina",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe geisterhafte Dolche zu erzeugen bei Kills. Dolche suchen nach Feinden und wenden maximal <DT_FREEZE_COLOR>K\u00e4ltestatus-Stapel an.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/SibearIncarnonUnlocker",
             "name": "Incarnon-Genesis: Sibear",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit schweren Schmetterangriffen einen <DT_FREEZE>K\u00e4lte-Explosionsradius zu erzeugen, der Gegner verlangsamt und Krit. Schaden erh\u00f6ht.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit schweren Schmetterangriffen einen <DT_FREEZE_COLOR>K\u00e4lte-Explosionsradius zu erzeugen, der Gegner verlangsamt und Krit. Schaden erh\u00f6ht.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3343,7 +3543,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
             "name": "Incarnon-Genesis: Boltor",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form <DT_SLASH>Schnittschaden zu bevorzugen und Mehrfachschuss zu erhalten.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form <DT_SLASH_COLOR>Schnittschaden zu bevorzugen und Mehrfachschuss zu erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3351,7 +3551,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
             "name": "Incarnon-Genesis: Braton",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem Schuss Radialen <DT_FIRE>Hitzeschaden zu erhalten.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem Schuss Radialen <DT_FIRE_COLOR>Hitzeschaden zu erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3359,7 +3559,15 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
             "name": "Incarnon-Genesis: Burston",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem Schuss radialen <DT_FIRE>Hitzeschaden als automatisches Feuer abzufeuern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form mit jedem Schuss radialen <DT_FIRE_COLOR>Hitzeschaden als automatisches Feuer abzufeuern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DeraIncarnonUnlocker",
+            "name": "Incarnon-Genesis: Dera",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe Hochleistungsstrahlen abzufeuern und <DT_MAGNETIC_COLOR>Magnetismusschaden zu verursachen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3367,7 +3575,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
             "name": "Incarnon-Genesis: Dread",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form 'Stille' f\u00fcr erh\u00f6hte Projektilgr\u00f6\u00dfe und <DT_FIRE>Hitzeschaden zu opfern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form 'Stille' f\u00fcr erh\u00f6hte Projektilgr\u00f6\u00dfe und <DT_FIRE_COLOR>Hitzeschaden zu opfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3375,7 +3583,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/GorgonIncarnonUnlocker",
             "name": "Incarnon-Genesis: Gorgon",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einbettende Projektile abzufeuern, die mit <DT_FIRE>Hitzeschaden explodieren.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einbettende Projektile abzufeuern, die mit <DT_FIRE_COLOR>Hitzeschaden explodieren.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3383,7 +3591,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
             "name": "Incarnon-Genesis: Latron",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Energiewellen aus <DT_FIRE>Hitzeschaden zu erzeugen, die von Gegnern und Terrain abprallen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Energiewellen aus <DT_FIRE_COLOR>Hitzeschaden zu erzeugen, die von Gegnern und Terrain abprallen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3391,7 +3599,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/MiterIncarnonUnlocker",
             "name": "Incarnon-Genesis: Miter",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form zielsuchenden, abprallenden und explodierenden <DT_FIRE>Hitzeschaden abzufeuern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form zielsuchenden, abprallenden und explodierenden <DT_FIRE_COLOR>Hitzeschaden abzufeuern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3399,7 +3607,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
             "name": "Incarnon-Genesis: Paris",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form 'Stille' f\u00fcr erh\u00f6hte Projektilgr\u00f6\u00dfe und <DT_FIRE>Hitzeschaden zu opfern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form 'Stille' f\u00fcr erh\u00f6hte Projektilgr\u00f6\u00dfe und <DT_FIRE_COLOR>Hitzeschaden zu opfern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3421,9 +3629,17 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SybarisIncarnonUnlocker",
+            "name": "Incarnon-Genesis: Sybaris",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe 4-Schuss-Salven abzufeuern und <DT_EXPLOSION_COLOR>Explosionsstatus zu verursachen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
             "name": "Incarnon-Genesis: Torid",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form <DT_POISON>Giftstrahlen mit gro\u00dfer Reichweite abzufeuern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form <DT_POISON_COLOR>Giftstrahlen mit gro\u00dfer Reichweite abzufeuern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3453,9 +3669,17 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/CestraIncarnonUnlocker",
+            "name": "Incarnon-Genesis: Cestra",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe die Krit. Chance zu erh\u00f6hen, je l\u00e4nger sie ohne Unterbrechung abgefeuert wird.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
             "name": "Incarnon-Genesis: Despair",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe in Incarnon-Form, einbettende Projektile zu erhalten, die mit <DT_FIRE>Hitzeschaden explodieren.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe in Incarnon-Form, einbettende Projektile zu erhalten, die mit <DT_FIRE_COLOR>Hitzeschaden explodieren.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3471,7 +3695,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
             "name": "Incarnon-Genesis: Furis",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einen breiten <DT_FIRE>Hitzeschaden-Strahl zu erzeugen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einen breiten <DT_FIRE_COLOR>Hitzeschaden-Strahl zu erzeugen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3479,7 +3703,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/GammacorIncarnonUnlocker",
             "name": "Incarnon-Genesis: Gammacor",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Projektile abzufeuern, die Feinde in eine <DT_FREEZE>K\u00e4ltschaden-Explosion ziehen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Projektile abzufeuern, die Feinde in eine <DT_FREEZE_COLOR>K\u00e4ltschaden-Explosion ziehen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3503,7 +3727,15 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/LexIncarnonUnlocker",
             "name": "Incarnon-Genesis: Lex",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Energiewellen abzufeuern, die <DT_RADIATION>Strahlungs- und Durchschlagschaden verursachen.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form Energiewellen abzufeuern, die <DT_RADIATION_COLOR>Strahlungs- und Durchschlagschaden verursachen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/SicarusIncarnonUnlocker",
+            "name": "Incarnon-Genesis: Sicarus",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe ihre Kugeln abprallen zu lassen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3519,7 +3751,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
             "name": "Incarnon-Genesis: Zylok",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einen starken Einzelschuss aufzuladen, der Radialen <DT_FIRE>Hitzeschaden verursacht.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe, in Incarnon-Form einen starken Einzelschuss aufzuladen, der Radialen <DT_FIRE_COLOR>Hitzeschaden verursacht.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -3541,14 +3773,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Alertium",
             "name": "Nitain-Extrakt",
-            "description": "Jedes Fl\u00e4schchen wird durch das akribische Ausdr\u00fccken von Milliarden seltener, in Ozeanschloten lebender Mikroorganismen gewonnen.\r\n\r\nFundort: Diese Ressource kann aus den Nightwave-Angeboten erhalten werden.",
+            "description": "Jedes Fl\u00e4schchen wird durch das akribische Ausdr\u00fccken von Milliarden seltener, in Ozeanschloten lebender Mikroorganismen gewonnen.\r\n\r\nQuelle: Diese Ressource kann aus den Nightwave-Angeboten erhalten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
             "name": "Legierungsplatte",
-            "description": "Carbon-Stahlplatten werden f\u00fcr die Verst\u00e4rkung der Grineer R\u00fcstungen verwendet.\r\n\r\nFundort: Venus, Phobos, Ceres, Jupiter, Pluto und Sedna.",
+            "description": "Carbon-Stahlplatten werden f\u00fcr die Verst\u00e4rkung der Grineer R\u00fcstungen verwendet.\r\n\r\nQuelle: Venus, Phobos, Ceres, Jupiter, Pluto und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3584,7 +3816,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
             "name": "Argon-Kristall",
-            "description": "Radioaktive Ressource aus dem Void, die mit jedem Tag au\u00dferhalb des Void weiter zerf\u00e4llt.\r\n\r\nFundort: Diese Ressource kann im Void gefunden werden.",
+            "description": "Radioaktive Ressource aus dem Void, die mit jedem Tag au\u00dferhalb des Void weiter zerf\u00e4llt.\r\n\r\nQuelle: Diese Ressource kann im Void gefunden werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3605,7 +3837,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Circuits",
             "name": "Schaltkreise",
-            "description": "Verschiedene elektronische Komponenten.\r\n\r\nFundort: Venus, Ceres und die Kuva Festung.",
+            "description": "Verschiedene elektronische Komponenten.\r\n\r\nQuelle: Venus, Ceres und die Kuva Festung.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3619,14 +3851,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/ControlModule",
             "name": "Steuermodul",
-            "description": "Autonomie-Prozessor f\u00fcr Robotik. Ein Corpus Produkt.\r\n\r\nFundort: Europa, Neptun und im Void.",
+            "description": "Autonomie-Prozessor f\u00fcr Robotik. Ein Corpus Produkt.\r\n\r\nQuelle: Europa, Neptun und im Void.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Cryotic",
             "name": "Kryotik",
-            "description": "Gew\u00f6hnlich in Gebieten mit extremen Minusgraden gefunden, gefriert Kryotik alles, was mit ihm in Ber\u00fchrung kommt.\r\n\r\nFundort: Ausgrabung-Missionen auf Venus, Erde, Phobos, Europa und Neptun.",
+            "description": "Gew\u00f6hnlich in Gebieten mit extremen Minusgraden gefunden, gefriert Kryotik alles, was mit ihm in Ber\u00fchrung kommt.\r\n\r\nQuelle: Ausgrabung-Missionen auf Venus, Erde, Phobos, Europa und Neptun.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3676,7 +3908,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Elitium",
             "name": "Vitus-Essenz",
-            "description": "Von den Arbiters of Hexis an wenige Tenno zuerkannt, die f\u00e4hig genug sind, das Schiedsgericht zu \u00fcberleben.\r\n\r\nFundort: Schiedsgericht-Missionen",
+            "description": "Von den Arbiters of Hexis an wenige Tenno zuerkannt, die f\u00e4hig genug sind, das Schiedsgericht zu \u00fcberleben.\r\n\r\nQuelle: Schiedsgericht-Missionen",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3690,14 +3922,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Ferrite",
             "name": "Ferrit",
-            "description": "Legierungsgranulat, das in Herstellungsprozessen der Grineer verwendet wird.\r\n\r\nFundort: Merkur, Erde, Lua, Neptun und im Void.",
+            "description": "Legierungsgranulat, das in Herstellungsprozessen der Grineer verwendet wird.\r\n\r\nQuelle: Merkur, Erde, Lua, Neptun und im Void.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Fissureum",
             "name": "Verd\u00fcnntes Thermia",
-            "description": "Eine magmaartige Fl\u00fcssigkeit, die mit Einsatz von K\u00fchlmitteln bei der Extraktion verd\u00fcnnt wird. Thermia tritt w\u00e4hrend thermischer Ausbr\u00fcche im Orbis-Tal auf, wenn sie den Boden durchbricht. K\u00f6nnte dies der Schl\u00fcssel dazu sein, Ausbeuters Verteidigung zu schw\u00e4chen?\r\n\r\nFundort: Aus dem Thermische Risse Event im Orbis-Tal auf der Venus.",
+            "description": "Eine magmaartige Fl\u00fcssigkeit, die mit Einsatz von K\u00fchlmitteln bei der Extraktion verd\u00fcnnt wird. Thermia tritt w\u00e4hrend thermischer Ausbr\u00fcche im Orbis-Tal auf, wenn sie den Boden durchbricht. K\u00f6nnte dies der Schl\u00fcssel dazu sein, Ausbeuters Verteidigung zu schw\u00e4chen?\r\n\r\nQuelle: Aus dem Thermische Risse Event im Orbis-Tal auf der Venus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3761,7 +3993,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Gallium",
             "name": "Gallium",
-            "description": "Weiches Metall, das in der Mikroelektronik und in Energiewaffen verwendet wird.\r\n\r\nFundort: Mars und Uranus.",
+            "description": "Weiches Metall, das in der Mikroelektronik und in Energiewaffen verwendet wird.\r\n\r\nQuelle: Mars und Uranus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3796,7 +4028,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/InfestedAladCoordinate",
             "name": "Mutalist Nav-Koordinaten",
-            "description": "Diese Koordinaten k\u00f6nnen dazu genutzt werden, Mutalist Alad V ausfindig zu machen.\r\n\r\nFundort: Belohnung von Befallsausbruch Invasionen auf Hyf und Terrorem auf Deimos und aus Ressourcenlagern auf Fomido auf Deimos und Naegler auf Eris.",
+            "description": "Diese Koordinaten k\u00f6nnen dazu genutzt werden, Mutalist Alad V ausfindig zu machen.\r\n\r\nQuelle: Belohnung von Befallsausbruch Invasionen auf Hyf und Terrorem auf Deimos und aus Ressourcenlagern auf Fomido auf Deimos und Naegler auf Eris.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3811,28 +4043,28 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartA",
             "name": "Pulsierende Knoten",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nFundort: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartB",
             "name": "Infizierter F\u00fchler",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nFundort: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartC",
             "name": "Chitin-H\u00fclle",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nFundort: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartD",
             "name": "Abgetrennte Gallenblase",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nFundort: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -3847,7 +4079,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "name": "Tribunal-Punkte",
-            "description": "Punkte, die durch Siege im Rathuum erhalten werden.\r\n\r\nFundort: Durch Rathuum Arena-Missionen auf Nakki, Yam und Vodyanoid auf Sedna erh\u00e4ltlich.",
+            "description": "Punkte, die durch Siege im Rathuum erhalten werden.\r\n\r\nQuelle: Durch Rathuum Arena-Missionen auf Nakki, Yam und Vodyanoid auf Sedna erh\u00e4ltlich.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -3855,7 +4087,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Kuva",
             "name": "Kuva",
-            "description": "Kuva ist eine \u00fcberaus seltene, rote Fl\u00fcssigkeit, die von den Grineer K\u00f6niginnen begehrt wird. Sie kann in Kuva-Missionen erhalten werden und wird dazu benutzt, Riven umzuformen oder seltene Blaupausen herzustellen.\r\n\r\nFundort: Kuva Siphon-Missionen und auf Taveuni aus der Kuva Festung.",
+            "description": "Kuva ist eine \u00fcberaus seltene, rote Fl\u00fcssigkeit, die von den Grineer K\u00f6niginnen begehrt wird. Sie kann in Kuva-Missionen erhalten werden und wird dazu benutzt, Riven umzuformen oder seltene Blaupausen herzustellen.\r\n\r\nQuelle: Kuva Siphon-Missionen und auf Taveuni aus der Kuva Festung.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3911,7 +4143,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/MirageCode",
             "name": "Orokin Dechiffrierer",
-            "description": "Ein Ger\u00e4t, um Orokin Verschl\u00fcsselungen zu umgehen.\r\n\r\nFundort: Orokin Vaults auf Deimos, nachdem diese mit einem Drachenschl\u00fcssel ge\u00f6ffnet wurden.",
+            "description": "Ein Ger\u00e4t, um Orokin Verschl\u00fcsselungen zu umgehen.\r\n\r\nQuelle: Orokin Vaults auf Deimos, nachdem diese mit einem Drachenschl\u00fcssel ge\u00f6ffnet wurden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3926,14 +4158,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Morphic",
             "name": "Morphide",
-            "description": "Ein amorpher Feststoff. M\u00f6glicherweise Orokin Technologie.\r\n\r\nFundort: Merkur, Mars, Phobos, Europa und Pluto.",
+            "description": "Ein amorpher Feststoff. M\u00f6glicherweise Orokin Technologie.\r\n\r\nQuelle: Merkur, Mars, Phobos, Europa und Pluto.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Nanospores",
             "name": "Nanosporen",
-            "description": "Faseriger Technocyte-Tumor. Befallenes Gewebe ist mit Vorsicht zu behandeln.\r\n\r\nFundort: Saturn, Neptun, Eris und Deimos.",
+            "description": "Faseriger Technocyte-Tumor. Befallenes Gewebe ist mit Vorsicht zu behandeln.\r\n\r\nQuelle: Saturn, Neptun, Eris und Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -3947,21 +4179,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NavCode",
             "name": "Nav-Koordinaten",
-            "description": "Koordinaten, die zum Lokalisieren verlorener Schiffe genutzt werden.\r\n\r\nFundort: Kann von Lagercontainern erlangt werden.",
+            "description": "Koordinaten, die zum Lokalisieren verlorener Schiffe genutzt werden.\r\n\r\nQuelle: Kann von Lagercontainern erlangt werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NeuralSensor",
             "name": "Neurale Sensoren",
-            "description": "Implantierte Nervenverkn\u00fcpfungen zur Kontrolle von Verbesserungen. Grineer Design.\r\n\r\nFundort: Jupiter",
+            "description": "Implantierte Nervenverkn\u00fcpfungen zur Kontrolle von Verbesserungen. Grineer Design.\r\n\r\nQuelle: Jupiter",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Neurode",
             "name": "Neurode",
-            "description": "Biotechnologisches Sensor-Organ, geerntet von befallenen Einheiten.\r\n\r\nFundort: Erde, Lua, Eris und Deimos.",
+            "description": "Biotechnologisches Sensor-Organ, geerntet von befallenen Einheiten.\r\n\r\nQuelle: Erde, Lua, Eris und Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4078,7 +4310,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/OmegaIsotope",
             "name": "Omega-Isotop",
-            "description": "Diese Partikel werden von den Energiekernen der Fomorianer erzeugt und tauchen nur bei Planeten auf, bei denen sich ein Fomorianer aufh\u00e4lt.\r\n\r\nFundort: Wenn ein Balor Fomorianer das Relais eines Planeten bedroht, lassen Gegner auf dem Planeten diese Ressource fallen lassen.",
+            "description": "Diese Partikel werden von den Energiekernen der Fomorianer erzeugt und tauchen nur bei Planeten auf, bei denen sich ein Fomorianer aufh\u00e4lt.\r\n\r\nQuelle: Wenn ein Balor Fomorianer das Relais eines Planeten bedroht, lassen Gegner auf dem Planeten diese Ressource fallen lassen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4092,7 +4324,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/OrokinCell",
             "name": "Orokin Zelle",
-            "description": "Uralte Energiezelle aus der Orokin \u00c4ra.\r\n\r\nFundort: Ceres, Saturn und Deimos.",
+            "description": "Uralte Energiezelle aus der Orokin \u00c4ra.\r\n\r\nQuelle: Ceres, Saturn und Deimos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4106,7 +4338,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
             "name": "Oxium",
-            "description": "Oxium ist eine seltene Legierung, leichter als Luft, mit Orokin Ursprung und in bestimmter Corpus Robotik genutzt. \r\n\r\nFundort: Venus, Jupiter, Mars, Neptun, Pluto, Eris, Europa und Lua.",
+            "description": "Oxium ist eine seltene Legierung, leichter als Luft, mit Orokin Ursprung und in bestimmter Corpus Robotik genutzt. \r\n\r\nQuelle: Venus, Jupiter, Mars, Neptun, Pluto, Eris, Europa und Lua.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4891,21 +5123,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
             "name": "Plastide",
-            "description": "Eine ekelhafte, von Naniten befallene Gewebemasse.\r\n\r\nFundort: Phobos, Saturn, Uranus, Pluto und Eris.",
+            "description": "Eine ekelhafte, von Naniten befallene Gewebemasse.\r\n\r\nQuelle: Phobos, Saturn, Uranus, Pluto und Eris.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
             "name": "Polymerb\u00fcndel",
-            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nFundort: Merkur, Venus und Uranus.",
+            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nQuelle: Merkur, Venus und Uranus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PolymerBundle240TutorialQuest",
             "name": "Polymerb\u00fcndel",
-            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nFundort: Merkur, Venus und Uranus.",
+            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nQuelle: Merkur, Venus und Uranus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -4913,7 +5145,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PolymerBundleRaidTutorial",
             "name": "Polymerb\u00fcndel",
-            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nFundort: Merkur, Venus und Uranus.",
+            "description": "Ein hartes, thermoplastisches Geh\u00e4use. Hergestellt von den Corpus.\r\n\r\nQuelle: Merkur, Venus und Uranus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -4928,7 +5160,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/RazorbackCipherPart",
             "name": "Kryptographisches Alu",
-            "description": "\u00dcbersch\u00fcssige Schaltkreise, die w\u00e4hrend des Razorback Herstellungsprozesses entsorgt werden. Diese Komponenten tauchen nur in der Umgebung von hochrangigen, au\u00dferorbitalen Corpus Einrichtungen auf, nachdem eine Razorback Armada gestartet wurde.\r\n \r\nFundort: Diese Ressource kann von Corpus Archwing Einheiten auf Jupiter und Neptun hinterlassen werden, wenn die Razorback Armada aktiv ist.",
+            "description": "\u00dcbersch\u00fcssige Schaltkreise, die w\u00e4hrend des Razorback Herstellungsprozesses entsorgt werden. Diese Komponenten tauchen nur in der Umgebung von hochrangigen, au\u00dferorbitalen Corpus Einrichtungen auf, nachdem eine Razorback Armada gestartet wurde.\r\n \r\nQuelle: Diese Ressource kann von Corpus Archwing Einheiten auf Jupiter und Neptun hinterlassen werden, wenn die Razorback Armada aktiv ist.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -4950,21 +5182,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Rubedo",
             "name": "Rubedo",
-            "description": "Ein raues, kristallines Erz, das Strahlungsenergie abgibt.\r\n\r\nFundort: Erde, Lua, Phobos, Europa, Pluto, Sedna und der Void.",
+            "description": "Ein raues, kristallines Erz, das Strahlungsenergie abgibt.\r\n\r\nQuelle: Erde, Lua, Phobos, Europa, Pluto, Sedna und der Void.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Salvage",
             "name": "Bergungsgut",
-            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nFundort: Mars, Jupiter und Sedna.",
+            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nQuelle: Mars, Jupiter und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Salvage1000JunctionReward",
             "name": "Bergungsgut",
-            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nFundort: Mars, Jupiter und Sedna.",
+            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nQuelle: Mars, Jupiter und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -4972,7 +5204,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Salvage450TutorialQuest",
             "name": "Bergungsgut",
-            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nFundort: Mars, Jupiter und Sedna.",
+            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nQuelle: Mars, Jupiter und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -4980,7 +5212,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Salvage500JunctionReward",
             "name": "Bergungsgut",
-            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nFundort: Mars, Jupiter und Sedna.",
+            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nQuelle: Mars, Jupiter und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -4988,7 +5220,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/SalvageRaidTutorial",
             "name": "Bergungsgut",
-            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nFundort: Mars, Jupiter und Sedna.",
+            "description": "Hochwertige Metalle, die aus Kriegswracks gewonnen wurden.\r\n\r\nQuelle: Mars, Jupiter und Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
             "excludeFromCodex": true
@@ -5004,6 +5236,13 @@
             "uniqueName": "/Lotus/Types/Items/MiscItems/SentientFragmentLootItem",
             "name": "Anomaliesplitter",
             "description": "Der abgespaltene Splitter einer Sentient Anomalie im Veil Proxima. Kann bei Little Duck in Fortuna auf der Venus gegen exotische G\u00fcter eingetauscht werden.\r\n\r\nFundort: Murex Schiffe, die auf Railjack-Knoten im Veil Proxima gefunden werden k\u00f6nnen, die besonders markiert sind.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+            "name": "Schicksalsperle",
+            "description": "Geborgen von den Ufern eines heiligen Schicksalstraums.\r\n\r\nQuelle: Sayas Visionen auf der Erde",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -5063,7 +5302,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/SyringeComponent",
             "name": "Antiserum-Injektor-Fragment",
-            "description": "Eine Komponente eines Antiserum-Injektors.\r\n\r\nFundort: Oestrus auf Eris.",
+            "description": "Eine Komponente eines Antiserum-Injektors.\r\n\r\nQuelle: Oestrus auf Eris.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -5102,7 +5341,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Tellurium",
             "name": "Tellurium",
-            "description": "Dieses seltene Metall ist im Ursprungssystem fremd und kann nur auf Asteroiden gefunden werden, die die lange Reise von anderen Sternen hinter sich haben.\r\n\r\nFundort: Archwing-Missionen auf Uranus.",
+            "description": "Dieses seltene Metall ist im Ursprungssystem fremd und kann nur auf Asteroiden gefunden werden, die die lange Reise von anderen Sternen hinter sich haben.\r\n\r\nQuelle: Archwing-Missionen auf Uranus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -5152,7 +5391,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/VoidTearDrop",
             "name": "Void-Spuren",
-            "description": "Eine Substanz, die dazu genutzt wird, die Macht eines Relikts zu erh\u00f6hen.\r\n\r\nFundort: Void-Riss-Missionen.",
+            "description": "Eine Substanz, die dazu genutzt wird, die Macht eines Relikts zu erh\u00f6hen.\r\n\r\nQuelle: Void-Riss-Missionen.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
@@ -5896,6 +6135,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Deimos/Halloween2024ShipDeco",
+            "name": "Totem der Wilden Jagd",
+            "description": "Du kannst das Knurren des Biests fast sp\u00fcren, das dich n\u00e4her heranwinkt. Stelle es an einen Ehrenplatz, mach es dir bequem und lausche der Geschichte, die sein Blick zu erz\u00e4hlen scheint.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Deimos/LisetPropEntratiLamp",
             "name": "Lychnus",
             "description": "Der schlanke Metallarm dieses delikaten Entrati Designs h\u00e4lt eine subtile blaue Flamme in einem Zustand perfekten Gleichgewichts.",
@@ -6480,6 +6726,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JadeShadows/JadeEyesShipDeco",
             "name": "Dekoration: Jade-Ophanim",
             "description": "Mit Jades Blick in deinem Orbiter brauchst du nichts zu f\u00fcrchten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/JadeShadows/LisetPropCalibanDeluxeGhosts",
+            "name": "Dekoration: Heurodis",
+            "description": "Lade die Geister der Anderswelt in deinen Orbiter ein.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -9769,6 +10022,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/ConclaveConsolePlayerShipItem",
+            "name": "Conclave-Konsole",
+            "description": "Nutze diese Konsole, um auf Conclave zuzugreifen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ConclaveHeartOroOrnament",
             "name": "Oro-Ornament: Eros",
             "description": "Zeige deinen Tenno Kameraden, dass du sie liebst, mit diesem herzf\u00f6rmigen Ornament.",
@@ -9804,6 +10065,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Conquera2021Deco",
             "name": "Dekoration: Conquera",
             "description": "Platziere diese Dekoration als Symbol deiner Unterst\u00fctzung f\u00fcr den Kampf gegen Krebs.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Conquera2024Display",
+            "name": "Display: Conquera 2024 Community",
+            "description": "Ein Display, das Baruuk, Ordis und Titania enth\u00e4lt, entworfen vom Community-K\u00fcnstler OHHONO.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10752,6 +11020,13 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/KoumeiShrineDeco",
+            "name": "Koumei Engimono",
+            "description": "Platziere diesen kleinen Schrein in deinem Orbiter und lade Koumei ein, dein Schicksal zu leiten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/KubrowBedA",
@@ -12360,6 +12635,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardKoumei",
+            "name": "Koumei Prex",
+            "description": "Die W\u00fcrfel-Maid",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardLavos",
             "name": "Lavos Prex",
             "description": "Der Sch\u00fcler von Dabaoth-Kra",
@@ -13850,37 +14132,46 @@
         {
             "uniqueName": "/Lotus/Types/Items/Solaris/DebtTokenA",
             "name": "SCHULDSCHEIN: TRAINING",
-            "description": "Die Geldeintreiber nennen es eine Investition in unsere Zukunft, aber Kredite, die Berufs- und Spezialtraining abdecken, sind fast immer h\u00f6her als das, was du verdienen wirst. Insbesondere mit den Zinsen.\r\n\r\nFundort: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
+            "description": "Die Geldeintreiber nennen es eine Investition in unsere Zukunft, aber Kredite, die Berufs- und Spezialtraining abdecken, sind fast immer h\u00f6her als das, was du verdienen wirst. Insbesondere mit den Zinsen.\r\n\r\nQuelle: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Solaris/DebtTokenB",
             "name": "SCHULDSCHEIN: OBDACH",
-            "description": "Dies deckt so ziemlich alles ab, von Obdach \u00fcber Miete, Versicherung, Anlegeerlaubnis bis hin zu Zahlungen f\u00fcr den Schienenschlepper. Teure Anschaffungen.\r\n\r\nFundort: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
+            "description": "Dies deckt so ziemlich alles ab, von Obdach \u00fcber Miete, Versicherung, Anlegeerlaubnis bis hin zu Zahlungen f\u00fcr den Schienenschlepper. Teure Anschaffungen.\r\n\r\nQuelle: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Solaris/DebtTokenC",
             "name": "SCHULDSCHEIN: MEDIZIN",
-            "description": "Um zu arbeiten, braucht man Anpassungen. Um die Anpassungen abzuzahlen, muss man also mehr arbeiten, was wieder zu neuen Anpassungen f\u00fchrt. Und dies ist das Resultat.\r\n\r\nFundort: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
+            "description": "Um zu arbeiten, braucht man Anpassungen. Um die Anpassungen abzuzahlen, muss man also mehr arbeiten, was wieder zu neuen Anpassungen f\u00fchrt. Und dies ist das Resultat.\r\n\r\nQuelle: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Solaris/DebtTokenD",
             "name": "SCHULDSCHEIN: FORTSCHRITT",
-            "description": "Manchmal braucht ein Rigjockey ein wenig Unterst\u00fctzung, also holen sie sich einen Vorschuss auf das n\u00e4chste Gehalt. Die heftigen Zinsraten garantieren jedoch nahezu, dass sie daf\u00fcr bis in alle Ewigkeit zahlen werden.\r\n\r\nFundort: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
+            "description": "Manchmal braucht ein Rigjockey ein wenig Unterst\u00fctzung, also holen sie sich einen Vorschuss auf das n\u00e4chste Gehalt. Die heftigen Zinsraten garantieren jedoch nahezu, dass sie daf\u00fcr bis in alle Ewigkeit zahlen werden.\r\n\r\nQuelle: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Solaris/DebtTokenE",
             "name": "SCHULDSCHEIN: FAMILIE",
-            "description": "Werden die Schulden einer Generation nicht abbezahlt, werden sie an die n\u00e4chste weitergegeben. Arbeiten, um diese abzubezahlen wird als etwas gesehen, auf das man stolz sein kann. Welche Wahl haben sie denn auch.\r\n\r\nFundort: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
+            "description": "Werden die Schulden einer Generation nicht abbezahlt, werden sie an die n\u00e4chste weitergegeben. Arbeiten, um diese abzubezahlen wird als etwas gesehen, auf das man stolz sein kann. Welche Wahl haben sie denn auch.\r\n\r\nQuelle: Aus Auftr\u00e4gen im Orbis-Tal auf der Venus oder kann von Ticker in Fortuna auf der Venus gekauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/AbyssofDagathSongItem",
+            "name": "Anmeldemusik: Abyss of Dagath",
+            "description": "Die Anmeldemusik: Abyss of Dagath, die im Orbiter mit Somachord abgespielt werden kann.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
+            "showInInventory": false
         },
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/GaraPrimeSongItem",
@@ -13928,6 +14219,15 @@
             "description": "Khora Primes bevorzugtes Musikthema, das im Orbiter mit Somachord abgespielt werden kann.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/LotusEatersSongItem",
+            "name": "Anmeldemusik: The Lotus Eaters",
+            "description": "Die Anmeldemusik: The Lotus Eaters, die im Orbiter mit Somachord abgespielt werden kann.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
             "showInInventory": false
         },
         {
@@ -15555,6 +15855,27 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KhoraSystemsComponent",
             "name": "Khora: Systeme",
             "description": "Systeme-Komponente f\u00fcr den Khora Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisComponent",
+            "name": "Koumei: Chassis",
+            "description": "Chassis-Komponente f\u00fcr den Koumei Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetComponent",
+            "name": "Koumei: Neuroptik",
+            "description": "Neuroptik-Komponente f\u00fcr den Koumei Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsComponent",
+            "name": "Koumei: Systeme",
+            "description": "Systeme-Komponente f\u00fcr den Koumei Warframe.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18020,6 +18341,27 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaBarrel",
+            "name": "Higasa: Lauf",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaReceiver",
+            "name": "Higasa: Geh\u00e4use",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaStock",
+            "name": "Higasa: Schaft",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunsenPrimeBlade",
             "name": "Gunsen Prime: Klinge",
             "description": "Eine Komponente f\u00fcr die Herstellung von Prime Waffen.",
@@ -18409,6 +18751,20 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataBlade",
+            "name": "Amanata: Klinge",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataHandle",
+            "name": "Amanata: Griff",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCarapace",
