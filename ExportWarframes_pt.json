@@ -816,23 +816,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
-                    "abilityName": "Tuf\u00e3o Lacerante",
-                    "description": "Avan\u00e7ar\u00e1 com um v\u00f3rtice girat\u00f3rio letal. Inimigos atingidos receber\u00e3o o Efeito de Status <DT_SENTIENT_COLOR>Tau, tornando-os mais vulner\u00e1veis a todos os outros Efeitos de Status. Para cada inimigo atingido, recuperar\u00e1 uma parte do custo de Energia, bem como Vida e Escudos. Inimigos levantados pela habilidade Sentient Wrath receber\u00e3o dano aumentado."
+                    "abilityName": "V\u00f3rtice Afiado",
+                    "description": "Avan\u00e7ar\u00e1 com um v\u00f3rtice girat\u00f3rio letal. Inimigos atingidos receber\u00e3o o Efeito de Status <DT_SENTIENT_COLOR>Tau, tornando-os mais vulner\u00e1veis a todos os outros Efeitos de Status. Para cada inimigo atingido, recuperar\u00e1 uma parte do custo de Energia, bem como Vida e Escudos. Inimigos suspensos pela habilidade Rancor Sentient receber\u00e3o dano aumentado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
-                    "abilityName": "Ira Sentient",
-                    "description": "Golpeie o ch\u00e3o e crie uma onda radial de destrui\u00e7\u00e3o. Os inimigos que sobreviverem \u00e0 explos\u00e3o inicial ficar\u00e3o suspensos no ar, onde sofrer\u00e3o dano amplificado por um curto per\u00edodo."
+                    "abilityName": "Rancor Sentient",
+                    "description": "Golpear\u00e1 o ch\u00e3o e criar\u00e1 uma onda radial de destrui\u00e7\u00e3o. Os inimigos que sobreviverem \u00e0 explos\u00e3o inicial ficar\u00e3o suspensos no ar e sofrer\u00e3o dano amplificado por um curto per\u00edodo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
-                    "abilityName": "Descend\u00eancia Letal",
-                    "description": "Convoque a forma Sentient do Caliban para gerar at\u00e9 tr\u00eas Conculistas, que lutar\u00e3o ao lado dele e reparar\u00e3o seus Escudos."
+                    "abilityName": "Progenitura Letal",
+                    "description": "Alternar\u00e1 entre os tipos de unidades Sentient e, em seguida, as invocar\u00e1 ao lado do Caliban. Conculistas focar\u00e3o no dano corpo a corpo. Ortholistas se especializar\u00e3o em ataques \u00e0 dist\u00e2ncia e infligir\u00e3o Efeito de Status <DT_SENTIENT_COLOR>Tau. Summulistas invocar\u00e3o seus pr\u00f3prios Choralistas e fornecer\u00e3o Escudos ao esquadr\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
                     "abilityName": "Fus\u00e3o Convergente",
-                    "description": "Convergir\u00e1 tr\u00eas fluxos de pura energia em um \u00fanico ponto, causando uma explos\u00e3o massiva. Os fluxos remover\u00e3o a Armadura e Escudos dos alvos, e cada inimigo atingido detonar\u00e1 na converg\u00eancia. Conculistas invocados poder\u00e3o conjurar sua pr\u00f3pria vers\u00e3o da habilidade Fus\u00e3o Convergente. "
+                    "description": "Convergir\u00e1 tr\u00eas fluxos de pura energia em um \u00fanico ponto, causando uma explos\u00e3o massiva. Os fluxos remover\u00e3o a Armadura e os Escudos dos alvos, e cada inimigo atingido ser\u00e1 detonado na converg\u00eancia. Conculistas invocados poder\u00e3o conjurar sua pr\u00f3pria vers\u00e3o da habilidade Fus\u00e3o Convergente. "
                 }
             ],
             "productCategory": "Suits"
@@ -2317,7 +2317,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Every |DURATION| seconds, one of Koumei's weapons will inflict random Status Effects for |DURATION| seconds.",
+            "passiveDescription": "A cada |DURATION|s, uma das armas da Koumei infligir\u00e1 Efeitos de Status aleat\u00f3rios durante |DURATION|s.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiStringsAbility",
@@ -2327,7 +2327,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiFortuneAbility",
                     "abilityName": "Omikuji",
-                    "description": "Koumei glimpses a favorable future and the precise steps needed to reach it. Complete the challenge to earn a Decree. Unlucky rolls add a debuff, but you can hold the ability to reject the Omikuji.\r\n\r\nA roll of triple sixes grants a Decree without a challenge."
+                    "description": "A Koumei vislumbra um futuro favor\u00e1vel e os passos precisos necess\u00e1rios para alcan\u00e7\u00e1-lo. Conclua o desafio para ganhar um Decreto. Rolagens azaradas dar\u00e3o a ela um efeito negativo, mas voc\u00ea poder\u00e1 segurar o bot\u00e3o da habilidade para rejeitar o Omikuji.\r\n\r\nUma trinca do n\u00famero seis conceder\u00e1 um Decreto sem um desafio."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiBlockAbility",
@@ -2513,7 +2513,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.05,
-            "passiveDescription": "O Bloqueio de Escudos completo da Hildryn \u00e9 aprimorado. Depois que seus escudos se esgotam, ela fica invulner\u00e1vel por at\u00e9 3,5s.",
+            "passiveDescription": "Aprimorar\u00e1 o Bloqueio de Escudos completo da Hildryn. Ap\u00f3s seus escudos se esgotarem, ela ficar\u00e1 invulner\u00e1vel por at\u00e9 3,5 segundos.",
             "exalted": [
                 "/Lotus/Powersuits/IronFrame/BlastWeaponPrime"
             ],
@@ -2526,17 +2526,17 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
                     "abilityName": "Pilhagem",
-                    "description": "Absorver\u00e1 uma porcentagem dos Escudos e da Armadura dos inimigos pr\u00f3ximos para reabastecer os Escudos e Sobre-Escudos da Hildryn. Tamb\u00e9m remover\u00e1 os Efeitos de Status afetando a Hildryn e seus aliados."
+                    "description": "Absorver\u00e1 uma porcentagem dos Escudos e da Armadura dos inimigos pr\u00f3ximos para reabastecer os Escudos e Sobre-Escudos da Hildryn. Tamb\u00e9m remover\u00e1 os Efeitos de Status que estiverem afetando a Hildryn e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameAuraAbility",
-                    "abilityName": "Ref\u00fagio",
-                    "description": "Criar\u00e1 uma aura de Escudos protetora ao redor dos aliados. Inimigos que se aproximarem dos aliados protegidos receber\u00e3o dano. "
+                    "abilityName": "Reduto",
+                    "description": "Criar\u00e1 uma aura protetora ao redor dos aliados. Inimigos que se aproximarem dos aliados protegidos receber\u00e3o dano. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
                     "abilityName": "\u00c9gide Tempestuosa",
-                    "description": "Elevar\u00e1 Hildryn ao comando dos c\u00e9us, permitindo que foguetes sejam disparados de sua Balefire. Inimigos pr\u00f3ximos ser\u00e3o arremessados ao ar e conceder\u00e3o Orbes de Energia periodicamente. Quando seus Escudos acabarem, os inimigos ser\u00e3o esmagados no ch\u00e3o."
+                    "description": "Elevar\u00e1 Hildryn ao comando dos c\u00e9us, permitindo o disparo dos foguetes da habilidade Incandesc\u00eancia. Inimigos pr\u00f3ximos ser\u00e3o arremessados ao ar e conceder\u00e3o Orbes de Energia periodicamente. Quando seus Escudos se esgotarem, os inimigos ser\u00e3o esmagados no ch\u00e3o."
                 }
             ],
             "productCategory": "Suits"
@@ -2554,7 +2554,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "O Bloqueio de Escudos completo da Hildryn \u00e9 aprimorado. Depois que seus escudos se esgotam, ela fica invulner\u00e1vel por at\u00e9 3,5s.",
+            "passiveDescription": "Aprimorar\u00e1 o Bloqueio de Escudos completo da Hildryn. Ap\u00f3s seus escudos se esgotarem, ela ficar\u00e1 invulner\u00e1vel por at\u00e9 3,5 segundos.",
             "exalted": [
                 "/Lotus/Powersuits/IronFrame/BlastWeapon"
             ],
@@ -2567,17 +2567,17 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
                     "abilityName": "Pilhagem",
-                    "description": "Absorver\u00e1 uma porcentagem dos Escudos e da Armadura dos inimigos pr\u00f3ximos para reabastecer os Escudos e Sobre-Escudos da Hildryn. Tamb\u00e9m remover\u00e1 os Efeitos de Status afetando a Hildryn e seus aliados."
+                    "description": "Absorver\u00e1 uma porcentagem dos Escudos e da Armadura dos inimigos pr\u00f3ximos para reabastecer os Escudos e Sobre-Escudos da Hildryn. Tamb\u00e9m remover\u00e1 os Efeitos de Status que estiverem afetando a Hildryn e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameAuraAbility",
-                    "abilityName": "Ref\u00fagio",
-                    "description": "Criar\u00e1 uma aura de Escudos protetora ao redor dos aliados. Inimigos que se aproximarem dos aliados protegidos receber\u00e3o dano. "
+                    "abilityName": "Reduto",
+                    "description": "Criar\u00e1 uma aura protetora ao redor dos aliados. Inimigos que se aproximarem dos aliados protegidos receber\u00e3o dano. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
                     "abilityName": "\u00c9gide Tempestuosa",
-                    "description": "Elevar\u00e1 Hildryn ao comando dos c\u00e9us, permitindo que foguetes sejam disparados de sua Balefire. Inimigos pr\u00f3ximos ser\u00e3o arremessados ao ar e conceder\u00e3o Orbes de Energia periodicamente. Quando seus Escudos acabarem, os inimigos ser\u00e3o esmagados no ch\u00e3o."
+                    "description": "Elevar\u00e1 Hildryn ao comando dos c\u00e9us, permitindo o disparo dos foguetes da habilidade Incandesc\u00eancia. Inimigos pr\u00f3ximos ser\u00e3o arremessados ao ar e conceder\u00e3o Orbes de Energia periodicamente. Quando seus Escudos se esgotarem, os inimigos ser\u00e3o esmagados no ch\u00e3o."
                 }
             ],
             "productCategory": "Suits"
@@ -4101,8 +4101,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MolecularPrimeAbility",
-                    "abilityName": "Excita\u00e7\u00e3o Molecular",
-                    "description": "Lan\u00e7ar\u00e1 um pulso expansivo que afetar\u00e1 todos os inimigos atingidos com antimat\u00e9ria vol\u00e1til. Pressionar o bot\u00e3o da habilidade far\u00e1 com que ela reduza o movimento dos inimigos, e segurar o bot\u00e3o far\u00e1 com que ela os acelere."
+                    "abilityName": "Agita\u00e7\u00e3o Molecular",
+                    "description": "Lan\u00e7ar\u00e1 um pulso expansivo que afetar\u00e1 todos os inimigos atingidos com antimat\u00e9ria vol\u00e1til. Pressionar o bot\u00e3o da habilidade reduzir\u00e1 o movimento dos inimigos, enquanto segur\u00e1-lo os acelerar\u00e1."
                 }
             ],
             "productCategory": "Suits"
@@ -4139,8 +4139,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MolecularPrimeAbility",
-                    "abilityName": "Excita\u00e7\u00e3o Molecular",
-                    "description": "Lan\u00e7ar\u00e1 um pulso expansivo que afetar\u00e1 todos os inimigos atingidos com antimat\u00e9ria vol\u00e1til. Pressionar o bot\u00e3o da habilidade far\u00e1 com que ela reduza o movimento dos inimigos, e segurar o bot\u00e3o far\u00e1 com que ela os acelere."
+                    "abilityName": "Agita\u00e7\u00e3o Molecular",
+                    "description": "Lan\u00e7ar\u00e1 um pulso expansivo que afetar\u00e1 todos os inimigos atingidos com antimat\u00e9ria vol\u00e1til. Pressionar o bot\u00e3o da habilidade reduzir\u00e1 o movimento dos inimigos, enquanto segur\u00e1-lo os acelerar\u00e1."
                 }
             ],
             "productCategory": "Suits"
