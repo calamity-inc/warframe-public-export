@@ -4225,6 +4225,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+            "name": "Lavos Prime",
+            "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+            "description": "Some Warframes were Prime from the start. Others ascended. Lavos, the master of transmutation, bowed to no one as he forged his own path to valor.",
+            "health": 600,
+            "shield": 310,
+            "armor": 575,
+            "stamina": 3,
+            "power": 0,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\r\n\r\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                    "abilityName": "Ophidian Bite",
+                    "description": "Lash out with a toxic serpentine strike, consuming the target to heal Lavos.\r\n\r\nHold to imbue all abilities with <DT_POISON_COLOR>Toxin."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                    "abilityName": "Vial Rush",
+                    "description": "Dash forward, crashing through enemies and leaving an icy trail of broken vials.\r\n\r\nHold to imbue the next ability cast with <DT_FREEZE_COLOR>Cold."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                    "abilityName": "Transmutation Probe",
+                    "description": "Launch a probe that converts Health and Energy Orbs into Universal Orbs that provide both, and ammo pickups into Universal Ammo Pickups. The probe shocks enemies in close proximity. Each electrocuted foe reduces other ability cooldowns by 1.5s.\r\n\r\nHold to imbue the next ability cast with <DT_ELECTRICITY_COLOR>Electricity."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                    "abilityName": "Catalyze",
+                    "description": "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy.\r\n\r\nHold to imbue the next ability cast with <DT_FIRE_COLOR>Heat."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
             "name": "Lavos",
             "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",

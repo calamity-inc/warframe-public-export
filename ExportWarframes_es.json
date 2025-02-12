@@ -4225,6 +4225,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+            "name": "Lavos Prime",
+            "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+            "description": "Algunos warframes fueron Prime desde el principio. Otros han evolucionado. Lavos, el maestro de la transmutaci\u00f3n, no se inclin\u00f3 ante nadie mientras forjaba su propio camino hacia la valent\u00eda.",
+            "health": 600,
+            "shield": 310,
+            "armor": 575,
+            "stamina": 3,
+            "power": 0,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Los orbes de energ\u00eda y los orbes universales dan inmunidad de estado a Lavos durante |DURATION|s.\r\n\r\nMant\u00e9n pulsada cualquier habilidad para imbuir el siguiente lanzamiento con da\u00f1o elemental y estado adicionales.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                    "abilityName": "Mordedura ofidiana",
+                    "description": "Ataca con una embestida serpentina t\u00f3xica, consumiendo al objetivo para curar a Lavos.\r\n\r\nMant\u00e9n pulsado para imbuir todas las habilidades con <DT_POISON_COLOR>toxina."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                    "abilityName": "Arremetida vial",
+                    "description": "Embiste de frente, atravesando a los enemigos y dejando un rastro helado de cristales rotos.\r\n\r\nMant\u00e9n pulsado para imbuir la siguiente habilidad lanzada con <DT_FREEZE_COLOR>fr\u00edo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                    "abilityName": "Sonda de transmutaci\u00f3n",
+                    "description": "Lanza una sonda que convierte los orbes de salud y de energ\u00eda en orbes universales que proporcionan ambos, y los hallazgos de munici\u00f3n en munici\u00f3n universal. La sonda electrocuta a los enemigos cercanos. Cada enemigo electrocutado reduce el tiempo de reutilizaci\u00f3n de otras habilidades en 1.5 s. \r\n\r\nMant\u00e9n pulsado para imbuir la siguiente habilidad lanzada con <DT_ELECTRICITY_COLOR>electricidad."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                    "abilityName": "Catalizar",
+                    "description": "De Lavos surgen sondas catalizadoras que cubren a los combatientes con un gel abrasador. El da\u00f1o se duplica por cada elemento que aflija a un enemigo.\r\n\r\nMant\u00e9n pulsado para imbuir la siguiente habilidad lanzada con <DT_FIRE_COLOR>calor."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
             "name": "Lavos",
             "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",

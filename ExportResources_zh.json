@@ -8078,7 +8078,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyJillian",
             "name": "\u5409\u5229\u5b89\u73a9\u5076",
-            "description": "This tough-as-nails Caliber Chick makes for a surprisingly snuggly floof.",
+            "description": "\u575a\u97e7\u4e0d\u62d4\u7684\u706b\u529b\u5973\u5175\u7adf\u7136\u53ef\u4ee5\u662f\u4e2a\u6696\u5fc3\u73a9\u5076\u3002",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -11724,6 +11724,13 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LavosPrimeDeviceDeco",
+            "name": "Transmutation Probe Prime Decoration",
+            "description": "Bring a touch of Lavos Prime's transformative power to the Orbiter with this decorative replica.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LimboBobbleHead",
@@ -16888,6 +16895,30 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeChassisComponent",
+            "name": "Lavos Prime \u673a\u4f53",
+            "description": "Lavos Prime \u6218\u7532\u7684\u673a\u4f53\u7ec4\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeHelmetComponent",
+            "name": "Lavos Prime \u5934\u90e8\u795e\u7ecf\u5149\u5143",
+            "description": "Lavos Prime \u6218\u7532\u7684\u5934\u90e8\u795e\u7ecf\u5149\u5143\u7ec4\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeSystemsComponent",
+            "name": "Lavos Prime \u7cfb\u7edf",
+            "description": "Lavos Prime \u6218\u7532\u7684\u7cfb\u7edf\u7ec4\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosSystemsComponent",
             "name": "Lavos \u7cfb\u7edf",
             "description": "Lavos \u6218\u7532\u7684\u7cfb\u7edf\u7ec4\u4ef6\u3002",
@@ -18798,6 +18829,30 @@
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeBarrel",
+            "name": "\u585e\u591a Prime \u67aa\u7ba1",
+            "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeReceiver",
+            "name": "\u585e\u591a Prime \u67aa\u673a",
+            "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeStock",
+            "name": "\u585e\u591a Prime \u67aa\u6258",
+            "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/CobraCranePrimeBlade",
             "name": "\u773c\u955c\u86c7 & \u9e64 Prime \u5200\u5203",
             "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
@@ -19054,6 +19109,22 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DualZorenPrimeBlade",
+            "name": "\u4f50\u4f26\u53cc\u65a7 Prime \u5200\u5203",
+            "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DualZorenPrimeHandle",
+            "name": "\u4f50\u4f26\u53cc\u65a7 Prime \u63e1\u67c4",
+            "description": "\u4e00\u4e2a Prime \u6b66\u5668\u7684\u5236\u4f5c\u90e8\u4ef6\u3002",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DuviriHeavyScytheBlade",

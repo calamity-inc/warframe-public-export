@@ -4225,6 +4225,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+            "name": "Lavos Prime",
+            "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+            "description": "\u8d77\u6e90\u304c\u30d7\u30e9\u30a4\u30e0\u306eWARFRAME\u304c\u5b58\u5728\u3059\u308b\u4e2d\u3001\u30d7\u30e9\u30a4\u30e0\u307e\u3067\u4e0a\u308a\u8a70\u3081\u305f\u8005\u3082\u3044\u308b\u3002\u5320\u306e\u932c\u91d1\u8853\u5e2b\u3067\u3042\u308bLavos\u306f\u3001\u8ab0\u306b\u3082\u5c48\u3059\u308b\u3053\u3068\u306a\u304f\u81ea\u8eab\u3067\u305d\u306e\u9053\u3092\u958b\u62d3\u3057\u305f\u3002",
+            "health": 600,
+            "shield": 310,
+            "armor": 575,
+            "stamina": 3,
+            "power": 0,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "\u30a8\u30cd\u30eb\u30ae\u30fc\u3068\u30e6\u30cb\u30d0\u30fc\u30b5\u30eb\u30aa\u30fc\u30d6\u3092\u62fe\u3063\u305f\u969b\u306b|DURATION|\u79d2\u9593\u72b6\u614b\u7570\u5e38\u3078\u306e\u8010\u6027\u3092\u5f97\u308b\u3002\r\n\r\n\u30a2\u30d3\u30ea\u30c6\u30a3\u3092\u9577\u62bc\u3057\u3059\u308b\u3053\u3068\u3067\u6b21\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306b\u8ffd\u52a0\u306e\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3068\u72b6\u614b\u7570\u5e38\u3092\u6ce8\u5165\u3059\u308b\u3002",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                    "abilityName": "Ophidian Bite",
+                    "description": "\u6bd2\u3092\u6301\u3064\u30d8\u30d3\u304c\u7a81\u9032\u3057\u3001\u6575\u3092\u98df\u3089\u3063\u3066Lavos\u3092\u56de\u5fa9\u3059\u308b\u3002\r\n\r\n\u9577\u62bc\u3057\u3067\u5168\u3066\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306b<DT_POISON_COLOR>\u6bd2\u3092\u6ce8\u5165\u3059\u308b\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                    "abilityName": "Vial Rush",
+                    "description": "\u524d\u65b9\u306b\u8e0f\u307f\u8fbc\u3093\u3067\u6575\u3092\u7a81\u7834\u3057\u3001\u58ca\u308c\u305f\u30ac\u30e9\u30b9\u7247\u304b\u3089\u3053\u307c\u308c\u305f\u51b7\u305f\u3044\u8ecc\u8de1\u3092\u6b8b\u3059\u3002\r\n\r\n\u9577\u62bc\u3057\u3067\u6b21\u306b\u767a\u52d5\u3059\u308b\u30a2\u30d3\u30ea\u30c6\u30a3\u306b<DT_FREEZE_COLOR>\u51b7\u6c17\u3092\u6ce8\u5165\u3059\u308b\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                    "abilityName": "Transmutation Probe",
+                    "description": "\u30d8\u30eb\u30b9\u3068\u30a8\u30cd\u30eb\u30ae\u30fc\u30aa\u30fc\u30d6\u3092\u4e21\u56de\u5fa9\u306e\u30e6\u30cb\u30d0\u30fc\u30b5\u30eb\u30aa\u30fc\u30d6\u306b\u3001\u5f3e\u85ac\u3092\u30e6\u30cb\u30d0\u30fc\u30b5\u30eb\u5f3e\u85ac\u306b\u5909\u63db\u3059\u308b\u30d7\u30ed\u30fc\u30d6\u3092\u653e\u3064\u3002\u30d7\u30ed\u30fc\u30d6\u306f\u4ed8\u8fd1\u306e\u6575\u3092\u75fa\u308c\u3055\u305b\u308b\u3002\u611f\u96fb\u3057\u305f\u6575\u3054\u3068\u306b\u4ed6\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306e\u30af\u30fc\u30eb\u30c0\u30a6\u30f3\u304c1.5\u79d2\u6e1b\u5c11\u3059\u308b\u3002\r\n\r\n\u9577\u62bc\u3057\u3067\u6b21\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306b<DT_ELECTRICITY_COLOR>\u96fb\u6c17\u3092\u6ce8\u5165\u3059\u308b\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                    "abilityName": "Catalyze",
+                    "description": "\u89e6\u5a92\u30d7\u30ed\u30fc\u30d6\u3092\u5674\u51fa\u3057\u6226\u95d8\u54e1\u3092\u708e\u306e\u30b8\u30a7\u30eb\u306b\u6d78\u3059\u3002\u30c0\u30e1\u30fc\u30b8\u306f\u6575\u306b\u4ed8\u4e0e\u3055\u308c\u3066\u3044\u308b\u5c5e\u6027\u3054\u3068\u306b\u500d\u5897\u3055\u308c\u308b\u3002\r\n\r\n\u9577\u62bc\u3057\u3067\u6b21\u306e\u30a2\u30d3\u30ea\u30c6\u30a3\u306b<DT_FIRE_COLOR>\u706b\u708e\u3092\u6ce8\u5165\u3059\u308b\u3002"
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
             "name": "Lavos",
             "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",

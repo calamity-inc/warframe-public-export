@@ -4225,6 +4225,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+            "name": "Lavos Prime",
+            "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+            "description": "Alguns Warframes nasceram em sua forma Prime, enquanto outros ascenderam a ela. Lavos, o mestre da transmuta\u00e7\u00e3o, n\u00e3o se curvou perante ningu\u00e9m enquanto trilhava seu pr\u00f3prio caminho \u00e0 bravura.",
+            "health": 600,
+            "shield": 310,
+            "armor": 575,
+            "stamina": 3,
+            "power": 0,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Orbes de Energia e Orbes Universais fornecem imunidade aos Efeitos de Status para o Lavos durante |DURATION|s.\r\n\r\nSegure o bot\u00e3o de qualquer habilidade para imbuir a pr\u00f3xima conjura\u00e7\u00e3o com Dano Elemental e Status adicionais.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                    "abilityName": "Mordida Of\u00eddica",
+                    "description": "Atacar\u00e1 com uma investida serpentina t\u00f3xica, consumindo o alvo para curar o Lavos.\r\n\r\nSegurar o bot\u00e3o da habilidade imbuir\u00e1 todas as habilidades com Dano <DT_POISON_COLOR>T\u00f3xico."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                    "abilityName": "Frascos Elementais",
+                    "description": "Realizar\u00e1 uma investida \u00e0 frente, atropelando os inimigos e deixando um rastro congelante de frascos estilha\u00e7ados.\r\n\r\nSegurar o bot\u00e3o da habilidade imbuir\u00e1 a pr\u00f3xima habilidade conjurada com Dano <DT_FREEZE_COLOR>Glacial."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                    "abilityName": "Sonda de Transmuta\u00e7\u00e3o",
+                    "description": "Disparar\u00e1 uma sonda que converter\u00e1 Orbes de Vida e de Energia em Orbes Universais, que fornecer\u00e3o ambos. Al\u00e9m disso, Colet\u00e1veis de Muni\u00e7\u00e3o ser\u00e3o convertidos em Colet\u00e1veis de Muni\u00e7\u00e3o Universais. A sonda tamb\u00e9m eletrocutar\u00e1 os inimigos pr\u00f3ximos dela. Cada inimigo eletrocutado reduzir\u00e1 o tempo de recarga das outras habilidades em 1,5 segundos.\r\n\r\nSegurar o bot\u00e3o da habilidade imbuir\u00e1 a pr\u00f3xima habilidade conjurada com Dano <DT_ELECTRICITY_COLOR>El\u00e9trico."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                    "abilityName": "Catalisa\u00e7\u00e3o",
+                    "description": "Sondas Catalisadoras emergir\u00e3o do Lavos, cobrindo os alvos afetados com um gel incendi\u00e1rio. O dano causado ser\u00e1 dobrado para cada elemento afetando o inimigo.\r\n\r\nSegurar o bot\u00e3o da habilidade imbuir\u00e1 a pr\u00f3xima habilidade conjurada com Dano <DT_FIRE_COLOR>\u00cdgneo."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
             "name": "Lavos",
             "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",

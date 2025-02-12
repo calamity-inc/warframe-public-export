@@ -4225,6 +4225,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Alchemist/LavosPrime",
+            "name": "Lavos Prime",
+            "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+            "description": "\u5f53\u5176\u4ed6\u6218\u7532\u8fd8\u5728\u9010\u6b65\u63d0\u5347\u65f6\uff0c\u6709\u4e9b\u6218\u7532\u751f\u6765\u5c31\u662f Prime \u7684\u3002Lavos \u662f\u70bc\u5236\u672f\u5927\u5e08\uff0c\u4ed6\u4ece\u4e0d\u5411\u4efb\u4f55\u4eba\u4f4e\u5934\uff0c\u800c\u662f\u5f00\u8f9f\u4e86\u81ea\u5df1\u7684\u82f1\u52c7\u4e4b\u8def\u3002",
+            "health": 600,
+            "shield": 310,
+            "armor": 575,
+            "stamina": 3,
+            "power": 0,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "\u80fd\u91cf\u7403\u548c\u901a\u7528\u8865\u7ed9\u7403\u53ef\u4f7f Lavos \u5bf9\u5f02\u5e38\u72b6\u6001\u514d\u75ab |DURATION| \u79d2\u3002\r\n\r\n\u957f\u6309\u4efb\u610f\u6280\u80fd\u952e\uff0c\u6765\u5728\u4e0b\u4e00\u6b21\u65bd\u653e\u65f6\u6ce8\u5165\u989d\u5916\u7684\u5143\u7d20\u4f24\u5bb3\u548c\u5f02\u5e38\u72b6\u6001\u3002",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                    "abilityName": "\u6bd2\u86c7\u4e4b\u54ac",
+                    "description": "\u65bd\u653e\u4e00\u6b21\u6bd2\u86c7\u731b\u51fb\uff0c\u901a\u8fc7\u6d88\u8017\u76ee\u6807\u7684\u751f\u547d\u503c\u6765\u6cbb\u7597 Lavos\u3002\r\n\r\n\u957f\u6309\u6765\u4e3a\u6240\u6709\u6280\u80fd\u6ce8\u5165<DT_POISON_COLOR>\u6bd2\u7d20\u4f24\u5bb3\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                    "abilityName": "\u836f\u74f6\u51b2\u649e",
+                    "description": "\u524d\u51b2\u76f4\u649e\u7a7f\u8fc7\u654c\u519b\uff0c\u5e76\u7559\u4e0b\u7834\u788e\u836f\u74f6\u7684\u51b0\u8ff9\u3002\r\n\r\n\u957f\u6309\u6765\u4e3a\u4e0b\u4e00\u6b21\u7684\u6280\u80fd\u65bd\u653e\u6ce8\u5165<DT_FREEZE_COLOR>\u51b0\u51bb\u4f24\u5bb3\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                    "abilityName": "\u70bc\u5236\u63a2\u5934",
+                    "description": "\u5e03\u4e0b\u4e00\u679a\u63a2\u5934\uff0c\u6765\u628a\u751f\u547d\u7403\u548c\u80fd\u91cf\u7403\u8f6c\u5316\u4e3a\u53ef\u63d0\u4f9b\u8fd9\u4e24\u79cd\u8865\u7ed9\u7684\u901a\u7528\u8865\u7ed9\u7403\uff0c\u4e5f\u53ef\u628a\u5f39\u836f\u62fe\u53d6\u7269\u8f6c\u6362\u4e3a\u901a\u7528\u5f39\u836f\u62fe\u53d6\u7269\u3002\u63a2\u5934\u4e5f\u4f1a\u7535\u51fb\u8fd1\u8ddd\u79bb\u7684\u654c\u4eba\u3002\u6bcf\u51fb\u4e2d\u4e00\u540d\u654c\u4eba\uff0c\u5176\u5b83\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u51cf\u5c11 1.5 \u79d2\u3002\r\n\r\n\u957f\u6309\u6765\u4e3a\u4e0b\u4e00\u6b21\u7684\u6280\u80fd\u65bd\u653e\u6ce8\u5165<DT_ELECTRICITY_COLOR>\u7535\u51fb\u4f24\u5bb3\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                    "abilityName": "\u50ac\u5316\u523a\u6fc0",
+                    "description": "\u4ece Lavos \u4f53\u5185\u8ff8\u53d1\u51fa\u50ac\u5316\u63a2\u5934\uff0c\u5e76\u628a\u70bd\u70ed\u7684\u51dd\u80f6\u6cfc\u5411\u5bf9\u624b\u3002\u6bcf\u4e2a\u5143\u7d20\u5bf9\u654c\u4eba\u9020\u6210\u7684\u4f24\u5bb3\u90fd\u662f\u53cc\u500d\u7684\u3002\r\n\r\n\u957f\u6309\u6765\u4e3a\u4e0b\u4e00\u6b21\u7684\u6280\u80fd\u65bd\u653e\u6ce8\u5165<DT_FIRE_COLOR>\u706b\u7130\u4f24\u5bb3\u3002"
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
             "name": "Lavos",
             "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
