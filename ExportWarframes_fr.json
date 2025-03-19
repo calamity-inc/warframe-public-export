@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Br\u00fblant de glamour et arm\u00e9 d'une guitare Infest\u00e9e, Lizzie, Temple et ses accords puissants allument les flammes de la r\u00e9volution.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Utilisez des Pouvoirs en synchronisation avec le m\u00e9tronome de Contre-Temps pour dynamiser les effets des Pouvoirs tout en augmentant l'Efficacit\u00e9 de Pouvoir de |COST|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pyrotechnie",
+                    "description": "Frappez les ennemis cibl\u00e9s avec des piliers de D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu. \r\n\r\n<b>Synergie de Contre-Temps:</b> Allumez encore plus de piliers. Augmente la Dur\u00e9e et les D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu de Cri du Ripper quand il inflige des D\u00e9g\u00e2ts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Surcharge",
+                    "description": "Poussez les haut-parleurs pour cr\u00e9er une distorsion \u00e9pique qui g\u00e9n\u00e8re une vague de D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu tout en augmentant la vuln\u00e9rabilit\u00e9 aux Chances de Critique.\r\n\r\n<b>Synergie de Contre-Temps:</b> Double les Chances de Critique. Augmente la Dur\u00e9e et les D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu de Cri du Ripper quand il inflige des D\u00e9g\u00e2ts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Cri du Ripper",
+                    "description": "Utilisez la guitare pour rendre Temple bri\u00e8vement invuln\u00e9rable tout en le soignant. Les armes des alli\u00e9s \u00e0 <AFFINITY_SHARE>Port\u00e9e d'Affinit\u00e9 sont illumin\u00e9es et infligent des D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu suppl\u00e9mentaires chaque fois qu'un Pouvoir est utilis\u00e9 avec Contre-Temps.\r\n\r\n<b>Synergie de Contre-Temps:</b> L'invuln\u00e9rabilit\u00e9 dure plus longtemps."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Solo Exalt\u00e9",
+                    "description": "Une fois qu'une charge a \u00e9t\u00e9 accumul\u00e9e sur le m\u00e9tronome Contre-Temps, enflammez Lizzie et br\u00fblez les ennemis avec des D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu. En visant, Lizzie fait exploser les ennemis avec des ondes sonores \u00e9l\u00e9mentaires tonitruantes. Utilisez les commandes de Pouvoir pour changer le type de D\u00e9g\u00e2ts \u00c9l\u00e9mentaires.\r\n\r\n<b>Synergie de Contre-Temps:</b> Aucune \u00c9nergie consomm\u00e9e."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Les Effets de Statut <DT_SLASH_COLOR>Tranchants infligent des D\u00e9g\u00e2ts augment\u00e9s de |DAMAGE|% qui durent |DURATION|% plus longtemps.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "T\u00e9l\u00e9portation",
-                    "description": "Ash se t\u00e9l\u00e9porte vers la cible, l'amenant \u00e0 port\u00e9e de m\u00eal\u00e9e et la rendant vuln\u00e9rable \u00e0 un Coup de Gr\u00e2ce."
+                    "description": "T\u00e9l\u00e9portez-vous vers une cible et effectuez un Coup de Gr\u00e2ce. Si le Coup de Gr\u00e2ce \u00e9limine la cible, Ash r\u00e9cup\u00e8re une partie de l'\u00c9nergie utilis\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Temp\u00eate de Lames",
-                    "description": "Envoie des clones d'ombre f\u00e9roces d'Ash d\u00e9vaster les groupes d'ennemis distants. Rejoignez la m\u00eal\u00e9e en utilisant T\u00e9l\u00e9portation."
+                    "description": "Envoie des Clones de l'Ombre f\u00e9roces d'Ash d\u00e9vaster les groupes d'ennemis distants. Rejoignez la m\u00eal\u00e9e en utilisant T\u00e9l\u00e9portation. Les Clones de l'Ombre peuvent \u00eatre am\u00e9lior\u00e9s avec des Mods."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "Les Effets de Statut <DT_SLASH>Tranchants infligent des D\u00e9g\u00e2ts augment\u00e9s de |DAMAGE|% qui durent |DURATION|% plus longtemps.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "T\u00e9l\u00e9portation",
-                    "description": "Ash se t\u00e9l\u00e9porte vers la cible, l'amenant \u00e0 port\u00e9e de m\u00eal\u00e9e et la rendant vuln\u00e9rable \u00e0 un Coup de Gr\u00e2ce."
+                    "description": "T\u00e9l\u00e9portez-vous vers une cible et effectuez un Coup de Gr\u00e2ce. Si le Coup de Gr\u00e2ce \u00e9limine la cible, Ash r\u00e9cup\u00e8re une partie de l'\u00c9nergie utilis\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Temp\u00eate de Lames",
-                    "description": "Envoie des clones d'ombre f\u00e9roces d'Ash d\u00e9vaster les groupes d'ennemis distants. Rejoignez la m\u00eal\u00e9e en utilisant T\u00e9l\u00e9portation."
+                    "description": "Envoie des Clones de l'Ombre f\u00e9roces d'Ash d\u00e9vaster les groupes d'ennemis distants. Rejoignez la m\u00eal\u00e9e en utilisant T\u00e9l\u00e9portation. Les Clones de l'Ombre peuvent \u00eatre am\u00e9lior\u00e9s avec des Mods."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Le f\u00e9roce Kavat Venari combat aux c\u00f4t\u00e9s de Khora, lui offrant une am\u00e9lioration de vitesse de |SPEED|% quand elle est active. Si \u00e9limin\u00e9e, Venari r\u00e9appara\u00eetra apr\u00e8s |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Fouet Ac\u00e9r\u00e9",
-                    "description": "Domptez les ennemis avec un claquement de fouet assourdissant. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Domptez les ennemis avec un claquement de fouet assourdissant. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur Fouet Ac\u00e9r\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Le f\u00e9roce Kavat Venari combat aux c\u00f4t\u00e9s de Khora, lui offrant une am\u00e9lioration de vitesse de |SPEED|% quand elle est active. Si \u00e9limin\u00e9e, Venari r\u00e9appara\u00eetra apr\u00e8s |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Fouet Ac\u00e9r\u00e9",
-                    "description": "Domptez les ennemis avec un claquement de fouet assourdissant. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Domptez les ennemis avec un claquement de fouet assourdissant. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur Fouet Ac\u00e9r\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Une chance d'aveugler les ennemis pendant |DURATION|s lorsque Gara lance des Pouvoirs.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Pique Cassante",
-                    "description": "Attaque avec une pique de verre cassant, ou balaye les ennemis si le pouvoir est maintenu. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Attaque avec une pique de verre cassant, ou balaye les ennemis si le pouvoir est maintenu. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur Pique Cassante."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Une chance d'aveugler les ennemis pendant |DURATION|s lorsque Gara lance des Pouvoirs.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Pique Cassante",
-                    "description": "Attaque avec une pique de verre cassant, ou balaye les ennemis si le pouvoir est maintenu. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Attaque avec une pique de verre cassant, ou balaye les ennemis si le pouvoir est maintenu. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur Pique Cassante."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Ailes Rasoirs",
-                    "description": "R\u00e9duit sa taille et s'envole, pendant que des lamillons attaquent les ennemis proches."
+                    "description": "R\u00e9duit sa taille et s'envole, pendant que des lamillons attaquent les ennemis proches et amplifient les D\u00e9g\u00e2ts qu'ils subissent."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Ailes Rasoirs",
-                    "description": "R\u00e9duit sa taille et s'envole, pendant que des lamillons attaquent les ennemis proches."
+                    "description": "R\u00e9duit sa taille et s'envole, pendant que des lamillons attaquent les ennemis proches et amplifient les D\u00e9g\u00e2ts qu'ils subissent."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "\u00catre en contact avec le sol rend insensible aux effets de renversement.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "\u00c9boulement",
-                    "description": "Ass\u00e9nez des coups de poing explosifs en glissant vers les ennemis et r\u00e9p\u00e9tez pour un combo d\u00e9vastateur. Les ennemis p\u00e9trifi\u00e9s prennent des d\u00e9g\u00e2ts suppl\u00e9mentaires et l\u00e2chent des Gravats une fois d\u00e9truits. Les Gravats peuvent soigner Atlas et renforcer son armure. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Frappez vos ennemis avec un coup de poing explosif et r\u00e9p\u00e9tez l'op\u00e9ration pour un combo d\u00e9vastateur de 3 coups. Chaque coup suivant dans le combo augmente le rayon de l'attaque et r\u00e9duit le co\u00fbt en \u00c9nergie. Les statistiques sont am\u00e9lior\u00e9es par les Mods \u00e9quip\u00e9s sur \u00c9boulement."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "P\u00e9trification",
-                    "description": "Le regard p\u00e9trifiant d'Atlas fossilisera les ennemis, soignera les Golems et renforcera les Remparts. Quand ils sont \u00e9clat\u00e9s en morceaux, les ennemis p\u00e9trifi\u00e9s laissent tomber des Gravats de soin ou d'Armure bonus pour Atlas."
+                    "description": "Le regard p\u00e9trifiant d'Atlas fossilisera les ennemis, augmentant les d\u00e9g\u00e2ts qu'ils subissent, soignera les Golems et renforcera les Remparts. Quand ils sont \u00e9clat\u00e9s en morceaux, les ennemis p\u00e9trifi\u00e9s laissent tomber des Gravats de soin ou d'Armure bonus pour Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "\u00catre en contact avec le sol rend insensible aux effets de renversement.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "\u00c9boulement",
-                    "description": "Ass\u00e9nez des coups de poing explosifs en glissant vers les ennemis et r\u00e9p\u00e9tez pour un combo d\u00e9vastateur. Les ennemis p\u00e9trifi\u00e9s prennent des d\u00e9g\u00e2ts suppl\u00e9mentaires et l\u00e2chent des Gravats une fois d\u00e9truits. Les Gravats peuvent soigner Atlas et renforcer son armure. Les stats sont augment\u00e9es par les Mods \u00e9quip\u00e9s sur l'arme de M\u00eal\u00e9e."
+                    "description": "Frappez vos ennemis avec un coup de poing explosif et r\u00e9p\u00e9tez l'op\u00e9ration pour un combo d\u00e9vastateur de 3 coups. Chaque coup suivant dans le combo augmente le rayon de l'attaque et r\u00e9duit le co\u00fbt en \u00c9nergie. Les statistiques sont am\u00e9lior\u00e9es par les Mods \u00e9quip\u00e9s sur \u00c9boulement."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "P\u00e9trification",
-                    "description": "Le regard p\u00e9trifiant d'Atlas fossilisera les ennemis, soignera les Golems et renforcera les Remparts. Quand ils sont \u00e9clat\u00e9s en morceaux, les ennemis p\u00e9trifi\u00e9s laissent tomber des Gravats de soin ou d'Armure bonus pour Atlas."
+                    "description": "Le regard p\u00e9trifiant d'Atlas fossilisera les ennemis, augmentant les d\u00e9g\u00e2ts qu'ils subissent, soignera les Golems et renforcera les Remparts. Quand ils sont \u00e9clat\u00e9s en morceaux, les ennemis p\u00e9trifi\u00e9s laissent tomber des Gravats de soin ou d'Armure bonus pour Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",

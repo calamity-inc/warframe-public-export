@@ -70,6 +70,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Interface/Graphics/CustomUI/Backgrounds/RetroBackground",
+            "name": "Plano de Fundo do POM-2",
+            "description": "Um plano de fundo de interface personalizado.",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Interface/Graphics/CustomUI/Backgrounds/SpringFestivalBackground",
             "name": "Plano de Fundo da Renova\u00e7\u00e3o Lunar",
             "description": "Um plano de fundo de interface personalizado.",
@@ -426,6 +433,13 @@
         {
             "uniqueName": "/Lotus/Interface/Graphics/CustomUI/OrokinStyle",
             "name": "Tema Orokin",
+            "description": "Um tema de cores personalizadas para a interface do usu\u00e1rio.",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Interface/Graphics/CustomUI/RetroStyle",
+            "name": "Tema do POM-2",
             "description": "Um tema de cores personalizadas para a interface do usu\u00e1rio.",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -1661,6 +1675,12 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Arcade/CaliberChicksArcadeItem",
+            "name": "Cartucho Ludoplex (Caliber Chicks 2)",
+            "description": "Jogue o Caliber Chicks 2 no seu Ludoplex. Um Ludoplex pode ser adquirido junto ao Cephalon Simaris em qualquer Relay.",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Arcade/FlappyArcadeItem",
             "name": "Happy Zephyr",
             "description": "Conduza a Zephyr em seguran\u00e7a conforme ela bate suas asas por diversos obst\u00e1culos cada vez mais dif\u00edceis.",
@@ -1670,6 +1690,12 @@
             "uniqueName": "/Lotus/Types/Items/Arcade/FrameFighterArcadeItem",
             "name": "Frame Fighter",
             "description": "Escolha um Warframe e enfrente oponentes em um combate mano a mano.",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Arcade/OlliesCrashCourseArcadeItem",
+            "name": "Cartucho Ludoplex (Corrida do Ollie)",
+            "description": "Jogue a Corrida do Ollie no seu Ludoplex. Um Ludoplex pode ser adquirido junto ao Cephalon Simaris em qualquer Relay.",
             "codexSecret": false
         },
         {
@@ -1895,6 +1921,18 @@
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/DanceDJRomHype",
+            "name": "\u00c1pice da Batida",
+            "description": "Para quando \u00e9 hora de soltar o batid\u00e3o. Adquirido de um Tecn\u00f3cito Coda.",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Emotes/DanceDrillbitCrisscross",
+            "name": "Cruzamento",
+            "description": "Quando a excita\u00e7\u00e3o \u00e9 muita para ficar parado no ch\u00e3o. Adquirido de um Tecn\u00f3cito Coda.",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/DanceElbowWave",
             "name": "Gingar",
             "description": "Balance de um lado para o outro.",
@@ -1916,6 +1954,12 @@
             "uniqueName": "/Lotus/Types/Items/Emotes/DanceHandsUp",
             "name": "Levantar as m\u00e3os",
             "description": "Coloque suas m\u00e3os no ar.",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Emotes/DanceHarddrivePony",
+            "name": "Cavaleiro Solit\u00e1rio",
+            "description": "Prepare-se, parceiro. Adquirido de um Tecn\u00f3cito Coda.",
             "codexSecret": false
         },
         {
@@ -1955,6 +1999,12 @@
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/DancePacketWindmillShuffle",
+            "name": "Passo do Cata-Vento",
+            "description": "Estes movimentos antiquados s\u00e3o legais at\u00e9 demais para a escola. Adquirido de um Tecn\u00f3cito Coda.",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/DanceReachAcrossHips",
             "name": "Outro N\u00edvel",
             "description": "Esteja no passo certo com estes movimentos de dan\u00e7a entusiasmantes.",
@@ -1976,6 +2026,12 @@
             "uniqueName": "/Lotus/Types/Items/Emotes/DanceTurnReverseTurn",
             "name": "Giro com piv\u00f4",
             "description": "Um passo para a esquerda\u2026 um giro para a direita\u2026 e segue o baile!",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Emotes/DanceZekeCanthavethis",
+            "name": "N\u00e3o-Me-Toque",
+            "description": "N\u00e3o importa o quanto voc\u00ea queira, voc\u00ea n\u00e3o consegue. Adquirido de um Tecn\u00f3cito Coda.",
             "codexSecret": false
         },
         {
@@ -2251,15 +2307,39 @@
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryFlareEmote",
+            "name": "Emote Gemini do Flare",
+            "description": "Alterne entre o Temple e a Skin Gemini do Flare com o Emote Gemini do Flare, at\u00e9 mesmo durante suas miss\u00f5es.",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryKayaEmote",
+            "name": "Emote Gemini da Kaya",
+            "description": "Alterne entre a Nova e a Skin Gemini da Kaya com o Emote Gemini da Kaya, at\u00e9 mesmo durante suas miss\u00f5es.",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryLettieEmote",
             "name": "Emote Gemini da L\u00ea",
             "description": "Alterne entre a Trinity e a Skin Gemini da L\u00ea com o Emote Gemini da L\u00ea, at\u00e9 mesmo durante suas miss\u00f5es.",
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryMinervaEmote",
+            "name": "Emote Gemini da Minerva",
+            "description": "Alterne entre a Saryn e a Skin Gemini da Minerva com o Emote Gemini da Minerva, at\u00e9 mesmo durante suas miss\u00f5es.",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryQuincyEmote",
             "name": "Emote Gemini do Quincy",
             "description": "Alterne entre o Cyte-09 e a Skin Gemini do Quincy com o Emote Gemini do Quincy, at\u00e9 mesmo durante suas miss\u00f5es.",
+            "codexSecret": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Emotes/LegendaryVelimirEmote",
+            "name": "Emote Gemini do Velimir",
+            "description": "Alterne entre o Frost e a Skin Gemini do Velimir com o Emote Gemini do Velimir, at\u00e9 mesmo durante suas miss\u00f5es.",
             "codexSecret": false
         },
         {
@@ -2372,6 +2452,12 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/Tennocon2025Emote",
+            "name": "Emote Riftguard da TennoCon",
+            "description": "Este emote alterna a Syandana Riftguard da TennoCon entre suas formas intacta e danificada pelo Void. Criado para celebrar o d\u00e9cimo anivers\u00e1rio da TennoCon em 2025.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/ThousandDaysEmote",
             "name": "Mil Dias",
             "description": "Concedido aos Tennos que demonstraram uma dedica\u00e7\u00e3o inabal\u00e1vel.",
@@ -2401,6 +2487,13 @@
             "uniqueName": "/Lotus/Types/Items/Events/TennoConRelay2024EarlyAccess",
             "name": "Ingresso para o Relay do Baro",
             "description": "Voc\u00ea ter\u00e1 acesso a todo o invent\u00e1rio do Baro durante o Relay da TennoCon 2024:\r\na partir do dia 20 de julho de 2024, \u00e0s 12:00h (BRT), at\u00e9 o dia 27 de julho de 2024, \u00e0s 12:00h (BRT).",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Events/TennoConRelay2025EarlyAccess",
+            "name": "Ingresso para o Relay do Baro",
+            "description": "Obtenha acesso a todo o invent\u00e1rio do Baro no Relay da TennoCon 2025:\r\na partir do dia 19 de julho de 2025, \u00e0s 12:00h (BRT), at\u00e9 o dia 26 de julho de 2025, \u00e0s 12:00h (BRT).",
             "codexSecret": false,
             "excludeFromCodex": true
         },
@@ -6011,6 +6104,12 @@
             "codexSecret": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageGyreDeluxe",
+            "name": "Glifo: Gyre Vortengeist",
+            "description": "Um glifo retratando a Gyre Vortengeist.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageHildrynDeluxe",
             "name": "Glifo: Hildryn Einheri",
             "description": "Um glifo retratando a Hildryn Einheri.",
@@ -6215,6 +6314,30 @@
             "codexSecret": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageTempleAltBright",
+            "name": "Glifo: Temple Rockett (Claro)",
+            "description": "Um glifo retratando o Temple Rockett em um fundo claro.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageTempleAltDark",
+            "name": "Glifo: Temple Rockett (Escuro)",
+            "description": "Um glifo retratando o Temple Rockett em um fundo escuro.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageTempleBright",
+            "name": "Glifo: Temple (Claro)",
+            "description": "Um glifo retratando o Temple em um fundo claro.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageTempleDark",
+            "name": "Glifo: Temple (Escuro)",
+            "description": "Um glifo retratando o Temple em um fundo escuro.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageTitaniaDeluxeII",
             "name": "Glifo: Titania Donann",
             "description": "Um glifo retratando a Titania Donann.",
@@ -6297,6 +6420,12 @@
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/KoumeiSupporterGlyph",
             "name": "Glifo: Koumei Ito",
             "description": "Invoque a tecel\u00e3 do destino.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Warframes/TempleSupporterGlyph",
+            "name": "Glifo: Chifres do Temple",
+            "description": "Um Glifo de arrasar para o seu perfil.",
             "codexSecret": true
         },
         {
@@ -6481,6 +6610,12 @@
             "codexSecret": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityDante",
+            "name": "Glifo: Dante (Comunidade)",
+            "description": "Um glifo da Comunidade retratando o Dante, desenvolvido por VoliOsnowong.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityEquinox",
             "name": "Glifo: Equinox (Comunidade)",
             "description": "Um glifo da Comunidade retratando a Equinox, desenvolvido por CalamityDeath.",
@@ -6490,6 +6625,12 @@
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityGaruda",
             "name": "Glifo: Garuda (Comunidade)",
             "description": "Um glifo da Comunidade retratando a Garuda, desenvolvido por ibumuc.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityGyre",
+            "name": "Glifo: Gyre (Comunidade)",
+            "description": "Um glifo da Comunidade retratando a Gyre, desenvolvido por SpaceWaifu.",
             "codexSecret": true
         },
         {
@@ -6526,6 +6667,18 @@
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityRevenant",
             "name": "Glifo: Revenant (Comunidade)",
             "description": "Um glifo da Comunidade retratando o Revenant, desenvolvido por Kirdy.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunitySaryn",
+            "name": "Glifo: Saryn (Comunidade)",
+            "description": "Um glifo da Comunidade retratando a Saryn, desenvolvido por MuraCasardis.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityStyanax",
+            "name": "Glifo: Styanax (Comunidade)",
+            "description": "Um glifo da Comunidade retratando o Styanax, desenvolvido por CleoNaturin.",
             "codexSecret": true
         },
         {
@@ -6580,6 +6733,12 @@
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityTitania",
             "name": "Glifo: Titania (Comunidade)",
             "description": "Um glifo da Comunidade retratando a Titania, desenvolvido por Ritens.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityWisp",
+            "name": "Glifo: Wisp (Comunidade)",
+            "description": "Um glifo da Comunidade retratando a Wisp, desenvolvido por Finlaena.",
             "codexSecret": true
         },
         {
@@ -7821,6 +7980,12 @@
             "codexSecret": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImagePride2025Glyph",
+            "name": "Glifo: Orgulho LGBTQIA+ IV",
+            "description": "Este Glifo, criado por TadaCharly, celebra o Orgulho LGBTQIA+.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImagePrideCommunity",
             "name": "Glifo: Orgulho LGBTQIA+ I",
             "description": "Este Glifo, criado por Debbysheen, celebra o Orgulho LGBTQIA+.",
@@ -7895,6 +8060,12 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageSpecialEffectGlyph",
+            "name": "Glifo: SpecialEffect",
+            "description": "Um glifo retratando a institui\u00e7\u00e3o de caridade SpecialEffect.",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageStalkerAction",
             "name": "Glifo: Stalker em A\u00e7\u00e3o",
             "description": "Um Glifo para o seu perfil.",
@@ -7928,6 +8099,12 @@
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoVIP",
             "name": "Glifo: Tenno VIP do Leste",
+            "description": "Um glifo para o Tenno VIP.",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoVIP2Glyph",
+            "name": "Glifo: TennoVIP 2025",
             "description": "Um glifo para o Tenno VIP.",
             "codexSecret": true
         },
@@ -11431,6 +11608,12 @@
             "description": "Um Glifo para o seu perfil.",
             "codexSecret": true,
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/TennoCon2025Glyph",
+            "name": "Glifo: TennoCon 2025",
+            "description": "Um glifo criado para celebrar o d\u00e9cimo anivers\u00e1rio da TennoCon em 2025.",
+            "codexSecret": true
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/TwinSnakesGlyph",
@@ -30274,6 +30457,20 @@
             "uniqueName": "/Lotus/Upgrades/Skins/Sentient/UnlockSentientNoble",
             "name": "Anima\u00e7\u00f5es: Caliban (Nobre)",
             "description": "Este item permite usar as anima\u00e7\u00f5es nobres do Caliban em qualquer Warframe de sua escolha.",
+            "codexSecret": true,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Skins/Temple/UnlockTempleAgile",
+            "name": "Anima\u00e7\u00f5es: Temple (\u00c1gil)",
+            "description": "Este item permite usar as anima\u00e7\u00f5es \u00e1geis do Temple em qualquer Warframe de sua escolha.",
+            "codexSecret": true,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Skins/Temple/UnlockTempleNoble",
+            "name": "Anima\u00e7\u00f5es: Temple (Nobre)",
+            "description": "Este item permite usar as anima\u00e7\u00f5es nobres do Temple em qualquer Warframe de sua escolha.",
             "codexSecret": true,
             "excludeFromCodex": true
         },

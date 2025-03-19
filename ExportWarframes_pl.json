@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Pe\u0142en blasku i uzbrojony w zainfekowan\u0105 gitar\u0119, Lizzie, Temple rozpala p\u0142omienie rewolucji swoimi mocnymi akordami.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "U\u017cycie umiej\u0119tno\u015bci zgodnie z metronomem Synkopy wzmacnia ich efekty i przyznaje |COST|% Wydajno\u015bci.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pirotechnika",
+                    "description": "Razi wskazanych wrog\u00f3w strumieniami <DT_FIRE_COLOR>Obr. od Ognia.\r\n\r\n<b>Wyczucie Synkopy:</b> Podpalaj jeszcze wi\u0119ksz\u0105 ilo\u015bci\u0105 strumieni. Zwi\u0119kszony Czas trwania i <DT_FIRE_COLOR> Obr. od Ognia Lamentu Rippera, kiedy zadaje obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Przester",
+                    "description": "Przesterowanie g\u0142o\u015bnik\u00f3w tworzy epickie zak\u0142\u00f3cenia, rani\u0105ce wrog\u00f3w falami <DT_FIRE_COLOR>Obr. od Ognia i zwi\u0119kszaj\u0105ce ich podatno\u015b\u0107 na Szans\u0119 Obr. Krytycznych.\r\n\r\n<b>Wyczucie Synkopy:</b> Zwi\u0119kszona Szansa Obr. Krytycznych. Zwi\u0119kszony Czas trwania i <DT_FIRE_COLOR> Obr. od Ognia Lamentu Rippera, kiedy zadaje obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Lament Rippera",
+                    "description": "Ostra sol\u00f3wka na gitarze czyni Temple'a tymczasowo niewra\u017cliwym na obra\u017cenia i leczy go. Bro\u0144 sojusznik\u00f3w w <AFFINITY_SHARE> Zasi\u0119gu Bieg\u0142o\u015bci otrzymuje premi\u0119 <DT_FIRE_COLOR> Obr. od Ognia za ka\u017cdym razem, gdy umiej\u0119tno\u015b\u0107 zostanie u\u017cyta z Synkop\u0105.\r\n\r\n<b>Wyczucie Synkopy:</b> Niewra\u017cliwo\u015b\u0107 trwa d\u0142u\u017cej."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Egzaltowana Sol\u00f3wka",
+                    "description": "Kiedy wska\u017anik Synkopy metronomu jest pe\u0142en, rozpal Lizzie i spopiel wrog\u00f3w <DT_FIRE_COLOR>Obr. od Ognia. Podczas celowania Lizzie razi wrog\u00f3w pot\u0119\u017cnymi falami d\u017awi\u0119kowymi \u017cywio\u0142\u00f3w. Typ obra\u017ce\u0144 mo\u017ce zosta\u0107 zmieniony przez akcje u\u017cycia umiej\u0119tno\u015bci.\r\n\r\n<b>Wyczucie Synkopy:</b> Nie zu\u017cywa Energii."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "<DT_SLASH_COLOR>Efekt Statusu Obr. Tn\u0105cych u wrog\u00f3w zadaje |DAMAGE|% wi\u0119cej obra\u017ce\u0144 i trwa d\u0142u\u017cej o |DURATION|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleportuje si\u0119 do celu, inicjuj\u0105c walk\u0119 w zwarciu i sprawiaj\u0105c, \u017ce wr\u00f3g jest podatny na ataki dobijaj\u0105ce."
+                    "description": "Teleportuj si\u0119 do celu i wykonaj Dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej Energii."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Burza Ostrzy",
-                    "description": "Tworzy projekcje cienistych klon\u00f3w Asha atakuj\u0105cych zaznaczonych przeciwnik\u00f3w. Do\u0142\u0105cz do walki, bez kosztu energetycznego za pomoc\u0105 Teleportu."
+                    "description": "Tworzy okrutne Klony Cienia Asha atakuj\u0105ce oznaczonych przeciwnik\u00f3w. Do\u0142\u0105cz do walki za pomoc\u0105 Teleportacji. Klony Cienia mo\u017cna ulepsza\u0107 za pomoc\u0105 Mod\u00f3w."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "<DT_SLASH>Efekt Statusu Obr. Tn\u0105cych u wrog\u00f3w zadaje |DAMAGE|% wi\u0119cej obra\u017ce\u0144 i trwa d\u0142u\u017cej o |DURATION|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleportuje si\u0119 do celu, inicjuj\u0105c walk\u0119 w zwarciu i sprawiaj\u0105c, \u017ce wr\u00f3g jest podatny na ataki dobijaj\u0105ce."
+                    "description": "Teleportuj si\u0119 do celu i wykonaj Dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej Energii."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Burza Ostrzy",
-                    "description": "Tworzy projekcje cienistych klon\u00f3w Asha atakuj\u0105cych zaznaczonych przeciwnik\u00f3w. Do\u0142\u0105cz do walki, bez kosztu energetycznego za pomoc\u0105 Teleportu."
+                    "description": "Tworzy okrutne Klony Cienia Asha atakuj\u0105ce oznaczonych przeciwnik\u00f3w. Do\u0142\u0105cz do walki za pomoc\u0105 Teleportacji. Klony Cienia mo\u017cna ulepsza\u0107 za pomoc\u0105 Mod\u00f3w."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Okrutny kavat, Venari, walczy u boku Khory i zapewnia jej  |SPEED|% zwi\u0119kszenie pr\u0119dko\u015bci poruszania, kiedy jest aktywna. Je\u015bli zostanie zabita, to po kr\u00f3tkim czasie, Venari pojawi si\u0119 ponownie po |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Biczoszpon",
-                    "description": "Og\u0142uszaj wrog\u00f3w trza\u015bni\u0119ciem pot\u0119\u017cnego bicza. Statystyki Umiej\u0119tno\u015bci s\u0105 wzmacniane przez wyposa\u017cone Mody broni bia\u0142ej."
+                    "description": "Og\u0142uszaj wrog\u00f3w trza\u015bni\u0119ciem pot\u0119\u017cnego bicza. Statystyki s\u0105 zale\u017cne tak\u017ce od Mod\u00f3w wyposa\u017conych przez Biczoszpon."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Okrutny kavat, Venari, walczy u boku Khory i zapewnia jej  |SPEED|% zwi\u0119kszenie pr\u0119dko\u015bci poruszania, kiedy jest aktywna. Je\u015bli zostanie zabita, to po kr\u00f3tkim czasie, Venari pojawi si\u0119 ponownie po |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Biczoszpon",
-                    "description": "Og\u0142uszaj wrog\u00f3w trza\u015bni\u0119ciem pot\u0119\u017cnego bicza. Statystyki Umiej\u0119tno\u015bci s\u0105 wzmacniane przez wyposa\u017cone Mody broni bia\u0142ej."
+                    "description": "Og\u0142uszaj wrog\u00f3w trza\u015bni\u0119ciem pot\u0119\u017cnego bicza. Statystyki s\u0105 zale\u017cne tak\u017ce od Mod\u00f3w wyposa\u017conych przez Biczoszpon."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "U\u017cycie Umiej\u0119tno\u015bci przez Gar\u0119 mo\u017ce o\u015blepi\u0107 pobliskich wrog\u00f3w na |DURATION| sekund.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "St\u0142uczony Bat",
-                    "description": "Trza\u015bnij batem strumienia rozbitego szk\u0142a lub przytrzymaj, by wykona\u0107 zamach. Statystyki Umiej\u0119tno\u015bci s\u0105 wzmacniane przez wyposa\u017cone Mody broni bia\u0142ej."
+                    "description": "Trza\u015bnij batem strumienia rozbitego szk\u0142a lub przytrzymaj, by wykona\u0107 zamach. Statystyki s\u0105 zale\u017cne tak\u017ce od Mod\u00f3w wyposa\u017conych przez St\u0142uczony Bat."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "U\u017cycie Umiej\u0119tno\u015bci przez Gar\u0119 mo\u017ce o\u015blepi\u0107 pobliskich wrog\u00f3w na |DURATION| sekund.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "St\u0142uczony Bat",
-                    "description": "Trza\u015bnij batem strumienia rozbitego szk\u0142a lub przytrzymaj, by wykona\u0107 zamach. Statystyki Umiej\u0119tno\u015bci s\u0105 wzmacniane przez wyposa\u017cone Mody broni bia\u0142ej."
+                    "description": "Trza\u015bnij batem strumienia rozbitego szk\u0142a lub przytrzymaj, by wykona\u0107 zamach. Statystyki s\u0105 zale\u017cne tak\u017ce od Mod\u00f3w wyposa\u017conych przez St\u0142uczony Bat."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Skrzyd\u0142oostrze",
-                    "description": "Zmniejsza swe rozmiary pozwalaj\u0105c na lot, Brzytwomotyle w tym czasie atakuj\u0105 przeciwnik\u00f3w."
+                    "description": "Zmniejsza swe rozmiary pozwalaj\u0105c na lot, Brzytwomotyle w tym czasie atakuj\u0105 przeciwnik\u00f3w i wzmacniaj\u0105 zadawane obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Skrzyd\u0142oostrze",
-                    "description": "Zmniejsza swe rozmiary pozwalaj\u0105c na lot, Brzytwomotyle w tym czasie atakuj\u0105 przeciwnik\u00f3w."
+                    "description": "Zmniejsza swe rozmiary pozwalaj\u0105c na lot, Brzytwomotyle w tym czasie atakuj\u0105 przeciwnik\u00f3w i wzmacniaj\u0105 zadawane obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Niewra\u017cliwo\u015b\u0107 na Powalenie, kiedy znajduje si\u0119 na ziemi.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Osuwisko",
-                    "description": "Uderzaj we wrog\u00f3w pot\u0119\u017cnym ciosem w \u015blizgu, i powtarzaj atak, aby wywo\u0142a\u0107 niszczycielsk\u0105 kombinacj\u0119. Wr\u00f3g pod wp\u0142ywem Petryfikacji otrzyma dodatkowe obra\u017cenia i rozpadnie si\u0119 zostawiaj\u0105c Gruz, kt\u00f3ry uleczy Atlasa i wzmocni jego pancerz. Statystyki s\u0105 wzmacniane poprzez wyposa\u017cone mody broni bia\u0142ej."
+                    "description": "Uderzaj we wrog\u00f3w pot\u0119\u017cnym ciosem w \u015blizgu i powtarzaj atak, aby wykona\u0107 potr\u00f3jne niszczycielskie kombo. Ka\u017cde uderzenie kombo zwi\u0119ksza zasi\u0119g ataku i obni\u017ca jego koszt Energii. Statystyki s\u0105 zale\u017cne od Mod\u00f3w wyposa\u017conych przez Osuwisko."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petryfikacja",
-                    "description": "Kamienny wzrok Atlasa petryfikuje wrog\u00f3w, uzdrawia Pi\u0119\u015bciarzy i tworzy Skamienia\u0142e Bastiony. Kiedy zostan\u0105 rozbici, skamieniali wrogowie rozpadaj\u0105 si\u0119 w Gruz uzdrawiaj\u0105cy Atlasa."
+                    "description": "Kamienny wzrok Atlasa petryfikuje wrog\u00f3w, zwi\u0119kszaj\u0105c obra\u017cenia, jakie otrzymuj\u0105, uzdrawia Pi\u0119\u015bciarzy i tworzy Skamienia\u0142e Bastiony. Kiedy zostan\u0105 rozbici, skamieniali wrogowie rozpadaj\u0105 si\u0119 w Gruz uzdrawiaj\u0105cy Atlasa."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Niewra\u017cliwo\u015b\u0107 na Powalenie, kiedy znajduje si\u0119 na ziemi.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Osuwisko",
-                    "description": "Uderzaj we wrog\u00f3w pot\u0119\u017cnym ciosem w \u015blizgu, i powtarzaj atak, aby wywo\u0142a\u0107 niszczycielsk\u0105 kombinacj\u0119. Wr\u00f3g pod wp\u0142ywem Petryfikacji otrzyma dodatkowe obra\u017cenia i rozpadnie si\u0119 zostawiaj\u0105c Gruz, kt\u00f3ry uleczy Atlasa i wzmocni jego pancerz. Statystyki s\u0105 wzmacniane poprzez wyposa\u017cone mody broni bia\u0142ej."
+                    "description": "Uderzaj we wrog\u00f3w pot\u0119\u017cnym ciosem w \u015blizgu i powtarzaj atak, aby wykona\u0107 potr\u00f3jne niszczycielskie kombo. Ka\u017cde uderzenie kombo zwi\u0119ksza zasi\u0119g ataku i obni\u017ca jego koszt Energii. Statystyki s\u0105 zale\u017cne od Mod\u00f3w wyposa\u017conych przez Osuwisko."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petryfikacja",
-                    "description": "Kamienny wzrok Atlasa petryfikuje wrog\u00f3w, uzdrawia Pi\u0119\u015bciarzy i tworzy Skamienia\u0142e Bastiony. Kiedy zostan\u0105 rozbici, skamieniali wrogowie rozpadaj\u0105 si\u0119 w Gruz uzdrawiaj\u0105cy Atlasa."
+                    "description": "Kamienny wzrok Atlasa petryfikuje wrog\u00f3w, zwi\u0119kszaj\u0105c obra\u017cenia, jakie otrzymuj\u0105, uzdrawia Pi\u0119\u015bciarzy i tworzy Skamienia\u0142e Bastiony. Kiedy zostan\u0105 rozbici, skamieniali wrogowie rozpadaj\u0105 si\u0119 w Gruz uzdrawiaj\u0105cy Atlasa."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -4441,7 +4502,7 @@
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStunAbility",
-            "abilityName": "Naznaczony \u015amierci\u0105",
+            "abilityName": "Skazany na \u015bmier\u0107",
             "description": "Og\u0142usz wroga, a cz\u0105stka kolejnych zadanych obra\u017ce\u0144 zostanie przekazana wszystkim wrogom wok\u00f3\u0142 niego."
         },
         {

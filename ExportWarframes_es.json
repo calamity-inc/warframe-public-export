@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Resplandeciente de glamour y con una guitarra infestada en mano, Lizzie, los acordes potentes de Temple encienden las llamas de la revoluci\u00f3n.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Toca habilidades en sincron\u00eda con el metr\u00f3nomo Contratiempo para fortalecer los efectos de las habilidades mientras aumentas la eficiencia de habilidad en un |COST| %.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pirotecnia",
+                    "description": "Golpea a los enemigos seleccionados con pilares de da\u00f1o de <DT_FIRE_COLOR>calor. \r\n\r\n<b>Sincronizaci\u00f3n de Contratiempo:</b> enciende a\u00fan m\u00e1s pilares. Aumenta la duraci\u00f3n y el da\u00f1o de <DT_FIRE_COLOR>calor de Lamento de Ripper cuando causa da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Sobremarcha",
+                    "description": "Lleva los altavoces a una distorsi\u00f3n \u00e9pica para crear una ola de da\u00f1o de <DT_FIRE_COLOR>calor y al mismo tiempo aumentar la vulnerabilidad a la probabilidad cr\u00edtica. \r\n\r\n<b>Sincronizaci\u00f3n de Contratiempo:</b> duplica la probabilidad cr\u00edtica. Aumenta la duraci\u00f3n y el da\u00f1o de <DT_FIRE_COLOR>calor de Lamento del Ripper al infligir da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Lamento del Ripper",
+                    "description": "Toca la guitarra para hacer que Temple sea invulnerable por poco tiempo mientras se le cura. Las armas de los aliados en el rango de <AFFINITY_SHARE>afinidad se iluminan con da\u00f1o de <DT_FIRE_COLOR>calor adicional cada vez que se usa una habilidad en Contratiempo.\r\n\r\n<b>Sincronizaci\u00f3n de Contratiempo:</b> la invulnerabilidad dura m\u00e1s."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Solo exaltado",
+                    "description": "Una vez que se haya acumulado una carga en el metr\u00f3nomo Contratiempo, prende fuego a Lizzie y quema a los enemigos con <DT_FIRE_COLOR>calor. Mientras apunta, Lizzie ataca a los enemigos con ondas de sonido elementales estruendosas. Usa los controles de habilidad para cambiar el tipo de da\u00f1o elemental.\r\n\r\n<b>Sincronizaci\u00f3n de Contratiempo:</b> no se consume energ\u00eda."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Los efectos de estado <DT_SLASH_COLOR>cortante infligidos en los enemigos causan un |DAMAGE| % m\u00e1s de da\u00f1o y duran un |DURATION| % m\u00e1s.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teletransportaci\u00f3n",
-                    "description": "Ash se teletransporta hacia el objetivo, acerc\u00e1ndose al alcance de combate cuerpo a cuerpo y haciendo a sus enemigos vulnerables a remates."
+                    "description": "Teletransp\u00f3rtate a un objetivo y realiza un remate. Si el remate mata al objetivo, Ash recupera una porci\u00f3n de la energ\u00eda gastada."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Tormenta de espadas",
-                    "description": "Proyecta feroces clones de sombra de Ash sobre grupos de enemigos distantes. \u00danete al combate al usar Teletransportaci\u00f3n."
+                    "description": "Proyecta feroces clones de sombra de Ash sobre grupos de enemigos distantes. \u00danete a la lucha usando Teletransportaci\u00f3n. Los clones de sombra se pueden mejorar con mods."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "Los efectos de estado <DT_SLASH>cortante infligidos en los enemigos causan un |DAMAGE| % m\u00e1s de da\u00f1o y duran un |DURATION| % m\u00e1s.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teletransportaci\u00f3n",
-                    "description": "Ash se teletransporta hacia el objetivo, acerc\u00e1ndose al alcance de combate cuerpo a cuerpo y haciendo a sus enemigos vulnerables a remates."
+                    "description": "Teletransp\u00f3rtate a un objetivo y realiza un remate. Si el remate mata al objetivo, Ash recupera una porci\u00f3n de la energ\u00eda gastada."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Tormenta de espadas",
-                    "description": "Proyecta feroces clones de sombra de Ash sobre grupos de enemigos distantes. \u00danete al combate al usar Teletransportaci\u00f3n."
+                    "description": "Proyecta feroces clones de sombra de Ash sobre grupos de enemigos distantes. \u00danete a la lucha usando Teletransportaci\u00f3n. Los clones de sombra se pueden mejorar con mods."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "La feroz kavat, Venari, lucha al lado de Khora y le otorga un |SPEED| % velocidad adicional mientras est\u00e1 activa. Si muere, Venari reaparecer\u00e1 tras |RESPAWN| s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
-                    "abilityName": "L\u00e1tigo Garra",
-                    "description": "Deja a los enemigos tambale\u00e1ndose con un latigazo ensordecedor. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "abilityName": "L\u00e1tigo garra",
+                    "description": "Deja a los enemigos tambale\u00e1ndose con un latigazo ensordecedor. Las estad\u00edsticas se mejoran con los mods equipados en L\u00e1tigo garra."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "La feroz kavat, Venari, lucha al lado de Khora y le otorga un |SPEED| % velocidad adicional mientras est\u00e1 activa. Si muere, Venari reaparecer\u00e1 tras |RESPAWN| s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
-                    "abilityName": "L\u00e1tigo Garra",
-                    "description": "Deja a los enemigos tambale\u00e1ndose con un latigazo ensordecedor. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "abilityName": "L\u00e1tigo garra",
+                    "description": "Deja a los enemigos tambale\u00e1ndose con un latigazo ensordecedor. Las estad\u00edsticas se mejoran con los mods equipados en L\u00e1tigo garra."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "La probabilidad de crear un destello radial que dure |DURATION| s cuando Gara lanza sus habilidades.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Latigazo quebrantado",
-                    "description": "Lanza violentamente un flujo de vidrio fragmentado o mant\u00e9n para realizar un ataque arqueado. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "description": "Lanza violentamente un flujo de vidrio fragmentado o mant\u00e9n para realizar un ataque arqueado. Las estad\u00edsticas se mejoran con los mods equipados a L\u00e1tigo quebrantado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "La probabilidad de crear un destello radial que dure |DURATION| s cuando Gara lanza sus habilidades.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Latigazo quebrantado",
-                    "description": "Lanza violentamente un flujo de vidrio fragmentado o mant\u00e9n para realizar un ataque arqueado. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "description": "Lanza violentamente un flujo de vidrio fragmentado o mant\u00e9n para realizar un ataque arqueado. Las estad\u00edsticas se mejoran con los mods equipados a L\u00e1tigo quebrantado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Alas afiladas",
-                    "description": "Reduce su tama\u00f1o y alza el vuelo, mientras las mariposas navaja atacan a los enemigos cercanos."
+                    "description": "Reduce su tama\u00f1o y alza el vuelo mientras las mariposas navaja atacan a los enemigos cercanos y amplifican el da\u00f1o que reciben."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Alas afiladas",
-                    "description": "Reduce su tama\u00f1o y alza el vuelo, mientras las mariposas navaja atacan a los enemigos cercanos."
+                    "description": "Reduce su tama\u00f1o y alza el vuelo mientras las mariposas navaja atacan a los enemigos cercanos y amplifican el da\u00f1o que reciben."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Inmunidad a los efectos de derribo cuando est\u00e1 en el suelo.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Desprendimiento",
-                    "description": "Aporrea a los enemigos con un explosivo pu\u00f1etazo deslizante y repite para un combo devastador. Los enemigos petrificados reciben da\u00f1o extra y dejan caer Escombros cuando son destruidos. Los Escombros pueden sanar a Atlas y reforzar su armadura. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "description": "Aporrea a los enemigos con un explosivo pu\u00f1etazo deslizante y repite para un combo devastador. Cada golpe subsecuente en un combo aumenta el alcance del ataque y reduce su costo de energ\u00eda. Las estad\u00edsticas aumentan con los mods equipados en Desprendimiento."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrificar",
-                    "description": "La mirada petrificante de Atlas fosilizar\u00e1 a los enemigos, sanar\u00e1 a los Retumbos y crear\u00e1 Rompeolas Petrificados. Cuando son destruidos, los enemigos petrificados dejan Escombros sanadores para Atlas."
+                    "description": "La mirada petrificante de Atlas fosilizar\u00e1 a los enemigos, lo que aumentar\u00e1 el da\u00f1o que reciben, sanar\u00e1 a los Retumbos y crear\u00e1 Rompeolas Petrificados. Cuando son destruidos, los enemigos petrificados dejan Escombros sanadores para Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Inmunidad a los efectos de derribo cuando est\u00e1 en el suelo.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Desprendimiento",
-                    "description": "Aporrea a los enemigos con un explosivo pu\u00f1etazo deslizante y repite para un combo devastador. Los enemigos petrificados reciben da\u00f1o extra y dejan caer Escombros cuando son destruidos. Los Escombros pueden sanar a Atlas y reforzar su armadura. Las estad\u00edsticas se mejoran con los mods de las armas cuerpo a cuerpo equipadas."
+                    "description": "Aporrea a los enemigos con un explosivo pu\u00f1etazo deslizante y repite para un combo devastador. Cada golpe subsecuente en un combo aumenta el alcance del ataque y reduce su costo de energ\u00eda. Las estad\u00edsticas aumentan con los mods equipados en Desprendimiento."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrificar",
-                    "description": "La mirada petrificante de Atlas fosilizar\u00e1 a los enemigos, sanar\u00e1 a los Retumbos y crear\u00e1 Rompeolas Petrificados. Cuando son destruidos, los enemigos petrificados dejan Escombros sanadores para Atlas."
+                    "description": "La mirada petrificante de Atlas fosilizar\u00e1 a los enemigos, lo que aumentar\u00e1 el da\u00f1o que reciben, sanar\u00e1 a los Retumbos y crear\u00e1 Rompeolas Petrificados. Cuando son destruidos, los enemigos petrificados dejan Escombros sanadores para Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",

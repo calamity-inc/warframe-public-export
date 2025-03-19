@@ -5341,7 +5341,7 @@
                 },
                 {
                     "stats": [
-                        "Lethal ground attacks cause enemies to explode dealing +1000",
+                        "Lethal ground attacks cause enemies to explode dealing +1,000",
                         "(+20% Enemy Max Health) <DT_EXPLOSION_COLOR>Blast Damage",
                         "in a +10m radius.",
                         "+1 'Entropy'"
@@ -13333,13 +13333,13 @@
                 {
                     "stats": [
                         "+83 Health per hit",
-                        "+1000 Overguard Max"
+                        "+1,000 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+100 Health per hit",
-                        "+1200 Overguard Max"
+                        "+1,200 Overguard Max"
                     ]
                 }
             ]
@@ -13865,43 +13865,43 @@
                 {
                     "stats": [
                         "+83 Health per hit",
-                        "+1000 Overguard Max"
+                        "+1,000 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+100 Health per hit",
-                        "+1200 Overguard Max"
+                        "+1,200 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+117 Health per hit",
-                        "+1400 Overguard Max"
+                        "+1,400 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+133 Health per hit",
-                        "+1600 Overguard Max"
+                        "+1,600 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+150 Health per hit",
-                        "+1800 Overguard Max"
+                        "+1,800 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+167 Health per hit",
-                        "+2000 Overguard Max"
+                        "+2,000 Overguard Max"
                     ]
                 },
                 {
                     "stats": [
                         "+183 Health per hit",
-                        "+2200 Overguard Max"
+                        "+2,200 Overguard Max"
                     ]
                 }
             ]
@@ -13976,43 +13976,6 @@
                     "stats": [
                         "+60% <DT_POISON_COLOR>Toxin",
                         "+60% Status Chance"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
-            "name": "Magnetic Claws",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 4,
-            "fusionLimit": 3,
-            "compatName": "Claws",
-            "type": "MELEE",
-            "levelStats": [
-                {
-                    "stats": [
-                        "+15% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+10% Status Duration"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+30% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+20% Status Duration"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+45% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+30% Status Duration"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+60% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+40% Status Duration"
                     ]
                 }
             ]
@@ -33199,43 +33162,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
-            "name": "Magnetic Rush",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 4,
-            "fusionLimit": 3,
-            "compatName": "Melee",
-            "type": "MELEE",
-            "levelStats": [
-                {
-                    "stats": [
-                        "+15% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+5% Attack Speed"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+30% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+10% Attack Speed"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+45% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+15% Attack Speed"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+60% <DT_MAGNETIC_COLOR>Magnetic",
-                        "+20% Attack Speed"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod",
             "name": "Vicious Frost",
             "polarity": "AP_ATTACK",
@@ -33835,6 +33761,118 @@
             "type": "PARAZON",
             "description": [
                 "To cosmic forms from tangent planes\r\n\r\nWe end as we began"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusTwoMod",
+            "name": "Worm Away",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Get rid of malware, spyware, wetware and worms"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusThreeMod",
+            "name": "Trojan Tracker",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Eliminating sneaky viruses since 1989"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusSixMod",
+            "name": "Soft Safe",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Keeping software safe by ALWAYS WATCHING"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusSevenMod",
+            "name": "Anti-V",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Digital extremists stand no chance when you have Anti-V on your side"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusOneMod",
+            "name": "ByteRyte",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Keeps your bytes tight and your bits fit"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusFourMod",
+            "name": "Keep-Clean",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "There's no Clean like Keep-Clean"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusFiveMod",
+            "name": "Drive-Duster",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Your digital virus buster"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Immortal/AntivirusEightMod",
+            "name": "Computer Cop",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "description": [
+                "Stopping cyber-crime in its tracks"
             ]
         },
         {
@@ -35224,6 +35262,171 @@
                     "stats": [
                         "+85% Critical Damage",
                         "+60% Heavy Attack Wind Up Speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+            "name": "Quick Correct",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 10% chance to drop a Live Heartcell "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 10% chance to drop a Live Heartcell "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 10% chance to drop a Live Heartcell "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 10% chance to drop a Live Heartcell "
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+            "name": "Immuno Shield",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 5000 Affinity"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 5000 Affinity"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 5000 Affinity"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 5000 Affinity"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
+            "name": "Instant Secure",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 10,000 H\u00f6llars"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 10,000 H\u00f6llars"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 10,000 H\u00f6llars"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 15% Disinfection and gain 10,000 H\u00f6llars"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod",
+            "name": "Threat Blocker",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop a Potency mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop a Potency mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop a Potency mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop a Potency mod"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+            "name": "Turbo Protect",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "Parazon",
+            "type": "PARAZON",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop an Antivirus mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop an Antivirus mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop an Antivirus mod"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain 10% Disinfection and 25% chance to drop an Antivirus mod"
                     ]
                 }
             ]
@@ -43399,32 +43602,32 @@
             "levelStats": [
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 91."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 5% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 },
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 133."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 10% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 },
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 175."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 15% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 },
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 216."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 20% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 },
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 258."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 25% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 },
                 {
                     "stats": [
-                        "The kubrow comes to the defense of its master, replenishing their shields by 300."
+                        "[PH]The kubrow comes to the defense of its master, replenishing both of their shields by 30% of its maximum shields and adding its shield regeneration rate to its master's for 3s."
                     ]
                 }
             ]
@@ -45198,6 +45401,40 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Wisp/WispSunAugmentCard",
+            "name": "Cataclysmic Gate",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Wisp",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Wisp/WispBaseSuit",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Sol Gate Augment : Wisp and 2 spectral images cast a single blast of Sol Gate, leaving an area with 500 <DT_FIRE_COLOR>Heat Damage / Second with guaranteed Heat and Radiation Status Effects for 5s. "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Sol Gate Augment : Wisp and 2 spectral images cast a single blast of Sol Gate, leaving an area with 500 <DT_FIRE_COLOR>Heat Damage / Second with guaranteed Heat and Radiation Status Effects for 7s. "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Sol Gate Augment : Wisp and 2 spectral images cast a single blast of Sol Gate, leaving an area with 500 <DT_FIRE_COLOR>Heat Damage / Second with guaranteed Heat and Radiation Status Effects for 8s. "
+                    ]
+                },
+                {
+                    "stats": [
+                        "Sol Gate Augment : Wisp and 2 spectral images cast a single blast of Sol Gate, leaving an area with 500 <DT_FIRE_COLOR>Heat Damage / Second with guaranteed Heat and Radiation Status Effects for 10s. "
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Wisp/WispReservoirAugmentCard",
             "name": "Fused Reservoir",
             "polarity": "AP_POWER",
@@ -46142,22 +46379,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Sandstorm Augment: Sandstorm gains 20% Ability Range and has a 25% chance of inflicting Status Effects based on the Damage Types and mods on the equipped Melee Weapon."
+                        "Sandstorm Augment: Sandstorm gains 20% Ability Range and has a 25% chance of inflicting Status Effects based on the Damage Types on the equipped Melee Weapon."
                     ]
                 },
                 {
                     "stats": [
-                        "Sandstorm Augment: Sandstorm gains 30% Ability Range and has a 50% chance of inflicting Status Effects based on the Damage Types and mods on the equipped Melee Weapon."
+                        "Sandstorm Augment: Sandstorm gains 30% Ability Range and has a 50% chance of inflicting Status Effects based on the Damage Types on the equipped Melee Weapon."
                     ]
                 },
                 {
                     "stats": [
-                        "Sandstorm Augment: Sandstorm gains 40% Ability Range and has a 75% chance of inflicting Status Effects based on the Damage Types and mods on the equipped Melee Weapon."
+                        "Sandstorm Augment: Sandstorm gains 40% Ability Range and has a 75% chance of inflicting Status Effects based on the Damage Types on the equipped Melee Weapon."
                     ]
                 },
                 {
                     "stats": [
-                        "Sandstorm Augment: Sandstorm gains 50% Ability Range and has a 100% chance of inflicting Status Effects based on the Damage Types and mods on the equipped Melee Weapon."
+                        "Sandstorm Augment: Sandstorm gains 50% Ability Range and has a 100% chance of inflicting Status Effects based on the Damage Types on the equipped Melee Weapon."
                     ]
                 }
             ]
@@ -47321,7 +47558,7 @@
         },
         {
             "uniqueName": "/Lotus/Powersuits/Ninja/TeleportToAugmentCard",
-            "name": "Fatal Teleport",
+            "name": "Teleport Rush",
             "polarity": "AP_POWER",
             "rarity": "RARE",
             "codexSecret": false,
@@ -47333,22 +47570,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Teleport Augment: Teleport will perform a Finisher on the target, dealing 125% Extra Damage. 50% of Energy cost is refunded on a kill."
+                        "Teleport Augment: Using Teleport increases Parkour Velocity by 15% for 12s. Executing a target with Teleport extends Smoke Screen's duration by 5s. Mercy Kills fully refresh the duration."
                     ]
                 },
                 {
                     "stats": [
-                        "Teleport Augment: Teleport will perform a Finisher on the target, dealing 150% Extra Damage. 50% of Energy cost is refunded on a kill."
+                        "Teleport Augment: Using Teleport increases Parkour Velocity by 20% for 12s. Executing a target with Teleport extends Smoke Screen's duration by 5s. Mercy Kills fully refresh the duration."
                     ]
                 },
                 {
                     "stats": [
-                        "Teleport Augment: Teleport will perform a Finisher on the target, dealing 175% Extra Damage. 50% of Energy cost is refunded on a kill."
+                        "Teleport Augment: Using Teleport increases Parkour Velocity by 25% for 12s. Executing a target with Teleport extends Smoke Screen's duration by 5s. Mercy Kills fully refresh the duration."
                     ]
                 },
                 {
                     "stats": [
-                        "Teleport Augment: Teleport will perform a Finisher on the target, dealing 200% Extra Damage. 50% of Energy cost is refunded on a kill."
+                        "Teleport Augment: Using Teleport increases Parkour Velocity by 30% for 12s. Executing a target with Teleport extends Smoke Screen's duration by 5s. Mercy Kills fully refresh the duration."
                     ]
                 }
             ]
@@ -47401,22 +47638,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Smoke Screen Augment: Conceals allies within 8m for 2s and grants 60% Critical Chance while invisible."
+                        "Smoke Screen Augment: Conceals allies within 8m and grants 60% Critical Chance while invisible."
                     ]
                 },
                 {
                     "stats": [
-                        "Smoke Screen Augment: Conceals allies within 10m for 4s and grants 90% Critical Chance while invisible."
+                        "Smoke Screen Augment: Conceals allies within 10m and grants 90% Critical Chance while invisible."
                     ]
                 },
                 {
                     "stats": [
-                        "Smoke Screen Augment: Conceals allies within 12m for 6s and grants 120% Critical Chance while invisible."
+                        "Smoke Screen Augment: Conceals allies within 12m and grants 120% Critical Chance while invisible."
                     ]
                 },
                 {
                     "stats": [
-                        "Smoke Screen Augment: Conceals allies within 15m for 8s and grants 150% Critical Chance while invisible."
+                        "Smoke Screen Augment: Conceals allies within 15m and grants 150% Critical Chance while invisible."
                     ]
                 }
             ]
@@ -47435,22 +47672,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Blade Storm Augment: Blade Storm attacks increase your Melee Counter by 1.\r\nPassive: +10s Combo Duration"
+                        "Blade Storm Augment: Blade Storm attacks increase your Ability Combo Counter by 1.\r\nPassive: +10s Combo Duration"
                     ]
                 },
                 {
                     "stats": [
-                        "Blade Storm Augment: Blade Storm attacks increase your Melee Counter by 2.\r\nPassive: +10s Combo Duration"
+                        "Blade Storm Augment: Blade Storm attacks increase your Ability Combo Counter by 2.\r\nPassive: +10s Combo Duration"
                     ]
                 },
                 {
                     "stats": [
-                        "Blade Storm Augment: Blade Storm attacks increase your Melee Counter by 3.\r\nPassive: +10s Combo Duration"
+                        "Blade Storm Augment: Blade Storm attacks increase your Ability Combo Counter by 3.\r\nPassive: +10s Combo Duration"
                     ]
                 },
                 {
                     "stats": [
-                        "Blade Storm Augment: Blade Storm attacks increase your Melee Counter by 4.\r\nPassive: +10s Combo Duration"
+                        "Blade Storm Augment: Blade Storm attacks increase your Ability Combo Counter by 4.\r\nPassive: +10s Combo Duration"
                     ]
                 }
             ]
@@ -48488,6 +48725,40 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Koumei/KoumeiFortuneAugmentCard",
+            "name": "Omikuji's Fortune",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Koumei",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Omikuji Augment: Reduce Omikuji's Cooldown by 1s when you kill an enemy with the weapon affected by Koumei's Passive."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Omikuji Augment: Reduce Omikuji's Cooldown by 2s when you kill an enemy with the weapon affected by Koumei's Passive."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Omikuji Augment: Reduce Omikuji's Cooldown by 3s when you kill an enemy with the weapon affected by Koumei's Passive."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Omikuji Augment: Reduce Omikuji's Cooldown by 4s when you kill an enemy with the weapon affected by Koumei's Passive."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Khora/KhoraKavatAugmentCard",
             "name": "Venari Bodyguard",
             "polarity": "AP_POWER",
@@ -49265,6 +49536,40 @@
                 {
                     "stats": [
                         "Coil Horizon Augment: Gyratory Sphere can be recalled. Enemies in its radius suffer 500 <DT_ELECTRICITY_COLOR> Electricity Damage and chain other enemies. Enemies pulled into detonation suffer additional discharges."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePulseAugmentCard",
+            "name": "Conductive Sphere",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Gyre",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Arcsphere Augment: Projectiles that pass through Arcsphere have guaranteed <DT_ELECTRICITY_COLOR>Electricity Status Effect and +15% <DT_ELECTRICITY_COLOR>Electricity Damage."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Arcsphere Augment: Projectiles that pass through Arcsphere have guaranteed <DT_ELECTRICITY_COLOR>Electricity Status Effect and +35% <DT_ELECTRICITY_COLOR>Electricity Damage."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Arcsphere Augment: Projectiles that pass through Arcsphere have guaranteed <DT_ELECTRICITY_COLOR>Electricity Status Effect and +55% <DT_ELECTRICITY_COLOR>Electricity Damage."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Arcsphere Augment: Projectiles that pass through Arcsphere have guaranteed <DT_ELECTRICITY_COLOR>Electricity Status Effect and +75% <DT_ELECTRICITY_COLOR>Electricity Damage."
                     ]
                 }
             ]
@@ -50132,40 +50437,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Powersuits/Ember/FireSkinAugmentCard",
-            "name": "Immolated Radiance",
-            "polarity": "AP_POWER",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 3,
-            "compatName": "Ember",
-            "type": "WARFRAME",
-            "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
-            "levelStats": [
-                {
-                    "stats": [
-                        "Immolation Augment: Allies within Affinity range will receive 20% of Immolation's Damage Reduction."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Immolation Augment: Allies within Affinity range will receive 30% of Immolation's Damage Reduction."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Immolation Augment: Allies within Affinity range will receive 40% of Immolation's Damage Reduction."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Immolation Augment: Allies within Affinity range will receive 50% of Immolation's Damage Reduction."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Powersuits/Ember/FireBlastPvPAugmentCard",
             "name": "Purifying Flames",
             "polarity": "AP_POWER",
@@ -50775,6 +51046,40 @@
                 {
                     "stats": [
                         "Containment Wall Augment: Strip 50% of armor and shields from struck enemies. Hitting 5 or more enemies will restart the duration of any Chyrinka Pillars and empower them."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/ConcreteFrame/ConcreteLaserAugmentCard",
+            "name": "Fused Crucible",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Qorvex",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Crucible Blast Augment: Becomes a channeled ability consuming <LOWER_IS_BETTER>35 <ENERGY> Energy/s that ramps up. While active Chyrinka Pillars trigger chain reactions and their duration is frozen. Mobility is greatly reduced."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Crucible Blast Augment: Becomes a channeled ability consuming <LOWER_IS_BETTER>30 <ENERGY> Energy/s that ramps up. While active Chyrinka Pillars trigger chain reactions and their duration is frozen. Mobility is greatly reduced."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Crucible Blast Augment: Becomes a channeled ability consuming <LOWER_IS_BETTER>25 <ENERGY> Energy/s that ramps up. While active Chyrinka Pillars trigger chain reactions and their duration is frozen. Mobility is greatly reduced."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Crucible Blast Augment: Becomes a channeled ability consuming <LOWER_IS_BETTER>20 <ENERGY> Energy/s that ramps up. While active Chyrinka Pillars trigger chain reactions and their duration is frozen. Mobility is greatly reduced."
                     ]
                 }
             ]
@@ -56151,8 +56456,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -56468,8 +56773,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -66730,8 +67035,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -76985,8 +77290,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -87240,8 +87545,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -97498,8 +97803,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -107101,8 +107406,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -107123,6 +107428,9 @@
                         {
                             "value": 0.0133,
                             "locTag": "|val|% <DT_PUNCTURE_COLOR>Puncture"
+                        },
+                        {
+                            "value": 0.066500001
                         }
                     ]
                 },
@@ -107134,6 +107442,9 @@
                         {
                             "value": 0.0133,
                             "locTag": "|val|% <DT_IMPACT_COLOR>Impact"
+                        },
+                        {
+                            "value": 0.066500001
                         }
                     ]
                 },
@@ -107145,6 +107456,9 @@
                         {
                             "value": 0.0133,
                             "locTag": "|val|% <DT_SLASH_COLOR>Slash"
+                        },
+                        {
+                            "value": 0.066500001
                         }
                     ]
                 },
@@ -117602,7 +117916,7 @@
             "levelStats": [
                 {
                     "stats": [
-                        "x1.025 Damage to Corpus"
+                        "x1.03 Damage to Corpus"
                     ]
                 },
                 {
@@ -117612,7 +117926,7 @@
                 },
                 {
                     "stats": [
-                        "x1.075 Damage to Corpus"
+                        "x1.08 Damage to Corpus"
                     ]
                 },
                 {
@@ -117635,7 +117949,7 @@
             "levelStats": [
                 {
                     "stats": [
-                        "x1.025 Damage to Grineer"
+                        "x1.03 Damage to Grineer"
                     ]
                 },
                 {
@@ -117645,7 +117959,7 @@
                 },
                 {
                     "stats": [
-                        "x1.075 Damage to Grineer"
+                        "x1.08 Damage to Grineer"
                     ]
                 },
                 {
@@ -117668,7 +117982,7 @@
             "levelStats": [
                 {
                     "stats": [
-                        "x1.025 Damage to Infested"
+                        "x1.03 Damage to Infested"
                     ]
                 },
                 {
@@ -117678,7 +117992,7 @@
                 },
                 {
                     "stats": [
-                        "x1.075 Damage to Infested"
+                        "x1.08 Damage to Infested"
                     ]
                 },
                 {
@@ -124449,8 +124763,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124472,8 +124786,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124495,8 +124809,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124518,8 +124832,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124541,8 +124855,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124564,8 +124878,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124587,8 +124901,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124610,8 +124924,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124632,8 +124946,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -124654,8 +124968,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": -35854047,
-            "fusionLimit": 32755,
+            "baseDrain": 196628,
+            "fusionLimit": 0,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {

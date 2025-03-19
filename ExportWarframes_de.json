@@ -404,7 +404,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispLightAbility",
                     "abilityName": "Irrlicht",
-                    "description": "Schicke ein spektrales Abbild von Wisp voraus, um Gegner zu verwirren und abzulenken. Erneute Aktivierung l\u00e4sst dich zur Position das Abbilds reisen. Halten, damit sich das Abbild schneller bewegt und beim Loslassen direkt zur Position teleportiert wird."
+                    "description": "Schicke ein spektrales Abbild von Wisp voraus, um Gegner zu verwirren und abzulenken. Erneute Aktivierung l\u00e4sst dich zur Position des Abbilds reisen. Halten, damit sich das Abbild schneller bewegt und beim Loslassen direkt zur Position teleportiert wird."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
@@ -442,7 +442,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispLightAbility",
                     "abilityName": "Irrlicht",
-                    "description": "Schicke ein spektrales Abbild von Wisp voraus, um Gegner zu verwirren und abzulenken. Erneute Aktivierung l\u00e4sst dich zur Position das Abbilds reisen. Halten, damit sich das Abbild schneller bewegt und beim Loslassen direkt zur Position teleportiert wird."
+                    "description": "Schicke ein spektrales Abbild von Wisp voraus, um Gegner zu verwirren und abzulenken. Erneute Aktivierung l\u00e4sst dich zur Position des Abbilds reisen. Halten, damit sich das Abbild schneller bewegt und beim Loslassen direkt zur Position teleportiert wird."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Tempel",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Voller Glamour und bewaffnet mit deren Gitarre Lizzie, entz\u00fcnden die m\u00e4chtigen Akkorde von Temple die Flammen der Revolution.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Spiele F\u00e4higkeiten synchron mit dem Backbeat-Metronom, um F\u00e4higkeitseffekte zu verst\u00e4rken und gleichzeitig die F\u00e4higkeitseffizienz um |COST| % zu steigern.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pyrotechnik",
+                    "description": "Triff anvisierte Gegner mit S\u00e4ulen aus <DT_FIRE_COLOR>Hitzeschaden. \r\n\r\n<b>Backbeat-Timing</b>: Entz\u00fcndet weitere S\u00e4ulen. Erh\u00f6ht die Dauer und den <DT_FIRE_COLOR>Hitzeschaden von Rippers Heulen, wenn es Schaden verursacht."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "\u00dcbersteuerung",
+                    "description": "Treibe Lautsprecher in eine epische Verzerrung, um eine zerst\u00f6rerische Welle aus <DT_FIRE_COLOR>Hitzeschaden zu erzeugen und gleichzeitig Schw\u00e4che f\u00fcr Krit. Chance zu erh\u00f6hen.\r\n\r\n<b>Backbeat-Timing</b>: Verdoppelt Krit. Chance. Erh\u00f6ht die Dauer und den <DT_FIRE_COLOR>Hitzeschaden von Rippers Heulen, wenn es Schaden verursacht."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Rippers Heulen",
+                    "description": "Lasse die Gitarrensaiten erzittern, um Temple kurzzeitig unverwundbar zu machen und w\u00e4hrenddessen zu heilen. Waffen von Verb\u00fcndeten in <AFFINITY_SHARE>Erfahrungs-Reichweite leuchten auf und verursachen zus\u00e4tzlichen <DT_FIRE_COLOR>Hitzeschaden, wenn eine F\u00e4higkeit im Backbeat eingesetzt wird.\r\n\r\n<b>Backbeat-Timing</b>: Unverwundbarkeit h\u00e4lt l\u00e4nger an."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Erhabenes Solo",
+                    "description": "Sobald das Backbeat-Metronom aufgeladen ist, setze Lizzie in Brand und verbrenne Gegner mit <DT_FIRE_COLOR>Hitze. Beim Zielen trifft Lizzie Gegner mit donnernden Elementarschallwellen. Die Art des Elementarschadens l\u00e4sst sich \u00fcber die F\u00e4higkeitssteuerung \u00e4ndern.\r\n\r\n<b>Backbeat-Timing:</b> Es wird keine Energie verbraucht."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1017,7 +1058,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
                     "abilityName": "Thermale Zweisamkeit",
-                    "description": "Sch\u00f6pfe kinetische Energie aus der Umgebung ab, lade die Batterie auf und f\u00fcge nahen Gegner <DT_FREEZE_COLOR>K\u00e4ltestatus zu. Halten kehrt den Vorgang um, leert die Batterie und f\u00fcgt nahen Feinden <DT_FIRE_COLOR>Hitzestatus zu."
+                    "description": "Sch\u00f6pfe kinetische Energie aus der Umgebung ab, lade die Batterie auf und f\u00fcge nahen Gegner <DT_FREEZE_COLOR>K\u00e4lte-Status zu. Halten kehrt den Vorgang um, leert die Batterie und f\u00fcgt nahen Feinden <DT_FIRE_COLOR>Hitze-Status zu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
@@ -1055,7 +1096,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
                     "abilityName": "Thermale Zweisamkeit",
-                    "description": "Sch\u00f6pfe kinetische Energie aus der Umgebung ab, lade die Batterie auf und f\u00fcge nahen Gegner <DT_FREEZE_COLOR>K\u00e4ltestatus zu. Halten kehrt den Vorgang um, leert die Batterie und f\u00fcgt nahen Feinden <DT_FIRE_COLOR>Hitzestatus zu."
+                    "description": "Sch\u00f6pfe kinetische Energie aus der Umgebung ab, lade die Batterie auf und f\u00fcge nahen Gegner <DT_FREEZE_COLOR>K\u00e4lte-Status zu. Halten kehrt den Vorgang um, leert die Batterie und f\u00fcgt nahen Feinden <DT_FIRE_COLOR>Hitze-Status zu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "<DT_SLASH_COLOR>Schnitt-Statuseffekte verursachen bei Feinden |DAMAGE| % mehr Schaden und halten |DURATION| % l\u00e4nger an.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleportiert sich zum Ziel, bringt sich dadurch in Nahkampfreichweite und macht Gegner verwundbar f\u00fcr Todesst\u00f6\u00dfe."
+                    "description": "Teleportiere dich zu einem Ziel und f\u00fchre einen Todessto\u00df aus. T\u00f6tet der Todessto\u00df das Ziel, erh\u00e4lt Ash einen Teil der Energie zur\u00fcck."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Klingensturm",
-                    "description": "Projiziere t\u00f6dliche Schattenklone von Ash auf entfernte Gruppen von Gegnern. Um dem Kampf beizutreten, nutze \"Teleport\"!"
+                    "description": "Projiziere t\u00f6dliche Schattenklone von Ash auf entfernte Gruppen von Gegnern. Nutze Teleport, um dem Kampf beizutreten. Die Schattenklone k\u00f6nnen mit Mods verbessert werden."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "<DT_SLASH>Schnitt-Statuseffekte verursachen bei Feinden |DAMAGE| % mehr Schaden und halten |DURATION| % l\u00e4nger an.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleportiert sich zum Ziel, bringt sich dadurch in Nahkampfreichweite und macht Gegner verwundbar f\u00fcr Todesst\u00f6\u00dfe."
+                    "description": "Teleportiere dich zu einem Ziel und f\u00fchre einen Todessto\u00df aus. T\u00f6tet der Todessto\u00df das Ziel, erh\u00e4lt Ash einen Teil der Energie zur\u00fcck."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Klingensturm",
-                    "description": "Projiziere t\u00f6dliche Schattenklone von Ash auf entfernte Gruppen von Gegnern. Um dem Kampf beizutreten, nutze \"Teleport\"!"
+                    "description": "Projiziere t\u00f6dliche Schattenklone von Ash auf entfernte Gruppen von Gegnern. Nutze Teleport, um dem Kampf beizutreten. Die Schattenklone k\u00f6nnen mit Mods verbessert werden."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Die wilde Kavat, Venari, k\u00e4mpft an Khoras Seite und verleiht ihr w\u00e4hrenddessen |SPEED| % erh\u00f6hte Geschwindigkeit. Wird sie get\u00f6tet, erscheint Venari nach |RESPAWN| s erneut.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Klauenpeitsche",
-                    "description": "Bringe Feinde mit einem ohrenbet\u00e4ubenden Peitschenknall ins Taumeln. Werte werden durch ausger\u00fcstete Nahkampfwaffen-Mods geboostet."
+                    "description": "Bringe Feinde mit einem ohrenbet\u00e4ubenden Peitschenknall ins Taumeln. Werte werden durch ausger\u00fcstete Mods auf Klauenpeitsche geboostet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Die wilde Kavat, Venari, k\u00e4mpft an Khoras Seite und verleiht ihr w\u00e4hrenddessen |SPEED| % erh\u00f6hte Geschwindigkeit. Wird sie get\u00f6tet, erscheint Venari nach |RESPAWN| s erneut.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Klauenpeitsche",
-                    "description": "Bringe Feinde mit einem ohrenbet\u00e4ubenden Peitschenknall ins Taumeln. Werte werden durch ausger\u00fcstete Nahkampfwaffen-Mods geboostet."
+                    "description": "Bringe Feinde mit einem ohrenbet\u00e4ubenden Peitschenknall ins Taumeln. Werte werden durch ausger\u00fcstete Mods auf Klauenpeitsche geboostet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Chance auf radiale Blendung, die |DURATION| s anh\u00e4lt, wenn Gara F\u00e4higkeiten einsetzt.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Zerschmetterte Peitsche",
-                    "description": "Schlage mit einem Strom aus Glassplittern zu, oder halte, um einen weitreichenden Schlag auszuf\u00fchren. Werte werden durch ausger\u00fcstete Nahkampfwaffen-Mods geboostet."
+                    "description": "Schlage mit einem Strom aus Glassplittern zu, oder halte, um einen weitreichenden Schlag auszuf\u00fchren. Werte werden durch ausger\u00fcstete Mods auf Zerschmetterte Peitsche geboostet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Chance auf radiale Blendung, die |DURATION| s anh\u00e4lt, wenn Gara F\u00e4higkeiten einsetzt.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Zerschmetterte Peitsche",
-                    "description": "Schlage mit einem Strom aus Glassplittern zu, oder halte, um einen weitreichenden Schlag auszuf\u00fchren. Werte werden durch ausger\u00fcstete Nahkampfwaffen-Mods geboostet."
+                    "description": "Schlage mit einem Strom aus Glassplittern zu, oder halte, um einen weitreichenden Schlag auszuf\u00fchren. Werte werden durch ausger\u00fcstete Mods auf Zerschmetterte Peitsche geboostet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Klingenfl\u00fcgel",
-                    "description": "Schrumpfe und erhebe dich in die L\u00fcfte, w\u00e4hrend Klingenfliegen in der N\u00e4he befindliche Gegner angreifen."
+                    "description": "Schrumpfe und erhebe dich in die L\u00fcfte, w\u00e4hrend Klingenfliegen nahe Gegner angreifen und den Schaden, den sie nehmen, verst\u00e4rken."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Klingenfl\u00fcgel",
-                    "description": "Schrumpfe und erhebe dich in die L\u00fcfte, w\u00e4hrend Klingenfliegen in der N\u00e4he befindliche Gegner angreifen."
+                    "description": "Schrumpfe und erhebe dich in die L\u00fcfte, w\u00e4hrend Klingenfliegen nahe Gegner angreifen und den Schaden, den sie nehmen, verst\u00e4rken."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Wird immun gegen Niederschlagseffekte, w\u00e4hrend er am Boden ist.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Erdrutsch",
-                    "description": "Zerschmettere Gegner mit explosiven Rutschangriffen und wiederhole es, f\u00fcr m\u00e4chtige Kombos. Versteinerte Gegner nehmen zus\u00e4tzlichen Schaden und lassen bei Zerst\u00f6rung Schutt fallen. Schutt kann Atlas heilen und st\u00e4rkt seine R\u00fcstung. Die Werte werden durch ausger\u00fcstete Mods f\u00fcr Nahkampfwaffen verbessert."
+                    "description": "Triff deine Gegner mit einem explosiven Rutschangriff und wiederhole dies f\u00fcr eine verheerende 3-Schlag-Kombo. Jeder weitere Treffer in der Kombo vergr\u00f6\u00dfert den Angriffsradius und reduziert die Energiekosten. Die Werte werden durch die ausger\u00fcsteten Mods von Erdrutsch verbessert."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Versteinern",
-                    "description": "Atlas harter Blick versteinert Gegner, heilt Rumbler und erstellt versteinerte Bollwerke. Wenn sie zerschmettert werden, lassen versteinerte Gegner heilenden Schutt f\u00fcr Atlas fallen."
+                    "description": "Atlas' harter Blick versteinert Gegner und erh\u00f6ht deren Schaden, heilt Rumbler und erschafft versteinerte Bollwerke. Zerschmettert, lassen versteinerte Gegner heilende Tr\u00fcmmer f\u00fcr Atlas fallen."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Wird immun gegen Niederschlagseffekte, w\u00e4hrend er am Boden ist.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Erdrutsch",
-                    "description": "Zerschmettere Gegner mit explosiven Rutschangriffen und wiederhole es, f\u00fcr m\u00e4chtige Kombos. Versteinerte Gegner nehmen zus\u00e4tzlichen Schaden und lassen bei Zerst\u00f6rung Schutt fallen. Schutt kann Atlas heilen und st\u00e4rkt seine R\u00fcstung. Die Werte werden durch ausger\u00fcstete Mods f\u00fcr Nahkampfwaffen verbessert."
+                    "description": "Triff deine Gegner mit einem explosiven Rutschangriff und wiederhole dies f\u00fcr eine verheerende 3-Schlag-Kombo. Jeder weitere Treffer in der Kombo vergr\u00f6\u00dfert den Angriffsradius und reduziert die Energiekosten. Die Werte werden durch die ausger\u00fcsteten Mods von Erdrutsch verbessert."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Versteinern",
-                    "description": "Atlas harter Blick versteinert Gegner, heilt Rumbler und erstellt versteinerte Bollwerke. Wenn sie zerschmettert werden, lassen versteinerte Gegner heilenden Schutt f\u00fcr Atlas fallen."
+                    "description": "Atlas' harter Blick versteinert Gegner und erh\u00f6ht deren Schaden, heilt Rumbler und erschafft versteinerte Bollwerke. Zerschmettert, lassen versteinerte Gegner heilende Tr\u00fcmmer f\u00fcr Atlas fallen."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",

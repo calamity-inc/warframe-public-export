@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Blazing with glamor and armed with an Infested guitar, Lizzie, Temple\u2019s power chords light the flames of revolution.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Play abilities in sync with the Backbeat metronome to invigorate ability effects while increasing Ability Efficiency by |COST|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pyrotechnics",
+                    "description": "Blast targeted enemies with pillars of <DT_FIRE_COLOR>Heat Damage. \r\n\r\n<b>Backbeat Timing:</b> Ignite even more pillars. Increases the Duration and <DT_FIRE_COLOR>Heat Damage of Ripper's Wail when it deals damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Overdrive",
+                    "description": "Drive loudspeakers into epic distortion to create a damaging wave of <DT_FIRE_COLOR>Heat Damage while also increasing vulnerability to Critical Chance. \r\n\r\n<b>Backbeat Timing:</b> Doubles Critical Chance. Increases the Duration and <DT_FIRE_COLOR>Heat Damage of Ripper\u2019s Wail when it deals damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Ripper's Wail",
+                    "description": "Rip on the guitar to make Temple briefly invulnerable while healing them. Ally\u2019s weapons in <AFFINITY_SHARE>Affinity Range are lit-up with extra <DT_FIRE_COLOR>Heat Damage each time an ability is used on the Backbeat.\r\n\r\n<b>Backbeat Timing:</b> Invulnerability lasts longer."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Exalted Solo",
+                    "description": "Once a charge has been built up on the Backbeat metronome, set Lizzie aflame and torch enemies with <DT_FIRE_COLOR>Heat. While aimed, Lizzie blasts enemies with thunderous elemental sound waves, use ability controls to change the Elemental Damage type.\r\n\r\n<b>Backbeat Timing:</b> No Energy consumed."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "<DT_SLASH_COLOR>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleports towards the target, bringing him into melee range and making enemies vulnerable to finishers."
+                    "description": "Teleport to a target and perform a Finisher. If the finisher kills the target, Ash regains a portion of the energy spent."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Blade Storm",
-                    "description": "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport."
+                    "description": "Project fierce Shadow Clones of Ash upon groups of distant enemies. Join the fray using Teleport. The Shadow Clones can be upgraded with mods."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "<DT_SLASH>Slash Status Effects inflicted on enemies do |DAMAGE|% increased damage and last |DURATION|% longer.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash teleports towards the target, bringing him into melee range and making enemies vulnerable to finishers."
+                    "description": "Teleport to a target and perform a Finisher. If the finisher kills the target, Ash regains a portion of the energy spent."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Blade Storm",
-                    "description": "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport."
+                    "description": "Project fierce Shadow Clones of Ash upon groups of distant enemies. Join the fray using Teleport. The Shadow Clones can be upgraded with mods."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Whipclaw",
-                    "description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "The ferocious kavat, Venari, fights by Khora's side and provides her with a |SPEED|% speed boost while active. If killed, Venari will reappear after |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Whipclaw",
-                    "description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Shattered Lash",
-                    "description": "Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped mods on Shattered Lash."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "A chance to create a radial blind lasting |DURATION|s when Gara casts Abilities.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Shattered Lash",
-                    "description": "Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped mods on Shattered Lash."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Shrink down and take flight, while razorflies attack nearby enemies."
+                    "description": "Shrink down and take flight, while razorflies attack nearby enemies and amplify the damage they take."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Shrink down and take flight, while razorflies attack nearby enemies."
+                    "description": "Shrink down and take flight, while razorflies attack nearby enemies and amplify the damage they take."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Landslide",
-                    "description": "Bash enemies with an explosive sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Bash enemies with an explosive sliding punch, repeat up to three times for a combo attack. Each hit in the three-punch combo increases the radius of the attack. Energy cost is reduced with each hit of Landslide. Install mods on the Landslide Fists to boost stats."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrify",
-                    "description": "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas."
+                    "description": "Atlas' hardened gaze will fossilize foes increasing the damage they take, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Becomes immune to Knockdown effects while on the ground.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Landslide",
-                    "description": "Bash enemies with an explosive sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor. Stats are boosted by the equipped melee weapon's mods."
+                    "description": "Bash enemies with an explosive sliding punch, repeat up to three times for a combo attack. Each hit in the three-punch combo increases the radius of the attack. Energy cost is reduced with each hit of Landslide. Install mods on the Landslide Fists to boost stats."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrify",
-                    "description": "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas."
+                    "description": "Atlas' hardened gaze will fossilize foes increasing the damage they take, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",

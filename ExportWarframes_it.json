@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Con un'eleganza risplendente e una chitarra Infested di nome Lizzie, gli accordi potenti di Temple accendono le fiamme della rivoluzione.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Esegui le abilit\u00e0 in sincronia con il metronomo Backbeat per potenziare gli effetti delle abilit\u00e0 e aumentare l'Efficienza Abilit\u00e0 del |COST|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pyrotechnics",
+                    "description": "Colpisci i nemici presi di mira con colonne di Danno <DT_FIRE_COLOR>Fuoco. \r\n\r\n<b>Metronomo Backbeat:</b> Aumenta la quantit\u00e0 di colonne, la Durata e i Danni <DT_FIRE_COLOR>Fuoco dell'abilit\u00e0 Ripper's Wail quando infligge danno."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Overdrive",
+                    "description": "Porta gli altoparlanti a una distorsione epica per creare un'ondata di Danno <DT_FIRE_COLOR>Fuoco, aumentando al contempo la vulnerabilit\u00e0 alla Probabilit\u00e0 Critico. \r\n\r\n<b>Metronomo Backbeat:</b> Raddoppia la Probabilit\u00e0 Critico. Aumenta la Durata e il Danno <DT_FIRE_COLOR>Fuoco dell'abilit\u00e0 Ripper\u2019s Wail quando infligge danno."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Ripper's Wail",
+                    "description": "Suona la chitarra per rendere Temple brevemente invulnerabile mentre viene curato. Le armi degli alleati nella <AFFINITY_SHARE>Portata Affinit\u00e0 si infiammano con Danno <DT_FIRE_COLOR>Fuoco aggiuntivo ogni volta che un'abilit\u00e0 viene utilizzata su Backbeat.\r\n\r\n<b>Metronomo Backbeat:</b> L'invulnerabilit\u00e0 dura pi\u00f9 a lungo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Exalted Solo",
+                    "description": "Una volta che \u00e8 stata accumulata una carica del metronomo Backbeat, dai fuoco a Lizzie e brucia i nemici con Danno <DT_FIRE_COLOR>Fuoco. Durante la mira Lizzie colpisce i nemici con onde sonore elementali, utilizza i comandi delle abilit\u00e0 per cambiare il tipo di Danno Elementale.\r\n\r\n<b>Metronomo Backbeat:</b> Non viene consumata Energia."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "L'effetto <DT_SLASH_COLOR>Taglio infligge il |DAMAGE|% in pi\u00f9 di danno e dura il |DURATION|% in pi\u00f9 sui nemici.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1793,12 +1837,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash si teletrasporta verso l'obiettivo, giungendo a portata di corpo a corpo e rendendo i nemici vulnerabili alle esecuzioni."
+                    "description": "Teletrasportati su un bersaglio ed esegui un'Esecuzione. Se uccide il bersaglio, Ash recupera una parte dell'energia utilizzata."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Blade Storm",
-                    "description": "Proietta dei feroci cloni d'ombra di Ash su un gruppo di nemici. Unisciti al massacro utlizzando Teleport."
+                    "description": "Proietta feroci Cloni d'Ombra di Ash su gruppi di nemici distanti. Unisciti al massacro utilizzando Teleport. I Cloni d'Ombra possono essere potenziati con i mod."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "L'effetto <DT_SLASH>Taglio infligge il |DAMAGE|% in pi\u00f9 di danno e dura il |DURATION|% in pi\u00f9 sui nemici.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1831,12 +1878,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Ash si teletrasporta verso l'obiettivo, giungendo a portata di corpo a corpo e rendendo i nemici vulnerabili alle esecuzioni."
+                    "description": "Teletrasportati su un bersaglio ed esegui un'Esecuzione. Se uccide il bersaglio, Ash recupera una parte dell'energia utilizzata."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
                     "abilityName": "Blade Storm",
-                    "description": "Proietta dei feroci cloni d'ombra di Ash su un gruppo di nemici. Unisciti al massacro utlizzando Teleport."
+                    "description": "Proietta feroci Cloni d'Ombra di Ash su gruppi di nemici distanti. Unisciti al massacro utilizzando Teleport. I Cloni d'Ombra possono essere potenziati con i mod."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,13 +2404,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Il feroce Kavat Venari combatte a fianco di Khora e le conferisce un aumento di velocit\u00e0 del |SPEED|% mentre \u00e8 attivo. Se ucciso, Venari ricomparir\u00e0 dopo |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Whipclaw",
-                    "description": "Stordisci i nemici con un fragore assordante. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Stordisci i nemici con un fragore assordante. Le statistiche sono potenziate dai mod equipaggiati su Whipclaw."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2398,13 +2446,14 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "Il feroce Kavat Venari combatte a fianco di Khora e le conferisce un aumento di velocit\u00e0 del |SPEED|% mentre \u00e8 attivo. Se ucciso, Venari ricomparir\u00e0 dopo |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
                     "abilityName": "Whipclaw",
-                    "description": "Stordisci i nemici con un fragore assordante. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Stordisci i nemici con un fragore assordante. Le statistiche sono potenziate dai mod equipaggiati su Whipclaw."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
@@ -2824,11 +2873,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Ha una possibilit\u00e0 di accecare i nemici per |DURATION|s quando Gara utilizza le Abilit\u00e0.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Shattered Lash",
-                    "description": "Attacca con un flusso di frammenti di vetro, o tieni premuto per un colpo ad arco. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Attacca con un flusso di frammenti di vetro, o tieni premuto per un colpo ad arco. Le statistiche sono potenziate dai mod equipaggiati su Shattered Lash."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -2862,11 +2914,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Ha una possibilit\u00e0 di accecare i nemici per |DURATION|s quando Gara utilizza le Abilit\u00e0.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
                     "abilityName": "Shattered Lash",
-                    "description": "Attacca con un flusso di frammenti di vetro, o tieni premuto per un colpo ad arco. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Attacca con un flusso di frammenti di vetro, o tieni premuto per un colpo ad arco. Le statistiche sono potenziate dai mod equipaggiati su Shattered Lash."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Rimpicciolisciti e prendi il volo, mentre razorflies attaccano i vicini nemici."
+                    "description": "Rimpicciolisciti e spicca il volo, mentre le razorflies attaccano i nemici vicini e amplificano i danni che subiscono."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Rimpicciolisciti e prendi il volo, mentre razorflies attaccano i vicini nemici."
+                    "description": "Rimpicciolisciti e spicca il volo, mentre le razorflies attaccano i nemici vicini e amplificano i danni che subiscono."
                 }
             ],
             "productCategory": "Suits"
@@ -3852,11 +3907,14 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Diventa immune agli Atterramenti quando ha i piedi al suolo.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Landslide",
-                    "description": "Sconfiggi i nemici con un pugno esplosivo in scivolata, e ripeti per una combo devastante. I nemici pietrificati subiscono danni aggiuntivi e rilasciano Rocce quando vengono distrutti. Le Rocce possono guarire Atlas e rafforzare la sua armatura. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Colpisci i nemici con un pugno esplosivo in scivolata, e ripeti per una devastante combo da 3 colpi. Ogni colpo successivo in combo aumenta la portata dell'attacco e ne riduce il costo in Energia. Le statistiche sono potenziate dai mod equipaggiati su Landslide."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3866,7 +3924,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrify",
-                    "description": "Lo sguardo pietrificante di Atlas fossilizza i nemici, Cura i Rumbler, e crea Muri di Pietra. Quando mandati in pezzi, i nemici pietrificati rilasciano Rocce curative per Atlas."
+                    "description": "Lo sguardo pietrificante di Atlas fossilizza i nemici aumentando i danni che subiscono, cura i Rumbler, e crea Muri di Pietra. Quando mandati in pezzi, i nemici pietrificati rilasciano Rocce curative per Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
@@ -3890,11 +3948,14 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Diventa immune agli Atterramenti quando ha i piedi al suolo.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
                     "abilityName": "Landslide",
-                    "description": "Sconfiggi i nemici con un pugno esplosivo in scivolata, e ripeti per una combo devastante. I nemici pietrificati subiscono danni aggiuntivi e rilasciano Rocce quando vengono distrutti. Le Rocce possono guarire Atlas e rafforzare la sua armatura. Le statistiche sono potenziate dai mod dell'arma corpo a corpo equipaggiata."
+                    "description": "Colpisci i nemici con un pugno esplosivo in scivolata, e ripeti per una devastante combo da 3 colpi. Ogni colpo successivo in combo aumenta la portata dell'attacco e ne riduce il costo in Energia. Le statistiche sono potenziate dai mod equipaggiati su Landslide."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
@@ -3904,7 +3965,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
                     "abilityName": "Petrify",
-                    "description": "Lo sguardo pietrificante di Atlas fossilizza i nemici, Cura i Rumbler, e crea Muri di Pietra. Quando mandati in pezzi, i nemici pietrificati rilasciano Rocce curative per Atlas."
+                    "description": "Lo sguardo pietrificante di Atlas fossilizza i nemici aumentando i danni che subiscono, cura i Rumbler, e crea Muri di Pietra. Quando mandati in pezzi, i nemici pietrificati rilasciano Rocce curative per Atlas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",

@@ -1660,34 +1660,6 @@
             "secretIngredients": []
         },
         {
-            "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureBlueprint",
-            "resultType": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
-            "buildPrice": 100000,
-            "buildTime": 43200,
-            "skipBuildTimePrice": 25,
-            "consumeOnUse": true,
-            "num": 1,
-            "codexSecret": false,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
-                    "ItemCount": 50,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
-                    "ItemCount": 50,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
-                    "ItemCount": 1200,
-                    "ProductCategory": "MiscItems"
-                }
-            ],
-            "secretIngredients": []
-        },
-        {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureBlueprint",
             "resultType": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem",
             "buildPrice": 100000,
@@ -2622,18 +2594,8 @@
             "codexSecret": false,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
-                    "ItemCount": 1,
-                    "ProductCategory": "MiscItems"
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
                     "ItemCount": 1000,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
-                    "ItemCount": 300,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -2650,23 +2612,8 @@
             "codexSecret": false,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
-                    "ItemCount": 1,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
-                    "ItemCount": 1,
-                    "ProductCategory": "MiscItems"
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
                     "ItemCount": 500,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
-                    "ItemCount": 300,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -2682,21 +2629,6 @@
             "num": 1,
             "codexSecret": false,
             "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-                    "ItemCount": 150,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
-                    "ItemCount": 1,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                    "ItemCount": 150,
-                    "ProductCategory": "MiscItems"
-                },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
                     "ItemCount": 500,
@@ -22021,7 +21953,7 @@
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
-            "primeSellingPrice": 100,
+            "primeSellingPrice": 65,
             "ingredients": [
                 {
                     "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/KhoraPrimeHelmetComponent",
@@ -26819,7 +26751,7 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoBlueprint",
             "resultType": "/Lotus/Powersuits/Rhino/Rhino",
             "buildPrice": 25000,
-            "buildTime": 259200,
+            "buildTime": 86400,
             "skipBuildTimePrice": 50,
             "consumeOnUse": true,
             "num": 1,
@@ -27726,6 +27658,138 @@
                 {
                     "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTagBounty",
                     "ItemCount": 15,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TempleBlueprint",
+            "resultType": "/Lotus/Powersuits/Temple/Temple",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/TempleHelmetComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/TempleChassisComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/TempleSystemsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TempleChassisBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/TempleChassisComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 1500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TempleHelmetBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/TempleHelmetComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 22,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 800,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TempleSystemsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/TempleSystemsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
+                    "ItemCount": 6,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 1300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 450,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 6,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -32608,6 +32672,108 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolBarrelBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolBarrel",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 1000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                    "ItemCount": 130,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolReceiverBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolReceiver",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 120,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                    "ItemCount": 600,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 700,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolStockBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolStock",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 16,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                    "ItemCount": 130,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagUncommon",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/AmbassadorBarrelBlueprint",
             "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/CrpArSniperBarrel",
             "buildPrice": 15000,
@@ -33447,6 +33613,270 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponBarrelBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponBarrel",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 23,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 1500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 1300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 230,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponReceiverBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponReceiver",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 130,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
+                    "ItemCount": 13,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 1500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponStockBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponStock",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+                    "ItemCount": 150,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 15,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 1300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 1000,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponBarrelBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponBarrel",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonA",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 600,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponReceiverBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponReceiver",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonA",
+                    "ItemCount": 100,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponStockBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponStock",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 240,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponBladeBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponBlade",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 200,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonA",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 1300,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponHiltBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponHilt",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 1300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 2200,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolBarrelBlueprint",
             "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolBarrel",
             "buildPrice": 20000,
@@ -33543,6 +33973,108 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
                     "ItemCount": 200,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponBarrelBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponBarrel",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+                    "ItemCount": 150,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 180,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 6,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponReceiverBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponReceiver",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 750,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 450,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 260,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponStockBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponStock",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                    "ItemCount": 50,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 350,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 200,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 4,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -34112,6 +34644,39 @@
                 {
                     "ItemType": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
                     "ItemCount": 40,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/1999EntHybridPistolBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
+            "buildPrice": 25000,
+            "buildTime": 86400,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolStock",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 3,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -40815,6 +41380,85 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/LasGooAKPlayerWeaponBlueprint",
+            "resultType": "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 45,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponStock",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/LasGooPistolPlayerWeaponBlueprint",
+            "resultType": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 45,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponStock",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/LasGooSicklesPlayerWeaponBlueprint",
+            "resultType": "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 45,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponBlade",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponHilt",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/LasSilencedPistolBlueprint",
             "resultType": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
             "buildPrice": 20000,
@@ -40837,6 +41481,35 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolStock",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/LasrianNoxPlayerWeaponBlueprint",
+            "resultType": "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 45,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponStock",
                     "ItemCount": 1,
                     "ProductCategory": "MiscItems"
                 }

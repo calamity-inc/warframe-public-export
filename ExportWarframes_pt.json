@@ -800,6 +800,47 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/Temple",
+            "name": "Temple",
+            "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "description": "Com uma eleg\u00e2ncia resplandecente e em companhia de sua guitarra infestada, Lizzie, Temple toca poderosos acordes que acendem as chamas da revolu\u00e7\u00e3o.",
+            "health": 405,
+            "shield": 225,
+            "armor": 325,
+            "stamina": 3,
+            "power": 165,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Use as habilidades em sincronia com o metr\u00f4nomo do Contratempo para revigorar os efeitos das habilidades e aumentar sua Efici\u00eancia em |COST|%.",
+            "exalted": [
+                "/Lotus/Powersuits/Temple/ExaltedGuitar"
+            ],
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                    "abilityName": "Pirotecnia",
+                    "description": "Atinge alvos inimigos com pilares de Dano <DT_FIRE_COLOR>\u00cdgneo. \r\n\r\n<b>No ritmo do Contratempo:</b> criar\u00e1 mais pilares incendi\u00e1rios. Aumentar\u00e1 a Dura\u00e7\u00e3o e o Dano <DT_FIRE_COLOR>\u00cdgneo quando a habilidade Harm\u00f4nico do Ripper causar dano."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                    "abilityName": "Distor\u00e7\u00e3o",
+                    "description": "Sobrecarrega os alto-falantes para criar uma distor\u00e7\u00e3o \u00e9pica, que gera uma onda <DT_FIRE_COLOR>\u00cdgnea devastadora, enquanto aumenta a vulnerabilidade \u00e0 Chance Cr\u00edtica. \r\n\r\n<b>No ritmo do Contratempo:</b> dobrar\u00e1 a Chance Cr\u00edtica. Aumentar\u00e1 a Dura\u00e7\u00e3o e o Dano <DT_FIRE_COLOR>\u00cdgneo quando a habilidade Harm\u00f4nico do Ripper causar dano."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                    "abilityName": "Harm\u00f4nico do Ripper",
+                    "description": "Um solo de guitarra que tornar\u00e1 o Temple invulner\u00e1vel brevemente enquanto o cura. As armas dos aliados dentro do <AFFINITY_SHARE>Alcance da Afinidade ser\u00e3o iluminadas com Dano <DT_FIRE_COLOR>\u00cdgneo adicional sempre que uma habilidade for conjurada no Contratempo.\r\n\r\n<b>No ritmo do Contratempo:</b> aumentar\u00e1 a dura\u00e7\u00e3o da Invulnerabilidade."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                    "abilityName": "Solo Exaltado",
+                    "description": "Quando uma carga for acumulada no metr\u00f4nomo do Contratempo, incendiar\u00e1 a Lizzie e incinerar\u00e1 os inimigos com Dano <DT_FIRE_COLOR>\u00cdgneo. Ao mirar, a Lizzie projetar\u00e1 ondas sonoras elementais estrondosas nos inimigos. Use os controles de habilidade para alterar o tipo de Dano Elemental.\r\n\r\n<b>No ritmo do Contratempo:</b> a Energia n\u00e3o ser\u00e1 consumida."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1620,29 +1661,29 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.2,
-            "passiveDescription": "Cada proj\u00e9til evitado, cada inimigo atingido por Lull ou desarmado desgastar\u00e1 a limita\u00e7\u00e3o de Baruuk e alimentar\u00e1 a tempestade interior. Conforme a limita\u00e7\u00e3o de Baruuk reduz, ele se torna |PERCENT|% mais resistente a dano.",
+            "passiveDescription": "Cada proj\u00e9til evitado, cada inimigo atingido pela Calmaria ou que for desarmado desgastar\u00e1 a limita\u00e7\u00e3o de Baruuk e alimentar\u00e1 a tempestade interior. Conforme a limita\u00e7\u00e3o de Baruuk reduz, ele se torna |PERCENT|% mais resistente a dano.",
             "exalted": [
                 "/Lotus/Powersuits/Pacifist/PacifistFist"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
-                    "abilityName": "Elude",
+                    "abilityName": "Elus\u00e3o",
                     "description": "Enquanto n\u00e3o estiver atacando, todos os proj\u00e9teis direcionados a voc\u00ea ser\u00e3o evitados. Use a habilidade novamente para desativ\u00e1-la."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
-                    "abilityName": "Lull",
-                    "description": "Gerar\u00e1 uma onda calmante que desacelerar\u00e1 os inimigos pr\u00f3ximos at\u00e9 que os mesmos adorme\u00e7am. Inimigos que despertarem ao receber dano ficar\u00e3o confusos e desorientados e ser\u00e3o afetados por uma perda de mem\u00f3ria recente, o que significa que os mesmos esquecer\u00e3o o que aconteceu antes de serem afetados pela Lull."
+                    "abilityName": "Calmaria",
+                    "description": "Gerar\u00e1 uma onda calmante que desacelerar\u00e1 os inimigos pr\u00f3ximos at\u00e9 que os mesmos adorme\u00e7am. Inimigos que despertarem ao receber dano ficar\u00e3o confusos e desorientados e ser\u00e3o afetados por uma perda de mem\u00f3ria recente, o que significa que os mesmos esquecer\u00e3o o que aconteceu antes de serem afetados pela Calmaria."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDisarmAbility",
-                    "abilityName": "Desolate Hands",
-                    "description": "Invocar\u00e1 uma mir\u00edade de adagas que orbitar\u00e3o os jogadores e procurar\u00e3o as armas de inimigos pr\u00f3ximos, destruindo-as com uma pequena explos\u00e3o. Combine esta habilidade com Elude para dobrar o alcance da mesma."
+                    "abilityName": "M\u00e3os Desoladoras",
+                    "description": "Invocar\u00e1 uma mir\u00edade de adagas que orbitar\u00e3o os jogadores e procurar\u00e3o as armas de inimigos pr\u00f3ximos, destruindo-as com uma pequena explos\u00e3o. Combine esta habilidade com a Elus\u00e3o para dobrar o alcance da mesma."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
-                    "abilityName": "Serene Storm",
+                    "abilityName": "Tempestade Serena",
                     "description": "Ao erodir suas Limita\u00e7\u00f5es, Baruuk comandar\u00e1 o Vendaval Des\u00e9rtico, capaz de realizar poderosos ataques em \u00e1rea com seus punhos e p\u00e9s. Enquanto a habilidade estiver ativa, a Limita\u00e7\u00e3o do Baruuk ser\u00e1 restaurada."
                 }
             ],
@@ -1661,29 +1702,29 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.2,
-            "passiveDescription": "Cada proj\u00e9til evitado, cada inimigo atingido por Lull ou desarmado desgastar\u00e1 a limita\u00e7\u00e3o de Baruuk e alimentar\u00e1 a tempestade interior. Conforme a limita\u00e7\u00e3o de Baruuk reduz, ele se torna |PERCENT|% mais resistente a dano.",
+            "passiveDescription": "Cada proj\u00e9til evitado, cada inimigo atingido pela Calmaria ou que for desarmado desgastar\u00e1 a limita\u00e7\u00e3o de Baruuk e alimentar\u00e1 a tempestade interior. Conforme a limita\u00e7\u00e3o de Baruuk reduz, ele se torna |PERCENT|% mais resistente a dano.",
             "exalted": [
                 "/Lotus/Powersuits/Pacifist/PacifistFistPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
-                    "abilityName": "Elude",
+                    "abilityName": "Elus\u00e3o",
                     "description": "Enquanto n\u00e3o estiver atacando, todos os proj\u00e9teis direcionados a voc\u00ea ser\u00e3o evitados. Use a habilidade novamente para desativ\u00e1-la."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
-                    "abilityName": "Lull",
-                    "description": "Gerar\u00e1 uma onda calmante que desacelerar\u00e1 os inimigos pr\u00f3ximos at\u00e9 que os mesmos adorme\u00e7am. Inimigos que despertarem ao receber dano ficar\u00e3o confusos e desorientados e ser\u00e3o afetados por uma perda de mem\u00f3ria recente, o que significa que os mesmos esquecer\u00e3o o que aconteceu antes de serem afetados pela Lull."
+                    "abilityName": "Calmaria",
+                    "description": "Gerar\u00e1 uma onda calmante que desacelerar\u00e1 os inimigos pr\u00f3ximos at\u00e9 que os mesmos adorme\u00e7am. Inimigos que despertarem ao receber dano ficar\u00e3o confusos e desorientados e ser\u00e3o afetados por uma perda de mem\u00f3ria recente, o que significa que os mesmos esquecer\u00e3o o que aconteceu antes de serem afetados pela Calmaria."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDisarmAbility",
-                    "abilityName": "Desolate Hands",
-                    "description": "Invocar\u00e1 uma mir\u00edade de adagas que orbitar\u00e3o os jogadores e procurar\u00e3o as armas de inimigos pr\u00f3ximos, destruindo-as com uma pequena explos\u00e3o. Combine esta habilidade com Elude para dobrar o alcance da mesma."
+                    "abilityName": "M\u00e3os Desoladoras",
+                    "description": "Invocar\u00e1 uma mir\u00edade de adagas que orbitar\u00e3o os jogadores e procurar\u00e3o as armas de inimigos pr\u00f3ximos, destruindo-as com uma pequena explos\u00e3o. Combine esta habilidade com a Elus\u00e3o para dobrar o alcance da mesma."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
-                    "abilityName": "Serene Storm",
+                    "abilityName": "Tempestade Serena",
                     "description": "Ao erodir suas Limita\u00e7\u00f5es, Baruuk comandar\u00e1 o Vendaval Des\u00e9rtico, capaz de realizar poderosos ataques em \u00e1rea com seus punhos e p\u00e9s. Enquanto a habilidade estiver ativa, a Limita\u00e7\u00e3o do Baruuk ser\u00e1 restaurada."
                 }
             ],
@@ -1779,6 +1820,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Efeitos de Status <DT_SLASH_COLOR>Cortantes causados nos inimigos causar\u00e3o |DAMAGE|% de dano extra e durar\u00e3o |DURATION|% a mais que o normal.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1787,18 +1831,18 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmokeScreenAbility",
-                    "abilityName": "Smoke Screen",
+                    "abilityName": "Cortina de Fuma\u00e7a",
                     "description": "Deixar\u00e1 uma bomba de fuma\u00e7a que atordoar\u00e1 os inimigos pr\u00f3ximos e obscurecer\u00e1 suas vis\u00f5es, tornando o Ash temporariamente invis\u00edvel."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
-                    "abilityName": "Teleport",
-                    "description": "Teletransportar\u00e1 o Ash na dire\u00e7\u00e3o do alvo marcado, aproximando-se do mesmo ao alcance corpo a corpo e tornando o alvo vulner\u00e1vel a ataques Finalizadores."
+                    "abilityName": "Teleporte",
+                    "description": "Teleportar\u00e1 at\u00e9 um alvo e realizar\u00e1 uma finaliza\u00e7\u00e3o. Se a finaliza\u00e7\u00e3o eliminar o alvo, o Ash recuperar\u00e1 parte da Energia utilizada na habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
-                    "abilityName": "Blade Storm",
-                    "description": "Proje\u00e7\u00f5es do Ash ser\u00e3o criadas para atacar os inimigos marcados pela habilidade. Use a habilidade Teleport para juntar-se \u00e0s proje\u00e7\u00f5es durante os ataques."
+                    "abilityName": "Tempestade de L\u00e2minas",
+                    "description": "Projete os tem\u00edveis Clones das Sombras do Ash para atacar grupos de inimigos distantes. Use a habilidade Teleport para se juntar a eles durante os ataques. Os Clones das Sombras poder\u00e3o ser aprimorados com Mods."
                 }
             ],
             "productCategory": "Suits"
@@ -1817,6 +1861,9 @@
             "masteryReq": 0,
             "sprintSpeed": 1.2,
             "passiveDescription": "Efeitos de Status <DT_SLASH>Cortantes causados nos inimigos causar\u00e3o |DAMAGE|% de dano extra e durar\u00e3o |DURATION|% a mais que o normal.",
+            "exalted": [
+                "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -1825,18 +1872,18 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmokeScreenAbility",
-                    "abilityName": "Smoke Screen",
+                    "abilityName": "Cortina de Fuma\u00e7a",
                     "description": "Deixar\u00e1 uma bomba de fuma\u00e7a que atordoar\u00e1 os inimigos pr\u00f3ximos e obscurecer\u00e1 suas vis\u00f5es, tornando o Ash temporariamente invis\u00edvel."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
-                    "abilityName": "Teleport",
-                    "description": "Teletransportar\u00e1 o Ash na dire\u00e7\u00e3o do alvo marcado, aproximando-se do mesmo ao alcance corpo a corpo e tornando o alvo vulner\u00e1vel a ataques Finalizadores."
+                    "abilityName": "Teleporte",
+                    "description": "Teleportar\u00e1 at\u00e9 um alvo e realizar\u00e1 uma finaliza\u00e7\u00e3o. Se a finaliza\u00e7\u00e3o eliminar o alvo, o Ash recuperar\u00e1 parte da Energia utilizada na habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
-                    "abilityName": "Blade Storm",
-                    "description": "Proje\u00e7\u00f5es do Ash ser\u00e3o criadas para atacar os inimigos marcados pela habilidade. Use a habilidade Teleport para juntar-se \u00e0s proje\u00e7\u00f5es durante os ataques."
+                    "abilityName": "Tempestade de L\u00e2minas",
+                    "description": "Projete os tem\u00edveis Clones das Sombras do Ash para atacar grupos de inimigos distantes. Use a habilidade Teleport para se juntar a eles durante os ataques. Os Clones das Sombras poder\u00e3o ser aprimorados com Mods."
                 }
             ],
             "productCategory": "Suits"
@@ -2357,18 +2404,19 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "A feroz Kavat Venari batalha junto \u00e0 Khora, aumentando sua Velocidade de Movimento em |SPEED|% enquanto estiver ativa. Se for morta, Venari reaparecer\u00e1 ap\u00f3s |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
-                    "abilityName": "Whipclaw",
-                    "description": "Atordoar\u00e1 os inimigos com uma chicotada ensurdecedora. Mods equipados na arma corpo a corpo aumentar\u00e3o a efetividade da habilidade."
+                    "abilityName": "Chicote Afiado",
+                    "description": "Atordoar\u00e1 os inimigos com uma chicotada ensurdecedora. Os atributos ser\u00e3o amplificados pelos Mods equipados no Chicote Afiado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
-                    "abilityName": "Ensnare",
-                    "description": "Aprisionar\u00e1 um inimigo em metal vivo, se espalhando para outros inimigos que se aproximarem demais. A Whipclaw renovar\u00e1 a armadilha, permitindo que ela capture mais inimigos."
+                    "abilityName": "Arame Farpado",
+                    "description": "Aprisionar\u00e1 um inimigo em metal vivo, se espalhando para outros inimigos que se aproximarem demais. A habilidade Chicote Afiado renovar\u00e1 a armadilha, permitindo que ela capture mais inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
@@ -2377,8 +2425,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
-                    "abilityName": "Strangledome",
-                    "description": "Tecer\u00e1 uma c\u00fapula de correntes vivas que enla\u00e7ar\u00e1 e estrangular\u00e1 qualquer inimigo dentro dela e os que se aproximarem. Inimigos do lado de fora da armadilha tentar\u00e3o apressar as mortes de seus companheiros ao atirar neles. Conjurar a Whipclaw na c\u00fapula causar\u00e1 dano adicional aos inimigos presos."
+                    "abilityName": "Domo Ardil",
+                    "description": "Tecer\u00e1 uma c\u00fapula de correntes vivas que enla\u00e7ar\u00e1 e estrangular\u00e1 qualquer inimigo dentro dela e os que se aproximarem. Inimigos do lado de fora da armadilha tentar\u00e3o apressar as mortes de seus companheiros ao atirar neles. Conjurar a habilidade Chicote Afiado na c\u00fapula causar\u00e1 dano adicional aos inimigos presos."
                 }
             ],
             "productCategory": "Suits"
@@ -2398,18 +2446,19 @@
             "sprintSpeed": 1.05,
             "passiveDescription": "A feroz Kavat Venari batalha junto \u00e0 Khora, aumentando sua Velocidade de Movimento em |SPEED|% enquanto estiver ativa. Se for morta, Venari reaparecer\u00e1 ap\u00f3s |RESPAWN|s.",
             "exalted": [
-                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+                "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+                "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
-                    "abilityName": "Whipclaw",
-                    "description": "Atordoar\u00e1 os inimigos com uma chicotada ensurdecedora. Mods equipados na arma corpo a corpo aumentar\u00e3o a efetividade da habilidade."
+                    "abilityName": "Chicote Afiado",
+                    "description": "Atordoar\u00e1 os inimigos com uma chicotada ensurdecedora. Os atributos ser\u00e3o amplificados pelos Mods equipados no Chicote Afiado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
-                    "abilityName": "Ensnare",
-                    "description": "Aprisionar\u00e1 um inimigo em metal vivo, se espalhando para outros inimigos que se aproximarem demais. A Whipclaw renovar\u00e1 a armadilha, permitindo que ela capture mais inimigos."
+                    "abilityName": "Arame Farpado",
+                    "description": "Aprisionar\u00e1 um inimigo em metal vivo, se espalhando para outros inimigos que se aproximarem demais. A habilidade Chicote Afiado renovar\u00e1 a armadilha, permitindo que ela capture mais inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
@@ -2418,8 +2467,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
-                    "abilityName": "Strangledome",
-                    "description": "Tecer\u00e1 uma c\u00fapula de correntes vivas que enla\u00e7ar\u00e1 e estrangular\u00e1 qualquer inimigo dentro dela e os que se aproximarem. Inimigos do lado de fora da armadilha tentar\u00e3o apressar as mortes de seus companheiros ao atirar neles. Conjurar a Whipclaw na c\u00fapula causar\u00e1 dano adicional aos inimigos presos."
+                    "abilityName": "Domo Ardil",
+                    "description": "Tecer\u00e1 uma c\u00fapula de correntes vivas que enla\u00e7ar\u00e1 e estrangular\u00e1 qualquer inimigo dentro dela e os que se aproximarem. Inimigos do lado de fora da armadilha tentar\u00e3o apressar as mortes de seus companheiros ao atirar neles. Conjurar a habilidade Chicote Afiado na c\u00fapula causar\u00e1 dano adicional aos inimigos presos."
                 }
             ],
             "productCategory": "Suits"
@@ -2789,22 +2838,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
-                    "abilityName": "Arcsphere",
+                    "abilityName": "Arcoesfera",
                     "description": "Dispara uma Esfera Girat\u00f3ria que causar\u00e1 alto dano no impacto e choques el\u00e9tricos peri\u00f3dicos nos inimigos pr\u00f3ximos. Atingir m\u00faltiplos inimigos simultaneamente ao lan\u00e7amento inicial aumentar\u00e1 seu dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
-                    "abilityName": "Coil Horizon",
+                    "abilityName": "Bobina Implosiva",
                     "description": "Dispara uma Esfera Girat\u00f3ria que implodir\u00e1 ap\u00f3s alguns segundos, ou que poder\u00e1 ser acionada manualmente."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
-                    "abilityName": "Cathode Grace",
-                    "description": "Desfrute de um breve per\u00edodo de aumento de Chance Cr\u00edtica e Regenera\u00e7\u00e3o de Energia, com cada elimina\u00e7\u00e3o estendendo a dura\u00e7\u00e3o da habilidade Cathode Grace. A Conjura\u00e7\u00e3o possui um tempo de recarga. "
+                    "abilityName": "Gra\u00e7a Cat\u00f3dica",
+                    "description": "Desfrute de um breve per\u00edodo de aumento de Chance Cr\u00edtica e Regenera\u00e7\u00e3o de Energia, com cada elimina\u00e7\u00e3o estendendo a dura\u00e7\u00e3o da habilidade Gra\u00e7a Cat\u00f3dica. A conjura\u00e7\u00e3o possui um tempo de recarga. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
-                    "abilityName": "Rotorswell",
+                    "abilityName": "Revolu\u00e7\u00e3o Voltaica",
                     "description": "Os mecanismos da Gyre circulam em velocidades assombrosas, gerando um Campo El\u00e9trico que atinge os inimigos pr\u00f3ximos. Quando a Gyre executa um Acerto Cr\u00edtico, uma grande descarga el\u00e9trica se desencadear\u00e1 do inimigo atingido aos demais inimigos pr\u00f3ximos."
                 }
             ],
@@ -2824,26 +2873,29 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Quando a Gara conjurar habilidades, ter\u00e1 uma chance de aplicar ofusca\u00e7\u00e3o em \u00e1rea por |DURATION|s.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
-                    "abilityName": "Shattered Lash",
-                    "description": "Atacar\u00e1 com um feixe de vidro estilha\u00e7ado. Segurar o bot\u00e3o da habilidade realizar\u00e1 um ataque arqueado. Mods equipados na arma corpo a corpo aumentar\u00e3o a efetividade da habilidade."
+                    "abilityName": "Sabre Estilha\u00e7ado",
+                    "description": "Atacar\u00e1 com um feixe de vidro estilha\u00e7ado. Segurar o bot\u00e3o da habilidade realizar\u00e1 um ataque arqueado. Os atributos ser\u00e3o amplificados pelos Mods equipados no Sabre Estilha\u00e7ado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
-                    "abilityName": "Splinter Storm",
+                    "abilityName": "Tempestade Fragmentada",
                     "description": "A Armadura da Gara se fragmentar\u00e1 em um turbilh\u00e3o de vidro estilha\u00e7ado. Conjurar a habilidade normalmente ou enquanto mira em um aliado fornecer\u00e1 redu\u00e7\u00e3o de dano, enquanto conjurar em um inimigo far\u00e1 com que o mesmo receba dano cont\u00ednuo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
-                    "abilityName": "Spectrorage",
+                    "abilityName": "Ira Espectral",
                     "description": "Aprisiona o inimigo em um c\u00edrculo de espelhos, fazendo com que eles ataquem ilus\u00f5es de si mesmos. Espelhos destru\u00eddos causar\u00e3o dano aos seus atacantes, assim tamb\u00e9m como o colapso do c\u00edrculo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassRingAbility",
-                    "abilityName": "Mass Vitrify",
-                    "description": "Cria um anel crescente de vidro derretido que cristalizar\u00e1 lentamente os inimigos que se aproximarem. No t\u00e9rmino da expans\u00e3o, o anel se enrijecer\u00e1 para bloquear o fogo inimigo. O anel se fortalecer\u00e1 extraindo a Vida e Escudos de cada inimigo cristalizado pela habilidade. Usar a Shattered Lash quebrar\u00e1 imediatamente o anel, fazendo com que ele exploda e lance estilha\u00e7os no ar."
+                    "abilityName": "Vitrifica\u00e7\u00e3o em Massa",
+                    "description": "Cria um anel crescente de vidro derretido que cristalizar\u00e1 lentamente os inimigos que se aproximarem. No t\u00e9rmino da expans\u00e3o, o anel se enrijecer\u00e1 para bloquear o fogo inimigo. O anel se fortalecer\u00e1, extraindo a Vida e Escudos de cada inimigo cristalizado pela habilidade. Usar a habilidade Sabre Estilha\u00e7ado quebrar\u00e1 imediatamente o anel, fazendo com que ele exploda e lance estilha\u00e7os no ar."
                 }
             ],
             "productCategory": "Suits"
@@ -2862,26 +2914,29 @@
             "masteryReq": 0,
             "sprintSpeed": 1.15,
             "passiveDescription": "Quando a Gara conjurar habilidades, ter\u00e1 uma chance de aplicar ofusca\u00e7\u00e3o em \u00e1rea por |DURATION|s.",
+            "exalted": [
+                "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
-                    "abilityName": "Shattered Lash",
-                    "description": "Atacar\u00e1 com um feixe de vidro estilha\u00e7ado. Segurar o bot\u00e3o da habilidade realizar\u00e1 um ataque arqueado. Mods equipados na arma corpo a corpo aumentar\u00e3o a efetividade da habilidade."
+                    "abilityName": "Sabre Estilha\u00e7ado",
+                    "description": "Atacar\u00e1 com um feixe de vidro estilha\u00e7ado. Segurar o bot\u00e3o da habilidade realizar\u00e1 um ataque arqueado. Os atributos ser\u00e3o amplificados pelos Mods equipados no Sabre Estilha\u00e7ado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
-                    "abilityName": "Splinter Storm",
+                    "abilityName": "Tempestade Fragmentada",
                     "description": "A Armadura da Gara se fragmentar\u00e1 em um turbilh\u00e3o de vidro estilha\u00e7ado. Conjurar a habilidade normalmente ou enquanto mira em um aliado fornecer\u00e1 redu\u00e7\u00e3o de dano, enquanto conjurar em um inimigo far\u00e1 com que o mesmo receba dano cont\u00ednuo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
-                    "abilityName": "Spectrorage",
+                    "abilityName": "Ira Espectral",
                     "description": "Aprisiona o inimigo em um c\u00edrculo de espelhos, fazendo com que eles ataquem ilus\u00f5es de si mesmos. Espelhos destru\u00eddos causar\u00e3o dano aos seus atacantes, assim tamb\u00e9m como o colapso do c\u00edrculo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassRingAbility",
-                    "abilityName": "Mass Vitrify",
-                    "description": "Cria um anel crescente de vidro derretido que cristalizar\u00e1 lentamente os inimigos que se aproximarem. No t\u00e9rmino da expans\u00e3o, o anel se enrijecer\u00e1 para bloquear o fogo inimigo. O anel se fortalecer\u00e1 extraindo a Vida e Escudos de cada inimigo cristalizado pela habilidade. Usar a Shattered Lash quebrar\u00e1 imediatamente o anel, fazendo com que ele exploda e lance estilha\u00e7os no ar."
+                    "abilityName": "Vitrifica\u00e7\u00e3o em Massa",
+                    "description": "Cria um anel crescente de vidro derretido que cristalizar\u00e1 lentamente os inimigos que se aproximarem. No t\u00e9rmino da expans\u00e3o, o anel se enrijecer\u00e1 para bloquear o fogo inimigo. O anel se fortalecer\u00e1, extraindo a Vida e Escudos de cada inimigo cristalizado pela habilidade. Usar a habilidade Sabre Estilha\u00e7ado quebrar\u00e1 imediatamente o anel, fazendo com que ele exploda e lance estilha\u00e7os no ar."
                 }
             ],
             "productCategory": "Suits"
@@ -3064,17 +3119,17 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
-                    "abilityName": "Freeze",
+                    "abilityName": "Congelamento",
                     "description": "Uma explos\u00e3o de energia g\u00e9lida que congelar\u00e1 os alvos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
-                    "abilityName": "Ice Wave",
+                    "abilityName": "Onda Glacial",
                     "description": "Criar\u00e1 uma onda afiada de gelo cristalino na dire\u00e7\u00e3o escolhida, causando alto dano nos inimigos atingidos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceShieldAbility",
-                    "abilityName": "Snow Globe",
+                    "abilityName": "Globo de Neve",
                     "description": "Frost congelar\u00e1 o vapor e a umidade na \u00e1rea escolhida, criando uma esfera protetora com um breve per\u00edodo de invulnerabilidade para ampliar sua capacidade defensiva."
                 },
                 {
@@ -3102,17 +3157,17 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
-                    "abilityName": "Freeze",
+                    "abilityName": "Congelamento",
                     "description": "Uma explos\u00e3o de energia g\u00e9lida que congelar\u00e1 os alvos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
-                    "abilityName": "Ice Wave",
+                    "abilityName": "Onda Glacial",
                     "description": "Criar\u00e1 uma onda afiada de gelo cristalino na dire\u00e7\u00e3o escolhida, causando alto dano nos inimigos atingidos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceShieldAbility",
-                    "abilityName": "Snow Globe",
+                    "abilityName": "Globo de Neve",
                     "description": "Frost congelar\u00e1 o vapor e a umidade na \u00e1rea escolhida, criando uma esfera protetora com um breve per\u00edodo de invulnerabilidade para ampliar sua capacidade defensiva."
                 },
                 {
@@ -3160,7 +3215,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos."
+                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
                 }
             ],
             "productCategory": "Suits"
@@ -3202,7 +3257,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
                     "abilityName": "Razorwing",
-                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos."
+                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
                 }
             ],
             "productCategory": "Suits"
@@ -3428,22 +3483,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonBreathAbility",
-                    "abilityName": "Spectral Scream",
+                    "abilityName": "Grito Espectral",
                     "description": "Exala um sopro profundo de destrui\u00e7\u00e3o elemental. Pressione o bot\u00e3o da habilidade para alternar entre os elementos, e segure o bot\u00e3o para conjurar a habilidade. O elemento escolhido ser\u00e1 aplicado a todas as habilidades do Chroma."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
-                    "abilityName": "Elemental Ward",
+                    "abilityName": "Sentinela Elemental",
                     "description": "Com base no alinhamento elemental do Chroma, um efeito em \u00e1rea ser\u00e1 criado, onde os inimigos pr\u00f3ximos ser\u00e3o afetados negativamente e aliados receber\u00e3o bonifica\u00e7\u00f5es."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
-                    "abilityName": "Vex Armor",
+                    "abilityName": "Armadura Exasperante",
                     "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es com acertos de precis\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
-                    "abilityName": "Effigy",
+                    "abilityName": "Ef\u00edgie",
                     "description": "Chroma transformar\u00e1 sua pele em uma sentinela implac\u00e1vel, capaz de fortalecer aliados pr\u00f3ximos enquanto engolfa os inimigos com ataques elementais."
                 }
             ],
@@ -3466,22 +3521,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonBreathAbility",
-                    "abilityName": "Spectral Scream",
+                    "abilityName": "Grito Espectral",
                     "description": "Exala um sopro profundo de destrui\u00e7\u00e3o elemental. Pressione o bot\u00e3o da habilidade para alternar entre os elementos, e segure o bot\u00e3o para conjurar a habilidade. O elemento escolhido ser\u00e1 aplicado a todas as habilidades do Chroma."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
-                    "abilityName": "Elemental Ward",
+                    "abilityName": "Sentinela Elemental",
                     "description": "Com base no alinhamento elemental do Chroma, um efeito em \u00e1rea ser\u00e1 criado, onde os inimigos pr\u00f3ximos ser\u00e3o afetados negativamente e aliados receber\u00e3o bonifica\u00e7\u00f5es."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
-                    "abilityName": "Vex Armor",
+                    "abilityName": "Armadura Exasperante",
                     "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es com acertos de precis\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
-                    "abilityName": "Effigy",
+                    "abilityName": "Ef\u00edgie",
                     "description": "Chroma transformar\u00e1 sua pele em uma sentinela implac\u00e1vel, capaz de fortalecer aliados pr\u00f3ximos enquanto engolfa os inimigos com ataques elementais."
                 }
             ],
@@ -3852,26 +3907,29 @@
             "masteryReq": 0,
             "sprintSpeed": 0.89999998,
             "passiveDescription": "Atlas fica imune a efeitos de derrubada quando est\u00e1 no ch\u00e3o.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
-                    "abilityName": "Landslide",
-                    "description": "Acertar\u00e1 os inimigos com um soco explosivo, capaz de causar um combo devastador ao conjurar a habilidade repetidamente. Inimigos petrificados receber\u00e3o dano extra, e deixar\u00e3o Rochas quando destru\u00eddos. Tais Rochas curar\u00e3o o Atlas e aumentar\u00e3o sua Armadura. Os atributos ser\u00e3o ampliados pelos Mods de Armas Brancas equipados."
+                    "abilityName": "Deslizamento de Terra",
+                    "description": "Golpear\u00e1 os inimigos com um soco deslizante explosivo. Conjura\u00e7\u00f5es sucessivas realizar\u00e3o um combo devastador de 3 golpes. Cada golpe subsequente no combo aumentar\u00e1 o raio do ataque e reduzir\u00e1 o custo de energia. Os atributos ser\u00e3o aumentados conforme os Mods equipados na arma da habilidade Deslizamento de Terra."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
-                    "abilityName": "Tectonics",
-                    "description": "Conjurar\u00e1 um muro de pedra Bulwark. Conjurar a habilidade novamente disparar\u00e1 as rochas aos inimigos. As Bulwarks que forem atacadas pelos inimigos disparar\u00e3o um efeito Cortante em \u00e1rea, causando dano com base em sua Vida perdida."
+                    "abilityName": "Placas Tect\u00f4nicas",
+                    "description": "Conjurar\u00e1 um muro de pedra. Conjurar a habilidade novamente disparar\u00e1 as rochas aos inimigos. Os muros que forem atacados pelos inimigos disparar\u00e3o um efeito Cortante em \u00e1rea, causando dano com base em sua Vida perdida."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
-                    "abilityName": "Petrify",
-                    "description": "O olhar petrificante do Atlas fossilizar\u00e1 os inimigos, curar\u00e1 os Rumblers e criar\u00e1 Bulwarks Petrificadas. Inimigos petrificados deixar\u00e3o Rochas de cura para o Atlas ao serem estilha\u00e7ados."
+                    "abilityName": "Petrifica\u00e7\u00e3o",
+                    "description": "O olhar petrificante do Atlas fossilizar\u00e1 os inimigos, aumentando o dano que eles recebem, curar\u00e1 os Rumblers e criar\u00e1 Bulwarks Petrificadas. Inimigos petrificados deixar\u00e3o Rochas de cura para o Atlas ao serem estilha\u00e7ados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
-                    "abilityName": "Rumblers",
-                    "description": "Invocar\u00e1 dois elementais de pedra que atacar\u00e3o corpo a corpo. Invocar tais elementais petrificar\u00e1 os inimigos pr\u00f3ximos do Atlas. Ao expirarem, os Rumblers entrar\u00e3o em colapso e se transformar\u00e3o em uma pilha de Rochas que curar\u00e3o o Atlas."
+                    "abilityName": "Golens",
+                    "description": "Invocar\u00e1 dois elementais de pedra que atacar\u00e3o corpo a corpo. Invocar tais elementais petrificar\u00e1 os inimigos pr\u00f3ximos do Atlas. Ao expirarem, os Golens entrar\u00e3o em colapso e se transformar\u00e3o em uma pilha de Rochas que curar\u00e3o o Atlas."
                 }
             ],
             "productCategory": "Suits"
@@ -3890,26 +3948,29 @@
             "masteryReq": 0,
             "sprintSpeed": 1,
             "passiveDescription": "Atlas fica imune a efeitos de derrubada quando est\u00e1 no ch\u00e3o.",
+            "exalted": [
+                "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+            ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
-                    "abilityName": "Landslide",
-                    "description": "Acertar\u00e1 os inimigos com um soco explosivo, capaz de causar um combo devastador ao conjurar a habilidade repetidamente. Inimigos petrificados receber\u00e3o dano extra, e deixar\u00e3o Rochas quando destru\u00eddos. Tais Rochas curar\u00e3o o Atlas e aumentar\u00e3o sua Armadura. Os atributos ser\u00e3o ampliados pelos Mods de Armas Brancas equipados."
+                    "abilityName": "Deslizamento de Terra",
+                    "description": "Golpear\u00e1 os inimigos com um soco deslizante explosivo. Conjura\u00e7\u00f5es sucessivas realizar\u00e3o um combo devastador de 3 golpes. Cada golpe subsequente no combo aumentar\u00e1 o raio do ataque e reduzir\u00e1 o custo de energia. Os atributos ser\u00e3o aumentados conforme os Mods equipados na arma da habilidade Deslizamento de Terra."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
-                    "abilityName": "Tectonics",
-                    "description": "Conjurar\u00e1 um muro de pedra Bulwark. Conjurar a habilidade novamente disparar\u00e1 as rochas aos inimigos. As Bulwarks que forem atacadas pelos inimigos disparar\u00e3o um efeito Cortante em \u00e1rea, causando dano com base em sua Vida perdida."
+                    "abilityName": "Placas Tect\u00f4nicas",
+                    "description": "Conjurar\u00e1 um muro de pedra. Conjurar a habilidade novamente disparar\u00e1 as rochas aos inimigos. Os muros que forem atacados pelos inimigos disparar\u00e3o um efeito Cortante em \u00e1rea, causando dano com base em sua Vida perdida."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
-                    "abilityName": "Petrify",
-                    "description": "O olhar petrificante do Atlas fossilizar\u00e1 os inimigos, curar\u00e1 os Rumblers e criar\u00e1 Bulwarks Petrificadas. Inimigos petrificados deixar\u00e3o Rochas de cura para o Atlas ao serem estilha\u00e7ados."
+                    "abilityName": "Petrifica\u00e7\u00e3o",
+                    "description": "O olhar petrificante do Atlas fossilizar\u00e1 os inimigos, aumentando o dano que eles recebem, curar\u00e1 os Rumblers e criar\u00e1 Bulwarks Petrificadas. Inimigos petrificados deixar\u00e3o Rochas de cura para o Atlas ao serem estilha\u00e7ados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
-                    "abilityName": "Rumblers",
-                    "description": "Invocar\u00e1 dois elementais de pedra que atacar\u00e3o corpo a corpo. Invocar tais elementais petrificar\u00e1 os inimigos pr\u00f3ximos do Atlas. Ao expirarem, os Rumblers entrar\u00e3o em colapso e se transformar\u00e3o em uma pilha de Rochas que curar\u00e3o o Atlas."
+                    "abilityName": "Golens",
+                    "description": "Invocar\u00e1 dois elementais de pedra que atacar\u00e3o corpo a corpo. Invocar tais elementais petrificar\u00e1 os inimigos pr\u00f3ximos do Atlas. Ao expirarem, os Golens entrar\u00e3o em colapso e se transformar\u00e3o em uma pilha de Rochas que curar\u00e3o o Atlas."
                 }
             ],
             "productCategory": "Suits"
