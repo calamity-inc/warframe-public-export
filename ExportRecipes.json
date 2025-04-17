@@ -39736,6 +39736,29 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/GrnChainSawTonfaBlueprint",
+            "resultType": "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaHandle",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaBlade",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/GrnClawsBlueprint",
             "resultType": "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws",
             "buildPrice": 40000,
@@ -41926,6 +41949,34 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/MiterHandle",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/MortiforShieldAndSwordBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordHandle",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordGuard",
                     "ItemCount": 1,
                     "ProductCategory": "MiscItems"
                 }
