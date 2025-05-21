@@ -262,6 +262,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Yareli/YareliPrime",
+            "name": "Yareli Prime",
+            "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+            "description": "Waverider surgit, renaissant de l'\u00e9cume de l'oc\u00e9an. Dans sa splendeur originelle de l'\u00e8re Orokin, elle incarne la vigueur \u00e9ternelle de la jeunesse.",
+            "health": 270,
+            "shield": 550,
+            "armor": 105,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Yareli gagne une augmentation de +|CHANCE|% de Chances de Critique pour les armes Secondaires lorsqu'elle se d\u00e9place pendant au moins |TIME|s.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                    "abilityName": "Pi\u00e8ges Marins",
+                    "description": "Formez cinq bulles d'eau qui recherchent les ennemis et se dilatent au contact, endommageant et immobilisant simultan\u00e9ment leurs victimes. Les ennemis touch\u00e9s par les bulles subissent des D\u00e9g\u00e2ts accrus de toutes les sources."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                    "abilityName": "M\u00e9ruline",
+                    "description": "Invoquez M\u00e9ruline, une cr\u00e9ature marine pouvant \u00eatre utilis\u00e9e comme un K-Drive. M\u00e9ruline prot\u00e8ge Yareli en absorbant une grande partie des D\u00e9g\u00e2ts subis."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                    "abilityName": "Aqualames",
+                    "description": "D\u00e9truisez les ennemis avec un trio de lames aquatiques."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                    "abilityName": "Typhon",
+                    "description": "Attirez les ennemis dans un maelstr\u00f6m \u00e9crasant, puis faites-les exploser dans un torrent d'eau. Chaque ennemi pi\u00e9g\u00e9 dans le vortex augmente les D\u00e9g\u00e2ts du torrent."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
             "name": "Yareli",
             "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",

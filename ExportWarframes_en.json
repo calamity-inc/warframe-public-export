@@ -262,6 +262,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Yareli/YareliPrime",
+            "name": "Yareli Prime",
+            "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+            "description": "The Waverider arises, reborn from the ocean foam. In her original Orokin-era splendor she embodies the undying vigor of youth.",
+            "health": 270,
+            "shield": 550,
+            "armor": 105,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Yareli gains +|CHANCE|% Critical Chance for Secondary weapons when she has been moving for at least |TIME|s.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                    "abilityName": "Sea Snares",
+                    "description": "Form five water globules that seek out enemies and expand on contact, simultaneously damaging and immobilizing their victims.\r\nEnemies hit by the globules take increased damage from all sources."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                    "abilityName": "Merulina",
+                    "description": "Summon Merulina, a rideable creature of the waves, and the inspiration for K-Driving. Merulina protects Yareli by absorbing a large portion of incoming damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                    "abilityName": "Aquablades",
+                    "description": "Tear through foes with a trio of orbiting aquatic blades."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                    "abilityName": "Riptide",
+                    "description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst. Each enemy trapped in the vortex increases the burst's damage."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
             "name": "Yareli",
             "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",

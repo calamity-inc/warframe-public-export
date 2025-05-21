@@ -262,6 +262,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Yareli/YareliPrime",
+            "name": "Yareli Prime",
+            "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+            "description": "Der Wellenreiter erhebt sich, aus Meerschaum neugeboren, in ihrer urspr\u00fcnglichen Pracht aus der Orokin \u00c4ra, welche ihre unsterbliche jugendliche Kraft verk\u00f6rpert.",
+            "health": 270,
+            "shield": 550,
+            "armor": 105,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Yareli erh\u00e4lt +|CHANCE| % krit. Chance f\u00fcr Sekund\u00e4rwaffen, wenn sie sich mindestens |TIME| s lang bewegt hat.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                    "abilityName": "See-Fallen",
+                    "description": "Bildet 5 Wasserkugeln, die Feinde suchen, sich bei Kontakt ausdehnen und gleichzeitig ihren Opfern Schaden zuf\u00fcgen und diese bewegungsunf\u00e4hig machen.\r\nGegner, die von den Kugeln getroffen wurden, erleiden mehr Schaden aus allen Quellen."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                    "abilityName": "Merulina",
+                    "description": "Beschw\u00f6re Merulina, eine reitbare Kreatur der Wellen und die Inspiration f\u00fcr K-Drives. Merulina sch\u00fctzt Yareli, indem sie einen Gro\u00dfteil des eingehenden Schadens absorbiert."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                    "abilityName": "Aquaklingen",
+                    "description": "Zerrei\u00dfe Feinde mit einem Trio von kreisenden Aquaklingen."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                    "abilityName": "Springflut",
+                    "description": "Ziehe Feinde in einen vernichtenden Mahlstrom und fege sie dann in einer w\u00e4ssrigen Explosion weg. Jeder Feind, der im Wirbel gefangen ist, erh\u00f6ht den Schaden der Explosion."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
             "name": "Yareli",
             "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",

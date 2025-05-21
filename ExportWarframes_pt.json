@@ -202,22 +202,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangSwitchAbility",
-                    "abilityName": "Metamorphosis",
+                    "abilityName": "Metamorfose",
                     "description": "Alterne entre formas, obtendo temporariamente b\u00f4nus de Escudo e Armadura na forma Noturna, ou b\u00f4nus de Dano e Velocidade na forma Diurna."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
-                    "abilityName": "Rest & Rage",
+                    "abilityName": "Calmaria & C\u00f3lera",
                     "description": "Na forma Noturna, os alvos ser\u00e3o adormecidos. Na forma Diurna, os alvos se tornar\u00e3o mais vulner\u00e1veis a dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangAuraAbility",
-                    "abilityName": "Pacify & Provoke",
+                    "abilityName": "Paz & Guerra",
                     "description": "Na forma Noturna, o dano causado pelos inimigos ser\u00e1 reduzido. Na forma Diurna, um efeito de aumento de For\u00e7a da Habilidade ser\u00e1 concedido para os aliados no alcance da habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
-                    "abilityName": "Mend & Maim",
+                    "abilityName": "Recupera\u00e7\u00e3o & Destrui\u00e7\u00e3o",
                     "description": "Na forma Noturna, os Escudos dos aliados ser\u00e3o reabastecidos com cada inimigo abatido no alcance da habilidade. Na forma Diurna, os inimigos ser\u00e3o infligidos com o Efeito de Status <DT_SLASH_COLOR>Cortante. Desativar a habilidade na forma Noturna restaurar\u00e1 a Vida e os Escudos da Equinox e dos aliados no alcance. Desativar a habilidade na forma Diurna criar\u00e1 uma onda de for\u00e7a cortante."
                 }
             ],
@@ -240,23 +240,61 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangSwitchAbility",
-                    "abilityName": "Metamorphosis",
+                    "abilityName": "Metamorfose",
                     "description": "Alterne entre formas, obtendo temporariamente b\u00f4nus de Escudo e Armadura na forma Noturna, ou b\u00f4nus de Dano e Velocidade na forma Diurna."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
-                    "abilityName": "Rest & Rage",
+                    "abilityName": "Calmaria & C\u00f3lera",
                     "description": "Na forma Noturna, os alvos ser\u00e3o adormecidos. Na forma Diurna, os alvos se tornar\u00e3o mais vulner\u00e1veis a dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangAuraAbility",
-                    "abilityName": "Pacify & Provoke",
+                    "abilityName": "Paz & Guerra",
                     "description": "Na forma Noturna, o dano causado pelos inimigos ser\u00e1 reduzido. Na forma Diurna, um efeito de aumento de For\u00e7a da Habilidade ser\u00e1 concedido para os aliados no alcance da habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
-                    "abilityName": "Mend & Maim",
+                    "abilityName": "Recupera\u00e7\u00e3o & Destrui\u00e7\u00e3o",
                     "description": "Na forma Noturna, os Escudos dos aliados ser\u00e3o reabastecidos com cada inimigo abatido no alcance da habilidade. Na forma Diurna, os inimigos ser\u00e3o infligidos com o Efeito de Status <DT_SLASH_COLOR>Cortante. Desativar a habilidade na forma Noturna restaurar\u00e1 a Vida e os Escudos da Equinox e dos aliados no alcance. Desativar a habilidade na forma Diurna criar\u00e1 uma onda de for\u00e7a cortante."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Yareli/YareliPrime",
+            "name": "Yareli Prime",
+            "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+            "description": "A Surfista emerge, renascida da espuma do mar. Em seu esplendor original da era Orokin, incorpora o vigor imortal da juventude.",
+            "health": 270,
+            "shield": 550,
+            "armor": 105,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "A Yareli recebe +|CHANCE|% de Chance Cr\u00edtica para Armas Secund\u00e1rias, caso ela se movimente por, pelo menos, |TIME|s.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                    "abilityName": "Gl\u00f3bulos Oce\u00e2nicos",
+                    "description": "Gera cinco gl\u00f3bulos de \u00e1gua que perseguir\u00e3o os inimigos e se expandir\u00e3o com o contato, danificando e imobilizando suas v\u00edtimas.\r\nInimigos atingidos pelos gl\u00f3bulos receber\u00e3o dano amplificado de todas as fontes."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                    "abilityName": "Merulina",
+                    "description": "Conjurar\u00e1 a Merulina, um coral mar\u00edtimo que poder\u00e1 ser pilotado, a principal inspira\u00e7\u00e3o para os amantes de K-Drive. A Merulina proteger\u00e1 a Yareli ao absorver uma grande parte do dano recebido enquanto estiver ativa."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                    "abilityName": "L\u00e2minas Aqu\u00e1ticas",
+                    "description": "Rasgar\u00e1 os inimigos no alcance com um trio de l\u00e2minas aqu\u00e1ticas orbit\u00e1rias."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                    "abilityName": "Arrebenta\u00e7\u00e3o",
+                    "description": "Sugar\u00e1 os inimigos no alcance com um redemoinho esmagador que os destruir\u00e1 com uma explos\u00e3o aqu\u00e1tica. Cada inimigo aprisionado no v\u00f3rtice aumentar\u00e1 o dano da explos\u00e3o."
                 }
             ],
             "productCategory": "Suits"
@@ -319,22 +357,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
-                    "abilityName": "Reap",
-                    "description": "A Sombra do Sevagoth avan\u00e7ar\u00e1, devastando os inimigos presentes no seu caminho. Os sobreviventes receber\u00e3o o dano da habilidade Death\u2019s Harvest ao longo do tempo. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte."
+                    "abilityName": "Ceifa\u00e7\u00e3o",
+                    "description": "A Sombra do Sevagoth avan\u00e7ar\u00e1, devastando os inimigos presentes no seu caminho. Os sobreviventes receber\u00e3o o dano da habilidade Colheita Mortu\u00e1ria ao longo do tempo. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
-                    "abilityName": "Sow",
-                    "description": "Plantar\u00e1 uma semente da morte em alvos pr\u00f3ximos, drenando sua energia vital. Utilizar a habilidade Reap far\u00e1 com que os inimigos afetados explodam, causando uma porcentagem de sua Vida como dano ao redor deles. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte. "
+                    "abilityName": "Semeadura",
+                    "description": "Plantar\u00e1 uma semente da morte em alvos pr\u00f3ximos, drenando sua energia vital. Utilizar a habilidade Ceifa\u00e7\u00e3o far\u00e1 com que os inimigos afetados explodam, causando uma porcentagem de sua Vida como dano ao redor deles. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
-                    "abilityName": "Gloom",
+                    "abilityName": "Exaust\u00e3o",
                     "description": "Conjurar\u00e1 um pulso radial que restringir\u00e1 o movimento dos inimigos, drenando sua energia vital para o Po\u00e7o da Morte. Os Aliados que estiverem no efeito do pulso receber\u00e3o roubo de Vida em cada ataque realizado. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
-                    "abilityName": "Exalted Shadow",
+                    "abilityName": "Sombra Exaltada",
                     "description": "Quando o Po\u00e7o da Morte for preenchido completamente, a Sombra do Sevagoth estar\u00e1 pronta para ser liberada. Dilacere seus inimigos utilizando um conjunto de habilidades focadas em ataques corpo a corpo. "
                 }
             ],
@@ -360,22 +398,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
-                    "abilityName": "Reap",
-                    "description": "A Sombra do Sevagoth avan\u00e7ar\u00e1, devastando os inimigos presentes no seu caminho. Os sobreviventes receber\u00e3o o dano da habilidade Death\u2019s Harvest ao longo do tempo. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte."
+                    "abilityName": "Ceifa\u00e7\u00e3o",
+                    "description": "A Sombra do Sevagoth avan\u00e7ar\u00e1, devastando os inimigos presentes no seu caminho. Os sobreviventes receber\u00e3o o dano da habilidade Colheita Mortu\u00e1ria ao longo do tempo. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
-                    "abilityName": "Sow",
-                    "description": "Plantar\u00e1 uma semente da morte em alvos pr\u00f3ximos, drenando sua energia vital. Utilizar a habilidade Reap far\u00e1 com que os inimigos afetados explodam, causando uma porcentagem de sua Vida como dano ao redor deles. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte. "
+                    "abilityName": "Semeadura",
+                    "description": "Plantar\u00e1 uma semente da morte em alvos pr\u00f3ximos, drenando sua energia vital. Utilizar a habilidade Ceifa\u00e7\u00e3o far\u00e1 com que os inimigos afetados explodam, causando uma porcentagem de sua Vida como dano ao redor deles. As almas dos inimigos eliminados preencher\u00e3o o Po\u00e7o da Morte. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
-                    "abilityName": "Gloom",
+                    "abilityName": "Exaust\u00e3o",
                     "description": "Conjurar\u00e1 um pulso radial que restringir\u00e1 o movimento dos inimigos, drenando sua energia vital para o Po\u00e7o da Morte. Os Aliados que estiverem no efeito do pulso receber\u00e3o roubo de Vida em cada ataque realizado. "
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
-                    "abilityName": "Exalted Shadow",
+                    "abilityName": "Sombra Exaltada",
                     "description": "Quando o Po\u00e7o da Morte for preenchido completamente, a Sombra do Sevagoth estar\u00e1 pronta para ser liberada. Dilacere seus inimigos utilizando um conjunto de habilidades focadas em ataques corpo a corpo. "
                 }
             ],
@@ -664,23 +702,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
-                    "abilityName": "Tesla Nervos",
+                    "abilityName": "Nervos de Tesla",
                     "description": "Conjurar\u00e1 um drone rolador que se agarrar\u00e1 nos inimigos e disparar\u00e1 rajadas de eletricidade em todos os alvos no alcance."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperMultinadeAbility",
-                    "abilityName": "Minelayer",
-                    "description": "Alterne entre quatro tipos de minas dispar\u00e1veis. A mina Tether Coil imobilizar\u00e1 e agrupar\u00e1 os inimigos. A mina Flechette Orb disparar\u00e1 proj\u00e9teis letais em todas as dire\u00e7\u00f5es. A mina Vector Pad criar\u00e1 um campo de acelera\u00e7\u00e3o, para inimigos e aliados, em uma dire\u00e7\u00e3o espec\u00edfica. A mina Overdriver se aderir\u00e1 ao aliado mais pr\u00f3ximo, ampliando o dano de suas armas."
+                    "abilityName": "Campo Minado",
+                    "description": "Alterne entre quatro tipos de minas dispar\u00e1veis. A Mina de Conten\u00e7\u00e3o imobilizar\u00e1 e agrupar\u00e1 os inimigos. A Mina de Assalto disparar\u00e1 proj\u00e9teis letais em todas as dire\u00e7\u00f5es. A Mina de Acelera\u00e7\u00e3o criar\u00e1 um campo de acelera\u00e7\u00e3o para inimigos e aliados, em uma dire\u00e7\u00e3o espec\u00edfica. A Mina de Sobrecarga se aderir\u00e1 ao aliado mais pr\u00f3ximo, ampliando o dano de suas armas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperStrikeAbility",
-                    "abilityName": "Photon Strike",
+                    "abilityName": "Bomba de F\u00f3tons",
                     "description": "Conjurar\u00e1 um sinalizador que designar\u00e1 uma artilharia de lasers devastadores no local selecionado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LevTrapAbility",
-                    "abilityName": "Bastille",
-                    "description": "Erguer\u00e1 um campo de conten\u00e7\u00e3o que capturar\u00e1 e suspender\u00e1 os inimigos no alcance, removendo suas armaduras. Segurar o comando da habilidade far\u00e1 com que as Bastilles conjuradas entrem em colapso, transformando-se em um Vortex que puxar\u00e1 e causar\u00e1 dano nos inimigos."
+                    "abilityName": "Bastilha",
+                    "description": "Erguer\u00e1 um campo de conten\u00e7\u00e3o que capturar\u00e1 e suspender\u00e1 os inimigos no alcance, removendo suas armaduras. Segurar o comando da habilidade far\u00e1 com que as Bastilhas conjuradas entrem em colapso, transformando-se em um V\u00f3rtex que puxar\u00e1 e causar\u00e1 dano nos inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -702,23 +740,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
-                    "abilityName": "Tesla Nervos",
+                    "abilityName": "Nervos de Tesla",
                     "description": "Conjurar\u00e1 um drone rolador que se agarrar\u00e1 nos inimigos e disparar\u00e1 rajadas de eletricidade em todos os alvos no alcance."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperMultinadeAbility",
-                    "abilityName": "Minelayer",
-                    "description": "Alterne entre quatro tipos de minas dispar\u00e1veis. A mina Tether Coil imobilizar\u00e1 e agrupar\u00e1 os inimigos. A mina Flechette Orb disparar\u00e1 proj\u00e9teis letais em todas as dire\u00e7\u00f5es. A mina Vector Pad criar\u00e1 um campo de acelera\u00e7\u00e3o, para inimigos e aliados, em uma dire\u00e7\u00e3o espec\u00edfica. A mina Overdriver se aderir\u00e1 ao aliado mais pr\u00f3ximo, ampliando o dano de suas armas."
+                    "abilityName": "Campo Minado",
+                    "description": "Alterne entre quatro tipos de minas dispar\u00e1veis. A Mina de Conten\u00e7\u00e3o imobilizar\u00e1 e agrupar\u00e1 os inimigos. A Mina de Assalto disparar\u00e1 proj\u00e9teis letais em todas as dire\u00e7\u00f5es. A Mina de Acelera\u00e7\u00e3o criar\u00e1 um campo de acelera\u00e7\u00e3o para inimigos e aliados, em uma dire\u00e7\u00e3o espec\u00edfica. A Mina de Sobrecarga se aderir\u00e1 ao aliado mais pr\u00f3ximo, ampliando o dano de suas armas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperStrikeAbility",
-                    "abilityName": "Photon Strike",
+                    "abilityName": "Bomba de F\u00f3tons",
                     "description": "Conjurar\u00e1 um sinalizador que designar\u00e1 uma artilharia de lasers devastadores no local selecionado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LevTrapAbility",
-                    "abilityName": "Bastille",
-                    "description": "Erguer\u00e1 um campo de conten\u00e7\u00e3o que capturar\u00e1 e suspender\u00e1 os inimigos no alcance, removendo suas armaduras. Segurar o comando da habilidade far\u00e1 com que as Bastilles conjuradas entrem em colapso, transformando-se em um Vortex que puxar\u00e1 e causar\u00e1 dano nos inimigos."
+                    "abilityName": "Bastilha",
+                    "description": "Erguer\u00e1 um campo de conten\u00e7\u00e3o que capturar\u00e1 e suspender\u00e1 os inimigos no alcance, removendo suas armaduras. Segurar o comando da habilidade far\u00e1 com que as Bastilhas conjuradas entrem em colapso, transformando-se em um V\u00f3rtex que puxar\u00e1 e causar\u00e1 dano nos inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -740,18 +778,18 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
-                    "abilityName": "Tail Wind",
+                    "abilityName": "Vento de Cauda",
                     "description": "Enquanto no ar, segure o bot\u00e3o para planar com a Zephyr, com o movimento reduzido. A partir da posi\u00e7\u00e3o a\u00e9rea, utilize a habilidade para investir para frente, ou mire para baixo para atacar os inimigos de cima."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
-                    "abilityName": "Airburst",
+                    "abilityName": "Explos\u00e3o A\u00e9rea",
                     "description": "Disparar\u00e1 um jato de ar extraordinariamente denso. Segure o bot\u00e3o para arremessar os inimigos, ou apenas o pressione para pux\u00e1-los na dire\u00e7\u00e3o do jato. O dano ser\u00e1 ampliado a cada inimigo atingido."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TurbulenceAbility",
-                    "abilityName": "Turbulence",
-                    "description": "Criar\u00e1 um escudo ventoso ao redor da Zephyr, redirecionando todos os proj\u00e9teis que tentarem atingi-la."
+                    "abilityName": "Turbul\u00eancia",
+                    "description": "Criar\u00e1 um escudo de vento ao redor da Zephyr, redirecionando todos os proj\u00e9teis que tentarem atingi-la."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
@@ -778,18 +816,18 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
-                    "abilityName": "Tail Wind",
+                    "abilityName": "Vento de Cauda",
                     "description": "Enquanto no ar, segure o bot\u00e3o para planar com a Zephyr, com o movimento reduzido. A partir da posi\u00e7\u00e3o a\u00e9rea, utilize a habilidade para investir para frente, ou mire para baixo para atacar os inimigos de cima."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
-                    "abilityName": "Airburst",
+                    "abilityName": "Explos\u00e3o A\u00e9rea",
                     "description": "Disparar\u00e1 um jato de ar extraordinariamente denso. Segure o bot\u00e3o para arremessar os inimigos, ou apenas o pressione para pux\u00e1-los na dire\u00e7\u00e3o do jato. O dano ser\u00e1 ampliado a cada inimigo atingido."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TurbulenceAbility",
-                    "abilityName": "Turbulence",
-                    "description": "Criar\u00e1 um escudo ventoso ao redor da Zephyr, redirecionando todos os proj\u00e9teis que tentarem atingi-la."
+                    "abilityName": "Turbul\u00eancia",
+                    "description": "Criar\u00e1 um escudo de vento ao redor da Zephyr, redirecionando todos os proj\u00e9teis que tentarem atingi-la."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
@@ -971,23 +1009,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
-                    "abilityName": "Desiccation",
+                    "abilityName": "Desseca\u00e7\u00e3o",
                     "description": "Atingir\u00e1 os inimigos no alcance com uma onda de areia amaldi\u00e7oada que cegar\u00e1 e roubar\u00e1 Vida dos alvos afetados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
-                    "abilityName": "Sandstorm",
+                    "abilityName": "Tempestade de Areia",
                     "description": "Ao tornar-se uma tempestade de areia, Inaros devorar\u00e1 os inimigos puxados pelo seu redemoinho, curando-se com a vida deles."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
-                    "abilityName": "Scarab Shell",
+                    "abilityName": "Carapa\u00e7a de Escaravelhos",
                     "description": "Conjurar a habilidade formar\u00e1 uma camada protetora, mas drenar\u00e1 a Vida do Inaros conforme o tempo. Conjur\u00e1-la de novo interromper\u00e1 o processo antecipadamente. Esta camada protetora reduzir\u00e1 o dano recebido e absorver\u00e1 os Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
-                    "abilityName": "Scarab Swarm",
-                    "description": "Conjure a habilidade Scarab Swarm para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
+                    "abilityName": "Enxame de Escaravelhos",
+                    "description": "Conjure a habilidade Enxame de Escaravelhos para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -1009,23 +1047,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
-                    "abilityName": "Desiccation",
+                    "abilityName": "Desseca\u00e7\u00e3o",
                     "description": "Atingir\u00e1 os inimigos no alcance com uma onda de areia amaldi\u00e7oada que cegar\u00e1 e roubar\u00e1 Vida dos alvos afetados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
-                    "abilityName": "Sandstorm",
+                    "abilityName": "Tempestade de Areia",
                     "description": "Ao tornar-se uma tempestade de areia, Inaros devorar\u00e1 os inimigos puxados pelo seu redemoinho, curando-se com a vida deles."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
-                    "abilityName": "Scarab Shell",
+                    "abilityName": "Carapa\u00e7a de Escaravelhos",
                     "description": "Conjurar a habilidade formar\u00e1 uma camada protetora, mas drenar\u00e1 a Vida do Inaros conforme o tempo. Conjur\u00e1-la de novo interromper\u00e1 o processo antecipadamente. Esta camada protetora reduzir\u00e1 o dano recebido e absorver\u00e1 os Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
-                    "abilityName": "Scarab Swarm",
-                    "description": "Conjure a habilidade Scarab Swarm para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
+                    "abilityName": "Enxame de Escaravelhos",
+                    "description": "Conjure a habilidade Enxame de Escaravelhos para criar um enxame que atacar\u00e1 os inimigos, com Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo garantido. O dano aumentar\u00e1 conforme a Vida do Inaros. Os inimigos eliminados enquanto imersos no enxame invocar\u00e3o um Kavat de Areia que lutar\u00e1 ao lado do Inaros e guiar\u00e1 o enxame para outros inimigos."
                 }
             ],
             "productCategory": "Suits"
@@ -1434,22 +1472,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
-                    "abilityName": "Tempest Barrage",
+                    "abilityName": "Bombardeio Tempestuoso",
                     "description": "Invocar\u00e1 uma tempestade sobre uma \u00e1rea demarcada."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TidalWaveAbility",
-                    "abilityName": "Tidal Surge",
+                    "abilityName": "Maremoto",
                     "description": "Embata-se atrav\u00e9s dos inimigos ao transformar-se em um Maremoto atroz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
-                    "abilityName": "Plunder",
+                    "abilityName": "Pirataria",
                     "description": "Aumentar\u00e1 o Dano <DT_CORROSIVE_COLOR>Corrosivo de suas Habilidades e armas, e remover\u00e1 a Armadura de inimigos pr\u00f3ximos. Oponentes afetados pelo Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo oferecer\u00e3o um aumento maior."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
-                    "abilityName": "Tentacle Swarm",
+                    "abilityName": "Col\u00f4nia de Tent\u00e1culos",
                     "description": "Invocar\u00e1 uma criatura das profundezas. Os seus tent\u00e1culos aqu\u00e1ticos emergir\u00e3o de superf\u00edcies pr\u00f3ximas causando o caos."
                 }
             ],
@@ -1472,22 +1510,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
-                    "abilityName": "Tempest Barrage",
+                    "abilityName": "Bombardeio Tempestuoso",
                     "description": "Invocar\u00e1 uma tempestade sobre uma \u00e1rea demarcada."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TidalWaveAbility",
-                    "abilityName": "Tidal Surge",
+                    "abilityName": "Maremoto",
                     "description": "Embata-se atrav\u00e9s dos inimigos ao transformar-se em um Maremoto atroz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
-                    "abilityName": "Plunder",
+                    "abilityName": "Pirataria",
                     "description": "Aumentar\u00e1 o Dano <DT_CORROSIVE_COLOR>Corrosivo de suas Habilidades e armas, e remover\u00e1 a Armadura de inimigos pr\u00f3ximos. Oponentes afetados pelo Efeito de Status <DT_CORROSIVE_COLOR>Corrosivo oferecer\u00e3o um aumento maior."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
-                    "abilityName": "Tentacle Swarm",
+                    "abilityName": "Col\u00f4nia de Tent\u00e1culos",
                     "description": "Invocar\u00e1 uma criatura das profundezas. Os seus tent\u00e1culos aqu\u00e1ticos emergir\u00e3o de superf\u00edcies pr\u00f3ximas causando o caos."
                 }
             ],
@@ -1548,22 +1586,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
-                    "abilityName": "Smite",
+                    "abilityName": "Castigo",
                     "description": "Exorcizar\u00e1 a energia negativa do alvo, projetando esferas que procurar\u00e3o inimigos adjacentes e causar\u00e3o dano naqueles atingidos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
-                    "abilityName": "Hallowed Ground",
+                    "abilityName": "Solo Sagrado",
                     "description": "Santificar\u00e1 o terreno ante o Oberon com fogo justo, causando dano em qualquer inimigo que permanecer na \u00e1rea da habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
-                    "abilityName": "Renewal",
+                    "abilityName": "Renova\u00e7\u00e3o",
                     "description": "Gerar\u00e1 ondas de cura que fluir\u00e3o do Oberon para seus aliados, regenerando Vida ao longo do tempo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
-                    "abilityName": "Reckoning",
+                    "abilityName": "Julgamento",
                     "description": "Erguer\u00e1 todos os inimigos aos c\u00e9us, aplicando seu julgamento ao derrub\u00e1-los no ch\u00e3o com convic\u00e7\u00e3o. Inimigos que morrerem perante o julgamento do Oberon ter\u00e3o chance de deixar um Orbe de Vida."
                 }
             ],
@@ -1586,22 +1624,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
-                    "abilityName": "Smite",
+                    "abilityName": "Castigo",
                     "description": "Exorcizar\u00e1 a energia negativa do alvo, projetando esferas que procurar\u00e3o inimigos adjacentes e causar\u00e3o dano naqueles atingidos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
-                    "abilityName": "Hallowed Ground",
+                    "abilityName": "Solo Sagrado",
                     "description": "Santificar\u00e1 o terreno ante o Oberon com fogo justo, causando dano em qualquer inimigo que permanecer na \u00e1rea da habilidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
-                    "abilityName": "Renewal",
+                    "abilityName": "Renova\u00e7\u00e3o",
                     "description": "Gerar\u00e1 ondas de cura que fluir\u00e3o do Oberon para seus aliados, regenerando Vida ao longo do tempo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
-                    "abilityName": "Reckoning",
+                    "abilityName": "Julgamento",
                     "description": "Erguer\u00e1 todos os inimigos aos c\u00e9us, aplicando seu julgamento ao derrub\u00e1-los no ch\u00e3o com convic\u00e7\u00e3o. Inimigos que morrerem perante o julgamento do Oberon ter\u00e3o chance de deixar um Orbe de Vida."
                 }
             ],
@@ -1905,12 +1943,12 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
-                    "abilityName": "Fire Walker",
-                    "description": "Deixar\u00e1 uma trilha de fogo que queimar\u00e1 os inimigos e purificar\u00e1 os aliados que se aproximarem. Teleportar-se com a Blazing Chakram atingir\u00e1 a \u00e1rea de teleporte com um anel de fogo."
+                    "abilityName": "Rastro de Fogo",
+                    "description": "Deixar\u00e1 uma trilha de fogo que queimar\u00e1 os inimigos e purificar\u00e1 os aliados que se aproximarem. Teleportar-se com a habilidade Chakram Incandescente atingir\u00e1 a \u00e1rea de teleporte com um anel de fogo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaRingAbility",
-                    "abilityName": "Blazing Chakram",
+                    "abilityName": "Chakram Incandescente",
                     "description": "Arremessa um anel flamejante que atear\u00e1 fogo nos inimigos, deixando-os vulner\u00e1veis a qualquer tipo de dano. Inimigos atingidos pelas chamas deixar\u00e3o Orbes Restaurativos ao morrerem. Carregar a habilidade amplificar\u00e1 o poder do anel, e reativ\u00e1-lo far\u00e1 com que o Nezha seja teleportado para a localiza\u00e7\u00e3o do anel."
                 },
                 {
@@ -1920,7 +1958,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSpearAbility",
-                    "abilityName": "Divine Spears",
+                    "abilityName": "Lan\u00e7as Divinas",
                     "description": "Empala inimigos pr\u00f3ximos com lan\u00e7as que emergir\u00e3o do solo. Ativar a habilidade novamente arremessar\u00e1 os inimigos sobreviventes no solo."
                 }
             ],
@@ -1943,12 +1981,12 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
-                    "abilityName": "Fire Walker",
-                    "description": "Deixar\u00e1 uma trilha de fogo que queimar\u00e1 os inimigos e purificar\u00e1 os aliados que se aproximarem. Teleportar-se com a Blazing Chakram atingir\u00e1 a \u00e1rea de teleporte com um anel de fogo."
+                    "abilityName": "Rastro de Fogo",
+                    "description": "Deixar\u00e1 uma trilha de fogo que queimar\u00e1 os inimigos e purificar\u00e1 os aliados que se aproximarem. Teleportar-se com a habilidade Chakram Incandescente atingir\u00e1 a \u00e1rea de teleporte com um anel de fogo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaRingAbility",
-                    "abilityName": "Blazing Chakram",
+                    "abilityName": "Chakram Incandescente",
                     "description": "Arremessa um anel flamejante que atear\u00e1 fogo nos inimigos, deixando-os vulner\u00e1veis a qualquer tipo de dano. Inimigos atingidos pelas chamas deixar\u00e3o Orbes Restaurativos ao morrerem. Carregar a habilidade amplificar\u00e1 o poder do anel, e reativ\u00e1-lo far\u00e1 com que o Nezha seja teleportado para a localiza\u00e7\u00e3o do anel."
                 },
                 {
@@ -1958,7 +1996,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSpearAbility",
-                    "abilityName": "Divine Spears",
+                    "abilityName": "Lan\u00e7as Divinas",
                     "description": "Empala inimigos pr\u00f3ximos com lan\u00e7as que emergir\u00e3o do solo. Ativar a habilidade novamente arremessar\u00e1 os inimigos sobreviventes no solo."
                 }
             ],
@@ -1981,22 +2019,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SoulPunchAbility",
-                    "abilityName": "Soul Punch",
-                    "description": "Um golpe imensamente poderoso, capaz de transformar a pr\u00f3pria alma do inimigo em um proj\u00e9til mortal, causando dano a quaisquer alvos presentes em seu caminho. Inimigos que sobreviverem ao golpe ficar\u00e3o marcados e se tornar\u00e3o uma unidade da habilidade Shadows of the Dead, do Nekros, caso sejam eliminados enquanto estiverem marcados."
+                    "abilityName": "Abdu\u00e7\u00e3o Espiritual",
+                    "description": "Um golpe imensamente poderoso, capaz de transformar a pr\u00f3pria alma do inimigo em um proj\u00e9til mortal, causando dano a quaisquer alvos presentes em seu caminho. Inimigos que sobreviverem ao golpe ficar\u00e3o marcados e se tornar\u00e3o uma unidade da habilidade Sombras dos Mortos, do Nekros, caso sejam eliminados enquanto estiverem marcados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
-                    "abilityName": "Terrify",
+                    "abilityName": "Assombra\u00e7\u00e3o",
                     "description": "Preenche os cora\u00e7\u00f5es dos inimigos pr\u00f3ximos com sua presen\u00e7a aterradora, fazendo com que eles corram aterrorizados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SearchTheDeadAbility",
-                    "abilityName": "Desecrate",
+                    "abilityName": "Vilip\u00eandio",
                     "description": "Inimigos eliminados no alcance da habilidade deixar\u00e3o itens adicionais."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CloneTheDeadAbility",
-                    "abilityName": "Shadows of the Dead",
+                    "abilityName": "Sombras dos Mortos",
                     "description": "Invoca vers\u00f5es tenebrosas de inimigos eliminados que lutar\u00e3o a favor do Nekros por um curto per\u00edodo."
                 }
             ],
@@ -2019,22 +2057,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SoulPunchAbility",
-                    "abilityName": "Soul Punch",
-                    "description": "Um golpe imensamente poderoso, capaz de transformar a pr\u00f3pria alma do inimigo em um proj\u00e9til mortal, causando dano a quaisquer alvos presentes em seu caminho. Inimigos que sobreviverem ao golpe ficar\u00e3o marcados e se tornar\u00e3o uma unidade da habilidade Shadows of the Dead, do Nekros, caso sejam eliminados enquanto estiverem marcados."
+                    "abilityName": "Abdu\u00e7\u00e3o Espiritual",
+                    "description": "Um golpe imensamente poderoso, capaz de transformar a pr\u00f3pria alma do inimigo em um proj\u00e9til mortal, causando dano a quaisquer alvos presentes em seu caminho. Inimigos que sobreviverem ao golpe ficar\u00e3o marcados e se tornar\u00e3o uma unidade da habilidade Sombras dos Mortos, do Nekros, caso sejam eliminados enquanto estiverem marcados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
-                    "abilityName": "Terrify",
+                    "abilityName": "Assombra\u00e7\u00e3o",
                     "description": "Preenche os cora\u00e7\u00f5es dos inimigos pr\u00f3ximos com sua presen\u00e7a aterradora, fazendo com que eles corram aterrorizados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SearchTheDeadAbility",
-                    "abilityName": "Desecrate",
+                    "abilityName": "Vilip\u00eandio",
                     "description": "Inimigos eliminados no alcance da habilidade deixar\u00e3o itens adicionais."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CloneTheDeadAbility",
-                    "abilityName": "Shadows of the Dead",
+                    "abilityName": "Sombras dos Mortos",
                     "description": "Invoca vers\u00f5es tenebrosas de inimigos eliminados que lutar\u00e3o a favor do Nekros por um curto per\u00edodo."
                 }
             ],
@@ -2292,22 +2330,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
-                    "abilityName": "Decoy",
+                    "abilityName": "Chamariz",
                     "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si, a qual atrair\u00e1 os disparos inimigos e absorver\u00e1 uma fra\u00e7\u00e3o da Vida e Escudos de um inimigo pr\u00f3ximo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
-                    "abilityName": "Invisibility",
+                    "abilityName": "Invisibilidade",
                     "description": "Loki camufla-se, tornando-se invis\u00edvel para os inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwitchTeleportAbility",
-                    "abilityName": "Switch Teleport",
+                    "abilityName": "Teleporte Transicional",
                     "description": "O Loki trocar\u00e1 instantaneamente de posi\u00e7\u00e3o com o alvo escolhido. Esta habilidade pode ser usada para salvar aliados ou confundir os inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
-                    "abilityName": "Radial Disarm",
+                    "abilityName": "Desarme Radial",
                     "description": "Lan\u00e7ar\u00e1 adiante uma onda de energia, incapacitando armas de fogo dos inimigos atingidos e for\u00e7ando-os a utilizar o combate Corpo a Corpo."
                 }
             ],
@@ -2330,22 +2368,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
-                    "abilityName": "Decoy",
+                    "abilityName": "Chamariz",
                     "description": "O Loki mobilizar\u00e1 uma c\u00f3pia hologr\u00e1fica de si, a qual atrair\u00e1 os disparos inimigos e absorver\u00e1 uma fra\u00e7\u00e3o da Vida e Escudos de um inimigo pr\u00f3ximo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
-                    "abilityName": "Invisibility",
+                    "abilityName": "Invisibilidade",
                     "description": "Loki camufla-se, tornando-se invis\u00edvel para os inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwitchTeleportAbility",
-                    "abilityName": "Switch Teleport",
+                    "abilityName": "Teleporte Transicional",
                     "description": "O Loki trocar\u00e1 instantaneamente de posi\u00e7\u00e3o com o alvo escolhido. Esta habilidade pode ser usada para salvar aliados ou confundir os inimigos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
-                    "abilityName": "Radial Disarm",
+                    "abilityName": "Desarme Radial",
                     "description": "Lan\u00e7ar\u00e1 adiante uma onda de energia, incapacitando armas de fogo dos inimigos atingidos e for\u00e7ando-os a utilizar o combate Corpo a Corpo."
                 }
             ],
@@ -2648,7 +2686,7 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
-                    "abilityName": "Virulence",
+                    "abilityName": "Virul\u00eancia",
                     "description": "Rompe o ch\u00e3o com um crescimento de fungos poderosos que roubar\u00e3o Energia de cada inimigo atingido. Sempre que atingir 5 inimigos, a Infesta\u00e7\u00e3o entrar\u00e1 em muta\u00e7\u00e3o, multiplicando seu poder destrutivo."
                 },
                 {
@@ -2663,8 +2701,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
-                    "abilityName": "Ravenous",
-                    "description": "Larvas famintas atacar\u00e3o os inimigos pr\u00f3ximos, alimentando-se at\u00e9 que sejam atingidas pela Virulence e explodam, resultando na dissemina\u00e7\u00e3o da Infesta\u00e7\u00e3o. As larvas beneficiar\u00e3o a Muta\u00e7\u00e3o, concedendo Muta\u00e7\u00e3o adicional sempre que atingidas."
+                    "abilityName": "Preda\u00e7\u00e3o",
+                    "description": "Larvas famintas atacar\u00e3o os inimigos pr\u00f3ximos, alimentando-se at\u00e9 que sejam atingidas pela habilidade Virul\u00eancia e explodam, resultando na dissemina\u00e7\u00e3o da Infesta\u00e7\u00e3o. As larvas beneficiar\u00e3o a Muta\u00e7\u00e3o, concedendo Muta\u00e7\u00e3o adicional sempre que atingidas."
                 }
             ],
             "productCategory": "Suits"
@@ -2686,7 +2724,7 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
-                    "abilityName": "Virulence",
+                    "abilityName": "Virul\u00eancia",
                     "description": "Rompe o ch\u00e3o com um crescimento de fungos poderosos que roubar\u00e3o Energia de cada inimigo atingido. Sempre que atingir 5 inimigos, a Infesta\u00e7\u00e3o entrar\u00e1 em muta\u00e7\u00e3o, multiplicando seu poder destrutivo."
                 },
                 {
@@ -2701,8 +2739,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
-                    "abilityName": "Ravenous",
-                    "description": "Larvas famintas atacar\u00e3o os inimigos pr\u00f3ximos, alimentando-se at\u00e9 que sejam atingidas pela Virulence e explodam, resultando na dissemina\u00e7\u00e3o da Infesta\u00e7\u00e3o. As larvas beneficiar\u00e3o a Muta\u00e7\u00e3o, concedendo Muta\u00e7\u00e3o adicional sempre que atingidas."
+                    "abilityName": "Preda\u00e7\u00e3o",
+                    "description": "Larvas famintas atacar\u00e3o os inimigos pr\u00f3ximos, alimentando-se at\u00e9 que sejam atingidas pela habilidade Virul\u00eancia e explodam, resultando na dissemina\u00e7\u00e3o da Infesta\u00e7\u00e3o. As larvas beneficiar\u00e3o a Muta\u00e7\u00e3o, concedendo Muta\u00e7\u00e3o adicional sempre que atingidas."
                 }
             ],
             "productCategory": "Suits"
@@ -2724,23 +2762,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteImpaleAbility",
-                    "abilityName": "Axios Javelin",
-                    "description": "Lance um Axios Javelin. Quando o Javelin empala um inimigo contra uma parede, os inimigos ao redor s\u00e3o puxados para a \u00e1rea e sofrem uma s\u00e9rie de Danos."
+                    "abilityName": "Lan\u00e7a de Axios",
+                    "description": "Lance uma Lan\u00e7a de Axios. Quando a lan\u00e7a empala um inimigo contra uma parede, os inimigos ao redor s\u00e3o puxados para a \u00e1rea e sofrem dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteBashAbility",
-                    "abilityName": "Tharros Strike",
+                    "abilityName": "Golpe de Tharros",
                     "description": "Convoque o Tharros, o escudo do Styanax. Use o Tharros para repelir os inimigos e reduzir seus Escudos e Armaduras. Styanax regenerar\u00e1 Vida para cada inimigo atingido."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteRallyAbility",
-                    "abilityName": "Rally Point",
+                    "abilityName": "Ponto de Encontro",
                     "description": "Chame a aten\u00e7\u00e3o inimiga para o Styanax. Sua determina\u00e7\u00e3o eleva a si e seus aliados pr\u00f3ximos, regenerando a Energia do Esquadr\u00e3o ao longo do tempo. Styanax e seus aliados tamb\u00e9m regeneram seus Escudos ao contribu\u00edrem para uma elimina\u00e7\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteArmyAbility",
-                    "abilityName": "Final Stand",
-                    "description": "Exale for\u00e7a e valor. Levante-se no ar e lance uma saraivada de Axios Javelin. Javelins causam dano a inimigos pr\u00f3ximos onde quer que eles pousem. Acertos diretos nos inimigos causam ainda mais dano."
+                    "abilityName": "Linha de Defesa",
+                    "description": "Exale for\u00e7a e valor. Levante-se no ar e lance uma saraivada de Lan\u00e7as de Axios. As lan\u00e7as causam dano a inimigos pr\u00f3ximos onde quer que elas pousem. Acertos diretos nos inimigos causam ainda mais dano."
                 }
             ],
             "productCategory": "Suits"
@@ -2762,13 +2800,13 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IllusionAbility",
-                    "abilityName": "Hall of Mirrors",
+                    "abilityName": "Sal\u00e3o Espelhado",
                     "description": "A Mirage criar\u00e1 um grupo de clones, capazes de confundir e distrair o inimigo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
-                    "abilityName": "SLEIGHT OF HAND",
-                    "description": "Posicionar\u00e1 armadilhas em objetos pr\u00f3ximos junto a uma joia irresist\u00edvel, que cegar\u00e1 os inimigos ao seu redor se estiverem em locais escuros, ou explodir\u00e1 violentamente em locais claros. Usar esta habilidade enquanto a Hall of Mirros estiver ativa far\u00e1 com que os clones conjurem m\u00faltiplas joias menores."
+                    "abilityName": "Ilusionismo",
+                    "description": "Posicionar\u00e1 armadilhas em objetos pr\u00f3ximos junto a uma joia irresist\u00edvel, que cegar\u00e1 os inimigos ao seu redor se estiverem em locais escuros, ou explodir\u00e1 violentamente em locais claros. Usar esta habilidade enquanto a habilidade Sal\u00e3o Espelhado estiver ativa far\u00e1 com que os clones conjurem m\u00faltiplas joias menores."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
@@ -2777,7 +2815,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
-                    "abilityName": "Prism",
+                    "abilityName": "Prisma",
                     "description": "Lan\u00e7a um prisma de energia que disparar\u00e1 lasers em todas as dire\u00e7\u00f5es. Pressionar o bot\u00e3o da habilidade novamente detonar\u00e1 o prisma, cegando inimigos pr\u00f3ximos."
                 }
             ],
@@ -2787,7 +2825,7 @@
             "uniqueName": "/Lotus/Powersuits/Harlequin/Harlequin",
             "name": "Mirage",
             "parentName": "/Lotus/Powersuits/Harlequin/HarlequinBaseSuit",
-            "description": "O ilusionismo da Mirage complementa sua for\u00e7a. Seus inimigos ofuscados recebem alto dano. C\u00f3pias, lasers, e armadilhas s\u00e3o elementos de sua encena\u00e7\u00e3o.",
+            "description": "O ilusionismo da Mirage complementa sua for\u00e7a. Seus inimigos ofuscados recebem alto dano. C\u00f3pias, lasers e armadilhas s\u00e3o elementos de sua encena\u00e7\u00e3o.",
             "health": 200,
             "shield": 200,
             "armor": 105,
@@ -2800,13 +2838,13 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IllusionAbility",
-                    "abilityName": "Hall of Mirrors",
+                    "abilityName": "Sal\u00e3o Espelhado",
                     "description": "A Mirage criar\u00e1 um grupo de clones, capazes de confundir e distrair o inimigo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
-                    "abilityName": "SLEIGHT OF HAND",
-                    "description": "Posicionar\u00e1 armadilhas em objetos pr\u00f3ximos junto a uma joia irresist\u00edvel, que cegar\u00e1 os inimigos ao seu redor se estiverem em locais escuros, ou explodir\u00e1 violentamente em locais claros. Usar esta habilidade enquanto a Hall of Mirros estiver ativa far\u00e1 com que os clones conjurem m\u00faltiplas joias menores."
+                    "abilityName": "Ilusionismo",
+                    "description": "Posicionar\u00e1 armadilhas em objetos pr\u00f3ximos junto a uma joia irresist\u00edvel, que cegar\u00e1 os inimigos ao seu redor se estiverem em locais escuros, ou explodir\u00e1 violentamente em locais claros. Usar esta habilidade enquanto a habilidade Sal\u00e3o Espelhado estiver ativa far\u00e1 com que os clones conjurem m\u00faltiplas joias menores."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
@@ -2815,7 +2853,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
-                    "abilityName": "Prism",
+                    "abilityName": "Prisma",
                     "description": "Lan\u00e7a um prisma de energia que disparar\u00e1 lasers em todas as dire\u00e7\u00f5es. Pressionar o bot\u00e3o da habilidade novamente detonar\u00e1 o prisma, cegando inimigos pr\u00f3ximos."
                 }
             ],
@@ -2999,22 +3037,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaShieldAbility",
-                    "abilityName": "Dread Mirror",
+                    "abilityName": "Defesa Instintiva",
                     "description": "Absorva a energia vital de um inimigo e use-a como um escudo que absorve o dano recebido, esta habilidade eliminar\u00e1 o alvo instantaneamente caso ele j\u00e1 esteja enfraquecido. Carregue a habilidade para converter o dano recebido em um proj\u00e9til explosivo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
-                    "abilityName": "Blood Altar",
+                    "abilityName": "Altar Sanguin\u00e1rio",
                     "description": "Empale um inimigo em um altar de garras e forne\u00e7a Vida para Garuda e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaBloodAbility",
-                    "abilityName": "Bloodletting",
+                    "abilityName": "Sangria",
                     "description": "A Garuda sacrificar\u00e1 parte da sua Vida para gerar Energia e remover Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
-                    "abilityName": "Seeking Talons",
+                    "abilityName": "Garras Predadoras",
                     "description": "Carregar a habilidade expandir\u00e1 sua \u00e1rea de efeito. Ao conjurar, as garras da Garuda ser\u00e3o lan\u00e7adas em todos os alvos no alcance. Inimigos sobreviventes ser\u00e3o afetados pelo Efeito de Status <DT_SLASH_COLOR>Cortante."
                 }
             ],
@@ -3040,22 +3078,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaShieldAbility",
-                    "abilityName": "Dread Mirror",
+                    "abilityName": "Defesa Instintiva",
                     "description": "Absorva a energia vital de um inimigo e use-a como um escudo que absorve o dano recebido, esta habilidade eliminar\u00e1 o alvo instantaneamente caso ele j\u00e1 esteja enfraquecido. Carregue a habilidade para converter o dano recebido em um proj\u00e9til explosivo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
-                    "abilityName": "Blood Altar",
+                    "abilityName": "Altar Sanguin\u00e1rio",
                     "description": "Empale um inimigo em um altar de garras e forne\u00e7a Vida para Garuda e seus aliados."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaBloodAbility",
-                    "abilityName": "Bloodletting",
+                    "abilityName": "Sangria",
                     "description": "A Garuda sacrificar\u00e1 parte da sua Vida para gerar Energia e remover Efeitos de Status."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
-                    "abilityName": "Seeking Talons",
+                    "abilityName": "Garras Predadoras",
                     "description": "Carregar a habilidade expandir\u00e1 sua \u00e1rea de efeito. Ao conjurar, as garras da Garuda ser\u00e3o lan\u00e7adas em todos os alvos no alcance. Inimigos sobreviventes ser\u00e3o afetados pelo Efeito de Status <DT_SLASH_COLOR>Cortante."
                 }
             ],
@@ -3199,23 +3237,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
-                    "abilityName": "Spellbind",
+                    "abilityName": "Encantamento",
                     "description": "Inimigos ficar\u00e3o confusos e largar\u00e3o suas armas ao serem lan\u00e7ados no ar. Aliados pr\u00f3ximos receber\u00e3o imunidade a Efeitos de Status. Segurar a habilidade conjurar\u00e1 a imunidade na Titania."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
-                    "abilityName": "Tribute",
-                    "description": "Alterne e extraia um dos quatro tipos de bonifica\u00e7\u00f5es diferentes ao conjurar a habilidade em inimigos. A bonifica\u00e7\u00e3o Thorns reduzir\u00e1 o dano recebido. A bonifica\u00e7\u00e3o Dust prejudicar\u00e1 a precis\u00e3o dos inimigos. A bonifica\u00e7\u00e3o Full Moon fortalecer\u00e1 seus companheiros. A bonifica\u00e7\u00e3o Entangle reduzir\u00e1 a velocidade de movimento dos inimigos ao redor da conjura\u00e7\u00e3o."
+                    "abilityName": "Tributo",
+                    "description": "Alterne e extraia um dos quatro tipos de bonifica\u00e7\u00f5es diferentes ao conjurar a habilidade em inimigos. A bonifica\u00e7\u00e3o Espinhos reduzir\u00e1 o dano recebido. A bonifica\u00e7\u00e3o Poeira prejudicar\u00e1 a precis\u00e3o dos inimigos. A bonifica\u00e7\u00e3o Lua Cheia fortalecer\u00e1 seus companheiros. A bonifica\u00e7\u00e3o Entrela\u00e7ar reduzir\u00e1 a velocidade de movimento dos inimigos ao redor da conjura\u00e7\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
-                    "abilityName": "Lantern",
-                    "description": "Criar\u00e1 um enxame de borboletas afiadas que transformar\u00e1 o alvo em um irresist\u00edvel feixe de luz flutuante, atraindo outros inimigos antes de explodirem sob comando."
+                    "abilityName": "Vaga-Lume",
+                    "description": "Criar\u00e1 um enxame de borboletas fe\u00e9ricas que transformar\u00e1 o alvo em um irresist\u00edvel feixe de luz flutuante, atraindo outros inimigos antes de explodirem sob comando."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
-                    "abilityName": "Razorwing",
-                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
+                    "abilityName": "Asas Fe\u00e9ricas",
+                    "description": "Encolha-se e levante voo enquanto borboletas fe\u00e9ricas lhe acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
                 }
             ],
             "productCategory": "Suits"
@@ -3241,23 +3279,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
-                    "abilityName": "Spellbind",
+                    "abilityName": "Encantamento",
                     "description": "Inimigos ficar\u00e3o confusos e largar\u00e3o suas armas ao serem lan\u00e7ados no ar. Aliados pr\u00f3ximos receber\u00e3o imunidade a Efeitos de Status. Segurar a habilidade conjurar\u00e1 a imunidade na Titania."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
-                    "abilityName": "Tribute",
-                    "description": "Alterne e extraia um dos quatro tipos de bonifica\u00e7\u00f5es diferentes ao conjurar a habilidade em inimigos. A bonifica\u00e7\u00e3o Thorns reduzir\u00e1 o dano recebido. A bonifica\u00e7\u00e3o Dust prejudicar\u00e1 a precis\u00e3o dos inimigos. A bonifica\u00e7\u00e3o Full Moon fortalecer\u00e1 seus companheiros. A bonifica\u00e7\u00e3o Entangle reduzir\u00e1 a velocidade de movimento dos inimigos ao redor da conjura\u00e7\u00e3o."
+                    "abilityName": "Tributo",
+                    "description": "Alterne e extraia um dos quatro tipos de bonifica\u00e7\u00f5es diferentes ao conjurar a habilidade em inimigos. A bonifica\u00e7\u00e3o Espinhos reduzir\u00e1 o dano recebido. A bonifica\u00e7\u00e3o Poeira prejudicar\u00e1 a precis\u00e3o dos inimigos. A bonifica\u00e7\u00e3o Lua Cheia fortalecer\u00e1 seus companheiros. A bonifica\u00e7\u00e3o Entrela\u00e7ar reduzir\u00e1 a velocidade de movimento dos inimigos ao redor da conjura\u00e7\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
-                    "abilityName": "Lantern",
-                    "description": "Criar\u00e1 um enxame de borboletas afiadas que transformar\u00e1 o alvo em um irresist\u00edvel feixe de luz flutuante, atraindo outros inimigos antes de explodirem sob comando."
+                    "abilityName": "Vaga-Lume",
+                    "description": "Criar\u00e1 um enxame de borboletas fe\u00e9ricas que transformar\u00e1 o alvo em um irresist\u00edvel feixe de luz flutuante, atraindo outros inimigos antes de explodirem sob comando."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
-                    "abilityName": "Razorwing",
-                    "description": "Encolha-se e levante voo enquanto borboletas afiadas o acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
+                    "abilityName": "Asas Fe\u00e9ricas",
+                    "description": "Encolha-se e levante voo enquanto borboletas fe\u00e9ricas lhe acompanham, atacando os inimigos pr\u00f3ximos e amplificando o dano que eles recebem."
                 }
             ],
             "productCategory": "Suits"
@@ -3635,23 +3673,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathVolleyAbility",
-                    "abilityName": "Wyrd Scythes",
-                    "description": "A habilidade Wyrd Scythes cercar\u00e1 a Dagath com foices que mirar\u00e3o nos inimigos pr\u00f3ximos. Alvos atingidos ficar\u00e3o lentos e sofrer\u00e3o Dano <DT_VIRAL_COLOR>Viral, com Efeito de Status garantido. As foices tamb\u00e9m espalhar\u00e3o a habilidade Doom e prolongar\u00e3o sua dura\u00e7\u00e3o."
+                    "abilityName": "Foices do Destino",
+                    "description": "A habilidade Foices do Destino cercar\u00e1 Dagath com foices que mirar\u00e3o nos inimigos pr\u00f3ximos. Alvos atingidos ficar\u00e3o lentos e sofrer\u00e3o Dano <DT_VIRAL_COLOR>Viral, com Efeito de Status garantido. As foices tamb\u00e9m espalhar\u00e3o a habilidade Maldi\u00e7\u00e3o e prolongar\u00e3o sua dura\u00e7\u00e3o."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathCurseAbility",
-                    "abilityName": "Doom",
-                    "description": "Condenar\u00e1 os inimigos pr\u00f3ximos \u00e0 sua destrui\u00e7\u00e3o. Uma parte do dano causado pela Dagath ser\u00e1 causado novamente pela habilidade Wyrd Scythes. Eles tamb\u00e9m sofrer\u00e3o Dano <DT_VIRAL_COLOR>Viral."
+                    "abilityName": "Maldi\u00e7\u00e3o",
+                    "description": "Amaldi\u00e7oar\u00e1 os inimigos pr\u00f3ximos \u00e0 sua perdi\u00e7\u00e3o. Uma parte do dano causado pela Dagath ser\u00e1 causado novamente pela habilidade Foices do Destino. Eles tamb\u00e9m sofrer\u00e3o Dano <DT_VIRAL_COLOR>Viral."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathApparitionAbility",
-                    "abilityName": "Grave Spirit",
-                    "description": "Sobrecarregar\u00e1 as armas da Dagath com Dano Cr\u00edtico adicional. Os efeitos s\u00e3o duplicados em inimigos afetados pela habilidade Doom. Evitar\u00e1 golpes fatais ao assumir brevemente uma forma espectral."
+                    "abilityName": "Esp\u00edrito Sepulcral",
+                    "description": "Sobrecarregar\u00e1 as armas da Dagath com Dano Cr\u00edtico adicional. Os efeitos s\u00e3o duplicados em inimigos afetados pela habilidade Maldi\u00e7\u00e3o. Evitar\u00e1 golpes fatais ao assumir brevemente uma forma espectral."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathHorseAbility",
-                    "abilityName": "Rakhali\u2019s Cavalry",
-                    "description": "Os Kaithes Fantasmas avan\u00e7ar\u00e3o, infligindo Dano <DT_VIRAL_COLOR>Viral a todos os alvos no caminho. Seus ataques remover\u00e3o as defesas dos inimigos afetados pela habilidade Doom."
+                    "abilityName": "Cavalaria de Rakhali",
+                    "description": "Os Kaithes Fantasmas avan\u00e7ar\u00e3o, infligindo Dano <DT_VIRAL_COLOR>Viral a todos os alvos no caminho. Seus ataques remover\u00e3o as defesas dos inimigos afetados pela habilidade Maldi\u00e7\u00e3o."
                 }
             ],
             "productCategory": "Suits"
@@ -3995,22 +4033,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
-                    "abilityName": "Rip Line",
+                    "abilityName": "Cabo de Cerol",
                     "description": "Valkyr arremessar\u00e1 um gancho: se o gancho acertar um inimigo, Valkyr o puxar\u00e1 na dire\u00e7\u00e3o dela. Se o gancho atingir o terreno, ela avan\u00e7ar\u00e1 na dire\u00e7\u00e3o do gancho."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
-                    "abilityName": "Warcry",
+                    "abilityName": "Grito de Guerra",
                     "description": "Valkyr soltar\u00e1 um grito de guerra que aumentar\u00e1 a Velocidade de Ataque Corpo a Corpo dos seus aliados, enquanto reduz a velocidade de movimento dos inimigos pr\u00f3ximos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
-                    "abilityName": "Paralysis",
+                    "abilityName": "Paralisia",
                     "description": "Valkyr sacrificar\u00e1 parte de seus Escudos para atordoar e danificar os inimigos no alcance."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
-                    "abilityName": "Hysteria",
+                    "abilityName": "Histeria",
                     "description": "Valkyr ser\u00e1 imbu\u00edda em energia e despertar\u00e1 sua f\u00faria rancorosa, tornando-se capaz de desencadear uma tempestade de ataques mort\u00edferos de garras em inimigos desavisados."
                 }
             ],
@@ -4036,22 +4074,22 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
-                    "abilityName": "Rip Line",
+                    "abilityName": "Cabo de Cerol",
                     "description": "Valkyr arremessar\u00e1 um gancho: se o gancho acertar um inimigo, Valkyr o puxar\u00e1 na dire\u00e7\u00e3o dela. Se o gancho atingir o terreno, ela avan\u00e7ar\u00e1 na dire\u00e7\u00e3o do gancho."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
-                    "abilityName": "Warcry",
+                    "abilityName": "Grito de Guerra",
                     "description": "Valkyr soltar\u00e1 um grito de guerra que aumentar\u00e1 a Velocidade de Ataque Corpo a Corpo dos seus aliados, enquanto reduz a velocidade de movimento dos inimigos pr\u00f3ximos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
-                    "abilityName": "Paralysis",
+                    "abilityName": "Paralisia",
                     "description": "Valkyr sacrificar\u00e1 parte de seus Escudos para atordoar e danificar os inimigos no alcance."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
-                    "abilityName": "Hysteria",
+                    "abilityName": "Histeria",
                     "description": "Valkyr ser\u00e1 imbu\u00edda em energia e despertar\u00e1 sua f\u00faria rancorosa, tornando-se capaz de desencadear uma tempestade de ataques mort\u00edferos de garras em inimigos desavisados."
                 }
             ],
@@ -4074,23 +4112,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
-                    "abilityName": "Mallet",
-                    "description": "Causar\u00e1 dano ritmicamente em inimigos pr\u00f3ximos e atrair\u00e1 seus disparos. Todo o dano causado na Mallet aumentar\u00e1 sua letalidade."
+                    "abilityName": "Baqueta",
+                    "description": "Causar\u00e1 dano ritmicamente em inimigos pr\u00f3ximos e atrair\u00e1 seus disparos. Todo o dano causado \u00e0 habilidade Baqueta aumentar\u00e1 sua letalidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
-                    "abilityName": "Resonator",
-                    "description": "Lan\u00e7ar\u00e1 um rolador que encantar\u00e1 os inimigos a segui-la. Combin\u00e1-la com a Mallet criar\u00e1 uma bola perambulante de destrui\u00e7\u00e3o sonora."
+                    "abilityName": "Ressonador",
+                    "description": "Lan\u00e7ar\u00e1 um rolador que encantar\u00e1 os inimigos a segui-la. Combin\u00e1-la com a habilidade Baqueta criar\u00e1 uma bola perambulante de destrui\u00e7\u00e3o sonora."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
-                    "abilityName": "Metronome",
-                    "description": "Conceder\u00e1 bonifica\u00e7\u00f5es para aqueles que executarem a\u00e7\u00f5es continuas no ritmo da m\u00fasica da Octavia. Saltos cronometrados fornecer\u00e3o a bonifica\u00e7\u00e3o de velocidade Vivace. Agachar nas batidas fornecer\u00e1 a camuflagem do efeito Nocturne. Disparar as armas no ritmo da m\u00fasica conceder\u00e1 a bonifica\u00e7\u00e3o Opera, aumentando o Tiro M\u00faltiplo. Ataques corpo a corpo sincronizados fornecer\u00e3o a bonifica\u00e7\u00e3o Forte, que amplificar\u00e1 o dano."
+                    "abilityName": "Metr\u00f4nomo",
+                    "description": "Conceder\u00e1 bonifica\u00e7\u00f5es para aqueles que executarem a\u00e7\u00f5es continuas no ritmo da m\u00fasica da Octavia. Saltos cronometrados fornecer\u00e3o a bonifica\u00e7\u00e3o de velocidade Vivace. Agachar nas batidas fornecer\u00e1 a camuflagem do efeito Noturno. Disparar as armas no ritmo da m\u00fasica conceder\u00e1 a bonifica\u00e7\u00e3o \u00d3pera, aumentando o Tiro M\u00faltiplo. Ataques corpo a corpo sincronizados fornecer\u00e3o a bonifica\u00e7\u00e3o Forte, que amplificar\u00e1 o dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardAmplifyAbility",
-                    "abilityName": "Amp",
-                    "description": "Extrair\u00e1 a for\u00e7a ao n\u00edvel dos decib\u00e9is de som na \u00e1rea, e a utilizar\u00e1 para amplificar a bonifica\u00e7\u00e3o de Dano para a Octavia e seus aliados. Tamb\u00e9m dobrar\u00e1 o dano e o alcance dos Mallets pr\u00f3ximos."
+                    "abilityName": "Amplificador",
+                    "description": "Extrair\u00e1 a for\u00e7a ao n\u00edvel dos decib\u00e9is de som na \u00e1rea e a utilizar\u00e1 para amplificar a bonifica\u00e7\u00e3o de dano para a Octavia e seus aliados. Tamb\u00e9m dobrar\u00e1 o dano e o alcance da habilidade Baqueta."
                 }
             ],
             "productCategory": "Suits"
@@ -4112,23 +4150,23 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
-                    "abilityName": "Mallet",
-                    "description": "Causar\u00e1 dano ritmicamente em inimigos pr\u00f3ximos e atrair\u00e1 seus disparos. Todo o dano causado na Mallet aumentar\u00e1 sua letalidade."
+                    "abilityName": "Baqueta",
+                    "description": "Causar\u00e1 dano ritmicamente em inimigos pr\u00f3ximos e atrair\u00e1 seus disparos. Todo o dano causado \u00e0 habilidade Baqueta aumentar\u00e1 sua letalidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
-                    "abilityName": "Resonator",
-                    "description": "Lan\u00e7ar\u00e1 um rolador que encantar\u00e1 os inimigos a segui-la. Combin\u00e1-la com a Mallet criar\u00e1 uma bola perambulante de destrui\u00e7\u00e3o sonora."
+                    "abilityName": "Ressonador",
+                    "description": "Lan\u00e7ar\u00e1 um rolador que encantar\u00e1 os inimigos a segui-la. Combin\u00e1-la com a habilidade Baqueta criar\u00e1 uma bola perambulante de destrui\u00e7\u00e3o sonora."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
-                    "abilityName": "Metronome",
-                    "description": "Conceder\u00e1 bonifica\u00e7\u00f5es para aqueles que executarem a\u00e7\u00f5es continuas no ritmo da m\u00fasica da Octavia. Saltos cronometrados fornecer\u00e3o a bonifica\u00e7\u00e3o de velocidade Vivace. Agachar nas batidas fornecer\u00e1 a camuflagem do efeito Nocturne. Disparar as armas no ritmo da m\u00fasica conceder\u00e1 a bonifica\u00e7\u00e3o Opera, aumentando o Tiro M\u00faltiplo. Ataques corpo a corpo sincronizados fornecer\u00e3o a bonifica\u00e7\u00e3o Forte, que amplificar\u00e1 o dano."
+                    "abilityName": "Metr\u00f4nomo",
+                    "description": "Conceder\u00e1 bonifica\u00e7\u00f5es para aqueles que executarem a\u00e7\u00f5es continuas no ritmo da m\u00fasica da Octavia. Saltos cronometrados fornecer\u00e3o a bonifica\u00e7\u00e3o de velocidade Vivace. Agachar nas batidas fornecer\u00e1 a camuflagem do efeito Noturno. Disparar as armas no ritmo da m\u00fasica conceder\u00e1 a bonifica\u00e7\u00e3o \u00d3pera, aumentando o Tiro M\u00faltiplo. Ataques corpo a corpo sincronizados fornecer\u00e3o a bonifica\u00e7\u00e3o Forte, que amplificar\u00e1 o dano."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardAmplifyAbility",
-                    "abilityName": "Amp",
-                    "description": "Extrair\u00e1 a for\u00e7a ao n\u00edvel dos decib\u00e9is de som na \u00e1rea, e a utilizar\u00e1 para amplificar a bonifica\u00e7\u00e3o de Dano para a Octavia e seus aliados. Tamb\u00e9m dobrar\u00e1 o dano e o alcance dos Mallets pr\u00f3ximos."
+                    "abilityName": "Amplificador",
+                    "description": "Extrair\u00e1 a for\u00e7a ao n\u00edvel dos decib\u00e9is de som na \u00e1rea e a utilizar\u00e1 para amplificar a bonifica\u00e7\u00e3o de dano para a Octavia e seus aliados. Tamb\u00e9m dobrar\u00e1 o dano e o alcance da habilidade Baqueta."
                 }
             ],
             "productCategory": "Suits"

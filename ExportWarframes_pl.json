@@ -262,6 +262,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Yareli/YareliPrime",
+            "name": "Yareli Prime",
+            "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+            "description": "Surferka powstaje, odrodzona z morskiej piany. W swojej pierwotnej \u015bwietno\u015bci z czas\u00f3w Orokin uosabia nie\u015bmiertelny wigor m\u0142odo\u015bci.",
+            "health": 270,
+            "shield": 550,
+            "armor": 105,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Yareli zyskuje +|CHANCE|% szansy na Obra\u017cenia Krytyczne Broni bocznej, kiedy jest w ruchu przez przynajmniej |TIME|s.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                    "abilityName": "Morskie Sid\u0142a",
+                    "description": "Stw\u00f3rz pi\u0119\u0107 kul wody, kt\u00f3re pod\u0105\u017caj\u0105 za przeciwnikami i rosn\u0105 przy kontakcie, jednocze\u015bnie unieruchamiaj\u0105c ofiar\u0119 i zadaj\u0105c obra\u017cenia.\r\nPrzeciwnicy trafieni kulami wody otrzymuj\u0105 zwi\u0119kszone obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                    "abilityName": "Merulina",
+                    "description": "Przyzwij Merulin\u0119, stworzenie morskich fal i inspiracj\u0119 dla K-Drive. Merulina ochrania Yareli przejmuj\u0105c znaczn\u0105 cz\u0119\u015b\u0107 otrzymywanych przez ni\u0105 obra\u017ce\u0144."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                    "abilityName": "Wodne Ostrza",
+                    "description": "Przedzieraj si\u0119 przez wrog\u00f3w, u\u017cywaj\u0105c trzech wiruj\u0105cych, wodnych ostrzy."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                    "abilityName": "Przyp\u0142yw",
+                    "description": "Wci\u0105gnij wrog\u00f3w w mia\u017cd\u017c\u0105cy wir, a nast\u0119pnie rozrzu\u0107 ich solidnym try\u015bni\u0119ciem wody. Ka\u017cdy przeciwnik z\u0142apany przez wir zwi\u0119ksza obra\u017cenia wybuchu."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
             "name": "Yareli",
             "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
@@ -835,7 +873,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
                     "abilityName": "Egzaltowana Sol\u00f3wka",
-                    "description": "Kiedy wska\u017anik Synkopy metronomu jest pe\u0142en, rozpal Lizzie i spopiel wrog\u00f3w <DT_FIRE_COLOR>Obr. od Ognia. Podczas celowania Lizzie razi wrog\u00f3w pot\u0119\u017cnymi falami d\u017awi\u0119kowymi \u017cywio\u0142\u00f3w. Typ obra\u017ce\u0144 mo\u017ce zosta\u0107 zmieniony przez akcje u\u017cycia umiej\u0119tno\u015bci.\r\n\r\nWyczucie Synkopy: Nie zu\u017cywa Energii."
+                    "description": "Kiedy wska\u017anik Synkopy metronomu jest pe\u0142en, rozpal Lizzie i spopiel wrog\u00f3w <DT_FIRE_COLOR> Obr. od Ognia. Podczas celowania Lizzie razi wrog\u00f3w pot\u0119\u017cnymi falami d\u017awi\u0119kowymi \u017cywio\u0142\u00f3w. Typ obra\u017ce\u0144 mo\u017ce zosta\u0107 zmieniony przez akcje u\u017cycia umiej\u0119tno\u015bci.\r\n\r\nWyczucie Synkopy: Nie zu\u017cywa Energii."
                 }
             ],
             "productCategory": "Suits"
@@ -2569,7 +2607,7 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
-                    "abilityName": "Ogie\u0144 Zniszczenia",
+                    "abilityName": "Po\u017coga",
                     "description": "\u0141aduje i odpala niszczycielskie ogniste b\u0142yskawice."
                 },
                 {
@@ -2585,7 +2623,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
                     "abilityName": "Sztorm Egidy",
-                    "description": "Ogie\u0144 zniszczenia zalewa wrog\u00f3w. Pobliscy przeciwnicy s\u0105 wysadzeni w powietrze, aby zacz\u0105\u0107 generowa\u0107 Kul\u0119 Energii co kilka sekund. Kiedy Tarcze s\u0105 zu\u017cyte, wrogowie zostaj\u0105 ci\u015bni\u0119ci na ziemi\u0119."
+                    "description": "Wzbij si\u0119 w powietrze i ostrzeliwuj wrog\u00f3w z wysoko\u015bci. Pobliscy wrogowie s\u0105 unoszeni i tworz\u0105 Kule Energii co kilka sekund. Kiedy Tarcze zostan\u0105 wyczerpane, wrogowie zostaj\u0105 ci\u015bni\u0119ci o ziemi\u0119."
                 }
             ],
             "productCategory": "Suits"
@@ -2610,7 +2648,7 @@
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
-                    "abilityName": "Ogie\u0144 Zniszczenia",
+                    "abilityName": "Po\u017coga",
                     "description": "\u0141aduje i odpala niszczycielskie ogniste b\u0142yskawice."
                 },
                 {
@@ -2626,7 +2664,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
                     "abilityName": "Sztorm Egidy",
-                    "description": "Ogie\u0144 zniszczenia zalewa wrog\u00f3w. Pobliscy przeciwnicy s\u0105 wysadzeni w powietrze, aby zacz\u0105\u0107 generowa\u0107 Kul\u0119 Energii co kilka sekund. Kiedy Tarcze s\u0105 zu\u017cyte, wrogowie zostaj\u0105 ci\u015bni\u0119ci na ziemi\u0119."
+                    "description": "Wzbij si\u0119 w powietrze i ostrzeliwuj wrog\u00f3w z wysoko\u015bci. Pobliscy wrogowie s\u0105 unoszeni i tworz\u0105 Kule Energii co kilka sekund. Kiedy Tarcze zostan\u0105 wyczerpane, wrogowie zostaj\u0105 ci\u015bni\u0119ci o ziemi\u0119."
                 }
             ],
             "productCategory": "Suits"
