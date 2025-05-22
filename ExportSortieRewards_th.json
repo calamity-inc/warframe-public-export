@@ -121,7 +121,7 @@
         }
     ],
     "ExportNightwave": {
-        "affiliationTag": "RadioLegionIntermission12Syndicate",
+        "affiliationTag": "RadioLegionIntermission13Syndicate",
         "challenges": [
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyAimGlide",
@@ -824,6 +824,13 @@
                 "required": 50
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCompleteRace",
+                "name": "Ollie Oop!",
+                "description": "\u0e40\u0e25\u0e48\u0e19 Ollie's Crash Course \u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e40\u0e2a\u0e49\u0e19\u0e0a\u0e31\u0e22\u0e43\u0e2b\u0e49\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08",
+                "standing": 4500,
+                "required": 1
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPermanentCompleteMissions",
                 "name": "\u0e17\u0e33\u0e20\u0e32\u0e23\u0e01\u0e34\u0e08\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08",
                 "description": "\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08 |COUNT| \u0e20\u0e32\u0e23\u0e01\u0e34\u0e08",
@@ -1517,13 +1524,6 @@
                 "required": 1
             },
             {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillRopalolyst",
-                "name": "\u0e1a\u0e34\u0e19\u0e2a\u0e39\u0e07",
-                "description": "\u0e40\u0e2d\u0e32\u0e0a\u0e19\u0e30 Ropalolyst",
-                "standing": 7000,
-                "required": 1
-            },
-            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillThumper",
                 "name": "\u0e40\u0e14\u0e34\u0e19\u0e41\u0e1a\u0e1a\u0e44\u0e23\u0e49\u0e08\u0e31\u0e07\u0e2b\u0e27\u0e30",
                 "description": "\u0e01\u0e33\u0e08\u0e31\u0e14 Tusk Thumper Doma \u0e43\u0e19\u0e17\u0e35\u0e48\u0e23\u0e32\u0e1a Eidolon",
@@ -1606,38 +1606,58 @@
                 "description": "\u0e40\u0e1b\u0e34\u0e14 |COUNT| \u0e25\u0e47\u0e2d\u0e01\u0e40\u0e01\u0e2d\u0e23\u0e4c",
                 "standing": 4500,
                 "required": 30
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillTank",
+                "name": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e16\u0e16\u0e31\u0e07",
+                "description": "\u0e40\u0e2d\u0e32\u0e0a\u0e19\u0e30\u0e23\u0e16\u0e16\u0e31\u0e07 H-09 Efervon",
+                "standing": 7000,
+                "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardCompleteConquest",
+                "name": "\u0e1c\u0e39\u0e49\u0e40\u0e02\u0e49\u0e32\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e17\u0e14\u0e25\u0e2d\u0e07",
+                "description": "\u0e17\u0e33\u0e01\u0e32\u0e23\u0e27\u0e34\u0e08\u0e31\u0e22\u0e2d\u0e32\u0e23\u0e4c\u0e04\u0e34\u0e21\u0e35\u0e40\u0e14\u0e35\u0e22\u0e40\u0e0a\u0e34\u0e07\u0e25\u0e36\u0e01\u0e2b\u0e23\u0e37\u0e2d\u0e01\u0e32\u0e23\u0e27\u0e34\u0e08\u0e31\u0e22\u0e2d\u0e32\u0e23\u0e4c\u0e04\u0e34\u0e21\u0e35\u0e40\u0e14\u0e35\u0e22\u0e40\u0e0a\u0e34\u0e07\u0e01\u0e32\u0e25\u0e40\u0e27\u0e25\u0e32\u0e43\u0e2b\u0e49\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08",
+                "standing": 7000,
+                "required": 1
             }
         ],
         "rewards": [
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 150
             },
             {
-                "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/NightwavePizzaSigil",
-                "name": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e2b\u0e21\u0e32\u0e22: Big Bytes Pizza",
-                "description": "\u0e17\u0e33\u0e43\u0e2b\u0e49\u0e01\u0e31\u0e1a\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e19 Tenno \u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e23\u0e39\u0e49\u0e2a\u0e36\u0e01\u0e2b\u0e34\u0e27\u0e14\u0e49\u0e27\u0e22 Slice-Z \u0e08\u0e32\u0e01 Big Bytes Pizza"
+                "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/CosmosSigil",
+                "name": "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e2b\u0e21\u0e32\u0e22: Raya Orbitus",
+                "description": "\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e07\u0e32\u0e21\u0e41\u0e2b\u0e48\u0e07\u0e08\u0e31\u0e01\u0e23\u0e27\u0e32\u0e25\u0e14\u0e49\u0e27\u0e22\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e2b\u0e21\u0e32\u0e22\u0e02\u0e2d\u0e07\u0e0b\u0e35\u0e23\u0e35\u0e2a\u0e4c Raya \u0e0a\u0e34\u0e49\u0e19\u0e19\u0e35\u0e49"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/Ships/NoraShip"
+                "uniqueName": "/Lotus/Types/Items/MiscItems/OrokinCatalyst",
+                "itemCount": 2
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponUtilityUnlocker"
+                "uniqueName": "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleNightwaveSkin"
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/CephPolearmSkin",
-                "name": "\u0e2a\u0e01\u0e34\u0e19\u0e2b\u0e2d\u0e01 Heuris",
-                "description": "\u0e2b\u0e2d\u0e01\u0e17\u0e35\u0e48\u0e2d\u0e2d\u0e01\u0e41\u0e1a\u0e1a\u0e42\u0e14\u0e22\u0e1c\u0e39\u0e49\u0e1a\u0e31\u0e0d\u0e0a\u0e32\u0e01\u0e32\u0e23 Cephalon \u0e19\u0e35\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e1e\u0e35\u0e22\u0e07\u0e2a\u0e34\u0e48\u0e07\u0e17\u0e35\u0e48\u0e43\u0e0a\u0e49\u0e02\u0e31\u0e14\u0e02\u0e27\u0e32\u0e07\u0e01\u0e23\u0e30\u0e1a\u0e27\u0e19\u0e21\u0e38\u0e48\u0e07\u0e23\u0e49\u0e32\u0e22\u0e02\u0e2d\u0e07\u0e28\u0e31\u0e15\u0e23\u0e39\u0e42\u0e14\u0e22\u0e2a\u0e31\u0e0d\u0e0a\u0e32\u0e15\u0e0d\u0e32\u0e13"
+                "uniqueName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinCosmos"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyLillian"
+                "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackCeph",
+                "components": [
+                    "\u0e25\u0e32\u0e22\u0e02\u0e19 Neura",
+                    "Cetus Brown",
+                    "Cephalon Blue",
+                    "Banshee Blue",
+                    "Origin Black"
+                ]
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/Mods/Randomized/LotusShotgunRandomModRare"
             },
             {
                 "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/TwoWeaponSlotItem",
@@ -1645,10 +1665,10 @@
                 "description": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e43\u0e2a\u0e48\u0e2d\u0e32\u0e27\u0e38\u0e18 2 \u0e0a\u0e48\u0e2d\u0e07"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyJillian"
+                "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightaveCosmos"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 50
             },
             {
@@ -1657,24 +1677,35 @@
                 "description": "\u0e0a\u0e38\u0e14 Forma \u0e08\u0e33\u0e19\u0e27\u0e19\u0e2a\u0e32\u0e21\u0e0a\u0e34\u0e49\u0e19"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveLasSilencedPistolAugmentMod"
+                "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveTnJetTurbinePistolAugmentMod"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
                 "itemCount": 3
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooNightwaveCommando"
+                "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackCeph",
+                "name": "\u0e0a\u0e38\u0e14\u0e22\u0e35\u0e19\u0e21\u0e32\u0e2a\u0e01\u0e4c Kubrow Neura",
+                "description": "\u0e1b\u0e23\u0e31\u0e1a\u0e41\u0e15\u0e48\u0e07\u0e2a\u0e35\u0e02\u0e19\u0e02\u0e2d\u0e07 Kavat \u0e14\u0e49\u0e27\u0e22\u0e25\u0e33\u0e14\u0e31\u0e1a\u0e14\u0e35\u0e40\u0e2d\u0e47\u0e19\u0e40\u0e2d\u0e17\u0e35\u0e48\u0e41\u0e22\u0e01\u0e2d\u0e2d\u0e01\u0e21\u0e32\u0e44\u0e14\u0e49",
+                "components": [
+                    "\u0e25\u0e32\u0e22\u0e02\u0e19 Neura",
+                    "Mirage White",
+                    "Liset Grey",
+                    "Crewman Grey"
+                ]
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Kubrows/Armor/TnBoltorKubrowArmor"
+                "uniqueName": "/Lotus/Upgrades/Skins/Nightwave/CosmosEpitaphSkin"
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAoi"
+                "uniqueName": "/Lotus/Upgrades/Skins/Scarves/TnRailjackCosmosSyandana"
+            },
+            {
+                "uniqueName": "/Lotus/Types/Items/MiscItems/RivenIdentifier"
             },
             {
                 "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem",
@@ -1682,647 +1713,642 @@
                 "description": "\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e43\u0e2a\u0e48 Warframe \u0e2b\u0e19\u0e36\u0e48\u0e07\u0e0a\u0e48\u0e2d\u0e07"
             },
             {
-                "uniqueName": "/Lotus/StoreItems/Types/Items/MiscItems/RivenIdentifier",
-                "name": "\u0e44\u0e0b\u0e40\u0e1f\u0e2d\u0e23\u0e4c\u0e1b\u0e25\u0e14\u0e25\u0e47\u0e2d\u0e01 Riven",
-                "description": "\u0e43\u0e0a\u0e49\u0e44\u0e0b\u0e40\u0e1f\u0e2d\u0e23\u0e4c\u0e0a\u0e34\u0e49\u0e19\u0e19\u0e35\u0e49\u0e17\u0e33\u0e20\u0e32\u0e23\u0e01\u0e34\u0e08\u0e17\u0e49\u0e32\u0e17\u0e32\u0e22\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e1b\u0e25\u0e14\u0e25\u0e47\u0e2d\u0e01 Riven \u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e41\u0e15\u0e48\u0e01\u0e47\u0e15\u0e49\u0e2d\u0e07\u0e41\u0e25\u0e01\u0e01\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e40\u0e2a\u0e35\u0e22\u0e44\u0e0b\u0e40\u0e1f\u0e2d\u0e23\u0e4c\u0e0a\u0e34\u0e49\u0e19\u0e19\u0e35\u0e49\u0e44\u0e1b"
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/MeleeDangles/Sugotchi1999MeleeDangle"
+                "uniqueName": "/Lotus/Upgrades/Skins/Nightwave/CosmosBurstonSkin"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDSChromaSkin"
+                "uniqueName": "/Lotus/Upgrades/Skins/Armor/NWIIIBossArmor/NWIIIBossAArmor"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveTC2024AK47AugmentMod"
+                "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveCephPrimaryAugmentMod"
             },
             {
                 "uniqueName": "/Lotus/Types/Items/MiscItems/FormaStance"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Scarves/IceSpikeCape"
+                "uniqueName": "/Lotus/Types/StoreItems/Packages/NightwaveOperatorCosmeticsBundleA",
+                "name": "\u0e04\u0e2d\u0e25\u0e40\u0e25\u0e01\u0e0a\u0e31\u0e19\u0e42\u0e2d\u0e40\u0e1b\u0e2d\u0e40\u0e23\u0e40\u0e15\u0e2d\u0e23\u0e4c Cogna",
+                "description": "\u0e40\u0e2a\u0e23\u0e34\u0e21\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e21\u0e08\u0e23\u0e34\u0e07\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e14\u0e49\u0e27\u0e22\u0e04\u0e2d\u0e2a\u0e40\u0e21\u0e15\u0e34\u0e01\u0e17\u0e35\u0e48\u0e44\u0e14\u0e49\u0e41\u0e23\u0e07\u0e1a\u0e31\u0e19\u0e14\u0e32\u0e25\u0e43\u0e08\u0e08\u0e32\u0e01 Cephalon",
+                "components": [
+                    "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e1b\u0e23\u0e30\u0e14\u0e31\u0e1a\u0e2b\u0e39 Cogna",
+                    "\u0e41\u0e27\u0e48\u0e19\u0e42\u0e2d\u0e04\u0e39\u0e25\u0e31\u0e2a Cogna",
+                    "\u0e2b\u0e19\u0e49\u0e32\u0e01\u0e32\u0e01 Cogna"
+                ]
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Effects/NightwaveDigitalEphemera"
+                "uniqueName": "/Lotus/Upgrades/Skins/Effects/Twitch2023Ephemera"
             },
             {
                 "uniqueName": "/Lotus/Types/Items/MiscItems/FormaUmbra"
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/Inf1999ArmorBundle",
-                "name": "\u0e0a\u0e38\u0e14\u0e23\u0e27\u0e21\u0e40\u0e01\u0e23\u0e32\u0e30 Techrot",
-                "description": "\u0e21\u0e35\u0e23\u0e39\u0e1b\u0e25\u0e31\u0e01\u0e29\u0e13\u0e4c\u0e41\u0e1a\u0e1a Techrot \u0e42\u0e14\u0e22\u0e44\u0e21\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e15\u0e34\u0e14\u0e40\u0e0a\u0e37\u0e49\u0e2d\u0e42\u0e23\u0e04\u0e23\u0e49\u0e32\u0e22\u0e41\u0e23\u0e07\u0e17\u0e35\u0e48\u0e17\u0e33\u0e25\u0e32\u0e22\u0e0a\u0e35\u0e27\u0e34\u0e15",
-                "components": [
-                    "\u0e40\u0e1e\u0e25\u0e15\u0e44\u0e2b\u0e25\u0e48 Techrot",
-                    "\u0e40\u0e1e\u0e25\u0e15\u0e2b\u0e19\u0e49\u0e32\u0e2d\u0e01 Techrot",
-                    "\u0e40\u0e1e\u0e25\u0e15\u0e02\u0e32 Techrot"
-                ]
+                "uniqueName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosSkin"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionThirteenCreds",
                 "itemCount": 15
             }
         ]
