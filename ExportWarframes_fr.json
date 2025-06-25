@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Une gr\u00e2ce sinistre m\u00eal\u00e9e \u00e0 une polyvalence mortelle; l'\u00e9volution d'un pr\u00e9dateur parfait. Le nom de la peur est Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "La Prise Murale conf\u00e8re Menace du Pr\u00e9dateur, rendant Oraxia invisible pendant |DURATION|s. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Baiser de Mis\u00e9ricorde",
+                    "description": "Bondissez sur un ennemi et transpercez-le avec les pattes d'araign\u00e9e d'Oraxia, infligeant des D\u00e9g\u00e2ts de <DT_POISON_COLOR>Poison. Les ennemis vaincus par cette attaque ont une chance de laisser tomber des Orbes de Sant\u00e9 ou d'\u00c9nergie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "\u00c9treinte de la Toile",
+                    "description": "Oraxia lance une toile pour pi\u00e9ger sa proie. Les ennemis affect\u00e9s sont enferm\u00e9s dans un cocon qui augmente leur vuln\u00e9rabilit\u00e9 aux D\u00e9g\u00e2ts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Couv\u00e9e de la Veuve",
+                    "description": "Oraxia lance une salve de fl\u00e9chettes devant elle, qui appliquent l'Effet de Statut de <DT_POISON_COLOR>Poison. Les ennemis empoisonn\u00e9s font appara\u00eetre des \u00c9cumeuses lorsqu'ils meurent."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Foul\u00e9e Soyeuse",
+                    "description": "D\u00e9ployez les pattes d'araign\u00e9e d'Oraxia et partez \u00e0 la chasse. Oraxia est immunis\u00e9e contre les Effets de Statut et sa Sant\u00e9 max est augment\u00e9e. Les armes \u00e0 distance sont impr\u00e9gn\u00e9es de D\u00e9g\u00e2ts de <DT_POISON_COLOR>Poison. \u00c9liminer des ennemis les fait exploser et r\u00e9pand du <DT_POISON_COLOR>Poison.\r\n\r\nFil de Soie: appuyez sur Esquiver pour sauter vers la surface cibl\u00e9e."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -2473,7 +2511,7 @@
             "uniqueName": "/Lotus/Powersuits/Khora/Khora",
             "name": "Khora",
             "parentName": "/Lotus/Powersuits/Khora/KhoraBaseSuit",
-            "description": "Khora est toute en fouet et en griffe. Elle travaille avec son compagnon Kavat, Venari, pour infliger des D\u00e9g\u00e2ts importants et assurer le contr\u00f4le des foules. Deux corps, une seule volont\u00e9.",
+            "description": "Khora est tout en fouet et en griffe. Elle travaille avec son compagnon Kavat, Venari, pour infliger des D\u00e9g\u00e2ts importants et assurer le contr\u00f4le des foules. Deux corps, une seule volont\u00e9.",
             "health": 365,
             "shield": 270,
             "armor": 290,
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Une fi\u00e8re guerri\u00e8re se dresse indemne, \u00e9pargn\u00e9e par les affres du temps et par les tourments. Elle dispose de polarit\u00e9s de mod uniques lui permettant de gagner en puissance.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Se rel\u00e8ve |PERCENT|% plus vite apr\u00e8s un renversement.",
+            "passiveDescription": "Valkyr accumule de la Rage en frappant ou en \u00e9liminant des ennemis avec une arme de M\u00eal\u00e9e, augmentant ses D\u00e9g\u00e2ts de M\u00eal\u00e9e jusqu'\u00e0 |PERCENT|%. Subir des d\u00e9g\u00e2ts mortels lorsque la jauge est sup\u00e9rieure \u00e0 |CONSUME|% la consomme, pr\u00e9venant la mort et conf\u00e9rant une invuln\u00e9rabilit\u00e9 de |DURATION|s.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Ligne d'Arrachage",
-                    "description": "Valkyr lance un grappin l\u00e0 o\u00f9 elle vise. S'il touche un ennemi ou un alli\u00e9, elle le tire vers elle. S'il touche le terrain, elle est propuls\u00e9e \u00e0 l'emplacement du grappin."
+                    "description": "Valkyr lance un crochet et se hisse vers l'objet qu'il touche. Si un ennemi est touch\u00e9, ceux qui sont proches sont attir\u00e9s pendant qu'elle d\u00e9clenche une attaque de M\u00eal\u00e9e coordonn\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Cri de Guerre",
-                    "description": "Valkyr lance un cri de ralliement qui am\u00e9liore la Vitesse d'Attaque et l'Armure des alli\u00e9s tout en ralentissant les ennemis \u00e0 proximit\u00e9."
+                    "description": "Valkyr pousse un cri de ralliement qui renforce l'Armure et la Vitesse d'Attaque des alli\u00e9s lorsqu'ils se trouvent \u00e0 <AFFINITY_SHARE>Port\u00e9e d'Affinit\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralysie",
-                    "description": "Valkyr d\u00e9clenche une explosion de ses Boucliers, \u00e9tourdissant et blessant les ennemis en face d'elle."
+                    "description": "D\u00e9clenchez une explosion, ralentissant les victimes tout en augmentant leur vuln\u00e9rabilit\u00e9 aux D\u00e9g\u00e2ts de M\u00eal\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hyst\u00e9rie",
-                    "description": "Valkyr s'impr\u00e8gne d'\u00c9nergie et devient une boule de rage irraisonn\u00e9e, insensible aux d\u00e9g\u00e2ts, capable de faire un carnage \u00e0 coups de griffes parmi les ennemis sans qu'ils puissent faire quoi que ce soit."
+                    "description": "Valkyr sort ses griffes mortelles et lance des attaques d\u00e9vastatrices qui la soignent \u00e9galement. Valkyr devient immunis\u00e9e aux Effets de Statut et son bonus d'Armure de Cri de Guerre est multipli\u00e9."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Valkyr a \u00e9t\u00e9 transform\u00e9e en une tueuse tr\u00e8s motiv\u00e9e et redoutable. Elle est apte \u00e0 infliger des D\u00e9g\u00e2ts et \u00e0 survivre. Son cri de guerre s\u00e8me la terreur chez tous ceux qui l'entendent.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Se rel\u00e8ve |PERCENT|% plus vite apr\u00e8s un renversement.",
+            "passiveDescription": "Valkyr accumule de la Rage en frappant ou en \u00e9liminant des ennemis avec une arme de M\u00eal\u00e9e, augmentant ses D\u00e9g\u00e2ts de M\u00eal\u00e9e jusqu'\u00e0 |PERCENT|%. Subir des d\u00e9g\u00e2ts mortels lorsque la jauge est sup\u00e9rieure \u00e0 |CONSUME|% la consomme, pr\u00e9venant la mort et conf\u00e9rant une invuln\u00e9rabilit\u00e9 de |DURATION|s.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Ligne d'Arrachage",
-                    "description": "Valkyr lance un grappin l\u00e0 o\u00f9 elle vise. S'il touche un ennemi ou un alli\u00e9, elle le tire vers elle. S'il touche le terrain, elle est propuls\u00e9e \u00e0 l'emplacement du grappin."
+                    "description": "Valkyr lance un crochet et se hisse vers l'objet qu'il touche. Si un ennemi est touch\u00e9, ceux qui sont proches sont attir\u00e9s pendant qu'elle d\u00e9clenche une attaque de M\u00eal\u00e9e coordonn\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Cri de Guerre",
-                    "description": "Valkyr lance un cri de ralliement qui am\u00e9liore la Vitesse d'Attaque et l'Armure des alli\u00e9s tout en ralentissant les ennemis \u00e0 proximit\u00e9."
+                    "description": "Valkyr pousse un cri de ralliement qui renforce l'Armure et la Vitesse d'Attaque des alli\u00e9s lorsqu'ils se trouvent \u00e0 <AFFINITY_SHARE>Port\u00e9e d'Affinit\u00e9."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralysie",
-                    "description": "Valkyr d\u00e9clenche une explosion de ses Boucliers, \u00e9tourdissant et blessant les ennemis en face d'elle."
+                    "description": "D\u00e9clenchez une explosion, ralentissant les victimes tout en augmentant leur vuln\u00e9rabilit\u00e9 aux D\u00e9g\u00e2ts de M\u00eal\u00e9e."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hyst\u00e9rie",
-                    "description": "Valkyr s'impr\u00e8gne d'\u00c9nergie et devient une boule de rage irraisonn\u00e9e, insensible aux d\u00e9g\u00e2ts, capable de faire un carnage \u00e0 coups de griffes parmi les ennemis sans qu'ils puissent faire quoi que ce soit."
+                    "description": "Valkyr sort ses griffes mortelles et lance des attaques d\u00e9vastatrices qui la soignent \u00e9galement. Valkyr devient immunis\u00e9e aux Effets de Statut et son bonus d'Armure de Cri de Guerre est multipli\u00e9."
                 }
             ],
             "productCategory": "Suits"

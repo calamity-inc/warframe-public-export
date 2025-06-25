@@ -891,7 +891,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Gli alleati nel raggio di Affinit\u00e0 ottengono fino al |PCT|% di resistenza ai tipi di danno che stanno attualmente subendo.",
+            "passiveDescription": "Gli alleati nella Portata Affinit\u00e0 ottengono fino al |PCT|% di resistenza ai tipi di danno che stanno attualmente subendo.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
@@ -1764,6 +1764,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
                     "abilityName": "Serene Storm",
                     "description": "Con la Restrizione esaurita, Baruuk comanda Desert Wind per scagliare potenti colpi radiali con i suoi pugni e calci. Ogni momento in cui comanda la tempesta, la Restrizione si ripristina."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Grazia sinistra intrecciata a versatilit\u00e0 letale: l'evoluzione del predatore perfetto. Il nome della paura \u00e8 Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "L'Aggrappata conferisce l'abilit\u00e0 Predator's Lurk, rendendo Oraxia invisibile per |DURATION|s. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Mercy's Kiss",
+                    "description": "Balza su un nemico e trafiggilo con le zampe di ragno di Oraxia, infliggendo Danno <DT_POISON_COLOR>Tossina. I nemici sconfitti da questo attacco hanno la probabilit\u00e0 di rilasciare Sfere Salute o Energia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "Webbed Embrace",
+                    "description": "Oraxia lancia una ragnatela strisciante per intrappolare la sua preda. I nemici che si trovano nel raggio d'azione che si allarga vengono intrappolati in un bozzolo che aumenta la loro Vulnerabilit\u00e0 ai Danni."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Widow's Brood",
+                    "description": "Oraxia lancia davanti a s\u00e9 una raffica di dardi urticanti che infliggono l'Effetto <DT_POISON_COLOR> Tossina. I nemici avvelenati generano Scuttler quando vengono uccisi."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Silken Stride",
+                    "description": "Dispiega le zampe di ragno di Oraxia e lanciati all'attacco. Oraxia \u00e8 immune agli Effetti e ha la Salute Massima aumentata. Le sue Armi a Distanza sono infuse con Danno <DT_POISON_COLOR>Tossina. Uccidere i nemici li fa esplodere con <DT_POISON_COLOR>Tossina.\r\n\r\nSilken Thread: Premi Schiva per saltare sulla superficie che stai mirando."
                 }
             ],
             "productCategory": "Suits"
@@ -2697,7 +2735,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando effettuato su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
+                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
@@ -2735,7 +2773,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando effettuato su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
+                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Un'orgogliosa combattente emerge incolume da tempo e cattiveria. Presenta polarit\u00e0 mod alterate per una maggiore personalizzazione.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Ha un recupero dall'atterramento pi\u00f9 veloce del |PERCENT|%.",
+            "passiveDescription": "Valkyr accumula Rage colpendo o uccidendo i nemici con le armi corpo a corpo, aumentando il suo Danno Corpo a Corpo fino al |PERCENT|%. Subire danni fatali quando il misuratore di Rage \u00e8 sopra il |CONSUME|% lo consuma, permettendoti di sopravvivere e conferendo |DURATION|s di invulnerabilit\u00e0.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Rip Line",
-                    "description": "Valkyr lancia un rampino. Se colpisce un nemico, lo tira a s\u00e9. Se colpisce il terreno, tira s\u00e9 stessa verso la posizione del rampino."
+                    "description": "Valkyr lancia un gancio e si aggrappa a ci\u00f2 che colpisce. Se \u00e8 un nemico, quelli vicini vengono attirati verso di lei e scatena un attacco coordinato Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Warcry",
-                    "description": "Con un grido rabbioso Valkyr incoraggia i suoi alleati, aumentando la loro Velocit\u00e0 d'Attacco e Armatura mentre rallenta i nemici vicini."
+                    "description": "Valkyr lancia un grido di battaglia che rafforza l'Armatura e la Velocit\u00e0 d'Attacco degli alleati quando si trovano nella <AFFINITY_SHARE>Portata Affinit\u00e0."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralysis",
-                    "description": "Valkyr fa esplodere parte dei suoi scudi, stordendo e danneggiando nemici attorno a lei."
+                    "description": "Scatena un'esplosione dannosa, rallentando le vittime e aumentandone la Vulnerabilit\u00e0 ai Danni Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hysteria",
-                    "description": "Valkyr si carica di energia e diventa una palla di rabbia pura in grado di rilasciare una violenta serie di attacchi letali con gli artigli sui nemici impreparati."
+                    "description": "Valkyr sfodera i suoi artigli mortali, scatenando attacchi devastanti che la curano. Valkyr diventa immune agli Effetti e il bonus all'Armatura di Warcry viene moltiplicato."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Valkyr \u00e8 stata trasformata in una killer molto motivata e temibile. \u00c8 abile nell'infliggere danni e sopravvivere. Il suo grido di battaglia incute terrore a tutti coloro che lo ascoltano.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Ha un recupero dall'atterramento pi\u00f9 veloce del |PERCENT|%.",
+            "passiveDescription": "Valkyr accumula Rage colpendo o uccidendo i nemici con le armi corpo a corpo, aumentando il suo Danno Corpo a Corpo fino al |PERCENT|%. Subire danni fatali quando il misuratore di Rage \u00e8 sopra il |CONSUME|% lo consuma, permettendoti di sopravvivere e conferendo |DURATION|s di invulnerabilit\u00e0.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Rip Line",
-                    "description": "Valkyr lancia un rampino. Se colpisce un nemico, lo tira a s\u00e9. Se colpisce il terreno, tira s\u00e9 stessa verso la posizione del rampino."
+                    "description": "Valkyr lancia un gancio e si aggrappa a ci\u00f2 che colpisce. Se \u00e8 un nemico, quelli vicini vengono attirati verso di lei e scatena un attacco coordinato Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Warcry",
-                    "description": "Con un grido rabbioso Valkyr incoraggia i suoi alleati, aumentando la loro Velocit\u00e0 d'Attacco e Armatura mentre rallenta i nemici vicini."
+                    "description": "Valkyr lancia un grido di battaglia che rafforza l'Armatura e la Velocit\u00e0 d'Attacco degli alleati quando si trovano nella <AFFINITY_SHARE>Portata Affinit\u00e0."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralysis",
-                    "description": "Valkyr fa esplodere parte dei suoi scudi, stordendo e danneggiando nemici attorno a lei."
+                    "description": "Scatena un'esplosione dannosa, rallentando le vittime e aumentandone la Vulnerabilit\u00e0 ai Danni Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hysteria",
-                    "description": "Valkyr si carica di energia e diventa una palla di rabbia pura in grado di rilasciare una violenta serie di attacchi letali con gli artigli sui nemici impreparati."
+                    "description": "Valkyr sfodera i suoi artigli mortali, scatenando attacchi devastanti che la curano. Valkyr diventa immune agli Effetti e il bonus all'Armatura di Warcry viene moltiplicato."
                 }
             ],
             "productCategory": "Suits"

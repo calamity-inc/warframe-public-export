@@ -897,6 +897,27 @@
             "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+            "name": "Polvo temporal",
+            "description": "El polvo de universos decadentes, ricos en entrop\u00eda. La investigaci\u00f3n de Entrati lo considera el agente animador de los aterradores murmullos.\r\n\r\nObtenido del murmullo en las misiones de \u00abTejedora de Islas\u00bb (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+            "name": "Caparaz\u00f3n ar\u00e1cnido",
+            "description": "Un vestigio de la batalla contra Oraxia, la ara\u00f1a que una vez us\u00f3 esta piel y que ha desaparecido\u2026 aunque no es f\u00e1cil decir a d\u00f3nde.\r\n\r\nSe obtiene al derrotar a Oraxia en las misiones de \u00abTejedora de Islas\u00bb (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent",
+            "name": "Dominus Aureus",
+            "description": "Sellos de oro robados que simbolizan el poder real en Duviri. Devu\u00e9lvelos para que Dominus Thrax regrese al trono.\r\n\r\nSe obtienen al completar misiones de \u00abTejedora de Islas\u00bb en Duviri durante la Operaci\u00f3n: Octava Garra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
             "name": "Cistolito del Hemocito",
             "description": "Arrancado del conducto biliar de un hemocito ca\u00eddo.\r\n\r\nUbicaci\u00f3n: Hemocitos encontrados en los contratos del evento Estrella Infestada en las llanuras de Eidolon en la Tierra",
@@ -1082,14 +1103,14 @@
             "name": "\u00d3bolos Entrati",
             "description": "Durante la era orokin, estos \u00f3bolos eran una marca com\u00fanmente reconocida de la familia Entrati. Algunos arquimedianos incluso los utilizaban como talismanes de buena suerte.\r\n\r\nUbicaci\u00f3n: Laboratorios de Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
             "name": "Bobina Necra",
             "description": "Esta matriz experimental transmuta la energ\u00eda del Vac\u00edo en altos voltajes con bajas corrientes.\r\n\r\nUbicaci\u00f3n: Laboratorios de Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
@@ -1666,7 +1687,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/DangerRoom/DangerRoomTileDuviriDragonArena",
-            "name": "Simulacro de la arena orowyrm",
+            "name": "Simulacro de la arena Orowyrm",
             "description": "Simula una batalla sacada de los Cuentos de Duviri. Este simulacro permite establecer la dificultad del enemigo 25 niveles por encima del est\u00e1ndar m\u00e1ximo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/DangerRoom/DangerRoomTile"
@@ -5026,7 +5047,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArena",
-            "name": "Escena de la arena orowyrm",
+            "name": "Escena de la arena Orowyrm",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
+            "name": "Escena de la arena Oct\u00f3poda",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -5067,11 +5095,32 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
+            "name": "Escena del islote nebuloso de Tejedora de Islas",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
+            "name": "Escena del atol\u00f3n a la deriva de Tejedora de Islas",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Escena del Anfiteatro",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon",
+            "name": "Escena de la Prisi\u00f3n de Kullervo",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
@@ -5109,8 +5158,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
+            "name": "Escena del Desembarco del Erudito",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Escena de la Cueva de Teshin",
+            "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
+            "name": "Escena de la Sala del trono de Duviri",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -5909,7 +5972,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileOctopedeArena",
-            "name": "Escena del desfiladero fragmentado",
+            "name": "Escena del Desfiladero Fragmentado",
             "description": "Desbloquea esta escena para usar en el modo de estudio, se accede a trav\u00e9s de la pesta\u00f1a de apariencia de warframe en el arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati"
@@ -6215,21 +6278,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
             "name": "Cono Trillado Solar",
-            "description": "Esta planta com\u00fan s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de cono trillado solar que crecen en la Tierra",
+            "description": "Esta planta com\u00fan s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de cono trillado solar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
             "name": "Cono Trillado Lunar",
-            "description": "Esta planta com\u00fan s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de cono trillado lunar que crecen en la Tierra",
+            "description": "Esta planta com\u00fan s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de cono trillado lunar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
             "name": "Garra de Ruk",
-            "description": "Esta planta se introdujo en las regiones \u00e1ridas del Sistema Origen por su capacidad para recolectar humedad en ambientes hostiles. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner de c\u00f3dice en las plantas de garra de Ruk que crecen en Marte",
+            "description": "Esta planta se introdujo en las regiones \u00e1ridas del Sistema Origen por su capacidad para recolectar humedad en ambientes hostiles. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de garra de Ruk que crecen en Marte",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6244,7 +6307,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
             "name": "Musgo Vesta",
-            "description": "Una de las pocas especies de plantas conocidas capaces de prosperar en asteroides en el espacio profundo. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de musgo de Vesta que crecen en Mercurio, Saturno y Sedna",
+            "description": "Una de las pocas especies de plantas conocidas capaces de prosperar en asteroides en el espacio profundo. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de musgo de Vesta que crecen en Mercurio, Saturno y Sedna",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6273,49 +6336,49 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
             "name": "Hoja de Jade Solar",
-            "description": "Esta planta rara s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de hoja de jade solar que crecen en la Tierra",
+            "description": "Esta planta rara s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de hoja de jade solar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
             "name": "Hoja de Jade Lunar",
-            "description": "Esta planta rara s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de hoja de jade lunar que crecen en la Tierra.",
+            "description": "Esta planta rara s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de hoja de jade lunar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
             "name": "Lirio de Drag\u00f3n Solar",
-            "description": "Esta planta poco com\u00fan s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de lirio de drag\u00f3n solar que crecen en la Tierra.",
+            "description": "Esta planta poco com\u00fan s\u00f3lo se puede encontrar durante el d\u00eda. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de lirio de drag\u00f3n solar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
             "name": "Lirio de Drag\u00f3n Lunar",
-            "description": "Esta planta poco com\u00fan s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de lirio de drag\u00f3n lunar que crecen en la Tierra",
+            "description": "Esta planta poco com\u00fan s\u00f3lo se puede encontrar en la noche. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de lirio de drag\u00f3n lunar que crecen en la Tierra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
             "name": "Hoja de escarcha",
-            "description": "Esta planta resistente proporciona una fuente de alimento natural en las zonas g\u00e9lidas del Sistema Origen. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de hoja de escarcha que crecen en Venus, Neptuno y Plut\u00f3n",
+            "description": "Esta planta resistente proporciona una fuente de alimento natural en las zonas g\u00e9lidas del Sistema Origen. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de hoja de escarcha que crecen en Venus, Neptuno y Plut\u00f3n",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
             "name": "Sarracenia del ocaso",
-            "description": "Esta planta robusta y carn\u00edvora se ha adaptado a las condiciones de las aguas contaminadas. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner de c\u00f3dice en las plantas sarracenia del ocaso que crecen en los astilleros grineer que se encuentran com\u00fanmente en Ceres",
+            "description": "Esta planta robusta y carn\u00edvora se ha adaptado a las condiciones de las aguas contaminadas. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas sarracenia del ocaso que crecen en los astilleros grineer que se encuentran com\u00fanmente en Ceres",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
             "name": "C\u00e1ntaro Lunar",
-            "description": "Esta planta carn\u00edvora se puede encontrar en las \u00e1reas silvestres de Lua. \r\n\r\nUbicaci\u00f3n: Se obtiene usando un esc\u00e1ner del c\u00f3dice en las plantas de c\u00e1ntaro lunar que crecen en Lua",
+            "description": "Esta planta carn\u00edvora se puede encontrar en las \u00e1reas silvestres de Lua. \r\n\r\nUbicaci\u00f3n: Se obtiene recolectando las plantas de c\u00e1ntaro lunar que crecen en Lua",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6963,6 +7026,22 @@
             "description": "Redacta y revisa incontables pergaminos burocr\u00e1ticos con este excelente escritorio Duviri.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaHat",
+            "name": "Boina de la mayor Rusalka",
+            "description": "Boina de la Scaldra, distintiva de Neci Rusalka, recibida como parte de una misteriosa comunicaci\u00f3n.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaMedals",
+            "name": "Medallas de la mayor Rusalka",
+            "description": "Medallas al valor otorgadas a Neci Rusalka, recibidas como parte de una comunicaci\u00f3n misteriosa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelLarge",
@@ -10476,7 +10555,7 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/1999FlareBandPoster",
             "name": "P\u00f3ster de la gira de Temple and the Rippers",
             "description": "Adorna tus paredes con este p\u00f3ster que promociona la fat\u00eddica gira de Temple and the Rippers de 1999.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -12408,6 +12487,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaroPink",
+            "name": "Dron Domestik Ki'Teer (Lavanda glacial)",
+            "description": "Todo el estilo de limpieza del dron Domestik Ki'Teer original, en un nuevo color fresco y elegante.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBeachcomber",
             "name": "Dron Domestik Beachcomber",
             "description": "Agrega un poco de brillo a tu Orbitador con esta deslumbrante unidad de saneamiento.",
@@ -12467,6 +12553,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneInfested",
             "name": "Dron Domestik Carrion",
             "description": "Un poliz\u00f3n infestado de alguna de tus misiones, feliz de deambular por tu orbitador.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+            "name": "Ara\u00f1uelo",
+            "description": "Las criaturas escurridizas de Oraxia est\u00e1n felices de hacer del orbitador su terreno de caza.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12560,7 +12653,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropGlassTreasureBox",
             "name": "Cofre de Onkko",
-            "description": "Se cre\u00eda que Onkko proteg\u00eda el contenido de este cofre con una cerradura quebradiza.",
+            "description": "Se cree que Onkko protegi\u00f3 el contenido del cofre con un candado de cristal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
@@ -13935,6 +14028,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardOraxia",
+            "name": "Prex de Oraxia",
+            "description": "La Dama del Terror",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardProtea",
             "name": "Prex de Protea",
             "description": "La Bailarina Temporal",
@@ -14051,6 +14151,13 @@
             "name": "Prex de Titania",
             "description": "El Hada Traviesa",
             "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+            "name": "Prex de Valkyr Legado",
+            "description": "Un legado real nacido del tormento.",
+            "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -14261,6 +14368,62 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBestWorkmanshipTrophy",
+            "name": "TennoCon 2025 - Premio \"Destreza Solaris\"",
+            "description": "Este premio reconoce un cosplay con una mano de obra excelente. ",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBombasticTrophy",
+            "name": "TennoCon 2025 - Premio \"Actuaci\u00f3n bomb\u00e1stica\"",
+            "description": "Este premio reconoce un cosplay con una actuaci\u00f3n destacada en el escenario.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayFirstPlaceTrophy",
+            "name": "TennoCon 2025 - Primer lugar",
+            "description": "Otorgado al cosplayer que gane el primer lugar en la TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayLotusChoiceTrophy",
+            "name": "TennoCon 2025 - Premio \"Elecci\u00f3n de Lotus\"",
+            "description": "Este premio reconoce un cosplay elegido por los jueces como una excelente propuesta en general.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOrokinGoldTrophy",
+            "name": "TennoCon 2025 - Premio \"Oro orokin\"",
+            "description": "Este premio es para una persona que cre\u00f3 un cosplay excepcional en la categor\u00eda no competitiva.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOstronIngenuityTrophy",
+            "name": "TennoCon 2025 - Premio \"Ingenio Ostronita\"",
+            "description": "\u00a1Este premio reconoce el uso creativo de los materiales y la interpretaci\u00f3n de la tem\u00e1tica del cosplay!",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplaySecondPlaceTrophy",
+            "name": "TennoCon 2025 - Segundo lugar",
+            "description": "Otorgado al cosplayer que gane el segundo lugar en la TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayThirdPlaceTrophy",
+            "name": "TennoCon 2025 - Tercer lugar",
+            "description": "Otorgado al cosplayer que gane el tercer lugar en la TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoConDojoGhostTrophy",
             "name": "Decoraci\u00f3n de Nivel Fantasma",
             "description": "Una decoraci\u00f3n para reconocer las contribuciones de un clan a la comunidad de dojos en general.",
@@ -14445,11 +14608,26 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025DigitalItemDisplay",
+            "name": "[PH] Display - TennoCon 2025 Digital Item",
+            "description": "[PH] Description",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025Display",
             "name": "Mostrador - TennoCon 2025",
             "description": "Esta exhibici\u00f3n de Operador y warframe fue creada para celebrar los diez a\u00f1os de la TennoCon en 2025.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoconConcert2025Display",
+            "name": "Exhibidor de p\u00f3ster de Flare Varleon & Lizzie",
+            "description": "Un p\u00f3ster firmado por los miembros supervivientes de una banda extinta. Dise\u00f1o del artista de la comunidad, ZliDe.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
@@ -14941,13 +15119,6 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
-            "name": "Segmento del lanzador de archwing",
-            "description": "Agrega el lanzador del archwing a la fundici\u00f3n.",
-            "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
-        },
-        {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ErisNavigationFeatureItem",
             "name": "SEGMENTO DE NAVEGACI\u00d3N DE ERIS",
             "description": "",
@@ -15224,7 +15395,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
             "name": "SEGMENTO DE RELIQUIA DEL VAC\u00cdO",
-            "description": "",
+            "description": "Instala este segmento de Reliquia del Vac\u00edo en tu orbitador para empezar a abrir Reliquias del Vac\u00edo. Estas contienen objetos valiosos que solo se determinan al abrirlas en misiones de fisuras del Vac\u00edo. Se pueden obtener como recompensas de misi\u00f3n.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -16210,6 +16381,15 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecorationLayerItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/UnlockArbitrationKeyItem",
+            "name": "Desbloquea los Arbitramentos",
+            "description": "Desbloquea misiones de arbitraje en la pesta\u00f1a de alertas en el men\u00fa de navegaci\u00f3n.\r\nLos arbitrajes son variantes m\u00e1s dif\u00edciles de misiones sin fin con mayores recompensas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true,
+            "showInInventory": false
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
@@ -18113,6 +18293,27 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaSystemsComponent",
             "name": "Sistemas de Octavia",
             "description": "Componente de los sistemas del warframe Octavia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaChassisComponent",
+            "name": "Chasis de Oraxia",
+            "description": "Componente del chasis del warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaHelmetComponent",
+            "name": "Neur\u00f3pticas de Oraxia",
+            "description": "Componente de las neur\u00f3pticas del warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaSystemsComponent",
+            "name": "Sistemas de Oraxia",
+            "description": "Componente de los sistemas del warframe Oraxia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -21507,6 +21708,22 @@
             "primeSellingPrice": 45
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel",
+            "name": "Ca\u00f1\u00f3n de Scyotid",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidGauntlet",
+            "name": "Guante de Scyotid",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ShadePrimeCarapace",
             "name": "Caparaz\u00f3n de Shade Prime",
             "description": "Un componente de fabricaci\u00f3n de centinela prime.",
@@ -21663,6 +21880,30 @@
             "description": "El componente empu\u00f1adura de la Spectra V\u00e1ndalo.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexBlade",
+            "name": "Hoja de Spinnerex",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexHandle",
+            "name": "Empu\u00f1adura de Spinnerex",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexString",
+            "name": "Cuerda de Spinnerex",
+            "description": "Un componente de fabricaci\u00f3n de arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/StradavarPrimeBarrel",

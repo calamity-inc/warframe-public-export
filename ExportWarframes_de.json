@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Finstere Anmut gepaart mit t\u00f6dlicher Vielseitigkeit; die Evolution eines perfekten Raubtiers. Der Name der Angst ist Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Wandhalten gew\u00e4hrt Raubtierlauer und macht Oraxia f\u00fcr |DURATION| s unsichtbar. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Gnadenkuss",
+                    "description": "Springe auf einen Gegner und durchbohre ihn mit Oraxias Spinnenbeinen. Verursache dabei <DT_POISON_COLOR>Giftschaden. Gegner, die durch diesen Angriff get\u00f6tet werden, k\u00f6nnen Gesundheits- oder Energiekugeln fallen lassen."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "Netzumarmung",
+                    "description": "Oraxia wirft ein kriechendes Netz, um ihre Beute zu fangen. Gegner, die sich im wachsenden Radius befinden, werden in einem Kokon gefangen, der ihre Schadensanf\u00e4lligkeit erh\u00f6ht."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Witwenbrut",
+                    "description": "Oraxia feuert eine Salve scharfer Pfeile vor sich ab, die <DT_POISON_COLOR> Gift-Statuseffekt verursachen. Vergiftete Feinde erzeugen beim Tod Krabbler."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Seidenschritt",
+                    "description": "Entfalte Oraxias Spinnenbeine und begib dich auf die Jagd. Oraxia ist immun gegen Statuseffekte und verf\u00fcgt \u00fcber erh\u00f6hte max. Gesundheit. Fernkampfwaffen verursachen <DT_POISON_COLOR> Giftschaden. T\u00f6tet man Gegner, explodieren diese mit <DT_POISON_COLOR>Gift.\r\n\r\nSeidenfaden: Tippe auf Ausweichen, um zu einer Zieloberfl\u00e4che zu springen."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Ein stolzer Krieger schreitet n\u00e4her, unber\u00fchrt von Zeit und T\u00fccke. Beinhaltet alternative Mod-Polarit\u00e4ten, die eine bessere Anpassung erlauben.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "|PERCENT| % schnellere Erholung von Niederschl\u00e4gen.",
+            "passiveDescription": "Valkyr sammelt beim Treffen oder T\u00f6ten von Gegnern mit Nahkampfwaffen Wut an, wodurch ihr Nahkampfschaden auf bis zu |PERCENT| % steigt. Nimmt sie t\u00f6dlichen Schaden, wenn die Wutanzeige \u00fcber |CONSUME| % steht, leert sich die Anzeige, verhindert den Tod und gew\u00e4hrt |DURATION| s an Unverwundbarkeit.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Reissleine",
-                    "description": "Valkyr schleudert einen Haken. Trifft er einen Feind, zieht sie ihn zu sich. Trifft er das Gel\u00e4nde, zieht sie sich zur Position des Hakens."
+                    "description": "Valkyr schleudert einen Haken und zieht sich zu dem, was er trifft. Trifft der Haken einen Gegner, werden nahe Gegner herangezogen, w\u00e4hrend sie einen koordinierten Nahkampfangriff startet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Kriegsschrei",
-                    "description": "Valkyr st\u00f6\u00dft einen Schlachtruf aus, der die Nahkampfgeschwindigkeit ihrer Verb\u00fcndeten erh\u00f6ht, w\u00e4hrend er nahe Feinde verlangsamt."
+                    "description": "Valkyr st\u00f6\u00dft einen Schlachtruf aus, der die R\u00fcstung und Angriffsgeschwindigkeit von Verb\u00fcndeten erh\u00f6ht, w\u00e4hrend diese sich in <AFFINITY_SHARE>Erfahrungs-Reichweite befinden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralyse",
-                    "description": "Valkyr entfesselt ihre Schilde, um Gegner in ihrer N\u00e4he zu sch\u00e4digen und zu bet\u00e4uben."
+                    "description": "Entfessele Explosion die Schaden zuf\u00fcgt, ihre Opfer verlangsamt und gleichzeitig ihre Anf\u00e4lligkeit f\u00fcr Nahkampfsch\u00e4den erh\u00f6ht."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hysterie",
-                    "description": "Valkyr ist erf\u00fcllt von Energie und wird ein Ball b\u00f6sartiger Wut, f\u00e4hig dazu, einen rei\u00dfenden Strom von t\u00f6dlichen Klauen-Angriffen auf ahnungslose Feinde loszulassen."
+                    "description": "Valkyr entbl\u00f6\u00dft ihre t\u00f6dlichen Klauen und entfesselt verheerende Angriffe, die sie gleichzeitig heilen. Valkyr wird immun gegen Statuseffekte und ihr R\u00fcstungsbonus durch Kriegsschrei wird vervielfacht."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Valkyr wurde in eine hochmotivierte und furchterregende Killerin verwandelt. Sie ist geschickt darin, Schaden zu verursachen und zu \u00fcberleben. Ihr Schlachtruf erf\u00fcllt jeden, der ihn h\u00f6rt, mit Furcht.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "|PERCENT| % schnellere Erholung von Niederschl\u00e4gen.",
+            "passiveDescription": "Valkyr sammelt beim Treffen oder T\u00f6ten von Gegnern mit Nahkampfwaffen Wut an, wodurch ihr Nahkampfschaden auf bis zu |PERCENT| % steigt. Nimmt sie t\u00f6dlichen Schaden, wenn die Wutanzeige \u00fcber |CONSUME| % steht, leert sich die Anzeige, verhindert den Tod und gew\u00e4hrt |DURATION| s an Unverwundbarkeit.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Reissleine",
-                    "description": "Valkyr schleudert einen Haken. Trifft er einen Feind, zieht sie ihn zu sich. Trifft er das Gel\u00e4nde, zieht sie sich zur Position des Hakens."
+                    "description": "Valkyr schleudert einen Haken und zieht sich zu dem, was er trifft. Trifft der Haken einen Gegner, werden nahe Gegner herangezogen, w\u00e4hrend sie einen koordinierten Nahkampfangriff startet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Kriegsschrei",
-                    "description": "Valkyr st\u00f6\u00dft einen Schlachtruf aus, der die Nahkampfgeschwindigkeit ihrer Verb\u00fcndeten erh\u00f6ht, w\u00e4hrend er nahe Feinde verlangsamt."
+                    "description": "Valkyr st\u00f6\u00dft einen Schlachtruf aus, der die R\u00fcstung und Angriffsgeschwindigkeit von Verb\u00fcndeten erh\u00f6ht, w\u00e4hrend diese sich in <AFFINITY_SHARE>Erfahrungs-Reichweite befinden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralyse",
-                    "description": "Valkyr entfesselt ihre Schilde, um Gegner in ihrer N\u00e4he zu sch\u00e4digen und zu bet\u00e4uben."
+                    "description": "Entfessele Explosion die Schaden zuf\u00fcgt, ihre Opfer verlangsamt und gleichzeitig ihre Anf\u00e4lligkeit f\u00fcr Nahkampfsch\u00e4den erh\u00f6ht."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Hysterie",
-                    "description": "Valkyr ist erf\u00fcllt von Energie und wird ein Ball b\u00f6sartiger Wut, f\u00e4hig dazu, einen rei\u00dfenden Strom von t\u00f6dlichen Klauen-Angriffen auf ahnungslose Feinde loszulassen."
+                    "description": "Valkyr entbl\u00f6\u00dft ihre t\u00f6dlichen Klauen und entfesselt verheerende Angriffe, die sie gleichzeitig heilen. Valkyr wird immun gegen Statuseffekte und ihr R\u00fcstungsbonus durch Kriegsschrei wird vervielfacht."
                 }
             ],
             "productCategory": "Suits"

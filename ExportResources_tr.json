@@ -897,6 +897,27 @@
             "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+            "name": "Zamansal Toz",
+            "description": "\u00c7\u00fcr\u00fcm\u00fc\u015f evrenlerin tozu, entropi a\u00e7\u0131s\u0131ndan zengin. Entrati'nin ara\u015ft\u0131rmas\u0131, bu \u015feyin korkun\u00e7 Murmur'u canland\u0131ran etken oldu\u011funu varsay\u0131yor.\r\n\r\nIsleweaver g\u00f6revlerindeki Murmur'dan elde edilir (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+            "name": "Scuttler Kabu\u011fu",
+            "description": "Oraxia ile yap\u0131lan sava\u015f\u0131n bir kal\u0131nt\u0131s\u0131 olan bu kabu\u011fu bir zamanlar giymi\u015f olan \u00f6r\u00fcmcek art\u0131k yok\u2026 nereye gitmi\u015f oldu\u011fu ise belirsiz.\r\n\r\nIsleweaver g\u00f6revlerindeki Oraxia yok edilerek elde edilir (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent",
+            "name": "Dominus Aureus",
+            "description": "Duviri'deki kraliyet otoritesinin simgesi olan alt\u0131n m\u00fch\u00fcrler \u00e7al\u0131nd\u0131. Dominus Thrax'\u0131 tahta geri getirmek i\u00e7in onlar\u0131 ait oldu\u011fu yere geri g\u00f6t\u00fcr.\r\n\r\nOperasyon: Sekiz Pen\u00e7e s\u0131ras\u0131nda Duviri'deki Isleweaver g\u00f6revleri tamamlanarak elde edilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
             "name": "Hemocyte Cystolith",
             "description": "D\u00fc\u015fm\u00fc\u015f bir Hemocyte'tan al\u0131nm\u0131\u015f par\u00e7a.\r\n\r\nKonum: D\u00fcnya'daki Eidolon Ovalar\u0131nda bulunan Salg\u0131n Y\u0131ld\u0131z\u0131 etkinlik \u00f6d\u00fcllerindeki Hemocyte'lerden elde edilebilir",
@@ -1082,14 +1103,14 @@
             "name": "Entrati Obollar\u0131",
             "description": "Orokin d\u00f6neminde bu oboller genellikle Entrati ailesini temsil eden bir i\u015faretti. Baz\u0131 Ar\u015fimetler bunlar\u0131 iyi \u015fans t\u0131ls\u0131m\u0131 olarak da kullan\u0131yordu.\r\n\r\nKonum: Albrecht'in Laboratuvarlar\u0131 (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
             "name": "Necracoil",
             "description": "Bu deneysel dizilim, Void enerjisini d\u00fc\u015f\u00fck ak\u0131ml\u0131 y\u00fcksek voltajlara d\u00f6n\u00fc\u015ft\u00fcr\u00fcr.\r\n\r\nKonum: Albrecht'in Laboratuvarlar\u0131 (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
@@ -1440,7 +1461,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalViolet",
-            "name": "<SHARD_VIOLET_SIMPLE> Mor Archon Par\u00e7as\u0131",
+            "name": "<SHARD_VIOLET_SIMPLE> Menek\u015fe Archon Par\u00e7as\u0131",
             "description": "Ba\u015fta Archon'lar ve Warframe'ler olmak \u00fczere sentetik ya\u015fam formlar\u0131n\u0131 g\u00fc\u00e7lendirmek i\u00e7in kullan\u0131labilen ideal bir anti-entropik radyasyon kayna\u011f\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystal",
@@ -1448,7 +1469,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalVioletMythic",
-            "name": "<SHARD_VIOLET_SIMPLE> Tauforged Mor Archon Par\u00e7as\u0131",
+            "name": "<SHARD_VIOLET_SIMPLE> Tauforged Menek\u015fe Archon Par\u00e7as\u0131",
             "description": "Ba\u015fta Archon'lar ve Warframe'ler olmak \u00fczere sentetik ya\u015fam formlar\u0131n\u0131 g\u00fc\u00e7lendirmek i\u00e7in kullan\u0131labilen ideal bir anti-entropik radyasyon kayna\u011f\u0131.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalMythic",
@@ -5032,6 +5053,13 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
+            "name": "Octopede Arena Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Krater Adac\u0131\u011f\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
@@ -5067,11 +5095,32 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
+            "name": "Isleweaver Bulut Adac\u0131\u011f\u0131 Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
+            "name": "Isleweaver S\u00fcz\u00fclen Ada Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Amfitiyatro Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon",
+            "name": "Kullervo'nun H\u00fccresi Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
@@ -5109,8 +5158,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
+            "name": "Bilgin'in \u015eehri Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Teshin'in Ma\u011faras\u0131 Sahnesi",
+            "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
+            "name": "Duviri Taht Odas\u0131 Sahnesi",
             "description": "Captura Modunda kullanmak i\u00e7in bu sahneyi a\u00e7ar, Arsenaldeki Warframe G\u00f6r\u00fcn\u00fcm sekmesinden eri\u015filebilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -6215,21 +6278,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
             "name": "Sunlight Threshcone",
-            "description": "Bu yayg\u0131n olarak bulunabilen bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Threshcone bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu yayg\u0131n olarak bulunabilen bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Threshcone bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
             "name": "Moonl\u0131ght Threshcone",
-            "description": "Bu yayg\u0131n olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Threshcone bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu yayg\u0131n olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Threshcone bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
             "name": "Ruk's Claw",
-            "description": "Bu bitki, zor ya\u015fam \u015fartlar\u0131nda bile nem toplayabilme \u00f6zelli\u011fi ile Origin Sistemi'ndeki kurak b\u00f6lgelere yay\u0131lm\u0131\u015ft\u0131r. \r\n\r\nKonum: Mars'ta yeti\u015fen Ruk's Claw bitkileri \u00fczerinde Kodeks Taray\u0131c\u0131s\u0131 kullan\u0131larak elde edilir",
+            "description": "Bu bitki, zor ya\u015fam \u015fartlar\u0131nda bile nem toplayabilme \u00f6zelli\u011fi ile Origin Sistemi'ndeki kurak b\u00f6lgelere yay\u0131lm\u0131\u015ft\u0131r. \r\n\r\nKonum: Mars'ta yeti\u015fen Ruk's Claw bitkileri toplanarak elde edilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6244,7 +6307,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
             "name": "Vestan Moss",
-            "description": "Derin uzayda asteroitler \u00fczerinde yeti\u015fti\u011fi bilinen birka\u00e7 bitki t\u00fcr\u00fcnden biri. \r\n\r\nKonum: Merk\u00fcr, Sat\u00fcrn ve Sedna'da yeti\u015fen Vestan Moss bitkileri Kodeks Taray\u0131c\u0131s\u0131 kullan\u0131larak elde edilir",
+            "description": "Derin uzayda asteroitler \u00fczerinde yeti\u015fti\u011fi bilinen birka\u00e7 bitki t\u00fcr\u00fcnden biri. \r\n\r\nKonum: Merk\u00fcr, Sat\u00fcrn ve Sedna'da yeti\u015fen Vestan Moss bitkileri toplanarak elde edilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6273,49 +6336,49 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
             "name": "Sunl\u0131ght Jadeleaf",
-            "description": "Bu nadir bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Jadeleaf bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu ender olarak bulunabilen bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Jadeleaf bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
             "name": "Moonl\u0131ght Jadeleaf",
-            "description": "Bu nadir olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Jadeleaf bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu ender olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Jadeleaf bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
             "name": "Sunl\u0131ght Dragonl\u0131ly",
-            "description": "Bu nadir olarak bulunabilen bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Dragonlily bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu nadir olarak bulunabilen bitki sadece g\u00fcnd\u00fczleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Sunlight Dragonlily bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
             "name": "Moonlight Dragonlily",
-            "description": "Bu nadir olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Dragonlily bitkisi, Kodeks Taray\u0131c\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu nadir olarak bulunabilen bitki sadece geceleri ortaya \u00e7\u0131kar. \r\n\r\nKonum: D\u00fcnya'da yeti\u015fen Moonlight Dragonlily bitkisi toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
             "name": "Frostleaf",
-            "description": "Bu diren\u00e7li bitki, Origin sisteminin so\u011fuk b\u00f6lgelerinde do\u011fal bir besin kayna\u011f\u0131d\u0131r. \r\n\r\nKonum: Ven\u00fcs, Nept\u00fcn ve Pl\u00fcton'da yeti\u015fen Frostleaf bitkileri Kodeks Taray\u0131c\u0131s\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu diren\u00e7li bitki, Origin sisteminin so\u011fuk b\u00f6lgelerinde do\u011fal bir besin kayna\u011f\u0131d\u0131r. \r\n\r\nKonum: Ven\u00fcs, Nept\u00fcn ve Pl\u00fcton'da yeti\u015fen Frostleaf bitkileri toplanarak elde edilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
             "name": "Dusklight Sarracenia",
-            "description": "Bu g\u00fc\u00e7l\u00fc et\u00e7il bitki kirli sulardaki zor ko\u015fullara kolayca uyum sa\u011flar. \r\n\r\nKonum: Ceres'te yayg\u0131n olarak bulunan Grineer Tersanelerinde yeti\u015fen Dusklight Sarracenia bitkileri \u00fczerinde Kodeks Taray\u0131c\u0131s\u0131 kullan\u0131larak elde edilebilir",
+            "description": "Bu g\u00fc\u00e7l\u00fc et\u00e7il bitki kirli sulardaki zor ko\u015fullara kolayca uyum sa\u011flar. \r\n\r\nKonum: Ceres'te yayg\u0131n olarak bulunan Grineer Tersanelerinde yeti\u015fen Dusklight Sarracenia bitkileri toplanarak elde edilebilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
             "name": "Lunar Pitcher",
-            "description": "Bu etobur bitki, Lua'daki vah\u015fi do\u011fada b\u00fcy\u00fcrken bulunabilir. \r\n\r\nKonum: Lua'da yeti\u015fen Lunar Pitcher bitkileri Kodeks Taray\u0131c\u0131s\u0131 kullan\u0131larak elde edilir",
+            "description": "Bu etobur bitki, Lua'daki vah\u015fi do\u011fada b\u00fcy\u00fcrken bulunabilir. \r\n\r\nKonum: Lua'da yeti\u015fen Lunar Pitcher bitkileri toplanarak elde edilir",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6963,6 +7026,22 @@
             "description": "Bu zarif Duviri masas\u0131, sonsuz say\u0131da b\u00fcrokratik par\u015f\u00f6menleri haz\u0131rlamana ve yeniden \u00e7izmene olanak sa\u011flar.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaHat",
+            "name": "Binba\u015f\u0131 Rusalka'n\u0131n \u015eapka Hat\u0131ras\u0131",
+            "description": "Neci Rusalka'n\u0131n kendine \u00f6zg\u00fc Scaldra \u015fapkas\u0131, gizemli bir ileti\u015fimin par\u00e7as\u0131 olarak al\u0131nd\u0131.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaMedals",
+            "name": "Binba\u015f\u0131 Rusalka'n\u0131n Madalyalar\u0131 Hat\u0131ras\u0131",
+            "description": "Neci Rusalka'ya verilen kahramanl\u0131k madalyalar\u0131, gizemli bir ileti\u015fimin par\u00e7as\u0131 olarak al\u0131nd\u0131.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelLarge",
@@ -9077,7 +9156,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SUSupplyCartA",
             "name": "Solaris Erzak Arabas\u0131 Dekorasyonu",
-            "description": "Rig jokeylerinin favorisi, verimli \u015fekilde par\u00e7a ve erzak ta\u015f\u0131mada kullan\u0131lan bir ara\u00e7. Bununla gemine yaln\u0131z serseri havas\u0131 ver.",
+            "description": "Yapay bedenlilerin favorisi, verimli \u015fekilde par\u00e7a ve erzak ta\u015f\u0131mada kullan\u0131lan bir ara\u00e7. Bununla gemine yaln\u0131z serseri havas\u0131 ver.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10476,7 +10555,7 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/1999FlareBandPoster",
             "name": "Temple ve Rippers Tur Posteri",
             "description": "Temple ve Rippers'\u0131n 1999'daki kader turnesini yans\u0131tan bu posterle duvarlar\u0131n\u0131z\u0131 s\u00fcsleyin.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -12408,6 +12487,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaroPink",
+            "name": "Domestik Ki'Teer Drone (Lavanta Buzu)",
+            "description": "Orijinal Ki'Teer Domestik'in t\u00fcm temizlik stili yeni, modern ve zarif bir renkle m\u00fc\u015fterilere sunuluyor.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBeachcomber",
             "name": "Beachcomber Domestik Drone",
             "description": "Bu g\u00f6z kama\u015ft\u0131r\u0131c\u0131 sanitasyon \u00fcnitesi ile Orbiter'ine biraz parlakl\u0131k ver.",
@@ -12467,6 +12553,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneInfested",
             "name": "Domestik Carrion Drone",
             "description": "G\u00f6revlerinizden birinden ka\u00e7ak binen bir Infested yolcusu, \u015fimdi Orbiter'inizde gezmek i\u00e7in u\u011fra\u015f\u0131yor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+            "name": "Scuttler",
+            "description": "Oraxia'n\u0131n s\u00fcr\u00fcngenleri, Orbiter'\u0131 avlanma alanlar\u0131 haline getirmekten mutluluk duyuyorlar.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12560,7 +12653,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropGlassTreasureBox",
             "name": "Onkko'nun Sand\u0131\u011f\u0131",
-            "description": "\u0130nan\u0131lana g\u00f6re Onkko sand\u0131\u011f\u0131n i\u00e7eri\u011fini k\u0131r\u0131lgan bir cam kilitle koruyor.",
+            "description": "\u0130nan\u0131lana g\u00f6re Onkko, sand\u0131\u011f\u0131n i\u00e7eri\u011fini k\u0131r\u0131lgan bir cam kilitle koruyor.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
@@ -13935,6 +14028,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardOraxia",
+            "name": "Oraxia Prex",
+            "description": "Korkunun Efendisi",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardProtea",
             "name": "Protea Prex",
             "description": "Zamansal Dans\u00e7\u0131",
@@ -14051,6 +14151,13 @@
             "name": "Titania Prex",
             "description": "Yaramaz Pixie",
             "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+            "name": "Valkyr Heirloom Prex",
+            "description": "Eziyetten do\u011fmu\u015f g\u00f6rkemli bir miras.",
+            "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -14261,6 +14368,62 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBestWorkmanshipTrophy",
+            "name": "TennoCon 2025 - Solaris Ustal\u0131k \u00d6d\u00fcl\u00fc",
+            "description": "Bu \u00f6d\u00fcl, birinci s\u0131n\u0131f i\u015f\u00e7ili\u011fe sahip bir Cosplay'i \u00f6d\u00fcllendirir. ",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBombasticTrophy",
+            "name": "TennoCon 2025 - Bombastik Performans \u00d6d\u00fcl\u00fc",
+            "description": "Bu \u00f6d\u00fcl, sahnede ola\u011fan\u00fcst\u00fc performans g\u00f6steren bir Cosplay'i \u00f6d\u00fcllendirir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayFirstPlaceTrophy",
+            "name": "TennoCon 2025 - Birincilik \u00d6d\u00fcl\u00fc",
+            "description": "TennoCon 2025'te birinci olan cosplayer'a verilir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayLotusChoiceTrophy",
+            "name": "TennoCon 2025 - Lotus'un Se\u00e7imi \u00d6d\u00fcl\u00fc",
+            "description": "Bu \u00f6d\u00fcl, j\u00fcri taraf\u0131ndan g\u00fc\u00e7l\u00fc bir genel kat\u0131l\u0131m olarak se\u00e7ilen bir Cosplay'i \u00f6d\u00fcllendirir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOrokinGoldTrophy",
+            "name": "TennoCon 2025 - Orokin Alt\u0131n\u0131 \u00d6d\u00fcl\u00fc",
+            "description": "Bu \u00f6d\u00fcl, rekabet\u00e7i olmayan kategoride ola\u011fan\u00fcst\u00fc bir Cosplay yaratan ki\u015filere verilir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOstronIngenuityTrophy",
+            "name": "TennoCon 2025 - Ostron Yarat\u0131c\u0131l\u0131\u011f\u0131 \u00d6d\u00fcl\u00fc",
+            "description": "Bu \u00f6d\u00fcl, malzemelerin yarat\u0131c\u0131 kullan\u0131m\u0131n\u0131 ve Cosplay'in konusunun yorumlanmas\u0131n\u0131 takdir etmektedir!",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplaySecondPlaceTrophy",
+            "name": "TennoCon 2025 - \u0130kincilik \u00d6d\u00fcl\u00fc",
+            "description": "TennoCon 2025'te ikinci olan cosplayer'a verilir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayThirdPlaceTrophy",
+            "name": "TennoCon 2025 - \u00dc\u00e7\u00fcnc\u00fcl\u00fck \u00d6d\u00fcl\u00fc",
+            "description": "TennoCon 2025'te \u00fc\u00e7\u00fcnc\u00fc olan cosplayer'a verilir.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoConDojoGhostTrophy",
             "name": "Hayalet Seviyesi Dekorasyonu",
             "description": "Bir Klan\u0131n daha geni\u015f Dojo Toplulu\u011funa olan katk\u0131lar\u0131n\u0131 takdir eden bir dekorasyon.",
@@ -14445,11 +14608,26 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025DigitalItemDisplay",
+            "name": "[PH] Display - TennoCon 2025 Digital Item",
+            "description": "[PH] Description",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025Display",
             "name": "Sergi - TennoCon 2025",
             "description": "Bu Operat\u00f6r ve Warframe sergisi, 2025 y\u0131l\u0131nda TennoCon'un onuncu y\u0131l\u0131n\u0131 kutlamak amac\u0131yla tasarland\u0131.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoconConcert2025Display",
+            "name": "Flare Varleon & Lizzie Poster Sergisi",
+            "description": "Kay\u0131p bir gruptan geriye kalanlar\u0131n imzal\u0131 bir posteri. Topluluk sanat\u00e7\u0131s\u0131 ZliDe taraf\u0131ndan tasarlanm\u0131\u015ft\u0131r.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
@@ -14941,13 +15119,6 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
-            "name": "Archwing \u00c7a\u011f\u0131r\u0131c\u0131 Segmenti",
-            "description": "Archwing \u00c7a\u011f\u0131r\u0131c\u0131s\u0131n\u0131 at\u00f6lyeye ekler.",
-            "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
-        },
-        {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ErisNavigationFeatureItem",
             "name": "ERIS NAV\u0130GASYON MOD\u00dcL\u00dc",
             "description": "",
@@ -15224,7 +15395,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
             "name": "VOID RELIC SEGMENT\u0130",
-            "description": "",
+            "description": "Void Relic'leri a\u00e7maya ba\u015flamak i\u00e7in Void Relic Segmentinin Orbiter'a kurulmas\u0131 gerekir. Void Relic'ler yaln\u0131zca Void \u00c7atla\u011f\u0131 g\u00f6revlerinde a\u00e7\u0131ld\u0131\u011f\u0131nda belirlenen de\u011ferli e\u015fyalar\u0131 i\u00e7erir. Void Relic'ler g\u00f6rev \u00f6d\u00fclleri olarak elde edilebilir.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -16210,6 +16381,15 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecorationLayerItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/UnlockArbitrationKeyItem",
+            "name": "Arbitrasyon Kilidini A\u00e7",
+            "description": "Navigasyon men\u00fcs\u00fcn\u00fcn Alert G\u00f6revleri sekmesindeki Arbitrasyon G\u00f6revlerinin kilidini a\u00e7ar.\r\nArbitrasyonlar, daha b\u00fcy\u00fck \u00f6d\u00fcller sunan zorlu, sonsuz g\u00f6rev \u00e7e\u015fitleridir.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true,
+            "showInInventory": false
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
@@ -18113,6 +18293,27 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaSystemsComponent",
             "name": "Octavia Sistemleri",
             "description": "Octavia Warframe i\u00e7in Sistem bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaChassisComponent",
+            "name": "Oraxia G\u00f6vde",
+            "description": "Oraxia Warframe i\u00e7in G\u00f6vde bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaHelmetComponent",
+            "name": "Oraxia N\u00f6roptikleri",
+            "description": "Oraxia Warframe i\u00e7in N\u00f6roptik bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaSystemsComponent",
+            "name": "Oraxia Sistemleri",
+            "description": "Oraxia Warframe i\u00e7in Sistem bile\u015feni.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -21507,6 +21708,22 @@
             "primeSellingPrice": 45
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel",
+            "name": "Scyotid Namlu",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidGauntlet",
+            "name": "Scyotid Eldiven",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ShadePrimeCarapace",
             "name": "Shade Prime Kabuk",
             "description": "Bir prime sentinel-\u00fcretim bile\u015feni.",
@@ -21663,6 +21880,30 @@
             "description": "Spectra Vandal i\u00e7in Kabza bile\u015feni.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexBlade",
+            "name": "Spinnerex B\u0131\u00e7ak",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexHandle",
+            "name": "Spinnerex Kabza",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexString",
+            "name": "Spinnerex Kordon",
+            "description": "Bir silah \u00fcretim bile\u015feni.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/StradavarPrimeBarrel",

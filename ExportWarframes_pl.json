@@ -54,7 +54,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/GrappleHookAbility",
                     "abilityName": "Ark-Lina",
-                    "description": "Wystrzel kotwiczk\u0119, kt\u00f3ra przyci\u0105ga przeciwnik\u00f3w, lub przyci\u0105ga Warframe do stacjonarnych element\u00f3w otoczenia."
+                    "description": "Wystrzel kotwiczk\u0119, kt\u00f3ra albo przyci\u0105ga przeciwnik\u00f3w bli\u017cej lub przyci\u0105ga Warframe do stacjonarnych element\u00f3w otoczenia."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Z\u0142owroga \u0142aska przeplata si\u0119 ze wszechstronn\u0105 zab\u00f3jczo\u015bci\u0105; ewolucja idealnego drapie\u017cnika. Imi\u0119 strachu to Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Przywarcie do \u015bciany przyznaje premi\u0119 Przyczajonego \u0141owcy, czyni\u0105c Oraxi\u0119 niewidzialn\u0105 przez |DURATION| s. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Poca\u0142unek Lito\u015bci",
+                    "description": "Rzu\u0107 si\u0119 na wroga i przebij go paj\u0119czymi odn\u00f3\u017cami Oraxii, zadaj\u0105c <DT_POISON_COLOR> Obr. od Toksyn. Wrogowie zabici tym atakiem mog\u0105 upu\u015bci\u0107 Kule \u017bycia i Energii."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "Zab\u00f3jczy U\u015bcisk",
+                    "description": "Oraxia zastawia sie\u0107 na swoje ofiary. Wrogowie z\u0142apani w rosn\u0105cym obszarze zostaj\u0105 spowici w kokon, kt\u00f3ry zwi\u0119ksza ich Podatno\u015b\u0107 na Obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Wdowi Miot",
+                    "description": "Oraxia wyrzuca przed siebie seri\u0119 \u017c\u0105de\u0142, kt\u00f3re nak\u0142adaj\u0105 Efekt Statusu <DT_POISON_COLOR> Obr. od Toksyn. Zabicie zatrutych wrog\u00f3w przywo\u0142uje Paj\u0119czaki."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Jedwabisty Krok",
+                    "description": "Rozwi\u0144 paj\u0119cze odn\u00f3\u017ca Oraxii i wyrusz na \u0142owy. Oraxia zyskuje odporno\u015b\u0107 na Efekty Statusu i premi\u0119 Maks. \u017bycia. Jej Bro\u0144 dystansowa otrzymuje premi\u0119 <DT_POISON_COLOR> Obr. od Toksyn. Zabici wrogowie wybuchaj\u0105, zadaj\u0105c <DT_POISON_COLOR> Obr. od Toksyn.\r\n\r\nJedwabna Ni\u0107: Naci\u015bnij przycisk Uniku, aby skoczy\u0107 w kierunku wskazanej powierzchni."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -1848,7 +1886,7 @@
             "uniqueName": "/Lotus/Powersuits/Ninja/Ninja",
             "name": "Ash",
             "parentName": "/Lotus/Powersuits/Ninja/NinjaBaseSuit",
-            "description": "Oto patron szko\u0142y zab\u00f3jstw politycznych Orokin. Specjalizacj\u0105 Asha jest skrytob\u00f3jstwo. Jego ostrze jest pr\u0119dzej poczute ni\u017c dostrze\u017cone.",
+            "description": "Oto patron szko\u0142y zab\u00f3jstw politycznych Orokin. Specjalizacj\u0105 Asha jest skrytob\u00f3jstwo. Jego ostrze mo\u017cna szybciej poczu\u0107, ni\u017c dostrzec.",
             "health": 455,
             "shield": 270,
             "armor": 105,
@@ -3707,7 +3745,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Strzela o |SPEED|% szybciej przy pomocy podw\u00f3jnych broni bocznych i zwi\u0119ksza pr\u0119dko\u015b\u0107 prze\u0142adowania pojedynczej o |RELOAD|%. Uzyskuje |HEALTH| dodatkowego \u017cycia, gdy nie ma broni bia\u0142ej.",
+            "passiveDescription": "Strzela o |SPEED|% szybciej przy pomocy podw\u00f3jnych broni bocznych i zwi\u0119ksza pr\u0119dko\u015b\u0107 prze\u0142adowania pojedynczej o |RELOAD|%. Uzyskuje |HEALTH| dodatkowego \u017cycia, gdy nie masz Broni bia\u0142ej.",
             "exalted": [
                 "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
             ],
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Dumny wojownik wynurza si\u0119 niedra\u015bni\u0119ty przez odm\u0119ty czasu, lub wrogo\u015b\u0107. Zmodyfikowane polaryzacje gniazd na mody pozwalaj\u0105 na lepsz\u0105 konfiguracj\u0119 bojow\u0105.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Odzyskuje o |PERCENT|% szybciej r\u00f3wnowag\u0119 po powaleniu.",
+            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekundy.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Tn\u0105ca Lina",
-                    "description": "Valkyr miota przed siebie hak. Je\u015bli trafi on wroga, przyci\u0105ga go do niej. Je\u015bli trafi w teren, przyci\u0105ga j\u0105 do miejsca trafienia hakiem."
+                    "description": "Valkyr rzuca kotwiczk\u0105 i przyci\u0105ga si\u0119 do miejsca trafienia. Je\u015bli kotwiczka trafi wroga, przyci\u0105ga ona tak\u017ce pobliskich wrog\u00f3w w zasi\u0119g Ataku wr\u0119cz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Zew Wojenny",
-                    "description": "Valkyr wydobywa z siebie inspiruj\u0105cy okrzyk, kt\u00f3ry zwi\u0119ksza pr\u0119dko\u015b\u0107 ataku wr\u0119cz sojusznik\u00f3w jednocze\u015bnie spowalniaj\u0105c pobliskich wrog\u00f3w."
+                    "description": "Valkyr wydobywa z siebie inspiruj\u0105cy okrzyk, kt\u00f3ry wzmacnia Pancerz i Pr\u0119dko\u015b\u0107 Ataku wr\u0119cz sojusznik\u00f3w w <AFFINITY_SHARE>Zasi\u0119gu Bieg\u0142o\u015bci."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Parali\u017c",
-                    "description": "Valkyr uwalnia sw\u0105 tarcz\u0119, og\u0142uszaj\u0105c i rani\u0105c wszystkich otaczaj\u0105cych j\u0105 nieprzyjaci\u00f3\u0142."
+                    "description": "Razi wrog\u00f3w w zasi\u0119gu, spowalniaj\u0105c ich i zwi\u0119kszaj\u0105c ich Podatno\u015b\u0107 na Ataki wr\u0119cz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr nasyca si\u0119 energi\u0105 i staje si\u0119 k\u0142\u0119bem okrutnego sza\u0142u, zdolnym do uwolnienia nawa\u0142nicy zab\u00f3jczych atak\u00f3w szponami na niczego niespodziewaj\u0105cych si\u0119 wrog\u00f3w."
+                    "description": "Valkyr obna\u017ca swoje \u015bmierciono\u015bne pazury, ra\u017c\u0105c wrog\u00f3w dewastuj\u0105cymi atakami, kt\u00f3re j\u0105 r\u00f3wnie\u017c lecz\u0105. Valkyr zyskuje odporno\u015b\u0107 na Efekty Statusu, a premia Pancerza Zewu Wojennego zostaje zwi\u0119kszona."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Eksperymenty zmieni\u0142y Valkyr w przera\u017caj\u0105c\u0105 zab\u00f3jczyni\u0119. Jej specjalizacj\u0105 jest zadawanie wysokich obra\u017ce\u0144 wr\u0119cz i przetrwanie. Zew Wojenny zasiewa strach we wszystkich wrogach, kt\u00f3rzy mieli nieszcz\u0119\u015bcie go us\u0142ysze\u0107.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Odzyskuje o |PERCENT|% szybciej r\u00f3wnowag\u0119 po powaleniu.",
+            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekundy.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Tn\u0105ca Lina",
-                    "description": "Valkyr miota przed siebie hak. Je\u015bli trafi on wroga, przyci\u0105ga go do niej. Je\u015bli trafi w teren, przyci\u0105ga j\u0105 do miejsca trafienia hakiem."
+                    "description": "Valkyr rzuca kotwiczk\u0105 i przyci\u0105ga si\u0119 do miejsca trafienia. Je\u015bli kotwiczka trafi wroga, przyci\u0105ga ona tak\u017ce pobliskich wrog\u00f3w w zasi\u0119g Ataku wr\u0119cz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Zew Wojenny",
-                    "description": "Valkyr wydobywa z siebie inspiruj\u0105cy okrzyk, kt\u00f3ry zwi\u0119ksza pr\u0119dko\u015b\u0107 ataku wr\u0119cz sojusznik\u00f3w jednocze\u015bnie spowalniaj\u0105c pobliskich wrog\u00f3w."
+                    "description": "Valkyr wydobywa z siebie inspiruj\u0105cy okrzyk, kt\u00f3ry wzmacnia Pancerz i Pr\u0119dko\u015b\u0107 Ataku wr\u0119cz sojusznik\u00f3w w <AFFINITY_SHARE>Zasi\u0119gu Bieg\u0142o\u015bci."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Parali\u017c",
-                    "description": "Valkyr uwalnia sw\u0105 tarcz\u0119, og\u0142uszaj\u0105c i rani\u0105c wszystkich otaczaj\u0105cych j\u0105 nieprzyjaci\u00f3\u0142."
+                    "description": "Razi wrog\u00f3w w zasi\u0119gu, spowalniaj\u0105c ich i zwi\u0119kszaj\u0105c ich Podatno\u015b\u0107 na Ataki wr\u0119cz."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr nasyca si\u0119 energi\u0105 i staje si\u0119 k\u0142\u0119bem okrutnego sza\u0142u, zdolnym do uwolnienia nawa\u0142nicy zab\u00f3jczych atak\u00f3w szponami na niczego niespodziewaj\u0105cych si\u0119 wrog\u00f3w."
+                    "description": "Valkyr obna\u017ca swoje \u015bmierciono\u015bne pazury, ra\u017c\u0105c wrog\u00f3w dewastuj\u0105cymi atakami, kt\u00f3re j\u0105 r\u00f3wnie\u017c lecz\u0105. Valkyr zyskuje odporno\u015b\u0107 na Efekty Statusu, a premia Pancerza Zewu Wojennego zostaje zwi\u0119kszona."
                 }
             ],
             "productCategory": "Suits"

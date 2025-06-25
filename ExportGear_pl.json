@@ -570,7 +570,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/CameraConsumable",
             "name": "Zdalny Obserwator",
-            "description": "Aktywuje zdalnie sterowan\u0105 kamer\u0119, kt\u00f3ra b\u0119dzie Twoimi oczami, na kr\u00f3tki czas.",
+            "description": "Rozmieszcza zdalnie sterowan\u0105 kamer\u0119, kt\u00f3ra przez kr\u00f3tki czas b\u0119dzie Twoimi oczami.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -661,14 +661,14 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/GlyphConsumable",
             "name": "Glif Pryzmatyczny",
-            "description": "Uruchamia magnetyczny pryzmat, kt\u00f3ry wy\u015bwietla wybrany Glif. Tylko jeden mo\u017ce by\u0107 uruchomiony w tym samym czasie, \u0142adunki s\u0105 zu\u017cywane w trakcie u\u017cycia.",
+            "description": "Tworzy pryzmat, kt\u00f3ry wy\u015bwietla wybrany Glif. W danym czasie aktywny mo\u017ce by\u0107 tylko jeden Pryzmatyczny Glif. Ka\u017cde u\u017cycie zu\u017cywa jeden \u0142adunek.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/GlyphConsumableNoCharges",
             "name": "Glif Pryzmatyczny",
-            "description": "Uruchamia magnetyczny pryzmat, kt\u00f3ry wy\u015bwietla wybrany Glif. Tylko jeden mo\u017ce by\u0107 uruchomiony w tym samym czasie, \u0142adunki s\u0105 nieograniczone.",
+            "description": "Tworzy pryzmat, kt\u00f3ry wy\u015bwietla wybrany Glif. W danym czasie aktywny mo\u017ce by\u0107 tylko jeden Pryzmatyczny Glif. Nie zu\u017cywa \u0142adunk\u00f3w.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -681,7 +681,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/HunterTool",
-            "name": "Kinetyczna Pu\u0142apka Syfonowa",
+            "name": "Pu\u0142apka Syfonu Kinetycznego",
             "description": "Wyspecjalizowana pu\u0142apka s\u0142u\u017c\u0105ca do zwabiania i spowalniania ruch\u00f3w celu Syntezy.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
@@ -836,7 +836,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/Consumable/Scanner",
             "name": "Skaner Kodeksu",
-            "description": "Pobiera pr\u00f3bk\u0119 celu dla dalszej analizy w Twoim Kodeksie (25 \u0142adunk\u00f3w).",
+            "description": "Analizuje wskazany obiekt i zachowuje go w Kodeksie (25 \u0142adunk\u00f3w).",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -969,7 +969,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/ClanTeamAmmoTotem",
             "name": "Odnowa Amunicji Zespo\u0142u (\u015brednia)",
-            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 2 skrzynek Amunicji G\u0142\u00f3wnej i Bocznej co 15 sekund przez 60 sekund.",
+            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 2 skrzynek amunicji do Broni g\u0142\u00f3wnej i bocznej co 15 sekund przez 60 sekund.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -1025,7 +1025,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/LisetAmmoDrop",
             "name": "Odnowa Amunicji Zespo\u0142u (\u015brednia)",
-            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 2 skrzynek Amunicji G\u0142\u00f3wnej i Bocznej co 15 sekund przez 60 sekund.",
+            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 2 skrzynek amunicji do Broni g\u0142\u00f3wnej i bocznej co 15 sekund przez 60 sekund.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Restoratives/LisetBaseAirSupportPower"
         },
@@ -1101,15 +1101,15 @@
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/LoadoutTechSummon",
-            "name": "Wezwanie Nekramecha",
-            "description": "Wezwij Nekramecha na pole bitwy.",
+            "name": "Przyzwanie Nekramecha",
+            "description": "Przyzywa Nekramecha na pole bitwy.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Restoratives/BaseTechSummon"
         },
         {
             "uniqueName": "/Lotus/Types/Restoratives/MotorcycleSummon",
-            "name": "Przywo\u0142anie Atomicykla",
-            "description": "Przywo\u0142uje Atomicykl do u\u017cytku w 1999 roku i podczas misji w trybie swobodnej eksploracji.",
+            "name": "Przyzwanie Atomicykla",
+            "description": "Przyzywa Atomicykl do u\u017cytku w 1999 roku i podczas misji w trybie swobodnej eksploracji.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -1186,7 +1186,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamAmmoTotem",
             "name": "Odnowa Amunicji Zespo\u0142u (du\u017ca)",
-            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 3 skrzynek amunicji G\u0142\u00f3wnej i Bocznej co 15 sekund przez 60 sekund.",
+            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 3 skrzynek amunicji do Broni g\u0142\u00f3wnej i bocznej co 15 sekund przez 60 sekund.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },
@@ -1214,7 +1214,7 @@
         {
             "uniqueName": "/Lotus/Types/Restoratives/TeamAmmoTotem",
             "name": "Odnowa Amunicji Zespo\u0142u (ma\u0142a)",
-            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 pojedynczej skrzynki amunicji G\u0142\u00f3wnej i Bocznej co 15 sekund przez 60 sekund.",
+            "description": "Przywraca r\u00f3wnowarto\u015b\u0107 pojedynczej skrzynki amunicji do Broni g\u0142\u00f3wnej i bocznej co 15 sekund przez 60 sekund.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/Restorative"
         },

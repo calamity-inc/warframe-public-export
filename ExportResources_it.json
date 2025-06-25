@@ -897,6 +897,27 @@
             "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+            "name": "Polvere Temporale",
+            "description": "La polvere di universi decaduti, ricca di entropia. Le ricerche di Entrati la considerano l'agente animatore dell'incubo Murmur.\r\n\r\nOttenibile dai Murmur nelle missioni Tessitrice di Isole (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+            "name": "Guscio di Scuttler",
+            "description": "Un residuo della battaglia con Oraxia, il ragno che un tempo indossava questa pelle, \u00e8 ora scomparso\u2026 anche se non \u00e8 facile dire dove sia andata.\r\n\r\nOttenuto sconfiggendo Oraxia nelle missioni Tessitrice di Isole (Duviri)",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent",
+            "name": "Dominus Aureus",
+            "description": "Sigilli d'oro rubati, simbolo dell'autorit\u00e0 reale a Duviri. Restituiscili per riportare Dominus Thrax sul trono.\r\n\r\nOttenuti completando le missioni Tessitrice di Isole a Duviri durante l'Operazione: Eight Claw",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
             "name": "Cistolito Hemocyte",
             "description": "Strappato dal dotto biliare di un Hemocyte morto.\r\n\r\nPosizione: Hemocyte trovati nelle Taglie dell'evento Plague Star nelle Piane di Eidolon sulla Terra",
@@ -1082,14 +1103,14 @@
             "name": "Oboli Entrati",
             "description": "Durante l'era Orokin, questi oboli erano un marchio comunemente riconosciuto della famiglia Entrati. Alcuni Archimedei li usavano addirittura come talismani portafortuna.\r\n\r\nPosizione: Laboratori di Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
             "name": "Necralternatore",
             "description": "Questa matrice sperimentale trasmuta l'energia del Void in alte tensioni con basse correnti.\r\n\r\nPosizione: Laboratori di Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
@@ -5032,6 +5053,13 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
+            "name": "Scenario Arena dell'Octopede",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Scenario Cratere dell'Isolotto",
             "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
@@ -5067,11 +5095,32 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
+            "name": "Scenario Isolotto Nebuloso Tessitrice di Isole",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
+            "name": "Scenario Atollo Tessitrice di Isole",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Scenario Anfiteatro",
             "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon",
+            "name": "Scenario Fortezza di Kullervo",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
@@ -5109,8 +5158,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
+            "name": "Scenario Approdo dell'Erudito",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Scenario Grotta di Teshin",
+            "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
+            "name": "Scenario Sala del Trono Duviri",
             "description": "Sblocca questo scenario da usare in Modalit\u00e0 Captura, accessibile dalla finestra Personalizza di un Warframe nell'Arsenale.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -6215,21 +6278,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
             "name": "Threshcone Diurno",
-            "description": "Questa pianta comune pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizone: Utilizzando un Codex Scanner sulle Piante Threshcone Diurno che crescono sulla Terra",
+            "description": "Questa pianta comune pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Threshcone Diurno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
             "name": "Threshcone Notturno",
-            "description": "Questa pianta comune pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Utilizzando un Codex Scanner sulle Piante Threshcone Notturno che crescono sulla Terra",
+            "description": "Questa pianta comune pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Threshcone Notturno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
             "name": "Artiglio di Ruk",
-            "description": "Questa pianta fu introdotta nelle regioni aride del Sistema Origin per la sua abilit\u00e0 di assorbire l'umidit\u00e0 in ambienti ostili. \r\n\r\nPosizione: Ottenuta utilizzando un Codex Scanner sulle Piante Artiglio di Ruk che crescono su Marte",
+            "description": "Questa pianta fu introdotta nelle regioni aride del Sistema Origin per la sua abilit\u00e0 di assorbire l'umidit\u00e0 in ambienti ostili. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Artiglio di Ruk che crescono su Marte",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6244,7 +6307,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
             "name": "Muschio Vestan",
-            "description": "Una delle poche specie vegetali conosciute in grado di prosperare sugli asteroidi nello spazio profondo. \r\n\r\nPosizione: Ottenuta utilizzando un Codex Scanner sulle piante Muschio Vestan che crescono su Mercurio, Saturno e Sedna",
+            "description": "Una delle poche specie vegetali conosciute in grado di prosperare sugli asteroidi nello spazio profondo. \r\n\r\nPosizione: Ottenuta raccogliendo le piante Muschio Vestan che crescono su Mercurio, Saturno e Sedna",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6273,49 +6336,49 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
             "name": "Jadeleaf Diurno",
-            "description": "Questa pianta rara pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizione: Utilizzando un Codex Scanner sulle Piante Jadeleaf Diurno che crescono sulla Terra",
+            "description": "Questa pianta rara pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Jadeleaf Diurno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
             "name": "Jadeleaf Notturno",
-            "description": "Questa pianta rara pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Utilizzando un Codex Scanner sulle Piante Jadeleaf Notturno che crescono sulla Terra",
+            "description": "Questa pianta rara pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Jadeleaf Notturno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
             "name": "Dragonlily Diurno",
-            "description": "Questa pianta non comune pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizone: Utilizzando un Codex Scanner sulle Piante Dragonlily Diurno che crescono sulla Terra",
+            "description": "Questa pianta non comune pu\u00f2 essere trovata solo di giorno. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Dragonlily Diurno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
             "name": "Dragonlily Notturno",
-            "description": "Questa pianta non comune pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Utilizzando un Codex Scanner sulle Piante Dragonlily Notturno che crescono sulla Terra",
+            "description": "Questa pianta non comune pu\u00f2 essere trovata solo di notte. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Dragonlily Notturno che crescono sulla Terra",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
             "name": "Foglia di Ghiaccio",
-            "description": "Questa pianta resiliente \u00e8 una fonte di cibo naturale nelle zone gelide del Sistema Origin. \r\n\r\nPosizione: Ottenuta utilizzando un Codex Scanner sulle Piante Frostleaf che crescono su Venere, Nettuno e Plutone",
+            "description": "Questa pianta resiliente \u00e8 una fonte di cibo naturale nelle zone gelide del Sistema Origin. \r\n\r\nPosizione: Ottenuta raccogliendo le Piante Frostleaf che crescono su Venere, Nettuno e Plutone",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
             "name": "Sarracenia Crepuscolare",
-            "description": "Questa robusta pianta carnivora si \u00e8 adattata a vivere in condizioni di acque inquinate.\r\n\r\nPosizione: Ottenuta utilizzando un Codex Scanner sulle Piante Sarracenia Crepuscolare che crescono nei Cantieri Navali Grineer che si trovano comunemente su Cerere",
+            "description": "Questa robusta pianta carnivora si \u00e8 adattata a vivere in condizioni di acque inquinate.\r\n\r\nPosizione: Ottenuta raccogliendo le Piante Sarracenia Crepuscolare che crescono nei Cantieri Navali Grineer che si trovano comunemente su Cerere",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
             "name": "Brocca Lunare",
-            "description": "Questa pianta carnivora cresce nelle terre selvagge di Lua. \r\n\r\nPosizione: Ottenibile scannerizzando col Codex Scanner le piante Brocca Lunare che crescono su Lua",
+            "description": "Questa pianta carnivora cresce nelle terre selvagge di Lua. \r\n\r\nPosizione: Ottenuta raccogliendo le piante Brocca Lunare che crescono su Lua",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6963,6 +7026,22 @@
             "description": "Componi e ricomponi infinite pergamene burocratiche con questa raffinata scrivania Duviri.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaHat",
+            "name": "Cappello Cimelio del Maggiore Rusalka",
+            "description": "Il caratteristico cappello Scaldra di Neci Rusalka, ricevuto in seguito a una misteriosa comunicazione.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaMedals",
+            "name": "Medaglie Cimelio del Maggiore Rusalka",
+            "description": "Medaglie al valore assegnate a Neci Rusalka, ricevute come parte di una misteriosa comunicazione.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelLarge",
@@ -10476,7 +10555,7 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/1999FlareBandPoster",
             "name": "Poster Tour Temple and the Rippers",
             "description": "Abbellisci le tue pareti con questo poster che promuove il fatidico tour del 1999 dei Temple and the Rippers.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -12408,6 +12487,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaroPink",
+            "name": "Drone Domestico Ki'Teer (Lavender Ice)",
+            "description": "Tutto lo stile pulente dell'originale Drone Dromestico Ki'Teer, in un nuovo, fresco ed elegante colore.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBeachcomber",
             "name": "Drone Domestico Beachcomber",
             "description": "Aggiungi un po' di brillantezza al tuo Orbiter con questa sfavillante unit\u00e0 igienico-sanitaria.",
@@ -12467,6 +12553,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneInfested",
             "name": "Drone Domestico Carrion",
             "description": "Un clandestino Infested proveniente da una delle tue Missioni, contento di girovagare nel tuo Orbiter.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+            "name": "Scuttler",
+            "description": "Gli striscianti compagni di Oraxia sono lieti di fare dell'Orbiter il loro terreno di caccia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13935,6 +14028,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardOraxia",
+            "name": "Prex: Oraxia",
+            "description": "La Dama della Paura",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardProtea",
             "name": "Prex: Protea",
             "description": "La Danzatrice Temporale",
@@ -14051,6 +14151,13 @@
             "name": "Prex: Titania",
             "description": "La Fatina Dispettosa",
             "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+            "name": "Prex Valkyr Heirloom",
+            "description": "Un'eredit\u00e0 regale nata dal tormento.",
+            "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -14261,6 +14368,62 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBestWorkmanshipTrophy",
+            "name": "TennoCon 2025 - Premio Manodopera Solaris",
+            "description": "Questo premio riconosce un Cosplay di eccellente fattura. ",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBombasticTrophy",
+            "name": "TennoCon 2025 - Premio Performance Esplosiva",
+            "description": "Questo premio riconosce un Cosplay che si \u00e8 distinto per la sua straordinaria performance sul palco.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayFirstPlaceTrophy",
+            "name": "TennoCon 2025 - 1\u00b0 Posto",
+            "description": "Assegnato al primo classificato tra i cosplayer al TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayLotusChoiceTrophy",
+            "name": "TennoCon 2025 - Premio Scelta di Lotus",
+            "description": "Questo premio riconosce un Cosplay scelto dai giudici come un'eccellente proposta generale.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOrokinGoldTrophy",
+            "name": "TennoCon 2025 - Premio Oro Orokin",
+            "description": "Questo premio \u00e8 destinato a una persona che ha creato un Cosplay eccezionale nella categoria non competitiva.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOstronIngenuityTrophy",
+            "name": "TennoCon 2025 - Premio Ingegno Ostron",
+            "description": "Questo premio riconosce l'uso creativo dei materiali e l'interpretazione del soggetto del Cosplay!",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplaySecondPlaceTrophy",
+            "name": "TennoCon 2025 - 2\u00b0 Posto",
+            "description": "Assegnato al secondo classificato tra i cosplayer al TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayThirdPlaceTrophy",
+            "name": "TennoCon 2025 - 3\u00b0 Posto",
+            "description": "Assegnato al terzo classificato tra i cosplayer al TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoConDojoGhostTrophy",
             "name": "Decorazione Livello Fantasma",
             "description": "Una decorazione per premiare i contributi di un Clan all'immensa Comunit\u00e0 dei Dojo.",
@@ -14445,11 +14608,26 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025DigitalItemDisplay",
+            "name": "[PH] Display - TennoCon 2025 Digital Item",
+            "description": "[PH] Description",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025Display",
             "name": "Display - TennoCon 2025",
             "description": "Questo display che raffigura l'Operatore e Warframe \u00e8 stato creato per celebrare i dieci anni del TennoCon nel 2025.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoconConcert2025Display",
+            "name": "Display - Poster Flare Varleon & Lizzie",
+            "description": "Un poster autografato dei membri rimanenti di una band scomparsa. Disegnato dall'artista della comunit\u00e0 ZliDe.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
@@ -14941,13 +15119,6 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
-            "name": "Segmento Dispiegamento Archwing",
-            "description": "Aggiunge l'Archwing Launcher alla fucina.",
-            "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
-        },
-        {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ErisNavigationFeatureItem",
             "name": "MODULO DI NAVIGAZIONE DI ERIS",
             "description": "",
@@ -15224,7 +15395,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
             "name": "SEGMENTO RELIQUIA VOID",
-            "description": "",
+            "description": "Installa questo Segmento Reliquie Void nel tuo Orbiter per iniziare ad aprire le Reliquie Void. Le Reliquie Void contengono oggetti di valore che vengono svelati solo quando vengono aperte nelle missioni Frattura Void. Le Reliquie Void possono essere ottenute come ricompense missione.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -16210,6 +16381,15 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecorationLayerItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/UnlockArbitrationKeyItem",
+            "name": "Sblocca gli Arbitrati",
+            "description": "Sblocca le Missioni Arbitrato nella scheda Allerte del menu navigazione.\r\nGli Arbitrati sono varianti impegnative di missioni infinite con ricompense migliori.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true,
+            "showInInventory": false
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
@@ -18113,6 +18293,27 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaSystemsComponent",
             "name": "Octavia - Sistemi",
             "description": "Il componente Sistemi del Warframe Octavia",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaChassisComponent",
+            "name": "Oraxia - Chassis",
+            "description": "Il componente Chassis del Warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaHelmetComponent",
+            "name": "Oraxia - Neurottiche",
+            "description": "Il componente Neurottiche del Warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaSystemsComponent",
+            "name": "Oraxia - Sistemi",
+            "description": "Il componente Sistemi del Warframe Oraxia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -21507,6 +21708,22 @@
             "primeSellingPrice": 45
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel",
+            "name": "Scyotid - Canna",
+            "description": "Un componente per la costruzione di un'arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidGauntlet",
+            "name": "Scyotid - Guanto",
+            "description": "Un componente per la costruzione di un'arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ShadePrimeCarapace",
             "name": "Shade Prime - Carapace",
             "description": "Un componente Prime per la costruzione di una sentinella.",
@@ -21663,6 +21880,30 @@
             "description": "Il componente manico dell'arma Spectra Vandal.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexBlade",
+            "name": "Spinnerex - Lama",
+            "description": "Un componente per la costruzione di un'arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexHandle",
+            "name": "Spinnerex - Manico",
+            "description": "Un componente per la costruzione di un'arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexString",
+            "name": "Spinnerex - Corda",
+            "description": "Un componente per la costruzione di un'arma.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/StradavarPrimeBarrel",

@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "\u9634\u9669\u4f18\u96c5\u4e0e\u81f4\u547d\u591a\u9762\u6027\u4ea4\u7ec7\uff0c\u8fdb\u5316\u4e3a\u5b8c\u7f8e\u63a0\u98df\u8005\u3002\u6050\u60e7\u4e4b\u540d\uff0cOraxia\u3002",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "\u58c1\u9762\u6500\u9644\u53ef\u83b7\u5f97\u300c\u6355\u98df\u8005\u7684\u6f5c\u4f0f\u300d\u6548\u679c\uff0c\u4f7f Oraxia \u5728 |DURATION| \u79d2\u5185\u9690\u8eab\u3002 ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "\u4ec1\u6148\u4e4b\u543b",
+                    "description": "\u8df3\u5230\u654c\u4eba\u8eab\u4e0a\uff0c\u7528 Oraxia \u7684\u8718\u86db\u817f\u523a\u7a7f\u4ed6\u4eec\uff0c\u9020\u6210 <DT_POISON_COLOR>\u6bd2\u7d20\u4f24\u5bb3\u3002\u7528\u8fd9\u4e2a\u653b\u51fb\u51fb\u8d25\u654c\u4eba\u65f6\uff0c\u4ed6\u4eec\u5c06\u6709\u51e0\u7387\u6389\u843d\u751f\u547d\u7403\u6216\u80fd\u91cf\u7403\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "\u7f51\u7f1a\u4e4b\u62e5",
+                    "description": "Oraxia \u6295\u63b7\u4e00\u5f20\u8513\u5ef6\u7684\u86db\u7f51\uff0c\u5c06\u730e\u7269\u56f0\u4f4f\u3002\u5728\u4e0d\u65ad\u6269\u5927\u7684\u86db\u7f51\u4e2d\u88ab\u6355\u4f4f\u7684\u654c\u4eba\u4f1a\u88ab\u56f0\u5728\u8327\u4e2d\uff0c\u5e76\u4f7f\u5176\u53d7\u5230\u7684\u6613\u4f24\u6548\u679c\u589e\u52a0\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "\u86db\u5fc3\u6bd2\u88d4",
+                    "description": "Oraxia \u5411\u5979\u524d\u65b9\u53d1\u5c04\u4e00\u8fde\u4e32\u5e26\u523a\u7684\u98de\u9556\uff0c\u5e76\u65bd\u52a0 <DT_POISON_COLOR>\u6bd2\u7d20\u5f02\u5e38\u72b6\u6001\u3002\u4e2d\u6bd2\u7684\u654c\u4eba\u88ab\u51fb\u6740\u540e\u4f1a\u751f\u6210\u6025\u884c\u86db\u3002"
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "\u86db\u4e1d\u6b65\u6cd5",
+                    "description": "\u5c55\u5f00 Oraxia \u7684\u8718\u86db\u817f\uff0c\u5f00\u59cb\u72e9\u730e\u3002Oraxia \u514d\u75ab\u5f02\u5e38\u72b6\u6001\u5e76\u63d0\u5347\u6700\u5927\u751f\u547d\u503c\u3002\u5979\u7684\u8fdc\u7a0b\u6b66\u5668\u5145\u6ee1 <DT_POISON_COLOR>\u6bd2\u7d20\u4f24\u5bb3\u3002\u51fb\u6740\u654c\u4eba\u4f1a\u4f7f\u5176\u7206\u53d1 <DT_POISON_COLOR>\u6bd2\u7d20\u3002\r\n\r\n\u86db\u4e1d\u6e38\u8d70\uff1a\u8f7b\u6309\u51b2\u523a\u5373\u53ef\u8df3\u8dc3\u81f3\u76ee\u6807\u8868\u9762\u3002"
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "\u4e00\u4f4d\u7ecf\u5386\u4e86\u65f6\u95f4\u4e0e\u4f24\u75db\u7684\u6d17\u793c\u540e\u4f9d\u7136\u6beb\u53d1\u65e0\u635f\u7684\u9ad8\u50b2\u6597\u58eb\u3002\u62e5\u6709\u6539\u9020\u8fc7\u7684 Mod \u6781\u6027\u69fd\uff0c\u53ef\u63d0\u4f9b\u66f4\u4f18\u79c0\u7684\u81ea\u5b9a\u4e49\u7a7a\u95f4\u3002",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "\u5012\u5730\u8d77\u8eab\u7684\u901f\u5ea6\u63d0\u5347 |PERCENT|%\u3002",
+            "passiveDescription": "Valkyr \u4f7f\u7528\u8fd1\u6218\u6b66\u5668\u547d\u4e2d\u6216\u51fb\u6740\u654c\u4eba\u65f6\u4f1a\u79ef\u7d2f\u72c2\u6012\u503c\uff0c\u6700\u9ad8\u63d0\u5347 |PERCENT|% \u8fd1\u6218\u4f24\u5bb3\u3002\u5f53\u72c2\u6012\u503c\u9ad8\u4e8e |CONSUME|% \u65f6\uff0c\u53d7\u5230\u81f4\u547d\u4f24\u5bb3\u4f1a\u6d88\u8017\u72c2\u6012\u503c\u907f\u514d\u6b7b\u4ea1\u5e76\u83b7\u5f97 |DURATION| \u79d2\u65e0\u654c\u72b6\u6001\u3002",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "\u6495\u88c2\u94a9\u7d22",
-                    "description": "Valkyr \u7528\u529b\u63b7\u51fa\u94a9\u5b50\uff0c\u5982\u679c\u51fb\u4e2d\u4e00\u4f4d\u654c\u4eba\u4f1a\u62c9\u5230\u5979\u9762\u524d\uff0c\u5982\u679c\u51fb\u4e2d\u5730\u5f62\u4f1a\u628a\u81ea\u5df1\u62c9\u8fc7\u53bb\u3002"
+                    "description": "Valkyr \u53d1\u5c04\u94a9\u7d22\uff0c\u5c06\u81ea\u5df1\u62c9\u5411\u547d\u4e2d\u7684\u76ee\u6807\u70b9\u3002\u5982\u679c\u94a9\u7d22\u547d\u4e2d\u654c\u4eba\uff0c\u5219\u9644\u8fd1\u7684\u654c\u4eba\u4e5f\u4f1a\u88ab\u62c9\u5411\u76ee\u6807\u70b9\uff0c\u540c\u65f6 Valkyr \u4f1a\u53d1\u52a8\u4e00\u6b21\u8fde\u643a\u8fd1\u6218\u653b\u51fb\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "\u5486\u54ee",
-                    "description": "Valkyr \u53d1\u51fa\u632f\u594b\u7684\u6218\u543c\u6765\u589e\u5f3a\u5979\u4f19\u4f34\u7684\u8fd1\u6218\u653b\u51fb\u901f\u5ea6\u5e76\u4e14\u51cf\u7f13\u9644\u8fd1\u654c\u4eba\u7684\u901f\u5ea6\u3002"
+                    "description": "Valkyr \u53d1\u51fa\u6fc0\u52b1\u5f0f\u5486\u54ee\uff0c \u4e3a <AFFINITY_SHARE>\u7ecf\u9a8c\u5171\u4eab\u8303\u56f4\u5185\u7684\u53cb\u519b\u589e\u5f3a\u62a4\u7532\u548c\u653b\u51fb\u901f\u5ea6\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "\u762b\u75ea",
-                    "description": "Valkyr \u91ca\u653e\u5979\u7684\u62a4\u76fe\uff0c\u9707\u6655\u5468\u56f4\u7684\u654c\u4eba\u5e76\u9020\u6210\u4f24\u5bb3\u3002"
+                    "description": "\u91ca\u653e\u4e00\u9053\u7834\u574f\u6027\u7684\u51b2\u51fb\u6ce2\u4f7f\u654c\u4eba\u51cf\u901f\uff0c\u5e76\u4f7f\u5176\u53d7\u5230\u7684\u8fd1\u6218\u4f24\u5bb3\u589e\u52a0\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "\u72c2\u5316\u7206\u53d1",
-                    "description": "Valkyr\u5145\u6ee1\u80fd\u91cf\u7684\u6210\u4e3a\u6124\u6012\u5316\u8eab\uff0c\u5bf9\u65e0\u9632\u5907\u7684\u654c\u4eba\u91ca\u653e\u81f4\u547d\u722a\u51fb\u3002"
+                    "description": "Valkyr \u9732\u51fa\u81f4\u547d\u7684\u5229\u722a\uff0c\u91ca\u653e\u6bc1\u706d\u6027\u653b\u51fb\u7684\u540c\u65f6\u6cbb\u7597\u81ea\u8eab\u3002Valkyr \u514d\u75ab\u5f02\u5e38\u72b6\u6001\uff0c\u4e14\u901a\u8fc7\u5486\u54ee\u83b7\u5f97\u7684\u62a4\u7532\u7ffb\u500d\u3002"
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Valkyr \u88ab\u6539\u9020\u6210\u4e00\u4e2a\u52a8\u673a\u5f3a\u70c8\u4e14\u4ee4\u4eba\u6050\u60e7\u7684\u6740\u624b\u3002\u5979\u5584\u4e8e\u9020\u6210\u4f24\u5bb3\u548c\u751f\u5b58\u4e0b\u53bb\u3002\u5979\u7684\u6218\u543c\u8ba9\u6240\u6709\u542c\u5230\u5b83\u7684\u4eba\u611f\u5230\u6050\u60e7\u3002",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "\u5012\u5730\u8d77\u8eab\u7684\u901f\u5ea6\u63d0\u5347 |PERCENT|%\u3002",
+            "passiveDescription": "Valkyr \u4f7f\u7528\u8fd1\u6218\u6b66\u5668\u547d\u4e2d\u6216\u51fb\u6740\u654c\u4eba\u65f6\u4f1a\u79ef\u7d2f\u72c2\u6012\u503c\uff0c\u6700\u9ad8\u63d0\u5347 |PERCENT|% \u8fd1\u6218\u4f24\u5bb3\u3002\u5f53\u72c2\u6012\u503c\u9ad8\u4e8e |CONSUME|% \u65f6\uff0c\u53d7\u5230\u81f4\u547d\u4f24\u5bb3\u4f1a\u6d88\u8017\u72c2\u6012\u503c\u907f\u514d\u6b7b\u4ea1\u5e76\u83b7\u5f97 |DURATION| \u79d2\u65e0\u654c\u72b6\u6001\u3002",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "\u6495\u88c2\u94a9\u7d22",
-                    "description": "Valkyr \u7528\u529b\u63b7\u51fa\u94a9\u5b50\uff0c\u5982\u679c\u51fb\u4e2d\u4e00\u4f4d\u654c\u4eba\u4f1a\u62c9\u5230\u5979\u9762\u524d\uff0c\u5982\u679c\u51fb\u4e2d\u5730\u5f62\u4f1a\u628a\u81ea\u5df1\u62c9\u8fc7\u53bb\u3002"
+                    "description": "Valkyr \u53d1\u5c04\u94a9\u7d22\uff0c\u5c06\u81ea\u5df1\u62c9\u5411\u547d\u4e2d\u7684\u76ee\u6807\u70b9\u3002\u5982\u679c\u94a9\u7d22\u547d\u4e2d\u654c\u4eba\uff0c\u5219\u9644\u8fd1\u7684\u654c\u4eba\u4e5f\u4f1a\u88ab\u62c9\u5411\u76ee\u6807\u70b9\uff0c\u540c\u65f6 Valkyr \u4f1a\u53d1\u52a8\u4e00\u6b21\u8fde\u643a\u8fd1\u6218\u653b\u51fb\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "\u5486\u54ee",
-                    "description": "Valkyr \u53d1\u51fa\u632f\u594b\u7684\u6218\u543c\u6765\u589e\u5f3a\u5979\u4f19\u4f34\u7684\u8fd1\u6218\u653b\u51fb\u901f\u5ea6\u5e76\u4e14\u51cf\u7f13\u9644\u8fd1\u654c\u4eba\u7684\u901f\u5ea6\u3002"
+                    "description": "Valkyr \u53d1\u51fa\u6fc0\u52b1\u5f0f\u5486\u54ee\uff0c \u4e3a <AFFINITY_SHARE>\u7ecf\u9a8c\u5171\u4eab\u8303\u56f4\u5185\u7684\u53cb\u519b\u589e\u5f3a\u62a4\u7532\u548c\u653b\u51fb\u901f\u5ea6\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "\u762b\u75ea",
-                    "description": "Valkyr \u91ca\u653e\u5979\u7684\u62a4\u76fe\uff0c\u9707\u6655\u5468\u56f4\u7684\u654c\u4eba\u5e76\u9020\u6210\u4f24\u5bb3\u3002"
+                    "description": "\u91ca\u653e\u4e00\u9053\u7834\u574f\u6027\u7684\u51b2\u51fb\u6ce2\u4f7f\u654c\u4eba\u51cf\u901f\uff0c\u5e76\u4f7f\u5176\u53d7\u5230\u7684\u8fd1\u6218\u4f24\u5bb3\u589e\u52a0\u3002"
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "\u72c2\u5316\u7206\u53d1",
-                    "description": "Valkyr\u5145\u6ee1\u80fd\u91cf\u7684\u6210\u4e3a\u6124\u6012\u5316\u8eab\uff0c\u5bf9\u65e0\u9632\u5907\u7684\u654c\u4eba\u91ca\u653e\u81f4\u547d\u722a\u51fb\u3002"
+                    "description": "Valkyr \u9732\u51fa\u81f4\u547d\u7684\u5229\u722a\uff0c\u91ca\u653e\u6bc1\u706d\u6027\u653b\u51fb\u7684\u540c\u65f6\u6cbb\u7597\u81ea\u8eab\u3002Valkyr \u514d\u75ab\u5f02\u5e38\u72b6\u6001\uff0c\u4e14\u901a\u8fc7\u5486\u54ee\u83b7\u5f97\u7684\u62a4\u7532\u7ffb\u500d\u3002"
                 }
             ],
             "productCategory": "Suits"

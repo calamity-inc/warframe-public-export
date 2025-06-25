@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Gracia siniestra entrelazada con versatilidad letal, la evoluci\u00f3n del depredador perfecto. El miedo tiene nombre: Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Posarse en la pared otorga Depredador al acecho, lo que vuelve invisible a Oraxia por |DURATION| s. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Beso de misericordia",
+                    "description": "Salta sobre un enemigo y atravi\u00e9salo con las patas de ara\u00f1a de Oraxia, infligiendo da\u00f1o de <DT_POISON_COLOR>toxina. Los enemigos derrotados por este ataque tienen la probabilidad de obtener orbes de salud o energ\u00eda."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "Abrazo ar\u00e1cnido",
+                    "description": "Oraxia lanza una red para atrapar a sus presas. Los enemigos atrapados en el radio quedan encerrados en un capullo que aumenta su vulnerabilidad al da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Cr\u00edas de viuda",
+                    "description": "Oraxia dispara una r\u00e1faga de aguijones frente a ella, lo que inflige un efecto de estado de <DT_POISON_COLOR>toxina. Los enemigos envenenados generan ara\u00f1uelos al morir."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Zancada de seda",
+                    "description": "Despliega las patas de ara\u00f1a de Oraxia y sal a cazar. Oraxia es inmune a los efectos de estado y tiene mayor salud m\u00e1xima. Sus armas de largo alcance est\u00e1n imbuidas de da\u00f1o de <DT_POISON_COLOR>toxina. Matar enemigos provoca que exploten y propaguen <DT_POISON_COLOR>toxina.\r\n\r\nHilo de seda: pulsa esquivar para saltar a una superficie objetivo."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -4018,15 +4056,15 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Orgullosa peleadora que emerge sin cicatrices debidas al tiempo o malevolencia. Cuenta con polaridades de mod alteradas para una mayor personalizaci\u00f3n.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Se recupera un |PERCENT| % m\u00e1s r\u00e1pido tras ser derribada.",
+            "passiveDescription": "Valkyr acumula Ira al golpear o matar enemigos con armas cuerpo a cuerpo, lo que aumenta su da\u00f1o cuerpo a cuerpo hasta en un |PERCENT| %. Cuando el medidor de Ira est\u00e1 por encima del |CONSUME| %, se consumir\u00e1 al recibir un da\u00f1o fatal, previniendo la muerte y otorgando |DURATION| s de invulnerabilidad.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4034,22 +4072,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Cuerda mortal",
-                    "description": "Valkyr arroja un gancho hacia delante. Si impacta a un enemigo, lo atrae hacia ella. Si impacta en el terreno, ella va a la ubicaci\u00f3n del gancho."
+                    "description": "Valkyr arroja un gancho hacia adelante y se impulsa hacia lo que impacte. Si impacta a un enemigo, los enemigos cercanos son atra\u00eddos mientras ella desata un ataque cuerpo a cuerpo coordinado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Grito de guerra",
-                    "description": "Valkyr lanza un grito de guerra que refuerza la velocidad de ataque cuerpo a cuerpo de sus aliados al mismo tiempo que ralentiza a los enemigos cercanos."
+                    "description": "Valkyr lanza un grito de guerra que refuerza la armadura y la velocidad de ataque de los aliados cuando est\u00e1n dentro del rango de <AFFINITY_SHARE>afinidad."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Par\u00e1lisis",
-                    "description": "Valkyr desata sus escudos, aturdiendo y da\u00f1ando a los enemigos a su alrededor."
+                    "description": "Desata una explosi\u00f3n da\u00f1ina que ralentiza a sus v\u00edctimas y aumenta su vulnerabilidad al da\u00f1o cuerpo a cuerpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr es imbuida con energ\u00eda y se convierte en una bola de furia atroz, capaz de desatar un torrente de ataques de garra mortales en los enemigos desprevenidos."
+                    "description": "Valkyr muestra sus garras fatales, provocando ataques devastadores que la curan. Valkyr se vuelve inmune a los efectos de estado y se multiplica su bonificaci\u00f3n de armadura de Grito de guerra."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,15 +4097,15 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Valkyr se transform\u00f3 en una asesina altamente motivada y temible. Es experta en hacer da\u00f1o y sobrevivir. Su grito de batalla infunde terror en todos los que lo escuchan.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Se recupera un |PERCENT| % m\u00e1s r\u00e1pido tras ser derribada.",
+            "passiveDescription": "Valkyr acumula Ira al golpear o matar enemigos con armas cuerpo a cuerpo, lo que aumenta su da\u00f1o cuerpo a cuerpo hasta en un |PERCENT| %. Cuando el medidor de Ira est\u00e1 por encima del |CONSUME| %, se consumir\u00e1 al recibir un da\u00f1o fatal, previniendo la muerte y otorgando |DURATION| s de invulnerabilidad.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
@@ -4075,22 +4113,22 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
                     "abilityName": "Cuerda mortal",
-                    "description": "Valkyr arroja un gancho hacia delante. Si impacta a un enemigo, lo atrae hacia ella. Si impacta en el terreno, ella va a la ubicaci\u00f3n del gancho."
+                    "description": "Valkyr arroja un gancho hacia adelante y se impulsa hacia lo que impacte. Si impacta a un enemigo, los enemigos cercanos son atra\u00eddos mientras ella desata un ataque cuerpo a cuerpo coordinado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Grito de guerra",
-                    "description": "Valkyr lanza un grito de guerra que refuerza la velocidad de ataque cuerpo a cuerpo de sus aliados al mismo tiempo que ralentiza a los enemigos cercanos."
+                    "description": "Valkyr lanza un grito de guerra que refuerza la armadura y la velocidad de ataque de los aliados cuando est\u00e1n dentro del rango de <AFFINITY_SHARE>afinidad."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Par\u00e1lisis",
-                    "description": "Valkyr desata sus escudos, aturdiendo y da\u00f1ando a los enemigos a su alrededor."
+                    "description": "Desata una explosi\u00f3n da\u00f1ina que ralentiza a sus v\u00edctimas y aumenta su vulnerabilidad al da\u00f1o cuerpo a cuerpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr es imbuida con energ\u00eda y se convierte en una bola de furia atroz, capaz de desatar un torrente de ataques de garra mortales en los enemigos desprevenidos."
+                    "description": "Valkyr muestra sus garras fatales, provocando ataques devastadores que la curan. Valkyr se vuelve inmune a los efectos de estado y se multiplica su bonificaci\u00f3n de armadura de Grito de guerra."
                 }
             ],
             "productCategory": "Suits"
@@ -4270,7 +4308,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AntiMatterDrop",
                     "abilityName": "Gota de antimateria",
-                    "description": "Lanza una gran part\u00edcula de antimateria cargada que detonar\u00e1 al entrar en contacto con ella. Apunta con la punta de la part\u00edcula y disp\u00e1rale para cargarla a\u00fan m\u00e1s. Inflige <DT_EXPLOSION_COLOR>da\u00f1o de explosi\u00f3n con un efecto de estado garantizado."
+                    "description": "Lanza una gran part\u00edcula de antimateria cargada que detonar\u00e1 al entrar en contacto. Apunta con la punta de la part\u00edcula y disp\u00e1rale para cargarla a\u00fan m\u00e1s. Inflige da\u00f1o de <DT_EXPLOSION_COLOR>explosi\u00f3n con un efecto de estado garantizado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WormHoleAbility",
@@ -4308,7 +4346,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AntiMatterDrop",
                     "abilityName": "Gota de antimateria",
-                    "description": "Lanza una gran part\u00edcula de antimateria cargada que detonar\u00e1 al entrar en contacto con ella. Apunta con la punta de la part\u00edcula y disp\u00e1rale para cargarla a\u00fan m\u00e1s. Inflige <DT_EXPLOSION_COLOR>da\u00f1o de explosi\u00f3n con un efecto de estado garantizado."
+                    "description": "Lanza una gran part\u00edcula de antimateria cargada que detonar\u00e1 al entrar en contacto. Apunta con la punta de la part\u00edcula y disp\u00e1rale para cargarla a\u00fan m\u00e1s. Inflige da\u00f1o de <DT_EXPLOSION_COLOR>explosi\u00f3n con un efecto de estado garantizado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WormHoleAbility",

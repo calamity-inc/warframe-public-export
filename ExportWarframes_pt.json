@@ -1769,6 +1769,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Oraxia/Oraxia",
+            "name": "Oraxia",
+            "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+            "description": "Gra\u00e7a cruel entrela\u00e7ada com versatilidade letal, a evolu\u00e7\u00e3o da predadora perfeita. O nome da monstruosidade \u00e9 Oraxia.",
+            "health": 575,
+            "shield": 125,
+            "armor": 125,
+            "stamina": 3,
+            "power": 150,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Segurar na Parede conceder\u00e1 a habilidade Predadora \u00e0 Espreita, tornando a Oraxia invis\u00edvel por |DURATION|s. ",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                    "abilityName": "Beijo de Miseric\u00f3rdia",
+                    "description": "Salte sobre um inimigo e perfure-o com as pernas de aranha da Oraxia, causando Dano <DT_POISON_COLOR>T\u00f3xico. Inimigos eliminados por este ataque ter\u00e3o uma chance de conceder Orbes de Vida ou Energia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                    "abilityName": "Emaranhado Arane\u00eddeo",
+                    "description": "A Oraxia lan\u00e7ar\u00e1 uma teia para capturar sua presa. Inimigos atingidos pelo efeito ser\u00e3o envoltos em um casulo que aumentar\u00e1 a Vulnerabilidade a Dano deles."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                    "abilityName": "Ninhada da Vi\u00fava",
+                    "description": "A Oraxia lan\u00e7ar\u00e1 uma saraivada de farpas \u00e0 sua frente, infligindo o Efeito de Status <DT_POISON_COLOR>T\u00f3xico. Inimigos envenenados gerar\u00e3o Rastejadores ao serem eliminados."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                    "abilityName": "Caminho da Seda",
+                    "description": "Use as pernas de aranha da Oraxia e v\u00e1 \u00e0 ca\u00e7a. A Oraxia ficar\u00e1 imune a Efeitos de Status e ter\u00e1 sua Vida M\u00e1xima ampliada. Suas armas de longo alcance ser\u00e3o imbu\u00eddas com Dano <DT_POISON_COLOR>T\u00f3xico. Inimigos eliminados explodir\u00e3o, causando Dano <DT_POISON_COLOR>T\u00f3xico.\r\n\r\nFio de Seda: pressione o bot\u00e3o de esquivar para saltar para uma superf\u00edcie alvo."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
             "name": "Protea Prime",
             "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -1953,7 +1991,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSashAbility",
-                    "abilityName": "Warding Halo",
+                    "abilityName": "Aur\u00e9ola Celestial",
                     "description": "Criar\u00e1 um anel protetor de fogo, que tamb\u00e9m atordoar\u00e1 e danificar\u00e1 quaisquer inimigos que se aproximarem."
                 },
                 {
@@ -1991,7 +2029,7 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSashAbility",
-                    "abilityName": "Warding Halo",
+                    "abilityName": "Aur\u00e9ola Celestial",
                     "description": "Criar\u00e1 um anel protetor de fogo, que tamb\u00e9m atordoar\u00e1 e danificar\u00e1 quaisquer inimigos que se aproximarem."
                 },
                 {
@@ -2696,8 +2734,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
-                    "abilityName": "Parasitic Link",
-                    "description": "Vincule-se com o alvo escolhido com a Parasitic Link. Conjurar a Parasitic Link em um aliado fornecer\u00e1 For\u00e7a da Habilidade adicional para ambos, enquanto ao conjur\u00e1-la em um inimigo redirecionar\u00e1 parte do dano recebido por Nidus para o alvo vinculado."
+                    "abilityName": "Elo Parasit\u00e1rio",
+                    "description": "Criar\u00e1 um elo parasit\u00e1rio com o alvo escolhido. Conjurar a habilidade em um aliado fornecer\u00e1 For\u00e7a da Habilidade adicional para ambos, e conjur\u00e1-la em um inimigo redirecionar\u00e1 parte do dano recebido pelo Nidus ao alvo vinculado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
@@ -2734,8 +2772,8 @@
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
-                    "abilityName": "Parasitic Link",
-                    "description": "Vincule-se com o alvo escolhido com a Parasitic Link. Conjurar a Parasitic Link em um aliado fornecer\u00e1 For\u00e7a da Habilidade adicional para ambos, enquanto ao conjur\u00e1-la em um inimigo redirecionar\u00e1 parte do dano recebido por Nidus para o alvo vinculado."
+                    "abilityName": "Elo Parasit\u00e1rio",
+                    "description": "Criar\u00e1 um elo parasit\u00e1rio com o alvo escolhido. Conjurar a habilidade em um aliado fornecer\u00e1 For\u00e7a da Habilidade adicional para ambos, e conjur\u00e1-la em um inimigo redirecionar\u00e1 parte do dano recebido pelo Nidus ao alvo vinculado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
@@ -3112,7 +3150,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Cada elimina\u00e7\u00e3o com um Acerto de Precis\u00e3o aumentar\u00e1 permanentemente a Chance Cr\u00edtica em Acertos de Precis\u00e3o do Cyte-09 em |INCREASE|% na miss\u00e3o atual, at\u00e9 o limite de |CAP|%.",
+            "passiveDescription": "Cada elimina\u00e7\u00e3o com um Acerto em Pontos Fracos aumentar\u00e1 permanentemente a Chance Cr\u00edtica em Acertos de Precis\u00e3o do Cyte-09 em |INCREASE|% na miss\u00e3o atual, at\u00e9 o limite de |CAP|%.",
             "exalted": [
                 "/Lotus/Powersuits/Frumentarius/ExaltedSniper"
             ],
@@ -3120,7 +3158,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusScanAbility",
                     "abilityName": "Varredura T\u00e1tica",
-                    "description": "Mobilizar\u00e1 uma antena que realizar\u00e1 uma varredura \u00e0 sua frente. Inimigos detectados sofrer\u00e3o dano aumentado em Acertos de Precis\u00e3o e se tornar\u00e3o vis\u00edveis atrav\u00e9s das paredes. Todas as suas armas ter\u00e3o Penetra\u00e7\u00e3o adicional."
+                    "description": "Mobilizar\u00e1 uma antena que realizar\u00e1 uma varredura \u00e0 sua frente. Inimigos detectados sofrer\u00e3o dano aumentado em Acertos em Pontos Fracos e se tornar\u00e3o vis\u00edveis atrav\u00e9s das paredes. Todas as suas armas ter\u00e3o Penetra\u00e7\u00e3o adicional."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusAmmoAbility",
@@ -3130,12 +3168,12 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusCloakAbility",
                     "abilityName": "Recuo Estrat\u00e9gico",
-                    "description": "Pular\u00e1 para tr\u00e1s e se tornar\u00e1 invis\u00edvel por um curto per\u00edodo. Eliminar inimigos com Acertos de Precis\u00e3o aumentar\u00e1 a dura\u00e7\u00e3o da habilidade e curar\u00e1 o Cyte-09."
+                    "description": "Pular\u00e1 para tr\u00e1s e se tornar\u00e1 invis\u00edvel por um curto per\u00edodo. Eliminar inimigos com Acertos em Pontos Fracos aumentar\u00e1 a dura\u00e7\u00e3o da habilidade e curar\u00e1 o Cyte-09."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusSniperAbility",
                     "abilityName": "Neutraliza\u00e7\u00e3o",
-                    "description": "Invocar\u00e1 o Neutralizador, o Rifle de Precis\u00e3o exaltado do Cyte-09. Os proj\u00e9teis ricochetear\u00e3o em Acertos de Precis\u00e3o e tentar\u00e3o realizar outros Acertos de Precis\u00e3o nas proximidades do alvo. O Disparo Alternativo lan\u00e7ar\u00e1 uma granada <DT_FREEZE_COLOR>Glacial, que congelar\u00e1 completamente os inimigos atingidos."
+                    "description": "Invocar\u00e1 o Neutralizador, o Rifle de Precis\u00e3o exaltado do Cyte-09. Os proj\u00e9teis ricochetear\u00e3o em Acertos em Pontos Fracos e tentar\u00e3o realizar outros Acertos de Precis\u00e3o nas proximidades do alvo. O Disparo Alternativo lan\u00e7ar\u00e1 uma granada <DT_FREEZE_COLOR>Glacial, que congelar\u00e1 completamente os inimigos atingidos."
                 }
             ],
             "productCategory": "Suits"
@@ -3356,7 +3394,7 @@
             "masteryReq": 0,
             "longDescription": "Os Sentients haviam vencido. Eles voltaram nossas armas, nossa tecnologia, contra n\u00f3s. Quanto mais avan\u00e7ados fic\u00e1vamos, maiores as nossas perdas. A guerra estaria acabada ao menos que encontr\u00e1ssemos um novo caminho. Em nosso desespero n\u00f3s voltamos para o Void. A luz ofuscante, o espa\u00e7o infernal aonde nossa ci\u00eancia e nossa raz\u00e3o falharam.\r\n\r\nN\u00f3s tomamos os poucos atormentados que conseguiram retornar daquele lugar. N\u00f3s constru\u00edmos um chassi ao redor deles, um conduto para sua afli\u00e7\u00e3o. Demos a eles as ferramentas dos velhos caminhos. Arma e l\u00e2mina. Um novo guerreiro, um novo c\u00f3digo nasceu. Estes rejeitados, estes Tenno, se tornaram nossos salvadores. Guerreiros-deuses moldados em a\u00e7o e f\u00faria atacando nossos inimigos de uma forma que jamais puderam compreender\r\n\r\nExcalibur foi o primeiro.\r\n\r\n-Arquivos Orokin 'Warframe'",
             "sprintSpeed": 1,
-            "passiveDescription": "Excalibur Prime causa |DAMAGE|% de dano extra e ataca |SPEED|% mais r\u00e1pido ao utilizar Espadas.",
+            "passiveDescription": "Ao utilizar Espadas, o Excalibur Prime causar\u00e1 |DAMAGE|% de dano adicional e atacar\u00e1 |SPEED|% mais r\u00e1pido.",
             "exalted": [
                 "/Lotus/Powersuits/Excalibur/DoomSwordPrime"
             ],
@@ -3398,7 +3436,7 @@
             "masteryReq": 0,
             "longDescription": "Os Sentients haviam vencido. Eles voltaram nossas armas, nossa tecnologia, contra n\u00f3s. Quanto mais avan\u00e7ados fic\u00e1vamos, maiores as nossas perdas. A guerra estaria acabada ao menos que encontr\u00e1ssemos um novo caminho. Em nosso desespero n\u00f3s voltamos para o Void. A luz ofuscante, o espa\u00e7o infernal aonde nossa ci\u00eancia e nossa raz\u00e3o falharam.\r\n\r\nN\u00f3s tomamos os poucos atormentados que conseguiram retornar daquele lugar. N\u00f3s constru\u00edmos um chassi ao redor deles, um conduto para sua afli\u00e7\u00e3o. Demos a eles as ferramentas dos velhos caminhos. Arma e l\u00e2mina. Um novo guerreiro, um novo c\u00f3digo nasceu. Estes rejeitados, estes Tenno, se tornaram nossos salvadores. Guerreiros-deuses moldados em a\u00e7o e f\u00faria atacando nossos inimigos de uma forma que jamais puderam compreender\r\n\r\nExcalibur foi o primeiro.\r\n\r\n-Arquivos Orokin 'Warframe'",
             "sprintSpeed": 1,
-            "passiveDescription": "Excalibur Prime causa |DAMAGE|% de dano extra e ataca |SPEED|% mais r\u00e1pido ao utilizar Espadas.",
+            "passiveDescription": "Ao utilizar Espadas, o Excalibur causar\u00e1 |DAMAGE|% de dano adicional e atacar\u00e1 |SPEED|% mais r\u00e1pido.",
             "exalted": [
                 "/Lotus/Powersuits/Excalibur/DoomSword"
             ],
@@ -3532,7 +3570,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
                     "abilityName": "Armadura Exasperante",
-                    "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es com acertos de precis\u00e3o."
+                    "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es em pontos fracos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
@@ -3570,7 +3608,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
                     "abilityName": "Armadura Exasperante",
-                    "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es com acertos de precis\u00e3o."
+                    "description": "O Chroma fortalecer\u00e1 a Armadura do esquadr\u00e3o quando seus Escudos receberem dano ou quando ele eliminar um inimigo no corpo a corpo. Alternativamente, ele aumentar\u00e1 o Dano das Armas do esquadr\u00e3o quando perder Vida ou quando eliminar um inimigo com uma arma de longo alcance, dobrando o efeito para elimina\u00e7\u00f5es em pontos fracos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
@@ -4018,38 +4056,38 @@
             "name": "Valkyr Prime",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "Uma lutadora orgulhosa reaparece, inalterada pelo tempo e pela maldade. Apresentando polaridades de mod modificadas que permitem uma personaliza\u00e7\u00e3o maior.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 735,
+            "armor": 1000,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Ap\u00f3s ser derrubada, se recupera |PERCENT|% mais rapidamente.",
+            "passiveDescription": "A Valkyr acumular\u00e1 F\u00faria ao atingir ou eliminar inimigos com Armas Corpo a Corpo, aumentando o seu Dano Corpo a Corpo em at\u00e9 |PERCENT|%. Receber dano fatal quando o medidor de F\u00faria estiver acima de |CONSUME|% consumir\u00e1 o medidor, prevenindo a morte e concedendo invulnerabilidade por |DURATION|s.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
-                    "abilityName": "Cabo de Cerol",
-                    "description": "Valkyr arremessar\u00e1 um gancho: se o gancho acertar um inimigo, Valkyr o puxar\u00e1 na dire\u00e7\u00e3o dela. Se o gancho atingir o terreno, ela avan\u00e7ar\u00e1 na dire\u00e7\u00e3o do gancho."
+                    "abilityName": "Cabo F\u00falgido",
+                    "description": "A Valkyr arremessar\u00e1 um gancho e se projetar\u00e1 para onde quer que seja o ponto de impacto. Se atingir um inimigo, os pr\u00f3ximos ser\u00e3o puxados, enquanto ela desencadeia um Ataque Corpo a Corpo coordenado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Grito de Guerra",
-                    "description": "Valkyr soltar\u00e1 um grito de guerra que aumentar\u00e1 a Velocidade de Ataque Corpo a Corpo dos seus aliados, enquanto reduz a velocidade de movimento dos inimigos pr\u00f3ximos."
+                    "description": "A Valkyr soltar\u00e1 um grito que aumentar\u00e1 a Armadura e a Velocidade de Ataque dos aliados no <AFFINITY_SHARE>Alcance de Afinidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralisia",
-                    "description": "Valkyr sacrificar\u00e1 parte de seus Escudos para atordoar e danificar os inimigos no alcance."
+                    "description": "Liberar\u00e1 uma explos\u00e3o destrutiva, desacelerando suas v\u00edtimas e aumentando a Vulnerabilidade ao Dano Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr ser\u00e1 imbu\u00edda em energia e despertar\u00e1 sua f\u00faria rancorosa, tornando-se capaz de desencadear uma tempestade de ataques mort\u00edferos de garras em inimigos desavisados."
+                    "description": "A Valkyr revelar\u00e1 suas garras mortais, desencadeando ataques devastadores e vamp\u00edricos. Ela se tornar\u00e1 imune aos Efeitos de Status e multiplicar\u00e1 o b\u00f4nus de Armadura da habilidade Grito de Guerra."
                 }
             ],
             "productCategory": "Suits"
@@ -4059,38 +4097,38 @@
             "name": "Valkyr",
             "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
             "description": "A Valkyr foi transformada em uma assassina altamente motivada e tem\u00edvel. Ela \u00e9 especialista em causar dano e sobreviver. Seu grito de guerra arrepia todos que o ouvem.",
-            "health": 270,
+            "health": 650,
             "shield": 135,
-            "armor": 630,
+            "armor": 855,
             "stamina": 3,
             "power": 100,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Ap\u00f3s ser derrubada, se recupera |PERCENT|% mais rapidamente.",
+            "passiveDescription": "A Valkyr acumular\u00e1 F\u00faria ao atingir ou eliminar inimigos com Armas Corpo a Corpo, aumentando o seu Dano Corpo a Corpo em at\u00e9 |PERCENT|%. Receber dano fatal quando o medidor de F\u00faria estiver acima de |CONSUME|% consumir\u00e1 o medidor, prevenindo a morte e concedendo invulnerabilidade por |DURATION|s.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
-                    "abilityName": "Cabo de Cerol",
-                    "description": "Valkyr arremessar\u00e1 um gancho: se o gancho acertar um inimigo, Valkyr o puxar\u00e1 na dire\u00e7\u00e3o dela. Se o gancho atingir o terreno, ela avan\u00e7ar\u00e1 na dire\u00e7\u00e3o do gancho."
+                    "abilityName": "Cabo F\u00falgido",
+                    "description": "A Valkyr arremessar\u00e1 um gancho e se projetar\u00e1 para onde quer que seja o ponto de impacto. Se atingir um inimigo, os pr\u00f3ximos ser\u00e3o puxados, enquanto ela desencadeia um Ataque Corpo a Corpo coordenado."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
                     "abilityName": "Grito de Guerra",
-                    "description": "Valkyr soltar\u00e1 um grito de guerra que aumentar\u00e1 a Velocidade de Ataque Corpo a Corpo dos seus aliados, enquanto reduz a velocidade de movimento dos inimigos pr\u00f3ximos."
+                    "description": "A Valkyr soltar\u00e1 um grito que aumentar\u00e1 a Armadura e a Velocidade de Ataque dos aliados no <AFFINITY_SHARE>Alcance de Afinidade."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
                     "abilityName": "Paralisia",
-                    "description": "Valkyr sacrificar\u00e1 parte de seus Escudos para atordoar e danificar os inimigos no alcance."
+                    "description": "Liberar\u00e1 uma explos\u00e3o destrutiva, desacelerando suas v\u00edtimas e aumentando a Vulnerabilidade ao Dano Corpo a Corpo."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
                     "abilityName": "Histeria",
-                    "description": "Valkyr ser\u00e1 imbu\u00edda em energia e despertar\u00e1 sua f\u00faria rancorosa, tornando-se capaz de desencadear uma tempestade de ataques mort\u00edferos de garras em inimigos desavisados."
+                    "description": "A Valkyr revelar\u00e1 suas garras mortais, desencadeando ataques devastadores e vamp\u00edricos. Ela se tornar\u00e1 imune aos Efeitos de Status e multiplicar\u00e1 o b\u00f4nus de Armadura da habilidade Grito de Guerra."
                 }
             ],
             "productCategory": "Suits"
@@ -4137,7 +4175,7 @@
             "uniqueName": "/Lotus/Powersuits/Bard/Bard",
             "name": "Octavia",
             "parentName": "/Lotus/Powersuits/Bard/BardBaseSuit",
-            "description": "A Octavia transforma graves, batidas e melodias em uma sinfonia de devasta\u00e7\u00e3o. A m\u00fasica de seu Mandachord lhe d\u00e1 alta capacidade de sobreviv\u00eancia e concede suporte aos aliados. Sua composi\u00e7\u00e3o representa a destrui\u00e7\u00e3o do seu inimigo.",
+            "description": "A Octavia transforma graves, batidas e melodias em uma sinfonia de devasta\u00e7\u00e3o. A m\u00fasica de seu Mandacorde lhe d\u00e1 alta capacidade de sobreviv\u00eancia e concede suporte aos aliados. Sua composi\u00e7\u00e3o representa a destrui\u00e7\u00e3o do seu inimigo.",
             "health": 270,
             "shield": 180,
             "armor": 160,
@@ -4213,7 +4251,7 @@
             "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
             "name": "Banshee",
             "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
-            "description": "O grito da Banshee \u00e9 um pren\u00fancio da morte. Utilizando ataques s\u00f4nicos, ela fornece controle de grupo e identifica os pontos fracos dos inimigos. Ao serem atingidos pelo seu poder, poucos s\u00e3o p\u00e1reos para ela.",
+            "description": "O grito da Banshee \u00e9 um pren\u00fancio da morte. Utilizando ataques s\u00f4nicos, ela fornece controle de grupo e identifica as vulnerabilidades dos inimigos. Ao serem atingidos pelo seu poder, poucos s\u00e3o p\u00e1reos para ela.",
             "health": 270,
             "shield": 270,
             "armor": 105,
@@ -4526,7 +4564,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthSpeedAbility",
             "abilityName": "Mobilidade Infestada",
-            "description": "Aumente a velocidade das suas manobras de Parkour."
+            "description": "Aumentar\u00e1 a velocidade das suas acrobacias."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStatusAbility",

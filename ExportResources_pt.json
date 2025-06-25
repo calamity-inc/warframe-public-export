@@ -897,6 +897,27 @@
             "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA",
+            "name": "Poeira Temporal",
+            "description": "A poeira de universos decadentes, rica em entropia. A pesquisa do Entrati a considera como o agente animador do horripilante Murm\u00fario.\r\n\r\nLocaliza\u00e7\u00e3o: obtida do Murm\u00fario em miss\u00f5es da Tecel\u00e3 Insular, em Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB",
+            "name": "Carapa\u00e7a de Rastejador",
+            "description": "Um resqu\u00edcio da batalha com a Oraxia, a aranha que antes usava esta carapa\u00e7a se foi\u2026 embora n\u00e3o seja f\u00e1cil dizer para onde.\r\n\r\nLocaliza\u00e7\u00e3o: obtido ao derrotar a Oraxia em miss\u00f5es da Tecel\u00e3 Insular, em Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent",
+            "name": "Dominus Aureus",
+            "description": "Selos \u00e1ureos roubados, emblem\u00e1ticos da autoridade real em Duviri. Devolva-os para restaurar Dominus Thrax ao seu trono.\r\n\r\nLocaliza\u00e7\u00e3o: obtidos ao concluir miss\u00f5es da Tecel\u00e3 Insular, em Duviri, durante a Opera\u00e7\u00e3o Arane\u00eddea.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
             "name": "Hem\u00f3cito Cist\u00f3lito",
             "description": "Mat\u00e9ria arrancada do ducto biliar de um Hem\u00f3cito abatido.\r\n\r\nLocaliza\u00e7\u00e3o: Hem\u00f3citos encontrados em Contratos do evento 'Praga Estelar', nas Plan\u00edcies de Eidolon, na Terra.",
@@ -1082,14 +1103,14 @@
             "name": "\u00d3bolos Entrati",
             "description": "Durante a Era Orokin, esses \u00f3bolos eram uma marca comumente reconhecida da fam\u00edlia Entrati. Alguns Arquimedianos at\u00e9 os usavam como talism\u00e3s de boa sorte.\r\n\r\nLocaliza\u00e7\u00e3o: Laborat\u00f3rios do Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
             "name": "Bobinecra",
             "description": "Esta matriz experimental transmuta a energia do Void em altas-tens\u00f5es com baixas correntes.\r\n\r\nLocaliza\u00e7\u00e3o: Laborat\u00f3rios do Albrecht (Deimos)",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+            "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem"
         },
         {
             "uniqueName": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle",
@@ -1315,7 +1336,7 @@
         {
             "uniqueName": "/Lotus/Types/Gameplay/JadeShadows/Resources/AscensionEventResourceItem",
             "name": "Part\u00edculas Vol\u00e1teis",
-            "description": "Part\u00edculas altamente carregadas de energia pura. A fonte da Luz da Jade e de seu poder s\u00e3o cobi\u00e7adas por Parvos Granum para uso no seu programa ''Eximus da Jade''.\r\n\r\nLocaliza\u00e7\u00e3o: miss\u00f5es de Ascens\u00e3o em Brutus, em Urano, ou em Alertas Especiais, ambos durante a Opera\u00e7\u00e3o ''Ventre da Besta''.",
+            "description": "Part\u00edculas altamente carregadas de energia pura. A fonte da Luz da Jade e de seu poder s\u00e3o cobi\u00e7adas por Parvos Granum para uso no seu programa 'Eximus da Jade'.\r\n\r\nLocaliza\u00e7\u00e3o: miss\u00f5es de Ascens\u00e3o em Brutus, em Urano, ou em Alertas Especiais, ambos durante a Opera\u00e7\u00e3o 'Ventre da Besta'.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Gameplay/JadeShadows/Resources/AscensionResourceItem"
         },
@@ -2049,7 +2070,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/Events/AmbulasDataFragment",
-            "name": "Sinalizador de Navega\u00e7\u00e3o do Animo",
+            "name": "Sinalizador do \u00c2nimo",
             "description": "Utilizado para localizar a instala\u00e7\u00e3o de produ\u00e7\u00e3o de \u00c2mbulas.\r\n\r\nEste recurso pode ser adquirido de Unidades \u00c2mbulas abatidas.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -5032,6 +5053,13 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
+            "name": "Cena: Arena Arane\u00eddea",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA",
             "name": "Cena: Ilhota da Cratera",
             "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
@@ -5067,11 +5095,32 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
+            "name": "Cena: Tecel\u00e3 Insular Nebulosa",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
+            "name": "Cena: Tecel\u00e3 Insular Flutuante",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre",
             "name": "Cena: Anfiteatro",
             "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon",
+            "name": "Cena: Pris\u00e3o do Kullervo",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary",
@@ -5109,8 +5158,22 @@
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
+            "name": "Cena: Pouso do Erudito",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave",
             "name": "Cena: Caverna do Teshin",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
+            "name": "Cena: Sala do Trono de Duviri",
             "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -6215,21 +6278,21 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
             "name": "Pinha Diurna",
-            "description": "Esta planta comum s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em Pinhas Diurnas, na Terra.",
+            "description": "Esta planta comum s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Pinhas Diurnas, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
             "name": "Pinha Noturna",
-            "description": "Esta planta comum s\u00f3 pode ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em uma Pinha Noturna, na Terra.",
+            "description": "Esta planta comum s\u00f3 pode ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Pinhas Noturnas, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
             "name": "Garra de Ruk",
-            "description": "Esta planta foi introduzida em regi\u00f5es \u00e1ridas do Sistema de Origem devido \u00e0 sua capacidade de absorver umidade em ambientes hostis. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex na planta Garra de Ruk, que cresce em Marte.",
+            "description": "Esta planta foi introduzida em regi\u00f5es \u00e1ridas do Sistema de Origem devido \u00e0 sua capacidade de absorver umidade em ambientes hostis. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Garras de Ruk, que crescem em Marte.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6244,7 +6307,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
             "name": "Musgo Vestano",
-            "description": "Uma das poucas esp\u00e9cies de planta que consegue prosperar em asteroides do espa\u00e7o profundo. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex na planta Musgo Vestano, que cresce em Merc\u00fario, Saturno e Sedna.",
+            "description": "Uma das poucas esp\u00e9cies de planta que consegue prosperar em asteroides do espa\u00e7o profundo. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Musgos Vestanos, que crescem em Merc\u00fario, Saturno e Sedna.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6273,49 +6336,49 @@
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
             "name": "Folha de Jade Diurna",
-            "description": "Esta planta rara s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em uma Folha de Jade Diurna, na Terra.",
+            "description": "Esta planta rara s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Folhas de Jade Diurna, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
             "name": "Folha de Jade Noturna",
-            "description": "Esta planta rara s\u00f3 poder\u00e1 ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em uma Folha de Jade Noturna, na Terra.",
+            "description": "Esta planta rara s\u00f3 poder\u00e1 ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Folhas de Jade Noturna, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
             "name": "L\u00edrio do Drag\u00e3o Diurno",
-            "description": "Esta planta incomum s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em um L\u00edrio do Drag\u00e3o Diurno, na Terra.",
+            "description": "Esta planta incomum s\u00f3 pode ser encontrada durante o dia. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar L\u00edrios do Drag\u00e3o Diurno, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
             "name": "L\u00edrio do Drag\u00e3o Noturno",
-            "description": "Esta planta incomum s\u00f3 pode ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex em um L\u00edrio do Drag\u00e3o Noturno, na Terra.",
+            "description": "Esta planta incomum s\u00f3 pode ser encontrada \u00e0 noite. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar L\u00edrios do Drag\u00e3o Noturno, na Terra.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
             "name": "Folha Glacial",
-            "description": "Esta planta resistente \u00e9 uma fonte de alimento natural em \u00e1reas fr\u00edgidas do Sistema de Origem. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex na planta Folha Glacial, que cresce em V\u00eanus, Netuno e Plut\u00e3o.",
+            "description": "Esta planta resistente \u00e9 uma fonte de alimento natural em \u00e1reas fr\u00edgidas do Sistema de Origem. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Folhas Glaciais, que crescem em V\u00eanus, Netuno e Plut\u00e3o.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
             "name": "Sarracenia Crepuscular",
-            "description": "Esta planta robusta e carn\u00edvora adaptou-se ao crescer em \u00e1guas polu\u00eddas. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex na planta Sarracenia Crepuscular, que cresce nos estaleiros Grineer, comumente encontrados em Ceres.",
+            "description": "Esta planta robusta e carn\u00edvora adaptou-se ao crescer em \u00e1guas polu\u00eddas. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Sarracenias Crepusculares, que crescem nos estaleiros Grineer, comumente encontrados em Ceres.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
             "name": "Planta-Jarro Lunar",
-            "description": "Esta planta carn\u00edvora pode ser encontrada em regi\u00f5es selvagens da Lua. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao utilizar um Esc\u00e2ner do Codex na planta Jarro Lunar, que cresce na Lua.",
+            "description": "Esta planta carn\u00edvora pode ser encontrada em regi\u00f5es selvagens da Lua. \r\n\r\nLocaliza\u00e7\u00e3o: obtida ao coletar Jarros Lunares, que crescem na Lua.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -6406,7 +6469,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/RailjackMiscItems/PustrelsRailjackItem",
             "name": "P\u00fastrulas",
-            "description": "Um crescimento parasit\u00e1rio que, constantemente, infecta as unidades Eximus durante os seus trabalhos em zonas infestadas.\r\n\r\nLocaliza\u00e7\u00e3o: Eris",
+            "description": "Um crescimento parasit\u00e1rio que, constantemente, infecta as unidades Eximus durante os seus trabalhos em zonas infestadas.\r\n\r\nLocaliza\u00e7\u00e3o: \u00c9ris",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/RailjackMiscItems/BaseRailjackItem"
         },
@@ -6963,6 +7026,22 @@
             "description": "Componha e escreva in\u00fameros pergaminhos burocr\u00e1ticos nesta bela escrivaninha de Duviri.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaHat",
+            "name": "Lembran\u00e7a do Chap\u00e9u da Major Rusalka",
+            "description": "O distinto chap\u00e9u da Scaldra da Neci Rusalka, recebido como parte de uma comunica\u00e7\u00e3o misteriosa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaMedals",
+            "name": "Lembran\u00e7a das Medalhas da Major Rusalka",
+            "description": "Medalhas de bravura concedidas a Neci Rusalka, recebidas como parte de uma comunica\u00e7\u00e3o misteriosa.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelLarge",
@@ -8090,8 +8169,8 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/PlanetTrophies/PlanetTrophyErisBronze",
-            "name": "O Percurso de A\u00e7o - Eris",
-            "description": "Um s\u00edmbolo da conclus\u00e3o do Percurso de A\u00e7o em Eris",
+            "name": "O Percurso de A\u00e7o - \u00c9ris",
+            "description": "Um s\u00edmbolo da conclus\u00e3o do Percurso de A\u00e7o em \u00c9ris",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10476,7 +10555,7 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/1999FlareBandPoster",
             "name": "P\u00f4ster da Turn\u00ea ''Temple e os Rippers''",
             "description": "Decore suas paredes com este p\u00f4ster promocional da fat\u00eddica turn\u00ea ''Temple e os Rippers'' de 1999.",
-            "codexSecret": true,
+            "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -12408,6 +12487,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaroPink",
+            "name": "Drone Domestik Ki'Teer (Gelo Lavanda)",
+            "description": "Todo o estilo de limpeza do Domestik Ki'Teer original, em uma nova cor, moderna e elegante.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBeachcomber",
             "name": "Drone Domestik Beachcomber",
             "description": "Adicione um pouco de brilho \u00e0 sua Orbital com esta deslumbrante unidade higienizadora.",
@@ -12467,6 +12553,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneInfested",
             "name": "Drone Domestik Carrion",
             "description": "Um passageiro clandestino Infestado de uma de suas miss\u00f5es agora est\u00e1 vagando alegremente pela sua Orbital.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+            "name": "Rastejador",
+            "description": "A ninhada da Oraxia fica feliz em fazer da sua Orbital o territ\u00f3rio de ca\u00e7a dela.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -12560,7 +12653,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropGlassTreasureBox",
             "name": "Cofre do Onkko",
-            "description": "Acredita-se que Onkko protegeu o conte\u00fado do cofre com um bloqueador de vidro.",
+            "description": "Acredita-se que Onkko protegeu o conte\u00fado do cofre com uma tranca de vidro.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
@@ -13935,6 +14028,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardOraxia",
+            "name": "Prex: Oraxia",
+            "description": "A Mestra do Medo",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardProtea",
             "name": "Prex: Protea",
             "description": "A Dan\u00e7arina Temporal",
@@ -14051,6 +14151,13 @@
             "name": "Prex: Titania",
             "description": "A Fada Travessa",
             "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+            "name": "Prex do Legado da Valkyr",
+            "description": "Um legado majestoso nascido do tormento.",
+            "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
@@ -14261,6 +14368,62 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBestWorkmanshipTrophy",
+            "name": "TennoCon 2025: Pr\u00eamio \"Artesanato Solaris\"",
+            "description": "Este pr\u00eamio reconhece um Cosplay com um excelente acabamento. ",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBombasticTrophy",
+            "name": "TennoCon 2025: Pr\u00eamio \"Desempenho Bomb\u00e1stico\"",
+            "description": "Este pr\u00eamio reconhece um Cosplay com um desempenho excepcional no palco.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayFirstPlaceTrophy",
+            "name": "TennoCon 2025: 1\u00ba Lugar",
+            "description": "Concedido ao Cosplay que ganhou o primeiro lugar na TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayLotusChoiceTrophy",
+            "name": "TennoCon 2025: Pr\u00eamio \"Escolha da L\u00f3tus\"",
+            "description": "Este pr\u00eamio reconhece um Cosplay escolhido pelos jurados como uma excelente proposta geral.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOrokinGoldTrophy",
+            "name": "TennoCon 2025: Pr\u00eamio \"Ouro Orokin\"",
+            "description": "Este pr\u00eamio foi concedido a uma pessoa que criou um Cosplay excepcional na categoria n\u00e3o competitiva.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOstronIngenuityTrophy",
+            "name": "TennoCon 2025: Pr\u00eamio \"Engenhosidade Ostron\"",
+            "description": "Este pr\u00eamio reconhece o uso criativo de materiais e a interpreta\u00e7\u00e3o da tem\u00e1tica do Cosplay!",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplaySecondPlaceTrophy",
+            "name": "TennoCon 2025: 2\u00ba Lugar",
+            "description": "Concedido ao Cosplay que ganhou o segundo lugar na TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayThirdPlaceTrophy",
+            "name": "TennoCon 2025: 3\u00ba Lugar",
+            "description": "Concedido ao Cosplay que ganhou o terceiro lugar na TennoCon 2025.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoConDojoGhostTrophy",
             "name": "Cl\u00e3 N\u00edvel Fantasma",
             "description": "Uma decora\u00e7\u00e3o concedida em reconhecimento \u00e0s contribui\u00e7\u00f5es de Cl\u00e3 para a imensa Comunidade do Dojo.",
@@ -14445,11 +14608,26 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025DigitalItemDisplay",
+            "name": "[PH] Display - TennoCon 2025 Digital Item",
+            "description": "[PH] Description",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2025Display",
             "name": "Exibidor da TennoCon 2025",
             "description": "Este exibidor representando o Operador e o Warframe foi criado para celebrar o 10\u00ba anivers\u00e1rio da TennoCon, em 2025.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TennoconConcert2025Display",
+            "name": "Exibidor do P\u00f4ster do Flare Varleon e da Lizzie",
+            "description": "Um p\u00f4ster autografado pelos membros remanescentes de uma banda perdida. Desenvolvido pela artista da Comunidade, ZliDe.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TeshinBobbleHead",
@@ -14941,15 +15119,8 @@
             "excludeFromCodex": true
         },
         {
-            "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
-            "name": "Segmento do Invocador de Archwing",
-            "description": "Adiciona o Invocador de Archwing \u00e0 Forja.",
-            "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
-        },
-        {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ErisNavigationFeatureItem",
-            "name": "SEGMENTO DE NAVEGA\u00c7\u00c3O: ERIS",
+            "name": "SEGMENTO DE NAVEGA\u00c7\u00c3O: \u00c9RIS",
             "description": "",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/NavigationFeatureItem",
@@ -15224,7 +15395,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
             "name": "SEGMENTO DE REL\u00cdQUIAS DO VOID",
-            "description": "",
+            "description": "Instale este Segmento de Rel\u00edquias do Void em sua Orbital para come\u00e7ar a abrir Rel\u00edquias do Void. As Rel\u00edquias do Void cont\u00eam itens valiosos que s\u00f3 s\u00e3o determinados ap\u00f3s a abertura das Rel\u00edquias em miss\u00f5es de Fendas do Void. As Rel\u00edquias do Void podem ser obtidas como recompensas de miss\u00e3o.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
             "excludeFromCodex": true,
@@ -15482,7 +15653,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/AbyssofDagathSongItem",
             "name": "Trilha Sonora do Abismo da Dagath",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Abismo da Dagath' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Abismo da Dagath' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15509,7 +15680,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CC16BitGirlsSongItem",
             "name": "16-Bit Girls with Machine Guns (Garotas 16-Bits com Metralhadoras)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15517,7 +15688,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCAnnaKiGOBSongItem",
             "name": "Anna Ki in the G.O.B. (Anna Ki no G.O.B.)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15525,7 +15696,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCAnnaKiPunkSongItem",
             "name": "Anna Ki is a Punk Rocker (Anna Ki \u00e9 Punk)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15533,7 +15704,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCBizMarqueBopSongItem",
             "name": "Biz-Marque Bop (Batida da Biz-Marque)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15541,7 +15712,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCIWannaBeYourGOBSongItem",
             "name": "I Wanna Be Your G.O.B. (Quero ser seu G.O.B.)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15549,7 +15720,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCKickOutTheGunsSongItem",
             "name": "Kick Out the Guns (Hora das Armas)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15557,7 +15728,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCLundoraCallingSongItem",
             "name": "Lundora Calling (Chamado de Lundora)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15565,7 +15736,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CCPsychoKillianSongItem",
             "name": "Psycho Killian (Killian Psicopata)",
-            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora original de 'Caliber Chicks 2' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15573,7 +15744,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CorpusLichLoginSongItem",
             "name": "Trilha Sonora das Irm\u00e3s de Parvos",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Irm\u00e3s de Parvos' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Irm\u00e3s de Parvos' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15582,7 +15753,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/CorpusRailjackLoginSongItem",
             "name": "Trilha Sonora da Reformula\u00e7\u00e3o da Railjack",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Reformula\u00e7\u00e3o da Railjack' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Reformula\u00e7\u00e3o da Railjack' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15600,7 +15771,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/DanteUnboundLoginSongItem",
             "name": "Trilha Sonora da Liberta\u00e7\u00e3o de Dante",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Liberta\u00e7\u00e3o de Dante' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Liberta\u00e7\u00e3o de Dante' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15609,7 +15780,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/DeadlockLoginSongItem",
             "name": "Trilha Sonora do Protocolo Deadlock",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Protocolo Deadlock' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Protocolo Deadlock' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15618,7 +15789,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/DeimosLoginSongItem",
             "name": "Trilha Sonora do Cora\u00e7\u00e3o de Deimos",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Cora\u00e7\u00e3o de Deimos' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Cora\u00e7\u00e3o de Deimos' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15627,7 +15798,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/DuviriKullervoLoginSongItem",
             "name": "Trilha Sonora dos Sete Crimes de Kullervo",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Os Sete Crimes de Kullervo' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Os Sete Crimes de Kullervo' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15636,7 +15807,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/DuviriLoginSongItem",
             "name": "Trilha Sonora do Paradoxo de Duviri",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Paradoxo de Duviri' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Paradoxo de Duviri' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15645,7 +15816,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/EmpyreanSongItem",
             "name": "Trilha Sonora do Emp\u00edreo",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Emp\u00edreo' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Emp\u00edreo' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15663,7 +15834,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/GaraPrimeSongItem",
             "name": "Trilha Sonora da Gara Prime",
-            "description": "O tema musical tradicional da Gara Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Gara Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15671,7 +15842,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/GaussPrimeSongItem",
             "name": "Trilha Sonora do Gauss Prime\r\n\"Redline\"",
-            "description": "O tema musical tradicional do Gauss Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Gauss Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15679,7 +15850,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/GrendelPrimeSongItem",
             "name": "Trilha Sonora do Grendel Prime",
-            "description": "O tema musical tradicional do Grendel Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Grendel Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15687,7 +15858,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/HildrynPrimeSongItem",
             "name": "Trilha Sonora da Hildryn Prime",
-            "description": "O tema musical tradicional da Hildryn Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Hildryn Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15695,7 +15866,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/HydroidPrimeSongItem",
             "name": "Trilha Sonora do Hydroid Prime",
-            "description": "O tema musical tradicional do Hydroid Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Hydroid Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15703,7 +15874,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/JadeShadowsLoginSongItem",
             "name": "Trilha Sonora das Sombras da Jade",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Sombras da Jade' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Sombras da Jade' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15712,7 +15883,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/KhoraPrimeSongItem",
             "name": "Trilha Sonora da Khora Prime",
-            "description": "O tema musical tradicional da Khora Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Khora Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15720,7 +15891,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/KuvaLichLoginSongItem",
             "name": "Trilha Sonora do Sangue Ancestral",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Sangue Ancestral' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Sangue Ancestral' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15729,7 +15900,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/LotusEatersSongItem",
             "name": "Trilha Sonora dos Lot\u00f3fagos",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Os Lot\u00f3fagos' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Os Lot\u00f3fagos' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15738,7 +15909,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/NekrosPrimeSongItem",
             "name": "Trilha Sonora do Nekros Prime",
-            "description": "O tema musical tradicional do Nekros Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Nekros Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15746,7 +15917,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/NidusPrimeSongItem",
             "name": "Trilha Sonora do Nidus Prime",
-            "description": "O tema musical tradicional do Nidus Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Nidus Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15754,7 +15925,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/OberonPrimeSongItem",
             "name": "Trilha Sonora do Oberon Prime",
-            "description": "O tema musical tradicional do Oberon Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Oberon Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15762,7 +15933,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/OctaviaPrimeSongItem",
             "name": "Trilha Sonora da Octavia Prime",
-            "description": "O tema musical tradicional da Octavia Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Octavia Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15866,7 +16037,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/ProteaPrimeSongItem",
             "name": "Trilha Sonora da Protea Prime",
-            "description": "O tema musical tradicional da Protea Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Protea Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15874,7 +16045,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/RevenantPrimeSongItem",
             "name": "Trilha Sonora do Revenant Prime",
-            "description": "O tema musical tradicional do Revenant Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Revenant Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15882,7 +16053,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/SevagothDeluxeSongItem",
             "name": "Cantiga do Sevagoth",
-            "description": "Uma m\u00fasica personalizada para o Sevagoth Glaukus, que ser\u00e1 reproduzida para sua Sombra em combate. Tamb\u00e9m poder\u00e1 ser tocada no Somachord de sua Orbital.",
+            "description": "Uma m\u00fasica personalizada para o Sevagoth Glaukus, que ser\u00e1 reproduzida para sua Sombra em combate. Tamb\u00e9m poder\u00e1 ser tocada no Somacorde de sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15890,7 +16061,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/TenthAnniversaryLoginSongItem",
             "name": "Trilha Sonora do Anivers\u00e1rio de 10 Anos",
-            "description": "A trilha sonora do Anivers\u00e1rio de 10 Anos do Warframe para ouvir no Somachord, na sua Orbital.",
+            "description": "A trilha sonora do Anivers\u00e1rio de 10 Anos do Warframe para ouvir no Somacorde, na sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15899,7 +16070,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/TheNewWarLoginSongItem",
             "name": "Trilha Sonora da Nova Guerra",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'A Nova Guerra' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'A Nova Guerra' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15908,7 +16079,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/TheSacrificeLoginSongItem",
             "name": "Trilha Sonora do Sacrif\u00edcio",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Sacrif\u00edcio' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'O Sacrif\u00edcio' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15917,7 +16088,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/VaubanPrimeSongItem",
             "name": "Trilha Sonora do Vauban Prime",
-            "description": "O tema musical tradicional do Vauban Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional do Vauban Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15925,7 +16096,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/VeilbreakerLoginSongItem",
             "name": "Trilha Sonora do Destrutor de V\u00e9us",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Destrutor de V\u00e9us' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Destrutor de V\u00e9us' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15934,7 +16105,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/VenusOrbVallisLoginSongItem",
             "name": "Trilha Sonora de Fortuna",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Fortuna' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Fortuna' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15943,7 +16114,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/VoidEclipseLoginSongItem",
             "name": "Trilha Sonora da Presa da Lua",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Presa da Lua' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Presa da Lua' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15952,7 +16123,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/WhispersInTheWallLoginSongItem",
             "name": "Trilha Sonora dos Sussurros nas Paredes",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Sussurros nas Paredes' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Sussurros nas Paredes' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -15961,7 +16132,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/WispPrimeSongItem",
             "name": "Trilha Sonora da Wisp Prime",
-            "description": "O tema musical tradicional da Wisp Prime para ouvir no Somachord em sua Orbital.",
+            "description": "O tema musical tradicional da Wisp Prime para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -15969,7 +16140,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/SongItems/ZarimanLoginSongItem",
             "name": "Trilha Sonora dos Anjos da Zariman",
-            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Anjos da Zariman' para ouvir no Somachord em sua Orbital.",
+            "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Anjos da Zariman' para ouvir no Somacorde em sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "excludeFromCodex": true,
@@ -16212,30 +16383,39 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/UnlockArbitrationKeyItem",
+            "name": "Desbloqueio das Arbitragens",
+            "description": "Desbloquear\u00e1 as miss\u00f5es de Arbitragem na aba de Alertas, no menu de navega\u00e7\u00e3o.\r\nAs Arbitragens s\u00e3o variantes desafiadoras de miss\u00f5es infinitas, com melhores recompensas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true,
+            "showInInventory": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
-            "name": "Mandachord",
+            "name": "Mandacorde",
             "description": "Um instrumento raro Orokin.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerPartA",
-            "name": "Mandachord: Corpo",
-            "description": "Um componente crucial para o instrumento Mandachord.",
+            "name": "Mandacorde: Corpo",
+            "description": "Um componente crucial para o instrumento Mandacorde.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerPartB",
-            "name": "Mandachord: Traste",
-            "description": "Um componente crucial para o instrumento Mandachord.",
+            "name": "Mandacorde: Traste",
+            "description": "Um componente crucial para o instrumento Mandacorde.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerPartC",
-            "name": "Mandachord: Ponte",
-            "description": "Um componente crucial para o instrumento Mandachord.",
+            "name": "Mandacorde: Ponte",
+            "description": "Um componente crucial para o instrumento Mandacorde.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -18117,6 +18297,27 @@
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaChassisComponent",
+            "name": "Oraxia: Chassi",
+            "description": "Chassi componente do Warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaHelmetComponent",
+            "name": "Oraxia: Neurovisor",
+            "description": "Neurovisor componente do Warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OraxiaSystemsComponent",
+            "name": "Oraxia: Sistemas",
+            "description": "Sistemas componentes do Warframe Oraxia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PacifistChassisComponent",
             "name": "Baruuk: Chassi",
             "description": "Chassi componente do Warframe Baruuk.",
@@ -19798,7 +19999,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/DaxDuviriAsymmetricalLongBowGrip",
-            "name": "Cinta: Punho",
+            "name": "Cinta: Empunhadura",
             "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
@@ -20990,7 +21191,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeBowGrip",
-            "name": "Paris Prime: Empunhadeira",
+            "name": "Paris Prime: Empunhadura",
             "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -21046,7 +21247,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCernosGrip",
-            "name": "Cernos Prime: Empunhadeira",
+            "name": "Cernos Prime: Empunhadura",
             "description": "Um componente de fabrica\u00e7\u00e3o de Armas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -21507,6 +21708,22 @@
             "primeSellingPrice": 45
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel",
+            "name": "Scyotid: Cano",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidGauntlet",
+            "name": "Scyotid: Manopla",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/ShadePrimeCarapace",
             "name": "Shade Prime: Carapa\u00e7a",
             "description": "Um componente de fabrica\u00e7\u00e3o de sentinelas Prime.",
@@ -21663,6 +21880,30 @@
             "description": "O cabo componente da Spectra Vandalizada.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexBlade",
+            "name": "Spinnerex: L\u00e2mina",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexHandle",
+            "name": "Spinnerex: Cabo",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexString",
+            "name": "Spinnerex: Cord\u00e3o",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/StradavarPrimeBarrel",
