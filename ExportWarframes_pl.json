@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Stworzony na cze\u015b\u0107 kr\u00f3tkotrwa\u0142ego rozejmu mi\u0119dzy Orokin a \u015awiadomymi, Caliban Prime stanowi prawdziwe arcydzie\u0142o wsp\u00f3\u0142pracy cywilizacji. Spadkobierca bli\u017aniaczych kr\u00f3lestw powstaje, spowity kr\u00f3lewskim z\u0142otem.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Sojusznicy w zasi\u0119gu Bieg\u0142o\u015bci zyskuj\u0105 |PCT|% odporno\u015bci na otrzymywane typy obra\u017ce\u0144.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Tn\u0105cy Wir",
+                    "description": "P\u0119d\u017a przed siebie w wiruj\u0105cym wirze \u015bmierci. Trafieni wrogowie otrzymuj\u0105 <DT_SENTIENT_COLOR> Efekt Statusu Tau, przez co staj\u0105 si\u0119 bardziej podatni na wszystkie inne Efekty Statusu. Za ka\u017cdego trafionego wroga odzyskujesz cz\u0119\u015b\u0107 kosztu energii, a tak\u017ce \u017cycie i tarcze. Wrogowie trafieni przez Gniew \u015awiadomego otrzymuj\u0105 zwi\u0119kszone obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Gniew \u015awiadomego",
+                    "description": "Uderz w ziemi\u0119 i wy\u015blij promienist\u0105 fal\u0119 zniszczenia. Przeciwnicy z\u0142apani przez fal\u0119 s\u0105 wyrzucani w powietrze i otrzymuj\u0105 wzmocnione obra\u017cenia przez kr\u00f3tki czas."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "Zab\u00f3jczy Wyl\u0119g",
+                    "description": "Przejrzyj typy jednostek \u015awiadomych, a nast\u0119pnie przyzwij je razem z Calibanem. Konkulysty skupiaj\u0105 si\u0119 na zadawaniu obra\u017ce\u0144 w walce wr\u0119cz. Ortolysty specjalizuj\u0105 si\u0119 w atakach dystansowych i zadaj\u0105 <DT_SENTIENT_COLOR>Efekt Statusu Tau. Summulysty przyzywaj\u0105 w\u0142asne Choralysty i zapewniaj\u0105 ochron\u0119 oddzia\u0142owi."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Skrzy\u017cowane Promienie",
+                    "description": "Skupia trzy strumienie surowej energii w jednym punkcie, powoduj\u0105c pot\u0119\u017cn\u0105 eksplozj\u0119. Strumienie zrywaj\u0105 pancerz i tarcze, a ka\u017cdy trafiony wr\u00f3g detonuje si\u0119 w momencie konwergencji strumieni. Przywo\u0142ane Konkulysty mog\u0105 w\u0142ada\u0107 w\u0142asnym mini Skrzy\u017cowanym Promieniem. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",
@@ -4064,7 +4102,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekundy.",
+            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekund.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
             ],
@@ -4105,7 +4143,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekundy.",
+            "passiveDescription": "Furia Valkyr narasta, kiedy ta uderza lub zabija wrog\u00f3w Broni\u0105 bia\u0142\u0105, zwi\u0119kszaj\u0105c Obra\u017cenia Broni bia\u0142ej do |PERCENT|%. Otrzymanie \u015bmiertelnych obra\u017ce\u0144, kiedy wska\u017anik Furii przekracza |CONSUME|% zu\u017cywa go, zapobiegaj\u0105c jej \u015bmierci i czyni\u0105c j\u0105 niewra\u017cliw\u0105 na obra\u017cenia przez |DURATION| sekund.",
             "exalted": [
                 "/Lotus/Powersuits/Berserker/BerserkerMelee"
             ],

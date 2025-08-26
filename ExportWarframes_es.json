@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Caliban Prime, forjado para celebrar la breve paz entre los orokin y los conscientes, es una aut\u00e9ntica obra maestra de colaboraci\u00f3n. El heredero de los reinos gemelos se levanta cubierto de un majestuoso dorado imperial.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Los aliados dentro del rango de afinidad obtienen hasta un |PCT| % de resistencia a los tipos de da\u00f1o que est\u00e1n recibiendo actualmente.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Remolino afilado",
+                    "description": "Avanza en un torbellino de muerte. Los enemigos golpeados sufren un efecto de estado <DT_SENTIENT_COLOR>Tau, lo que los hace m\u00e1s vulnerables a todos los dem\u00e1s efectos de estado. Por cada enemigo golpeado, recuperas una parte del costo de energ\u00eda, as\u00ed como salud y escudos. Los enemigos que levanta Furia consciente reciben m\u00e1s da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Furia consciente",
+                    "description": "Golpea el suelo formando una ola radial de destrucci\u00f3n. Los enemigos que sobrevivan a la explosi\u00f3n inicial quedar\u00e1n suspendidos en el aire, donde recibir\u00e1n da\u00f1o amplificado durante un breve periodo de tiempo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "Progenie letal",
+                    "description": "Recorre los tipos de unidades conscientes y luego conv\u00f3calos junto con Caliban. Los Conculistas se centran en el da\u00f1o cuerpo a cuerpo. Los Ortolistas se especializan en ataques a distancia e infligen el efecto de estado <DT_SENTIENT_COLOR>Tau. Los Summulistas convocan a sus propios Coralistas y brindan protecci\u00f3n al escuadr\u00f3n."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Impacto convergente",
+                    "description": "Converge tres corrientes de energ\u00eda pura en un \u00fanico punto, lo que provoca una explosi\u00f3n masiva. Las corrientes despojan a los enemigos de sus armaduras y escudos, y cada enemigo alcanzado explota al converger las corrientes. Los Conculistas invocados pueden lanzar sus propios mini Impactos convergentes. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",

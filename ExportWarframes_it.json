@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Forgiato per celebrare la pace fin troppo breve tra Orokin e Sentient, Caliban Prime \u00e8 un vero capolavoro frutto di una collaborazione. L'erede dei regni gemelli sorge nell'oro reale.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Gli alleati nella Portata Affinit\u00e0 ottengono fino al |PCT|% di resistenza ai tipi di danno che stanno attualmente subendo.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Razor Gyre",
+                    "description": "Scatta in avanti in un vortice di morte. I nemici colpiti subiscono l'Effetto <DT_SENTIENT_COLOR>Tau, che li rende pi\u00f9 vulnerabili a tutti gli altri Effetti. Per ogni nemico colpito, recupera una parte di costo in Energia, oltre a Salute e Scudi. I nemici sollevati da Sentient Wrath subiscono danni maggiori."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Sentient Wrath",
+                    "description": "Colpisci il terreno per creare un'ondata radiale di distruzione. Coloro che non sono stati uccisi dall'esplosione iniziale vengono sollevati in aria dove subiscono danni amplificati per un breve periodo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "Lethal Progeny",
+                    "description": "Scorri tra i tipi di unit\u00e0 Sentient, poi evocali al fianco di Caliban. I Conculyst si concentrano sul danno corpo a corpo grezzo. Gli Ortholyst si specializzano negli attacchi a distanza e infliggono l'Effetto <DT_SENTIENT_COLOR>Tau. I Summulyst evocano dei Choralyst personali e forniscono protezione alla squadra."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Fusion Strike",
+                    "description": "Converge tre flussi di energia grezza in un singolo punto, causando un'enorme esplosione. I flussi distruggono armature e scudi, e ogni nemico colpito esplode nel punto di convergenza dei flussi. I Conculyst evocati brandiscono dei mini Fusion Strike personali. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",

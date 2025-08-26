@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Forg\u00e9 pour c\u00e9l\u00e9brer la paix bien trop br\u00e8ve entre les Orokins et les Sentients, Caliban Prime est un v\u00e9ritable chef-d'\u0153uvre collaboratif. L'h\u00e9ritier des royaumes jumeaux s'\u00e9l\u00e8ve dans une tenue dor\u00e9e royale.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Les alli\u00e9s \u00e0 port\u00e9e d'Affinit\u00e9 gagnent jusqu'\u00e0 |PCT|% de r\u00e9sistance aux types de D\u00e9g\u00e2ts qu'ils subissent.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Tornade Sentient",
+                    "description": "Foncez en avant tel un vortex mortel. Les ennemis touch\u00e9s subissent l'Effet de Statut <DT_SENTIENT_COLOR>Tau, ce qui les rend plus vuln\u00e9rables \u00e0 tous les autres Effets de Statut. Pour chaque ennemi touch\u00e9, r\u00e9cup\u00e9rez une partie du co\u00fbt en \u00c9nergie, ainsi que des points de Sant\u00e9 et de Boucliers. Les ennemis soulev\u00e9s par Fureur Sentient subissent des D\u00e9g\u00e2ts accrus."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Fureur Sentient",
+                    "description": "Frappez le sol pour propager une vague de destruction radiale. Ceux qui n'ont pas \u00e9t\u00e9 \u00e9limin\u00e9s par l'explosion initiale sont propuls\u00e9s dans les airs o\u00f9 ils subissent des D\u00e9g\u00e2ts accrus pendant une courte p\u00e9riode."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "Lign\u00e9e L\u00e9tale",
+                    "description": "Parcourez les types d'unit\u00e9s Sentients, puis invoquez-les aux c\u00f4t\u00e9s de Caliban. Les Conculystes se concentrent sur les D\u00e9g\u00e2ts en M\u00eal\u00e9e. Les Ortholystes se sp\u00e9cialisent dans les attaques \u00e0 distance et infligent l'Effet de Statut <DT_SENTIENT_COLOR>Tau. Les Summulystes invoquent leurs propres Choralystes et fournissent une protection \u00e0 l'escouade."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Frappe Convergente",
+                    "description": "Faites converger trois flux d'\u00e9nergie brute sur un seul point, provoquant une explosion massive. Les flux d\u00e9truisent les Armures et les Boucliers, et chaque ennemi touch\u00e9 explose lors de la convergence des flux. Les Conculystes invoqu\u00e9s peuvent utiliser leurs propres Frappes Convergentes. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",

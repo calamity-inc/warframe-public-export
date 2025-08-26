@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Geschmiedet zur Feier des viel zu kurzen Friedens zwischen den Orokin und den Sentients, ist Caliban Prime ein wahres Meisterwerk dieser Zusammenarbeit. Der Erbe eines Zwillingsk\u00f6nigreichs erhebt sich k\u00f6niglichem Gold.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Verb\u00fcndete innerhalb der Reichweite erhalten bis zu |PCT| % Widerstand gegen die Arten von Schaden, die sie gerade erleiden.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Klingenwirbel",
+                    "description": "St\u00fcrme in einem wirbelnden Strudel des Todes nach vorne. Getroffene Feinde erleiden einen <DT_SENTIENT_COLOR>Tau-Statuseffekt, der sie anf\u00e4lliger f\u00fcr alle anderen Statuseffekte macht. F\u00fcr jeden getroffenen Feind wird ein Teil der Energiekosten, sowie Gesundheit und Schilde wiederhergestellt. Feinde, die von Sentient Zorn in die Luft gehoben werden, erleiden erh\u00f6hten Schaden."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Sentient Zorn",
+                    "description": "Schlage auf den Boden und sende eine radiale Welle der Zerst\u00f6rung aus. Feinde, die von der ersten Druckwelle nicht get\u00f6tet wurden, werden hilflos in die Luft gehoben und erleiden f\u00fcr kurze Zeit erh\u00f6hten Schaden."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "T\u00f6dlicher Nachwuchs",
+                    "description": "Wechsele durch die Sentient Einheiten, dann rufe sie an Calibans Seite. Conculysten konzentrieren sich auf Nahkampfschaden. Ortholysten sind auf Fernangriffe spezialisiert und verursachen <DT_SENTIENT_COLOR>Tau-Statuseffekte. Summulysten beschw\u00f6ren ihre eigenen Choralysten und bieten Schildschutz f\u00fcr das Team."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Fusionsschlag",
+                    "description": "B\u00fcndelt 3 Str\u00f6me roher Energie auf einen einzigen Punkt und verursacht eine massive Explosion. Die Str\u00f6me entfernen R\u00fcstung und Schilde und jeder getroffene Feind explodiert, wenn die Str\u00f6me aufeinander treffen. Beschworene Conculysten haben ihre eigenen Mini-Fusionsschl\u00e4ge."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",

@@ -8623,6 +8623,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHemocyte",
+            "name": "Pluszaki Hemocytu",
+            "description": "Przera\u017caj\u0105cy Hemocyt, teraz w formie uroczego pluszaka.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHorrasqueCommon",
             "name": "Pluszak Poczwary Pstrokatej",
             "description": "Te piszcz\u0105ce male\u0144stwa pochodz\u0105 z pasm Vallis! Zabierz je do domu ju\u017c dzi\u015b!",
@@ -8841,6 +8848,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyProtectorStalker",
+            "name": "Pluszak Stalkera Obro\u0144cy",
+            "description": "Ten markotny maluch skradnie Twoje serce, stoj\u0105c na stra\u017cy Twoich najcenniejszych skarb\u00f3w na pok\u0142adzie Orbitera.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyQuincy",
             "name": "Pluszak Quincy'ego",
             "description": "Urocza replika strzelca wyborowego Hex. Przytulaj go, ile chcesz, to nie b\u0119dzie t\u0142amsi\u0142o jego stylu.",
@@ -9020,7 +9034,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/Conquera2023CommunityDisplay",
             "name": "Wy\u015bwietlacz Spo\u0142eczno\u015bci Conquera 2023",
-            "description": "Wykonany przez spo\u0142eczno\u015b\u0107 fanart na Wy\u015bwietlacz z okazji Misji walki z rakiem. Praca stworzona przez: Maelibun.",
+            "description": "Wykonany przez spo\u0142eczno\u015b\u0107 fanart na Wy\u015bwietlacz z okazji misji walki z rakiem. Praca stworzona przez: Maelibun.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
@@ -11240,6 +11254,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Conquera2025Display",
+            "name": "Wy\u015bwietlacz Spo\u0142eczno\u015bci Conquera 2025",
+            "description": "Wy\u015bwietlacz z wizerunkiem Zephyr Conquera, Stalkera Obro\u0144cy, Ptaka-3 oraz pluszak\u00f3w Conquera, stworzony przez artyst\u0119 spo\u0142eczno\u015bci Nelosarta. ",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemAlloyDrum",
             "name": "Ozdoba: Stalowy B\u0119ben",
             "description": "Stalowy B\u0119ben, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
@@ -13377,6 +13398,13 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/OraxiaDOTDPoster",
+            "name": "Mistress of Fear Poster",
+            "description": "Nothing is so much to be feared as fear\u2026 and Oraxia.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/OrbiterPictureFrame",
@@ -16968,6 +16996,30 @@
             "description": "Systemy dla Warframe'a Xaku.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeChassisComponent",
+            "name": "Caliban Prime: Pow\u0142oka",
+            "description": "Pow\u0142oka dla Warframe'a Caliban Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeHelmetComponent",
+            "name": "Caliban Prime: Neuroptyka",
+            "description": "Neuroptyka dla Warframe'a Caliban Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeSystemsComponent",
+            "name": "Caliban Prime: Systemy",
+            "description": "Systemy dla Warframe'a Caliban Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "primeSellingPrice": 100
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisComponent",
@@ -21468,6 +21520,30 @@
             "primeSellingPrice": 100
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunBarrel",
+            "name": "Vadarya Prime: Lufa",
+            "description": "Element wytwarzania broni Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunReceiver",
+            "name": "Vadarya Prime: Korpus",
+            "description": "Element wytwarzania broni Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 45
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunStock",
+            "name": "Vadarya Prime: Kolba",
+            "description": "Element wytwarzania broni Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeNamiSkylaBlade",
             "name": "Nami Skyla Prime: Ostrze",
             "description": "Element wytwarzania broni Prime.",
@@ -22427,6 +22503,22 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VeloxPrimeReceiver",
             "name": "Velox Prime: Korpus",
+            "description": "Element wytwarzania broni Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 15
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VentoPrimeBlade",
+            "name": "Venato Prime: Ostrze",
+            "description": "Element wytwarzania broni Prime.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/VentoPrimeHandle",
+            "name": "Venato Prime: R\u0119koje\u015b\u0107",
             "description": "Element wytwarzania broni Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",

@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Sentient/CalibanPrime",
+            "name": "Caliban Prime",
+            "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+            "description": "Orokin ve Sentient aras\u0131ndaki k\u0131sa s\u00fcreli bar\u0131\u015f\u0131 kutlamak i\u00e7in yarat\u0131lan Caliban Prime, ger\u00e7ek bir i\u015f birli\u011fi \u015faheseridir. \u0130kiz krall\u0131klar\u0131n varisi, kraliyet alt\u0131nlar\u0131 i\u00e7inde y\u00fckselir.",
+            "health": 270,
+            "shield": 640,
+            "armor": 290,
+            "stamina": 3,
+            "power": 175,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "XP menzilindeki m\u00fcttefikler, o an alm\u0131\u015f olduklar\u0131 hasar t\u00fcrlerine kar\u015f\u0131 \u00fcst limiti %|PCT| olmak \u00fczere diren\u00e7 kazan\u0131r.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                    "abilityName": "Razor Gyre",
+                    "description": "\u00d6l\u00fcm\u00fcn d\u00f6nen girdab\u0131nda ileri at\u0131l. Vurulan d\u00fc\u015fmanlar <DT_SENTIENT_COLOR>Tau Stat\u00fc Etkisi ile etkilenerek di\u011fer t\u00fcm stat\u00fc etkilerine kar\u015f\u0131 daha savunmas\u0131z hale gelir. Vurulan her d\u00fc\u015fman i\u00e7in enerji maliyetinin bir k\u0131sm\u0131n\u0131, sa\u011fl\u0131k ve kalkan ile beraber geri kazan\u0131r. Sentient Wrath taraf\u0131ndan kald\u0131r\u0131lan d\u00fc\u015fmanlar daha fazla hasar al\u0131r."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                    "abilityName": "Sentient Wrath",
+                    "description": "Bir radyal y\u0131k\u0131m dalgas\u0131 g\u00f6ndermek i\u00e7in yere vur. \u0130lk patlamada sa\u011f kurtulanlar \u00e7aresizce havada as\u0131l\u0131 kal\u0131r ve k\u0131sa bir s\u00fcre boyunca daha fazla hasar al\u0131r."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                    "abilityName": "Lethal Progeny",
+                    "description": "Sentient birim t\u00fcrleri aras\u0131nda ge\u00e7i\u015f yap, sonra onlar\u0131 Caliban'\u0131n taraf\u0131na \u00e7a\u011f\u0131r. Conculyst'ler yak\u0131n d\u00f6v\u00fc\u015f hasar\u0131na odaklan\u0131r. Ortholyst'ler menzilli sald\u0131r\u0131larda etkilidir ve sald\u0131r\u0131lar\u0131 <DT_SENTIENT_COLOR>Tau Stat\u00fc Etkisi uygular. Summulyst'ler kendi Choralyst'lerini \u00e7a\u011f\u0131r\u0131r ve tak\u0131m i\u00e7in kalkan korumas\u0131 sa\u011flar."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                    "abilityName": "Fusion Strike",
+                    "description": "\u00dc\u00e7 enerji dalgas\u0131n\u0131 tek bir noktada birle\u015ftir ve b\u00fcy\u00fck bir patlamaya neden ol. Dalgalar z\u0131rh ve kalkanlar\u0131 azalt\u0131r ve vurulan her d\u00fc\u015fman dalga birle\u015fmesinde patlar. \u00c7a\u011fr\u0131lan Conculyst'ler kendi mini Fusion Strike'lar\u0131n\u0131 kullanabilirler. "
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
             "name": "Saryn Prime",
             "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",
@@ -3745,7 +3783,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "\u0130kili yan silahlarda %|SPEED| daha h\u0131zl\u0131 ate\u015f et ve tekli yan silahlarda %|RELOAD| daha h\u0131zl\u0131 \u015farj\u00f6r doldur. Yak\u0131n silahlar\u0131 kullanmad\u0131\u011f\u0131nda |HEALTH| Bonus Sa\u011fl\u0131k kazan.",
+            "passiveDescription": "\u0130kili ikincil silahlarda %|SPEED| daha h\u0131zl\u0131 ate\u015f et ve tekli ikincil silahlarda %|RELOAD| daha h\u0131zl\u0131 \u015farj\u00f6r doldur. Yak\u0131n D\u00f6v\u00fc\u015f silah\u0131 kullanmad\u0131\u011f\u0131nda |HEALTH| Bonus Sa\u011fl\u0131k kazan.",
             "exalted": [
                 "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
             ],
@@ -3786,7 +3824,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.1,
-            "passiveDescription": "\u0130kili elli yan silahlar\u0131 %|SPEED| daha h\u0131zl\u0131 ate\u015fleyin ve tek elli yan silahlar\u0131 %|RELOAD| daha h\u0131zl\u0131 doldurun. Yak\u0131n D\u00f6v\u00fc\u015f kullanmaz iken |HEALTH| can bonusu kazan.",
+            "passiveDescription": "\u0130kili ikincil silahlarda %|SPEED| daha h\u0131zl\u0131 ate\u015f et ve tekli ikincil silahlarda %|RELOAD| daha h\u0131zl\u0131 \u015farj\u00f6r doldur. Yak\u0131n D\u00f6v\u00fc\u015f silah\u0131 kullanmad\u0131\u011f\u0131nda |HEALTH| Bonus Sa\u011fl\u0131k kazan.",
             "exalted": [
                 "/Lotus/Powersuits/Cowgirl/SlingerPistols"
             ],
