@@ -57,7 +57,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/KubrowPet/KubrowPetCollarItem",
             "name": "Nai-Zhen: Coleira Kubrow",
-            "description": "Grava a mem\u00f3ria gen\u00e9tica e sequ\u00eancia de DNA de um Kubrow, permitindo ela ser reconstru\u00edda no SEGMENTO DE INCUBA\u00c7\u00c3O.",
+            "description": "Um adorno comum usado para distinguir um Kubrow que \u00e9 leal ao seu mestre.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -3339,6 +3339,13 @@
             "parentName": "/Lotus/Types/Items/FusionTreasure"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexI",
+            "name": "Escultura Ayatan Chattraka",
+            "description": "Um exemplar de rel\u00edquia Orokin sofisticada que o Cogumelo Noturno encontrou enterrada nas Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/FusionTreasure"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexJ",
             "name": "Escultura Ayatan Hemakara",
             "description": "Esta escultura cin\u00e9tica Orokin ganha vida ao ser preenchida com Estrelas Ayatan. \u00c9, tamb\u00e9m, uma fonte de Endo.",
@@ -4592,6 +4599,13 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/MushroomFood",
+            "name": "Ferg\u00f3lito",
+            "description": "Este dep\u00f3sito mineral altamente reativo \u00e9 a \u00fanica subst\u00e2ncia conhecida que faz o Pr\u00edncipe crescer.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nas Minas Profundas sob Fortuna, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Nanospores",
             "name": "Nano Esporos",
             "description": "Tumor tecn\u00f3cito fibroso. Recomenda-se cautela ao manusear tecidos Infestados.\r\n\r\nLocaliza\u00e7\u00e3o: Saturno, Netuno, \u00c9ris e Deimos.",
@@ -4660,6 +4674,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFourCreds",
             "name": "Cr\u00e9ditos da Escolha de Nora",
+            "description": "Usados para obter as Oferendas de Cr\u00e9ditos da Nightwave, os Cr\u00e9ditos dos Cap\u00edtulos anteriores podem ser mantidos como recorda\u00e7\u00f5es ou vendidos por <CREDITS>Cr\u00e9ditos normais.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFourteenCreds",
+            "name": "Cr\u00e9ditos do Mix da Nora:\r\nSonhos dos Mortos",
             "description": "Usados para obter as Oferendas de Cr\u00e9ditos da Nightwave, os Cr\u00e9ditos dos Cap\u00edtulos anteriores podem ser mantidos como recorda\u00e7\u00f5es ou vendidos por <CREDITS>Cr\u00e9ditos normais.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -5905,6 +5927,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponArchGunArcaneUnlocker",
+            "name": "ADAPTADOR DE ARCANO (ARCH-ARMA)",
+            "description": "Funde-se com uma Arch-Arma para desbloquear um dos seus dois Espa\u00e7os de Arcanos dispon\u00edveis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
             "name": "ADAPTADOR DE ARCANO (CORPO A CORPO)",
             "description": "Se funde com uma Arma Corpo a Corpo para desbloquear seu Espa\u00e7o de Arcano.",
@@ -5934,6 +5964,211 @@
             "description": "Se funde com uma arma compat\u00edvel para desbloquear o Espa\u00e7o de Mod Exilus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/BlastMushroomJournalItem",
+            "name": "Primavera-Explosiva",
+            "description": "Um cogumelo vol\u00e1til com um odor semelhante ao de explosivos rec\u00e9m-detonados. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ColdMushroomJournalItem",
+            "name": "Lan\u00e7a-do-Inverno",
+            "description": "Este cogumelo bizarro parece estar permanentemente congelado. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/CorrosiveMushroomJournalItem",
+            "name": "B\u00f3rica",
+            "description": "Este cogumelo aparenta excretar continuamente um muco altamente \u00e1cido. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ElectricMushroomJournalItem",
+            "name": "Bot\u00e3o-do-Trov\u00e3o",
+            "description": "Este fungo parece emitir uma carga el\u00e9trica. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/GasMushroomJournalItem",
+            "name": "Pel\u00facia-F\u00e9tida ",
+            "description": "Este cogumelo gasoso exala um fedor terr\u00edvel. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/HeatMushroomJournalItem",
+            "name": "Talo-de-Bolha",
+            "description": "Este cogumelo parece que sempre est\u00e1 pegando fogo. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ImpactMushroomJournalItem",
+            "name": "Cabe\u00e7a-de-Ferro",
+            "description": "Este cogumelo \u00e9 duro como uma bigorna e quase t\u00e3o pesado quanto. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/MagneticMushroomJournalItem",
+            "name": "Ferro-Fungo",
+            "description": "Um fungo de formato estranho, que gruda em objetos met\u00e1licos. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/PlainMushroomJournalItem",
+            "name": "Bot\u00e3o-Murcho",
+            "description": "Este cogumelo \u00e9 o mais simples poss\u00edvel. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/PunctureMushroomJournalItem",
+            "name": "Dente-de-Espinho",
+            "description": "Evite pisar neste cogumelo afiado em formato de lan\u00e7a. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/RadiationMushroomJournalItem",
+            "name": "Fruto-Gama",
+            "description": "Um cogumelo potencialmente radioativo. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/SlashMushroomJournalItem",
+            "name": "Cogumelo-do-Diabo",
+            "description": "Os espinhos deste cogumelo aparentam ser extremamente afiados. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/TauMushroomJournalItem",
+            "name": "Trombeta-Vomval",
+            "description": "Um cogumelo, de apar\u00eancia peculiar, que parece n\u00e3o ser deste mundo. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ToxinMushroomJournalItem",
+            "name": "Cabe\u00e7a-de-Bagre",
+            "description": "Um cogumelo, parecido com uma cobra, que deve ser manuseado com cautela. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ViralMushroomJournalItem",
+            "name": "Maldi\u00e7\u00e3o-Violeta",
+            "description": "Este cogumelo, com m\u00faltiplas cabe\u00e7as, provavelmente n\u00e3o deve ser ingerido. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/VoidMushroomJournalItem",
+            "name": "Mal-Me-Quer",
+            "description": "Um cogumelo de origem e efeitos desconhecidos. Leve-o para o Cogumelo Noturno, na c\u00e2mara de despressuriza\u00e7\u00e3o, para obter mais informa\u00e7\u00f5es.\r\n\r\nLocaliza\u00e7\u00e3o: obtido nos Contratos das Minas Profundas, em V\u00eanus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothFiveFates",
+            "name": "Cena: Cinco Destinos",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoBase",
+            "name": "Cena: Base Avan\u00e7ada das Minas Profundas",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColony",
+            "name": "Cena: Minas Profundas",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColonyEntrance",
+            "name": "Cena: Cavernas das Minas Profundas",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoLab",
+            "name": "Cena: Laborat\u00f3rio das Minas Profundas",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoPlant",
+            "name": "Cena: Planta de Nutrientes das Minas Profundas",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherDojo",
+            "name": "Cena: O Mentor (Dojo)",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherEarth",
+            "name": "Cena: O Mentor na Terra",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherReactor",
+            "name": "Cena: O Mentor (Reator)",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherShip",
+            "name": "Cena: O Mentor (Nave)",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/CinematicTiles/YareliPrimeEndPose",
+            "name": "Cena: Yareli Prime e Merulina Prime",
+            "description": "Desbloqueia esta cena para ser utilizada no Modo Captura, acessado atrav\u00e9s da aba de Apar\u00eancia do Warframe, no Arsenal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileArchives",
@@ -6313,8 +6548,8 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/Plants/MiscItems/OroFungusAPlantItem",
-            "name": "Extrato de Fungo Ceruleano",
-            "description": "Extra\u00eddo de uma col\u00f4nia de Fungo Ceruleano.",
+            "name": "Extrato de Fungo Cer\u00faleo",
+            "description": "Extra\u00eddo de uma col\u00f4nia de Fungo Cer\u00faleo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
         },
@@ -8280,6 +8515,531 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxBushA",
+            "name": "Arbusto de Duviri",
+            "description": "Um arbusto de folhas prateadas, inspirado na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFernA",
+            "name": "Samambaia de Duviri (Dourada)",
+            "description": "Uma samambaia prateada com folhas geom\u00e9tricas e tra\u00e7ados dourados, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingB",
+            "name": "Flores de Duviri (Canteiro)",
+            "description": "Um canteiro de flores roxas e amarelas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingD",
+            "name": "Flores de Duviri (Fileira)",
+            "description": "Uma fileira de flores coloridas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingE",
+            "name": "Amar\u00edlis de Duviri",
+            "description": "Um grupo de amar\u00edlis vermelhas, criadas em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingF",
+            "name": "Flores de Duviri (Samambaia)",
+            "description": "Flores dispostas com samambaias, inspiradas na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingG",
+            "name": "Samambaias de Duviri (Verdes)",
+            "description": "Samambaias verdes, inspiradas na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFoliageShrub",
+            "name": "Arbusto de Duviri",
+            "description": "Um arbusto frondoso, criado em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFractalBushA",
+            "name": "Mudas de Con\u00edferas de Duviri",
+            "description": "Um conjunto de mudas de con\u00edferas, criadas em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxMushroomsB",
+            "name": "Pol\u00edporos de Duviri",
+            "description": "Um pequeno grupo de pol\u00edporos, criado em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvArtichokesA",
+            "name": "Alcachofras de Duviri",
+            "description": "Algumas flores de alcachofra emergentes, criadas em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvTreeFractalShrubA",
+            "name": "Bonsai Casti\u00e7al de Duviri",
+            "description": "Um bonsai casti\u00e7al, criado imitando a flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxDuviriPlantSeedE",
+            "name": "Vagem de Silphsela",
+            "description": "Uma vagem de Silphsela, criada em imita\u00e7\u00e3o da flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantA",
+            "name": "Bonsai do Outono",
+            "description": "Um bonsai \u00fanico, com galhos cruzados e folhagem do outono.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantB",
+            "name": "Planta de Lan\u00e7a",
+            "description": "Uma planta pequena com folhas abertas e no formato de lan\u00e7as. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantC",
+            "name": "Planta Costela-de-Ad\u00e3o",
+            "description": "Uma planta monstera verde-clara.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantD",
+            "name": "Ma\u00e7o de Cogumelos",
+            "description": "Um ma\u00e7o de cogumelos de tamanhos variados.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantE",
+            "name": "Ma\u00e7o de Margaridas Amarelas",
+            "description": "Um ma\u00e7o de pequenas margaridas amarelas aninhadas entre as folhas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftAlienVibePlantAArrangement",
+            "name": "Planta Rho",
+            "description": "Uma planta experimental desenvolvida nos laborat\u00f3rios Corpus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftFilterPlant",
+            "name": "Flor de Filtro",
+            "description": "Uma flor branca com uma delicada estrutura em forma de orbe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestC",
+            "name": "Samambaia Grossa",
+            "description": "Uma grande samambaia com folhas largas e verde-claras, encontrada nas florestas da Terra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestD",
+            "name": "Ninho de P\u00e1ssaros (Ligeiramente Aberto)",
+            "description": "Um ninho de p\u00e1ssaros ligeiramente aberto.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantFernE",
+            "name": "Decora\u00e7\u00e3o de Samambaia Mocfi",
+            "description": "Uma pequena samambaia encontrada nas florestas da Terra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyDayGrpA",
+            "name": "Decora\u00e7\u00e3o de L\u00edrio do Drag\u00e3o Diurno",
+            "description": "Um l\u00edrio ca\u00eddo que floresce somente \u00e0 luz do dia, nativo da Terra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyNightGrpA",
+            "name": "Decora\u00e7\u00e3o de L\u00edrio do Drag\u00e3o Noturno",
+            "description": "Um delicado l\u00edrio, nativo da Terra, que floresce somente \u00e0 noite.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantRuksClawMature",
+            "name": "Decora\u00e7\u00e3o de Garra de Ruk",
+            "description": "Uma planta ouri\u00e7ada que gosta de sombra, encontrada em acampamentos Grineer, em Marte.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeMature",
+            "name": "Decora\u00e7\u00e3o de Pinha Noturna",
+            "description": "Uma semente que cai \u00e0 noite de \u00e1rvores nativas da Terra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeYoung",
+            "name": "Decora\u00e7\u00e3o de Pinha Diurna",
+            "description": "Uma semente que cai durante o dia de \u00e1rvores nativas da Terra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageMature",
+            "name": "Decora\u00e7\u00e3o de Folha de Jade Noturna",
+            "description": "Uma planta frondosa, nativa da Terra, cujas flores amarelas se abrem \u00e0 luz do luar.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageYoung",
+            "name": "Decora\u00e7\u00e3o de Folha de Jade Diurna",
+            "description": "Uma planta nativa da Terra, cujas flores amarelas se abrem \u00e0 luz do dia.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernA",
+            "name": "Samambaia Prateada",
+            "description": "Uma samambaia com folhas finas e ra\u00edzes rasteiras.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernB",
+            "name": "Samambaia (Saud\u00e1vel)",
+            "description": "Uma samambaia verde e saud\u00e1vel.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernC",
+            "name": "Samambaia (Marrom)",
+            "description": "Uma samambaia marrom adoecida.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxBoxwoodHedgeA1x1m",
+            "name": "Arbusto de Buxeiro (1m \u00d7 1m)",
+            "description": "Uma cerca viva c\u00fabica de buxeiro de 1m \u00d7 1m.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerE",
+            "name": "Flor Infestada (Singular)",
+            "description": "Uma flor infestada.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerF",
+            "name": "Flor Infestada (Par)",
+            "description": "Um par de flores infestadas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonA",
+            "name": "Planta Cr\u00f3ton (Verde - Simples)",
+            "description": "Uma planta cr\u00f3ton verde.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonB",
+            "name": "Planta Cr\u00f3ton (Verde - Ramo)",
+            "description": "Um ramo de plantas cr\u00f3ton verdes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonC",
+            "name": "Planta Cr\u00f3ton (Amarela - Simples)",
+            "description": "Uma planta cr\u00f3ton amarela.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonD",
+            "name": "Planta Cr\u00f3ton (Amarela - Ma\u00e7o)",
+            "description": "Um ma\u00e7o de plantas cr\u00f3ton amarelas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmA",
+            "name": "Palmeira (Arbusto Pequeno)",
+            "description": "Uma palmeira pequena.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmB",
+            "name": "Palmeira (Arbusto M\u00e9dio)",
+            "description": "Uma palmeira de tamanho m\u00e9dio.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusA",
+            "name": "Figueira (Simples)",
+            "description": "Uma \u00e1rvore de figueira de folhas estreitas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusB",
+            "name": "Figueira (Grupo)",
+            "description": "Um grupo de tr\u00eas \u00e1rvores de figueira de folhas estreitas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthA",
+            "name": "Hera Suspensa (Estreita)",
+            "description": "Um ma\u00e7o suspenso e estreito de hera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthE",
+            "name": "Hera Suspensa (Larga)",
+            "description": "Um ma\u00e7o suspenso e largo de hera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthF",
+            "name": "Gavinhas de Hera",
+            "description": "Gavinhas de hera trepadeira.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyC",
+            "name": "Videira de Hera",
+            "description": "Uma videira de hera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyD",
+            "name": "Tufo de Hera",
+            "description": "Um tufo de hera.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropMossGroundCoverA",
+            "name": "Decora\u00e7\u00e3o de Musgo Vestano",
+            "description": "Um musgo que se protege da luz e cresce no terreno rochoso dos asteroides.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroBushA",
+            "name": "Arbusto Fantasma (Adoecido)",
+            "description": "Um arbusto fantasma marrom adoecido.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroPorcelainBushA",
+            "name": "Arbusto Orokin (Pequeno)",
+            "description": "Um arbusto branco e sobrenatural.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageA",
+            "name": "Canas de Geisang",
+            "description": "O brilho quente das Canas de Geisang \u00e9 um conforto para os Ostrons que se aventuram nas Plan\u00edcies de Eidolon \u00e0 noite.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageC",
+            "name": "Plantas Luminosas (Densas)",
+            "description": "Uma col\u00f4nia de plantas azuis luminescentes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageD",
+            "name": "Plantas Luminosas (Esparsas)",
+            "description": "Uma col\u00f4nia esparsa de plantas azuis luminescentes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSVFoliagePurpleLarge",
+            "name": "Samambaia do Vallis",
+            "description": "Uma samambaia do Vallis das Orbes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSvCaveMushroomE",
+            "name": "Cogumelos do Vallis (Col\u00f4nia Pequena)",
+            "description": "Uma pequena col\u00f4nia de cogumelos de cabe\u00e7a larga, nativos do Vallis das Orbes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxBushA",
+            "name": "Aglomerado de Arbustos (Denso)",
+            "description": "Um aglomerado denso de arbustos. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxFlowerBouquetC",
+            "name": "Flores da Zariman",
+            "description": "Um buqu\u00ea de flores vermelhas e amarelas da Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxTreeNaturalSapling",
+            "name": "Muda de Birvul do Outono ",
+            "description": "Uma muda da \u00e1rvore Birvul. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenCobraLotus",
+            "name": "Decora\u00e7\u00e3o de Sarrac\u00eania Crepuscular",
+            "description": "Uma planta carn\u00edvora que cresce em condi\u00e7\u00f5es t\u00f3xicas, nativa de Ceres.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGardenWildGingerB",
+            "name": "Decora\u00e7\u00e3o de Folha Glacial",
+            "description": "Um arbusto frondoso, de crescimento baixo, nativo de regi\u00f5es frias.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGrassA",
+            "name": "Tufo de Grama (Baixo)",
+            "description": "Um pequeno tufo de grama.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenPitcherPlant",
+            "name": "Decora\u00e7\u00e3o de Planta-Jarro Lunar",
+            "description": "Uma planta carn\u00edvora e p\u00e1lida, nativa da Lua.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenTallGrass",
+            "name": "Tufo de Grama (Alto)",
+            "description": "Um tufo de grama alta e florida.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningCactus",
+            "name": "Decora\u00e7\u00e3o de Ueymag",
+            "description": "Uma suculenta com flores azuis brilhantes, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantAGrown",
+            "name": "Decora\u00e7\u00e3o de Kovnik",
+            "description": "Uma planta de folhas douradas, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantBGrown",
+            "name": "Decora\u00e7\u00e3o de Eevani",
+            "description": "Uma planta com folhas de formato elegante, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantCGrown",
+            "name": "Decora\u00e7\u00e3o de Broto de Connla",
+            "description": "Uma planta com folhagem azul, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantDGrown",
+            "name": "Decora\u00e7\u00e3o de Arbusto Yao",
+            "description": "Uma planta com folhas crespas da cor do crep\u00fasculo, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantEGrown",
+            "name": "Decora\u00e7\u00e3o de Silph Solar",
+            "description": "Uma planta em formato de sol, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantFGrown",
+            "name": "Decora\u00e7\u00e3o de Dracroot",
+            "description": "Uma planta com folhas vermelhas pontiagudas, inspirada na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDuvxDuviriMushroomItem2m",
+            "name": "Decora\u00e7\u00e3o de Tasoma",
+            "description": "Um cogumelo cor de carne com gavinhas rastejantes, inspirado na flora descrita nos Contos de Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropNistlebrush",
+            "name": "Decora\u00e7\u00e3o de Nistlebrush",
+            "description": "Uma planta suculenta e espinhosa com ap\u00eandices em forma de garras, nativa das Plan\u00edcies de Eidolon.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropVenusTreeFull",
+            "name": "Decora\u00e7\u00e3o de Tepa",
+            "description": "Um arbusto na cor de ferrugem com n\u00f3dulos iridescentes, nativo do Vallis das Orbes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterCommon",
             "name": "Floof: Vulpaphyla Astuto",
             "description": "Eles s\u00e3o pequenos amiguinhos que vivem na Deriva de Cambion! Traga-os para casa!",
@@ -8792,6 +9552,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyNokkoMushroom",
+            "name": "Floof: Esporo",
+            "description": "A \u00fanica coisa mais fofa que um Esporo \u00e9 um Floof de Esporo. Ainda mais fofinho que o de verdade!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOllie",
             "name": "Floof: Ollie",
             "description": "Rec\u00e9m-sa\u00eddo do fliperama, este \u00e9 o Ollie! D\u00ea ao skatista campe\u00e3o um lar na sua Orbital.",
@@ -9020,6 +9787,244 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyZekeInfested",
             "name": "Floof: Tecn\u00f3cito do Z\u00e9ca",
             "description": "O Z\u00e9ca aprontou de novo! Ele derreteu o cora\u00e7\u00e3o desta rep\u00f3rter quando disse: ''a minha garota ideal? Bom, \u00e9 algu\u00e9m que \u2013 morra \u2013 por mim'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterA",
+            "name": "Vaso (Interior - Pequeno)",
+            "description": "Um pequeno vaso de madeira.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterB",
+            "name": "Vaso (Madeira)",
+            "description": "Um vaso de madeira.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mA",
+            "name": "Vaso (Pequeno - Madeira)",
+            "description": "Um pequeno vaso de madeira.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mAFoliageA",
+            "name": "Folhagem de Vaso (Pequeno)",
+            "description": "Uma variedade de folhagens para um vaso pequeno e retangular.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox2mA",
+            "name": "Vaso (Grande - Madeira)",
+            "description": "Um grande vaso de madeira.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterCircle2mA",
+            "name": "Vaso (Pequeno - Pedra)",
+            "description": "Um pequeno vaso redondo de pedra.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingA",
+            "name": "Vaso de Flores Suspenso (Largo)",
+            "description": "Um vaso de terracota suspenso, com laterais largas e afuniladas para dentro.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageA",
+            "name": "Flores Sortidas (Vermelhas e Brancas)",
+            "description": "Um arranjo com flores brancas mais altas no centro e flores vermelhas nas bordas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageB",
+            "name": "Flores Sortidas (Azuis e Brancas)",
+            "description": "Um arranjo com flores brancas mais altas no centro e flores azuis nas bordas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingB",
+            "name": "Vaso de Flores Suspenso (Estreito)",
+            "description": "Um vaso de terracota suspenso, com laterais estreitas e afuniladas para dentro.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterRoundA",
+            "name": "Vaso (Barro)",
+            "description": "Um vaso redondo de barro.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterA",
+            "name": "Planta de Vaso (Alta - Vaso Preto)",
+            "description": "Uma planta alta com folhas estreitas em um vaso cil\u00edndrico, dourado e preto.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterB",
+            "name": "Planta de Vaso (Baixa - Vaso Branco)",
+            "description": "Uma planta baixa com folhas largas em um vaso redondo, branco e dourado.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropOroPlanterSmallNoTree",
+            "name": "Floreira de \u00c1rvore Orokin",
+            "description": "Uma caixa para plantar pequenas \u00e1rvores de design Orokin.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterClipOnLargeA",
+            "name": "Floreira da Zariman (Suspensa)",
+            "description": "Uma floreira suspensa da Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterMedC",
+            "name": "Floreira da Zariman (Elevada - Pequena)",
+            "description": "Uma floreira alta da Zariman. ",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterTroughStraight",
+            "name": "Floreira da Zariman (Reta)",
+            "description": "Uma floreira reta da Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterWallMountedA",
+            "name": "Floreira da Zariman (Montada na Parede)",
+            "description": "Uma floreira de parede da Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/EvilBaroFloatingCandlesShipDeco",
+            "name": "Velas Flutuantes de Naberus",
+            "description": "Essas luzes sinistras flutuam no ar por meios n\u00e3o percept\u00edveis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropCorpusCanister",
+            "name": "Decora\u00e7\u00e3o do Recipiente de Lama T\u00e9rmica",
+            "description": "Uma lata de lama t\u00e9rmica usada pelos Corpus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxFractalItem",
+            "name": "Decora\u00e7\u00e3o da Condensa\u00e7\u00e3o R\u00fanica",
+            "description": "Um dep\u00f3sito fractal indestrut\u00edvel de Medula R\u00fanica.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxKitchenBowlA",
+            "name": "Tigela de Cozinha",
+            "description": "Uma tigela de cozinha simples, usada em Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxLootCrateB",
+            "name": "Decora\u00e7\u00e3o da Cota de Curax",
+            "description": "Um recipiente inquebr\u00e1vel, comum em Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxRockContainerItem",
+            "name": "Decora\u00e7\u00e3o da Forma\u00e7\u00e3o de Aggri",
+            "description": "Um dep\u00f3sito fractal indestrut\u00edvel de Pedra de Aggri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDuviriProcessedItemContainer",
+            "name": "Decora\u00e7\u00e3o do Po\u00e7o de Saggen",
+            "description": "Um po\u00e7o indestrut\u00edvel com P\u00e9rolas de Saggen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropGrnGrokdrul",
+            "name": "Decora\u00e7\u00e3o do Tambor de Grokdrul",
+            "description": "Um tambor indestrut\u00edvel usado para armazenar Grokdrul.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropIradite",
+            "name": "Decora\u00e7\u00e3o da Forma\u00e7\u00e3o de Iradite",
+            "description": "Uma r\u00e9plica indestrut\u00edvel de uma forma\u00e7\u00e3o de Iradite.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxArcRelayStand",
+            "name": "Decora\u00e7\u00e3o da Reserva de Arcos-Rel\u00e9s Experimentais",
+            "description": "Uma r\u00e9plica indestrut\u00edvel de um arco-rel\u00e9 experimental.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxEfervonSampleCluster",
+            "name": "Decora\u00e7\u00e3o do Estoque de Amostra de Eferv\u00e3o",
+            "description": "Um estoque indestrut\u00edvel de amostras de Eferv\u00e3o.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxPitchweaveFragmentCluster",
+            "name": "Decora\u00e7\u00e3o do Conjunto de Lona de Holv\u00e2nia",
+            "description": "Uma pilha indestrut\u00edvel de lona.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedChitin",
+            "name": "Decora\u00e7\u00e3o do Aglomerado Proto-Infestado",
+            "description": "Uma r\u00e9plica indestrut\u00edvel de um aglomerado proto-infestado.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedMotherboard",
+            "name": "Decora\u00e7\u00e3o do Conglomerado de Placas-M\u00e3e do Tecnov\u00edrus",
+            "description": "Uma r\u00e9plica indestrut\u00edvel de um conglomerado de placas-m\u00e3e do Tecnov\u00edrus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropMITWxLootCrateA",
+            "name": "Decora\u00e7\u00e3o do Sarc\u00f3fago do Murm\u00fario",
+            "description": "Uma r\u00e9plica indestrut\u00edvel do sarc\u00f3fago do Murm\u00fario.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropOrbStone",
+            "name": "Decora\u00e7\u00e3o do Afloramento Vitrificado",
+            "description": "Uma r\u00e9plica indestrut\u00edvel de um afloramento vitrificado.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -9263,56 +10268,49 @@
             "name": "P\u00f4ster: Um Novo Futuro",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterB",
             "name": "P\u00f4ster: Unidos. Imbat\u00edveis.",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterC",
             "name": "P\u00f4ster: Cabe\u00e7a Erguida, Solaris",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterD",
             "name": "P\u00f4ster: Um Novo Mundo",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterE",
             "name": "P\u00f4ster: Ascendemos",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterF",
             "name": "P\u00f4ster: Juntos",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterG",
             "name": "P\u00f4ster: O Futuro em Suas M\u00e3os",
             "description": "Um dos diversos p\u00f4steres encontrados por Fortuna.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisWarmRareFishATrophy",
@@ -12795,6 +13793,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropNokkoBabyDrone",
+            "name": "Florescer dos Esporos",
+            "description": "Adote um dos ador\u00e1veis filhotes de esporos do Nokko para ficar pulando em sua Orbital.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropNoraNightShip",
             "name": "Decora\u00e7\u00e3o da Nave de Pouso da Nightwave",
             "description": "Enfeite a sua Orbital com esta decora\u00e7\u00e3o representando a Nave de Pouso da Nightwave.",
@@ -13041,15 +14046,15 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropSimarisOfferings",
-            "name": "Painel de Oferendas do Simaris",
-            "description": "Ca\u00e7ador, contemple as recompensas de seu trabalho na S\u00edntese. Uma decora\u00e7\u00e3o de um painel do Simaris para sua Orbital.",
+            "name": "R\u00e9plica do Painel de Oferendas do Simaris",
+            "description": "Ca\u00e7ador, contemple as recompensas de seu trabalho na S\u00edntese. Uma decora\u00e7\u00e3o de um painel inoperante do Simaris para sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropSimarisResearch",
-            "name": "Painel de Pesquisas do Simaris",
-            "description": "Atrav\u00e9s da S\u00edntese \u00e9 que descobriremos tudo, Ca\u00e7ador. Uma decora\u00e7\u00e3o de um painel do Simaris para sua Orbital.",
+            "name": "R\u00e9plica do Painel de Pesquisas do Simaris",
+            "description": "Atrav\u00e9s da S\u00edntese \u00e9 que descobriremos tudo, Ca\u00e7ador. Uma decora\u00e7\u00e3o de um painel inoperante do Simaris para sua Orbital.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13282,6 +14287,83 @@
             "description": "Um trof\u00e9u de uma pesca formid\u00e1vel.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoAPoster",
+            "name": "P\u00f4ster: Ra\u00edzes e Frutas",
+            "description": "Enfeite suas paredes com filhotes de esporos brincalh\u00f5es.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoBPoster",
+            "name": "P\u00f4ster: Mente Singular",
+            "description": "Um p\u00f4ster retratando o Nokko e sua conex\u00e3o com toda a vida.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoCPoster",
+            "name": "P\u00f4ster: Cogumelos",
+            "description": "Pendure este p\u00f4ster na sua parede para homenagear os her\u00f3is an\u00f4nimos das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterA",
+            "name": "Arte Rupestre (Ra\u00edzes Profundas)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterB",
+            "name": "Arte Rupestre (Anel de Fadas)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterC",
+            "name": "Arte Rupestre (Sussurros do Subconsciente)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterD",
+            "name": "Arte Rupestre (O Pr\u00edncipe)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterE",
+            "name": "Arte Rupestre (Labirinto de Ra\u00edzes)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterF",
+            "name": "Arte Rupestre (Mirante)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterG",
+            "name": "Arte Rupestre (Trilha da Aventura)",
+            "description": "Decore a caverna que voc\u00ea chama de lar com esta obra de arte das Minas Profundas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NoraNightBobbleHead",
@@ -13568,6 +14650,13 @@
             "description": "Uma estatueta articulada da Protea Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/QTCC2in1Display",
+            "name": "Exibidor da Fus\u00e3o Conquera 2025 (Comunidade)",
+            "description": "Um exibidor \u00fanico que celebra a Conquista na Batalha contra o C\u00e2ncer, criado pelo artista da Comunidade, Shivecu.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/RathuumEventPoster",
@@ -13930,6 +15019,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCard2025Tennotober",
+            "name": "Prex: Tennotober 2025",
+            "description": "Carta Prex do Tennotober 2025, desenvolvida por Ruiji Yuizaki.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardAsh",
             "name": "Prex: Ash",
             "description": "Avatar de Assassino",
@@ -14052,6 +15149,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardNezha",
             "name": "Prex: Nezha",
             "description": "O Clarim da Esperan\u00e7a",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardNokko",
+            "name": "Prex: Nokko",
+            "description": "Prog\u00eanito do Subconsciente",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -16163,6 +17267,15 @@
             "showInInventory": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/SongItems/WhatIsMyFateSongItem",
+            "name": "What is my fate? (Qual \u00e9 o meu destino?)",
+            "description": "M\u00fasica dos Cinco Destinos de Koumei para ouvir no Somacorde em sua Orbital.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
+            "showInInventory": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/SongItems/WhispersInTheWallLoginSongItem",
             "name": "Trilha Sonora dos Sussurros nas Paredes",
             "description": "A trilha sonora da atualiza\u00e7\u00e3o 'Sussurros nas Paredes' para ouvir no Somacorde em sua Orbital.",
@@ -16799,21 +17912,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshChassisComponent",
             "name": "Ash: Chassi",
-            "description": "O componente do Chassi do Warframe Ash.",
+            "description": "Chassi componente do Warframe Ash.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshHelmetComponent",
             "name": "Ash: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ash.",
+            "description": "Neurovisor componente do Warframe Ash.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeChassisComponent",
             "name": "Ash Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Ash Prime.",
+            "description": "Chassi componente do Warframe Ash Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -16821,7 +17934,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeHelmetComponent",
             "name": "Ash Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ash Prime.",
+            "description": "Neurovisor componente do Warframe Ash Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -16829,7 +17942,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeSystemsComponent",
             "name": "Ash Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ash Prime.",
+            "description": "Sistemas componentes do Warframe Ash Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -16837,14 +17950,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshSystemsComponent",
             "name": "Ash: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ash.",
+            "description": "Sistemas componentes do Warframe Ash.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AtlasPrimeChassisComponent",
             "name": "Atlas Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Atlas Prime.",
+            "description": "Chassi componente do Warframe Atlas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -16852,7 +17965,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AtlasPrimeHelmetComponent",
             "name": "Atlas Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Atlas Prime.",
+            "description": "Neurovisor componente do Warframe Atlas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -16860,7 +17973,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AtlasPrimeSystemsComponent",
             "name": "Atlas Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Atlas Prime.",
+            "description": "Sistemas componentes do Warframe Atlas Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -16868,21 +17981,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeChassisComponent",
             "name": "Banshee: Chassi",
-            "description": "O componente do Chassi do Warframe Banshee.",
+            "description": "Chassi componente do Warframe Banshee.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeHelmetComponent",
             "name": "Banshee: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Banshee.",
+            "description": "Neurovisor componente do Warframe Banshee.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeChassisComponent",
             "name": "Banshee Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Banshee Prime.",
+            "description": "Chassi componente do Warframe Banshee Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -16890,7 +18003,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeHelmetComponent",
             "name": "Banshee Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Banshee Prime.",
+            "description": "Neurovisor componente do Warframe Banshee Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -16898,7 +18011,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeSystemsComponent",
             "name": "Banshee Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Banshee Prime.",
+            "description": "Sistemas componentes do Warframe Banshee Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -16906,14 +18019,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeSystemsComponent",
             "name": "Banshee: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Banshee.",
+            "description": "Sistemas componentes do Warframe Banshee.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BaruukPrimeChassisComponent",
             "name": "Baruuk Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Baruuk Prime.",
+            "description": "Chassi componente do Warframe Baruuk Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -16921,7 +18034,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BaruukPrimeHelmetComponent",
             "name": "Baruuk Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Baruuk Prime.",
+            "description": "Neurovisor componente do Warframe Baruuk Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -16929,7 +18042,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BaruukPrimeSystemsComponent",
             "name": "Baruuk Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Baruuk Prime.",
+            "description": "Sistemas componentes do Warframe Baruuk Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -16937,70 +18050,70 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerChassisComponent",
             "name": "Valkyr: Chassi",
-            "description": "O componente do Chassi do Warframe Valkyr.",
+            "description": "Chassi componente do Warframe Valkyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerHelmetComponent",
             "name": "Valkyr: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Valkyr.",
+            "description": "Neurovisor componente do Warframe Valkyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerSystemsComponent",
             "name": "Valkyr: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Valkyr.",
+            "description": "Sistemas componentes do Warframe Valkyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerChassisComponent",
             "name": "Atlas: Chassi",
-            "description": "O componente do Chassi do Warframe Atlas.",
+            "description": "Chassi componente do Warframe Atlas.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerHelmetComponent",
             "name": "Atlas: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Atlas.",
+            "description": "Neurovisor componente do Warframe Atlas.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerSystemsComponent",
             "name": "Atlas: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Atlas.",
+            "description": "Sistemas componentes do Warframe Atlas.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrokenFrameChassisComponent",
             "name": "Xaku: Chassi",
-            "description": "O componente do Chassi do Warframe Xaku.",
+            "description": "Chassi componente do Warframe Xaku.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrokenFrameHelmetComponent",
             "name": "Xaku: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Xaku.",
+            "description": "Neurovisor componente do Warframe Xaku.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrokenFrameSystemsComponent",
             "name": "Xaku: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Xaku.",
+            "description": "Sistemas componentes do Warframe Xaku.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeChassisComponent",
             "name": "Caliban Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Caliban Prime.",
+            "description": "Chassi componente do Warframe Caliban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17008,7 +18121,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeHelmetComponent",
             "name": "Caliban Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Caliban Prime.",
+            "description": "Neurovisor componente do Warframe Caliban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17016,7 +18129,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeSystemsComponent",
             "name": "Caliban Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Caliban Prime.",
+            "description": "Sistemas componentes do Warframe Caliban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17066,21 +18179,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaChassisComponent",
             "name": "Chroma: Chassi",
-            "description": "O componente do Chassi do Warframe Chroma.",
+            "description": "Chassi componente do Warframe Chroma.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaHelmetComponent",
             "name": "Chroma: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Chroma.",
+            "description": "Neurovisor componente do Warframe Chroma.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeChassisComponent",
             "name": "Chroma Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Chroma Prime.",
+            "description": "Chassi componente do Warframe Chroma Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 25
@@ -17088,7 +18201,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeHelmetComponent",
             "name": "Chroma Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Chroma Prime.",
+            "description": "Neurovisor componente do Warframe Chroma Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17096,7 +18209,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeSystemsComponent",
             "name": "Chroma Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Chroma Prime.",
+            "description": "Sistemas componentes do Warframe Chroma Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -17104,7 +18217,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaSystemsComponent",
             "name": "Chroma: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Chroma.",
+            "description": "Sistemas componentes do Warframe Chroma.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -17174,21 +18287,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberChassisComponent",
             "name": "Ember: Chassi",
-            "description": "O componente do Chassi do Warframe Ember.",
+            "description": "Chassi componente do Warframe Ember.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberHelmetComponent",
             "name": "Ember: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ember.",
+            "description": "Neurovisor componente do Warframe Ember.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeChassisComponent",
             "name": "Ember Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Ember Prime.",
+            "description": "Chassi componente do Warframe Ember Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17196,7 +18309,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeHelmetComponent",
             "name": "Ember Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ember Prime.",
+            "description": "Neurovisor componente do Warframe Ember Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17204,7 +18317,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeSystemsComponent",
             "name": "Ember Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ember Prime.",
+            "description": "Sistemas componentes do Warframe Ember Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17212,14 +18325,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberSystemsComponent",
             "name": "Ember: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ember.",
+            "description": "Sistemas componentes do Warframe Ember.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EquinoxPrimeChassisComponent",
             "name": "Equinox Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Equinox Prime",
+            "description": "Chassi componente do Warframe Equinox Prime",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17227,7 +18340,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EquinoxPrimeHelmetComponent",
             "name": "Equinox Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Equinox Prime.",
+            "description": "Neurovisor componente do Warframe Equinox Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17243,63 +18356,63 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburChassisComponent",
             "name": "Excalibur: Chassi",
-            "description": "O componente do Chassi do Warframe Excalibur.",
+            "description": "Chassi componente do Warframe Excalibur.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburHelmetComponent",
             "name": "Excalibur: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Excalibur.",
+            "description": "Neurovisor componente do Warframe Excalibur.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburSystemsComponent",
             "name": "Excalibur: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Excalibur.",
+            "description": "Sistemas componentes do Warframe Excalibur.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FairyChassisComponent",
             "name": "Titania: Chassi",
-            "description": "O componente do Chassi do Warframe Titania.",
+            "description": "Chassi componente do Warframe Titania.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FairyHelmetComponent",
             "name": "Titania: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Titania.",
+            "description": "Neurovisor componente do Warframe Titania.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FairySystemsComponent",
             "name": "Titania: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Titania.",
+            "description": "Sistemas componentes do Warframe Titania.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostChassisComponent",
             "name": "Frost: Chassi",
-            "description": "O componente do Chassi do Warframe Frost.",
+            "description": "Chassi componente do Warframe Frost.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostHelmetComponent",
             "name": "Frost: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Frost.",
+            "description": "Neurovisor componente do Warframe Frost.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostPrimeChassisComponent",
             "name": "Frost Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Frost Prime.",
+            "description": "Chassi componente do Warframe Frost Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17307,7 +18420,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostPrimeHelmetComponent",
             "name": "Frost Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Frost Prime.",
+            "description": "Neurovisor componente do Warframe Frost Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17315,7 +18428,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostPrimeSystemsComponent",
             "name": "Frost Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Frost Prime.",
+            "description": "Sistemas componentes do Warframe Frost Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17323,14 +18436,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FrostSystemsComponent",
             "name": "Frost: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Frost.",
+            "description": "Sistemas componentes do Warframe Frost.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaraPrimeChassisComponent",
             "name": "Gara Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Gara Prime.",
+            "description": "Chassi componente do Warframe Gara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17338,7 +18451,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaraPrimeHelmetComponent",
             "name": "Gara Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Gara Prime.",
+            "description": "Neurovisor componente do Warframe Gara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17346,7 +18459,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaraPrimeSystemsComponent",
             "name": "Gara Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Gara Prime.",
+            "description": "Sistemas componentes do Warframe Gara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17354,21 +18467,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaChassisComponent",
             "name": "Garuda: Chassi",
-            "description": "O componente do Chassi do Warframe Garuda.",
+            "description": "Chassi componente do Warframe Garuda.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaHelmetComponent",
             "name": "Garuda: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Garuda.",
+            "description": "Neurovisor componente do Warframe Garuda.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaPrimeChassisComponent",
             "name": "Garuda Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Garuda Prime.",
+            "description": "Chassi componente do Warframe Garuda Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17376,7 +18489,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaPrimeHelmetComponent",
             "name": "Garuda Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Garuda Prime.",
+            "description": "Neurovisor componente do Warframe Garuda Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17384,7 +18497,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaPrimeSystemsComponent",
             "name": "Garuda Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Garuda Prime.",
+            "description": "Sistemas componentes do Warframe Garuda Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -17392,7 +18505,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GarudaSystemsComponent",
             "name": "Garuda: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Garuda.",
+            "description": "Sistemas componentes do Warframe Garuda.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -17413,7 +18526,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaussPrimeChassisComponent",
             "name": "Gauss Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Gauss Prime.",
+            "description": "Chassi componente do Warframe Gauss Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17421,7 +18534,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaussPrimeHelmetComponent",
             "name": "Gauss Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Gauss Prime.",
+            "description": "Neurovisor componente do Warframe Gauss Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17429,7 +18542,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GaussPrimeSystemsComponent",
             "name": "Gauss Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Gauss Prime.",
+            "description": "Sistemas componentes do Warframe Gauss Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17465,21 +18578,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GlassChassisComponent",
             "name": "Gara: Chassi",
-            "description": "O componente do Chassi do Warframe Gara.",
+            "description": "Chassi componente do Warframe Gara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GlassHelmetComponent",
             "name": "Gara: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Gara.",
+            "description": "Neurovisor componente do Warframe Gara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GlassSystemsComponent",
             "name": "Gara: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Gara.",
+            "description": "Sistemas componentes do Warframe Gara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -17500,7 +18613,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GrendelPrimeChassisComponent",
             "name": "Grendel Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Grendel Prime.",
+            "description": "Chassi componente do Warframe Grendel Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17508,7 +18621,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GrendelPrimeHelmetComponent",
             "name": "Grendel Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Grendel Prime.",
+            "description": "Neurovisor componente do Warframe Grendel Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17516,7 +18629,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GrendelPrimeSystemsComponent",
             "name": "Grendel Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Grendel Prime.",
+            "description": "Sistemas componentes do Warframe Grendel Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17531,70 +18644,70 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GunslingerChassisComponent",
             "name": "Mesa: Chassi",
-            "description": "O componente do Chassi do Warframe Mesa.",
+            "description": "Chassi componente do Warframe Mesa.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GunslingerHelmetComponent",
             "name": "Mesa: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mesa.",
+            "description": "Neurovisor componente do Warframe Mesa.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GunslingerSystemsComponent",
             "name": "Mesa: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mesa.",
+            "description": "Sistemas componentes do Warframe Mesa.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GyreChassisComponent",
             "name": "Gyre: Chassi",
-            "description": "O componente do Chassi do Warframe Gyre.",
+            "description": "Chassi componente do Warframe Gyre.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GyreHelmetComponent",
             "name": "Gyre: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Gyre.",
+            "description": "Neurovisor componente do Warframe Gyre.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/GyreSystemsComponent",
             "name": "Gyre: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Gyre.",
+            "description": "Sistemas componentes do Warframe Gyre.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinChassisComponent",
             "name": "Mirage: Chassi",
-            "description": "O componente do Chassi do Warframe Mirage.",
+            "description": "Chassi componente do Warframe Mirage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinHelmetComponent",
             "name": "Mirage: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mirage.",
+            "description": "Neurovisor componente do Warframe Mirage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarlequinSystemsComponent",
             "name": "Mirage: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mirage.",
+            "description": "Sistemas componentes do Warframe Mirage.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarrowPrimeChassisComponent",
             "name": "Harrow Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Harrow Prime.",
+            "description": "Chassi componente do Warframe Harrow Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17602,7 +18715,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarrowPrimeHelmetComponent",
             "name": "Harrow Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Harrow Prime.",
+            "description": "Neurovisor componente do Warframe Harrow Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17610,7 +18723,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HarrowPrimeSystemsComponent",
             "name": "Harrow Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Harrow Prime.",
+            "description": "Sistemas componentes do Warframe Harrow Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17618,7 +18731,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HildrynPrimeChassisComponent",
             "name": "Hildryn Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Hildryn Prime.",
+            "description": "Chassi componente do Warframe Hildryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17626,7 +18739,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HildrynPrimeHelmetComponent",
             "name": "Hildryn Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Hildryn Prime.",
+            "description": "Neurovisor componente do Warframe Hildryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17634,7 +18747,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HildrynPrimeSystemsComponent",
             "name": "Hildryn Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Hildryn Prime.",
+            "description": "Sistemas componentes do Warframe Hildryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17642,21 +18755,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidChassisComponent",
             "name": "Hydroid: Chassi",
-            "description": "O componente do Chassi do Warframe Hydroid.",
+            "description": "Chassi componente do Warframe Hydroid.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidHelmetComponent",
             "name": "Hydroid: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Hydroid.",
+            "description": "Neurovisor componente do Warframe Hydroid.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidPrimeChassisComponent",
             "name": "Hydroid Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Hydroid Prime.",
+            "description": "Chassi componente do Warframe Hydroid Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17664,7 +18777,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidPrimeHelmetComponent",
             "name": "Hydroid Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Hydroid Prime.",
+            "description": "Neurovisor componente do Warframe Hydroid Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17672,7 +18785,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidPrimeSystemsComponent",
             "name": "Hydroid Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Hydroid Prime.",
+            "description": "Sistemas componentes do Warframe Hydroid Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17680,14 +18793,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/HydroidSystemsComponent",
             "name": "Hydroid: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Hydroid.",
+            "description": "Sistemas componentes do Warframe Hydroid.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/InarosPrimeChassisComponent",
             "name": "Inaros Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Inaros Prime.",
+            "description": "Chassi componente do Warframe Inaros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17695,7 +18808,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/InarosPrimeHelmetComponent",
             "name": "Inaros Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Inaros Prime.",
+            "description": "Neurovisor componente do Warframe Inaros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17703,7 +18816,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/InarosPrimeSystemsComponent",
             "name": "Inaros Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Inaros Prime.",
+            "description": "Sistemas componentes do Warframe Inaros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17732,7 +18845,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/IvaraPrimeChassisComponent",
             "name": "Ivara Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Ivara Prime.",
+            "description": "Chassi componente do Warframe Ivara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17740,7 +18853,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/IvaraPrimeHelmetComponent",
             "name": "Ivara Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ivara Prime.",
+            "description": "Neurovisor componente do Warframe Ivara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17748,7 +18861,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/IvaraPrimeSystemsComponent",
             "name": "Ivara Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ivara Prime.",
+            "description": "Sistemas componentes do Warframe Ivara Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17770,7 +18883,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KhoraPrimeChassisComponent",
             "name": "Khora Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Khora Prime.",
+            "description": "Chassi componente do Warframe Khora Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17778,7 +18891,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KhoraPrimeHelmetComponent",
             "name": "Khora Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Khora Prime.",
+            "description": "Neurovisor componente do Warframe Khora Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17786,7 +18899,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KhoraPrimeSystemsComponent",
             "name": "Khora Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Khora Prime.",
+            "description": "Sistemas componentes do Warframe Khora Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17801,63 +18914,63 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisComponent",
             "name": "Koumei: Chassi",
-            "description": "O componente do Chassi do Warframe Koumei.",
+            "description": "Chassi componente do Warframe Koumei.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetComponent",
             "name": "Koumei: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Koumei.",
+            "description": "Neurovisor componente do Warframe Koumei.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsComponent",
             "name": "Koumei: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Koumei.",
+            "description": "Sistemas componentes do Warframe Koumei.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LOKIChassisComponent",
             "name": "Loki: Chassi",
-            "description": "O componente do Chassi do Warframe Loki.",
+            "description": "Chassi componente do Warframe Loki.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LOKIHelmetComponent",
             "name": "Loki: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Loki.",
+            "description": "Neurovisor componente do Warframe Loki.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LOKISystemsComponent",
             "name": "Loki: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Loki.",
+            "description": "Sistemas componentes do Warframe Loki.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosChassisComponent",
             "name": "Lavos: Chassi",
-            "description": "O componente do Chassi do Warframe Lavos.",
+            "description": "Chassi componente do Warframe Lavos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosHelmetComponent",
             "name": "Lavos: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Lavos.",
+            "description": "Neurovisor componente do Warframe Lavos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeChassisComponent",
             "name": "Lavos Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Lavos Prime.",
+            "description": "Chassi componente do Warframe Lavos Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17865,7 +18978,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeHelmetComponent",
             "name": "Lavos Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Lavos Prime.",
+            "description": "Neurovisor componente do Warframe Lavos Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17873,7 +18986,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeSystemsComponent",
             "name": "Lavos Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Lavos Prime.",
+            "description": "Sistemas componentes do Warframe Lavos Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17881,14 +18994,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LavosSystemsComponent",
             "name": "Lavos: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Lavos.",
+            "description": "Sistemas componentes do Warframe Lavos.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LimboPrimeChassisComponent",
             "name": "Limbo Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Limbo Prime.",
+            "description": "Chassi componente do Warframe Limbo Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17896,7 +19009,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LimboPrimeHelmetComponent",
             "name": "Limbo Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Limbo Prime.",
+            "description": "Neurovisor componente do Warframe Limbo Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17904,7 +19017,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LimboPrimeSystemsComponent",
             "name": "Limbo Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Limbo Prime.",
+            "description": "Sistemas componentes do Warframe Limbo Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17912,7 +19025,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LokiPrimeChassisComponent",
             "name": "Loki Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Loki Prime.",
+            "description": "Chassi componente do Warframe Loki Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17920,7 +19033,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LokiPrimeHelmetComponent",
             "name": "Loki Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Loki Prime.",
+            "description": "Neurovisor componente do Warframe Loki Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17928,7 +19041,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/LokiPrimeSystemsComponent",
             "name": "Loki Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Loki Prime.",
+            "description": "Sistemas componentes do Warframe Loki Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -17936,21 +19049,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagChassisComponent",
             "name": "Mag: Chassi",
-            "description": "O componente do Chassi do Warframe Mag.",
+            "description": "Chassi componente do Warframe Mag.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagHelmetComponent",
             "name": "Mag: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mag.",
+            "description": "Neurovisor componente do Warframe Mag.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagPrimeChassisComponent",
             "name": "Mag Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Mag Prime.",
+            "description": "Chassi componente do Warframe Mag Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -17958,7 +19071,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagPrimeHelmetComponent",
             "name": "Mag Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mag Prime.",
+            "description": "Neurovisor componente do Warframe Mag Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17966,7 +19079,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagPrimeSystemsComponent",
             "name": "Mag Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mag Prime.",
+            "description": "Sistemas componentes do Warframe Mag Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -17974,35 +19087,35 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagSystemsComponent",
             "name": "Mag: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mag.",
+            "description": "Sistemas componentes do Warframe Mag.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagicianChassisComponent",
             "name": "Limbo: Chassi",
-            "description": "O componente do Chassi do Warframe Limbo.",
+            "description": "Chassi componente do Warframe Limbo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagicianHelmetComponent",
             "name": "Limbo: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Limbo.",
+            "description": "Neurovisor componente do Warframe Limbo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagicianSystemsComponent",
             "name": "Limbo: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Limbo.",
+            "description": "Sistemas componentes do Warframe Limbo.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MesaPrimeChassisComponent",
             "name": "Mesa Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Mesa Prime.",
+            "description": "Chassi componente do Warframe Mesa Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18010,7 +19123,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MesaPrimeHelmetComponent",
             "name": "Mesa Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mesa Prime.",
+            "description": "Neurovisor componente do Warframe Mesa Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18018,7 +19131,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MesaPrimeSystemsComponent",
             "name": "Mesa Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mesa Prime.",
+            "description": "Sistemas componentes do Warframe Mesa Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18026,7 +19139,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MiragePrimeChassisComponent",
             "name": "Mirage Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Mirage Prime.",
+            "description": "Chassi componente do Warframe Mirage Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18034,7 +19147,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MiragePrimeHelmetComponent",
             "name": "Mirage Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Mirage Prime.",
+            "description": "Neurovisor componente do Warframe Mirage Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18042,7 +19155,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MiragePrimeSystemsComponent",
             "name": "Mirage Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Mirage Prime.",
+            "description": "Sistemas componentes do Warframe Mirage Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18050,49 +19163,49 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MummyChassisComponent",
             "name": "Inaros: Chassi",
-            "description": "O componente do Chassi do Warframe Inaros.",
+            "description": "Chassi componente do Warframe Inaros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MummyHelmetComponent",
             "name": "Inaros: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Inaros.",
+            "description": "Neurovisor componente do Warframe Inaros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MummySystemsComponent",
             "name": "Inaros: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Inaros.",
+            "description": "Sistemas componentes do Warframe Inaros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NecroChassisComponent",
             "name": "Nekros: Chassi",
-            "description": "O componente do Chassi do Warframe Nekros.",
+            "description": "Chassi componente do Warframe Nekros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NecroHelmetComponent",
             "name": "Nekros: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nekros.",
+            "description": "Neurovisor componente do Warframe Nekros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NecroSystemsComponent",
             "name": "Nekros: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nekros.",
+            "description": "Sistemas componentes do Warframe Nekros.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NekrosPrimeChassisComponent",
             "name": "Nekros Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Nekros Prime.",
+            "description": "Chassi componente do Warframe Nekros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18100,7 +19213,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NekrosPrimeHelmetComponent",
             "name": "Nekros Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nekros Prime.",
+            "description": "Neurovisor componente do Warframe Nekros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18108,7 +19221,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NekrosPrimeSystemsComponent",
             "name": "Nekros Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nekros Prime.",
+            "description": "Sistemas componentes do Warframe Nekros Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18116,21 +19229,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaChassisComponent",
             "name": "Nezha: Chassi",
-            "description": "O componente do Chassi do Warframe Nezha.",
+            "description": "Chassi componente do Warframe Nezha.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaHelmetComponent",
             "name": "Nezha: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nezha.",
+            "description": "Neurovisor componente do Warframe Nezha.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaPrimeChassisComponent",
             "name": "Nezha Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Nezha Prime.",
+            "description": "Chassi componente do Warframe Nezha Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18138,7 +19251,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaPrimeHelmetComponent",
             "name": "Nezha Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nezha Prime.",
+            "description": "Neurovisor componente do Warframe Nezha Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18146,7 +19259,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaPrimeSystemsComponent",
             "name": "Nezha Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nezha Prime.",
+            "description": "Sistemas componentes do Warframe Nezha Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18154,28 +19267,28 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NezhaSystemsComponent",
             "name": "Nezha: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nezha.",
+            "description": "Sistemas componentes do Warframe Nezha.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusChassisComponent",
             "name": "Nidus: Chassi",
-            "description": "O componente do Chassi do Warframe Nidus.",
+            "description": "Chassi componente do Warframe Nidus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusHelmetComponent",
             "name": "Nidus: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nidus.",
+            "description": "Neurovisor componente do Warframe Nidus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusPrimeChassisComponent",
             "name": "Nidus Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Nidus Prime.",
+            "description": "Chassi componente do Warframe Nidus Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18183,7 +19296,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusPrimeHelmetComponent",
             "name": "Nidus Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nidus Prime.",
+            "description": "Neurovisor componente do Warframe Nidus Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18191,7 +19304,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusPrimeSystemsComponent",
             "name": "Nidus Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nidus Prime.",
+            "description": "Sistemas componentes do Warframe Nidus Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18199,28 +19312,52 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NidusSystemsComponent",
             "name": "Nidus: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nidus.",
+            "description": "Sistemas componentes do Warframe Nidus.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoChassisComponent",
+            "name": "Nokko: Chassi",
+            "description": "Chassi componente do Warframe Nokko.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoHelmetComponent",
+            "name": "Nokko: Neurovisor",
+            "description": "Neurovisor componente do Warframe Nokko.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoSystemsComponent",
+            "name": "Nokko: Sistemas",
+            "description": "Sistemas componentes do Warframe Nokko.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaChassisComponent",
             "name": "Nova: Chassi",
-            "description": "O componente do Chassi do Warframe Nova.",
+            "description": "Chassi componente do Warframe Nova.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaHelmetComponent",
             "name": "Nova: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nova.",
+            "description": "Neurovisor componente do Warframe Nova.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaPrimeChassisComponent",
             "name": "Nova Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Nova Prime.",
+            "description": "Chassi componente do Warframe Nova Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18228,7 +19365,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaPrimeHelmetComponent",
             "name": "Nova Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nova Prime.",
+            "description": "Neurovisor componente do Warframe Nova Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18236,7 +19373,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaPrimeSystemsComponent",
             "name": "Nova Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nova Prime.",
+            "description": "Sistemas componentes do Warframe Nova Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18244,28 +19381,28 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaSystemsComponent",
             "name": "Nova: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nova.",
+            "description": "Sistemas componentes do Warframe Nova.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxChassisComponent",
             "name": "Nyx: Chassi",
-            "description": "O componente do Chassi do Warframe Nyx.",
+            "description": "Chassi componente do Warframe Nyx.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxHelmetComponent",
             "name": "Nyx: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nyx.",
+            "description": "Neurovisor componente do Warframe Nyx.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxPrimeChassisComponent",
             "name": "Nyx Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Nyx Prime.",
+            "description": "Chassi componente do Warframe Nyx Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18273,7 +19410,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxPrimeHelmetComponent",
             "name": "Nyx Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Nyx Prime.",
+            "description": "Neurovisor componente do Warframe Nyx Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18281,7 +19418,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxPrimeSystemsComponent",
             "name": "Nyx Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nyx Prime.",
+            "description": "Sistemas componentes do Warframe Nyx Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18289,14 +19426,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NyxSystemsComponent",
             "name": "Nyx: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Nyx.",
+            "description": "Sistemas componentes do Warframe Nyx.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OberonPrimeChassisComponent",
             "name": "Oberon Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Oberon Prime.",
+            "description": "Chassi componente do Warframe Oberon Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18304,7 +19441,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OberonPrimeHelmetComponent",
             "name": "Oberon Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Oberon Prime.",
+            "description": "Neurovisor componente do Warframe Oberon Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18312,7 +19449,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OberonPrimeSystemsComponent",
             "name": "Oberon Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Oberon Prime.",
+            "description": "Sistemas componentes do Warframe Oberon Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18320,21 +19457,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaChassisComponent",
             "name": "Octavia: Chassi",
-            "description": "O componente do Chassi do Warframe Octavia.",
+            "description": "Chassi componente do Warframe Octavia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaHelmetComponent",
             "name": "Octavia: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Octavia.",
+            "description": "Neurovisor componente do Warframe Octavia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaPrimeChassisComponent",
             "name": "Octavia Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Octavia Prime.",
+            "description": "Chassi componente do Warframe Octavia Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18342,7 +19479,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaPrimeHelmetComponent",
             "name": "Octavia Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Octavia Prime.",
+            "description": "Neurovisor componente do Warframe Octavia Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18350,7 +19487,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaPrimeSystemsComponent",
             "name": "Octavia Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Octavia Prime.",
+            "description": "Sistemas componentes do Warframe Octavia Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18358,7 +19495,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaSystemsComponent",
             "name": "Octavia: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Octavia.",
+            "description": "Sistemas componentes do Warframe Octavia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18386,21 +19523,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PacifistChassisComponent",
             "name": "Baruuk: Chassi",
-            "description": "O componente do Chassi do Warframe Baruuk.",
+            "description": "Chassi componente do Warframe Baruuk.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PacifistHelmetComponent",
             "name": "Baruuk: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Baruuk.",
+            "description": "Neurovisor componente do Warframe Baruuk.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PacifistSystemsComponent",
             "name": "Baruuk: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Baruuk.",
+            "description": "Sistemas componentes do Warframe Baruuk.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18428,21 +19565,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinChassisComponent",
             "name": "Oberon: Chassi",
-            "description": "O componente do Chassi do Warframe Oberon.",
+            "description": "Chassi componente do Warframe Oberon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinHelmetComponent",
             "name": "Oberon: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Oberon.",
+            "description": "Neurovisor componente do Warframe Oberon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PaladinSystemsComponent",
             "name": "Oberon: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Oberon.",
+            "description": "Sistemas componentes do Warframe Oberon.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18470,14 +19607,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PriestChassisComponent",
             "name": "Harrow: Chassi",
-            "description": "O componente do Chassi do Warframe Harrow",
+            "description": "Chassi componente do Warframe Harrow",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/PriestHelmetComponent",
             "name": "Harrow: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Harrow",
+            "description": "Neurovisor componente do Warframe Harrow",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18491,21 +19628,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaChassisComponent",
             "name": "Protea: Chassi",
-            "description": "O componente do Chassi do Warframe Protea.",
+            "description": "Chassi componente do Warframe Protea.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaHelmetComponent",
             "name": "Protea: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Protea.",
+            "description": "Neurovisor componente do Warframe Protea.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeChassisComponent",
             "name": "Protea Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Protea Prime.",
+            "description": "Chassi componente do Warframe Protea Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18513,7 +19650,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeHelmetComponent",
             "name": "Protea Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Protea Prime.",
+            "description": "Neurovisor componente do Warframe Protea Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18521,7 +19658,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaPrimeSystemsComponent",
             "name": "Protea Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Protea Prime.",
+            "description": "Sistemas componentes do Warframe Protea Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18529,49 +19666,49 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ProteaSystemsComponent",
             "name": "Protea: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Protea.",
+            "description": "Sistemas componentes do Warframe Protea.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RangerChassisComponent",
             "name": "Ivara: Chassi",
-            "description": "O componente do Chassi do Warframe Ivara.",
+            "description": "Chassi componente do Warframe Ivara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RangerHelmetComponent",
             "name": "Ivara: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Ivara.",
+            "description": "Neurovisor componente do Warframe Ivara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RangerSystemsComponent",
             "name": "Ivara: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Ivara.",
+            "description": "Sistemas componentes do Warframe Ivara.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RevenantChassisComponent",
             "name": "Revenant: Chassi",
-            "description": "O componente do Chassi do Warframe Revenant.",
+            "description": "Chassi componente do Warframe Revenant.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RevenantHelmetComponent",
             "name": "Revenant: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Revenant.",
+            "description": "Neurovisor componente do Warframe Revenant.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RevenantPrimeChassisComponent",
             "name": "Revenant Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Revenant Prime.",
+            "description": "Chassi componente do Warframe Revenant Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18579,7 +19716,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RevenantPrimeHelmetComponent",
             "name": "Revenant Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Revenant Prime.",
+            "description": "Neurovisor componente do Warframe Revenant Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18587,7 +19724,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RevenantPrimeSystemsComponent",
             "name": "Revenant Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Revenant Prime.",
+            "description": "Sistemas componentes do Warframe Revenant Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18602,21 +19739,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoChassisComponent",
             "name": "Rhino: Chassi",
-            "description": "O componente do Chassi do Warframe Rhino.",
+            "description": "Chassi componente do Warframe Rhino.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoHelmetComponent",
             "name": "Rhino: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Rhino.",
+            "description": "Neurovisor componente do Warframe Rhino.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoPrimeChassisComponent",
             "name": "Rhino Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Rhino Prime.",
+            "description": "Chassi componente do Warframe Rhino Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18624,7 +19761,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoPrimeHelmetComponent",
             "name": "Rhino Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Rhino Prime.",
+            "description": "Neurovisor componente do Warframe Rhino Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18632,7 +19769,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoPrimeSystemsComponent",
             "name": "Rhino Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Rhino Prime.",
+            "description": "Sistemas componentes do Warframe Rhino Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18640,28 +19777,28 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/RhinoSystemsComponent",
             "name": "Rhino: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Rhino.",
+            "description": "Sistemas componentes do Warframe Rhino.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynChassisComponent",
             "name": "Saryn: Chassi",
-            "description": "O componente do Chassi do Warframe Saryn.",
+            "description": "Chassi componente do Warframe Saryn.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynHelmetComponent",
             "name": "Saryn: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Saryn.",
+            "description": "Neurovisor componente do Warframe Saryn.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynPrimeChassisComponent",
             "name": "Saryn Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Saryn Prime.",
+            "description": "Chassi componente do Warframe Saryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18669,7 +19806,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynPrimeHelmetComponent",
             "name": "Saryn Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Saryn Prime.",
+            "description": "Neurovisor componente do Warframe Saryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18677,7 +19814,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynPrimeSystemsComponent",
             "name": "Saryn Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Saryn Prime.",
+            "description": "Sistemas componentes do Warframe Saryn Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18685,35 +19822,35 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SarynSystemsComponent",
             "name": "Saryn: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Saryn.",
+            "description": "Sistemas componentes do Warframe Saryn.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SentientChassisComponent",
             "name": "Caliban: Chassi",
-            "description": "O componente do Chassi do Warframe Caliban.",
+            "description": "Chassi componente do Warframe Caliban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SentientHelmetComponent",
             "name": "Caliban: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Caliban.",
+            "description": "Neurovisor componente do Warframe Caliban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SentientSystemsComponent",
             "name": "Caliban: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Caliban.",
+            "description": "Sistemas componentes do Warframe Caliban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent",
             "name": "Sevagoth Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Sevagoth Prime.",
+            "description": "Chassi componente do Warframe Sevagoth Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18721,7 +19858,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent",
             "name": "Sevagoth Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Sevagoth Prime.",
+            "description": "Neurovisor componente do Warframe Sevagoth Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18729,7 +19866,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent",
             "name": "Sevagoth Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Sevagoth Prime.",
+            "description": "Sistemas componentes do Warframe Sevagoth Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18737,21 +19874,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisComponent",
             "name": "Styanax: Chassi",
-            "description": "O componente do Chassi do Warframe Styanax.",
+            "description": "Chassi componente do Warframe Styanax.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxHelmetComponent",
             "name": "Styanax: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Styanax.",
+            "description": "Neurovisor componente do Warframe Styanax.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxSystemsComponent",
             "name": "Styanax: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Styanax.",
+            "description": "Sistemas componentes do Warframe Styanax.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -18779,28 +19916,28 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TenguChassisComponent",
             "name": "Zephyr: Chassi",
-            "description": "O componente do Chassi do Warframe Zephyr.",
+            "description": "Chassi componente do Warframe Zephyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TenguHelmetComponent",
             "name": "Zephyr: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Zephyr.",
+            "description": "Neurovisor componente do Warframe Zephyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TenguSystemsComponent",
             "name": "Zephyr: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Zephyr.",
+            "description": "Sistemas componentes do Warframe Zephyr.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TitaniaPrimeChassisComponent",
             "name": "Titania Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Titania Prime.",
+            "description": "Chassi componente do Warframe Titania Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18808,7 +19945,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TitaniaPrimeHelmetComponent",
             "name": "Titania Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Titania Prime.",
+            "description": "Neurovisor componente do Warframe Titania Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18816,7 +19953,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TitaniaPrimeSystemsComponent",
             "name": "Titania Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Titania Prime.",
+            "description": "Sistemas componentes do Warframe Titania Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18824,42 +19961,42 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrapperChassisComponent",
             "name": "Vauban: Chassi",
-            "description": "O componente do Chassi do Warframe Vauban.",
+            "description": "Chassi componente do Warframe Vauban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrapperHelmetComponent",
             "name": "Vauban: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Vauban.",
+            "description": "Neurovisor componente do Warframe Vauban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrapperSystemsComponent",
             "name": "Vauban: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Vauban.",
+            "description": "Sistemas componentes do Warframe Vauban.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinityChassisComponent",
             "name": "Trinity: Chassi",
-            "description": "O componente do Chassi do Warframe Trinity.",
+            "description": "Chassi componente do Warframe Trinity.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinityHelmetComponent",
             "name": "Trinity: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Trinity.",
+            "description": "Neurovisor componente do Warframe Trinity.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinityPrimeChassisComponent",
             "name": "Trinity Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Trinity Prime.",
+            "description": "Chassi componente do Warframe Trinity Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18867,7 +20004,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinityPrimeHelmetComponent",
             "name": "Trinity Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Trinity Prime.",
+            "description": "Neurovisor componente do Warframe Trinity Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 25
@@ -18875,7 +20012,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinityPrimeSystemsComponent",
             "name": "Trinity Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Trinity Prime.",
+            "description": "Sistemas componentes do Warframe Trinity Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -18883,35 +20020,35 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/TrinitySystemsComponent",
             "name": "Trinity: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Trinity.",
+            "description": "Sistemas componentes do Warframe Trinity.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VOLTChassisComponent",
             "name": "Volt: Chassi",
-            "description": "O componente do Chassi do Warframe Volt.",
+            "description": "Chassi componente do Warframe Volt.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VOLTHelmetComponent",
             "name": "Volt: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Volt.",
+            "description": "Neurovisor componente do Warframe Volt.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VOLTSystemsComponent",
             "name": "Volt: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Volt.",
+            "description": "Sistemas componentes do Warframe Volt.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ValkyrPrimeChassisComponent",
             "name": "Valkyr Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Valkyr Prime.",
+            "description": "Chassi componente do Warframe Valkyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18919,7 +20056,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ValkyrPrimeHelmetComponent",
             "name": "Valkyr Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Valkyr Prime.",
+            "description": "Neurovisor componente do Warframe Valkyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18927,7 +20064,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ValkyrPrimeSystemsComponent",
             "name": "Valkyr Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Valkyr Prime.",
+            "description": "Sistemas componentes do Warframe Valkyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18935,7 +20072,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VaubanPrimeChassisComponent",
             "name": "Vauban Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Vauban Prime.",
+            "description": "Chassi componente do Warframe Vauban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 25
@@ -18943,7 +20080,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VaubanPrimeHelmetComponent",
             "name": "Vauban Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Vauban Prime.",
+            "description": "Neurovisor componente do Warframe Vauban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18951,7 +20088,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VaubanPrimeSystemsComponent",
             "name": "Vauban Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Vauban Prime.",
+            "description": "Sistemas componentes do Warframe Vauban Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -18959,7 +20096,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VoltPrimeChassisComponent",
             "name": "Volt Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Volt Prime.",
+            "description": "Chassi componente do Warframe Volt Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18967,7 +20104,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VoltPrimeHelmetComponent",
             "name": "Volt Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Volt Prime.",
+            "description": "Neurovisor componente do Warframe Volt Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 65
@@ -18975,7 +20112,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VoltPrimeSystemsComponent",
             "name": "Volt Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Volt Prime.",
+            "description": "Sistemas componentes do Warframe Volt Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -18997,7 +20134,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WispPrimeChassisComponent",
             "name": "Wisp Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Wisp Prime.",
+            "description": "Chassi componente do Warframe Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -19005,7 +20142,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WispPrimeHelmetComponent",
             "name": "Wisp Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Wisp Prime.",
+            "description": "Neurovisor componente do Warframe Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -19013,7 +20150,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WispPrimeSystemsComponent",
             "name": "Wisp Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Wisp Prime.",
+            "description": "Sistemas componentes do Warframe Wisp Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -19049,42 +20186,42 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WraithChassisComponent",
             "name": "Sevagoth: Chassi",
-            "description": "O componente do Chassi do Warframe Sevagoth.",
+            "description": "Chassi componente do Warframe Sevagoth.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WraithHelmetComponent",
             "name": "Sevagoth: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Sevagoth.",
+            "description": "Neurovisor componente do Warframe Sevagoth.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WraithSystemsComponent",
             "name": "Sevagoth: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Sevagoth.",
+            "description": "Sistemas componentes do Warframe Sevagoth.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WukongChassisComponent",
             "name": "Wukong: Chassi",
-            "description": "O componente do Chassi do Warframe Wukong.",
+            "description": "Chassi componente do Warframe Wukong.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WukongHelmetComponent",
             "name": "Wukong: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Wukong.",
+            "description": "Neurovisor componente do Warframe Wukong.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WukongPrimeChassisComponent",
             "name": "Wukong Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Wukong Prime.",
+            "description": "Chassi componente do Warframe Wukong Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 45
@@ -19092,7 +20229,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WukongPrimeHelmetComponent",
             "name": "Wukong Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Wukong Prime.",
+            "description": "Neurovisor componente do Warframe Wukong Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -19108,7 +20245,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/WukongSystemsComponent",
             "name": "Wukong: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Wukong.",
+            "description": "Sistemas componentes do Warframe Wukong.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
@@ -19139,21 +20276,21 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliChassisComponent",
             "name": "Yareli: Chassi",
-            "description": "O componente do Chassi do Warframe Yareli.",
+            "description": "Chassi componente do Warframe Yareli.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliHelmetComponent",
             "name": "Yareli: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Yareli.",
+            "description": "Neurovisor componente do Warframe Yareli.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeChassisComponent",
             "name": "Yareli Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Yareli Prime.",
+            "description": "Chassi componente do Warframe Yareli Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -19161,7 +20298,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeHelmetComponent",
             "name": "Yareli Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Yareli Prime.",
+            "description": "Neurovisor componente do Warframe Yareli Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -19169,7 +20306,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeSystemsComponent",
             "name": "Yareli Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Yareli Prime.",
+            "description": "Sistemas componentes do Warframe Yareli Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -19177,14 +20314,14 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/YareliSystemsComponent",
             "name": "Yareli: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Yareli.",
+            "description": "Sistemas componentes do Warframe Yareli.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ZephyrPrimeChassisComponent",
             "name": "Zephyr Prime: Chassi",
-            "description": "O componente do Chassi do Warframe Zephyr Prime.",
+            "description": "Chassi componente do Warframe Zephyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 25
@@ -19192,7 +20329,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ZephyrPrimeHelmetComponent",
             "name": "Zephyr Prime: Neurovisor",
-            "description": "O componente do Neurovisor do Warframe Zephyr Prime.",
+            "description": "Neurovisor componente do Warframe Zephyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 15
@@ -19200,7 +20337,7 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ZephyrPrimeSystemsComponent",
             "name": "Zephyr Prime: Sistemas",
-            "description": "O componente dos Sistemas do Warframe Zephyr Prime.",
+            "description": "Sistemas componentes do Warframe Zephyr Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
             "primeSellingPrice": 100
@@ -21073,6 +22210,30 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunBarrelItem",
+            "name": "Arbucep: Cano",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunReceiverItem",
+            "name": "Arbucep: Receptor",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunStockItem",
+            "name": "Arbucep: Coronha",
+            "description": "Um componente de fabrica\u00e7\u00e3o de armas.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OkinaPrimeBlade",

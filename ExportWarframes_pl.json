@@ -575,7 +575,7 @@
             "uniqueName": "/Lotus/Powersuits/Volt/Volt",
             "name": "Volt",
             "parentName": "/Lotus/Powersuits/Volt/VoltBaseSuit",
-            "description": "Elektryczno\u015b\u0107 przep\u0142ywa przez Volta. Jego ataki zadaj\u0105 du\u017ce obra\u017cenia. Wrogowie b\u0119d\u0105 zszokowani.",
+            "description": "Elektryczno\u015b\u0107 przep\u0142ywa przez Volta. Jego ataki zadaj\u0105 du\u017ce obra\u017cenia. Wrogowie b\u0119d\u0105 pora\u017ceni.",
             "health": 270,
             "shield": 455,
             "armor": 105,
@@ -901,7 +901,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
                     "abilityName": "Gniew \u015awiadomego",
-                    "description": "Uderz w ziemi\u0119 i wy\u015blij promienist\u0105 fal\u0119 zniszczenia. Przeciwnicy z\u0142apani przez fal\u0119 s\u0105 wyrzucani w powietrze i otrzymuj\u0105 wzmocnione obra\u017cenia przez kr\u00f3tki czas."
+                    "description": "Uderz w ziemi\u0119 i wy\u015blij promienist\u0105 fal\u0119 zniszczenia. Przeciwnicy z\u0142apani przez fal\u0119 s\u0105 wyrzucani w powietrze i otrzymuj\u0105 zwi\u0119kszone obra\u017cenia przez kr\u00f3tki czas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
@@ -939,7 +939,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
                     "abilityName": "Gniew \u015awiadomego",
-                    "description": "Uderz w ziemi\u0119 i wy\u015blij promienist\u0105 fal\u0119 zniszczenia. Przeciwnicy z\u0142apani przez fal\u0119 s\u0105 wyrzucani w powietrze i otrzymuj\u0105 wzmocnione obra\u017cenia przez kr\u00f3tki czas."
+                    "description": "Uderz w ziemi\u0119 i wy\u015blij promienist\u0105 fal\u0119 zniszczenia. Przeciwnicy z\u0142apani przez fal\u0119 s\u0105 wyrzucani w powietrze i otrzymuj\u0105 zwi\u0119kszone obra\u017cenia przez kr\u00f3tki czas."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
@@ -1614,33 +1614,33 @@
             "description": "Bro\u0144 r\u00f3wnowagi z tym monarszym stra\u017cnikiem lasu. Zawiera zmienione polaryzacje, dla wi\u0119kszych mo\u017cliwo\u015bci personalizacji.",
             "health": 365,
             "shield": 270,
-            "armor": 240,
+            "armor": 450,
             "stamina": 3,
             "power": 215,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Towarzysze uzyskuj\u0105 |HEALTH|% dodatkowego Po\u0142\u0105czenia \u017bycia, Tarczy i Pancerza od Oberona. Raz na misj\u0119 mo\u017ce natychmiastowo wskrzesi\u0107 Towarzysza.",
+            "passiveDescription": "Gdy Oberon zbierze <HEALTH>Kule \u017bycia, obdarza Szlachetnym Zaprzeczeniem siebie i swoich sojusznik\u00f3w w <AFFINITY_SHARE>Zasi\u0119gu Bieg\u0142o\u015bci, neguj\u0105c nast\u0119pne obra\u017cenia zadawane graczom. Efekt kumuluje si\u0119 do |STACKS| razy.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
                     "abilityName": "Cios",
-                    "description": "Wyrywa negatywn\u0105 energi\u0119 z wroga i przekszta\u0142ca j\u0105 w sfery energii kinetycznej. Rani sw\u00f3j cel i wrog\u00f3w trafionych przez sfery."
+                    "description": "Skupia zab\u00f3jcz\u0105 energi\u0119 wewn\u0105trz celu, zadaj\u0105c ogromne obra\u017cenia u ca\u0142kowicie usuwaj\u0105c Pancerz, Tarcze i Gard\u0119. Wrogowie w pobli\u017cu celu otrzymuj\u0105 cz\u0119\u015b\u0107 obra\u017ce\u0144."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
                     "abilityName": "Po\u015bwi\u0119cona Ziemia",
-                    "description": "Po\u015bwi\u0119ca ziemi\u0119 przed Oberonem przy pomocy ognia sprawiedliwo\u015bci. Rani wszystkich wrog\u00f3w stoj\u0105cych w p\u0142omieniach."
+                    "description": "U\u015bwi\u0119ca ziemi\u0119 wok\u00f3\u0142 Oberona, zadaj\u0105c <DT_RADIATION_COLOR> Obr. Radiacyjne w zasi\u0119gu. Sojusznicy Oberona otrzymuj\u0105 tak\u017ce odporno\u015b\u0107 na Efekty Statusu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
                     "abilityName": "Odnowienie",
-                    "description": "Uzdrawiaj\u0105ce fale energii przep\u0142ywaj\u0105 w kierunku Oberona i jego sojusznik\u00f3w regeneruj\u0105c z czasem ich Zdrowie."
+                    "description": "Tworzy ochronn\u0105 aur\u0119, kt\u00f3ra przyznaje Oberonowi i jego sojusznikom premi\u0119 Pancerza oraz regeneracji \u017bycia. Skuteczno\u015b\u0107 leczenia jest podwojona, gdy cel znajduje si\u0119 w zasi\u0119gu na Po\u015bwi\u0119conej Ziemi."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Rozliczenie",
-                    "description": "Unosi pobliskich wrog\u00f3w w powietrze, a nast\u0119pnie miota nimi o ziemi\u0119. Zabici w ten spos\u00f3b wrogowie maj\u0105 szans\u0119 wyrzuci\u0107 Kul\u0119 \u017bycia."
+                    "description": "Wznosi wrog\u00f3w w powietrze, a nast\u0119pnie ciska nimi o ziemi\u0119, usuwaj\u0105c ich Pancerz. Wrogowie obj\u0119ci t\u0105 umiej\u0119tno\u015bci\u0105 przyznaj\u0105 Oberonowi premi\u0119 Pancerza i maj\u0105 szans\u0119 utworzy\u0107 <HEALTH>Kul\u0119 \u017bycia po \u015bmierci."
                 }
             ],
             "productCategory": "Suits"
@@ -1652,33 +1652,33 @@
             "description": "Leczenie i zadawanie b\u00f3lu jest domen\u0105 Oberona. Panuje on nad przyrod\u0105, by wesprze\u0107 swoich sojusznik\u00f3w i sta\u0107 si\u0119 zmor\u0105 wrog\u00f3w.",
             "health": 365,
             "shield": 270,
-            "armor": 185,
+            "armor": 385,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Towarzysze uzyskuj\u0105 |HEALTH|% dodatkowego Po\u0142\u0105czenia \u017bycia, Tarczy i Pancerza od Oberona. Raz na misj\u0119 mo\u017ce natychmiastowo wskrzesi\u0107 Towarzysza.",
+            "passiveDescription": "Gdy Oberon zbierze <HEALTH>Kule \u017bycia, obdarza Szlachetnym Zaprzeczeniem siebie i swoich sojusznik\u00f3w w <AFFINITY_SHARE>Zasi\u0119gu Bieg\u0142o\u015bci, neguj\u0105c nast\u0119pne obra\u017cenia zadawane graczom. Efekt kumuluje si\u0119 do |STACKS| razy.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
                     "abilityName": "Cios",
-                    "description": "Wyrywa negatywn\u0105 energi\u0119 z wroga i przekszta\u0142ca j\u0105 w sfery energii kinetycznej. Rani sw\u00f3j cel i wrog\u00f3w trafionych przez sfery."
+                    "description": "Skupia zab\u00f3jcz\u0105 energi\u0119 wewn\u0105trz celu, zadaj\u0105c ogromne obra\u017cenia u ca\u0142kowicie usuwaj\u0105c Pancerz, Tarcze i Gard\u0119. Wrogowie w pobli\u017cu celu otrzymuj\u0105 cz\u0119\u015b\u0107 obra\u017ce\u0144."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
                     "abilityName": "Po\u015bwi\u0119cona Ziemia",
-                    "description": "Po\u015bwi\u0119ca ziemi\u0119 przed Oberonem przy pomocy ognia sprawiedliwo\u015bci. Rani wszystkich wrog\u00f3w stoj\u0105cych w p\u0142omieniach."
+                    "description": "U\u015bwi\u0119ca ziemi\u0119 wok\u00f3\u0142 Oberona, zadaj\u0105c <DT_RADIATION_COLOR> Obr. Radiacyjne w zasi\u0119gu. Sojusznicy Oberona otrzymuj\u0105 tak\u017ce odporno\u015b\u0107 na Efekty Statusu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
                     "abilityName": "Odnowienie",
-                    "description": "Uzdrawiaj\u0105ce fale energii przep\u0142ywaj\u0105 w kierunku Oberona i jego sojusznik\u00f3w regeneruj\u0105c z czasem ich Zdrowie."
+                    "description": "Tworzy ochronn\u0105 aur\u0119, kt\u00f3ra przyznaje Oberonowi i jego sojusznikom premi\u0119 Pancerza oraz regeneracji \u017bycia. Skuteczno\u015b\u0107 leczenia jest podwojona, gdy cel znajduje si\u0119 w zasi\u0119gu na Po\u015bwi\u0119conej Ziemi."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Rozliczenie",
-                    "description": "Unosi pobliskich wrog\u00f3w w powietrze, a nast\u0119pnie miota nimi o ziemi\u0119. Zabici w ten spos\u00f3b wrogowie maj\u0105 szans\u0119 wyrzuci\u0107 Kul\u0119 \u017bycia."
+                    "description": "Wznosi wrog\u00f3w w powietrze, a nast\u0119pnie ciska nimi o ziemi\u0119, usuwaj\u0105c ich Pancerz. Wrogowie obj\u0119ci t\u0105 umiej\u0119tno\u015bci\u0105 przyznaj\u0105 Oberonowi premi\u0119 Pancerza i maj\u0105 szans\u0119 utworzy\u0107 <HEALTH>Kul\u0119 \u017bycia po \u015bmierci."
                 }
             ],
             "productCategory": "Suits"
@@ -1719,7 +1719,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
                     "abilityName": "Werset Ostateczny",
-                    "description": "Dante musi skomponowa\u0107 dwa Wersety zanim stworzy Werset Ostateczny. \r\n\r\nTRIUMF: Dwa Wersety \u015awiat\u0142a o\u017cywiaj\u0105 sojusznik\u00f3w premi\u0105 \u017bycia i Gardy. Zabicia i Asysty regeneruj\u0105 Gard\u0119 przez kr\u00f3tki czas.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nTRAGEDIA: Dwa Wersety Mroku atakuj\u0105 wrog\u00f3w. Wszelkie Obra\u017cenia w Czasie zadawane przez Efekty Statusu <DT_SLASH_COLOR>Obr. Tn\u0105cych, <DT_FIRE_COLOR>Obr. od Ognia i <DT_POISON_COLOR>Obr. Toksycznych s\u0105 zadawane w jednym ataku.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nSTRA\u017bNIK S\u0141\u00d3W: Werset \u015awiat\u0142a, po kt\u00f3rym nast\u0119puje Werset Mroku, wspiera sojusznik\u00f3w kopiami Noctua. Kopie ksi\u0119gi powtarzaj\u0105 ataki powi\u0105zanego z nimi sojusznika. <br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nNALOT PARAGRIMM\u00d3W: Mroczny Werset, po kt\u00f3rym nast\u0119puje Werset \u015awiat\u0142a, przywo\u0142uje Nalot Paragrimm\u00f3w, kt\u00f3re atakuj\u0105 wrog\u00f3w, czyni\u0105c ich bardziej podatnymi na Efekty Statusu i ich obra\u017cenia oraz \u015bci\u0105gaj\u0105c na siebie ich uwag\u0119."
+                    "description": "Dante musi skomponowa\u0107 dwa Wersety zanim stworzy Werset Ostateczny. \r\n\r\nTRIUMF: Dwa Wersety \u015awiat\u0142a o\u017cywiaj\u0105 sojusznik\u00f3w premi\u0105 \u017bycia i Gardy. Zabicia i Asysty regeneruj\u0105 Gard\u0119 przez kr\u00f3tki czas.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nTRAGEDIA: Dwa Wersety Mroku atakuj\u0105 wrog\u00f3w. Wszelkie Obra\u017cenia w Czasie zadawane przez Efekty Statusu <DT_SLASH_COLOR> Obr. Tn\u0105cych, <DT_FIRE_COLOR> Obr. od Ognia i <DT_POISON_COLOR> Obr. od Toksyn s\u0105 zadawane w jednym ataku.<br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nSTRA\u017bNIK S\u0141\u00d3W: Werset \u015awiat\u0142a, po kt\u00f3rym nast\u0119puje Werset Mroku, wspiera sojusznik\u00f3w kopiami Noctua. Kopie ksi\u0119gi powtarzaj\u0105 ataki powi\u0105zanego z nimi sojusznika. <br>Dante musi skomponowa\u0107 dwa inne Wersety, zanim b\u0119dzie m\u00f3g\u0142 u\u017cy\u0107 tego Wersetu Ostatecznego.\r\n\r\nNALOT PARAGRIMM\u00d3W: Mroczny Werset, po kt\u00f3rym nast\u0119puje Werset \u015awiat\u0142a, przywo\u0142uje Nalot Paragrimm\u00f3w, kt\u00f3re atakuj\u0105 wrog\u00f3w, czyni\u0105c ich bardziej podatnymi na Efekty Statusu i ich obra\u017cenia oraz \u015bci\u0105gaj\u0105c na siebie ich uwag\u0119."
                 }
             ],
             "productCategory": "Suits"
@@ -1916,6 +1916,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
                     "abilityName": "Kotwica Czasowa",
                     "description": "Opuszcza Kotwic\u0119 Czasow\u0105, kt\u00f3r\u0105 Protea przyzywa po kr\u00f3tkim czasie, powoduj\u0105c czasow\u0105 implozj\u0119. Zwi\u0119kszenie obra\u017ce\u0144 implozji jest oparte na zadawaniu obra\u017ce\u0144 w terminie opuszczenia i przywo\u0142ania kotwicy. Wykorzystane zasoby podczas dzia\u0142ania mocy s\u0105 zwracane.\r\nJe\u015bli Protea straci \u017cycie podczas opuszczonej Kotwicy, moc przywr\u00f3ci j\u0105 do walki. Po czym, Protea zostaje powalona, a kotwica zniknie."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Nokko/Nokko",
+            "name": "Nokko",
+            "parentName": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+            "description": "Wskocz do akcji z Nokko! Dzi\u0119ki silnym korzeniom i gamie podst\u0119pnych grzybk\u00f3w ten m\u0142ody obro\u0144ca pobudzi ci\u0119 do dzia\u0142ania",
+            "health": 150,
+            "shield": 300,
+            "armor": 135,
+            "stamina": 3,
+            "power": 130,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.25,
+            "passiveDescription": "Kiedy Nokko otrzyma \u015bmiertelne obra\u017cenia, powraca do formy Sprodlinga, a istniej\u0105ce grzyby zaczynaj\u0105 \u015bwieci\u0107, pozwalaj\u0105c mu na wskrzeszenie si\u0119. Utworzone przez niego kule przyznaj\u0105 premi\u0119 pr\u0119dko\u015bci, ale nie lecz\u0105 go. Je\u015bli Nokko nie dotrze do grzyba przed up\u0142yni\u0119ciem czasu, automatycznie wykorzysta wskrzeszenie.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
+                    "abilityName": "Trujchawka",
+                    "description": "Rzu\u0107 grzybem, kt\u00f3ry rozpyla truj\u0105ce zarodniki, zadaj\u0105c obra\u017cenia i nak\u0142adaj\u0105c Efekt Statusu <DT_VIRAL_COLOR> Obr. Wirusowych na wrog\u00f3w w zasi\u0119gu, jednocze\u015bnie usypiaj\u0105c ich."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoPowerShroomAbility",
+                    "abilityName": "Blaskogrzyb",
+                    "description": "Przyzywa odm\u0142adzaj\u0105cego grzyba emituj\u0105cego impulsy, kt\u00f3re przyznaj\u0105 Nokko i sojusznikom w ich zasi\u0119gu <ENERGY> Energi\u0119 oraz kr\u00f3tkotrwa\u0142\u0105 premi\u0119 Si\u0142y Umiej\u0119tno\u015bci."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
+                    "abilityName": "Myceloza",
+                    "description": "Powr\u00f3\u0107 do formy Sprodlinga i tw\u00f3rz kule, kt\u00f3re lecz\u0105 Nokko i przyznaj\u0105 mu premi\u0119 pr\u0119dko\u015bci. W tej formie Nokko jest ignorowany przez wrog\u00f3w i stopniowo odzyskuje \u017bycie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoLaunchAbility",
+                    "abilityName": "Mykolot",
+                    "description": "Ci\u015bnij balistycznym grzybem, kt\u00f3ry namierza wrog\u00f3w i odbija si\u0119 od przeszk\u00f3d, wybuchaj\u0105c przy ka\u017cdym kontakcie. Zderzenie z innymi grzybami Nokko wzmacnia je, podwajaj\u0105c ich cz\u0119stotliwo\u015b\u0107 pulsowania."
                 }
             ],
             "productCategory": "Suits"
@@ -2684,7 +2722,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
                     "abilityName": "Po\u017coga",
-                    "description": "\u0141aduje i odpala niszczycielskie ogniste b\u0142yskawice."
+                    "description": "Miota niszczycielskimi \u0142adunkami elektrycznymi po na\u0142adowaniu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
@@ -2725,7 +2763,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
                     "abilityName": "Po\u017coga",
-                    "description": "\u0141aduje i odpala niszczycielskie ogniste b\u0142yskawice."
+                    "description": "Miota niszczycielskimi \u0142adunkami elektrycznymi po na\u0142adowaniu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
@@ -3964,7 +4002,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenDestructAbility",
                     "abilityName": "Rozleg\u0142y Nie-Czas",
-                    "description": "Tymczasowo zrzuca zewn\u0119trzne fragmenty Xaku w niszczycielskim wybuchu, a nast\u0119pnie wkrocz na pole bitwy w nowej, szybszej postaci szkieletu. Wrogowie zranieni od\u0142amkami staj\u0105 si\u0119 s\u0142absi od <DT_RADIANT_COLOR>Obra\u017ce\u0144 Pustki. Czas trwania innych aktywnych zdolno\u015bci Xaku zostan\u0105 zamro\u017cone w czasie trwania Rozleg\u0142y Nie-czas i wznowione po jego zako\u0144czeniu."
+                    "description": "Tymczasowo zrzuca zewn\u0119trzne fragmenty Xaku w niszczycielskim wybuchu, a nast\u0119pnie wkracza na pole bitwy w nowej, szybszej postaci szkieletu. Wrogowie zranieni od\u0142amkami staj\u0105 si\u0119 podatni na <DT_RADIANT_COLOR> Obr. Pustki. Czas trwania innych aktywnych umiej\u0119tno\u015bci Xaku zostaje zamro\u017cony w czasie trwania Rozleg\u0142ego Nie-czasu i wznowiony po jego zako\u0144czeniu."
                 }
             ],
             "productCategory": "Suits"
@@ -4002,7 +4040,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenDestructAbility",
                     "abilityName": "Rozleg\u0142y Nie-Czas",
-                    "description": "Tymczasowo zrzuca zewn\u0119trzne fragmenty Xaku w niszczycielskim wybuchu, a nast\u0119pnie wkrocz na pole bitwy w nowej, szybszej postaci szkieletu. Wrogowie zranieni od\u0142amkami staj\u0105 si\u0119 s\u0142absi od <DT_RADIANT_COLOR>Obra\u017ce\u0144 Pustki. Czas trwania innych aktywnych zdolno\u015bci Xaku zostan\u0105 zamro\u017cone w czasie trwania Rozleg\u0142y Nie-czas i wznowione po jego zako\u0144czeniu."
+                    "description": "Tymczasowo zrzuca zewn\u0119trzne fragmenty Xaku w niszczycielskim wybuchu, a nast\u0119pnie wkracza na pole bitwy w nowej, szybszej postaci szkieletu. Wrogowie zranieni od\u0142amkami staj\u0105 si\u0119 podatni na <DT_RADIANT_COLOR> Obr. Pustki. Czas trwania innych aktywnych umiej\u0119tno\u015bci Xaku zostaje zamro\u017cony w czasie trwania Rozleg\u0142ego Nie-czasu i wznowiony po jego zako\u0144czeniu."
                 }
             ],
             "productCategory": "Suits"
@@ -4607,7 +4645,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStatusAbility",
             "abilityName": "Przyspieszone Cierpienie",
-            "description": "Zadaje wszystkie obra\u017cenia Efekt\u00f3w Statusu <DT_SLASH_COLOR>Obr. Tn\u0105cych i <DT_POISON_COLOR>Obr. Toksycznych naraz."
+            "description": "Zadaje wszystkie obra\u017cenia Efekt\u00f3w Statusu <DT_SLASH_COLOR> Obr. Tn\u0105cych i <DT_POISON_COLOR> Obr. od Toksyn naraz."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthStrengthAbility",

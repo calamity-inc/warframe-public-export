@@ -57,7 +57,7 @@
         {
             "uniqueName": "/Lotus/Types/Game/KubrowPet/KubrowPetCollarItem",
             "name": "Kubrow-Halsband: Nai-Zhen",
-            "description": "Zeichnet das genetische Ged\u00e4chtnis und die DNA-Sequenz eines Kubrow auf und erlaubt, diese im Inkubator zu rekonstruieren.",
+            "description": "Eine gew\u00f6hnliche Zierde, um Kubrows zu erkennen, die ihrem Meister loyal sind.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -3339,6 +3339,13 @@
             "parentName": "/Lotus/Types/Items/FusionTreasure"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexI",
+            "name": "Ayatan-Skulptur: Chattraka",
+            "description": "Eine Art schicke Erfindung der Orokin, die Nightcap vergraben in den Tiefminen gefunden hat.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/FusionTreasure"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexJ",
             "name": "Ayatan-Skulptur: Hemakara",
             "description": "Diese kinetische Orokin Skulptur wird lebendig, wenn sie mit Ayatan-Sternen gef\u00fcllt ist. Sie k\u00f6nnte auch eine Quelle an Endo sein.",
@@ -4592,6 +4599,13 @@
             "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/MushroomFood",
+            "name": "Fergolyt",
+            "description": "Dieses hochreaktive Mineralvorkommen ist die einzige bekannte Substanz, die den Prinzen wachsen l\u00e4sst.\r\n\r\nQuelle: Die Tiefminen unter Fortuna, Venus.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/Nanospores",
             "name": "Nanosporen",
             "description": "Faseriger Technocyte-Tumor. Befallenes Gewebe ist mit Vorsicht zu behandeln.\r\n\r\nQuelle: Saturn, Neptun, Eris und Deimos.",
@@ -4660,6 +4674,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFourCreds",
             "name": "Noras Wahl-Creds",
+            "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFourteenCreds",
+            "name": "Noras Mix:\r\nTr\u00e4ume der Toten Cred",
             "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -5040,7 +5062,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriArenaVoidNether",
-            "name": "Photora-Szene: Gruftperipherie",
+            "name": "Photora-Szene: Gruftrandbereich",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri"
@@ -5905,6 +5927,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponArchGunArcaneUnlocker",
+            "name": "ARCH-GEWEHR ARKANA-ADAPTER",
+            "description": "Fusioniert mit einem Arch-Gewehr, um einen der beiden verf\u00fcgbaren Arkana-Slots freizuschalten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
             "name": "NAHKAMPF ARKANA-ADAPTER",
             "description": "Fusioniert mit einer Nahkampfwaffe, um den Arkana-Slot freizuschalten.",
@@ -5934,6 +5964,211 @@
             "description": "Verschmilzt mit einer kompatiblen Waffe und schaltet den Exilus Mod-Slot frei.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/BlastMushroomJournalItem",
+            "name": "Fr\u00fchlingspopper",
+            "description": "Ein fl\u00fcchtiger Pilz mit bei\u00dfendem Geruch, \u00e4hnlich wie frisch gez\u00fcndeter Sprengstoff. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ColdMushroomJournalItem",
+            "name": "Winterspeer",
+            "description": "Dieser bizarre Pilz scheint dauerhaft gefroren zu sein. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/CorrosiveMushroomJournalItem",
+            "name": "Borica",
+            "description": "Dieser Pilz scheint st\u00e4ndig einen stark s\u00e4urehaltigen Schleim abzusondern. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ElectricMushroomJournalItem",
+            "name": "Donnerknopf",
+            "description": "Dieser Pilz scheint eine elektrische Ladung abzugeben. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/GasMushroomJournalItem",
+            "name": "Stinkst\u00e4ubling",
+            "description": "Dieser gasige Pilz verstr\u00f6mt einen f\u00fcrchterlichen Gestank. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/HeatMushroomJournalItem",
+            "name": "Blasenstengel",
+            "description": "Dieser Pilz f\u00fchlt sich immer hei\u00df an. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ImpactMushroomJournalItem",
+            "name": "Eisenholz",
+            "description": "Dieser Pilz ist hart wie ein Amboss und fast genauso schwer. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/MagneticMushroomJournalItem",
+            "name": "Eisenpilz",
+            "description": "Ein seltsam geformter Pilz, der sich an metallischen Objekten festsetzt. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/PlainMushroomJournalItem",
+            "name": "Stumpfknopf",
+            "description": "Dieser Pilz ist so schlicht, wie er nur sein kann. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/PunctureMushroomJournalItem",
+            "name": "Dornzahn",
+            "description": "Tritt nicht auf diesen scharfen, speerartigen Pilzhut. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/RadiationMushroomJournalItem",
+            "name": "Gammabeere",
+            "description": "Ein potenziell radioaktiver Pilz. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/SlashMushroomJournalItem",
+            "name": "Teufelshut",
+            "description": "Die Stacheln dieses Pilzes scheinen extrem scharf zu sein. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/TauMushroomJournalItem",
+            "name": "Vomval-Trompete",
+            "description": "Ein seltsam aussehender Pilz, der nicht von dieser Welt zu sein scheint. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ToxinMushroomJournalItem",
+            "name": "Siffkappe",
+            "description": "Ein schlangenartiger Pilz, der mit vorsichtig gehandhabt werden sollte. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/ViralMushroomJournalItem",
+            "name": "Purpurfluch",
+            "description": "Dieser Pilz mit mehreren Kappen sollte wahrscheinlich nicht verzehrt werden. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MushroomJournal/VoidMushroomJournalItem",
+            "name": "Nichnein",
+            "description": "Ein Pilz unbekannter Herkunft oder Wirkung. Bring ihn zu Nightcap in der Luftschleuse, um weitere Informationen zu erhalten.\r\n\r\nQuelle: Tiefminen-Auftr\u00e4ge auf Venus",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothFiveFates",
+            "name": "Photora-Szene: F\u00fcnf Schicksale",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoBase",
+            "name": "Photora-Szene: Tiefminen Vordere Basis",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColony",
+            "name": "Photora-Szene: Tiefminen",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColonyEntrance",
+            "name": "Photora-Szene: Tiefminen-H\u00f6hlen",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoLab",
+            "name": "Photora-Szene: Tiefminen-Labor",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoPlant",
+            "name": "Photora-Szene: Tiefminen N\u00e4hrpflanze",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherDojo",
+            "name": "Photora-Szene: Der Lehrer (Dojo)",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherEarth",
+            "name": "Photora-Szene: Der Lehrer (Erde)",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherReactor",
+            "name": "Photora-Szene: Der Lehrer (Reaktor)",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherShip",
+            "name": "Photora-Szene: Der Lehrer (Schiff)",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/CinematicTiles/YareliPrimeEndPose",
+            "name": "Photora-Szene: Yareli und Merulina Prime",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile"
         },
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileArchives",
@@ -8280,6 +8515,531 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxBushA",
+            "name": "Silberbusch",
+            "description": "Ein gro\u00dfer Busch mit silbernen Bl\u00e4ttern, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFernA",
+            "name": "Farn (golden)",
+            "description": "Ein silberner Farn mit geometrischen Bl\u00e4ttern und Gold, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingB",
+            "name": "Blumen (Beet)",
+            "description": "Ein Fleck mit lila und gelben Blumen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingD",
+            "name": "Blumen (Reihe)",
+            "description": "Eine Reihe bunter Blumen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingE",
+            "name": "Amaryllis",
+            "description": "Ein Gruppe roter Amaryllis, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingF",
+            "name": "Blumen (Farn)",
+            "description": "Blumen, mit einem Farn arrangiert, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingG",
+            "name": "Farne (gr\u00fcn)",
+            "description": "Gr\u00fcne Farne, arrangiert, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFoliageShrub",
+            "name": "Busch",
+            "description": "Ein bl\u00e4ttriger Busch, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFractalBushA",
+            "name": "Konifere (Setzling)",
+            "description": "Eine Fl\u00e4che Koniferen-Setzlinge, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxMushroomsB",
+            "name": "Stielporlinge",
+            "description": "Eine kleine Gruppe Stielporlinge, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvArtichokesA",
+            "name": "Artischocken",
+            "description": "Einige aufkommende Artischockenbl\u00fcten, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvTreeFractalShrubA",
+            "name": "Kerzenhalterbaum (Bonsai)",
+            "description": "Eine Bonsaiversion eines Kerzenhalterbaums, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxDuviriPlantSeedE",
+            "name": "Silphsela-Samenkapsel",
+            "description": "Eine Silphsela-Samenkapsel, gestaltet nach dem Vorbild der Natur aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantA",
+            "name": "Herbstlicher Bonsai",
+            "description": "Ein einzigartiger Bonsai mit gekreuzten \u00c4sten und Herbstlaub.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantB",
+            "name": "Lanzettenpflanze",
+            "description": "Eine kleine Pflanze mit ausgebreiteten, lanzettartigen Bl\u00e4ttern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantC",
+            "name": "Fensterblatt",
+            "description": "Eine hellgr\u00fcne Fensterblattpflanze.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantD",
+            "name": "Pilzgruppe",
+            "description": "Eine Gruppe unterschiedlich gro\u00dfer Pilze.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantE",
+            "name": "Gelbe G\u00e4nsebl\u00fcmchen",
+            "description": "Eine Gruppe kleiner gelber G\u00e4nsebl\u00fcmchen, umringt von Bl\u00e4ttern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftAlienVibePlantAArrangement",
+            "name": "Rho-Pflanze",
+            "description": "Eine experimentelle Pflanze aus einem Corpus Labor.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftFilterPlant",
+            "name": "Filterblume",
+            "description": "Eine wei\u00dfe Blume mit einer zarten kugelf\u00f6rmigen Struktur.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestC",
+            "name": "Grossa-Farn",
+            "description": "Ein gro\u00dfer Farn mit breiten, hellgr\u00fcnen Bl\u00e4ttern, der in den W\u00e4ldern der Erde vorkommt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestD",
+            "name": "Vogelnest-Farn (halb ge\u00f6ffnet)",
+            "description": "Ein halb ge\u00f6ffneter Vogelnest-Farn.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantFernE",
+            "name": "Mocfi-Farn",
+            "description": "Ein kleiner Farn, der in den W\u00e4ldern der Erde beheimatet ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyDayGrpA",
+            "name": "Sonnenlicht Drachenlilie",
+            "description": "Eine h\u00e4ngende Lilie, die nur bei Tageslicht bl\u00fcht und auf der Erde heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyNightGrpA",
+            "name": "Mondlicht Drachenlilie",
+            "description": "Eine zarte, auf der Erde heimische Lilie, die nur nachts bl\u00fcht.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantRuksClawMature",
+            "name": "Ruks Klaue",
+            "description": "Eine borstige, schattenliebende Pflanze, die in den Siedlungen der Grineer auf dem Mars vorkommt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeMature",
+            "name": "Mondlicht Dreschzapfen",
+            "description": "Ein Samen, der nachts von B\u00e4umen f\u00e4llt, die auf der Erde heimisch sind.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeYoung",
+            "name": "Sonnenlicht Dreschzapfen",
+            "description": "Ein Samen, der tags\u00fcber von B\u00e4umen f\u00e4llt, die auf der Erde heimisch sind.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageMature",
+            "name": "Mondlicht Jadeblatt",
+            "description": "Eine Blattpflanze, deren gelbe Bl\u00fcten sich im Mondlicht entfalten und die auf der Erde heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageYoung",
+            "name": "Sonnenlicht Jadeblatt",
+            "description": "Eine Pflanze, deren gelbe Bl\u00fcten sich im Tageslicht aufrollen und die auf der Erde heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernA",
+            "name": "Silberner Frauenfarn",
+            "description": "Ein Farn mit d\u00fcnnen Wedeln und kriechenden Wurzeln.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernB",
+            "name": "Farn (gesund)",
+            "description": "Ein gesunder gr\u00fcner Farn.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernC",
+            "name": "Farn (Braun)",
+            "description": "Ein kr\u00e4nklicher brauner Farn.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxBoxwoodHedgeA1x1m",
+            "name": "Buchsbaum-Hecke (1x1 m)",
+            "description": "Eine 1x1 m gro\u00dfe, rechteckige Buchsbaum-Hecke.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerE",
+            "name": "Befallene Blume (einzeln)",
+            "description": "Eine einzelnde, befallene Blume.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerF",
+            "name": "Befallene Blume (Paar)",
+            "description": "Ein Paar befallener Blumen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonA",
+            "name": "Croton-Pflanze (gr\u00fcn, einzeln)",
+            "description": "Eine gr\u00fcne Croton-Pflanze.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonB",
+            "name": "Croton-Pflanze (gr\u00fcn, Gruppe)",
+            "description": "Eine Gruppe gr\u00fcner Croton-Pflanzen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonC",
+            "name": "Croton-Pflanze (gelb, einzeln)",
+            "description": "Eine gelbe Croton-Pflanze.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonD",
+            "name": "Croton-Pflanze (gelb, mehrere)",
+            "description": "Eine Gruppe gelber Croton-Pflanzen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmA",
+            "name": "Palmenstrauch (klein)",
+            "description": "Ein kleiner Palmenstrauch.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmB",
+            "name": "Palmenstrauch (mittel)",
+            "description": "Ein mittelgro\u00dfer Palmenstrauch.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusA",
+            "name": "Ficus (einzeln)",
+            "description": "Ein Ficus mit schmalen Bl\u00e4ttern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusB",
+            "name": "Ficus (Gruppe)",
+            "description": "Drei Ficus-B\u00e4ume mit schmalen Bl\u00e4ttern.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthA",
+            "name": "H\u00e4ngende Efeuranken (schmal)",
+            "description": "Eine schmale Ansammlung h\u00e4ngender Efeuranken.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthE",
+            "name": "H\u00e4ngende Efeuranken (breit)",
+            "description": "Eine breite Ansammlung h\u00e4ngender Efeuranken.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthF",
+            "name": "Efeuranken",
+            "description": "Ein paar kletternde Efeuranken.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyC",
+            "name": "Efeuranke",
+            "description": "Eine Ranke Efeu.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyD",
+            "name": "Efeuwucherung",
+            "description": "Wucherndes Efeu.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropMossGroundCoverA",
+            "name": "Vestanmoos",
+            "description": "Ein lichtscheues Moos, das auf dem felsigen Gel\u00e4nde von Asteroiden w\u00e4chst.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroBushA",
+            "name": "Geistergeb\u00fcsch (krank)",
+            "description": "Ein kr\u00e4nkliches braunes Geistergeb\u00fcsch.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroPorcelainBushA",
+            "name": "Busch (klein)",
+            "description": "Ein wei\u00dfer, \u00fcberirdischer Busch.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageA",
+            "name": "Geisang-Schilf",
+            "description": "Das warme Leuchten des Geisang-Schilfs ist ein Trost f\u00fcr Ostron, die sich nachts in die Ebenen von Eidolon wagen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageC",
+            "name": "Leuchtpflanzen (dicht)",
+            "description": "Eine dichte Ansammlung leuchtend blauer Pflanzen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageD",
+            "name": "Leuchtpflanzen (sp\u00e4rlich)",
+            "description": "Eine weitl\u00e4ufige Ansammlung leuchtend blauer Pflanzen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSVFoliagePurpleLarge",
+            "name": "Tal-Farn",
+            "description": "Ein Farn aus dem Orbis-Tal.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSvCaveMushroomE",
+            "name": "Tal-Pilze (kleine Gruppe)",
+            "description": "Eine kleine Gruppe breitk\u00f6pfiger Pilze, die im Orbis-Tal heimisch sind.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxBushA",
+            "name": "Busch (dicht)",
+            "description": "Ein dichter Busch.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxFlowerBouquetC",
+            "name": "Zariman-Blumen",
+            "description": "Ein Strau\u00df roter und gelber Blumen von der Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxTreeNaturalSapling",
+            "name": "Birvul Herbst-Setzling",
+            "description": "Ein Setzling eines Birvul-Baums.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenCobraLotus",
+            "name": "Sarracenia der D\u00e4mmerung",
+            "description": "Eine Kannenpflanze, die unter giftigen Bedingungen gedeiht und auf Ceres heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGardenWildGingerB",
+            "name": "Frostlaub",
+            "description": "Ein niedrig wachsender, blattreicher Strauch, der in kalten Regionen heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGrassA",
+            "name": "Grasb\u00fcschel (kurz)",
+            "description": "Ein kurzer Grasb\u00fcschel.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenPitcherPlant",
+            "name": "Lunarische Krugpflanze",
+            "description": "Eine blasse Krugpflanze, die auf Lua heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenTallGrass",
+            "name": "Grasb\u00fcschel (hoch)",
+            "description": "Ein Fleck mit hohen, bl\u00fchenden Grashalmen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningCactus",
+            "name": "Ueymag",
+            "description": "Eine Sukkulente mit hellblauen Bl\u00fcten, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantAGrown",
+            "name": "Kovnik",
+            "description": "Eine Pflanze mit goldenen Bl\u00e4ttern, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantBGrown",
+            "name": "Eevani",
+            "description": "Eine Pflanze mit eleganten Bl\u00e4ttern, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantCGrown",
+            "name": "Connla-Sprossen",
+            "description": "Eine Pflanze mit blauem Laub, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantDGrown",
+            "name": "Yao-Strauch",
+            "description": "Eine Pflanze mit gewellten Bl\u00e4ttern in D\u00e4mmerfarben, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantEGrown",
+            "name": "Sonnen-Silph",
+            "description": "Eine Pflanze in Sonnenform, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantFGrown",
+            "name": "Drac-Wurzel",
+            "description": "Eine Pflanze mit spitzen roten Bl\u00e4ttern, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDuvxDuviriMushroomItem2m",
+            "name": "Tasoma",
+            "description": "Ein fleischfarbener Pilz mit Ausl\u00e4ufern, entworfen, um auszusehen, wie aus den 'Geschichten aus Duviri'.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropNistlebrush",
+            "name": "Nistlebusch",
+            "description": "Eine stachelige Sukkulente mit krallenartigen Forts\u00e4tzen, die in den Ebenen von Eidolon heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plants/LisetPropVenusTreeFull",
+            "name": "Tepa",
+            "description": "Ein rostfarbener Strauch mit schillernden Kn\u00f6tchen, der im Orbis-Tal heimisch ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterCommon",
             "name": "Floof: Listiger Vulpaphyla",
             "description": "Sie sind flauschige kleine Kerlchen aus der Cambion-Drift. Nimm sie noch heute mit nach Hause!",
@@ -8792,6 +9552,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyNokkoMushroom",
+            "name": "Floof: Sporling",
+            "description": "Das Einzige, was s\u00fc\u00dfer ist als ein Sporling, ist ein Sporling-Floof. Noch kuscheliger als das Original!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOllie",
             "name": "Floof: Ollie",
             "description": "Direkt aus dem Crashkurs: Ollie! Gebt diesem Skateboard Champion auf eurem Orbiter ein Zuhause.",
@@ -9020,6 +9787,244 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyZekeInfested",
             "name": "Floof: Technocyte Zeke",
             "description": "Zeke l\u00e4sst uns wieder in Ohnmacht fallen! Er brachte das Herz dieser Reporterin zum Schmelzen, als er sagte: 'Mein ideales M\u00e4dchen? Ich m\u00f6chte einfach jemanden, der ... stirbt, in meiner Gegenwart.'",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterA",
+            "name": "Blumentopf (innen, klein)",
+            "description": "Ein kleiner, h\u00f6lzerner Blumenkasten f\u00fcr den Innenbereich.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterB",
+            "name": "Beet (Holz)",
+            "description": "Ein mit Holz vert\u00e4feltes Beet.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mA",
+            "name": "Blumenbeet (klein, Holz)",
+            "description": "Ein kleiner Blumenkasten aus Holz.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mAFoliageA",
+            "name": "Blattwerk (klein)",
+            "description": "Blattwerk f\u00fcr ein kleines, rechteckiges Beet.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox2mA",
+            "name": "Blumenkasten (gro\u00df, Holz)",
+            "description": "Ein gro\u00dfer, rechteckiger Blumenkasten aus Holz.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterCircle2mA",
+            "name": "Blumenkasten (klein, Stein)",
+            "description": "Ein kleiner, runder Blumenkasten aus Stein.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingA",
+            "name": "H\u00e4ngender Blumentopf (breit)",
+            "description": "Ein h\u00e4ngender Blumentopf aus Terrakotta mit breiten, sich nach innen verj\u00fcngenden Seiten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageA",
+            "name": "Verschiedene Blumen (rot und wei\u00df)",
+            "description": "Ein Blumenarrangement mit h\u00f6heren, wei\u00dfen Blumen in der Mitte und roten Blumen au\u00dfen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageB",
+            "name": "Verschiedene Blumen (blau und wei\u00df)",
+            "description": "Ein Blumenarrangement mit h\u00f6heren, wei\u00dfen Blumen in der Mitte und blauen Blumen au\u00dfen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingB",
+            "name": "H\u00e4ngender Blumentopf (schmal)",
+            "description": "Ein h\u00e4ngender Blumentopf aus Terrakotta mit schmalen, sich nach innen verj\u00fcngenden Seiten.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterRoundA",
+            "name": "Blumentopf (Ton)",
+            "description": "Ein runder Blumenkasten aus Ton.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterA",
+            "name": "Topfpflanze (gro\u00df, schwarzer Topf)",
+            "description": "Eine hohe Pflanze mit schmalen Bl\u00e4ttern in einem zylindrischen, schwarz-goldenen Blumentopf.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterB",
+            "name": "Topfpflanze (klein, wei\u00dfer Topf)",
+            "description": "Eine kleine Pflanze mit breiten Bl\u00e4ttern in einem runden, wei\u00df-goldenen Blumentopf.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropOroPlanterSmallNoTree",
+            "name": "Blumentopf (Baum)",
+            "description": "Ein von den Orokin entworfener Blumentopf f\u00fcr einen kleinen Baum.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterClipOnLargeA",
+            "name": "Zariman Blumenkasten (h\u00e4ngend)",
+            "description": "Ein h\u00e4ngender Blumenkasten von der Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterMedC",
+            "name": "Zariman Steilbeet (klein)",
+            "description": "Ein steiles Beet von der Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterTroughStraight",
+            "name": "Zariman Blumenkasten (gerade)",
+            "description": "Ein gerader Blumenkasten von der Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterWallMountedA",
+            "name": "Zariman Blumenkasten (Wandmontage)",
+            "description": "Ein an der Wand montierter Blumenkasten von der Zariman.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/EvilBaroFloatingCandlesShipDeco",
+            "name": "Schwebende Naberus-Kerzen",
+            "description": "Diese unheimlichen Lichter schweben einfach so in der Luft.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropCorpusCanister",
+            "name": "Thermalschlamm-Kanister",
+            "description": "Ein Thermalschlamm-Kanister, der von den Corpus benutzt wird.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxFractalItem",
+            "name": "Runen-Kompakt",
+            "description": "Eine fraktale Formation, die keine Runenmark enth\u00e4lt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxKitchenBowlA",
+            "name": "K\u00fcchensch\u00fcssel",
+            "description": "Eine einfache K\u00fcchensch\u00fcssel aus Duviri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxLootCrateB",
+            "name": "Curax-Spender",
+            "description": "Eine Art Container, die normal f\u00fcr Duviri ist.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxRockContainerItem",
+            "name": "Aggri-Formation",
+            "description": "Eine fraktale Formation von Aggri.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropDuviriProcessedItemContainer",
+            "name": "Saggen-Quelle",
+            "description": "Container mit Saggen-Perlen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropGrnGrokdrul",
+            "name": "Grokdrul-Trommel",
+            "description": "Ein Container, der Grokdrul enth\u00e4lt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropIradite",
+            "name": "Iradite-Formation",
+            "description": "Eine Kopie einer Iradite-Formation.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxArcRelayStand",
+            "name": "Reserve eines experimentellen Lichtbogen-Relais",
+            "description": "Eine Kopie eines experimentellen Lichtbogen-Relais.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxEfervonSampleCluster",
+            "name": "Efervon-Probenvorrat",
+            "description": "Ein Vorrat an Efervon-Proben.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxPitchweaveFragmentCluster",
+            "name": "H\u00f6llenvanische Pechgewebe-Planen",
+            "description": "Ein Stapel Pechgewebe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedChitin",
+            "name": "Proto-Befallener Klumpen",
+            "description": "Eine Kopie eines Proto-Befallenen Klumpens.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedMotherboard",
+            "name": "Techrot-Motherboardcluster",
+            "description": "Eine Kopie eines Techrot-Motherboardclusters.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropMITWxLootCrateA",
+            "name": "Sarkophag des Raunens",
+            "description": "Eine Kopie eines Sarkophags des Raunens.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Props/LisetPropOrbStone",
+            "name": "Verglaster Aufschluss",
+            "description": "Eine Kopie eines Verglasten Aufschlusses.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -9263,56 +10268,49 @@
             "name": "Poster: Eine neue Zukunft",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterB",
             "name": "Poster: Vereint. Unzerst\u00f6rbar.",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterC",
             "name": "Poster: Kopf hoch, Solaris",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterD",
             "name": "Poster: Eine neue Welt",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterE",
             "name": "Poster: Wir tragen alle",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterF",
             "name": "Poster: Gemeinsam",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisPosterG",
             "name": "Poster: Die Zukunft in deinen H\u00e4nden",
             "description": "Eines der vielen Poster, die in den Hallen von Fortuna gefunden werden k\u00f6nnen.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisWarmRareFishATrophy",
@@ -12795,6 +13793,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropNokkoBabyDrone",
+            "name": "Sporling",
+            "description": "Adoptiere einen entz\u00fcckenden Sporling von Nokko, damit er in deinem Orbiter herumh\u00fcpfen kann.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropNoraNightShip",
             "name": "Dekoration: Nightwave Landungsschiff",
             "description": "Schm\u00fccke deinen Orbiter mit dieser Dekoration, die das Nightwave Landungsschiff darstellt.",
@@ -13041,15 +14046,15 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropSimarisOfferings",
-            "name": "Simaris Angebot-Konsole",
-            "description": "J\u00e4ger, seht die Belohnungen f\u00fcr eure Arbeit bei der Synthese. Eine dekorative Simaris-Konsole f\u00fcr deinen Orbiter.",
+            "name": "Replika der Simaris Angebot-Konsole",
+            "description": "J\u00e4ger, seht die Belohnungen f\u00fcr eure Arbeit bei der Synthese. Eine nicht funktionelle, dekorative Simaris-Konsole f\u00fcr deinen Orbiter.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropSimarisResearch",
-            "name": "Simaris Forschung-Konsole",
-            "description": "In der Synthese k\u00f6nnen alle Dinge erfahren werden, J\u00e4ger. Eine dekorative Simaris-Konsole f\u00fcr deinen Orbiter.",
+            "name": "Replika der Simaris Forschung-Konsole",
+            "description": "In der Synthese k\u00f6nnen alle Dinge erfahren werden, J\u00e4ger. Eine nicht funktionelle, dekorative Simaris-Konsole f\u00fcr deinen Orbiter.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13284,6 +14289,83 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoAPoster",
+            "name": "Poster: Wurzeln und Fr\u00fcchte",
+            "description": "Schm\u00fccke deine W\u00e4nde mit herumtollenden Sporlingen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoBPoster",
+            "name": "Poster: Geistgleich",
+            "description": "Ein Poster, das Nokko und seine Verbindung zu allem Leben darstellt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoCPoster",
+            "name": "Poster: Shooms",
+            "description": "H\u00e4nge dieses Poster an deine Wand, um die unbesungenen Helden der Tiefminen zu ehren.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterA",
+            "name": "H\u00f6hlenkunst: Tiefe Wurzeln",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterB",
+            "name": "H\u00f6hlenkunst: Feenring",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterC",
+            "name": "H\u00f6hlenkunst: Fl\u00fcstern der lebenden H\u00f6hlen",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterD",
+            "name": "H\u00f6hlenkunst: Der Prinz",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterE",
+            "name": "H\u00f6hlenkunst: Wurzellabyrinth",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterF",
+            "name": "H\u00f6hlenkunst: Aussichtspunkt",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterG",
+            "name": "H\u00f6hlenkunst: Abenteuer-Spaziergang",
+            "description": "Dekoriere die H\u00f6hle, die du dein Zuhause nennst, mit diesem Kunstwerk aus den Tiefminen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NoraNightBobbleHead",
             "name": "Noggle-Statue: Nora Night",
             "description": "Eine kleine Wackelfigur von Nora Night.",
@@ -13401,8 +14483,8 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/OraxiaDOTDPoster",
-            "name": "Mistress of Fear Poster",
-            "description": "Nothing is so much to be feared as fear\u2026 and Oraxia.",
+            "name": "Poster: Herrin der Angst",
+            "description": "Nichts ist so sehr zu f\u00fcrchten wie die Angst selbst ... und Oraxia.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13568,6 +14650,13 @@
             "description": "Eine kleine Wackelfigur von Protea Prime.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/QTCC2in1Display",
+            "name": "Display: Conquera 2025 Fusion (Community)",
+            "description": "Eine einzigartiges Display zur Feier der Quest im Kampf gegen Krebs. Erstellt vom Community-K\u00fcnstler Shivecu.",
+            "codexSecret": true,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/RathuumEventPoster",
@@ -13930,6 +15019,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCard2025Tennotober",
+            "name": "Tennotober 2025 Prex",
+            "description": "Tennotober 2025 Prex-Karte, erstellt von Ruiji Yuizaki.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardAsh",
             "name": "Ash Prex",
             "description": "Avatar des Mordes",
@@ -14052,6 +15149,13 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardNezha",
             "name": "Nezha Prex",
             "description": "Die Kriegsfanfare der Hoffnung",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/TarotCardNokko",
+            "name": "Nokko Prex",
+            "description": "Spross der H\u00f6hlen",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -16163,6 +17267,15 @@
             "showInInventory": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/SongItems/WhatIsMyFateSongItem",
+            "name": "What Is My Fate",
+            "description": "Musik aus Koumei & die F\u00fcnf Schicksale, die im Orbiter mit Somachord abgespielt werden kann.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "excludeFromCodex": true,
+            "showInInventory": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/SongItems/WhispersInTheWallLoginSongItem",
             "name": "Anmeldemusik: Fl\u00fcstern in den W\u00e4nden",
             "description": "Die Anmeldemusik: Fl\u00fcstern in den W\u00e4nden, die im Orbiter mit Somachord abgespielt werden kann.",
@@ -18202,6 +19315,30 @@
             "description": "Systeme-Komponente f\u00fcr den Nidus Warframes.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoChassisComponent",
+            "name": "Nokko: Chassis",
+            "description": "Chassis-Komponente f\u00fcr den Nokko Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoHelmetComponent",
+            "name": "Nokko: Neuroptik",
+            "description": "Neuroptik-Komponente f\u00fcr den Nokko Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NokkoSystemsComponent",
+            "name": "Nokko: Systeme",
+            "description": "Systeme-Komponente f\u00fcr den Nokko Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/NovaChassisComponent",
@@ -21073,6 +22210,30 @@
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
             "primeSellingPrice": 100
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunBarrelItem",
+            "name": "Arbucep: Lauf",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunReceiverItem",
+            "name": "Arbucep: Geh\u00e4use",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunStockItem",
+            "name": "Arbucep: Schaft",
+            "description": "Eine Komponente f\u00fcr die Herstellung von Waffen.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+            "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OkinaPrimeBlade",

@@ -1614,33 +1614,33 @@
             "description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
             "health": 365,
             "shield": 270,
-            "armor": 240,
+            "armor": 450,
             "stamina": 3,
             "power": 215,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
+            "passiveDescription": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to |STACKS| times.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
                     "abilityName": "Smite",
-                    "description": "Focuses deadly energy within a target and then projects it outwards, damaging both the target and surrounding enemies."
+                    "description": "Focuses deadly energy within a target, dealing massive damage and removing all of its defenses, including Overguard. Enemies near the target also take a portion of the damage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
                     "abilityName": "Hallowed Ground",
-                    "description": "Sanctifies the ground before Oberon with righteous fire, inflicting damage to any enemy that stands in the flames."
+                    "description": "Sanctifies the ground around Oberon, inflicting <DT_RADIATION_COLOR>Radiation Damage to all enemies within the radius. Also grants protection against Status Effects for Oberon and his allies."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
                     "abilityName": "Renewal",
-                    "description": "Healing waves of energy flow outward from Oberon to his allies, regenerating Health over time."
+                    "description": "Generates a protective aura that grants bonus Armor to Oberon and his allies and restores allies\u2019 Health over time. Healing is doubled while within the radius of Hallowed Ground."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Reckoning",
-                    "description": "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Orb."
+                    "description": "Lifts enemies into the air and then hurls them down with conviction, removing their Armor. Enemies hit by this ability will grant Oberon additional Armor and have a chance to spawn a <HEALTH>Health Orb when they die."
                 }
             ],
             "productCategory": "Suits"
@@ -1652,33 +1652,33 @@
             "description": "Healing and suffering do Oberon\u2019s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
             "health": 365,
             "shield": 270,
-            "armor": 185,
+            "armor": 385,
             "stamina": 3,
             "power": 175,
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Allied Companions receive |HEALTH|% Health-link, Armor-link and Shield-link from Oberon. In addition, your Companion receives an instant revive per mission.",
+            "passiveDescription": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to |STACKS| times.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
                     "abilityName": "Smite",
-                    "description": "Focuses deadly energy within a target and then projects it outwards, damaging both the target and surrounding enemies."
+                    "description": "Focuses deadly energy within a target, dealing massive damage and removing all of its defenses, including Overguard. Enemies near the target also take a portion of the damage."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
                     "abilityName": "Hallowed Ground",
-                    "description": "Sanctifies the ground before Oberon with righteous fire, inflicting damage to any enemy that stands in the flames."
+                    "description": "Sanctifies the ground around Oberon, inflicting <DT_RADIATION_COLOR>Radiation Damage to all enemies within the radius. Also grants protection against Status Effects for Oberon and his allies."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
                     "abilityName": "Renewal",
-                    "description": "Healing waves of energy flow outward from Oberon to his allies, regenerating Health over time."
+                    "description": "Generates a protective aura that grants bonus Armor to Oberon and his allies and restores allies\u2019 Health over time. Healing is doubled while within the radius of Hallowed Ground."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
                     "abilityName": "Reckoning",
-                    "description": "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Orb."
+                    "description": "Lifts enemies into the air and then hurls them down with conviction, removing their Armor. Enemies hit by this ability will grant Oberon additional Armor and have a chance to spawn a <HEALTH>Health Orb when they die."
                 }
             ],
             "productCategory": "Suits"
@@ -1916,6 +1916,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
                     "abilityName": "Temporal Anchor",
                     "description": "Drops a Temporal Anchor which, after a short duration, Protea rewinds to trigger a temporal implosion. Implosion damage increases based on damage dealt between anchor drop and rewind. Everything lost or expended in that time is returned.\r\nDying while Anchor is active rewinds Protea to the anchor, saving her. Protea is knocked down and the anchor vanishes."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Nokko/Nokko",
+            "name": "Nokko",
+            "parentName": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+            "description": "Spring into action with Nokko! With his strong roots and an array of tricky fungi this young defender will quickly grow on you",
+            "health": 150,
+            "shield": 300,
+            "armor": 135,
+            "stamina": 3,
+            "power": 130,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.25,
+            "passiveDescription": "Upon receiving fatal damage, Nokko reverts to his Sprodling form and his active mushrooms will glow, reviving Nokko when touched. Orbs spawned will grant a speed boost but not healing. If a glowing mushroom is not reached in time, Nokko will automatically use a self-revive.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
+                    "abilityName": "Stinkbrain",
+                    "description": "Throw a mushroom that periodically sheds poisonous spores, inflicting <DT_VIRAL_COLOR> Viral Damage and Status Effect upon nearby enemies while also lulling them to sleep."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoPowerShroomAbility",
+                    "abilityName": "Brightbonnet",
+                    "description": "Release a rejuvenating mushroom that emits a radial pulse, giving Nokko and his allies\u2019 <ENERGY> Energy and applying a buff to Ability Strength that lasts for a short time."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
+                    "abilityName": "Reroot",
+                    "description": "Revert to Sprodling form, spawning orbs that heal Nokko and grant a speed boost. While in this state, Nokko is untargetable and heals gradually."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoLaunchAbility",
+                    "abilityName": "Sporespring",
+                    "description": "Unleash a chaotic ballistic mushroom that seeks enemies and bounces explosively off whatever it touches. Contact with any of Nokko\u2019s mushrooms invigorates them, doubling their pulse rate."
                 }
             ],
             "productCategory": "Suits"
@@ -2684,7 +2722,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
                     "abilityName": "Balefire",
-                    "description": "Charge and launch devastating bolts of fire."
+                    "description": "Charge and launch devastating bolts of electricity."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
@@ -2725,7 +2763,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
                     "abilityName": "Balefire",
-                    "description": "Charge and launch devastating bolts of fire."
+                    "description": "Charge and launch devastating bolts of electricity."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
