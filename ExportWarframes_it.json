@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "Circuiti dorati accendono e danno energia a movimenti frenetici che riecheggiano nei secoli. Danza verso l'eternit\u00e0 con Gyre Prime.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Le abilit\u00e0 di Gyre hanno una probabilit\u00e0 del 10% di infliggere danno critico per ogni Effetto Elettrico che colpisce il nemico.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "Arcsphere",
+                    "description": "Lancia una Sfera Rotante che infligger\u00e0 danni elevati all'impatto e infligger\u00e0 periodicamente scosse elettriche ai nemici vicini. Colpisci multipli nemici contemporaneamente con il lancio iniziale per aumentarne il danno."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Coil Horizon",
+                    "description": "Lancia in avanti una Sfera Rotante che imploder\u00e0 dopo pochi secondi, o che potr\u00e0 essere attivata manualmente."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Cathode Grace",
+                    "description": "Ottieni una breve raffica di Probabilit\u00e0 Critico e Rigenerazione Energia aumentate, con ogni uccisione che estende la durata di Cathode Grace. L'utilizzo ha un tempo di ricarica. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Rotorswell",
+                    "description": "I meccanismi di Gyre ruotano a velocit\u00e0 incredibili, generando un campo elettrico che colpisce i nemici vicini. Quando Gyre infligge un colpo critico, una grande scarica elettrica si concatener\u00e0 dal nemico colpito ai nemici vicini."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3771,6 +3809,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "Combattere nei panni dell'Eretico di Xata significa avere i demoni come alleati. Uriel incenerisce i nemici con zolfo incandescente e ordina a tre evocazioni diaboliche di compiere il suo lavoro.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel comanda, potenzia, e protegge tre demoni unici.\r\n\r\nCATENACH: Intrappola e rallenta i nemici concatenandoli. Il danno inferto a qualsiasi bersaglio della catena viene inflitto a tutti i nemici intrappolati. (Sbloccato con Infernalis)\r\n\r\nGULPHAGOR : Si aggancia ai nemici infliggendo danni nel tempo. Se ucciso, viene generato un cerchio di dolore. (Sbloccato con Remedium)\r\n\r\nVYTHELAS: Incide rune demoniache sui nemici caduti che aggiungono Cadenza di Tiro e Danno <DT_FIRE_COLOR>Fuoco quando raccolte. (Sbloccato con Demonium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "Manifesta un'aura di fiamme che infligge Danno ed Effetto <DT_FIRE_COLOR>Fuoco ai nemici nelle vicinanze.\r\n\r\nPremi Schiva mentre sei in aria per spiccare il volo come una meteora fiammeggiante di distruzione."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel guarisce se stesso e i suoi demoni. Se i suoi demoni sono morti, vengono resuscitati."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "Demonium",
+                    "description": "Uriel strappa le anime dei suoi demoni, prosciugandone la salute, e li manda alla ricerca di nuove vittime. Le anime esplodono al contatto con un nemico, rendendolo vulnerabile al Danno."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Brimstone",
+                    "description": "Uriel e i suoi demoni creano un annello crescente di zolfo fiammeggiante. Carica l'abilit\u00e0 utilizzando le abilit\u00e0 demoniache. Il danno inflitto aumenta con ogni colpo consecutivo."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
             "name": "Dagath",
             "parentName": "/Lotus/Powersuits/Dagath/DagathBaseSuit",
@@ -3913,7 +3989,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteWallAbility",
                     "abilityName": "Containment Wall",
-                    "description": "Contenere la minaccia. Qorvex evoca muri che si infrangono, danneggiando tutti i nemici intrappolati tra loro e infliggendo un Effetto <DT_RADIATION_COLOR>Radiazione."
+                    "description": "Contieni la minaccia. Qorvex evoca delle pareti che si infrangono, danneggiando tutti i nemici intrappolati tra di esse e infliggendo l'Effetto <DT_RADIATION_COLOR>Radiazione."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteAuraAbility",

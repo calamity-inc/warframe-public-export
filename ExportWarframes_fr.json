@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "Des circuits dor\u00e9s activent et dynamisent des mouvements fr\u00e9n\u00e9tiques r\u00e9sonnant \u00e0 travers les \u00e2ges. Dansez pour l'\u00e9ternit\u00e9 avec Gyre Prime.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Les Pouvoirs de Gyre ont 10% de chances d'infliger des D\u00e9g\u00e2ts Critiques pour chaque Effet de Statut \u00c9lectrique qui affecte l'ennemi.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "Arcsph\u00e8re",
+                    "description": "Lancez une sph\u00e8re giratoire qui infligera des D\u00e9g\u00e2ts importants \u00e0 l'impact et des d\u00e9charges \u00e9lectriques p\u00e9riodiques aux ennemis proches. Toucher plusieurs ennemis lors du lancement initial augmente les D\u00e9g\u00e2ts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Tristes Spires",
+                    "description": "Lancez une sph\u00e8re giratoire qui implosera apr\u00e8s quelques secondes, ou qui sera d\u00e9clench\u00e9e manuellement."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Gr\u00e2ce Cathodique",
+                    "description": "Profitez d'une br\u00e8ve p\u00e9riode de Chances de Critique et de R\u00e9g\u00e9n\u00e9ration d'\u00c9nergie accrues, chaque \u00e9limination prolongeant la dur\u00e9e de Gr\u00e2ce Cathodique. Temps de recharge apr\u00e8s lancement. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Spirale de Spires",
+                    "description": "Les m\u00e9canismes de Gyre tournent \u00e0 des vitesses incroyables, g\u00e9n\u00e9rant un champ \u00e9lectrique qui choque les ennemis proches. Lorsque Gyre effectue un Coup Critique, une grande d\u00e9charge \u00e9lectrique passera de l'ennemi qui a \u00e9t\u00e9 touch\u00e9 aux ennemis proches."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3766,6 +3804,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
                     "abilityName": "R\u00e9gurgitation",
                     "description": "R\u00e9gurgite violemment un ennemi couvert de bile, le transformant en un projectile toxique. Les ennemis proches sont ralentis par la bile qui s'attaque aussi \u00e0 leur Armure."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "Combattre en tant qu'H\u00e9r\u00e9tique de Xata, c'est avoir des d\u00e9mons \u00e0 ses c\u00f4t\u00e9s. Uriel incin\u00e8re ses ennemis avec du soufre br\u00fblant et ordonne \u00e0 trois invocations infernales d'accomplir ses basses besognes.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel commande, renforce et prot\u00e8ge trois d\u00e9mons uniques.\r\n\r\nCATENACH: Pi\u00e8ge et ralentit les ennemis, les encha\u00eenant les uns aux autres. Les D\u00e9g\u00e2ts inflig\u00e9s aux ennemis de la cha\u00eene sont r\u00e9percut\u00e9s sur tous les ennemis pi\u00e9g\u00e9s. (D\u00e9bloqu\u00e9 avec Infernalis)\r\n\r\nGULPHAGOR: S'accroche aux ennemis et leur inflige des D\u00e9g\u00e2ts sur la dur\u00e9e. S'il est tu\u00e9, un cercle de douleur appara\u00eet. (D\u00e9bloqu\u00e9 avec Remedium)\r\n\r\nVYTHELAS: Inscrit des runes d\u00e9moniaques sur les ennemis vaincus. Ces runes ajoutent de la Cadence de Tir et de D\u00e9g\u00e2ts de <DT_FIRE_COLOR>Feu lorsqu'elles sont r\u00e9cup\u00e9r\u00e9es. (D\u00e9bloqu\u00e9 avec Demonium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "D\u00e9ployez une aura de flammes infligeant des D\u00e9g\u00e2ts et des Effets de Statut de <DT_FIRE_COLOR>Feu aux ennemis proches.\r\n\r\nAppuyez sur Esquive une fois en l'air pour vous envoler sous la forme d'un m\u00e9t\u00e9ore destructeur enflamm\u00e9."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel se gu\u00e9rit lui-m\u00eame et gu\u00e9rit ses d\u00e9mons. Si ses d\u00e9mons sont morts, ils ressuscitent."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "Demonium",
+                    "description": "Uriel arrache l'\u00e2me de ses d\u00e9mons, drainant leur sant\u00e9 et les envoie en qu\u00eate de nouvelles victimes. Les \u00e2mes explosent au contact d'un ennemi, le rendant vuln\u00e9rable aux D\u00e9g\u00e2ts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Soufre",
+                    "description": "Uriel et ses d\u00e9mons cr\u00e9ent un cercle de soufre enflamm\u00e9 qui s'\u00e9tend. Chargez le Pouvoir en utilisant des Pouvoirs d\u00e9moniaques. Les D\u00e9g\u00e2ts inflig\u00e9s augmentent \u00e0 chaque coup cons\u00e9cutif."
                 }
             ],
             "productCategory": "Suits"

@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "Los circuitos dorados activan y energizan movimientos fren\u00e9ticos que resuenan a trav\u00e9s de los tiempos. Baila con Gyre Prime hacia la eternidad.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Las habilidades de Gyre tienen un 10 % de probabilidad de infligir da\u00f1o cr\u00edtico por cada estado el\u00e9ctrico que afecte al enemigo.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "Arcosfera",
+                    "description": "Lanza una esfera giratoria que infligir\u00e1 un gran da\u00f1o al impactar y peri\u00f3dicamente infligir\u00e1 descargas el\u00e9ctricas a los enemigos cercanos. Golpea a varios enemigos a la vez con el lanzamiento inicial para aumentar el da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Horizonte de bobina",
+                    "description": "Lanza hacia adelante una esfera giratoria que implosionar\u00e1 despu\u00e9s de algunos segundos o que puede activarse manualmente."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Gracia del c\u00e1todo",
+                    "description": "Obt\u00e9n una breve r\u00e1faga de aumento de probabilidad cr\u00edtica y regeneraci\u00f3n de energ\u00eda con cada muerte extendiendo la duraci\u00f3n de Gracia del c\u00e1todo. El lanzamiento tiene tiempo de espera. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Fuente de rotores",
+                    "description": "Los mecanismos de Gyre giran a velocidades incre\u00edbles, generando un campo el\u00e9ctrico que impacta a los enemigos cercanos. Cuando Gyre causa da\u00f1o cr\u00edtico, una gran descarga el\u00e9ctrica se encadenar\u00e1 desde el enemigo que fue golpeado hasta los enemigos cercanos."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3766,6 +3804,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
                     "abilityName": "Regurgitar",
                     "description": "Vomita violentamente un enemigo cubierto de bilis desde las entra\u00f1as de Grendel, convirtiendo lo que fue consumido en un proyectil t\u00f3xico. Los enemigos cercanos son ralentizados y su armadura se disuelve por la bilis."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "Luchar como el Hereje de Xata implica tener demonios de tu lado. Uriel incinera a sus enemigos con azufre abrasador y ordena a tres invocaciones infernales que hagan el trabajo sucio.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel ordena, fortalece y protege a tres demonios \u00fanicos.\r\n\r\nCATENACH: Atrapa y ralentiza a los enemigos encaden\u00e1ndolos. El da\u00f1o infligido a cualquier objetivo en la cadena se aplica a todos los enemigos atrapados. (Se desbloquea con Infernalis)\r\n\r\nGULFAGOR: Se engancha a los enemigos e inflige da\u00f1o con el tiempo. Si muere, crea un c\u00edrculo de dolor. (Se desbloquea con Remedium)\r\n\r\nVITELAS: Graba runas demon\u00edacas en los enemigos ca\u00eddos que a\u00f1aden cadencia de fuego y da\u00f1o de <DT_FIRE_COLOR>calor al recogerlas. (Se desbloquea con Demonium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "Manifiesta un aura de llamas que inflige da\u00f1o y efecto de estado de <DT_FIRE_COLOR>calor a los enemigos cercanos.\r\n\r\nEsquiva mientras est\u00e1s en el aire para lanzarte por los aires como un meteorito llameante y destructivo."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel se cura a s\u00ed mismo y a sus demonios. Si sus demonios est\u00e1n muertos, resucitan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "Demonium",
+                    "description": "Uriel arranca las almas de sus demonios, dren\u00e1ndoles su salud, y los env\u00eda en busca de nuevas v\u00edctimas. Las almas explotan al contacto con un enemigo, dej\u00e1ndolo vulnerable al da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Azufre",
+                    "description": "Uriel y sus demonios crean un c\u00edrculo de azufre ardiente que se expande. Carga la habilidad usando habilidades demon\u00edacas. El da\u00f1o infligido aumenta con cada golpe consecutivo."
                 }
             ],
             "productCategory": "Suits"

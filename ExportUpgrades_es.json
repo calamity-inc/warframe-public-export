@@ -919,6 +919,23 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/BayonetCmbOneMeleeTree",
+            "name": "Punta aterradora",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 3,
+            "compatName": "Bayoneta",
+            "type": "STANCE",
+            "description": [
+                "Golpes implacables y poderosas embestidas ofensivas."
+            ],
+            "tags": [
+                "Harrowing Spire"
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree",
             "name": "Torbellino cortante",
             "polarity": "AP_DEFENSE",
@@ -14968,6 +14985,46 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
+            "name": "Garras magn\u00e9ticas",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "compatName": "Garras",
+            "type": "MELEE",
+            "tags": [
+                "Magnetic Claws"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+10% de duraci\u00f3n de estado"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+20% de duraci\u00f3n de estado"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+30% de duraci\u00f3n de estado"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+40% de duraci\u00f3n de estado"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowIceEventMeleeMod",
             "name": "Mand\u00edbula congelante",
             "polarity": "AP_ATTACK",
@@ -15593,22 +15650,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "25 % para aplicar un efecto <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
+                        "25 % de probabilidad de aplicar un efecto de estado <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
                     ]
                 },
                 {
                     "stats": [
-                        "50 % para aplicar un efecto <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
+                        "50 % de probabilidad de aplicar un efecto de estado <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
                     ]
                 },
                 {
                     "stats": [
-                        "75 % para aplicar un efecto <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
+                        "75 % de probabilidad de aplicar un efecto de estado <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
                     ]
                 },
                 {
                     "stats": [
-                        "100 % para aplicar un efecto <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
+                        "100 % de probabilidad de aplicar un efecto de estado <DT_MAGNETIC_COLOR>magn\u00e9tico al infligir un efecto de estado de <DT_IMPACT_COLOR>impacto"
                     ]
                 }
             ]
@@ -35999,6 +36056,46 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
+            "name": "R\u00e1faga magn\u00e9tica",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "compatName": "Cuerpo a cuerpo",
+            "type": "MELEE",
+            "tags": [
+                "Magnetic Rush"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+5% de velocidad de ataque"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+10% de velocidad de ataque"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+15% de velocidad de ataque"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% de <DT_MAGNETIC_COLOR>magn\u00e9tico",
+                        "+20% de velocidad de ataque"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod",
             "name": "Escarcha atroz",
             "polarity": "AP_ATTACK",
@@ -43457,6 +43554,968 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools",
+            "name": "Ubri-Kaneph",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Ubri-Kaneph"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de da\u00f1o de Amps",
+                        "+10 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/VoidSlingEfficiency",
+            "name": "Sey-Taph",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Sey-Taph"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de eficiencia de Honda del Vac\u00edo"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/VoidSlingCrateBreaker",
+            "name": "Lashta-Vak",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Lashta-Vak"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 2 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 4 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 6 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 8 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 10 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Honda del Vac\u00edo emite un pulso que rompe contenedores dentro de 12 m",
+                        "+2 m de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/UltimateInitialChargeSchools",
+            "name": "Empazu-Shol",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Empazu-Shol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+2 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+4 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+6 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+8 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+12 % de carga inicial de Ataque Tauron.",
+                        "+2 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/SuperSpeedSchools",
+            "name": "Metem-Erun",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Metem-Erun"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +5 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +10 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +15 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +20 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +25 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la velocidad del Operador al correr en +30 %",
+                        "+5 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ShieldSchool",
+            "name": "Da-Ren",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Da-Ren"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+50 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+250 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 de escudos del Operador",
+                        "+30 de bonificaci\u00f3n por cada mod de la escuela <UNAIRU_CLEAN>Unairu"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ReduceDeathEffect",
+            "name": "Ulashta-Shol",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Ulashta-Shol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-15 % de duraci\u00f3n de la est\u00e1tica de la transferencia"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30 % de duraci\u00f3n de la est\u00e1tica de la transferencia"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-45 % de duraci\u00f3n de la est\u00e1tica de la transferencia"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-60 % de duraci\u00f3n de la est\u00e1tica de la transferencia"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ProcChanceSchool",
+            "name": "Sil-Tabol",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Sil-Tabol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de probabilidad de estado de amp",
+                        "+15 % de da\u00f1o de estado por cada mod de la escuela <VAZARIN_CLEAN>Vazarin"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/Multishot",
+            "name": "Hayan-Dabor",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Hayan-Dabor"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10 % de multidisparo de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de multidisparo de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de multidisparo de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40 % de multidisparo de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50 % de multidisparo de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de multidisparo de amp"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/JumpHeight",
+            "name": "Evir-Ti",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Evir-Ti"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15 % de altura de salto del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de altura de salto del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45 % de altura de salto del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de altura de salto del Operador"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/HealthMax",
+            "name": "Yar Dal",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Yar Dal"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+50 de salud del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100 de salud del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150 de salud del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 de salud del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+250 de salud del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 de salud del Operador"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/HealthAndShieldSchools",
+            "name": "Metem-Hakh",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Metem-Hakh"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de salud y escudos del Operador",
+                        "+15 % de bonificaci\u00f3n por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/Ghostwalk",
+            "name": "Kaal-zidi",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Kaal-zidi"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de eficiencia de modo del Vac\u00edo",
+                        "+5 % de velocidad de movimiento en modo del Vac\u00edo por cada mod de la escuela <NARAMON_CLEAN>Naramon"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/FireRateAndEfficiency",
+            "name": "Vikla-Safor",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Vikla-Safor"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5 % de cadencia de fuego de amp",
+                        "+5 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de cadencia de fuego de amp",
+                        "+10 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15 % de cadencia de fuego de amp",
+                        "+15 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de cadencia de fuego de amp",
+                        "+20 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25 % de cadencia de fuego de amp",
+                        "+25 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de cadencia de fuego de amp",
+                        "+30 % de eficiencia de munici\u00f3n de amp"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/EnterVoidModeOnKnockdown",
+            "name": "Talsek-An",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Talsek-An"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 10.0 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 9.5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 9.0 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 8.5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 8.0 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Obt\u00e9n inmunidad al derribar. Cuando se bloquea un derribo, entra en el modo del Vac\u00edo por 3 s (tiempo de espera: 7.5 s)"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/DashDistanceSchools",
+            "name": "Esti Vel-Ikha",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Esti Vel-Ikha"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +5 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +10 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +15 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +20 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +25 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Aumenta la distancia m\u00e1xima de Honda del Vac\u00edo en un +30 %.",
+                        "+10 % de radio de Honda del Vac\u00edo por cada mod de una escuela \u00fanica"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/DamageWhileInvisible",
+            "name": "Hok-Kaal",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Hok-Kaal"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x0.5 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x1.0 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x1.5 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x2.0 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x2.5 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Despu\u00e9s de usar el modo del Vac\u00edo, el siguiente ataque de amp infligir\u00e1 x3.0 de da\u00f1o adicional (tiempo de espera: 5 s)"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/CritChanceSchool",
+            "name": "Omn-Evi",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Omn-Evi"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de probabilidad cr\u00edtica de amp",
+                        "+10 % de da\u00f1o cr\u00edtico de amp por cada mod de la escuela <ZENURIK_CLEAN>Zenurik"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/AntiqueArmour",
+            "name": "Lorun-Tash",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Lorun-Tash"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+100 de armadura del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 de armadura del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 de armadura del Operador"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+400 de armadura del Operador"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/AmmoSchool",
+            "name": "Vik-Anam",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                "Vik-Anam"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30 % de energ\u00eda m\u00e1xima de amp",
+                        "+5 % de tasa de regeneraci\u00f3n de energ\u00eda de amp para cada mod de la escuela <MADURAI_CLEAN>Madurai"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Grimoire/XataStrikeMod",
             "name": "Invocaci\u00f3n Xata",
             "polarity": "AP_TACTIC",
@@ -48749,22 +49808,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +1 de efecto de <DT_PUNCTURE_COLOR> perforaci\u00f3n"
+                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +1 de efecto de estado de <DT_PUNCTURE_COLOR>perforaci\u00f3n"
                     ]
                 },
                 {
                     "stats": [
-                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +2 de efecto de <DT_PUNCTURE_COLOR> perforaci\u00f3n"
+                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +2 de efecto de estado de <DT_PUNCTURE_COLOR>perforaci\u00f3n"
                     ]
                 },
                 {
                     "stats": [
-                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +3 de efecto de <DT_PUNCTURE_COLOR> perforaci\u00f3n"
+                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +3 de efecto de estado de <DT_PUNCTURE_COLOR>perforaci\u00f3n"
                     ]
                 },
                 {
                     "stats": [
-                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +4 de efecto de <DT_PUNCTURE_COLOR> perforaci\u00f3n"
+                        "El compa\u00f1ero priorizar\u00e1 los ataques a los enemigos que se encuentren a 15 m del warframe. Los ataques infligen +4 de efecto de estado de <DT_PUNCTURE_COLOR>perforaci\u00f3n"
                     ]
                 }
             ]
@@ -55000,22 +56059,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado se cura entre 10 a 20 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
+                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado cura de 10 a 20 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
                     ]
                 },
                 {
                     "stats": [
-                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado se cura entre 15 a 30 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
+                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado cura de 15 a 30 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
                     ]
                 },
                 {
                     "stats": [
-                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado se cura entre 20 a 40 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
+                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado cura de 20 a 40 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
                     ]
                 },
                 {
                     "stats": [
-                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado se cura entre 25 a 50 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
+                        "Aumento de Explosi\u00f3n de fuego: cada enemigo golpeado cura de 25 a 50 dependiendo del nivel de Inmolaci\u00f3n actual. Con Ember, la curaci\u00f3n extra te otorga Sobreguardia."
                     ]
                 }
             ]
@@ -56934,6 +57993,53 @@
             ],
             "tags": [
                 "Mentor's Legacy"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/SampleAntiqueUpgrade",
+            "name": "",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "compatName": "CUALQUIERA",
+            "type": "---",
+            "tags": [
+                ""
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5,000 RITMO DE CURACI\u00d3N"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10,000 RITMO DE CURACI\u00d3N"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15,000 RITMO DE CURACI\u00d3N"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20,000 RITMO DE CURACI\u00d3N"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25,000 RITMO DE CURACI\u00d3N"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30,000 RITMO DE CURACI\u00d3N"
+                    ]
+                }
             ]
         },
         {
@@ -130274,6 +131380,55 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Tau/HealthPickupGivesArmourMax",
+            "name": "Conversi\u00f3n de salud",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 10,
+            "fusionLimit": 5,
+            "compatName": "WARFRAME",
+            "type": "WARFRAME",
+            "description": [
+                "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+            ],
+            "tags": [
+                "Health Conversion"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Orbes de salud otorgan |ARMOUR| de armadura, acumul\u00e1ndose hasta |STACKS| veces. Recibir da\u00f1o consumir\u00e1 una carga despu\u00e9s de |DURATION|s."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherInnateDamageRandomMod",
             "name": "Artefacto sin fusionar",
             "polarity": "AP_UNIVERSAL",
@@ -134754,6 +135909,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade",
+            "name": "Rain of Arrows",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.50s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.45s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.40s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.35s cooldown between arrows."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade",
+            "name": "Downpour",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 1 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 2 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 3 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 4 additional enemies within 10m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade",
+            "name": "Surging Storm",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 3.5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 4m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 4.5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 5m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade",
+            "name": "Overwhelming Power",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain +2% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +3% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +4% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +40%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +5% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +50%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade",
+            "name": "Thara Tauron Strike",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 4s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 5s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 6s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 7s."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade",
             "name": "Guardian Blast",
             "polarity": "AP_DEFENSE",
@@ -135212,6 +136527,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade",
+            "name": "Swelling Deluge",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase vortex duration to 25s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 30s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 35s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 40s."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade",
+            "name": "Rift Waters",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 10% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 15% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 20% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 25% per second."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade",
+            "name": "Deathless Currents",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex heals allies for 100 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 150 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 200 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 250 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade",
+            "name": "Eroding Rapids",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex applies 25% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 50% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 75% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 100% status vulnerability to all enemies within it."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade",
+            "name": "Nidri Tauron Strike",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 20% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 30% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 40% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 50% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade",
             "name": "Voltaic Blast",
             "polarity": "AP_POWER",
@@ -135660,6 +137135,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade",
+            "name": "Brilliant Insight",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 4m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 8m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 12m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 16m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade",
+            "name": "Boundless Energy",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 25%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 35%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 40%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade",
+            "name": "Prismatic Beam",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 15m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 20m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade",
+            "name": "Spectral Pages",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Create 1 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 2 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 3 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 4 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade",
+            "name": "Lorak Tauron Strike",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 25% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 50% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 75% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 100% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade",
             "name": "Disorienting Blast",
             "polarity": "AP_TACTIC",
@@ -136091,6 +137726,166 @@
                 {
                     "stats": [
                         "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 20s."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade",
+            "name": "Hungering Blades",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Spectral weapons have a 25% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 50% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 75% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 100% chance to attack the same enemy a second time."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade",
+            "name": "Spectral Blades",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon 1 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 2 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 3 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 4 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade",
+            "name": "Flowing Strikes",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 14m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 18m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 22m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 26m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade",
+            "name": "Astral Cut",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 40%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 60%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 80%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade",
+            "name": "Vexoric Tauron Strike",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +2 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +4 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +6 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +8 Melee Combo from each enemy hit."
                     ]
                 }
             ]
@@ -136857,6 +138652,166 @@
                 {
                     "stats": [
                         "Increases Void Blast radius by 60%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade",
+            "name": "Tempered Benison",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Shockwaves create 2 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 3 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 4 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 5 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade",
+            "name": "Sundered Bounty",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Shockwaves generate 2 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 3 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 4 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 5 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade",
+            "name": "Great Quake",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase shockwave radius by +10%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +40%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade",
+            "name": "Seismic Impact",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 1 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 2 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 3 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 4 aerial Melee slam attacks."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade",
+            "name": "Cogron Tauron Strike",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 1 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 2 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 3 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 4 times."
                     ]
                 }
             ]

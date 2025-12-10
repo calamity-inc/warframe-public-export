@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "Poz\u0142acane obwody rozpalaj\u0105 i nap\u0119dzaj\u0105 \u017cywio\u0142owe ruchy, kt\u00f3re rezonuj\u0105 przez wieki. Wejd\u017a tanecznym krokiem w wieczno\u015b\u0107 z Gyre Prime.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Umiej\u0119tno\u015bci Gyre maj\u0105 10% Szansy na zadanie Obra\u017ce\u0144 Krytycznych za ka\u017cdy efekt Statusu Elektryczno\u015bci na\u0142o\u017cony na przeciwnika.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "\u0141ukosfera",
+                    "description": "Wystrzel Sfer\u0119 \u017cyroskopow\u0105, kt\u00f3ra zadaje du\u017ce obra\u017cenia przy uderzeniu i razi pr\u0105dem pobliskich wrog\u00f3w. Traf kilku przeciwnik\u00f3w tocz\u0105c\u0105 si\u0119 Sfer\u0105, aby zwi\u0119kszy\u0107 jej obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Zapa\u015b\u0107 Cewki",
+                    "description": "Rzu\u0107 przed siebie Sfer\u0119 \u017cyroskopow\u0105, kt\u00f3ra imploduje po kilku sekundach lub po ponownym u\u017cyciu umiej\u0119tno\u015bci."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Anodowy Wdzi\u0119k",
+                    "description": "Zyskaj kr\u00f3tkotrwa\u0142y bonus Szansy Obra\u017ce\u0144 Krytycznych i Regeneracj\u0119 Energii, zabijanie wrog\u00f3w wyd\u0142u\u017ca czas trwania Anodowego Wdzi\u0119ku. Umiej\u0119tno\u015b\u0107 mo\u017ce zosta\u0107 u\u017cyta ponownie po up\u0142yni\u0119ciu czasu odnowienia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Wirnica",
+                    "description": "Mechanizmy Gyre wiruj\u0105 z niesamowit\u0105 pr\u0119dko\u015bci\u0105, generuj\u0105c Pole Elektryczne, kt\u00f3re pora\u017ca pobliskich wrog\u00f3w. Kiedy wr\u00f3g zostanie trafiony Obra\u017ceniami Krytycznymi, wy\u0142adowanie elektryczne zostanie przeniesione na pobliskich wrog\u00f3w."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3766,6 +3804,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
                     "abilityName": "Zwracanie",
                     "description": "Gwa\u0142townie wyrzygaj z bebecha Grendela przesi\u0105kni\u0119tego \u017c\u00f3\u0142ci\u0105 przeciwnika, zmieniaj\u0105c go w toksyczny pocisk. Pobliscy wrogowie zostaj\u0105 spowolnieni, a ich pancerze rozpuszczone przez \u017c\u00f3\u0142\u0107."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "Walka z perspektywy Heretyka Xaty to nieustanne obcowanie z demonami u swego boku. Uriel podpala wrog\u00f3w piekieln\u0105 siark\u0105 i przyzywa trzy diaboliczne istoty, by dokona\u0142y dzie\u0142a zniszczenia.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel w\u0142ada, wzmacnia i chroni tr\u00f3jk\u0119 demon\u00f3w.\r\n\r\nCATENACH: P\u0119ta i spowalnia wrog\u00f3w, zbieraj\u0105c ich w grupy. Obra\u017cenia zadane kt\u00f3remukolwiek schwytanemu wrogowi s\u0105 zadawane wszystkim uwi\u0119zionym wrogom. (Odblokowany przez Infernalis)\r\n\r\nGULPHAGOR: Uczepia si\u0119 do wrog\u00f3w, zadaj\u0105c im obra\u017cenia. Po zabiciu tworzy kr\u0105g b\u00f3lu. (Odblokowany przez Remedium)\r\n\r\nVYTHELAS: Oznacza zg\u0142adzonych wrog\u00f3w runami, kt\u00f3re przyznaj\u0105 premie Szybkostrzelno\u015bci i <DT_FIRE_COLOR> Obr. od Ognia po ich zebraniu. (Odblokowany przez Demonium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "Stw\u00f3rz aur\u0119 promieni, zadaj\u0105cych obra\u017cenia i nak\u0142adaj\u0105cych Efekt Statusu <DT_FIRE_COLOR> Obr. od Ognia na pobliskich wrog\u00f3w.\r\n\r\nWykonaj Unik w powietrzu, aby przeobrazi\u0107 si\u0119 w p\u0142on\u0105cy meteor zniszczenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel leczy siebie i swoje demony. Je\u015bli jego demony s\u0105 martwe, zostaj\u0105 wskrzeszone."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "Demonium",
+                    "description": "Uriel wyrywa dusze swoich demon\u00f3w, odbieraj\u0105c im cz\u0119\u015b\u0107 \u017bycia, i wysy\u0142a je na poszukiwanie nowych ofiar. Dusze wybuchaj\u0105 przy kontakcie z wrogiem, rani\u0105c i zwi\u0119kszaj\u0105c ich podatno\u015b\u0107 na obra\u017cenia."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Ogie\u0144 Piekielny",
+                    "description": "Uriel i jego demony tworz\u0105 kr\u0105g ognia piekielnego. Na\u0142aduj umiej\u0119tno\u015b\u0107, u\u017cywaj\u0105c umiej\u0119tno\u015bci demon\u00f3w. Obra\u017cenia s\u0105 zwi\u0119kszane z ka\u017cdym kolejnym trafieniem."
                 }
             ],
             "productCategory": "Suits"

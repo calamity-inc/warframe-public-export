@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "Gilded circuits spark and energize frenetic movements that echo through the ages. Dance into eternity with Gyre Prime.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "Arcsphere",
+                    "description": "Launch a Gyratory Sphere that will deal high damage on impact and periodically deal electrical shocks to nearby enemies. Hit multiple enemies at once with the initial launch to enhance damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Coil Horizon",
+                    "description": "Throw forward a Gyratory Sphere that will implode after a few seconds or can be manually triggered."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Cathode Grace",
+                    "description": "Gain a brief burst of increased Critical Chance and Energy Regen, with each kill extending duration of Cathode Grace. Casting is on a cooldown. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Rotorswell",
+                    "description": "Gyre\u2019s mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3766,6 +3804,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
                     "abilityName": "Regurgitate",
                     "description": "Violently puke out a bile soaked enemy from Grendel's gut, turning the consumed into a toxic projectile. Nearby enemies are slowed and have their armor dissolved by the bile."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "To fight as the Heretic of Xata is to have demons at your back. Uriel incinerates foes with searing brimstone, and commands three fiendish summons to do his devil\u2019s work.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel commands, empowers, and protects three unique demons.\r\n\r\nCATENACH: Snares and slows enemies chaining them together. Damage dealt to any target in the chain is inflicted on all snared enemies. (Unlocks with Infernalis)\r\n\r\nGULPHAGOR : Latches onto foes dealing damage over time. If killed, a circle of pain is spawned. (Unlocks with Remedium)\r\n\r\nVYTHELAS: Inscribes demonic runes upon fallen foes that add Fire Rate and <DT_FIRE_COLOR>Heat Damage when collected. (Unlocks with Demonium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "Manifest an aura of flames inflicting <DT_FIRE_COLOR>Heat Damage and Status Effect on nearby enemies.\r\n\r\nTap Dodge while airborne to take flight as a flaming meteor of destruction."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel heals himself and his demons. If his demons are dead, they are resurrected."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "Demonium",
+                    "description": "Uriel rips out the souls of his demons, draining their health, and sends them in search of new victims. Souls explode on contact with an enemy, rendering it vulnerable to Damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Brimstone",
+                    "description": "Uriel and his demons create a growing ring of flaming brimstone. Charge the ability by utilizing demon abilities. Damage inflicted increases with each consecutive hit."
                 }
             ],
             "productCategory": "Suits"

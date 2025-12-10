@@ -919,6 +919,23 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/BayonetCmbOneMeleeTree",
+            "name": "\ud574\ub85c\uc789 \uc2a4\ud30c\uc774\uc5b4",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": -2,
+            "fusionLimit": 3,
+            "compatName": "\ucd1d\uac80",
+            "type": "STANCE",
+            "description": [
+                "\ube60\ub978 \uc815\uad8c \ucc0c\ub974\uae30\uc640 \uac15\ub825\ud55c \uac15\ub825\ud55c \uc804\uba74\uc801\uc778 \ub3cc\uc9c4 \uacf5\uaca9\uc744 \uad6c\uc0ac\ud569\ub2c8\ub2e4."
+            ],
+            "tags": [
+                "Harrowing Spire"
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree",
             "name": "\ud074\ub9ac\ube59 \ud6e8\uc708\ub4dc",
             "polarity": "AP_DEFENSE",
@@ -14963,6 +14980,46 @@
                     "stats": [
                         "+60% <DT_POISON_COLOR>\ub3c5\uc131",
                         "+60% \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
+            "name": "\ub9c8\uadf8\ub124\ud2f1 \ud074\ub85c",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "compatName": "\ud074\ub85c",
+            "type": "MELEE",
+            "tags": [
+                "Magnetic Claws"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+10% \uc0c1\ud0dc \uc774\uc0c1 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+20% \uc0c1\ud0dc \uc774\uc0c1 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+30% \uc0c1\ud0dc \uc774\uc0c1 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+40% \uc0c1\ud0dc \uc774\uc0c1 \uc9c0\uc18d \uc2dc\uac04"
                     ]
                 }
             ]
@@ -35999,6 +36056,46 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
+            "name": "\ub9c8\uadf8\ub124\ud2f1 \ub7ec\uc26c",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "compatName": "\uadfc\uc811 \ubb34\uae30",
+            "type": "MELEE",
+            "tags": [
+                "Magnetic Rush"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+5% \uacf5\uaca9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+10% \uacf5\uaca9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+15% \uacf5\uaca9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% <DT_MAGNETIC_COLOR>\uc790\uc131",
+                        "+20% \uacf5\uaca9 \uc18d\ub3c4"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod",
             "name": "\ube44\uc154\uc2a4 \ud504\ub85c\uc2a4\ud2b8",
             "polarity": "AP_ATTACK",
@@ -43457,6 +43554,968 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools",
+            "name": "\uc720\ube0c\ub9ac-\uce74\ub124\ud504",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Ubri-Kaneph"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +10%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +20%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +30%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +40%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +50%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc570\ud504 \ucd94\uac00 \ud53c\ud574 +60%",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/VoidSlingEfficiency",
+            "name": "\uc138\uc774-\ud0c0\ud504",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Sey-Taph"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ud6a8\uc728"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/VoidSlingCrateBreaker",
+            "name": "\ub77c\uc288\ud0c0-\ubc14\ud06c",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Lashta-Vak"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 2m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 4m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 6m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 8m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 10m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc740 12m \ub0b4\uc5d0 \uc788\ub294 \uc800\uc7a5\uace0\ub97c \ud30c\uad34\ud558\ub294 \ud384\uc2a4\ub97c \ubc29\ucd9c\ud569\ub2c8\ub2e4",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2m \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/UltimateInitialChargeSchools",
+            "name": "\uc5e0\ud30c\uc8fc-\uc204",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Empazu-Shol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+2% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+4% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+6% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+8% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+12% \ud0c0\uc6b0\ub860 \uc77c\uaca9 \ucd08\ubc18 \ucda9\uc804\uc728.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +2% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/SuperSpeedSchools",
+            "name": "\uba54\ud15c-\uc5d0\ub8ec",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Metem-Erun"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +5% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +10% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +15% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +20% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +25% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uc624\ud37c\ub808\uc774\ud130 \uc9c8\uc8fc \uc18d\ub3c4 +30% \uc99d\uac00",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +5% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ShieldSchool",
+            "name": "\ub2e4-\ub80c",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Da-Ren"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+50 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+250 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 \uc624\ud37c\ub808\uc774\ud130 \uc2e4\ub4dc",
+                        "\uac01 <UNAIRU_CLEAN>\uc720\ub098\uc774\ub8e8 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +30 \ubcf4\ub108\uc2a4"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ReduceDeathEffect",
+            "name": "\uc6b8\ub77c\uc288\ud0c0-\uc204",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Ulashta-Shol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-15% \uc804\uc774 \ubc29\ud574 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30% \uc804\uc774 \ubc29\ud574 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-45% \uc804\uc774 \ubc29\ud574 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-60% \uc804\uc774 \ubc29\ud574 \uc9c0\uc18d \uc2dc\uac04"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/ProcChanceSchool",
+            "name": "\uc2e4-\ud0c0\ubcfc",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Sil-Tabol"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% \uc570\ud504 \uc0c1\ud0dc \uc774\uc0c1 \ud655\ub960",
+                        "\uac01 <VAZARIN_CLEAN>\ubc14\uc790\ub9b0 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +15% \uc0c1\ud0dc \uc774\uc0c1 \ud53c\ud574"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/Multishot",
+            "name": "\ud558\uc580-\ub2e4\ubcf4\ub974",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Hayan-Dabor"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% \uc570\ud504 \uba40\ud2f0\uc0f7"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/JumpHeight",
+            "name": "\uc5d0\ube44\ub974-\ud2f0",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Evir-Ti"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+15% \uc624\ud37c\ub808\uc774\ud130 \uc810\ud504 \ub192\uc774"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc624\ud37c\ub808\uc774\ud130 \uc810\ud504 \ub192\uc774"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+45% \uc624\ud37c\ub808\uc774\ud130 \uc810\ud504 \ub192\uc774"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% \uc624\ud37c\ub808\uc774\ud130 \uc810\ud504 \ub192\uc774"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/HealthMax",
+            "name": "\uc57c\ub974 \ub2ec",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Yar Dal"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+50 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+250 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/HealthAndShieldSchools",
+            "name": "\uba54\ud15c-\ud558\ud06c",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Metem-Hakh"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc624\ud37c\ub808\uc774\ud130 \uccb4\ub825 & \uc2e4\ub4dc",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +15% \ubcf4\ub108\uc2a4\ub97c \ud68d\ub4dd"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/Ghostwalk",
+            "name": "\uce7c-\uc9c0\ub514",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Kaal-zidi"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \ubcf4\uc774\ub4dc \ubaa8\ub4dc \ud6a8\uc728",
+                        "\uac01 <NARAMON_CLEAN>\ub098\ub77c\ubaac \uc720\ud30c \ubaa8\ub4dc \ub2f9 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0\uc11c +5% \uc774\ub3d9 \uc18d\ub3c4"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/FireRateAndEfficiency",
+            "name": "\ube44\ud074\ub77c-\uc0ac\ud3ec\ub974",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Vikla-Safor"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+5% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+10% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+15% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+20% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+25% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc570\ud504 \uc5f0\uc0ac\ub825",
+                        "+30% \uc570\ud504 \ud0c4\uc57d \ud6a8\uc728"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/EnterVoidModeOnKnockdown",
+            "name": "\ud0c8\uc138\ud06c-\uc548",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Talsek-An"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 10.0\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 9.5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 9.0\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 8.5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 8.0\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ub109\ub2e4\uc6b4 \uba74\uc5ed\uc744 \uc5bb\uc2b5\ub2c8\ub2e4. \ub109\ub2e4\uc6b4\uc774 \ucc28\ub2e8\ub418\uba74, 3\ucd08 \ub3d9\uc548 \ubcf4\uc774\ub4dc \ubaa8\ub4dc\uc5d0 \ub3cc\uc785\ud569\ub2c8\ub2e4 (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 7.5\ucd08)"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/DashDistanceSchools",
+            "name": "\uc5d0\uc2a4\ud2f0 \ubca8-\uc774\ud06c\ud558",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Esti Vel-Ikha"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +5% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +10% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +15% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +20% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +25% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \uc2ac\ub9c1\uc758 \ucd5c\ub300 \uac70\ub9ac\uac00 +30% \uc99d\uac00\ud569\ub2c8\ub2e4.",
+                        "\uace0\uc720\ud55c \uc720\ud30c\ub85c\ubd80\ud130\uc758 \uac01 \ubaa8\ub4dc\ub9c8\ub2e4 +10% \ubcf4\uc774\ub4dc \uc2ac\ub9c1 \ubc94\uc704"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/DamageWhileInvisible",
+            "name": "\ud638\ud06c-\uce7c",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Hok-Kaal"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x0.5 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x1.0 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x1.5 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x2.0 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x2.5 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                },
+                {
+                    "stats": [
+                        "\ubcf4\uc774\ub4dc \ubaa8\ub4dc \uc0ac\uc6a9 \ud6c4 \ub2e4\uc74c \uc570\ud504 \uacf5\uaca9 \uc2dc x3.0 \ubcf4\ub108\uc2a4 \ud53c\ud574 \ubd80\uc5ec (\uc7ac\uc0ac\uc6a9 \ub300\uae30 \uc2dc\uac04 5\ucd08)"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/CritChanceSchool",
+            "name": "\uc634-\uc5d0\ube44",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Omn-Evi"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+10% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+50% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% \uc570\ud504 \uce58\uba85\ud0c0 \ud655\ub960",
+                        "\uac01 <ZENURIK_CLEAN>\uc81c\ub204\ub9ad \uc720\ud30c \ubaa8\ub4dc \ub2f9 +10% \uc570\ud504 \uce58\uba85\ud0c0 \ud53c\ud574"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/AntiqueArmour",
+            "name": "\ub85c\ub8ec-\ud0c0\uc26c",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 3,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Lorun-Tash"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+100 \uc624\ud37c\ub808\uc774\ud130 \ubc29\uc5b4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+200 \uc624\ud37c\ub808\uc774\ud130 \ubc29\uc5b4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300 \uc624\ud37c\ub808\uc774\ud130 \ubc29\uc5b4\ub825"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+400 \uc624\ud37c\ub808\uc774\ud130 \ubc29\uc5b4\ub825"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/AmmoSchool",
+            "name": "\ube44\ud06c-\uc544\ub0a8",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                "Vik-Anam"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30% \ucd5c\ub300 \uc570\ud504 \uc5d0\ub108\uc9c0",
+                        "\uac01 <MADURAI_CLEAN>\ub9c8\ub450\ub77c\uc774 \uc720\ud30c \ubaa8\ub4dc \ub2f9 +5% \uc570\ud504 \uc5d0\ub108\uc9c0 \uc7ac\uc0dd\ub960"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Grimoire/XataStrikeMod",
             "name": "\uc790\ud0c0 \uc778\ubcf4\ucf00\uc774\uc158",
             "polarity": "AP_TACTIC",
@@ -48749,22 +49808,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +1\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4."
+                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +1\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4"
                     ]
                 },
                 {
                     "stats": [
-                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +2\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4."
+                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +2\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4"
                     ]
                 },
                 {
                     "stats": [
-                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +3\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4."
+                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +3\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4"
                     ]
                 },
                 {
                     "stats": [
-                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +4\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4."
+                        "\ub3d9\ubc18\uc790\uac00 \uc6cc\ud504\ub808\uc784\uc758 15m \ubc94\uc704 \ub0b4\uc5d0 \uc788\ub294 \uc801\uc744 \uc6b0\uc120\uc801\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4. \uacf5\uaca9\uc740 +4\ud68c\uc758 <DT_PUNCTURE_COLOR>\uad00\ud1b5 \uc0c1\ud0dc \uc774\uc0c1 \ud6a8\uacfc\ub97c \ubd80\uc5ec\ud569\ub2c8\ub2e4"
                     ]
                 }
             ]
@@ -56934,6 +57993,53 @@
             ],
             "tags": [
                 "Mentor's Legacy"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Antiques/SampleAntiqueUpgrade",
+            "name": "",
+            "polarity": "AP_UNIVERSAL",
+            "rarity": "COMMON",
+            "codexSecret": false,
+            "baseDrain": 0,
+            "fusionLimit": 5,
+            "excludeFromCodex": true,
+            "compatName": "\ubaa8\ub4e0",
+            "type": "---",
+            "tags": [
+                ""
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+5,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+10,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+15,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+20,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+25,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+30,000 \uccb4\ub825 \uc7ac\uc0dd\ub960"
+                    ]
+                }
             ]
         },
         {
@@ -130274,6 +131380,55 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Tau/HealthPickupGivesArmourMax",
+            "name": "\ud5ec\uc2a4 \ucee8\ubc84\uc804",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 10,
+            "fusionLimit": 5,
+            "compatName": "\uc6cc\ud504\ub808\uc784",
+            "type": "WARFRAME",
+            "description": [
+                "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+            ],
+            "tags": [
+                "Health Conversion"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                },
+                {
+                    "stats": [
+                        "\uccb4\ub825 \uc624\ube0c \ud68d\ub4dd \uc2dc \ubc29\uc5b4\ub825\uc774 |ARMOUR| \uc0c1\uc2b9\ud558\uba70, \ucd5c\ub300 |STACKS|\ud68c \uc911\ucca9\ub429\ub2c8\ub2e4. |DURATION|\ucd08 \ud6c4 \uc911\ucca9\ub41c \ubc29\uc5b4\ub825\uc5d0 \ud53c\ud574\ub97c \uc785\uc744 \uc2dc 1\uc911\ucca9\uc529 \uc904\uc5b4\ub4ed\ub2c8\ub2e4."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherInnateDamageRandomMod",
             "name": "\uc5b8\ud4e8\uc988\ub4dc \uc544\ud2f0\ud329\ud2b8",
             "polarity": "AP_UNIVERSAL",
@@ -134754,6 +135909,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade",
+            "name": "Rain of Arrows",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.50s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.45s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.40s cooldown between arrows."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On dealing damage, fire an arrow at an enemy with 0.35s cooldown between arrows."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade",
+            "name": "Downpour",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 1 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 2 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 3 additional enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rain of Arrows will also target 4 additional enemies within 10m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade",
+            "name": "Surging Storm",
+            "polarity": "AP_ATTACK",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 3.5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 4m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 4.5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase Rain of Arrows radius to 5m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade",
+            "name": "Overwhelming Power",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Gain +2% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +3% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +4% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +40%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Gain +5% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +50%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateUpgrade",
+            "name": "Thara Tauron Strike",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 4s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 5s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 6s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 7s."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade",
             "name": "Guardian Blast",
             "polarity": "AP_DEFENSE",
@@ -135212,6 +136527,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade",
+            "name": "Swelling Deluge",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase vortex duration to 25s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 30s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 35s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase vortex duration to 40s."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade",
+            "name": "Rift Waters",
+            "polarity": "AP_DEFENSE",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 10% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 15% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 20% per second."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex strips enemy Overguard 25% per second."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade",
+            "name": "Deathless Currents",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex heals allies for 100 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 150 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 200 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex heals allies for 250 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade",
+            "name": "Eroding Rapids",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Vortex applies 25% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 50% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 75% status vulnerability to all enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Vortex applies 100% status vulnerability to all enemies within it."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateUpgrade",
+            "name": "Nidri Tauron Strike",
+            "polarity": "AP_DEFENSE",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 20% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 30% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 40% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 50% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade",
             "name": "Voltaic Blast",
             "polarity": "AP_POWER",
@@ -135660,6 +137135,166 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade",
+            "name": "Brilliant Insight",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 4m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 8m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 12m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral pages also fire off beams that blind enemies within 16m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade",
+            "name": "Boundless Energy",
+            "polarity": "AP_POWER",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 25%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 35%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Ability strength, duration, and cast speed granted by spectral pages increased by 40%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade",
+            "name": "Prismatic Beam",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 5m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 10m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 15m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 20m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade",
+            "name": "Spectral Pages",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Create 1 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 2 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 3 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Create 4 spectral pages granting additional Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateUpgrade",
+            "name": "Lorak Tauron Strike",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 25% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 50% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 75% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 100% chance to drop Energy Orbs if killed within 10s."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade",
             "name": "Disorienting Blast",
             "polarity": "AP_TACTIC",
@@ -136091,6 +137726,166 @@
                 {
                     "stats": [
                         "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 20s."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade",
+            "name": "Hungering Blades",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Spectral weapons have a 25% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 50% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 75% chance to attack the same enemy a second time."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Spectral weapons have a 100% chance to attack the same enemy a second time."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade",
+            "name": "Spectral Blades",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon 1 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 2 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 3 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon 4 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade",
+            "name": "Flowing Strikes",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 14m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 18m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 22m."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase the range of spectral melee attacks to 26m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade",
+            "name": "Astral Cut",
+            "polarity": "AP_TACTIC",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 40%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 60%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Tauron Strike slash size is increased by 80%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade",
+            "name": "Vexoric Tauron Strike",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +2 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +4 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +6 Melee Combo from each enemy hit."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +8 Melee Combo from each enemy hit."
                     ]
                 }
             ]
@@ -136857,6 +138652,166 @@
                 {
                     "stats": [
                         "Increases Void Blast radius by 60%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade",
+            "name": "Tempered Benison",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Shockwaves create 2 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 3 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 4 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves create 5 Armor Motes that grant +450 temporary Armor. Max 5."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade",
+            "name": "Sundered Bounty",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Shockwaves generate 2 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 3 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 4 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Shockwaves generate 5 pickups, in the form of Universal Orbs or Ammo."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade",
+            "name": "Great Quake",
+            "polarity": "AP_WARD",
+            "rarity": "UNCOMMON",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Increase shockwave radius by +10%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +20%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +30%."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Increase shockwave radius by +40%."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade",
+            "name": "Seismic Impact",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 1 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 2 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 3 aerial Melee slam attacks."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Cogron Tauron Strikes enable their shockwave effect for the next 4 aerial Melee slam attacks."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateUpgrade",
+            "name": "Cogron Tauron Strike",
+            "polarity": "AP_WARD",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 3,
+            "excludeFromCodex": true,
+            "levelStats": [
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 1 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 2 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 3 times."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 4 times."
                     ]
                 }
             ]

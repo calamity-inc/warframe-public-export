@@ -2974,6 +2974,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Gyre/GyrePrime",
+            "name": "Gyre Prime",
+            "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+            "description": "G\u00fcldene Schaltkreise schlagen Funken und beleben frenetische Bewegungen, welche durch die Zeiten hallen. Tanze mit Gyre Prime in die Ewigkeit.",
+            "health": 345,
+            "shield": 640,
+            "armor": 105,
+            "stamina": 3,
+            "power": 190,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.05,
+            "passiveDescription": "Gyre F\u00e4higkeiten haben eine 10 % Chance, kritischen Schaden f\u00fcr jeden elektrischen Statuseffekt auf dem Gegner zu verursachen.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                    "abilityName": "Bogensph\u00e4re",
+                    "description": "Startet eine kreisende Sph\u00e4re, die beim Aufprall hohen Schaden verursacht und Feinden in der N\u00e4he regelm\u00e4\u00dfig Elektroschocks zuf\u00fcgt. Werden mehrere Feinde beim ersten Abschuss getroffen, wird der Schaden erh\u00f6ht."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                    "abilityName": "Spulen-Horizont",
+                    "description": "Wirf eine kreisende Sph\u00e4re nach vorne, die nach ein paar Sekunden implodiert oder manuell ausgel\u00f6st werden kann."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                    "abilityName": "Kathoden-Gnade",
+                    "description": "Erhalte einen kurzen Schub von erh\u00f6hter kritischer Chance und Energieregeneration, wobei jeder Kill die Dauer der Kathoden-Gnade verl\u00e4ngert. Aktivierung hat eine Abklingzeit. "
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                    "abilityName": "Rotorenquell",
+                    "description": "Gyres Mechanismen drehen sich unglaublich schnell und erzeugen ein elektrisches Feld, das nahe Gegner schockt. Verursacht Gyre einen Krit. Treffer, wird eine gro\u00dfe elektrische Ladung vom getroffenen Feind auf nahe Feinde \u00fcbertragen."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
             "name": "Gyre",
             "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -3766,6 +3804,44 @@
                     "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
                     "abilityName": "W\u00fcrgereiz",
                     "description": "W\u00fcrge einen in Gallensaft getr\u00e4nkten Gegner hervor, dadurch wird dieser zu einem giftigen Projektil. Nahe Feinde werden verlangsamt und ihre R\u00fcstung wird durch die Galle aufgel\u00f6st."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+            "name": "Uriel",
+            "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+            "description": "Als Ketzer von Xata zu k\u00e4mpfen bedeutet, D\u00e4monen im R\u00fccken zu haben. Uriel verbrennt Feinde mit sengendem Schwefel und befehligt drei teuflische Wesen, sein teuflisches Werk zu vollbringen.",
+            "health": 566,
+            "shield": 566,
+            "armor": 105,
+            "stamina": 3,
+            "power": 100,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.1,
+            "passiveDescription": "Uriel befehligt, st\u00e4rkt und besch\u00fctzt drei einzigartige D\u00e4monen.\r\n\r\nCATENACH: Fesselt und verlangsamt Gegner und kettet sie aneinander. Der Schaden, der einem Gegner in der Kette zugef\u00fcgt wird, wird allen gefesselten Gegnern zugef\u00fcgt. (Freigeschaltet mit Infernalis)\r\n\r\nGULPHAGOR: Hakt sich an Feinde und verursacht Schaden \u00fcber Zeit. Wird er get\u00f6tet, erscheint ein Schmerzkreis (Freigeschaltet mit Remedium)\r\n\r\nVYTHELAS: Zeichnet d\u00e4monische Runen auf gefallene Feinde, die beim Aufsammeln Feuerrate und <DT_FIRE_COLOR>Hitzeschaden hinzuf\u00fcgen. (Freigeschaltet mit D\u00e4monium)",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                    "abilityName": "Infernalis",
+                    "description": "Erzeuge eine Flammenaura, die nahen Feinden <DT_FIRE_COLOR>Hitzeschaden und Statuseffekte zuf\u00fcgt.\r\n\r\nTippe auf Ausweichen in der Luft, um als flammender Zerst\u00f6rungsmeteor abzuheben."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                    "abilityName": "Remedium",
+                    "description": "Uriel heilt sich selbst und seine D\u00e4monen. Tote D\u00e4monen werden wiedererweckt."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                    "abilityName": "D\u00e4monium",
+                    "description": "Uriel rei\u00dft seinen D\u00e4monen die Seelen heraus, was ihre Gesundheit aufzehrt und schickt sie aus, neue Opfer zu suchen. Die Seelen explodieren bei Kontakt mit einem Feind, was ihn verwundbar macht."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                    "abilityName": "Schwefel",
+                    "description": "Uriel und seine D\u00e4monen erzeugen einen wachsenden Ring aus flammendem Schwefel. Lade die F\u00e4higkeit auf, indem du D\u00e4monenf\u00e4higkeiten einsetzt. Der verursachte Schaden erh\u00f6ht sich mit jedem Treffer."
                 }
             ],
             "productCategory": "Suits"
