@@ -1,6 +1,55 @@
 {
     "ExportUpgrades": [
         {
+            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
+            "name": "Presi\u00f3n Amanata",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Amanata",
+            "type": "MELEE",
+            "description": [
+                "Cuando el multiplicador de combo llega a 8, los ataques pesados aplican un efecto de estado aleatorio a los enemigos golpeados."
+            ],
+            "tags": [
+                "Amanata Pressure"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+55 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+110 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+165 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+220 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+275 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+330 % de da\u00f1o cuerpo a cuerpo"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbTwoMeleeTree",
             "name": "V\u00edbora enroscada",
             "polarity": "AP_POWER",
@@ -984,6 +1033,55 @@
             ],
             "tags": [
                 "Rending Crane"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
+            "name": "Sierra Higasa",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Higasa",
+            "type": "PRIMARY",
+            "description": [
+                "El disparo alternativo aplica un efecto de estado aleatorio a los enemigos golpeados."
+            ],
+            "tags": [
+                "Higasa Serration"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+75% de da\u00f1o"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150% de da\u00f1o"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+225% de da\u00f1o"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300% de da\u00f1o"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+375% de da\u00f1o"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+450% de da\u00f1o"
+                    ]
+                }
             ]
         },
         {
@@ -8172,6 +8270,77 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
+            "name": "Limpieza de murmullos Prime",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Escopeta",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Cleanse The Murmur"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 de da\u00f1o a los murmullos"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageInfestedExpert",
             "name": "Limpieza de infestados Prime",
             "polarity": "AP_ATTACK",
@@ -8594,6 +8763,78 @@
                 {
                     "stats": [
                         "+100% de velocidad de recarga"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
+            "name": "Contrapeso Prime",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Escopeta",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Counterbalance"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% retroceso"
                     ]
                 }
             ]
@@ -19092,6 +19333,77 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
+            "name": "Perdici\u00f3n de los murmullos Prime",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Rifle",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Bane of The Murmur"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 de da\u00f1o a los murmullos"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 de da\u00f1o a los murmullos"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageInfested",
             "name": "Perdici\u00f3n de los infestados Prime",
             "polarity": "AP_ATTACK",
@@ -28348,6 +28660,78 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
+            "name": "Manos firmes Prime",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Pistola",
+            "type": "SECONDARY",
+            "tags": [
+                "Primed Steady Hands"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% retroceso"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% retroceso"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert",
             "name": "Expeler murmullos Prime",
             "polarity": "AP_ATTACK",
@@ -29591,6 +29975,52 @@
                 {
                     "stats": [
                         "Al golpear:\r\n+30 % precisi\u00f3n al apuntar por 9s."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod",
+            "name": "Conclusi\u00f3n Velox",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Velox",
+            "type": "SECONDARY",
+            "tags": [
+                "Velox Conclusion"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.1 % de fuerza de habilidad hasta un m\u00e1ximo de 10 %. Se consume en tu siguiente lanzamiento de habilidad."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.2 % de fuerza de habilidad hasta un m\u00e1ximo de 20 %. Se consume en tu siguiente lanzamiento de habilidad."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.3 % de fuerza de habilidad hasta un m\u00e1ximo de 30 %. Se consume en tu siguiente lanzamiento de habilidad."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.4 % de fuerza de habilidad hasta un m\u00e1ximo de 40 %. Se consume en tu siguiente lanzamiento de habilidad."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.5 % de fuerza de habilidad hasta un m\u00e1ximo de 50 %. Se consume en tu siguiente lanzamiento de habilidad."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Al golpear, obtienes +0.6 % de fuerza de habilidad hasta un m\u00e1ximo de 60 %. Se consume en tu siguiente lanzamiento de habilidad."
                     ]
                 }
             ]
@@ -35844,6 +36274,52 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod",
+            "name": "Incisi\u00f3n consciente",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Venato",
+            "type": "MELEE",
+            "tags": [
+                "Sentient Incision"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+20 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+80 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+120 % de da\u00f1o adicional correspondiente a la debilidad del objetivo. No se combina con otros tipos de da\u00f1o."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveStalkerScytheAugmentMod",
             "name": "Odio ardiente",
             "polarity": "AP_ATTACK",
@@ -40158,7 +40634,7 @@
             "compatName": "AURA",
             "type": "AURA",
             "tags": [
-                "Summoner\u2019s Wrath"
+                "Summoner's Wrath"
             ],
             "levelStats": [
                 {
@@ -42518,6 +42994,77 @@
                     "stats": [
                         "+100% de probabilidad de resistir desequilibrios/derribos al apuntar",
                         "+50% de precisi\u00f3n al apuntar"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
+            "name": "Peine ponzo\u00f1oso Prime",
+            "polarity": "AP_DEFENSE",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Archca\u00f1\u00f3n",
+            "type": "ARCH-GUN",
+            "tags": [
+                "Primed Venomous Clip"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+17% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+34% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+51% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+68% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+85% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+102% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+119% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+136% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+153% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+170% de <DT_POISON_COLOR>toxina"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+187% de <DT_POISON_COLOR>toxina"
                     ]
                 }
             ]
@@ -44961,6 +45508,47 @@
                 {
                     "stats": [
                         "Habilita el Tennokai. Aumenta la probabilidad de oportunidad en un 50 % y el da\u00f1o cr\u00edtico en un 32 % para los ataques Tennokai."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
+            "name": "Flama de la verdad",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "isUtility": true,
+            "compatName": "Cuerpo a cuerpo",
+            "type": "MELEE",
+            "tags": [
+                "Truth's Flame"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Activa el Tennokai.\r\nLos asesinatos con Tennokai otorgan una oportunidad adicional de 4 s con un bono de da\u00f1o cuerpo a cuerpo de +30 %. Si fallas y no eliminas a un objetivo con un ataque Tennokai, te autoinfligir\u00e1s 25 de da\u00f1o de <DT_FIRE_COLOR>calor/s durante 6 s y el contador de combo se reiniciar\u00e1.",
+                        "+0.3 'Verdad'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Activa el Tennokai.\r\nLos asesinatos con Tennokai otorgan una oportunidad adicional de 4 s con un bono de da\u00f1o cuerpo a cuerpo de +40 %. Si fallas y no eliminas a un objetivo con un ataque Tennokai, te autoinfligir\u00e1s 35 de da\u00f1o de <DT_FIRE_COLOR>calor/s durante 6 s y el contador de combo se reiniciar\u00e1.",
+                        "+0.5 'Verdad'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Activa el Tennokai.\r\nLos asesinatos con Tennokai otorgan una oportunidad adicional de 4 s con un bono de da\u00f1o cuerpo a cuerpo de +60 %. Si fallas y no eliminas a un objetivo con un ataque Tennokai, te autoinfligir\u00e1s 50 de da\u00f1o de <DT_FIRE_COLOR>calor/s durante 6 s y el contador de combo se reiniciar\u00e1.",
+                        "+0.8 'Verdad'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Activa el Tennokai.\r\nLos asesinatos con Tennokai otorgan una oportunidad adicional de 4 s con un bono de da\u00f1o cuerpo a cuerpo de +120 %. Si fallas y no eliminas a un objetivo con un ataque Tennokai, te autoinfligir\u00e1s 100 de da\u00f1o de <DT_FIRE_COLOR>calor/s durante 6 s y el contador de combo se reiniciar\u00e1.",
+                        "+1 'Verdad'"
                     ]
                 }
             ]
@@ -58050,7 +58638,6 @@
             "codexSecret": true,
             "baseDrain": 0,
             "fusionLimit": 10,
-            "excludeFromCodex": true,
             "compatName": "Archca\u00f1\u00f3n",
             "type": "ARCH-GUN",
             "tags": [
@@ -58182,77 +58769,6 @@
                 {
                     "stats": [
                         "+187% de <DT_FIRE_COLOR>calor"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
-            "name": "Peine ponzo\u00f1oso Prime",
-            "polarity": "AP_DEFENSE",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Archca\u00f1\u00f3n",
-            "type": "ARCH-GUN",
-            "tags": [
-                "Primed Venomous Clip"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+17% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+34% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+51% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+68% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+85% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+102% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+119% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+136% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+153% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+170% de <DT_POISON_COLOR>toxina"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+187% de <DT_POISON_COLOR>toxina"
                     ]
                 }
             ]
@@ -59126,78 +59642,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPSubMod",
-            "name": "Acero galvanizado",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Steel"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+2.7% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+5.5% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+8.2% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+10.9% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+13.6% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+16.4% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+19.1% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+21.8% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+24.5% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+27.3% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+30% de da\u00f1o cr\u00edtico por 20 s. Se acumula hasta 4 veces."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritDamageModExpert",
             "name": "Destructor de \u00f3rganos",
             "polarity": "AP_ATTACK",
@@ -59707,78 +60151,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPSubMod",
-            "name": "Reflejo galvanizado",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Reflex"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+2 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+4 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+6 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+7 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+9 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+11 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+13 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+15 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+17 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+19 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+20 de combo inicial por 20 s. Se acumula hasta 4 veces."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeChannelingEfficiencyModExpert",
             "name": "Espiral de reflejo",
             "polarity": "AP_TACTIC",
@@ -59916,78 +60288,6 @@
                 {
                     "stats": [
                         "+165% de da\u00f1o al rematar"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPSubMod",
-            "name": "Elementalista galvanizado",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Elementalist"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+2.7% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+5.5% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+8.2% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+10.9% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+13.6% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+16.4% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+19.1% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+21.8% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+24.5% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+27.3% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Al asesinar con cuerpo a cuerpo:\r\n+30% de probabilidad de estado por 20 s. Se acumula hasta 4 veces."
                     ]
                 }
             ]
@@ -62064,78 +62364,6 @@
                 {
                     "stats": [
                         "+3.9 de atravesar"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
-            "name": "Manos firmes Prime",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Pistola",
-            "type": "SECONDARY",
-            "tags": [
-                "Primed Steady Hands"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% retroceso"
                     ]
                 }
             ]
@@ -124715,77 +124943,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
-            "name": "Perdici\u00f3n de los murmullos Prime",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Rifle",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Bane of The Murmur"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 de da\u00f1o a los murmullos"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/SniperReloadDamageModExpert",
             "name": "C\u00e1mara cargada Prime",
             "polarity": "AP_ATTACK",
@@ -127892,149 +128049,6 @@
                 {
                     "stats": [
                         "+3.9 de atravesar"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
-            "name": "Contrapeso Prime",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Counterbalance"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% retroceso"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% retroceso"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
-            "name": "Limpieza de murmullos Prime",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Cleanse The Murmur"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 de da\u00f1o a los murmullos"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 de da\u00f1o a los murmullos"
                     ]
                 }
             ]
@@ -131418,147 +131432,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityRangeSubMod",
-            "name": "Estiramiento Arconte",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Stretch"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Las habilidades que infligen da\u00f1o de <DT_ELECTRICITY_COLOR>electricidad restauran +2 de energ\u00eda/s durante 5 s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityStrengthSubMod",
-            "name": "Intensificaci\u00f3n Arconte",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Intensify"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar salud con habilidades otorga +30 % de fuerza de habilidad por 10 s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarDropEnergySubMod",
-            "name": "Flujo Arconte",
-            "polarity": "AP_TACTIC",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 4,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Flow"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Los enemigos asesinados por habilidades de <DT_FREEZE_COLOR>fr\u00edo tienen un 10 % de probabilidad de soltar un orbe de energ\u00eda. Tiempo de espera: 10 s"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceStun",
             "name": "Enfoque resistente",
             "polarity": "AP_DEFENSE",
@@ -131926,104 +131799,6 @@
                         {
                             "value": 0.1
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
-            "name": "Sierra Higasa",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Higasa",
-            "type": "PRIMARY",
-            "description": [
-                "El disparo alternativo aplica un efecto de estado aleatorio a los enemigos golpeados."
-            ],
-            "tags": [
-                "Higasa Serration"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+75% de da\u00f1o"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+150% de da\u00f1o"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+225% de da\u00f1o"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+300% de da\u00f1o"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+375% de da\u00f1o"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+450% de da\u00f1o"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
-            "name": "Presi\u00f3n Amanata",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Amanata",
-            "type": "MELEE",
-            "description": [
-                "Cuando el multiplicador de combo llega a 8, los ataques pesados aplican un efecto de estado aleatorio a los enemigos golpeados."
-            ],
-            "tags": [
-                "Amanata Pressure"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+55 % de da\u00f1o cuerpo a cuerpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+110 % de da\u00f1o cuerpo a cuerpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+165 % de da\u00f1o cuerpo a cuerpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+220 % de da\u00f1o cuerpo a cuerpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+275 % de da\u00f1o cuerpo a cuerpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+330 % de da\u00f1o cuerpo a cuerpo"
                     ]
                 }
             ]

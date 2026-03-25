@@ -2265,29 +2265,6 @@
             "secretIngredients": []
         },
         {
-            "uniqueName": "/Lotus/Types/Keys/RetrievalKeyBlueprint",
-            "resultType": "/Lotus/Types/Keys/TestKeyShipyardsRetrieval",
-            "buildPrice": 5000,
-            "buildTime": 60,
-            "skipBuildTimePrice": 5,
-            "consumeOnUse": false,
-            "num": 1,
-            "codexSecret": false,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/DataFragment",
-                    "ItemCount": 3,
-                    "ProductCategory": "MiscItems"
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                    "ItemCount": 1000,
-                    "ProductCategory": "MiscItems"
-                }
-            ],
-            "secretIngredients": []
-        },
-        {
             "uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/DemolitionArchwing/DemolitionArchwingBlueprint",
             "resultType": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
             "buildPrice": 25000,
@@ -17267,7 +17244,7 @@
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
-            "primeSellingPrice": 100,
+            "primeSellingPrice": 65,
             "ingredients": [
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
@@ -19149,7 +19126,7 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburBlueprint",
             "resultType": "/Lotus/Powersuits/Excalibur/Excalibur",
             "buildPrice": 25000,
-            "buildTime": 259200,
+            "buildTime": 86400,
             "skipBuildTimePrice": 50,
             "consumeOnUse": true,
             "num": 1,
@@ -19433,6 +19410,138 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
                     "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FollieBlueprint",
+            "resultType": "/Lotus/Powersuits/Inkblot/Inkblot",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 800,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 800,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 600,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                    "ItemCount": 150,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 4,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 50,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -20042,7 +20151,7 @@
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
-            "primeSellingPrice": 100,
+            "primeSellingPrice": 65,
             "ingredients": [
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
@@ -23446,7 +23555,7 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/MagBlueprint",
             "resultType": "/Lotus/Powersuits/Mag/Mag",
             "buildPrice": 25000,
-            "buildTime": 259200,
+            "buildTime": 86400,
             "skipBuildTimePrice": 50,
             "consumeOnUse": true,
             "num": 1,
@@ -29363,7 +29472,7 @@
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/VOLTBlueprint",
             "resultType": "/Lotus/Powersuits/Volt/Volt",
             "buildPrice": 25000,
-            "buildTime": 259200,
+            "buildTime": 86400,
             "skipBuildTimePrice": 50,
             "consumeOnUse": true,
             "num": 1,
@@ -30031,7 +30140,7 @@
             "consumeOnUse": true,
             "num": 1,
             "codexSecret": false,
-            "primeSellingPrice": 100,
+            "primeSellingPrice": 65,
             "ingredients": [
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
@@ -32221,6 +32330,18 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGhoulSawBlueprint",
+            "resultType": "/Lotus/Weapons/Grineer/KuvaLich/Melee/Ghoulsaw/KuvaGhoulSaw",
+            "buildPrice": 10000,
+            "buildTime": 60,
+            "skipBuildTimePrice": 0,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGrattlerBlueprint",
             "resultType": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
             "buildPrice": 10000,
@@ -32475,6 +32596,18 @@
         {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEPlinxBlueprint",
             "resultType": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+            "buildPrice": 10000,
+            "buildTime": 60,
+            "skipBuildTimePrice": 0,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEQuantaBlueprint",
+            "resultType": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEQuanta/CrpBEQuanta",
             "buildPrice": 10000,
             "buildTime": 60,
             "skipBuildTimePrice": 0,
@@ -34228,6 +34361,108 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
                     "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrelBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrel",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 180,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 20,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiverBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiver",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                    "ItemCount": 150,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStockBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStock",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 200,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 400,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -40042,6 +40277,35 @@
                 {
                     "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
                     "ItemCount": 50,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/EnkausBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/LongGuns/TnInkRifle/TnInkRifleWeapon",
+            "buildPrice": 30000,
+            "buildTime": 86400,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStock",
+                    "ItemCount": 1,
                     "ProductCategory": "MiscItems"
                 }
             ],

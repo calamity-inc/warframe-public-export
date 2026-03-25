@@ -1,6 +1,55 @@
 {
     "ExportUpgrades": [
         {
+            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
+            "name": "Amanata Pressure",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Amanata",
+            "type": "MELEE",
+            "description": [
+                "Quando o Multiplicador de Combo atingir 8x, os Ataques Pesados aplicar\u00e3o um Efeito de Status aleat\u00f3rio aos inimigos atingidos."
+            ],
+            "tags": [
+                "Amanata Pressure"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+55% de Dano Corpo a Corpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+110% de Dano Corpo a Corpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+165% de Dano Corpo a Corpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+220% de Dano Corpo a Corpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+275% de Dano Corpo a Corpo"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+330% de Dano Corpo a Corpo"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbTwoMeleeTree",
             "name": "Coiling Viper",
             "polarity": "AP_POWER",
@@ -984,6 +1033,55 @@
             ],
             "tags": [
                 "Rending Crane"
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
+            "name": "Higasa Serration",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Higasa",
+            "type": "PRIMARY",
+            "description": [
+                "O Disparo Alternativo aplicar\u00e1 um Efeito de Status aleat\u00f3rio aos inimigos atingidos."
+            ],
+            "tags": [
+                "Higasa Serration"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+75% de Dano"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150% de Dano"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+225% de Dano"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300% de Dano"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+375% de Dano"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+450% de Dano"
+                    ]
+                }
             ]
         },
         {
@@ -3130,22 +3228,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ]
@@ -8172,6 +8270,77 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
+            "name": "Primed Cleanse The Murmur",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Escopeta",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Cleanse The Murmur"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 de Dano contra o Murm\u00fario"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageInfestedExpert",
             "name": "Primed Cleanse Infested",
             "polarity": "AP_ATTACK",
@@ -8594,6 +8763,78 @@
                 {
                     "stats": [
                         "+100% de Velocidade de Recarga"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
+            "name": "Primed Counterbalance",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Escopeta",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Counterbalance"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% de Recuo da Arma"
                     ]
                 }
             ]
@@ -11839,32 +12080,32 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +7.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +7.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +15% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +15% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +22.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +22.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +37.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +37.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +45% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +45% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ],
@@ -19087,6 +19328,77 @@
                 {
                     "stats": [
                         "+55% de Capacidade do Carregador"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
+            "name": "Primed Bane of The Murmur",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Rifle",
+            "type": "PRIMARY",
+            "tags": [
+                "Primed Bane of The Murmur"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 de Dano contra o Murm\u00fario"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 de Dano contra o Murm\u00fario"
                     ]
                 }
             ]
@@ -28348,6 +28660,78 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
+            "name": "Primed Steady Hands",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Pistola",
+            "type": "SECONDARY",
+            "tags": [
+                "Primed Steady Hands"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% de Recuo da Arma"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% de Recuo da Arma"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert",
             "name": "Primed Expel The Murmur",
             "polarity": "AP_ATTACK",
@@ -29591,6 +29975,52 @@
                 {
                     "stats": [
                         "No Acerto:\r\n+30% de Precis\u00e3o ao Mirar por 9s"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod",
+            "name": "Velox Conclusion",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Velox",
+            "type": "SECONDARY",
+            "tags": [
+                "Velox Conclusion"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.1% de For\u00e7a da Habilidade, at\u00e9 o limite de 10%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.2% de For\u00e7a da Habilidade, at\u00e9 o limite de 20%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.3% de For\u00e7a da Habilidade, at\u00e9 o limite de 30%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.4% de For\u00e7a da Habilidade, at\u00e9 o limite de 40%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.5% de For\u00e7a da Habilidade, at\u00e9 o limite de 50%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
+                    ]
+                },
+                {
+                    "stats": [
+                        "No acerto, fornecer\u00e1 +0.6% de For\u00e7a da Habilidade, at\u00e9 o limite de 60%. O efeito ser\u00e1 consumido na pr\u00f3xima conjura\u00e7\u00e3o."
                     ]
                 }
             ]
@@ -32132,32 +32562,32 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +2.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +2.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +7.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +7.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +12.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +12.5% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +15% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +15% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ]
@@ -35839,6 +36269,52 @@
                 {
                     "stats": [
                         "Ao bloquear, redirecionar\u00e1 50% do dano recebido por aliados a voc\u00ea no raio de 12m."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod",
+            "name": "Sentient Incision",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Venato",
+            "type": "MELEE",
+            "tags": [
+                "Sentient Incision"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+20% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+80% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+120% de dano adicional correspondente \u00e0 fraqueza do alvo. N\u00e3o se combinar\u00e1 com outros tipos de dano."
                     ]
                 }
             ]
@@ -40149,7 +40625,7 @@
         },
         {
             "uniqueName": "/Lotus/Upgrades/Mods/Aura/PlayerCompanionSummonDamageAuraMod",
-            "name": "Summoner\u2019s Wrath",
+            "name": "Summoner's Wrath",
             "polarity": "AP_ATTACK",
             "rarity": "UNCOMMON",
             "codexSecret": false,
@@ -40158,7 +40634,7 @@
             "compatName": "AURA",
             "type": "AURA",
             "tags": [
-                "Summoner\u2019s Wrath"
+                "Summoner's Wrath"
             ],
             "levelStats": [
                 {
@@ -41054,22 +41530,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ]
@@ -42518,6 +42994,77 @@
                     "stats": [
                         "+100% de Chance de Resistir Contra Derrubadas e Atordoamentos ao Mirar",
                         "+50% de Precis\u00e3o ao Mirar"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
+            "name": "Primed Venomous Clip",
+            "polarity": "AP_DEFENSE",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Arch-Arma",
+            "type": "ARCH-GUN",
+            "tags": [
+                "Primed Venomous Clip"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+17% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+34% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+51% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+68% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+85% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+102% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+119% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+136% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+153% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+170% de <DT_POISON_COLOR>T\u00f3xico"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+187% de <DT_POISON_COLOR>T\u00f3xico"
                     ]
                 }
             ]
@@ -44961,6 +45508,47 @@
                 {
                     "stats": [
                         "Habilitar\u00e1 a Tennokai. Aumentar\u00e1 a chance de Oportunidade em 50% e o Dano Cr\u00edtico em 32% para ataques Tennokai."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
+            "name": "Chama da Verdade",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "isUtility": true,
+            "compatName": "Corpo a Corpo",
+            "type": "MELEE",
+            "tags": [
+                "Truth's Flame"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Habilitar\u00e1 a Tennokai.\r\nElimina\u00e7\u00f5es com a Tennokai conceder\u00e3o uma oportunidade adicional de 4 segundos, com b\u00f4nus de +30% de Dano Corpo a Corpo. Falhar ao eliminar um alvo com um ataque Tennokai lhe causar\u00e1 25 de Dano <DT_FIRE_COLOR>\u00cdgneo/s, ao longo de 6 segundos, e zerar\u00e1 o Contador de Combo.",
+                        "+0.3 \"Verdade\""
+                    ]
+                },
+                {
+                    "stats": [
+                        "Habilitar\u00e1 a Tennokai.\r\nElimina\u00e7\u00f5es com a Tennokai conceder\u00e3o uma oportunidade adicional de 4 segundos, com b\u00f4nus de +40% de Dano Corpo a Corpo. Falhar ao eliminar um alvo com um ataque Tennokai lhe causar\u00e1 35 de Dano <DT_FIRE_COLOR>\u00cdgneo/s, ao longo de 6 segundos, e zerar\u00e1 o Contador de Combo.",
+                        "+0.5 \"Verdade\""
+                    ]
+                },
+                {
+                    "stats": [
+                        "Habilitar\u00e1 a Tennokai.\r\nElimina\u00e7\u00f5es com a Tennokai conceder\u00e3o uma oportunidade adicional de 4 segundos, com b\u00f4nus de +60% de Dano Corpo a Corpo. Falhar ao eliminar um alvo com um ataque Tennokai lhe causar\u00e1 50 de Dano <DT_FIRE_COLOR>\u00cdgneo/s, ao longo de 6 segundos, e zerar\u00e1 o Contador de Combo.",
+                        "+0.8 \"Verdade\""
+                    ]
+                },
+                {
+                    "stats": [
+                        "Habilitar\u00e1 a Tennokai.\r\nElimina\u00e7\u00f5es com a Tennokai conceder\u00e3o uma oportunidade adicional de 4 segundos, com b\u00f4nus de +120% de Dano Corpo a Corpo. Falhar ao eliminar um alvo com um ataque Tennokai lhe causar\u00e1 100 de Dano <DT_FIRE_COLOR>\u00cdgneo/s, ao longo de 6 segundos, e zerar\u00e1 o Contador de Combo.",
+                        "+1 \"Verdade\""
                     ]
                 }
             ]
@@ -58050,7 +58638,6 @@
             "codexSecret": true,
             "baseDrain": 0,
             "fusionLimit": 10,
-            "excludeFromCodex": true,
             "compatName": "Arch-Arma",
             "type": "ARCH-GUN",
             "tags": [
@@ -58182,77 +58769,6 @@
                 {
                     "stats": [
                         "+187% de <DT_FIRE_COLOR>\u00cdgneo"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
-            "name": "Primed Venomous Clip",
-            "polarity": "AP_DEFENSE",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Arch-Arma",
-            "type": "ARCH-GUN",
-            "tags": [
-                "Primed Venomous Clip"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+17% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+34% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+51% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+68% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+85% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+102% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+119% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+136% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+153% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+170% de <DT_POISON_COLOR>T\u00f3xico"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+187% de <DT_POISON_COLOR>T\u00f3xico"
                     ]
                 }
             ]
@@ -59126,78 +59642,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPSubMod",
-            "name": "Galvanized Steel",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Steel"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+2.7% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+5.5% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+8.2% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+10.9% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+13.6% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+16.4% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+19.1% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+21.8% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+24.5% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+27.3% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+30% de Dano Cr\u00edtico durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritDamageModExpert",
             "name": "Organ Shatter",
             "polarity": "AP_ATTACK",
@@ -59707,78 +60151,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPSubMod",
-            "name": "Galvanized Reflex",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Reflex"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+2 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+4 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+6 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+7 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+9 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+11 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+13 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+15 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+17 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+19 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+20 Combo Inicial durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeChannelingEfficiencyModExpert",
             "name": "Reflex Coil",
             "polarity": "AP_TACTIC",
@@ -59916,78 +60288,6 @@
                 {
                     "stats": [
                         "+165% de Dano da Finaliza\u00e7\u00e3o"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPSubMod",
-            "name": "Galvanized Elementalist",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Galvanized Elementalist"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+2.7% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+5.5% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+8.2% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+10.9% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+13.6% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+16.4% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+19.1% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+21.8% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+24.5% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+27.3% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Ao Eliminar Inimigos no Corpo a corpo:\r\n+30% de Chance de Status durante 20s. Acumular\u00e1 at\u00e9 4 vezes."
                     ]
                 }
             ]
@@ -62064,78 +62364,6 @@
                 {
                     "stats": [
                         "+3.9 de Penetra\u00e7\u00e3o"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
-            "name": "Primed Steady Hands",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Pistola",
-            "type": "SECONDARY",
-            "tags": [
-                "Primed Steady Hands"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% de Recuo da Arma"
                     ]
                 }
             ]
@@ -124715,77 +124943,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
-            "name": "Primed Bane of The Murmur",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Rifle",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Bane of The Murmur"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 de Dano contra o Murm\u00fario"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/SniperReloadDamageModExpert",
             "name": "Primed Charged Chamber",
             "polarity": "AP_ATTACK",
@@ -127897,149 +128054,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
-            "name": "Primed Counterbalance",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Counterbalance"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% de Recuo da Arma"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% de Recuo da Arma"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
-            "name": "Primed Cleanse The Murmur",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Escopeta",
-            "type": "PRIMARY",
-            "tags": [
-                "Primed Cleanse The Murmur"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 de Dano contra o Murm\u00fario"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 de Dano contra o Murm\u00fario"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponSlashDamageModExpert",
             "name": "Shredder",
             "polarity": "AP_TACTIC",
@@ -129997,57 +130011,57 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +50% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +50% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +60% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +60% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +70% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +70% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +80% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +80% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +90% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +90% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +100% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +100% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +110% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +110% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ]
@@ -131008,32 +131022,32 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +10% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +20% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +30% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +40% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +50% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +50% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 },
                 {
                     "stats": [
-                        "Converter\u00e1 +60% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada ser\u00e1 utilizada para o c\u00e1lculo."
+                        "Converter\u00e1 +60% do dano recebido na Vida em Energia. Se n\u00e3o possuir Escudos, a Guarda Refor\u00e7ada recebida de aliados ser\u00e1 utilizada para o c\u00e1lculo."
                     ]
                 }
             ]
@@ -131418,147 +131432,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityRangeSubMod",
-            "name": "Archon Stretch",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Stretch"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Habilidades que causam Dano <DT_ELECTRICITY_COLOR>El\u00e9trico restaurar\u00e3o +2 de Energia/s ao longo de 5s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityStrengthSubMod",
-            "name": "Archon Intensify",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Intensify"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restaurar Vida com Habilidades conceder\u00e1 +30% de For\u00e7a da Habilidade durante 10s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarDropEnergySubMod",
-            "name": "Archon Flow",
-            "polarity": "AP_TACTIC",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 4,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Archon Flow"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Inimigos eliminados por Habilidades que infligem Dano <DT_FREEZE_COLOR>Glacial ter\u00e3o 10% de chance de fornecer um Orbe de Energia. Tempo de Recarga: 10s"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceStun",
             "name": "Resilient Focus",
             "polarity": "AP_DEFENSE",
@@ -131929,104 +131802,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
-            "name": "Higasa Serration",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Higasa",
-            "type": "PRIMARY",
-            "description": [
-                "O Disparo Alternativo aplicar\u00e1 um Efeito de Status aleat\u00f3rio aos inimigos atingidos."
-            ],
-            "tags": [
-                "Higasa Serration"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+75% de Dano"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+150% de Dano"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+225% de Dano"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+300% de Dano"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+375% de Dano"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+450% de Dano"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
-            "name": "Amanata Pressure",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Amanata",
-            "type": "MELEE",
-            "description": [
-                "Quando o Multiplicador de Combo atingir 8x, os Ataques Pesados aplicar\u00e3o um Efeito de Status aleat\u00f3rio aos inimigos atingidos."
-            ],
-            "tags": [
-                "Amanata Pressure"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+55% de Dano Corpo a Corpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+110% de Dano Corpo a Corpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+165% de Dano Corpo a Corpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+220% de Dano Corpo a Corpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+275% de Dano Corpo a Corpo"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+330% de Dano Corpo a Corpo"
-                    ]
-                }
-            ]
         }
     ],
     "ExportModSet": [
@@ -132303,7 +132078,7 @@
         },
         {
             "uniqueName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
-            "name": "V\u00f3rtex de Muni\u00e7\u00e3o",
+            "name": "V\u00f3rtice de Muni\u00e7\u00e3o",
             "polarity": "AP_UNIVERSAL",
             "rarity": "UNCOMMON",
             "codexSecret": false,
@@ -132312,47 +132087,47 @@
             "levelStats": [
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 },
                 {
                     "stats": [
-                        "V\u00f3rtex que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
+                        "V\u00f3rtice que absorve os disparos pr\u00f3ximos e causa dano quando \u00e9 detonado."
                     ]
                 }
             ]

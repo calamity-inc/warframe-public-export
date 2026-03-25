@@ -1,6 +1,52 @@
 {
     "ExportUpgrades": [
         {
+            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
+            "name": "Amanata Pressure",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Amanata",
+            "type": "MELEE",
+            "description": [
+                "When Combo Multiplier reaches 8x, Heavy attacks apply a random Status Effect to enemies hit."
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+55% Melee Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+110% Melee Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+165% Melee Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+220% Melee Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+275% Melee Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+330% Melee Damage"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbTwoMeleeTree",
             "name": "Coiling Viper",
             "polarity": "AP_POWER",
@@ -810,6 +856,52 @@
             "type": "STANCE",
             "description": [
                 "Downward cuts with an impact combo."
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
+            "name": "Higasa Serration",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 5,
+            "compatName": "Higasa",
+            "type": "PRIMARY",
+            "description": [
+                "Alternate Fire applies a random Status Effect to enemies hit."
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+75% Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+150% Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+225% Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+300% Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+375% Damage"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+450% Damage"
+                    ]
+                }
             ]
         },
         {
@@ -7575,6 +7667,74 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
+            "name": "Primed Cleanse The Murmur",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Shotgun",
+            "type": "PRIMARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 Damage to Murmur"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageInfestedExpert",
             "name": "Primed Cleanse Infested",
             "polarity": "AP_ATTACK",
@@ -7979,6 +8139,75 @@
                 {
                     "stats": [
                         "+100% Reload Speed"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
+            "name": "Primed Counterbalance",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Shotgun",
+            "type": "PRIMARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% Weapon Recoil"
                     ]
                 }
             ]
@@ -17871,6 +18100,74 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
+            "name": "Primed Bane of The Murmur",
+            "polarity": "AP_ATTACK",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Rifle",
+            "type": "PRIMARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "x1.05 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.1 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.15 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.2 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.25 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.3 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.35 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.4 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.45 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.5 Damage to Murmur"
+                    ]
+                },
+                {
+                    "stats": [
+                        "x1.55 Damage to Murmur"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageInfested",
             "name": "Primed Bane of Infested",
             "polarity": "AP_ATTACK",
@@ -26443,6 +26740,75 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
+            "name": "Primed Steady Hands",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 2,
+            "fusionLimit": 10,
+            "isUtility": true,
+            "compatName": "Pistol",
+            "type": "SECONDARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "-7.7% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-15.5% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-23.2% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-30.9% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-38.6% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-46.4% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-54.1% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-61.8% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-69.5% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-77.3% Weapon Recoil"
+                    ]
+                },
+                {
+                    "stats": [
+                        "-85% Weapon Recoil"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert",
             "name": "Primed Expel The Murmur",
             "polarity": "AP_ATTACK",
@@ -27626,6 +27992,49 @@
                 {
                     "stats": [
                         "On Hit:\r\n+30% Accuracy when Aiming for 9s"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod",
+            "name": "Velox Conclusion",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Velox",
+            "type": "SECONDARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "On hit, gain +0.1% Ability Strength up to 10% maximum. Consumed on your next Ability cast."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On hit, gain +0.2% Ability Strength up to 20% maximum. Consumed on your next Ability cast."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On hit, gain +0.3% Ability Strength up to 30% maximum. Consumed on your next Ability cast."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On hit, gain +0.4% Ability Strength up to 40% maximum. Consumed on your next Ability cast."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On hit, gain +0.5% Ability Strength up to 50% maximum. Consumed on your next Ability cast."
+                    ]
+                },
+                {
+                    "stats": [
+                        "On hit, gain +0.6% Ability Strength up to 60% maximum. Consumed on your next Ability cast."
                     ]
                 }
             ]
@@ -33498,6 +33907,49 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod",
+            "name": "Sentient Incision",
+            "polarity": "AP_TACTIC",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "Venato",
+            "type": "MELEE",
+            "levelStats": [
+                {
+                    "stats": [
+                        "+20% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+40% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+60% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+80% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+100% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "+120% additional damage matching the target's weakness. Does not combine with other damage types."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveStalkerScytheAugmentMod",
             "name": "Burning Hate",
             "polarity": "AP_ATTACK",
@@ -37458,7 +37910,7 @@
         },
         {
             "uniqueName": "/Lotus/Upgrades/Mods/Aura/PlayerCompanionSummonDamageAuraMod",
-            "name": "Summoner\u2019s Wrath",
+            "name": "Summoner's Wrath",
             "polarity": "AP_ATTACK",
             "rarity": "UNCOMMON",
             "codexSecret": false,
@@ -39671,6 +40123,74 @@
                     "stats": [
                         "+100% Chance to Resist Staggers/Knockdowns when Aiming",
                         "+50% Accuracy when Aiming"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
+            "name": "Primed Venomous Clip",
+            "polarity": "AP_DEFENSE",
+            "rarity": "LEGENDARY",
+            "codexSecret": true,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "compatName": "Archgun",
+            "type": "ARCH-GUN",
+            "levelStats": [
+                {
+                    "stats": [
+                        "+17% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+34% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+51% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+68% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+85% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+102% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+119% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+136% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+153% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+170% <DT_POISON_COLOR>Toxin"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+187% <DT_POISON_COLOR>Toxin"
                     ]
                 }
             ]
@@ -41957,6 +42477,44 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
+            "name": "Truth's Flame",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "isUtility": true,
+            "compatName": "Melee",
+            "type": "MELEE",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +30% Melee Damage bonus. Failure to kill a target with a Tennokai attack will self-inflict 25 <DT_FIRE_COLOR>Heat Damage/s over 6s and reset the Combo Counter.",
+                        "+0.3 'Truth'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +40% Melee Damage bonus. Failure to kill a target with a Tennokai attack will self-inflict 35 <DT_FIRE_COLOR>Heat Damage/s over 6s and reset the Combo Counter.",
+                        "+0.5 'Truth'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +60% Melee Damage bonus. Failure to kill a target with a Tennokai attack will self-inflict 50 <DT_FIRE_COLOR>Heat Damage/s over 6s and reset the Combo Counter.",
+                        "+0.8 'Truth'"
+                    ]
+                },
+                {
+                    "stats": [
+                        "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus. Failure to kill a target with a Tennokai attack will self-inflict 100 <DT_FIRE_COLOR>Heat Damage/s over 6s and reset the Combo Counter.",
+                        "+1 'Truth'"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CertainStrike",
             "name": "Discipline's Merit",
             "polarity": "AP_TACTIC",
@@ -43782,32 +44340,32 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 0.5s. If the Companion\u2019s Critical Chance is over 50% then you gain +0.2x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 0.5s. If the Companion's Critical Chance is over 50% then you gain +0.2x Final Critical Damage Multiplier."
                     ]
                 },
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 1s. If the Companion\u2019s Critical Chance is over 50% then you gain +0.4x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 1s. If the Companion's Critical Chance is over 50% then you gain +0.4x Final Critical Damage Multiplier."
                     ]
                 },
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 1.5s. If the Companion\u2019s Critical Chance is over 50% then you gain +0.6x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 1.5s. If the Companion's Critical Chance is over 50% then you gain +0.6x Final Critical Damage Multiplier."
                     ]
                 },
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 2s. If the Companion\u2019s Critical Chance is over 50% then you gain +0.8x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 2s. If the Companion's Critical Chance is over 50% then you gain +0.8x Final Critical Damage Multiplier."
                     ]
                 },
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 2.5s. If the Companion\u2019s Critical Chance is over 50% then you gain +1.0x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 2.5s. If the Companion's Critical Chance is over 50% then you gain +1.0x Final Critical Damage Multiplier."
                     ]
                 },
                 {
                     "stats": [
-                        "Headshot kills reduce Companion Recovery timer by 3s. If the Companion\u2019s Critical Chance is over 50% then you gain +1.2x Final Critical Damage Multiplier."
+                        "Headshot kills reduce Companion Recovery timer by 3s. If the Companion's Critical Chance is over 50% then you gain +1.2x Final Critical Damage Multiplier."
                     ]
                 }
             ]
@@ -54036,7 +54594,6 @@
             "codexSecret": true,
             "baseDrain": 0,
             "fusionLimit": 10,
-            "excludeFromCodex": true,
             "compatName": "Archgun",
             "type": "ARCH-GUN",
             "levelStats": [
@@ -54162,74 +54719,6 @@
                 {
                     "stats": [
                         "+187% <DT_FIRE_COLOR>Heat"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert",
-            "name": "Primed Venomous Clip",
-            "polarity": "AP_DEFENSE",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Archgun",
-            "type": "ARCH-GUN",
-            "levelStats": [
-                {
-                    "stats": [
-                        "+17% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+34% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+51% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+68% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+85% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+102% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+119% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+136% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+153% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+170% <DT_POISON_COLOR>Toxin"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+187% <DT_POISON_COLOR>Toxin"
                     ]
                 }
             ]
@@ -55037,75 +55526,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPSubMod",
-            "name": "Galvanized Steel",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Shotgun",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+2.7% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+5.5% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+8.2% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+10.9% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+13.6% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+16.4% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+19.1% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+21.8% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+24.5% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+27.3% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+30% Critical Damage for 20s. Stacks up to 4x."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritDamageModExpert",
             "name": "Organ Shatter",
             "polarity": "AP_ATTACK",
@@ -55594,75 +56014,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPSubMod",
-            "name": "Galvanized Reflex",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Shotgun",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+2 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+4 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+6 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+7 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+9 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+11 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+13 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+15 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+17 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+19 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+20 Initial Combo for 20s. Stacks up to 4x."
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeChannelingEfficiencyModExpert",
             "name": "Reflex Coil",
             "polarity": "AP_TACTIC",
@@ -55794,75 +56145,6 @@
                 {
                     "stats": [
                         "+165% Finisher Damage"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPSubMod",
-            "name": "Galvanized Elementalist",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 0,
-            "fusionLimit": 10,
-            "excludeFromCodex": true,
-            "compatName": "Shotgun",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+2.7% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+5.5% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+8.2% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+10.9% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+13.6% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+16.4% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+19.1% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+21.8% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+24.5% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+27.3% Status Chance for 20s. Stacks up to 4x."
-                    ]
-                },
-                {
-                    "stats": [
-                        "On Melee Kill:\r\n+30% Status Chance for 20s. Stacks up to 4x."
                     ]
                 }
             ]
@@ -57816,75 +58098,6 @@
                 {
                     "stats": [
                         "+3.9 Punch Through"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert",
-            "name": "Primed Steady Hands",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Pistol",
-            "type": "SECONDARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% Weapon Recoil"
                     ]
                 }
             ]
@@ -120368,74 +120581,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs",
-            "name": "Primed Bane of The Murmur",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Rifle",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 Damage to Murmur"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Expert/SniperReloadDamageModExpert",
             "name": "Primed Charged Chamber",
             "polarity": "AP_ATTACK",
@@ -123371,143 +123516,6 @@
                 {
                     "stats": [
                         "+3.9 Punch Through"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert",
-            "name": "Primed Counterbalance",
-            "polarity": "AP_TACTIC",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 2,
-            "fusionLimit": 10,
-            "isUtility": true,
-            "compatName": "Shotgun",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "-7.7% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-15.5% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-23.2% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-30.9% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-38.6% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-46.4% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-54.1% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-61.8% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-69.5% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-77.3% Weapon Recoil"
-                    ]
-                },
-                {
-                    "stats": [
-                        "-85% Weapon Recoil"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert",
-            "name": "Primed Cleanse The Murmur",
-            "polarity": "AP_ATTACK",
-            "rarity": "LEGENDARY",
-            "codexSecret": true,
-            "baseDrain": 4,
-            "fusionLimit": 10,
-            "compatName": "Shotgun",
-            "type": "PRIMARY",
-            "levelStats": [
-                {
-                    "stats": [
-                        "x1.05 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.1 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.15 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.2 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.25 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.3 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.35 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.4 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.45 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.5 Damage to Murmur"
-                    ]
-                },
-                {
-                    "stats": [
-                        "x1.55 Damage to Murmur"
                     ]
                 }
             ]
@@ -126696,138 +126704,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityRangeSubMod",
-            "name": "Archon Stretch",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "levelStats": [
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Abilities that deal <DT_ELECTRICITY_COLOR>Electricity Damage restore +2 Energy/s over 5s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityStrengthSubMod",
-            "name": "Archon Intensify",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "levelStats": [
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Restoring health with abilities grants +30% Ability Strength for 10s."
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarDropEnergySubMod",
-            "name": "Archon Flow",
-            "polarity": "AP_TACTIC",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 4,
-            "fusionLimit": 5,
-            "excludeFromCodex": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "levelStats": [
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                },
-                {
-                    "stats": [
-                        "Enemies killed by <DT_FREEZE_COLOR>Cold Abilities have 10% chance to drop an Energy Orb. Cooldown: 10s"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceStun",
             "name": "Resilient Focus",
             "polarity": "AP_DEFENSE",
@@ -127189,98 +127065,6 @@
                         {
                             "value": 0.1
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
-            "name": "Higasa Serration",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Higasa",
-            "type": "PRIMARY",
-            "description": [
-                "Alternate Fire applies a random Status Effect to enemies hit."
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+75% Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+150% Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+225% Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+300% Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+375% Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+450% Damage"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment",
-            "name": "Amanata Pressure",
-            "polarity": "AP_ATTACK",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "compatName": "Amanata",
-            "type": "MELEE",
-            "description": [
-                "When Combo Multiplier reaches 8x, Heavy attacks apply a random Status Effect to enemies hit."
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+55% Melee Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+110% Melee Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+165% Melee Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+220% Melee Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+275% Melee Damage"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+330% Melee Damage"
                     ]
                 }
             ]
