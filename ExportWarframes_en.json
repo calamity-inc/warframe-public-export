@@ -2834,7 +2834,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "INKBLOT: Follie's abilities coat enemies in ink that slows their movement by |SLOW|% for a few seconds. Afflicted enemies have a |CHANCE|% chance to drop Health and Energy Orbs.",
+            "passiveDescription": "INKBLOT: Follie's abilities coat enemies in ink that slows their movement by |SLOW|% for |DURATION|s. Afflicted enemies have a |CHANCE|% chance to drop Health and Energy Orbs.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
@@ -4772,7 +4772,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Sickening Pulse",
-            "description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects which are duplicated with fresh timers."
+            "description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies. The damage of <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects, excluding those created by Sickening Pulse itself, are added together to create a new instance of the Effect with a refreshed timer"
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",
