@@ -2834,7 +2834,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "INKBLOT: le abilit\u00e0 di Follie ricoprono i nemici d'inchiostro, rallentandone i movimenti del |SLOW|% per alcuni secondi. I nemici colpiti hanno la possibilit\u00e0 del |CHANCE|% di rilasciare Sfere Salute ed Energia.",
+            "passiveDescription": "INKBLOT: le abilit\u00e0 di Follie ricoprono i nemici d'inchiostro, rallentandone i movimenti del |SLOW|% per |DURATION|s. I nemici colpiti hanno la possibilit\u00e0 del |CHANCE|% di rilasciare Sfere Salute ed Energia.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
@@ -4772,7 +4772,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Sickening Pulse",
-            "description": "Emette un impulso che aggiunge cariche agli Effetti che gi\u00e0 affliggono i nemici, ad eccezione degli Effetti <DT_SLASH_COLOR>Taglio, <DT_FIRE_COLOR>Fuoco e <DT_POISON_COLOR>Tossina che vengono duplicati con nuovi timer."
+            "description": "Emette un impulso che aggiunge cariche agli Effetti gi\u00e0 presenti sui nemici. Il danno degli Effetti <DT_SLASH_COLOR>Taglio, <DT_FIRE_COLOR>Fuoco e <DT_POISON_COLOR>Tossina, esclusi quelli creati da Sickening Pulse stessa, viene sommato per creare una nuova istanza dell'Effetto con un timer aggiornato"
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",

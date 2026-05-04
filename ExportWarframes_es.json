@@ -537,7 +537,7 @@
             "uniqueName": "/Lotus/Powersuits/Werewolf/VorunaPrime",
             "name": "Voruna Prime",
             "parentName": "/Lotus/Powersuits/Werewolf/WerewolfBaseSuit",
-            "description": "El esplendor y la ferocidad alcanzan su brutal apogeo con Voruna Prime. Aunque elevada por el oro orokin, es m\u00e1s salvaje que nunca.",
+            "description": "El esplendor y la ferocidad alcanzan su brutal apogeo con Voruna Prime. A\u00fan ensalzada por el oro orokin, es m\u00e1s salvaje que nunca.",
             "health": 455,
             "shield": 270,
             "armor": 265,
@@ -2325,7 +2325,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Evade para entrar o salir de la Grieta. Entrar deja detr\u00e1s un peque\u00f1o portal de la Grieta que dura |DURATION|s. La energ\u00eda se regenera lentamente en la Grieta y tambi\u00e9n cada enemigo asesinado dentro de ella otorga |ENERGY| de energ\u00eda.",
+            "passiveDescription": "Esquiva para entrar o salir de la Grieta. Entrar deja detr\u00e1s un peque\u00f1o portal de la Grieta que dura |DURATION| s. La energ\u00eda se regenera lentamente en la Grieta y tambi\u00e9n cada enemigo asesinado dentro de ella otorga |ENERGY| de energ\u00eda.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
@@ -2363,7 +2363,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1.15,
-            "passiveDescription": "Evade para entrar o salir de la Grieta. Entrar deja detr\u00e1s un peque\u00f1o portal de la Grieta que dura |DURATION|s. La energ\u00eda se regenera lentamente en la Grieta y tambi\u00e9n cada enemigo asesinado dentro de ella otorga |ENERGY| de energ\u00eda.",
+            "passiveDescription": "Esquiva para entrar o salir de la Grieta. Entrar deja detr\u00e1s un peque\u00f1o portal de la Grieta que dura |DURATION| s. La energ\u00eda se regenera lentamente en la Grieta y tambi\u00e9n cada enemigo asesinado dentro de ella otorga |ENERGY| de energ\u00eda.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
@@ -2834,7 +2834,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "MANCHA DE TINTA: Las habilidades de Follie cubren a los enemigos con tinta que ralentiza su movimiento hasta en un |SLOW| % por unos segundos. Los enemigos afectados tienen un |CHANCE| % de probabilidad de soltar orbes de salud y de energ\u00eda.",
+            "passiveDescription": "MANCHA DE TINTA: Las habilidades de Follie cubren a los enemigos con tinta que ralentiza su movimiento en un |SLOW| % por |DURATION| s. Los enemigos afectados tienen un |CHANCE| % de probabilidad de soltar orbes de salud y de energ\u00eda.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
@@ -4111,7 +4111,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Choir/Abilities/ChoirEyesAbility",
                     "abilityName": "Ojos de ofanim",
-                    "description": "Jade invoca una mirada acusadora que ralentiza a los enemigos cercanos y sus disuelve escudos y armadura. Si la mirada alcanza a los aliados, estos pueden resucitar a la distancia."
+                    "description": "Jade invoca una mirada acusadora que ralentiza a los enemigos cercanos y disuelve sus escudos y armadura. Si la mirada alcanza a los aliados, estos pueden resucitar a la distancia."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Choir/Abilities/ChoirEruptAbility",
@@ -4772,7 +4772,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Pulso repugnante",
-            "description": "Emite un pulso que agrega acumulaciones a los efectos de estado que ya afectan a los enemigos, excepto el efecto <DT_SLASH_COLOR>cortante, el de <DT_FIRE_COLOR>calor o el de <DT_POISON_COLOR>toxina, que se duplican con los temporizadores nuevos."
+            "description": "Emite un pulso que agrega acumulaciones a los efectos de estado que ya afectan a los enemigos. El da\u00f1o de los efectos <DT_SLASH_COLOR>cortantes, de <DT_FIRE_COLOR>calor y de <DT_POISON_COLOR>toxina, salvo los creados por el propio Pulso repugnante, se suman para crear una nueva instancia del efecto con un temporizador reiniciado."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",

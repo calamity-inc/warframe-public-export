@@ -2834,7 +2834,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "TACHE D'ENCRE: les Pouvoirs de Follie couvrent les ennemis d'encre, ce qui les ralentit de |SLOW|% pendant quelques secondes. Les ennemis affect\u00e9s ont |CHANCE|% de chances de laisser tomber des Orbes de Sant\u00e9 et d'\u00c9nergie.",
+            "passiveDescription": "TACHE D'ENCRE: les Pouvoirs de Follie couvrent les ennemis d'encre, ce qui les ralentit de |SLOW|% pendant |DURATION|s. Les ennemis affect\u00e9s ont |CHANCE|% de chances de laisser tomber des Orbes de Sant\u00e9 et d'\u00c9nergie.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
@@ -4772,7 +4772,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Impulsion \u00c9c\u0153urante",
-            "description": "\u00c9met une impulsion qui ajoute des charges aux Effets de Statut qui affectent d\u00e9j\u00e0 les ennemis, \u00e0 l'exception des Effets <DT_SLASH_COLOR>Tranchants, de <DT_FIRE_COLOR>Feu et de <DT_POISON_COLOR>Poison qui sont dupliqu\u00e9s avec de nouvelles dur\u00e9es."
+            "description": "\u00c9met une impulsion qui ajoute des charges aux Effets de Statut qui affectent d\u00e9j\u00e0 les ennemis. Les D\u00e9g\u00e2ts des Effets <DT_SLASH_COLOR>Tranchants, de <DT_FIRE_COLOR>Feu et de <DT_POISON_COLOR>Poison, \u00e0 l'exception de ceux cr\u00e9\u00e9s par Impulsion \u00c9c\u0153urante, sont combin\u00e9s pour cr\u00e9er une nouvelle instance de l'Effet avec une dur\u00e9e r\u00e9initialis\u00e9e"
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",

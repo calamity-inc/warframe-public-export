@@ -2834,7 +2834,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 0.94999999,
-            "passiveDescription": "TINTURA: as habilidades da Follie cobrir\u00e3o os inimigos com tinta, reduzindo a Velocidade de Movimento deles em |SLOW|% por alguns segundos. Inimigos afetados ter\u00e3o |CHANCE|% de chance de fornecer Orbes de Vida e de Energia.",
+            "passiveDescription": "TINTURA: as habilidades da Follie cobrir\u00e3o os inimigos com tinta, reduzindo a Velocidade de Movimento deles em |SLOW|% por |DURATION|s. Inimigos afetados ter\u00e3o |CHANCE|% de chance de fornecer Orbes de Vida e de Energia.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
@@ -4772,7 +4772,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
             "abilityName": "Pulso Repugnante",
-            "description": "Emitir\u00e1 um pulso que adicionar\u00e1 novos ac\u00famulos aos Efeitos de Status que j\u00e1 afetam os inimigos, exceto para o Efeito de Status <DT_SLASH_COLOR>Cortante, <DT_FIRE_COLOR>\u00cdgneo e <DT_POISON_COLOR>T\u00f3xico, os quais ser\u00e3o duplicados com novos temporizadores."
+            "description": "Emitir\u00e1 um pulso que adicionar\u00e1 ac\u00famulos aos Efeitos de Status que j\u00e1 afetam os inimigos. O dano dos Efeitos <DT_SLASH_COLOR>Cortante, <DT_FIRE_COLOR>\u00cdgneo e <DT_POISON_COLOR>T\u00f3xico, excluindo aqueles criados pelo pr\u00f3prio Pulso Repugnante, ser\u00e1 somado para criar uma nova inst\u00e2ncia do efeito com um temporizador redefinido."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthProcBlockAbility",
