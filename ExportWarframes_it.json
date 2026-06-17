@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius & Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Sfrutta il potere delle stelle in una costante battaglia per la supremazia. I due figli rivali, Sirius & Orion, occupano lo spazio di un solo Warframe, contendendosi la prima posizione per scatenare una distruzione cosmica sui nemici.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Scambiandoli si ottiene un'Efficienza Abilit\u00e0 del |EFFICIENCY|% per i successivi |COUNT| lanci.\r\n\r\nQuando l'energia \u00e8 inferiore a 50, Sirius & Orion si ruberanno energia a vicenda.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Coronal Ejection",
+                    "description": "Lancia la falce di Sirius infusa di Jade Light, infliggendo Danno <DT_FIRE_COLOR>Fuoco mentre raccogli tutti gli oggetti sul suo percorso.\r\n\r\n(TIENI PREMUTO) Passa a Orion e utilizza Gravitic Slash."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Jade Stars",
+                    "description": "Sirius evoca particelle di Jade Light che si rigenerano lentamente nel tempo. Attaccare i nemici lancia le particelle, infliggendo Effetti e Danno <DT_FIRE_COLOR>Fuoco.\r\n\r\n(TENERE PREMUTO) Passa a Orion e utilizza Astral Shell."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Light's Sanctuary",
+                    "description": "Sirius crea un pozzo di luce che cura e rianima gli alleati, riducendo al contempo i danni in arrivo. Il pozzo cresce lentamente in dimensioni e potenza.\r\n\r\n(TIENI PREMUTO) Passa a Orion e utilizza Event Horizon."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius & Orion si affrontano in un duello cosmico nei cieli. Ogni attacco consuma una Stella Costellazione per infliggere danno <DT_EXPLOSION_COLOR>Esplosione collaterale colossale. Abbina il colore della stella al colore del Warframe per ottenere una maggiore probabilit\u00e0 critico.\r\n\r\n|LEFT_ATTACK| attacchi Sirius\r\n|RIGHT_ATTACK| attacchi Orion\r\n\r\nGenera Stelle Costellazione utilizzando abilit\u00e0. Non \u00e8 possibile aggiungere pi\u00f9 di due stelle dello stesso colore di fila."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Light Verse",
-                    "description": "La composizione rivitalizzante di Dante conferisce a lui e ai suoi alleati Sovraguardia e aumenta la loro Salute."
+                    "description": "La composizione rivitalizzante di Dante conferisce a lui e ai suoi alleati Sovraguardia e ripristina la loro Salute."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki schiera una copia olografica di se stesso, attirando il fuoco nemico e assorbendo parte della Salute e degli Scudi dai nemici vicini."
+                    "description": "Loki schiera una copia olografica di se stesso che attira il fuoco nemico. L'esca ottiene salute e scudo in base ai nemici nelle vicinanze."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki schiera una copia olografica di se stesso, attirando il fuoco nemico e assorbendo parte della Salute e degli Scudi dai nemici vicini."
+                    "description": "Loki schiera una copia olografica di se stesso che attira il fuoco nemico. L'esca ottiene salute e scudo in base ai nemici nelle vicinanze."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "La mutazione \u00e8 infinita. Il portatore di epidemia famelica ritorna in una forma perduta da tempo e affetto da un ceppo primordiale dell'Infestazione.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2887,7 +2925,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
+                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0 e un aumento al Danno Arma. I nemici collegati ricevono parte del danno inflitto a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus trae forza dall'Infestazione. Lo rafforza con la capacit\u00e0 di sopravvivenza mentre infligge danni elevati e fornisce controllo di massa. Infetta i tuoi nemici.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2925,12 +2963,50 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0. I nemici collegati ricevono parte del danno inflitto a Nidus."
+                    "description": "Si attacca ad un bersaglio con un collegamento parassitario. Quando utilizzata su un alleato, sia l'ospite che Nidus ricevono un aumento della Potenza Abilit\u00e0 e un aumento al Danno Arma. I nemici collegati ricevono parte del danno inflitto a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Ravenous",
                     "description": "Dei vermi insaziabili assalgono i nemici vicini, banchettando finch\u00e9 non vengono colpiti da Virulence, poi scoppiano di Infestazione. Ogni nemico divorato aggiunge una Carica Mutazione da cui i vermi beneficiano."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Scudo degli innocenti. Lancia della giustizia. Styanax Prime resiste alla tirannia.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "La probabilit\u00e0 critico di Styanax aumenta con gli scudi e raddoppia per le speargun.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Axios Javelin",
+                    "description": "Lancia un Axios Javelin. Quando il giavellotto impala un nemico contro un muro, quelli circostanti vengono trascinati nell'area e subiscono danni."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Tharros Strike",
+                    "description": "Evoca Tharros, lo scudo di Styanax. Brandisci Tharros per respingere i nemici e ridurre sia i loro scudi che l'armatura. Styanax recupera salute per ogni nemico colpito."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Rally Point",
+                    "description": "Attira l'attenzione del nemico su Styanax. La sua risolutezza solleva il suo morale e quello degli alleati vicini, rigenerando l'energia della squadra nel tempo. Styanax e i suoi alleati rigenerano anche gli scudi per ogni aiuto nell'uccidere nemici che forniscono."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "Final Stand",
+                    "description": "Emana forza e valore. Alzati in aria e lancia una raffica di Axios Javelin. I giavellotti infliggono danni ai nemici vicini ovunque atterrino. I colpi diretti ai nemici infliggono danni maggiori."
                 }
             ],
             "productCategory": "Suits"
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion & Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Sfrutta il potere delle stelle in una costante battaglia per la supremazia. I due figli rivali, Sirius & Orion, occupano lo spazio di un solo Warframe, contendendosi la prima posizione per scatenare una distruzione cosmica sui nemici.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Scambiandoli si ottiene un'Efficienza Abilit\u00e0 del |EFFICIENCY|% per i successivi |COUNT| lanci.\r\n\r\nQuando l'energia \u00e8 inferiore a 50, Sirius & Orion si ruberanno energia a vicenda.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Gravitic Slash",
+                    "description": "Respingi i nemici con la falce sinistra di Orion, infliggendo Effetti e Danno <DT_SLASH_COLOR>Taglio, riducendo al contempo scudi e armature.\r\n\r\n(TIENI PREMUTO) Passa a Sirius e utilizza Coronal Ejection."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Astral Shell",
+                    "description": "Avvolgi Orion in Astral Shell. Dopo aver subito danni, il guscio diventa un'esca che attira il fuoco finch\u00e9 non viene distrutto.\r\n\r\n(TIENI PREMUTO) Passa a Sirius e utilizza Jade Stars."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Event Horizon",
+                    "description": "Orion forma un buco nero alla deriva, intrappolando i nemici nella sua gravit\u00e0. Colpire il buco nero con Gravitic Slash o Coronal Ejection ne prolungher\u00e0 la durata e ne cambier\u00e0 la traiettoria: Gravitic Slash lo allontaner\u00e0 da Orion, mentre Coronal Ejection lo attirer\u00e0 verso Sirius.\r\n\r\n(TENERE PREMUTO) Passa a Sirius e utilizza Light's Sanctuary."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius & Orion si affrontano in un duello cosmico nei cieli. Ogni attacco consuma una Stella Costellazione per infliggere danno <DT_EXPLOSION_COLOR>Esplosione collaterale colossale. Abbina il colore della stella al colore del Warframe per ottenere una maggiore probabilit\u00e0 critico.\r\n\r\n|LEFT_ATTACK| attacchi Sirius\r\n|RIGHT_ATTACK| attacchi Orion\r\n\r\nGenera Stelle Costellazione utilizzando abilit\u00e0. Non \u00e8 possibile aggiungere pi\u00f9 di due stelle dello stesso colore di fila."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [

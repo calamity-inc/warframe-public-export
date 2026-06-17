@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius & Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Aprovecha el poder de las estrellas en una lucha sin fin por la supremac\u00eda. Sirius & Orion, los hijos rivales, ocupan el espacio de un \u00fanico warframe, compitiendo por la posici\u00f3n ideal para desatar la destrucci\u00f3n c\u00f3smica sobre sus enemigos.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Alternar entre ellos otorga un |EFFICIENCY| % de eficiencia de habilidad para los |COUNT| siguientes lanzamientos.\r\n\r\nCuando la energ\u00eda est\u00e1 por debajo de 50, Sirius & Orion se robar\u00e1n energ\u00eda mutuamente.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Eyecci\u00f3n coronaria",
+                    "description": "Lanza la guada\u00f1a de Sirius imbuida de Luz de Jade, infligiendo da\u00f1o de <DT_FIRE_COLOR>calor mientras recolecta objetos a su paso.\r\n\r\n(MANT\u00c9N) Cambia a Orion y usa Corte gravitacional."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Estrellas de Jade",
+                    "description": "Sirius invoca part\u00edculas de Luz de Jade que se regeneran con el tiempo. Al atacar a los enemigos se lanzan estas part\u00edculas que infligen un efecto de estado y da\u00f1o de <DT_FIRE_COLOR>calor.\r\n\r\n(MANT\u00c9N) Cambia a Orion y usa Caparaz\u00f3n astral."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Santuario de luz",
+                    "description": "Sirius crea un pozo de luz que cura y revive a los aliados, a la vez que reduce el da\u00f1o que reciben. El pozo aumenta gradualmente de tama\u00f1o y poder.\r\n\r\n(MANT\u00c9N) Cambia a Orion y usa Cosmosucesos."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Choque celestial",
+                    "description": "Sirius & Orion se enfrentan en un duelo c\u00f3smico en los cielos. Cada ataque consume una estrella de constelaci\u00f3n para infligir da\u00f1o de <DT_EXPLOSION_COLOR>explosi\u00f3n colateral. Haz coincidir el color de la estrella con el color del warframe para obtener un incremento en la probabilidad cr\u00edtica.\r\n\r\n|LEFT_ATTACK| Sirius ataca\r\n|RIGHT_ATTACK| Orion ataca\r\n\r\nGenera estrellas de constelaci\u00f3n usando habilidades. No se pueden agregar m\u00e1s de dos estrellas seguidas del mismo color."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Verso claro",
-                    "description": "La composici\u00f3n revitalizante de Dante les otorga sobreguardia a \u00e9l y a sus aliados y aumenta su salud."
+                    "description": "La composici\u00f3n revitalizante de Dante le otorga sobreguardia a \u00e9l y a sus aliados y restaura su salud."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Se\u00f1uelo",
-                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo y absorbe una parte de la salud y los escudos de los enemigos cercanos."
+                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo. El se\u00f1uelo gana salud y escudo en funci\u00f3n de los enemigos cercanos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Se\u00f1uelo",
-                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo y absorbe una parte de la salud y los escudos de los enemigos cercanos."
+                    "description": "Loki despliega una copia hologr\u00e1fica de s\u00ed mismo que atrae el fuego enemigo. El se\u00f1uelo gana salud y escudo en funci\u00f3n de los enemigos cercanos."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "La mutaci\u00f3n es infinita. El rapaz portador de la plaga regresa en una forma que no se hab\u00eda visto desde hace mucho tiempo, borboteando con una cepa primitiva de la infestaci\u00f3n.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2887,7 +2925,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Enlace parasitario",
-                    "description": "Vincula un objetivo con un enlace parasitario. Cuando es lanzado sobre los aliados, tanto el anfitri\u00f3n como Nidus obtienen mejora de fuerza de habilidad. Los enemigos vinculados sufren el da\u00f1o infligido a Nidus."
+                    "description": "Vincula un objetivo con un enlace parasitario. Cuando es lanzado sobre los aliados, tanto el anfitri\u00f3n como Nidus obtienen mayor fuerza de habilidad y da\u00f1o de arma. Los enemigos vinculados sufren el da\u00f1o infligido a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus saca fuerzas de la Infestaci\u00f3n. Lo refuerza con capacidad de supervivencia ya que inflige mucho da\u00f1o y proporciona control de masas. Contagia a tus enemigos.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2925,12 +2963,50 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Enlace parasitario",
-                    "description": "Vincula un objetivo con un enlace parasitario. Cuando es lanzado sobre los aliados, tanto el anfitri\u00f3n como Nidus obtienen mejora de fuerza de habilidad. Los enemigos vinculados sufren el da\u00f1o infligido a Nidus."
+                    "description": "Vincula un objetivo con un enlace parasitario. Cuando es lanzado sobre los aliados, tanto el anfitri\u00f3n como Nidus obtienen mayor fuerza de habilidad y da\u00f1o de arma. Los enemigos vinculados sufren el da\u00f1o infligido a Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Voracidad",
                     "description": "Unas larvas glotonas atacan a enemigos cercanos, devor\u00e1ndolos hasta ser alcanzados por Virulencia, explotando con infestaci\u00f3n. Las larvas se benefician de la mutaci\u00f3n y cada enemigo consumido se a\u00f1ade al total de acumulaciones de mutaci\u00f3n."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Escudo de los inocentes. Lanza de la justicia. Styanax Prime mantiene la l\u00ednea contra la tiran\u00eda.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "La probabilidad cr\u00edtica de Styanax aumenta con sus escudos y se duplica para las lanzas.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Jabalina Axios",
+                    "description": "Lanza una jabalina Axios. Cuando la jabalina empala a un enemigo contra una pared, los enemigos circundantes son atra\u00eddos hacia el \u00e1rea y sufren una r\u00e1faga de da\u00f1o."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Golpe de Tharros",
+                    "description": "Invoca a Tharros, el escudo de Styanax. Blande a Tharros para repeler a los enemigos y reducir sus escudos y armadura. Styanax regenera salud por cada enemigo golpeado."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Punto de reuni\u00f3n",
+                    "description": "Dirige la atenci\u00f3n del enemigo hacia Styanax. Su determinaci\u00f3n lo anima a \u00e9l y a los aliados cercanos, regenerando la energ\u00eda del escuadr\u00f3n con el tiempo. Styanax y sus aliados tambi\u00e9n regeneran escudos por cada asistencia de muerte a la que contribuyen."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "\u00daltima defensa",
+                    "description": "Emana poder y valent\u00eda. El\u00e9vate en el aire y lanza una r\u00e1faga de jabalinas Axios. Las jabalinas infligen da\u00f1o a los enemigos cercanos dondequiera que aterricen. Los golpes directos a los enemigos infligen m\u00e1s da\u00f1o."
                 }
             ],
             "productCategory": "Suits"
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion & Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Aprovecha el poder de las estrellas en una lucha sin fin por la supremac\u00eda. Sirius & Orion, los hijos rivales, ocupan el espacio de un \u00fanico warframe, compitiendo por la posici\u00f3n ideal para desatar la destrucci\u00f3n c\u00f3smica sobre sus enemigos.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Alternar entre ellos otorga un |EFFICIENCY| % de eficiencia de habilidad para los |COUNT| siguientes lanzamientos.\r\n\r\nCuando la energ\u00eda est\u00e1 por debajo de 50, Sirius & Orion se robar\u00e1n energ\u00eda mutuamente.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Corte gravitacional",
+                    "description": "Repele a los enemigos con la siniestra guada\u00f1a de Orion, infligi\u00e9ndoles da\u00f1o y efecto de estado <DT_SLASH_COLOR>cortante mientras reduces sus escudos y armadura.\r\n\r\n(MANT\u00c9N) Cambia a Sirius y usa Eyecci\u00f3n coronaria."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Caparaz\u00f3n astral",
+                    "description": "Envuelve a Orion en un Caparaz\u00f3n astral. Al recibir da\u00f1o, el caparaz\u00f3n se convierte en un se\u00f1uelo que atrae el fuego hasta que es destruido.\r\n\r\n(MANT\u00c9N) Cambia a Sirius y usa Estrellas de Jade."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Cosmosucesos",
+                    "description": "Orion forma un agujero negro m\u00f3vil que atrapa a los enemigos en su campo gravitatorio. Golpear el agujero negro con Corte gravitacional o Eyecci\u00f3n coronaria extender\u00e1 su duraci\u00f3n y cambiar\u00e1 su trayectoria: Corte gravitacional lo alejar\u00e1 de Orion y Eyecci\u00f3n coronaria lo atraer\u00e1 hacia Sirius.\r\n\r\n(MANT\u00c9N) Cambia a Sirius y usa Santuario de luz."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Choque celestial",
+                    "description": "Sirius & Orion se enfrentan en un duelo c\u00f3smico en los cielos. Cada ataque consume una estrella de constelaci\u00f3n para infligir da\u00f1o de <DT_EXPLOSION_COLOR>explosi\u00f3n colateral. Haz coincidir el color de la estrella con el color del warframe para obtener un incremento en la probabilidad cr\u00edtica.\r\n\r\n|LEFT_ATTACK| Sirius ataca\r\n|RIGHT_ATTACK| Orion ataca\r\n\r\nGenera estrellas de constelaci\u00f3n usando habilidades. No se pueden agregar m\u00e1s de dos estrellas seguidas del mismo color."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [

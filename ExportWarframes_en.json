@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius & Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Coronal Ejection",
+                    "description": "Hurl Sirius' Jade Light infused scythe, dealing <DT_FIRE_COLOR>Heat Damage while collecting any pickups in its path.\r\n\r\n(HOLD) Swap to Orion and use Gravitic Slash."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Jade Stars",
+                    "description": "Sirius conjures Jade Light motes that slowly regenerate over time. Attacking enemies launches the motes, dealing <DT_FIRE_COLOR>Heat Damage and Status Effect.\r\n\r\n(HOLD) Swap to Orion and use Astral Shell."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Light's Sanctuary",
+                    "description": "Sirius creates a well of light that heals and revives allies, while reducing incoming damage. The well slowly grows in size and power.\r\n\r\n(HOLD) Swap to Orion and use Event Horizon."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Light Verse",
-                    "description": "Dante's vitalizing composition grants him and his allies Overguard and increases their Health."
+                    "description": "Dante's vitalizing composition grants him and his allies Overguard and restores their Health."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
+                    "description": "Loki deploys a holographic copy of himself that draws enemy fire. The decoy gains health and shield based on enemies nearby."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
+                    "description": "Loki deploys a holographic copy of himself that draws enemy fire. The decoy gains health and shield based on enemies nearby."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2569,7 +2607,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
                     "abilityName": "Omamori",
-                    "description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei\u2019s dice roll.\r\n\r\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms."
+                    "description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei's dice roll.\r\n\r\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiPuppetAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2887,7 +2925,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength increased. Linked enemies take some of the damage inflicted on Nidus."
+                    "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus draws strength from the Infestation. It bolsters him with survivability as he deals high damage and provides crowd control. Plague your enemies.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2925,12 +2963,50 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength increased. Linked enemies take some of the damage inflicted on Nidus."
+                    "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Ravenous",
                     "description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation. The maggots benefit from Mutation and each enemy hit adds to the Mutation stack."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Shield of the innocent. Spear of justice. Styanax Prime holds the line in defiance of tyranny.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Axios Javelin",
+                    "description": "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Tharros Strike",
+                    "description": "Summon Tharros, the shield of Styanax. Swing Tharros to repel enemies and reduce their shields and armor. Styanax regenerates health for every enemy struck."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Rally Point",
+                    "description": "Draw enemy attention to Styanax. His resolve uplifts him and nearby allies, regenerating the squad's energy over time. Styanax and his allies also regenerate shields for every kill assist they contribute."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "Final Stand",
+                    "description": "Exude might and valor. Rise into the air and throw a barrage of Axios Javelins. The javelins deal damage to nearby enemies wherever they land. Direct hits to enemies deal greater damage."
                 }
             ],
             "productCategory": "Suits"
@@ -3950,7 +4026,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathApparitionAbility",
                     "abilityName": "Grave Spirit",
-                    "description": "Supercharge Dagath\u2019s weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form."
+                    "description": "Supercharge Dagath's weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathHorseAbility",
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion & Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Gravitic Slash",
+                    "description": "Repel enemies with Orion's sinister scythe, dealing <DT_SLASH_COLOR>Slash Damage and Status Effect while reducing shields and armor.\r\n\r\n(HOLD) Swap to Sirius and use Coronal Ejection."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Astral Shell",
+                    "description": "Envelop Orion in an Astral Shell. Upon taking damage the shell becomes a decoy that draws fire until it's destroyed.\r\n\r\n(HOLD) Swap to Sirius and use Jade Stars."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Event Horizon",
+                    "description": "Orion forms a drifting black hole, trapping enemies within its gravity. Hitting the black hole with Gravitic Slash or Coronal Ejection will extend its duration and change its trajectory: Gravitic Slash will direct it away from Orion, and Coronal Ejection will pull it towards Sirius.\r\n\r\n(HOLD) Swap to Sirius and use Light's Sanctuary."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [

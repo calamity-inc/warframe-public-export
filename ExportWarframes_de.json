@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius & Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Nutze die Macht der Sterne im st\u00e4ndigen Kampf um die Vorherrschaft. Die rivalisierenden S\u00f6hne, Sirius & Orion, teilen sich einen Warframe und ringen um die beste Position, um kosmische Zerst\u00f6rung auf ihre Feinde niederzuregnen.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Der Wechsel zwischen ihnen gew\u00e4hrt |EFFIZIENZ| % F\u00e4higkeitseffizienz f\u00fcr die n\u00e4chsten |COUNT| Anwendungen.\r\n\r\nUnter 50 Energie entziehen sich Sirius und Orion gegenseitig Energie.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Korona-Aussto\u00df",
+                    "description": "Schleudere die von Jade-Licht durchdrungene Sense von Sirius, die <DT_FIRE_COLOR>Hitzeschaden verursacht, w\u00e4hrend sie Beute in ihrem Pfad einsammelt.\r\n\r\n(HALTEN) Wechsle zu Orion und nutze Gravit\u00e4tsschnitt."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Jade-Sterne",
+                    "description": "Sirius beschw\u00f6rt Partikel aus Jade-Licht, die sich langsam regenerieren. Angriffe auf Gegner schleudern die Partikel los, die <DT_FIRE_COLOR>Hitzeschaden und Statuseffekte verursachen.\r\n\r\n(HALTEN) Wechsle zu Orion und nutze Astral-Panzer."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Zuflucht des Lichts",
+                    "description": "Sirius erschafft einen Lichtbrunnen, der Verb\u00fcndete heilt und wiederbelebt, w\u00e4hrend eingehender Schaden reduziert wird. Der Brunnen wird langsam gr\u00f6\u00dfer und st\u00e4rker.\r\n\r\n(HALTEN) Wechsle zu Orion und nutze Ereignishorizont."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Himmlischer Konflikt",
+                    "description": "Sirius & Orion schwingen sich in einem kosmischen Kampf in die L\u00fcfte. Jeder Angriff verbraucht einen Konstellations-Stern, um m\u00e4chtigen, kollateralen <DT_EXPLOSION_COLOR>Explosionsschaden zu verursachen. Passe die Farbe des Sterns der des Warframes an f\u00fcr eine erh\u00f6hte Krit. Chance.\r\n\r\n|LEFT_ATTACK| Sirius greift an\r\n|RIGHT_ATTACK| Orion greift an\r\n\r\nErschaffe Konstellations-Sterne, indem du F\u00e4higkeiten benutzt. Es k\u00f6nnen immer nur zwei Sterne einer Farbe hintereinander erschaffen werden."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Licht-Vers",
-                    "description": "Dantes vitalisierende Komposition verleiht ihm und seinen Verb\u00fcndeten \u00dcberschutz und erh\u00f6ht ihre Gesundheit."
+                    "description": "Dantes vitalisierende Komposition verleiht ihm und seinen Verb\u00fcndeten \u00dcberschutz und stellt ihre Gesundheit wieder her."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "K\u00f6der",
-                    "description": "Loki erzeugt eine holografische Kopie von sich selbst, die feindliches Feuer auf sich lenkt und einen Teil der Gesundheit und Schilde naher Feinde absorbiert."
+                    "description": "Loki erzeugt eine holographische Kopie von sich selbst, die das feindliche Feuer auf sich zieht. Der K\u00f6der erh\u00e4lt Gesundheit und Schilde basierend auf nahen Feinden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "K\u00f6der",
-                    "description": "Loki erzeugt eine holografische Kopie von sich selbst, die feindliches Feuer auf sich lenkt und einen Teil der Gesundheit und Schilde naher Feinde absorbiert."
+                    "description": "Loki erzeugt eine holographische Kopie von sich selbst, die das feindliche Feuer auf sich zieht. Der K\u00f6der erh\u00e4lt Gesundheit und Schilde basierend auf nahen Feinden."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Mutationen sind endlos. Der gefr\u00e4\u00dfige Seuchentr\u00e4ger kehrt in einer schon lange nicht mehr gesehenen Form zur\u00fcck und brodelt, um ihn windet sich der Urstamm des Befalls.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2887,7 +2925,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasit\u00e4re Verbindung",
-                    "description": "Binde dich mit einer parasit\u00e4ren Verbindung an ein Ziel. Auf Verb\u00fcndete angewendet, teilen der Wirt und Nidus erh\u00f6hten F\u00e4higkeitsschaden aus. Auf Gegner angewendet wird Nidus' erhaltener Schaden an verbundene Feinde weitergeleitet."
+                    "description": "Binde dich mit einer parasit\u00e4ren Verbindung an ein Ziel. Auf Verb\u00fcndete angewendet, teilen der Wirt und Nidus erh\u00f6hten F\u00e4higkeits- und Waffenschaden aus. Auf Gegner angewendet, wird Nidus' erhaltener Schaden an verbundene Feinde weitergeleitet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus sch\u00f6pft Kraft aus dem Befall. Es st\u00e4rkt seine \u00dcberlebensf\u00e4higkeit, w\u00e4hrend er hohen Schaden verursacht und Gruppen kontrolliert. Plage deine Feinde.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2925,12 +2963,50 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasit\u00e4re Verbindung",
-                    "description": "Binde dich mit einer parasit\u00e4ren Verbindung an ein Ziel. Auf Verb\u00fcndete angewendet, teilen der Wirt und Nidus erh\u00f6hten F\u00e4higkeitsschaden aus. Auf Gegner angewendet wird Nidus' erhaltener Schaden an verbundene Feinde weitergeleitet."
+                    "description": "Binde dich mit einer parasit\u00e4ren Verbindung an ein Ziel. Auf Verb\u00fcndete angewendet, teilen der Wirt und Nidus erh\u00f6hten F\u00e4higkeits- und Waffenschaden aus. Auf Gegner angewendet, wird Nidus' erhaltener Schaden an verbundene Feinde weitergeleitet."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Ausgehungert",
                     "description": "Gefr\u00e4\u00dfige Maden machen sich \u00fcber in der N\u00e4he befindliche Gegner her und fressen, bis sie explodieren. Die Maden profitieren von Mutationen und jeder betroffene Gegner, f\u00fcgt einen Mutationsstapel hinzu."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Schild der Unschuldigen. Speer der Gerechtigkeit. Styanax Prime h\u00e4lt die Stellung als Widerstand gegen die Tyrannei.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Die Krit. Chance von Styanax erh\u00f6ht sich mit seinen Schilden und ist f\u00fcr Speere verdoppelt.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Axios Speer",
+                    "description": "Wirf einen Axios Speer. Spie\u00dft der Speer einen Gegner an einer Wand auf, werden umgebende Feinde in den Bereich gezogen und erleiden einen Schadensschub."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Tharros Schlag",
+                    "description": "Rufe Tharros herbei, den Schild von Styanax. Schwinge Tharros, um Gegner abzuwehren und ihre Schilde und R\u00fcstung zu reduzieren. Styanax stellt f\u00fcr jeden getroffenen Gegner Gesundheit her."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Sammelpunkt",
+                    "description": "Lenkt die Aufmerksamkeit der Gegner auf Styanax. Seine Entschlossenheit st\u00e4rkt Verb\u00fcndete in der N\u00e4he und regeneriert die Energie des Teams mit der Zeit. Styanax und seine Verb\u00fcndeten stellen auch f\u00fcr jeden Kill-Assist wieder Schilde her."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "Finaler Stand",
+                    "description": "Strahle Macht und Tapferkeit aus. Erhebe dich in die Luft und wirf eine Salve Axios Speere. Die Wurfspeere f\u00fcgen Gegnern in der N\u00e4he Schaden zu, wo immer sie landen. Direkte Treffer bei Feinden verursachen mehr Schaden."
                 }
             ],
             "productCategory": "Suits"
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion & Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Nutze die Macht der Sterne im st\u00e4ndigen Kampf um die Vorherrschaft. Die rivalisierenden S\u00f6hne, Sirius & Orion, teilen sich einen Warframe und ringen um die beste Position, um kosmische Zerst\u00f6rung auf ihre Feinde niederzuregnen.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Der Wechsel zwischen ihnen gew\u00e4hrt |EFFIZIENZ| % F\u00e4higkeitseffizienz f\u00fcr die n\u00e4chsten |COUNT| Anwendungen.\r\n\r\nUnter 50 Energie entziehen sich Sirius und Orion gegenseitig Energie.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Gravit\u00e4tsschnitt",
+                    "description": "Wehre Feinde mit Orions finsterer Sense ab und verursache <DT_SLASH_COLOR>Schnittschaden und Statuseffekte, w\u00e4hrend Schilde und R\u00fcstung reduziert werden.\r\n\r\n(HALTEN) Wechsle zu Sirius und nutze Corona-Aussto\u00df."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Astral-Panzer",
+                    "description": "H\u00fcllt Orion in einen Astralpanzer. Nimmt er Schaden, wird der Panzer zu einem K\u00f6der, der das Feuer auf sich zieht, bis er zerst\u00f6rt wird.\r\n\r\n(HALTEN) Wechsle zu Sirius und nutze Jade-Sterne."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Ereignishorizont",
+                    "description": "Orion formt ein treibendes schwarzes Loch, dass seine Feinde in der Gravitation gefangen h\u00e4lt. Wird das schwarze Loch von Gravit\u00e4tsschnitt oder Korona-Aussto\u00df getroffen, wird die Dauer verl\u00e4ngert und es \u00e4ndert die Richtung: Gravit\u00e4tsschnitt bewegt es von Orion weg und Corona-Aussto\u00df bewegt es auf Sirius zu.\r\n\r\n(HALTEN) Wechsele zu Sirius und nutze Zuflucht des Lichts."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Himmlischer Konflikt",
+                    "description": "Sirius & Orion schwingen sich in einem kosmischen Kampf in die L\u00fcfte. Jeder Angriff verbraucht einen Konstellations-Stern, um m\u00e4chtigen, kollateralen <DT_EXPLOSION_COLOR>Explosionsschaden zu verursachen. Passe die Farbe des Sterns der des Warframes an f\u00fcr eine erh\u00f6hte Krit. Chance.\r\n\r\n|LEFT_ATTACK| Sirius greift an\r\n|RIGHT_ATTACK| Orion greift an\r\n\r\nErschaffe Konstellations-Sterne, indem du F\u00e4higkeiten benutzt. Es k\u00f6nnen immer nur zwei Sterne einer Farbe hintereinander erschaffen werden."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [

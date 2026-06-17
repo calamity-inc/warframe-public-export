@@ -237,23 +237,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree",
-            "name": "Klirrender Wald",
-            "polarity": "AP_ATTACK",
-            "rarity": "UNCOMMON",
-            "codexSecret": false,
-            "baseDrain": -2,
-            "fusionLimit": 3,
-            "compatName": "St\u00e4be",
-            "type": "STANCE",
-            "description": [
-                "Ausladende Schl\u00e4ge und fokussierte Kombos."
-            ],
-            "tags": [
-                "Clashing Forest"
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheCmbTwoMeleeTree",
             "name": "Schleichender F\u00e4cher",
             "polarity": "AP_POWER",
@@ -2032,59 +2015,6 @@
             ]
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarSlideBoostMod",
-            "name": "Magnet-Schweben",
-            "polarity": "AP_TACTIC",
-            "rarity": "UNCOMMON",
-            "codexSecret": false,
-            "baseDrain": 6,
-            "fusionLimit": 5,
-            "isUtility": true,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Maglev"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "+5 % Rutschen",
-                        "-5 % Reibung"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+10 % Rutschen",
-                        "-10 % Reibung"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+15 % Rutschen",
-                        "-15 % Reibung"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+20 % Rutschen",
-                        "-20 % Reibung"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+25 % Rutschen",
-                        "-25 % Reibung"
-                    ]
-                },
-                {
-                    "stats": [
-                        "+30 % Rutschen",
-                        "-30 % Reibung"
-                    ]
-                }
-            ]
-        },
-        {
             "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
             "name": "Schnelle Ablenkung",
             "polarity": "AP_DEFENSE",
@@ -2361,52 +2291,6 @@
                 {
                     "stats": [
                         "-75 % Statusdauer auf Warframe"
-                    ]
-                }
-            ]
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Warframe/AvatarPowerToHealthOnDeathMod",
-            "name": "Schnelles Denken",
-            "polarity": "AP_DEFENSE",
-            "rarity": "RARE",
-            "codexSecret": false,
-            "baseDrain": 10,
-            "fusionLimit": 5,
-            "compatName": "WARFRAME",
-            "type": "WARFRAME",
-            "tags": [
-                "Quick Thinking"
-            ],
-            "levelStats": [
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +40 % Effizienz."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +80 % Effizienz."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +120 % Effizienz."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +160 % Effizienz."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +200 % Effizienz."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Entzieht Energie, um t\u00f6dlichen Schaden zu stoppen mit +240 % Effizienz."
                     ]
                 }
             ]
@@ -51758,6 +51642,43 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Temple/TemplePassiveAugment1Card",
+            "name": "Rhythmusschutz",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Temple",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+            "tags": [
+                "Rhythm Guard"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Passive F\u00e4higkeit Augment: Erhalte 25 \u00dcberschutz, wenn eine F\u00e4higkeit zum Backbeat gewirkt wird. Wird bis zu 400 pro Beat verdoppelt, aber beim Verpassen zur\u00fcckgesetzt."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Passive F\u00e4higkeit Augment: Erhalte 50 \u00dcberschutz, wenn eine F\u00e4higkeit zum Backbeat gewirkt wird. Wird bis zu 800 pro Beat verdoppelt, aber beim Verpassen zur\u00fcckgesetzt."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Passive F\u00e4higkeit Augment: Erhalte 75 \u00dcberschutz, wenn eine F\u00e4higkeit zum Backbeat gewirkt wird. Wird bis zu 1200 pro Beat verdoppelt, aber beim Verpassen zur\u00fcckgesetzt."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Passive F\u00e4higkeit Augment: Erhalte 100 \u00dcberschutz, wenn eine F\u00e4higkeit zum Backbeat gewirkt wird. Wird bis zu 1600 pro Beat verdoppelt, aber beim Verpassen zur\u00fcckgesetzt."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/SentientWhirlwindAugmentCard",
             "name": "Klingensalve",
             "polarity": "AP_POWER",
@@ -53091,6 +53012,43 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Pagemaster/PagemasterBookAugment1Card",
+            "name": "Noctua-Schwarm",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Dante",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+            "tags": [
+                "Noctua Swarm"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Noctua Augment: Alt. Feuer entsendet Paragrimms, die 8 m um den Zielpunkt herum f\u00fcr 6 s schw\u00e4rmen, Gegner zum Schweigen bringen und ihre Energie f\u00fcr Verb\u00fcndete stehlen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Noctua Augment: Alt. Feuer entsendet Paragrimms, die 8 m um den Zielpunkt herum f\u00fcr 9 s schw\u00e4rmen, Gegner zum Schweigen bringen und ihre Energie f\u00fcr Verb\u00fcndete stehlen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Noctua Augment: Alt. Feuer entsendet Paragrimms, die 8 m um den Zielpunkt herum f\u00fcr 12 s schw\u00e4rmen, Gegner zum Schweigen bringen und ihre Energie f\u00fcr Verb\u00fcndete stehlen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Noctua Augment: Alt. Feuer entsendet Paragrimms, die 8 m um den Zielpunkt herum f\u00fcr 15 s schw\u00e4rmen, Gegner zum Schweigen bringen und ihre Energie f\u00fcr Verb\u00fcndete stehlen."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Pacifist/PacifistWaveAugmentCard",
             "name": "Endloses Schlaflied",
             "polarity": "AP_POWER",
@@ -53309,6 +53267,43 @@
                 {
                     "stats": [
                         "Temporaler Anker Augment: W\u00e4hrend Temporaler Anker aktiv ist, entfernt jeder Angriff von Granaten-F\u00e4cher und Brand-Artillerie 10 % R\u00fcstung von Feinden."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Nokko/NokkoRerootAugmentCard",
+            "name": "Wurzelneu-Randale",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Nokko",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+            "tags": [
+                "Reroot Rampage"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Wurzelneu Augment: Das Sammeln von Wurzelneu-Kugeln beschw\u00f6rt zus\u00e4tzliche Sporlinge, die 175 <DT_POISON_COLOR> Giftschaden mit erh\u00f6hter Krit. Chance bei jedem Treffer verursachen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Wurzelneu Augment: Das Sammeln von Wurzelneu-Kugeln beschw\u00f6rt zus\u00e4tzliche Sporlinge, die 200 <DT_POISON_COLOR> Giftschaden mit erh\u00f6hter Krit. Chance bei jedem Treffer verursachen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Wurzelneu Augment: Das Sammeln von Wurzelneu-Kugeln beschw\u00f6rt zus\u00e4tzliche Sporlinge, die 225 <DT_POISON_COLOR> Giftschaden mit erh\u00f6hter Krit. Chance bei jedem Treffer verursachen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Wurzelneu Augment: Das Sammeln von Wurzelneu-Kugeln beschw\u00f6rt zus\u00e4tzliche Sporlinge, die 250 <DT_POISON_COLOR> Giftschaden mit erh\u00f6hter Krit. Chance bei jedem Treffer verursachen."
                     ]
                 }
             ]
@@ -54584,6 +54579,43 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Powersuits/Koumei/KoumeiStringsAugmentCard",
+            "name": "Kumihimo-Ladung",
+            "polarity": "AP_POWER",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 6,
+            "fusionLimit": 3,
+            "compatName": "Koumei",
+            "type": "WARFRAME",
+            "subtype": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+            "tags": [
+                "Kumihimo Loading"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "Kumihimo Augment: <LOWER_IS_BETTER>12 Kills mit Waffen, die von Koumeis passiver F\u00e4higkeit betroffen sind, geben einen geladenen W\u00fcrfel, der immer eine 6 zeigt. Halten, um st\u00e4rkeren Kumihimo zu wirken und alle W\u00fcrfel zu verbrauchen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Kumihimo Augment: <LOWER_IS_BETTER>10 Kills mit Waffen, die von Koumeis passiver F\u00e4higkeit betroffen sind, geben einen geladenen W\u00fcrfel, der immer eine 6 zeigt. Halten, um st\u00e4rkeren Kumihimo zu wirken und alle W\u00fcrfel zu verbrauchen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Kumihimo Augment: <LOWER_IS_BETTER>8 Kills mit Waffen, die von Koumeis passiver F\u00e4higkeit betroffen sind, geben einen geladenen W\u00fcrfel, der immer eine 6 zeigt. Halten, um st\u00e4rkeren Kumihimo zu wirken und alle W\u00fcrfel zu verbrauchen."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Kumihimo Augment: <LOWER_IS_BETTER>6 Kills mit Waffen, die von Koumeis passiver F\u00e4higkeit betroffen sind, geben einen geladenen W\u00fcrfel, der immer eine 6 zeigt. Halten, um st\u00e4rkeren Kumihimo zu wirken und alle W\u00fcrfel zu verbrauchen."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Koumei/KoumeiFortuneAugmentCard",
             "name": "Omikujis Gl\u00fcck",
             "polarity": "AP_POWER",
@@ -55044,22 +55076,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Larve Augment: Aktivere Larva erneut, um diese zu detonieren und 300 <DT_POISON_COLOR>Giftschaden in 2m Reichweite zu verursachen. Dieser Schaden steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
+                        "Larve Augment: Aktivere Larve erneut, um diese zu detonieren und 300 <DT_POISON_COLOR>Giftschaden in 2 m Reichweite zu verursachen. Dieser Schaden und Statuseffekt steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
                     ]
                 },
                 {
                     "stats": [
-                        "Larve Augment: Aktivere Larva erneut, um diese zu detonieren und 400 <DT_POISON_COLOR>Giftschaden in 4m Reichweite zu verursachen. Dieser Schaden steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
+                        "Larve Augment: Aktivere Larve erneut, um diese zu detonieren und 400 <DT_POISON_COLOR>Giftschaden in 4 m Reichweite zu verursachen. Dieser Schaden und Statuseffekt steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
                     ]
                 },
                 {
                     "stats": [
-                        "Larve Augment: Aktivere Larva erneut, um diese zu detonieren und 500 <DT_POISON_COLOR>Giftschaden in 6m Reichweite zu verursachen. Dieser Schaden steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
+                        "Larve Augment: Aktivere Larve erneut, um diese zu detonieren und 500 <DT_POISON_COLOR>Giftschaden in 6 m Reichweite zu verursachen. Dieser Schaden und Statuseffekt steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
                     ]
                 },
                 {
                     "stats": [
-                        "Larve Augment: Aktivere Larva erneut, um diese zu detonieren und 600 <DT_POISON_COLOR>Giftschaden in 8m Reichweite zu verursachen. Dieser Schaden steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
+                        "Larve Augment: Aktivere Larve erneut, um diese zu detonieren und 600 <DT_POISON_COLOR>Giftschaden in 8 m Reichweite zu verursachen. Dieser Schaden und Statuseffekt steigert sich f\u00fcr jeden Gegner, der von Larve ergriffen wird."
                     ]
                 }
             ]
@@ -55081,22 +55113,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 9 s um 70 % erh\u00f6ht."
+                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 9 s um 125 % erh\u00f6ht."
                     ]
                 },
                 {
                     "stats": [
-                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 11 s um 85 % erh\u00f6ht."
+                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 11 s um 150 % erh\u00f6ht."
                     ]
                 },
                 {
                     "stats": [
-                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 13 s um 100 % erh\u00f6ht."
+                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 13 s um 175 % erh\u00f6ht."
                     ]
                 },
                 {
                     "stats": [
-                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 15 s um 120 % erh\u00f6ht."
+                        "Virulenz Augment: Werden 4 Gegner mit Virulenz getroffen, so wird  die Krit. Chance der Prim\u00e4rwaffe f\u00fcr 15 s um 200 % erh\u00f6ht."
                     ]
                 }
             ]
@@ -55155,22 +55187,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 50 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
-                    ]
-                },
-                {
-                    "stats": [
-                        "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 100 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
-                    ]
-                },
-                {
-                    "stats": [
                         "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 150 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
                     ]
                 },
                 {
                     "stats": [
                         "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 200 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 250 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Passive Augment: Nidus kann zus\u00e4tzlich ein Maximum von 300 Stapeln an Mutation sammeln. Unsterblich hat eine Abklingzeit von 30 s."
                     ]
                 }
             ]
@@ -56043,22 +56075,22 @@
             "levelStats": [
                 {
                     "stats": [
-                        "Frost erh\u00e4lt +|CHANCE| % Krit. Chance und +|DAMAGE| % Krit. Schaden gegen eingefrorene Feinde."
+                        "Frost erh\u00e4lt +130 % Krit. Chance und +29 % Krit. Schaden gegen eingefrorene Feinde."
                     ]
                 },
                 {
                     "stats": [
-                        "Frost erh\u00e4lt +|CHANCE| % Krit. Chance und +|DAMAGE| % Krit. Schaden gegen eingefrorene Feinde."
+                        "Frost erh\u00e4lt +150 % Krit. Chance und +50 % Krit. Schaden gegen eingefrorene Feinde."
                     ]
                 },
                 {
                     "stats": [
-                        "Frost erh\u00e4lt +|CHANCE| % Krit. Chance und +|DAMAGE| % Krit. Schaden gegen eingefrorene Feinde."
+                        "Frost erh\u00e4lt +175 % Krit. Chance und +75 % Krit. Schaden gegen eingefrorene Feinde."
                     ]
                 },
                 {
                     "stats": [
-                        "Frost erh\u00e4lt +|CHANCE| % Krit. Chance und +|DAMAGE| % Krit. Schaden gegen eingefrorene Feinde."
+                        "Frost erh\u00e4lt +200 % Krit. Chance und +100 % Krit. Schaden gegen eingefrorene Feinde."
                     ]
                 }
             ]
@@ -58697,6 +58729,78 @@
                 {
                     "stats": [
                         "+165 % Maximale Munition"
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponElectricityDamageModExpert",
+            "name": "Primed Elektrisierter Lauf",
+            "polarity": "AP_TACTIC",
+            "rarity": "LEGENDARY",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "compatName": "Arch-Gewehr",
+            "type": "ARCH-GUN",
+            "tags": [
+                "Primed Electrified Barrel"
+            ],
+            "levelStats": [
+                {
+                    "stats": [
+                        "+17 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+34 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+51 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+68 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+85 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+102 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+119 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+136 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+153 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+170 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+187 % <DT_ELECTRICITY_COLOR>Elektrizit\u00e4t"
                     ]
                 }
             ]
@@ -62935,8 +63039,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -63252,8 +63356,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -73514,8 +73618,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -83769,8 +83873,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -94024,8 +94128,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -104282,8 +104386,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -113885,8 +113989,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -131522,8 +131626,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131545,8 +131649,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131568,8 +131672,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131591,8 +131695,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131614,8 +131718,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131637,8 +131741,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131660,8 +131764,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131683,8 +131787,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131705,8 +131809,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -131727,8 +131831,8 @@
             "polarity": "AP_UNIVERSAL",
             "rarity": "COMMON",
             "codexSecret": true,
-            "baseDrain": 0,
-            "fusionLimit": 0,
+            "baseDrain": 2,
+            "fusionLimit": 561,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {

@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius & Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Sonsuz bir \u00fcst\u00fcnl\u00fck m\u00fccadelesinde y\u0131ld\u0131zlar\u0131n g\u00fcc\u00fcn\u00fc kullan. Birbirine d\u00fc\u015fman o\u011fullar Sirius ve Orion, tek bir Warframe'in alan\u0131n\u0131 i\u015fgal ederek, d\u00fc\u015fmanlar\u0131na kozmik y\u0131k\u0131m ya\u011fd\u0131rmak i\u00e7in pozisyon kapma yar\u0131\u015f\u0131na giriyorlar.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Aralar\u0131nda ge\u00e7i\u015f yapmak, sonraki |COUNT| kullan\u0131m i\u00e7in %|EFFICIENCY| Yetenek Verimlili\u011fi sa\u011flar.\r\n\r\nEnerji 50'nin alt\u0131na d\u00fc\u015ft\u00fc\u011f\u00fcnde, Sirius ve Orion birbirlerinden enerji \u00e7alarlar.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Coronal Ejection",
+                    "description": "Sirius'un Ye\u015fim I\u015f\u0131\u011f\u0131 ile g\u00fc\u00e7lendirilmi\u015f t\u0131rpan\u0131n\u0131 f\u0131rlat; yoluna \u00e7\u0131kan t\u00fcm e\u015fyalar\u0131 toplarken <DT_FIRE_COLOR>Ate\u015f Hasar\u0131 verir.\r\n\r\n(BASILI TUT) Orion'a ge\u00e7 ve Gravitic Slash'\u0131 kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Jade Stars",
+                    "description": "Sirius, zamanla yava\u015f yava\u015f yenilenen Ye\u015fim I\u015f\u0131\u011f\u0131 par\u00e7ac\u0131klar\u0131 yarat\u0131r. D\u00fc\u015fmanlara sald\u0131r\u0131ld\u0131\u011f\u0131nda bu par\u00e7ac\u0131klar f\u0131rlat\u0131l\u0131r ve <DT_FIRE_COLOR>Ate\u015f Hasar\u0131 ve Stat\u00fc Etkisi verir.\r\n\r\n(BASILI TUT) Orion'a ge\u00e7 ve Astral Shell'i kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Light's Sanctuary",
+                    "description": "Sirius, m\u00fcttefiklerini iyile\u015ftiren ve canland\u0131ran, ayn\u0131 zamanda al\u0131nan hasar\u0131 azaltan bir \u0131\u015f\u0131k kuyusu olu\u015fturur. Kuyunun boyutu ve g\u00fcc\u00fc yava\u015f yava\u015f artar.\r\n\r\n(BASILI TUT) Orion'a ge\u00e7 ve Event Horizon'u kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius ve Orion, kozmik bir d\u00fcelloda g\u00f6ky\u00fcz\u00fcne y\u00fckselir. Her sald\u0131r\u0131, Tak\u0131my\u0131ld\u0131z Y\u0131ld\u0131z\u0131 t\u00fcketerek devasa bir <DT_EXPLOSION_COLOR>Patlama hasar\u0131na sebep olur. Kritik Vuru\u015f \u015eans\u0131n\u0131 art\u0131rmak i\u00e7in y\u0131ld\u0131z\u0131n rengini Warframe'in rengiyle e\u015fle\u015ftirebilirsin.\r\n\r\n|LEFT_ATTACK| Sirius sald\u0131r\u0131r\r\n|RIGHT_ATTACK| Orion sald\u0131r\u0131r\r\n\r\nYetenekleri kullanarak Tak\u0131my\u0131ld\u0131z Y\u0131ld\u0131zlar\u0131 olu\u015ftur. Ayn\u0131 renkte en fazla iki y\u0131ld\u0131z art arda eklenebilir."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Light Verse",
-                    "description": "Dante'nin g\u00fc\u00e7lendirici bile\u015fimi ona ve m\u00fcttefiklerine A\u015f\u0131r\u0131 Koruma kazand\u0131r\u0131r ve Sa\u011fl\u0131klar\u0131n\u0131 art\u0131r\u0131r."
+                    "description": "Dante'nin g\u00fc\u00e7lendirici kompozisyonu kendisine ve m\u00fcttefiklerine A\u015f\u0131r\u0131 Koruma kazand\u0131r\u0131r ve Sa\u011fl\u0131klar\u0131n\u0131 yeniler."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki, kendisinin holografik bir kopyas\u0131n\u0131 olu\u015fturarak d\u00fc\u015fman ate\u015fini bu kopyaya \u00e7eker ve bu kopya yak\u0131ndaki d\u00fc\u015fmanlar\u0131n sa\u011fl\u0131\u011f\u0131 ile kalkan\u0131n\u0131n bir k\u0131sm\u0131n\u0131 emer."
+                    "description": "Loki, kendisinin holografik bir kopyas\u0131n\u0131 olu\u015fturarak d\u00fc\u015fman ate\u015fini bu kopyaya \u00e7eker. Bu kopya, yak\u0131n\u0131ndaki d\u00fc\u015fmanlar\u0131n say\u0131s\u0131na ba\u011fl\u0131 olarak sa\u011fl\u0131k ve kalkan kazan\u0131r."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Decoy",
-                    "description": "Loki, kendisinin holografik bir kopyas\u0131n\u0131 olu\u015fturarak d\u00fc\u015fman ate\u015fini bu kopyaya \u00e7eker ve bu kopya yak\u0131ndaki d\u00fc\u015fmanlar\u0131n sa\u011fl\u0131\u011f\u0131 ile kalkan\u0131n\u0131n bir k\u0131sm\u0131n\u0131 emer."
+                    "description": "Loki, kendisinin holografik bir kopyas\u0131n\u0131 olu\u015fturarak d\u00fc\u015fman ate\u015fini bu kopyaya \u00e7eker. Bu kopya, yak\u0131n\u0131ndaki d\u00fc\u015fmanlar\u0131n say\u0131s\u0131na ba\u011fl\u0131 olarak sa\u011fl\u0131k ve kalkan kazan\u0131r."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Mutasyon sonu olmayan bir s\u00fcre\u00e7tir. Bu doymak bilmeyen veba ta\u015f\u0131y\u0131c\u0131s\u0131, uzun zamand\u0131r g\u00f6r\u00fcnmeyen bir bi\u00e7imde, Infestation'\u0131n ilkel bir t\u00fcr\u00fc olarak geri d\u00f6n\u00fcyor.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2887,7 +2925,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Parasitic Link ile hedeflerine ba\u011flan. M\u00fcttefiklere uyguland\u0131\u011f\u0131nda hem Nidus, hem de ba\u011fl\u0131 oldu\u011fu ki\u015finin Yetenek G\u00fcc\u00fc artar. Ba\u011flan\u0131lan d\u00fc\u015fmanlar ise Nidus'a verilen hasarlar\u0131n bir k\u0131sm\u0131n\u0131 al\u0131r."
+                    "description": "Parasitic Link ile hedeflerine ba\u011flan. M\u00fcttefiklere uyguland\u0131\u011f\u0131nda hem Nidus, hem de ba\u011fl\u0131 oldu\u011fu ki\u015finin Yetenek G\u00fcc\u00fc ve Silah Hasar\u0131 artar. Ba\u011flan\u0131lan d\u00fc\u015fmanlar ise Nidus'a verilen hasarlar\u0131n bir k\u0131sm\u0131n\u0131 al\u0131r."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus, Infested'den g\u00fc\u00e7 al\u0131r. Y\u00fcksek hasar ve kitle kontrol\u00fc sa\u011flad\u0131\u011f\u0131 i\u00e7in hayatta kalma kabiliyetini art\u0131r\u0131r. D\u00fc\u015fmanlar\u0131na veba bula\u015ft\u0131r\u0131r.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2925,12 +2963,50 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Parasitic Link",
-                    "description": "Parasitic Link ile hedeflerine ba\u011flan. M\u00fcttefiklere uyguland\u0131\u011f\u0131nda hem Nidus, hem de ba\u011fl\u0131 oldu\u011fu ki\u015finin Yetenek G\u00fcc\u00fc artar. Ba\u011flan\u0131lan d\u00fc\u015fmanlar ise Nidus'a verilen hasarlar\u0131n bir k\u0131sm\u0131n\u0131 al\u0131r."
+                    "description": "Parasitic Link ile hedeflerine ba\u011flan. M\u00fcttefiklere uyguland\u0131\u011f\u0131nda hem Nidus, hem de ba\u011fl\u0131 oldu\u011fu ki\u015finin Yetenek G\u00fcc\u00fc ve Silah Hasar\u0131 artar. Ba\u011flan\u0131lan d\u00fc\u015fmanlar ise Nidus'a verilen hasarlar\u0131n bir k\u0131sm\u0131n\u0131 al\u0131r."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Ravenous",
                     "description": "Etraftaki d\u00fc\u015fmanlar\u0131n aras\u0131na enfeksiyondan patlayana kadar onlardan beslenen obur kurt\u00e7uklar g\u00f6nderir. Bu kurt\u00e7uklar Mutasyon ile \u00e7o\u011fal\u0131r ve t\u00fcketilen her d\u00fc\u015fmanla Mutasyon y\u0131\u011f\u0131n\u0131 artar."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Masumlar\u0131n kalkan\u0131. Adaletin m\u0131zra\u011f\u0131. Styanax Prime, zulme kar\u015f\u0131 en \u00f6n safta sava\u015f\u0131yor.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Styanax'\u0131n kritik \u015fans\u0131 kalkanlar\u0131yla artar ve z\u0131pk\u0131nlarda iki kat\u0131na \u00e7\u0131kar.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Axios Javelin",
+                    "description": "Bir Axios M\u0131zra\u011f\u0131 F\u0131rlat. M\u0131zrak bir d\u00fc\u015fman\u0131 duvara yap\u0131\u015ft\u0131rd\u0131\u011f\u0131nda, \u00e7evredeki d\u00fc\u015fmanlar alana \u00e7ekilir ve bir hasar patlamas\u0131 ya\u015far."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Tharros Strike",
+                    "description": "Styanax'\u0131n kalkan\u0131 Tharros'u \u00e7a\u011f\u0131r. D\u00fc\u015fmanlar\u0131 p\u00fcsk\u00fcrtmek ve onlar\u0131n kalkanlar\u0131n\u0131 ve z\u0131rhlar\u0131n\u0131 azaltmak i\u00e7in Tharros'u kullan. Styanax, vurulan her d\u00fc\u015fman i\u00e7in sa\u011fl\u0131k yeniler."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Rally Point",
+                    "description": "D\u00fc\u015fman\u0131n dikkatini Styanax'\u0131n \u00fcst\u00fcne \u00e7ek. Kararl\u0131l\u0131\u011f\u0131, onu ve yak\u0131ndaki m\u00fcttefiklerini g\u00fc\u00e7lendirerek tak\u0131m\u0131n enerjisini zamanla yeniler. Styanax ve m\u00fcttefikleri, katk\u0131da bulunduklar\u0131 her \u00f6ld\u00fcrme yard\u0131m\u0131 i\u00e7in kalkanlar\u0131 da yeniler."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "Final Stand",
+                    "description": "G\u00fc\u00e7 ve cesareti yay. Havaya y\u00fcksel ve bir Axios M\u0131zra\u011f\u0131 yayl\u0131m ate\u015fi ba\u015flat. M\u0131zraklar, indikleri her yerde yak\u0131ndaki d\u00fc\u015fmanlara hasar verir. D\u00fc\u015fmanlara do\u011frudan isabetler daha fazla hasar verir."
                 }
             ],
             "productCategory": "Suits"
@@ -3555,7 +3631,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Excalibur/Abilities/UmbraRadialRoarAbility",
                     "abilityName": "Radial Howl",
-                    "description": "Yak\u0131ndaki d\u00fc\u015fmanlar\u0131 sersemleten ve Sentient'lerin yerle\u015fik direni\u015flere yol a\u00e7mas\u0131na neden olan vah\u015fi bir uluma g\u00f6nderin."
+                    "description": "Yak\u0131ndaki d\u00fc\u015fmanlar\u0131 sersemleten ve Sentientlerin yerle\u015fik direni\u015flere yol a\u00e7mas\u0131na neden olan vah\u015fi bir uluma g\u00f6nderin."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Excalibur/Abilities/UmbraRadialJavelinAbility",
@@ -3950,7 +4026,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathApparitionAbility",
                     "abilityName": "Grave Spirit",
-                    "description": "Dagath'\u0131n silahlar\u0131n\u0131 ekstra Kritik Hasarla g\u00fc\u00e7lendir. Doom yetene\u011finin etkisi alt\u0131ndaki d\u00fc\u015fmanlarda etkiler iki kat\u0131na \u00e7\u0131kar. K\u0131sa s\u00fcreli\u011fine spektral bir forma b\u00fcr\u00fcnerek \u00f6l\u00fcmc\u00fcl darbelerden kurtul."
+                    "description": "Dagath'\u0131n silahlar\u0131n\u0131 ekstra Kritik Hasarla g\u00fc\u00e7lendir. Doom yetene\u011finin etkisi alt\u0131ndaki d\u00fc\u015fmanlarda etkisi iki kat\u0131na \u00e7\u0131kar. K\u0131sa s\u00fcreli\u011fine spektral bir forma b\u00fcr\u00fcnerek \u00f6l\u00fcmc\u00fcl darbelerden kurtulabilirsin."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathHorseAbility",
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion & Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Sonsuz bir \u00fcst\u00fcnl\u00fck m\u00fccadelesinde y\u0131ld\u0131zlar\u0131n g\u00fcc\u00fcn\u00fc kullan. Birbirine d\u00fc\u015fman o\u011fullar Sirius ve Orion, tek bir Warframe'in alan\u0131n\u0131 i\u015fgal ederek, d\u00fc\u015fmanlar\u0131na kozmik y\u0131k\u0131m ya\u011fd\u0131rmak i\u00e7in pozisyon kapma yar\u0131\u015f\u0131na giriyorlar.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Aralar\u0131nda ge\u00e7i\u015f yapmak, sonraki |COUNT| kullan\u0131m i\u00e7in %|EFFICIENCY| Yetenek Verimlili\u011fi sa\u011flar.\r\n\r\nEnerji 50'nin alt\u0131na d\u00fc\u015ft\u00fc\u011f\u00fcnde, Sirius ve Orion birbirlerinden enerji \u00e7alarlar.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Gravitic Slash",
+                    "description": "Orion'un u\u011fursuz t\u0131rpan\u0131yla d\u00fc\u015fmanlar\u0131 p\u00fcsk\u00fcrt, <DT_SLASH_COLOR>Kesme Hasar\u0131 ve Stat\u00fc Etkisi verirken kalkanlar\u0131 ve z\u0131rhlar\u0131 azalt\u0131r.\r\n\r\n(BASILI TUT) Sirius'a ge\u00e7 ve Coronal Ejection kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Astral Shell",
+                    "description": "Orion'u Astral Shell ile sar. Olu\u015fan bu kabuk, hasar ald\u0131\u011f\u0131nda yok edilene kadar ate\u015fi \u00fczerine \u00e7eken bir tuzak haline gelir.\r\n\r\n(BASILI TUT) Sirius'a ge\u00e7 ve Jade Stars kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Event Horizon",
+                    "description": "Orion, d\u00fc\u015fmanlar\u0131 yer\u00e7ekiminin i\u00e7inde hapseden, s\u00fcr\u00fcklenen bir kara delik olu\u015fturur. Kara deli\u011fe Gravitic Slash veya Coronal Ejection ile vurmak, s\u00fcresini uzat\u0131r ve y\u00f6r\u00fcngesini de\u011fi\u015ftirir: Gravitic Slash onu Orion'dan uzakla\u015ft\u0131r\u0131rken, Coronal Ejection onu Sirius'a do\u011fru \u00e7eker.\r\n\r\n(BASILI TUT) Sirius'a ge\u00e7 ve Light's Sanctuary'yi kullan."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Celestial Clash",
+                    "description": "Sirius ve Orion, kozmik bir d\u00fcelloda g\u00f6ky\u00fcz\u00fcne y\u00fckselir. Her sald\u0131r\u0131, Tak\u0131my\u0131ld\u0131z Y\u0131ld\u0131z\u0131 t\u00fcketerek devasa bir <DT_EXPLOSION_COLOR>Patlama hasar\u0131na sebep olur. Kritik Vuru\u015f \u015eans\u0131n\u0131 art\u0131rmak i\u00e7in y\u0131ld\u0131z\u0131n rengini Warframe'in rengiyle e\u015fle\u015ftirebilirsin.\r\n\r\n|LEFT_ATTACK| Sirius sald\u0131r\u0131r\r\n|RIGHT_ATTACK| Orion sald\u0131r\u0131r\r\n\r\nYetenekleri kullanarak Tak\u0131my\u0131ld\u0131z Y\u0131ld\u0131zlar\u0131 olu\u015ftur. Ayn\u0131 renkte en fazla iki y\u0131ld\u0131z art arda eklenebilir."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [
@@ -4767,7 +4882,7 @@
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthHackAbility",
             "abilityName": "Perspicacity",
-            "description": "Bir sonraki hack giri\u015fimin otomatik olarak ba\u015far\u0131l\u0131 olur."
+            "description": "Bir sonraki ele ge\u00e7irme giri\u015fimin otomatik olarak ba\u015far\u0131l\u0131 olur."
         },
         {
             "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",

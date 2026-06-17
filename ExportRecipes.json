@@ -16163,6 +16163,29 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Syandanas/SiriusOrionBothSyandanaBlueprint",
+            "resultType": "/Lotus/Upgrades/Skins/Scarves/SiriusOrionBothSyandana",
+            "buildPrice": 20000,
+            "buildTime": 60,
+            "skipBuildTimePrice": 1,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Upgrades/Skins/Scarves/SiriusOrionLeftSyandana",
+                    "ItemCount": 1,
+                    "ProductCategory": "WeaponSkins"
+                },
+                {
+                    "ItemType": "/Lotus/Upgrades/Skins/Scarves/SiriusOrionRightSyandana",
+                    "ItemCount": 1,
+                    "ProductCategory": "WeaponSkins"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Syandanas/UruSyandanaBlueprint",
             "resultType": "/Lotus/Upgrades/Skins/Scarves/RazorScarf",
             "buildPrice": 20000,
@@ -28506,6 +28529,138 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionBlueprint",
+            "resultType": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionHelmetComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionSystemsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionChassisComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionChassisBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionChassisComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 600,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 600,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionHelmetBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionHelmetComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
+                    "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 75,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionSystemsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionSystemsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 30,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 20,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 100,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxBlueprint",
             "resultType": "/Lotus/Powersuits/Hoplite/Hoplite",
             "buildPrice": 25000,
@@ -28599,6 +28754,142 @@
                 {
                     "ItemType": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightRareFishAPartItem",
                     "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeBlueprint",
+            "resultType": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 15,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeHelmetComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeChassisComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeSystemsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeChassisBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeChassisComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 45,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                    "ItemCount": 2,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 4700,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 1450,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 8,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeHelmetBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeHelmetComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 100,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 8,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 255,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 3700,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeSystemsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeSystemsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 45,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 1450,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 4300,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -35796,6 +36087,74 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheBladeBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheBlade",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/Gems/Eidolon/RareGemACutAItem",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheHandleBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheHandle",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 1250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 50,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 3000,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrelBlueprint",
             "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrel",
             "buildPrice": 15000,
@@ -35945,6 +36304,74 @@
                 {
                     "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
                     "ItemCount": 75,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheBladeBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheBlade",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 400,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBCutItem",
+                    "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheHandleBlueprint",
+            "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheHandle",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 1250,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 50,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 3000,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -36751,6 +37178,40 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AcceltraPrimeStock",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 10,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/AfentisPrimeBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 100,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeHandle",
                     "ItemCount": 1,
                     "ProductCategory": "MiscItems"
                 },
@@ -37665,6 +38126,35 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
                     "ItemCount": 5,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/AthodaiPrimeBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "primeSellingPrice": 15,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AthodaiPrimeBarrel",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AthodaiPrimeReceiver",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 10,
                     "ProductCategory": "MiscItems"
                 }
             ],
@@ -44405,6 +44895,35 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/OrionScytheBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheHandle",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Weapons/PacifistShieldSwordBlueprint",
             "resultType": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword",
             "buildPrice": 20000,
@@ -46189,6 +46708,35 @@
                     "ItemType": "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
                     "ItemCount": 1,
                     "ProductCategory": "Melee"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/Weapons/SiriusScytheBlueprint",
+            "resultType": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon",
+            "buildPrice": 20000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheHandle",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheBlade",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
                 }
             ],
             "secretIngredients": []
@@ -50195,6 +50743,35 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
                     "ItemCount": 75,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/HunhowTrinketBlueprint",
+            "resultType": "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "excludeFromCodex": true,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                    "ItemCount": 5,
                     "ProductCategory": "MiscItems"
                 }
             ],

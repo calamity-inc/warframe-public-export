@@ -917,6 +917,44 @@
             "productCategory": "Suits"
         },
         {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+            "name": "Sirius i Orion",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+            "description": "Zaw\u0142adnij moc\u0105 gwiazd w nieustannej walce o dominacj\u0119. Rywalizuj\u0105cy synowie, Sirius i Orion, zajmuj\u0105 miejsce pojedynczego Warframe'a, walcz\u0105c o pozycj\u0119, by zes\u0142a\u0107 na wrog\u00f3w kosmiczne zniszczenie.",
+            "health": 475,
+            "shield": 355,
+            "armor": 160,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Prze\u0142\u0105czenie mi\u0119dzy Orionem i Siriusem zwi\u0119ksza wydajno\u015b\u0107 umiej\u0119tno\u015bci o |EFFICIENCY|% podczas u\u017cycia kolejnych |COUNT| umiej\u0119tno\u015bci.\r\n\r\nJe\u015bli kt\u00f3rykolwiek z nich ma mniej ni\u017c 50 energii, wybrana posta\u0107 kradnie energi\u0119 drugiej.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                    "abilityName": "Wyrzut Koronalny",
+                    "description": "Ci\u015bnij nasycon\u0105 Jadeitowym \u015awiat\u0142em kos\u0105 Siriusa, zadaj\u0105c <DT_FIRE_COLOR> obr. od ognia i zbieraj\u0105c wszystkie przedmioty na jej drodze.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Oriona i u\u017cy\u0107 Ci\u0119cia Grawitacyjnego."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                    "abilityName": "Jadeitowe Gwiazdy",
+                    "description": "Sirius przywo\u0142uje okruchy Jadeitowego \u015awiat\u0142a, kt\u00f3re powoli regeneruj\u0105 si\u0119 z czasem. Atakowanie wrog\u00f3w powoduje ich wystrzelenie, zadaj\u0105c <DT_FIRE_COLOR> obr. od ognia i nak\u0142adaj\u0105c efekt statusu.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Oriona i u\u017cy\u0107 Astralnej Skorupy."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                    "abilityName": "Sanktuarium \u015awiat\u0142a",
+                    "description": "Sirius tworzy studni\u0119 \u015bwiat\u0142a, kt\u00f3ra leczy i wskrzesza sojusznik\u00f3w oraz redukuje otrzymywane przez nich obra\u017cenia. Rozmiar i si\u0142a studni rosn\u0105 z czasem.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Oriona i u\u017cy\u0107 Horyzontu Zdarze\u0144."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Niebia\u0144skie Starcie",
+                    "description": "Sirius i Orion wzbijaj\u0105 si\u0119 w przestworza w kosmicznym pojedynku. Ka\u017cdy atak zu\u017cywa Gwiazd\u0119 Konstelacji, aby zada\u0107 pot\u0119\u017cne <DT_EXPLOSION_COLOR> obr. wybuchowe. Dopasuj kolor gwiazdy do koloru Warframe'a, aby zwi\u0119kszy\u0107 szans\u0119 obr. krytycznych.\r\n\r\n|LEFT_ATTACK| atak Siriusa\r\n|RIGHT_ATTACK| atak Oriona\r\n\r\nTw\u00f3rz Gwiazdy Konstelacji, korzystaj\u0105c z umiej\u0119tno\u015bci. Nie mo\u017cna doda\u0107 wi\u0119cej ni\u017c dw\u00f3ch gwiazd tego samego koloru z rz\u0119du."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
             "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
             "name": "Caliban",
             "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -1747,7 +1785,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
                     "abilityName": "Werset \u015awiat\u0142a",
-                    "description": "O\u017cywcza kompozycja Dantego zapewnia mu i jego sojusznikom Garda i zwi\u0119ksza ich \u017bycie."
+                    "description": "O\u017cywcza kompozycja Dantego zapewnia mu i jego sojusznikom gard\u0119 i przywraca ich \u017cycie."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
@@ -2027,7 +2065,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Ninja/Abilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Teleportuj si\u0119 do celu i wykonaj Dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej Energii."
+                    "description": "Teleportuj si\u0119 do celu i wykonaj dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej energii."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Ninja/Abilities/NinjaStormAbility",
@@ -2068,7 +2106,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Ninja/Abilities/TeleportToAbility",
                     "abilityName": "Teleport",
-                    "description": "Teleportuj si\u0119 do celu i wykonaj Dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej Energii."
+                    "description": "Teleportuj si\u0119 do celu i wykonaj dobicie. Je\u015bli dobicie zabije cel, Ash odzyskuje cz\u0119\u015b\u0107 zu\u017cytej energii."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Ninja/Abilities/NinjaStormAbility",
@@ -2483,7 +2521,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Przyn\u0119ta",
-                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, przyci\u0105gaj\u0105c\u0105 ogie\u0144 wroga i poch\u0142aniaj\u0105c\u0105 cz\u0119\u015b\u0107 \u017cycia i tarcz pobliskich przeciwnik\u00f3w."
+                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, kt\u00f3ra \u015bci\u0105ga na siebie ogie\u0144 wroga. Wabik zyskuje dodatkowe tarcze i \u017cycie, w zale\u017cno\u015bci od ilo\u015bci wrog\u00f3w w pobli\u017cu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2521,7 +2559,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
                     "abilityName": "Przyn\u0119ta",
-                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, przyci\u0105gaj\u0105c\u0105 ogie\u0144 wroga i poch\u0142aniaj\u0105c\u0105 cz\u0119\u015b\u0107 \u017cycia i tarcz pobliskich przeciwnik\u00f3w."
+                    "description": "Loki tworzy holograficzn\u0105 kopi\u0119 samego siebie, kt\u00f3ra \u015bci\u0105ga na siebie ogie\u0144 wroga. Wabik zyskuje dodatkowe tarcze i \u017cycie, w zale\u017cno\u015bci od ilo\u015bci wrog\u00f3w w pobli\u017cu."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
@@ -2864,7 +2902,7 @@
             "name": "Nidus Prime",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Mutacja jest niesko\u0144czona. Wyg\u0142odnia\u0142y nosiciel zarazy powraca w dawno niewidzianej formie, kipi\u0105c pierwotnym szczepem Plagi.",
-            "health": 550,
+            "health": 825,
             "shield": 0,
             "armor": 425,
             "stamina": 3,
@@ -2872,7 +2910,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Je\u015bli Nidus posiada na liczniku Mutacji, przynajmniej |STACKS| punkt\u00f3w, w momencie swojej \u015bmierci, te |STACKS| punkt\u00f3w zostaje zu\u017cytych zapewniaj\u0105c mu |DURATION|s niewra\u017cliwo\u015bci i przywr\u00f3cenie |HEAL|% \u017cycia.",
+            "passiveDescription": "Je\u015bli Nidus zostanie zabity, posiadaj\u0105c przynajmniej |STACKS| Mutacji, zu\u017cywane jest |STACKS| Mutacji, przywracaj\u0105c mu |HEAL|% \u017cycia i daj\u0105c mu |DURATION| s niewra\u017cliwo\u015bci na obra\u017cenia.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
@@ -2882,17 +2920,17 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
                     "abilityName": "Larwa",
-                    "description": "Przyzwij zainfekowanego guza, kt\u00f3ry eksploduje mackami, \u0142apie pobliskich wrog\u00f3w i przyci\u0105ga ich do siebie. Przeciwnicy zabici podczas unieruchomienia mog\u0105 wygenerowa\u0107 instancj\u0119 Mutacji."
+                    "description": "Przyzwij zainfekowanego guza, kt\u00f3ry eksploduje mackami, \u0142apie pobliskich wrog\u00f3w i przyci\u0105ga ich do siebie. Przeciwnicy zabici podczas unieruchomienia mog\u0105 przyzna\u0107 Mutacj\u0119."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Paso\u017cytnicze \u0141\u0105cze",
-                    "description": "Zwi\u0105\u017c si\u0119 z celem poprzez paso\u017cytnicze \u0142\u0105cze. Po rzuceniu na sojusznika, zar\u00f3wno host, jak i Nidus b\u0119d\u0105 zadawa\u0107 zwi\u0119kszone obra\u017cenia. Po\u0142\u0105czeni wrogowie otrzymuj\u0105 cz\u0119\u015bciowe obra\u017cenia zadawane Nidusowi."
+                    "description": "Zwi\u0105\u017c si\u0119 z celem poprzez paso\u017cytnicze \u0142\u0105cze. U\u017cyty na sojuszniku przyznaje premi\u0119 si\u0142y umiej\u0119tno\u015bci i obra\u017ce\u0144 broni celowi oraz Nidusowi. Po\u0142\u0105czeni wrogowie otrzymuj\u0105 cz\u0119\u015bciowe obra\u017cenia zadawane Nidusowi."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Wyg\u0142odnia\u0142y",
-                    "description": "Wyg\u0142odnia\u0142e czerwie obsiadaj\u0105 pobliskich wrog\u00f3w, \u017ceruj\u0105c na nich do momentu, gdy zostan\u0105 trafieni Patogenem i eksploduj\u0105. Czerwie s\u0105 zale\u017cne od poziomu Mutacji, z ka\u017cdym trafionym wrogiem wzrasta instancja Mutacji."
+                    "description": "Wyg\u0142odnia\u0142e czerwie obsiadaj\u0105 pobliskich wrog\u00f3w, \u017ceruj\u0105c na nich do momentu, gdy zostan\u0105 trafieni Patogenem i eksploduj\u0105. Czerwie rosn\u0105 w si\u0142\u0119 wraz z liczb\u0105 Mutacji Nidusa, a ka\u017cdy trafiony wr\u00f3g przyznaje mu dodatkowe Mutacje."
                 }
             ],
             "productCategory": "Suits"
@@ -2902,7 +2940,7 @@
             "name": "Nidus",
             "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
             "description": "Nidus czerpie si\u0142\u0119 z Plagi. Zwi\u0119ksza ona jego prze\u017cywalno\u015b\u0107, zadaj\u0105c du\u017ce obra\u017cenia i zapewniaj\u0105c kontrol\u0119 nad t\u0142umem. Zara\u017caj wi\u0119c swoich wrog\u00f3w.",
-            "health": 455,
+            "health": 675,
             "shield": 0,
             "armor": 350,
             "stamina": 3,
@@ -2910,7 +2948,7 @@
             "codexSecret": false,
             "masteryReq": 0,
             "sprintSpeed": 1,
-            "passiveDescription": "Je\u015bli Nidus posiada na liczniku Mutacji, przynajmniej |STACKS| punkt\u00f3w, w momencie swojej \u015bmierci, te |STACKS| punkt\u00f3w zostaje zu\u017cytych zapewniaj\u0105c mu |DURATION|s niewra\u017cliwo\u015bci i przywr\u00f3cenie |HEAL|% \u017cycia.",
+            "passiveDescription": "Je\u015bli Nidus zostanie zabity, posiadaj\u0105c przynajmniej |STACKS| Mutacji, zu\u017cywane jest |STACKS| Mutacji, przywracaj\u0105c mu |HEAL|% \u017cycia i daj\u0105c mu |DURATION| s niewra\u017cliwo\u015bci na obra\u017cenia.",
             "abilities": [
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
@@ -2920,17 +2958,55 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
                     "abilityName": "Larwa",
-                    "description": "Przyzwij zainfekowanego guza, kt\u00f3ry eksploduje mackami, \u0142apie pobliskich wrog\u00f3w i przyci\u0105ga ich do siebie. Przeciwnicy zabici podczas unieruchomienia mog\u0105 wygenerowa\u0107 instancj\u0119 Mutacji."
+                    "description": "Przyzwij zainfekowanego guza, kt\u00f3ry eksploduje mackami, \u0142apie pobliskich wrog\u00f3w i przyci\u0105ga ich do siebie. Przeciwnicy zabici podczas unieruchomienia mog\u0105 przyzna\u0107 Mutacj\u0119."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
                     "abilityName": "Paso\u017cytnicze \u0141\u0105cze",
-                    "description": "Zwi\u0105\u017c si\u0119 z celem poprzez paso\u017cytnicze \u0142\u0105cze. Po rzuceniu na sojusznika, zar\u00f3wno host, jak i Nidus b\u0119d\u0105 zadawa\u0107 zwi\u0119kszone obra\u017cenia. Po\u0142\u0105czeni wrogowie otrzymuj\u0105 cz\u0119\u015bciowe obra\u017cenia zadawane Nidusowi."
+                    "description": "Zwi\u0105\u017c si\u0119 z celem poprzez paso\u017cytnicze \u0142\u0105cze. U\u017cyty na sojuszniku przyznaje premi\u0119 si\u0142y umiej\u0119tno\u015bci i obra\u017ce\u0144 broni celowi oraz Nidusowi. Po\u0142\u0105czeni wrogowie otrzymuj\u0105 cz\u0119\u015bciowe obra\u017cenia zadawane Nidusowi."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
                     "abilityName": "Wyg\u0142odnia\u0142y",
-                    "description": "Wyg\u0142odnia\u0142e czerwie obsiadaj\u0105 pobliskich wrog\u00f3w, \u017ceruj\u0105c na nich do momentu, gdy zostan\u0105 trafieni Patogenem i eksploduj\u0105. Czerwie s\u0105 zale\u017cne od poziomu Mutacji, z ka\u017cdym trafionym wrogiem wzrasta instancja Mutacji."
+                    "description": "Wyg\u0142odnia\u0142e czerwie obsiadaj\u0105 pobliskich wrog\u00f3w, \u017ceruj\u0105c na nich do momentu, gdy zostan\u0105 trafieni Patogenem i eksploduj\u0105. Czerwie rosn\u0105 w si\u0142\u0119 wraz z liczb\u0105 Mutacji Nidusa, a ka\u017cdy trafiony wr\u00f3g przyznaje mu dodatkowe Mutacje."
+                }
+            ],
+            "productCategory": "Suits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+            "name": "Styanax Prime",
+            "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+            "description": "Tarcza niewinnych. W\u0142\u00f3cznia sprawiedliwo\u015bci. Styanax Prime staje przeciwko tyranii.",
+            "health": 270,
+            "shield": 925,
+            "armor": 265,
+            "stamina": 3,
+            "power": 215,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "sprintSpeed": 1,
+            "passiveDescription": "Szansa trafienia krytycznego Styanaxa zwi\u0119ksza si\u0119 wraz z poziomem na\u0142adowania tarcz, efekt jest podwojony dla w\u0142\u00f3czni.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                    "abilityName": "Oszczep Axios",
+                    "description": "Rzu\u0107 Oszczepem Axios. Kiedy oszczep przybije wroga do \u015bciany, znajduj\u0105cy si\u0119 w pobli\u017cu wrogowie zostan\u0105 przyci\u0105gni\u0119ci w miejsce trafienia oszczepu i otrzymaj\u0105 seri\u0119 obra\u017ce\u0144."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                    "abilityName": "Uderzenie Tharrosa",
+                    "description": "Przyzwij Tharrosa, tarcz\u0119 Styanaxa. Odeprzyj wrog\u00f3w, jednocze\u015bnie redukuj\u0105c ich tarcz\u0119 i pancerz. Styanax regeneruje \u017cycie za ka\u017cdego trafionego wroga."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                    "abilityName": "Wezwanie",
+                    "description": "Zwr\u00f3\u0107 uwag\u0119 wrog\u00f3w za Styanaxa. Determinacja wzmacnia Styanaxa i jego sojusznik\u00f3w regeneruj\u0105c z czasem Energi\u0119 dru\u017cyny. Styanax i jego sojusznicy regeneruj\u0105 r\u00f3wnie\u017c Tarcz\u0119 za ka\u017cd\u0105 asyst\u0119 przy zab\u00f3jstwie."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                    "abilityName": "Ostatni Bastion",
+                    "description": "Wyzw\u00f3l pot\u0119g\u0119 i m\u0119stwo. Wyskocz w powietrze i rzu\u0107 gradem Oszczep\u00f3w Axios. Oszczepy zadaj\u0105 obra\u017cenia wrogom w pobli\u017cu miejsca trafienia oszczepu. Bezpo\u015brednie trafienia zadaj\u0105 zwi\u0119kszone obra\u017cenia."
                 }
             ],
             "productCategory": "Suits"
@@ -3950,7 +4026,7 @@
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathApparitionAbility",
                     "abilityName": "Grobowy Duch",
-                    "description": "Do\u0142aduj bro\u0144 Dagath dodatkowymi Obra\u017ceniami Krytycznymi. Efekty s\u0105 podwojone w przypadku skazanych na Zag\u0142ad\u0119 wrog\u00f3w. Unikaj \u015bmiertelnych cios\u00f3w, przybieraj\u0105c na chwil\u0119 form\u0119 widma."
+                    "description": "Do\u0142aduj bro\u0144 Dagath dodatkowymi obra\u017ceniami krytycznymi. Efekty s\u0105 podwojone w przypadku skazanych na Zag\u0142ad\u0119 wrog\u00f3w. Unikaj \u015bmiertelnych cios\u00f3w, przybieraj\u0105c na chwil\u0119 form\u0119 widma."
                 },
                 {
                     "abilityUniqueName": "/Lotus/Powersuits/Dagath/Abilities/DagathHorseAbility",
@@ -4746,6 +4822,45 @@
                 }
             ],
             "productCategory": "MechSuits"
+        },
+        {
+            "uniqueName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+            "name": "Orion i Sirius",
+            "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+            "description": "Zaw\u0142adnij moc\u0105 gwiazd w nieustannej walce o dominacj\u0119. Rywalizuj\u0105cy synowie, Sirius i Orion, zajmuj\u0105 miejsce pojedynczego Warframe'a, walcz\u0105c o pozycj\u0119, by zes\u0142a\u0107 na wrog\u00f3w kosmiczne zniszczenie.",
+            "health": 350,
+            "shield": 270,
+            "armor": 300,
+            "stamina": 3,
+            "power": 200,
+            "codexSecret": false,
+            "masteryReq": 0,
+            "excludeFromCodex": true,
+            "sprintSpeed": 1.15,
+            "passiveDescription": "Prze\u0142\u0105czenie mi\u0119dzy Orionem i Siriusem zwi\u0119ksza wydajno\u015b\u0107 umiej\u0119tno\u015bci o |EFFICIENCY|% podczas u\u017cycia kolejnych |COUNT| umiej\u0119tno\u015bci.\r\n\r\nJe\u015bli kt\u00f3rykolwiek z nich ma mniej ni\u017c 50 energii, wybrana posta\u0107 kradnie energi\u0119 drugiej.",
+            "abilities": [
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                    "abilityName": "Ci\u0119cie Grawitacyjne",
+                    "description": "Odepchnij wrog\u00f3w atakiem z\u0142owrogiej kosy Oriona, zadaj\u0105c <DT_SLASH_COLOR> obr. tn\u0105ce, nak\u0142adaj\u0105c efekt statusu i redukuj\u0105c ich tarcze oraz pancerz.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Siriusa i u\u017cy\u0107 Wyrzutu Koronalnego."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                    "abilityName": "Astralna Skorupa",
+                    "description": "Spowija Oriona Astraln\u0105 Skorup\u0105. Po otrzymaniu obra\u017ce\u0144 skorupa zamienia si\u0119 w wabik, kt\u00f3ry \u015bci\u0105ga ogie\u0144 wroga, dop\u00f3ki nie zostanie zniszczony.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Siriusa i u\u017cy\u0107 Jadeitowych Gwiazd."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                    "abilityName": "Horyzont Zdarze\u0144",
+                    "description": "Orion tworzy sun\u0105c\u0105 czarn\u0105 dziur\u0119, kt\u00f3ra wi\u0119zi wrog\u00f3w w swoim polu grawitacyjnym. Uderzenie czarnej dziury Ci\u0119ciem Grawitacyjnym lub Wyrzutem Koronalnym wyd\u0142u\u017cy jej czas trwania i zmieni trajektori\u0119. Ci\u0119cie Grawitacyjne odepchnie j\u0105 od Oriona, a trafienie jej Wyrzutem Koronalnym przyci\u0105gnie j\u0105 do Siriusa.\r\n\r\nPrzytrzymaj, aby przyj\u0105\u0107 form\u0119 Siriusa i u\u017cy\u0107 Sanktuarium \u015awiat\u0142a."
+                },
+                {
+                    "abilityUniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                    "abilityName": "Niebia\u0144skie Starcie",
+                    "description": "Sirius i Orion wzbijaj\u0105 si\u0119 w przestworza w kosmicznym pojedynku. Ka\u017cdy atak zu\u017cywa Gwiazd\u0119 Konstelacji, aby zada\u0107 pot\u0119\u017cne <DT_EXPLOSION_COLOR> obr. wybuchowe. Dopasuj kolor gwiazdy do koloru Warframe'a, aby zwi\u0119kszy\u0107 szans\u0119 obr. krytycznych.\r\n\r\n|LEFT_ATTACK| atak Siriusa\r\n|RIGHT_ATTACK| atak Oriona\r\n\r\nTw\u00f3rz Gwiazdy Konstelacji, korzystaj\u0105c z umiej\u0119tno\u015bci. Nie mo\u017cna doda\u0107 wi\u0119cej ni\u017c dw\u00f3ch gwiazd tego samego koloru z rz\u0119du."
+                }
+            ],
+            "productCategory": "SpecialItems"
         }
     ],
     "ExportAbilities": [
