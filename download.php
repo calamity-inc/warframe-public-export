@@ -7,6 +7,10 @@ foreach (scandir(".") as $file)
 		foreach (explode("\n", file_get_contents($file)) as $line)
 		{
 			$line = str_replace("\r", "", $line);
+			if (!$line)
+			{
+				continue;
+			}
 			$name = explode("!", $line)[0];
 			if (substr($name, 0, 13) == "ExportRecipes")
 			{
