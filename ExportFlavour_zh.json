@@ -28,6 +28,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Interface/Graphics/CustomUI/Backgrounds/DrippyBackground",
+            "name": "\u6ef4\u7b54\u80cc\u666f",
+            "description": "\u4e00\u4e2a\u7528\u4e8e\u81ea\u5b9a\u4e49\u754c\u9762\u7684\u80cc\u666f",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Interface/Graphics/CustomUI/Backgrounds/FortunaBackground",
             "name": "\u798f\u5c14\u56fe\u5a1c\u80cc\u666f",
             "description": "\u4e00\u4e2a\u7528\u4e8e\u81ea\u5b9a\u4e49\u754c\u9762\u7684\u80cc\u666f",
@@ -364,6 +371,13 @@
         {
             "uniqueName": "/Lotus/Interface/Graphics/CustomUI/DeadlockStyle",
             "name": "\u50f5\u5c40\u4e3b\u9898",
+            "description": "\u4e00\u4e2a\u81ea\u5b9a\u4e49\u7684\u754c\u9762\u8272\u5f69\u4e3b\u9898",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Interface/Graphics/CustomUI/DrippyStyle",
+            "name": "\u6ef4\u7b54\u4e3b\u9898",
             "description": "\u4e00\u4e2a\u81ea\u5b9a\u4e49\u7684\u754c\u9762\u8272\u5f69\u4e3b\u9898",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -1317,7 +1331,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantB",
-            "name": "Ambulas \u9ed1",
+            "name": "\u667a\u8e31\u6050\u9e1f\u9ed1",
             "description": "\u501f\u7531\u57fa\u56e0\u62fc\u63a5\u6765\u6539\u53d8\u5e93\u72db\u6bdb\u76ae\u7684\u989c\u8272\u3002",
             "codexSecret": true
         },
@@ -2079,6 +2093,12 @@
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Emotes/FinishLine",
+            "name": "\u8fc7\u6765\u8868\u60c5\u52a8\u4f5c",
+            "description": "\u4e00\u5e45\u5411\u5fc3\u7231\u7684\u540c\u4f34\u8868\u793a\u9f13\u52b1\u7684\u5c55\u793a\u56fe\u3002\r\n\r\n\u5728\u519b\u68b0\u5e93\u7684\u643a\u5e26\u88c5\u5907\u8f6e\u76d8\u9009\u9879\u5361\u4e2d\u88c5\u5907\u6b64\u8868\u60c5\u52a8\u4f5c\u3002",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Emotes/FollowEmote",
             "name": "\u6765\u8fd9\u91cc\uff01",
             "description": "\u4e00\u79cd Tenno \u5c55\u73b0\u529b\u91cf\u4e0e\u6280\u672f\u7684\u6f14\u793a\uff0c\u4f1a\u4ee5\u4e00\u4e2a\u97a0\u8eac\u4f5c\u4e3a\u6536\u5c3e\u3002",
@@ -2645,7 +2665,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleSiriusOrion",
-            "name": "\u5408\u800c\u4e3a\u4e00\u7684\u8363\u8a89\u79f0\u53f7",
+            "name": "\u56e2\u805a\u4e00\u5fc3\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -2653,6 +2673,41 @@
         {
             "uniqueName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleVolt",
             "name": "\u7978\u4e0d\u5355\u884c\u7684\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/BaruukTitle",
+            "name": "\u6211\u7684\u826f\u5fc3\u4e0d\u5141\u8bb8\u6211\u52a8\u624b\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/FrostTitle",
+            "name": "\u51b0\u971c\u672f\u58eb\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/FrumentariusTitle",
+            "name": "\u7206\u5934\u9ad8\u624b\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/NovaTitle",
+            "name": "\u4e00\u5207\u90fd\u662f\u76f8\u5bf9\u7684\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/NyxTitle",
+            "name": "\u5fc3\u7075\u5927\u5e08\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -2993,7 +3048,42 @@
             "codexSecret": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/RoatheTitles/TrinityTitle",
+            "name": "\u533b\u751f\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/AirHunterTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/AmirCampaignAnnoyTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/AmirCampaignButterfingersTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/AmirCampaignCompleteTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/AmirCampaignLootTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
@@ -3252,6 +3342,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/ForgedInFireTitle",
+            "name": "\u8981\u4eba\u547d\u7684\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/FounderLvl1Title",
             "name": "\u95e8\u5f92\u521b\u59cb\u4eba\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
@@ -3280,8 +3377,15 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/FromOnHighTitle",
+            "name": "\u5929\u964d\u6b7b\u795e\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/GuardianTitle",
-            "name": "\u6211\u547d\u7531\u6211\u4e0d\u7531\u5929\u8363\u8a89\u79f0\u53f7",
+            "name": "\u638c\u63e1\u81ea\u5df1\u7684\u547d\u8fd0\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -3350,8 +3454,29 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/KaboomTitle",
+            "name": "\u7206\u7834\u4e13\u5bb6\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/KalymosTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/KillPhoridTitle",
+            "name": "\u761f\u75ab\u533b\u751f\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/Kills100Title",
+            "name": "\u6b7b\u4ea1\u5929\u4f7f\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -3525,6 +3650,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/Mercenary5InvasionsTitle",
+            "name": "\u4e3a\u94b1\u4e0d\u62e9\u624b\u6bb5\u7684\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/MinVelTogetherTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
@@ -3548,6 +3680,13 @@
         {
             "uniqueName": "/Lotus/Types/Items/Titles/NaramonFocusHoarderTitle",
             "name": "Naramon \u5148\u950b\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
+            "name": "\u960b\u795e\u661f\u514b\u661f\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -3616,6 +3755,13 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/PoENightTitle",
+            "name": "\u65e0\u4f11\u65e0\u6b62\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/RailjackAshTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
@@ -3672,8 +3818,35 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/Titles/SharpShooterTitle",
+            "name": "\u4ece\u4e0d\u5931\u624b\u7684\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/ShockwaveTitle",
+            "name": "90 \u540e\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/Titles/SisterKillerTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/SolveCipherUnder5Title",
+            "name": "\u706d\u9ab8\u4e4b\u5203\u5feb\u624b\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/StealthKills100Title",
+            "name": "\u4e0d\u7559\u75d5\u8ff9\u7684\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
             "excludeFromCodex": true
@@ -3694,6 +3867,27 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/Titles/TenetMasteryTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/TheCameraAdds100Title",
+            "name": "\u67e5\u65e0\u6b64\u4eba\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/TheHexCompleteTitle",
+            "name": "\u8363\u8a89\u79f0\u53f7",
+            "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
+            "codexSecret": false,
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/Titles/TheHexFinaleTitle",
             "name": "\u8363\u8a89\u79f0\u53f7",
             "description": "\u4e2a\u4eba\u8d44\u6599\u7684\u8363\u8a89\u79f0\u53f7\u3002",
             "codexSecret": false,
@@ -7567,13 +7761,13 @@
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageHalloween2024SisterGlyph",
             "name": "\u201c\u5973\u513f\u201d\u7eb3\u8d1d\u6d41\u58eb\u6d6e\u5370",
-            "description": "\u201c\u8fd9\u5929\u5c31\u5feb\u5230\u4e86\uff01\u7eb3\u8d1d\u6d41\u58eb\u4e4b\u591c\uff0c\u5173\u4e8e\u6b7b\u4ea1\u548c\u6076\u4f5c\u5267\u7684\u53e4\u8001\u8282\u65e5\uff01\u201d\u2014\u2014\u201c\u5973\u513f\u201d",
+            "description": "'\u8fd9\u5929\u5c31\u5feb\u5230\u4e86\uff01\u7eb3\u8d1d\u6d41\u58eb\u4e4b\u591c\uff0c\u5173\u4e8e\u6b7b\u4ea1\u548c\u6076\u4f5c\u5267\u7684\u53e4\u8001\u8282\u65e5\uff01'\u2014\u2014'\u5973\u513f'",
             "codexSecret": false
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageHalloween2024SisterNoBloodGlyph",
             "name": "\u201c\u5973\u513f\u201d\u7eb3\u8d1d\u6d41\u58eb\u4e4b\u591c\u6d6e\u5370",
-            "description": "\u201c\u8fd9\u5929\u5c31\u5feb\u5230\u4e86\uff01\u7eb3\u8d1d\u6d41\u58eb\u4e4b\u591c\uff0c\u5173\u4e8e\u6b7b\u4ea1\u548c\u6076\u4f5c\u5267\u7684\u53e4\u8001\u8282\u65e5\uff01\u201d\u2014\u2014\u201c\u5973\u513f\u201d",
+            "description": "'\u8fd9\u5929\u5c31\u5feb\u5230\u4e86\uff01\u7eb3\u8d1d\u6d41\u58eb\u4e4b\u591c\uff0c\u5173\u4e8e\u6b7b\u4ea1\u548c\u6076\u4f5c\u5267\u7684\u53e4\u8001\u8282\u65e5\uff01'\u2014\u2014'\u5973\u513f'",
             "codexSecret": false
         },
         {
@@ -8645,8 +8839,8 @@
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageCommunityLittleDuckGraffiti",
-            "name": "Little Duck \u793e\u533a\u6d82\u9e26\u6d6e\u5370",
-            "description": "\u4ee5\u6d82\u9e26\u7684\u65b9\u5f0f\u5c55\u73b0 Little Duck \u7684\u6d6e\u5370\uff0c\u7531 DarikaArt \u521b\u4f5c\u3002",
+            "name": "\u5c0f\u9e2d\u5b50\u793e\u533a\u6d82\u9e26\u6d6e\u5370",
+            "description": "\u4ee5\u6d82\u9e26\u7684\u65b9\u5f0f\u5c55\u73b0\u5c0f\u9e2d\u5b50\u7684\u6d6e\u5370\uff0c\u7531 DarikaArt \u521b\u4f5c\u3002",
             "codexSecret": true
         },
         {
@@ -10026,9 +10220,93 @@
             "codexSecret": true
         },
         {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAmirArcaneTricksterGlyph",
+            "name": "\u5bd3\u8a00\u4e3b\u6301\u4eba\u6d6e\u5370",
+            "description": "\u4ee5\u963f\u7c73\u5c14\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAmirHijackGlyph",
+            "name": "DJ \u51b2\u51fb\u6ce2\u6d6e\u5370",
+            "description": "\u6388\u4e88\u6536\u542c\u4e86\u963f\u7c73\u5c14\u63a5\u7ba1\u5e7f\u64ad\u8282\u76ee\u7684\u73a9\u5bb6\u7684\u6d6e\u5370\u3002",
+            "codexSecret": true
+        },
+        {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAoi",
             "name": "\u78a7\u6298\u7eb8\u6d6e\u5370",
             "description": "\u7528\u8fd9\u4e2a\u78a7\u6d6e\u5370\u6765\u5c55\u73b0\u4f60\u6700\u559c\u6b22\u7684\u539f\u578b\u6218\u7532\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAoiBarbarianGlyph",
+            "name": "\u8bf8\u59ec\u00b7\u4e00\u51fb\u6d6e\u5370",
+            "description": "\u4ee5\u78a7\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveArthurPaladinGlyph",
+            "name": "\u585e\u5fb7\u91cc\u514b\u00b7\u9ece\u9882\u6d6e\u5370",
+            "description": "\u4ee5\u4e9a\u745f\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveCommanderNachGlyph",
+            "name": "\u6307\u6325\u5b98\u7eb3\u5947\u6d6e\u5370",
+            "description": "\u4ed6\u6c38\u8fdc\u5728\u5bfb\u627e\u4ed6\u7684\u6bd4\u5f17\u65fa\u94a5\u5319\uff0c\u4ee5\u53ca\u4e00\u4e2a\u613f\u610f\u503e\u542c\u4ed6\u72ec\u767d\u7684\u4eba\u3002\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u4e0d\u5e78\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveDrippyGraffitiGlyph",
+            "name": "\u6ef4\u7b54\u4e09\u4f0f\u5929\u6d6e\u5370",
+            "description": "\u5373\u65f6\u7f51\u7684\u590f\u5b63\u66f4\u65b0\u5e26\u6765\u4e86\u8fd9\u6b3e\u5168\u65b0\u7684\u6ef4\u7b54\u597d\u7269\uff0c\u966a\u4f60\u6e05\u51c9\u4e00\u590f\uff0c\u5c3d\u4eab\u590f\u65e5\u65f6\u5149\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveEleanorWarlockGlyph",
+            "name": "\u6851\u5409\u5a1c\u00b7\u5361\u5229\u65af\u8482\u6d6e\u5370",
+            "description": "\u4ee5\u57c3\u8389\u8bfa\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveHekHolderGlyph",
+            "name": "\u6d77\u514b\u770b\u5b88\u8005\u6d6e\u5370",
+            "description": "\u5b83\u7684\u521b\u4f5c\u8005\u5bf9\u5f53\u521d\u60f3\u51fa\u8fd9\u4e2a\u8bbe\u8ba1\u6df1\u611f\u540e\u6094\u3002\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u547d\u8fd0\u591a\u821b\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveLettieDruidGlyph",
+            "name": "\u4f0a\u514b\u585e\u5c14\u00b7\u5df4\u62c9\u59c6\u6d6e\u5370",
+            "description": "\u4ee5\u83b1\u8482\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveLordAlanVGlyph",
+            "name": "\u827e\u4f26\u4e94\u4e16\u52cb\u7235\u6d6e\u5370",
+            "description": "\u4e94\u4e16\u4ee3\u8868\u4ec0\u4e48\uff1f\u6ca1\u4eba\u77e5\u9053\u3002\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u547d\u8fd0\u591a\u821b\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveMitMimicGlyph",
+            "name": "M.I.T.\u62df\u6001\u8005\u6d6e\u5370",
+            "description": "\u6211\u4eec\u786e\u4fe1\u8fd9\u662f\u4e00\u4e2a\u666e\u901a\u7684\u6d6e\u5370\u2026\u2026\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u4e0d\u5e78\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveNoodleCubeGlyph",
+            "name": "\u9762\u6761\u5c0f\u65b9\u6d6e\u5370",
+            "description": "\u5b83\u8f6f\u8f6f\u7684\uff0c\u65b9\u65b9\u6b63\u6b63\u7684\u3002\u5b83\u751a\u81f3\u90fd\u6ca1\u6765\u5f97\u53ca\u9732\u9762\uff0c\u4f46\u6211\u4eec\u4f9d\u7136\u559c\u6b22\u5b83\u7684\u5c0f\u8138\u86cb\u3002\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u547d\u8fd0\u591a\u821b\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveOroDragonGlyph",
+            "name": "\u5965\u91d1\u4e4b\u9f99\u6d6e\u5370",
+            "description": "\u53c8\u5927\u53c8\u7ea2\u3002\u8f6c\u5f2f\u534a\u5f84\u582a\u6bd4 1967 \u5e74\u6b3e\u8d8a\u5b87 500\u3002\r\n\r\n\u51fa\u81ea\u4e00\u6b21\u547d\u8fd0\u591a\u821b\u7684\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u5192\u9669\u3002 ",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveQuincyRangerGlyph",
+            "name": "\u96f7\u5170\u00b7\u91d1\u65af\u514b\u96f7\u52cb\u7235\u6d6e\u5370",
+            "description": "\u4ee5\u6606\u897f\u5728\u300a\u5bd3\u8a00\u4e0e\u8fb9\u7586\u300b\u4e2d\u626e\u6f14\u7684\u89d2\u8272\u4e3a\u4e3b\u9898\u7684\u4e2a\u4eba\u6863\u6848\u6d6e\u5370\uff0c\u7531\u793e\u533a\u827a\u672f\u5bb6 ZliDe \u521b\u4f5c\u3002",
             "codexSecret": true
         },
         {
@@ -10367,6 +10645,12 @@
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoVIP2Glyph",
             "name": "TennoVIP 2025 \u6d6e\u5370",
+            "description": "VIP Tenno \u7684\u6d6e\u5370\u3002",
+            "codexSecret": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoVIPXian2026Glpyh",
+            "name": "TennoVIP \u897f\u5b89 2026 \u6d6e\u5370",
             "description": "VIP Tenno \u7684\u6d6e\u5370\u3002",
             "codexSecret": true
         },
@@ -10930,7 +11214,7 @@
         {
             "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/HeirloomMesaGlyph",
             "name": "Mesa \u4f20\u5bb6\u5b9d\u6d6e\u5370",
-            "description": "\u8fd9\u4e9b\u67aa\u767e\u53d1\u767e\u4e2d\u3002",
+            "description": "\u8fd9\u526f\u53cc\u67aa\u767e\u53d1\u767e\u4e2d\u3002",
             "codexSecret": true
         },
         {
@@ -27134,6 +27418,284 @@
                 },
                 {
                     "value": "0x00E2B346"
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerNightwave1999Item",
+            "name": "\u71b5\u589e\u8c03\u8272\u76d8",
+            "description": "\u5f53\u5e73\u5e38\u90a3\u79cd\u6b22\u5feb\u7684\u9b45\u529b\u4e0d\u8db3\u4ee5\u6253\u52a8\u4f60\u65f6\uff0c\u4e0d\u59a8\u8bd5\u8bd5\u8fd9\u4e9b\u8272\u5f69\u3002",
+            "codexSecret": false,
+            "hexColours": [
+                {
+                    "value": "0x008A4DF3"
+                },
+                {
+                    "value": "0x008546F2"
+                },
+                {
+                    "value": "0x00813FF2"
+                },
+                {
+                    "value": "0x007C38F2"
+                },
+                {
+                    "value": "0x007830F2"
+                },
+                {
+                    "value": "0x007329F2"
+                },
+                {
+                    "value": "0x006E22F2"
+                },
+                {
+                    "value": "0x006A1BF2"
+                },
+                {
+                    "value": "0x006513F2"
+                },
+                {
+                    "value": "0x00610CF2"
+                },
+                {
+                    "value": "0x005C05F2"
+                },
+                {
+                    "value": "0x005905EB"
+                },
+                {
+                    "value": "0x005605E3"
+                },
+                {
+                    "value": "0x005304DB"
+                },
+                {
+                    "value": "0x005004D4"
+                },
+                {
+                    "value": "0x004D04CC"
+                },
+                {
+                    "value": "0x004A04C4"
+                },
+                {
+                    "value": "0x004804BD"
+                },
+                {
+                    "value": "0x004504B5"
+                },
+                {
+                    "value": "0x004203AD"
+                },
+                {
+                    "value": "0x003F03A6"
+                },
+                {
+                    "value": "0x003C039E"
+                },
+                {
+                    "value": "0x00390396"
+                },
+                {
+                    "value": "0x0036038F"
+                },
+                {
+                    "value": "0x00330387"
+                },
+                {
+                    "value": "0x00300380"
+                },
+                {
+                    "value": "0x002D0278"
+                },
+                {
+                    "value": "0x002B0270"
+                },
+                {
+                    "value": "0x00280269"
+                },
+                {
+                    "value": "0x00250261"
+                },
+                {
+                    "value": "0x0080EDF4"
+                },
+                {
+                    "value": "0x0078ECF5"
+                },
+                {
+                    "value": "0x0071ECF5"
+                },
+                {
+                    "value": "0x0069ECF5"
+                },
+                {
+                    "value": "0x0062EBF5"
+                },
+                {
+                    "value": "0x005BEBF5"
+                },
+                {
+                    "value": "0x0053EAF5"
+                },
+                {
+                    "value": "0x004CEAF5"
+                },
+                {
+                    "value": "0x0045E9F5"
+                },
+                {
+                    "value": "0x003DE9F5"
+                },
+                {
+                    "value": "0x003DE9F5"
+                },
+                {
+                    "value": "0x0036E8F5"
+                },
+                {
+                    "value": "0x002FE8F5"
+                },
+                {
+                    "value": "0x0027E7F5"
+                },
+                {
+                    "value": "0x0020E7F5"
+                },
+                {
+                    "value": "0x0018E6F5"
+                },
+                {
+                    "value": "0x0011E6F5"
+                },
+                {
+                    "value": "0x000AE5F5"
+                },
+                {
+                    "value": "0x0002E5F5"
+                },
+                {
+                    "value": "0x0002DEED"
+                },
+                {
+                    "value": "0x0002D6E6"
+                },
+                {
+                    "value": "0x0002CFDE"
+                },
+                {
+                    "value": "0x0002C8D6"
+                },
+                {
+                    "value": "0x0002C1CF"
+                },
+                {
+                    "value": "0x0002BAC7"
+                },
+                {
+                    "value": "0x0002B3BF"
+                },
+                {
+                    "value": "0x0002ABB8"
+                },
+                {
+                    "value": "0x0002A4B0"
+                },
+                {
+                    "value": "0x00029DA8"
+                },
+                {
+                    "value": "0x000296A1"
+                },
+                {
+                    "value": "0x00B467F5"
+                },
+                {
+                    "value": "0x00B25FF5"
+                },
+                {
+                    "value": "0x00AE58F5"
+                },
+                {
+                    "value": "0x00AB51F5"
+                },
+                {
+                    "value": "0x00A849F5"
+                },
+                {
+                    "value": "0x00A442F5"
+                },
+                {
+                    "value": "0x00A13BF5"
+                },
+                {
+                    "value": "0x009E33F5"
+                },
+                {
+                    "value": "0x009A2CF5"
+                },
+                {
+                    "value": "0x009725F5"
+                },
+                {
+                    "value": "0x00941DF5"
+                },
+                {
+                    "value": "0x009116F5"
+                },
+                {
+                    "value": "0x008D0FF5"
+                },
+                {
+                    "value": "0x008A07F5"
+                },
+                {
+                    "value": "0x008700F5"
+                },
+                {
+                    "value": "0x008200ED"
+                },
+                {
+                    "value": "0x007E00E6"
+                },
+                {
+                    "value": "0x007A00DE"
+                },
+                {
+                    "value": "0x007600D6"
+                },
+                {
+                    "value": "0x007200CF"
+                },
+                {
+                    "value": "0x006D00C7"
+                },
+                {
+                    "value": "0x006900BF"
+                },
+                {
+                    "value": "0x006500B8"
+                },
+                {
+                    "value": "0x006100B0"
+                },
+                {
+                    "value": "0x005D00A8"
+                },
+                {
+                    "value": "0x005800A1"
+                },
+                {
+                    "value": "0x00540099"
+                },
+                {
+                    "value": "0x00500091"
+                },
+                {
+                    "value": "0x004C008A"
+                },
+                {
+                    "value": "0x00480082"
                 }
             ]
         },

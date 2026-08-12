@@ -4563,14 +4563,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/FormaStance",
             "name": "Forma Postawy",
-            "description": "Modyfikuje gniazdo na Postaw\u0119 Broni bia\u0142ej w taki spos\u00f3b, aby by\u0142a kompatybilna z dowoln\u0105 polaryzacj\u0105 Mod\u00f3w.",
+            "description": "Modyfikuje gniazdo postawy broni bia\u0142ej w taki spos\u00f3b, aby by\u0142a kompatybilna z dowoln\u0105 polaryzacj\u0105 Mod\u00f3w.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/MiscItems/Forma"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/FormaUmbra",
             "name": "Forma Umbra",
-            "description": "Forma zmieniaj\u0105ca polaryzacj\u0119 na UMBRA.\r\n\r\nTen zmiennokszta\u0142tny element jest podstaw\u0105 konstrukcji Orokin. Pozwala on na zmian\u0119 polaryzacji gniazda na mod Warframe'a, Broni lub Towarzysza, jednocze\u015bnie resetuj\u0105c rang\u0119 do zerowego poziomu. Ten zabieg mo\u017ce by\u0107 przeprowadzony tylko dla Warframe'a, Broni lub Towarzysza, kt\u00f3ry osi\u0105gn\u0105\u0142 maksymaln\u0105 Rang\u0119.",
+            "description": "Forma zmieniaj\u0105ca polaryzacj\u0119 na UMBRA.\r\n\r\nTen zmiennokszta\u0142tny element jest podstaw\u0105 konstrukcji Orokin. Pozwala on na zmian\u0119 polaryzacji gniazda Modu Warframe'a lub broni bia\u0142ej, jednocze\u015bnie resetuj\u0105c rang\u0119 do zerowego poziomu. Ten zabieg mo\u017cna przeprowadzi\u0107 tylko dla Warframe'a lub broni bia\u0142ej o maksymalnej randze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/Forma"
         },
@@ -4862,6 +4862,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixCreds",
             "name": "Kredyty Sk\u0142adanki Nory cz. 2",
+            "description": "U\u017cywane do zakupu Ofert Gwiezdnego Szlaku. Kredyty Gwiezdnego Szlaku z zako\u0144czonych serii mog\u0105 by\u0107 zatrzymane na pami\u0105tk\u0119 lub sprzedane za <CREDITS>Kredyty.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
+            "name": "Kredyt Infostrady Amira",
             "description": "U\u017cywane do zakupu Ofert Gwiezdnego Szlaku. Kredyty Gwiezdnego Szlaku z zako\u0144czonych serii mog\u0105 by\u0107 zatrzymane na pami\u0105tk\u0119 lub sprzedane za <CREDITS>Kredyty.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -6591,6 +6599,14 @@
             "excludeFromCodex": true
         },
         {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileMallHubTennoProtoRelayBase",
+            "name": "Scena: Kr\u00f3lestwo H\u00f6llvandii",
+            "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+            "excludeFromCodex": true
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaConAlleyValguma",
             "name": "Scena: H\u00f6llva\u0144ski taras latem",
             "description": "Odblokuj t\u0119 scen\u0119 do u\u017cycia w trybie Fotobudki, dost\u0119pnej z zak\u0142adki Wygl\u0105d z poziomu Arsena\u0142u Warframe.",
@@ -8259,21 +8275,21 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JadeShadows/JadeEyesShipDeco",
-            "name": "Dekoracja Ophanima Jade",
+            "name": "Dekoracja: Ophanim Jade",
             "description": "Nie b\u00f3j si\u0119 spojrzenia Jade w Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JadeShadows/JadeMemorialShipDeco",
-            "name": "Dekoracja Obietnica Jade",
+            "name": "Dekoracja: Obietnica Jade",
             "description": "Pi\u00f3ra pami\u0119ci, zebrane z mi\u0142o\u015bci\u0105. Dar p\u0142yn\u0105cy z g\u0142\u0119bi serca, uwieczniony w drobinach nieugi\u0119tego \u015bwiat\u0142a.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/JadeShadows/LisetPropCalibanDeluxeGhosts",
-            "name": "Dekoracja Heurodis",
+            "name": "Dekoracja: Heurodis",
             "description": "Zapro\u015b duchy z Innego \u015awiata do swojego Orbitera.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -8584,7 +8600,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NewWar/LisetPropBallasStaff",
             "name": "Kostur Narmer Ballasa",
-            "description": "Pozbawiona swojej mocy, to trofeum jest teraz symbolem Twojego zwyci\u0119stwa nad Ballasem i jego si\u0142ami Narmer jako dekoracja na Tw\u00f3j statek.",
+            "description": "Pozbawione swojej pot\u0119\u017cnej mocy trofeum upami\u0119tniaj\u0105ce Twoje zwyci\u0119stwo nad Ballasem i jego si\u0142ami Narmer stanowi cenn\u0105 ozdob\u0119 Twojego statku.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
             "excludeFromCodex": true
@@ -8705,6 +8721,55 @@
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/GlassmakerShipDeco",
             "name": "Wi\u0119zienie Nihila",
             "description": "Nihil, niegdy\u015b przera\u017caj\u0105cy Szklarz Orokin, teraz uwi\u0119ziony na wieczno\u015b\u0107 w tej ma\u0142ej buteleczce. Obchodzi\u0107 si\u0119 z ostro\u017cno\u015bci\u0105.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveEntertechmentCrate",
+            "name": "Dekoracja: Submeower",
+            "description": "Nie pytaj, gdzie wsadza si\u0119 kabel zasilaj\u0105cy.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveMallStoreDiceMetal",
+            "name": "Dekoracja: Zestaw ko\u015bci Kikimor i Kazamat\u00f3w",
+            "description": "Uwa\u017caj, nadepni\u0119cie na 1k4 sprawi, \u017ce przez nast\u0119pne 1k6 dni b\u0119dziesz rzuca\u0142 z kar\u0105.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveMimicChestBox",
+            "name": "Dekoracja: Mimika Origami",
+            "description": "Ma\u0142y, ale gryzie.\r\n\r\nPochodzi ze skazanej na pora\u017ck\u0119 przygody Kikimor i Kazamat\u00f3w.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiCraneB",
+            "name": "Dekoracja: Pionek \u017burawia Origami",
+            "description": "Specjalno\u015b\u0107 Aoi.\r\n\r\nPochodzi ze skazanej na pora\u017ck\u0119 przygody Kikimor i Kazamat\u00f3w.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiDragon",
+            "name": "Dekoracja: Pionek Smoka Origami",
+            "description": "Cz\u0119sto wyst\u0119puj\u0105cy w kazamatach.\r\n\r\nPochodzi ze skazanej na pora\u017ck\u0119 przygody Kikimor i Kazamat\u00f3w.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiGargoyle",
+            "name": "Dekoracja: Pionek Gargulca Origami",
+            "description": "Potwory inspirowane architektur\u0105 galijsk\u0105.\r\n\r\nPochodzi ze skazanej na pora\u017ck\u0119 przygody Kikimor i Kazamat\u00f3w.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiLotus",
+            "name": "Dekoracja: Pionek Lotus Origami",
+            "description": "Aoi nie ma poj\u0119cia, dlaczego tyle ich stworzy\u0142a.\r\n\r\nPochodzi ze skazanej na pora\u017ck\u0119 przygody Kikimor i Kazamat\u00f3w.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -9760,6 +9825,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDrippy",
+            "name": "Pluszak Drippy'ego",
+            "description": "Na wypadek wycieku solanki, pluszak Drippy'ego \u015bpieszy z pomoc\u0105!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyEleanor",
             "name": "Pluszak Eleanor",
             "description": "Przytulna replika Eleanor, kt\u00f3ra z pewno\u015bci\u0105 nie b\u0119dzie szpera\u0107 ci w g\u0142owie i nie poka\u017ce ci k\u0142\u00f3w.",
@@ -9938,14 +10010,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyLyon",
             "name": "Pluszak Leona",
-            "description": "'Nie rozumiem, w jakim celu kto\u015b mia\u0142by tworzy\u0107 tak\u0105 imitacj\u0119. Nie, nie oddam jej'. \u2013 Ojciec Leon Allard",
+            "description": "'Nie rozumiem, w jakim celu kto\u015b mia\u0142by tworzy\u0107 tak\u0105 imitacj\u0119. Nie, nie oddam jej.' \u2013 Ojciec Leon Allard",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyMarie",
             "name": "Pluszak Marii",
-            "description": "\u201cRegardez! Mon visage, ale z pewno\u015bci\u0105 jeszcze bardziej uroczy, n\u2019est-ce pas? Po prostu musz\u0119 wy\u015bciska\u0107 mes petites joues!\u201d \u2013 Maria Leroux",
+            "description": "'Regardez! Mon visage, ale z pewno\u015bci\u0105 jeszcze bardziej uroczy, n'est-ce pas? Po prostu musz\u0119 wy\u015bciska\u0107 mes petites joues!' \u2013 Maria Leroux",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -10680,7 +10752,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Tau/LisetPropMetalLotusSingle",
-            "name": "Dekoracja Ksenoflory",
+            "name": "Dekoracja: Ksenoflora",
             "description": "Upami\u0119tniaj\u0105ca Ksenoflor\u0119 Tau, ta pi\u0119kna dekoracja mo\u017ce ozdobi\u0107 Tw\u00f3j Orbiter.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -12356,7 +12428,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/7thAnniversaryPoster",
-            "name": "Plakat Si\u00f3dmej Rocznicy",
+            "name": "Plakat: Si\u00f3dma Rocznica",
             "description": "Plakat upami\u0119tniaj\u0105cy.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -12364,7 +12436,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/8thAnniversaryPoster",
-            "name": "Plakat \u00d3smej Rocznicy",
+            "name": "Plakat: \u00d3sma Rocznica",
             "description": "Plakat upami\u0119tniaj\u0105cy.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -12428,7 +12500,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/AlbrechtPortrait",
-            "name": "Wy\u015bwietlacz 1999 Albrechta",
+            "name": "Wy\u015bwietlacz: Albrecht 1999",
             "description": "Udekoruj swoje pomieszczenia portretem tajemniczego Albrechta Entratiego.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -12478,7 +12550,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ArloHealingLamp",
-            "name": "Ozdoba: P\u0142omie\u0144 Arlo",
+            "name": "Dekoracja: P\u0142omie\u0144 Arlo",
             "description": "Nigdy nie zapomnij o metamorfozie Arlo dzi\u0119ki tej dekoracji Orbitera.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -12669,7 +12741,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/BoredTennoPoster",
-            "name": "Plakat Klasy Ten Zero",
+            "name": "Plakat: Klasa Ten Zero",
             "description": "Niech\u0119tni uczniowie Tenno studiuj\u0105 najnowsze zadanie od swojego nauczyciela, Cefalona, nie wiedz\u0105c, co ich wkr\u00f3tce spotka.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -12832,7 +12904,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/CNY2021Poster",
-            "name": "Plakat Kaligrafii Roku Ksi\u0119\u017cycowego",
+            "name": "Plakat: Kaligrafia Roku Ksi\u0119\u017cycowego",
             "description": "Tradycyjny symbol, kt\u00f3ry b\u0142ogos\u0142awi Ksi\u0119\u017cycowy Nowy Rok.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -12875,7 +12947,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/CaliberChicksPoster",
-            "name": "Plakat Caliber Chicks 2",
+            "name": "Plakat: Caliber Chicks 2",
             "description": "Te siostry nie pud\u0142uj\u0105. Jillian i Lillian Killian wracaj\u0105, \u017ceby kopa\u0107 ty\u0142ki! ",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -13044,7 +13116,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Conquera2021Deco",
-            "name": "Ozdoba: Conquera",
+            "name": "Dekoracja: Conquera",
             "description": "Umie\u015b\u0107 t\u0119 dekoracj\u0119 jako symbol wsparcia misji walki z rakiem.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -13065,105 +13137,105 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemAlloyDrum",
-            "name": "Ozdoba: Stalowy B\u0119ben",
+            "name": "Dekoracja: Stalowy B\u0119ben",
             "description": "Stalowy B\u0119ben, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemArgonPegmatite",
-            "name": "Ozdoba: Argonowy Pegmatyt",
+            "name": "Dekoracja: Argonowy Pegmatyt",
             "description": "Argonowy Pegmatyt, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemCellArray",
-            "name": "Ozdoba: Szereg Ogniw Orokin",
+            "name": "Dekoracja: Szereg Ogniw Orokin",
             "description": "Szereg Ogniw Orokin, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemCircuitryLockbox",
-            "name": "Ozdoba: Skrzynka Obwod\u00f3w",
+            "name": "Dekoracja: Skrzynka Obwod\u00f3w",
             "description": "Skrzynka Obwod\u00f3w, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemFerriteDeposit",
-            "name": "Ozdoba: Z\u0142o\u017ce Ferrytu",
+            "name": "Dekoracja: Z\u0142o\u017ce Ferrytu",
             "description": "Z\u0142o\u017ce Ferrytu, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemGalliumDeposit",
-            "name": "Ozdoba: Ruda Galu",
+            "name": "Dekoracja: Ruda Galu",
             "description": "Ruda Galu, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemMorphicsStabilizer",
-            "name": "Ozdoba: Stabilizator Morficzny",
+            "name": "Dekoracja: Stabilizator Morficzny",
             "description": "Stabilizator Morficzny, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemNeuropticMass",
-            "name": "Ozdoba: Masa Neuroptyczna",
+            "name": "Dekoracja: Masa Neuroptyczna",
             "description": "Masa Neuroptyczna, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemPlastidCarapace",
-            "name": "Ozdoba: Plastydowy Karapaks",
+            "name": "Dekoracja: Plastydowy Karapaks",
             "description": "Plastydowy Karapaks, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemPolymerCase",
-            "name": "Ozdoba: Skrzynka Polimeru",
+            "name": "Dekoracja: Skrzynka Polimeru",
             "description": "Skrzynka Polimery, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemRoboticsLockbox",
-            "name": "Ozdoba: Skrzynka Robotyki",
+            "name": "Dekoracja: Skrzynka Robotyki",
             "description": "Skrzynka Robotyki, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemRubedoFormation",
-            "name": "Ozdoba: Formacja Rubedo",
+            "name": "Dekoracja: Formacja Rubedo",
             "description": "Formacja Rubedo, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemSalvage",
-            "name": "Ozdoba: Sprasowany Z\u0142om",
+            "name": "Dekoracja: Sprasowany Z\u0142om",
             "description": "Sprasowany Z\u0142om, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemSensorArray",
-            "name": "Ozdoba: Szereg Czujnik\u00f3w Neuronowych",
+            "name": "Dekoracja: Szereg Czujnik\u00f3w Neuronowych",
             "description": "Szereg Czujnik\u00f3w Neuronowych, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ContainerDecoItemSporeCulture",
-            "name": "Ozdoba: Zarodnik Grzyba",
+            "name": "Dekoracja: Zarodnik Grzyba",
             "description": "Zarodnik Grzyba, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -13303,14 +13375,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/DogDays2024Poster",
-            "name": "Wy\u015bwietlacz WOJNY Kaniku\u0142",
+            "name": "Wy\u015bwietlacz: WOJNA Kaniku\u0142",
             "description": "Mamy dla was trzy s\u0142owa: La\u0107 bez rozkazu!",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/DogDays2025Poster",
-            "name": "Plakat Kaniku\u0142 \"Na luzie\"",
+            "name": "Plakat: Kaniku\u0142y \"Na luzie\"",
             "description": "P\u0142y\u0144 na fali z Yareli. Nap\u00f3j we w\u0142asnym zakresie.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -13374,7 +13446,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/EmpyreanPoster",
-            "name": "Plakat Empireum",
+            "name": "Plakat: Empireum",
             "description": "Udekoruj sw\u00f3j Orbiter tym plakatem z Empireum jako motywem przewodnim.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13424,7 +13496,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/EraHypnosisPoster",
-            "name": "Plakat Nie L\u0119kaj Si\u0119",
+            "name": "Plakat: Nie l\u0119kaj si\u0119",
             "description": "Spojrzenie Erry niesie jego hipnotyczn\u0105 wiadomo\u015b\u0107.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13517,15 +13589,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ExplorationPoster",
-            "name": "Plakat Eksploracji",
+            "name": "Plakat: Eksploracja",
             "description": "Udekoruj sw\u00f3j Orbiter tym plakatem z Empireum jako motywem przewodnim.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/FlappyZephyrPoster",
-            "name": "Plakat Weso\u0142ej Zephyr",
+            "name": "Plakat: Weso\u0142a Zephyr",
             "description": "Obiekt, kt\u00f3ry s\u0142u\u017cy jako dow\u00f3d Twojego opanowania wiatr\u00f3w.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13533,7 +13604,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/FrameFighterPoster",
-            "name": "Plakat Frame Fighter",
+            "name": "Plakat: Frame Fighter",
             "description": "Podr\u00f3\u017cowa\u0142e\u015b po \u015bwiecie i zebra\u0142e\u015b wszystkie dane. Oto Twoja nagroda.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13597,7 +13668,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/GarvLatroxPoster",
-            "name": "Plakat Garv i Latrox",
+            "name": "Plakat: Garv i Latrox",
             "description": "Po raz pierwszy razem na tym dynamicznym plakacie, oryginalni \u017ali kolesie z Deimosa, Garv i Latrox.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13864,7 +13935,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HexLettieBobbleHead",
-            "name": "Figurka Noggle - Lettie Garcia",
+            "name": "Figurka Noggle \u2014 Lettie Garcia",
             "description": "Ma\u0142a, chwiejna figurka protoframe Lettie.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -13872,7 +13943,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/HexQuincyBobbleHead",
-            "name": "Figurka Noggle - Quincy Isaacs",
+            "name": "Figurka Noggle \u2014 Quincy Isaacs",
             "description": "Ma\u0142a, chwiejna figurka protoframe'a Quincy'ego.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -14172,7 +14243,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/KubrowKavatLowPolyPoster",
-            "name": "Plakat Towarzyszy Prisma",
+            "name": "Plakat: Towarzysz Prisma",
             "description": "Plakat Kubrow i Kavata do Twojego Orbitera.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -14442,7 +14513,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneDuviri",
             "name": "Robot Doomestos: Dais",
-            "description": "Na zamku, jak i w prostej chacie, ten pracowity dron zapewnia nieskazitelny porz\u0105dek.",
+            "description": "Czy to w zamku, czy w prostej chacie, ten pracowity dron zadba o nieskazitelny porz\u0105dek.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -14701,7 +14772,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayBlack",
-            "name": "Dekoracja Czarnej Nak\u0142adki Wy\u015bwietlacza",
+            "name": "Dekoracja: Czarna nak\u0142adka wy\u015bwietlacza",
             "description": "Drewniana rama do wy\u015bwietlania czerwono-czarnej nak\u0142adki w stylu Quill.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -14709,7 +14780,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayDefault",
-            "name": "Dekoracja Morskiej Nak\u0142adki Wy\u015bwietlacza",
+            "name": "Dekoracja: Morska nak\u0142adka wy\u015bwietlacza",
             "description": "Drewniana rama do wy\u015bwietlania nak\u0142adki w kolorze morskim w stylu Quill.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -14717,7 +14788,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOperatorHoodDisplayGrey",
-            "name": "Dekoracja Szarej Nak\u0142adki Wy\u015bwietlacza",
+            "name": "Dekoracja: Szara nak\u0142adka wy\u015bwietlacza",
             "description": "Drewniana rama do wy\u015bwietlania szarej nak\u0142adki w stylu Quill.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -14953,14 +15024,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropStyanaxPrimeSpearShieldDeco",
-            "name": "Dekoracja Tharros i Axios Prime",
+            "name": "Dekoracja: Tharros i Axios Prime",
             "description": "Egzaltowane uzbrojenie Styanaxa Prime, gotowe do przybrania zaszczytnego miejsca na Twoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropStyanaxSpearShieldDeco",
-            "name": "Dekoracja Tharros i Axios",
+            "name": "Dekoracja: Tharros i Axios",
             "description": "Oddasz cze\u015b\u0107 Styanaxowi, pokazuj\u0105c to cenne uzbrojenie.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15181,22 +15252,127 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999AmirCharacterSheetPoster",
+            "name": "Plakat: Karta postaci mistrza kazamat\u00f3w",
+            "description": "Karta postaci Amira w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999AoiCharacterSheetPoster",
+            "name": "Plakat: Karta postaci Morohime Ichigeki",
+            "description": "Karta postaci Aoi w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999ArthurCharacterSheetPoster",
+            "name": "Plakat: Karta postaci Cedryka Pie\u015bnio\u015bwita",
+            "description": "Karta postaci Artura w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999EleanorCharacterSheetPoster",
+            "name": "Plakat: Karta postaci Sanguiny Kallisti",
+            "description": "Karta postaci Eleanor w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFAmirPoster",
+            "name": "Plakat: Mistrz kazamat\u00f3w",
+            "description": "Grafika koncepcyjna tajemniczej postaci Amira w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFAoiPoster",
+            "name": "Plakat: Morohime Ichigeki",
+            "description": "Grafika koncepcyjna postaci Aoi w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFArthurPoster",
+            "name": "Plakat: Cedryk Pie\u015bnio\u015bwit",
+            "description": "Grafika koncepcyjna postaci Artura w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFCoverPoster",
+            "name": "Plakat: Przygoda Kikimory i Kazamaty: Sp\u00f3\u017anienie",
+            "description": "Ok\u0142adka przygody kampanii Kikimory i Kazamaty: Sp\u00f3\u017anienie. Grafika stworzona przez Nikki Dawes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFEleanorPoster",
+            "name": "Plakat: Sanguina Kallisti",
+            "description": "Grafika koncepcyjna postaci Eleanor w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFLettiePoster",
+            "name": "Plakat: Ixchel Balam",
+            "description": "Grafika koncepcyjna postaci Lettie w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFQuincyPoster",
+            "name": "Plakat: Lord Reyland Kingsacre",
+            "description": "Grafika koncepcyjna postaci Quincy'ego w grze Kikimory i Kazamaty. Ilustracja stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999LettieCharacterSheetPoster",
+            "name": "Plakat: Karta postaci Ixchel Balam",
+            "description": "Karta postaci Lettie w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999OnLyneRunningLate2Poster",
+            "name": "Plakat: Promocja Running Late On-lyne",
+            "description": "Wyst\u0119puj\u0105cy na wszystkich \u015bcianach ka\u017cdego sklepu muzycznego w mie\u015bcie. Uczcij tym plakatem powr\u00f3t ch\u0142opak\u00f3w do miasta.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999OnLyneRunningLatePoster",
+            "name": "Wy\u015bwietlacz: Ok\u0142adka Albumu Running Late On-lyne",
+            "description": "Udekoruj swoje \u015bciany plakatem upami\u0119tniaj\u0105cy powr\u00f3t ch\u0142opak\u00f3w z On-lyne.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999QuincyCharacterSheetPoster",
+            "name": "Plakat: Karty postaci Lorda Reylanda Kingsacre",
+            "description": "Karta postaci Quincy'ego w grze Kikimory i Kazamaty. Grafika stworzona przez Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoAPoster",
-            "name": "Plakat owocnik\u00f3w i zarodnik\u00f3w",
+            "name": "Plakat: Owocniki i zarodniki",
             "description": "Ozd\u00f3b swoje \u015bciany swawolnymi Sprodlingami.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoBPoster",
-            "name": "Plakat Jednog\u0142osu",
+            "name": "Plakat: Jednog\u0142os",
             "description": "Plakat przedstawiaj\u0105cy Nokko i jego przywi\u0105zanie do wszelkich form \u017cycia.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoCPoster",
-            "name": "Plakat Shooms",
+            "name": "Plakat: Shooms",
             "description": "Powie\u015b ten plakat na \u015bcianie, aby odda\u0107 ho\u0142d niezauwa\u017calnym bohaterom Kopalni.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15353,7 +15529,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/OculystStatue",
-            "name": "Dekoracja Orbitera Z Nowej Wojny",
+            "name": "Dekoracja: Orbiter z Nowej Wojny",
             "description": "Podarowany w zamian za wsp\u00f3lne do\u0142\u0105czenie do \u015bwi\u0119towania na TennoCon 2020.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15375,7 +15551,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/OraxiaDOTDPoster",
-            "name": "Plakat Mistrzyni Strachu",
+            "name": "Plakat: Mistrzyni Strachu",
             "description": "Najbardziej l\u0119ka\u0107 si\u0119 nale\u017cy samego strachu\u2026 i Oraxii.",
             "codexSecret": true,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15495,7 +15671,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ParazonPoster",
-            "name": "Plakat Parazonu",
+            "name": "Plakat: Parazon",
             "description": "Mi\u0142osierdzie czy Konwersja? Plakat do Twojego Orbitera.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15589,14 +15765,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemAlloyPlate",
-            "name": "Ozdoba: Stalowa P\u0142yta",
+            "name": "Dekoracja: Stalowa P\u0142yta",
             "description": "Stalowa P\u0142yta, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemArgonCrystal",
-            "name": "Ozdoba: Kryszta\u0142 Argonowy",
+            "name": "Dekoracja: Kryszta\u0142 Argonowy",
             "description": "Kryszta\u0142 Argonowy, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15611,28 +15787,28 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemCircuits",
-            "name": "Ozdoba: Obwody",
+            "name": "Dekoracja: Obwody",
             "description": "Obwody, kt\u00f3re mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemControlModule",
-            "name": "Ozdoba: Modu\u0142 Kontrolny",
+            "name": "Dekoracja: Modu\u0142 Kontrolny",
             "description": "Modu\u0142 Steruj\u0105cy, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemFerrite",
-            "name": "Ozdoba: Ferryt",
+            "name": "Dekoracja: Ferryt",
             "description": "Ferryt, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemGallium",
-            "name": "Ozdoba: Gal",
+            "name": "Dekoracja: Gal",
             "description": "Gal, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15646,14 +15822,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemMorphics",
-            "name": "Ozdoba: Morfyt",
+            "name": "Dekoracja: Morfyt",
             "description": "Morfyt, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemNanoSpore",
-            "name": "Ozdoba: Nano Zarodniki",
+            "name": "Dekoracja: Nano Zarodniki",
             "description": "Nano Zarodniki, kt\u00f3re mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15667,21 +15843,21 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemNeurodes",
-            "name": "Ozdoba: Neuroda",
+            "name": "Dekoracja: Neuroda",
             "description": "Neuroda, kt\u00f3r\u0105 mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemOrokinCell",
-            "name": "Ozdoba: Ogniwo Orokin",
+            "name": "Dekoracja: Ogniwo Orokin",
             "description": "Ogniwo Orokin, kt\u00f3re mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemPlastids",
-            "name": "Ozdoba: Plastydy",
+            "name": "Dekoracja: Plastydy",
             "description": "Plastydy, kt\u00f3re mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15695,14 +15871,14 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemRubedo",
-            "name": "Ozdoba: Rubedo",
+            "name": "Dekoracja: Rubedo",
             "description": "Rubedo, kt\u00f3re mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/ResourceDecoItemSalvage",
-            "name": "Ozdoba: Z\u0142om",
+            "name": "Dekoracja: Z\u0142om",
             "description": "Z\u0142om, kt\u00f3ry mo\u017cesz umie\u015bci\u0107 na swoim Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -15813,6 +15989,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/InstrumentDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StJudePoster",
+            "name": "Leveluj dla St. Jude",
+            "description": "Wyj\u0105tkowy plakat stworzony w ramach Miesi\u0105ca \u015awiadomo\u015bci Nowotwor\u00f3w u Dzieci, maj\u0105cy na celu wsparcie St. Jude Children's Research Hospital\u00ae. Praca autorstwa Ethana, Luny, Maelin-Kate i Ty'ego, pacjent\u00f3w szpitala St. Jude.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/StalkerBobbleHead",
             "name": "Figurka Noggle \u2014 Stalker",
             "description": "Ma\u0142a, chwiejna figurka Stalkera.",
@@ -15860,7 +16043,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/SummerGameFestPoster",
-            "name": "Wy\u015bwietlacz Protei Kaniku\u0142",
+            "name": "Wy\u015bwietlacz: Protea Kaniku\u0142",
             "description": "Nic nie mo\u017ce si\u0119 r\u00f3wna\u0107 z wypoczynkiem przy zachodz\u0105cym s\u0142o\u0144cu po strzelaninie na wod\u0119.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -16964,7 +17147,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/WitWSupporterPoster",
-            "name": "Wy\u015bwietlacz Jahu Albrechta",
+            "name": "Wy\u015bwietlacz: Jahu Albrechta",
             "description": "Udekoruj swoje pomieszczenia grafik\u0105 z dziennika Requiem Jahu Albrechta.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -17000,7 +17183,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/WyrmiusPoster",
-            "name": "Plakat Wyrmiusa",
+            "name": "Plakat: Wyrmius",
             "description": "WYRManiec.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -17057,7 +17240,7 @@
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/YareliAltCoverPoster",
-            "name": "Plakat Surferki #1",
+            "name": "Plakat: Surferka #1",
             "description": "Alternatywna ok\u0142adka Grafiki pierwszej przygody Yareli, mo\u017ce zosta\u0107 wy\u015bwietlana na Orbiterze.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
@@ -17340,7 +17523,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem",
             "name": "Segment Warsztatu statku desantowego",
-            "description": "Ulepsza Warsztat Orbitera nast\u0119puj\u0105cymi funkcjonalno\u015bciami:\r\n\r\n- Pozwala na budow\u0119 Statk\u00f3w desantowych\r\n- Pozwala na budow\u0119 \u0141adunk\u00f3w Wsparcia Powietrznego\r\n\r\nWyposa\u017c si\u0119 w \u0141adunki Wsparcia Powietrznego w Arsenale w menu Sprz\u0119tu.",
+            "description": "Ulepsza Warsztat Orbitera nast\u0119puj\u0105cymi funkcjonalno\u015bciami:\r\n\r\n- Pozwala na budow\u0119 statk\u00f3w desantowych\r\n- Pozwala na budow\u0119 \u0142adunk\u00f3w wsparcia powietrznego\r\n\r\nWyposa\u017c si\u0119 w \u0142adunki wsparcia powietrznego w Arsenale w menu Sprz\u0119tu.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
         },
@@ -18130,6 +18313,22 @@
             "uniqueName": "/Lotus/Types/Items/SongItems/NidusPrimeSongItem",
             "name": "Motyw: Nidus Prime",
             "description": "Naciesz swoje uszy charakterystycznym motywem Nidusa Prime na Somakordzie w Orbiterze.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/NightwaveFablesSongItem",
+            "name": "A Byte-sized Adventure",
+            "description": "Spokojny utw\u00f3r, idealny do gry w Kikimory i Kazamaty w gronie przyjaci\u00f3\u0142.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/NightwaveRunningLateSongItem",
+            "name": "Running Late",
+            "description": "Zaginiony singiel On-lyne, odnaleziony w anomalii czasoprzestrzennej, kt\u00f3rym mo\u017cesz nacieszy\u0107 si\u0119 w swoim Orbiterze dzi\u0119ki Somakordowi.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Game/SongItem",
             "showInInventory": false
@@ -18952,6 +19151,27 @@
             "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Mantys/MantysStarChartComponent",
             "name": "Mantis: Awionika",
             "description": "Awionika statku desantowego Mantis.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsComponent",
+            "name": "Gwiezdny Szlak: Awionika",
+            "description": "Awionika statku desantowego Gwiezdnego Szlaku",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesComponent",
+            "name": "Silniki: Gwiezdny Szlak",
+            "description": "Silnik statku desantowego Gwiezdnego Szlaku",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageComponent",
+            "name": "Kad\u0142ub: Gwiezdny Szlak",
+            "description": "Kad\u0142ub statku desantowego Gwiezdnego Szlaku",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
         },

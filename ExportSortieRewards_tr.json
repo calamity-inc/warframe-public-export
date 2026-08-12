@@ -121,7 +121,7 @@
         }
     ],
     "ExportNightwave": {
-        "affiliationTag": "RadioLegionIntermission15Syndicate",
+        "affiliationTag": "RadioLegionIntermission16Syndicate",
         "challenges": [
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyAimGlide",
@@ -129,6 +129,13 @@
                 "description": "Ni\u015fan Alarak S\u00fcz\u00fclme esnas\u0131nda |COUNT| D\u00fc\u015fman \u00d6ld\u00fcr",
                 "standing": 1000,
                 "required": 15
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyArtist",
+                "name": "Sanat\u00e7\u0131",
+                "description": "Ekipman\u0131n renklerini \u00f6zelle\u015ftir.",
+                "standing": 1000,
+                "required": 1
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyBulletJump",
@@ -425,20 +432,6 @@
                 "required": 1
             },
             {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyPickUpMedallion",
-                "name": "Av Ba\u015flad\u0131",
-                "description": "Tak\u0131m olarak |COUNT| Sendika Madalyonu bul. Tek ba\u015f\u0131na veya bir tak\u0131mla arama yapabilirsin.",
-                "standing": 1000,
-                "required": 5
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyHijackCrewship",
-                "name": "El Koyma",
-                "description": "D\u00fc\u015fmandan bir Crewship ka\u00e7\u0131r",
-                "standing": 1000,
-                "required": 1
-            },
-            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailySuspendFiveEnemies",
                 "name": "Derin Darbe",
                 "description": "Bir A\u011f\u0131r Yere \u00c7arpma Sald\u0131r\u0131s\u0131 ile 5 veya daha fazla d\u00fc\u015fman\u0131 havada as\u0131l\u0131 b\u0131rak",
@@ -458,6 +451,20 @@
                 "description": "\u00d6ne \u00c7\u0131kan bir Dojo'yu Ziyaret Et",
                 "standing": 1000,
                 "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyWholeArsenal",
+                "name": "Kapsaml\u0131 Cephanelik",
+                "description": "Birincil, \u0130kincil ve Yak\u0131n D\u00f6v\u00fc\u015f silahlar\u0131nla 10 saniye i\u00e7inde birini \u00f6ld\u00fcr.",
+                "standing": 1000,
+                "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyBowOffense",
+                "name": "Yay Sald\u0131r\u0131s\u0131",
+                "description": "Birincil Yay ile |COUNT| d\u00fc\u015fman \u00f6ld\u00fcr.",
+                "standing": 4500,
+                "required": 150
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCatchRarePlainsFish",
@@ -545,7 +552,7 @@
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCompleteSpy",
-                "name": "Gizli Ajan",
+                "name": "Casus",
                 "description": "|COUNT| Casus g\u00f6revi tamamla.",
                 "standing": 4500,
                 "required": 3
@@ -593,18 +600,39 @@
                 "required": 3
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPerplexed",
+                "name": "\u015ea\u015f\u0131rt\u0131c\u0131",
+                "description": "Duviri'de bir bulmacay\u0131 tamamla",
+                "standing": 4500,
+                "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPickUpMedallion",
+                "name": "Av Ba\u015flad\u0131",
+                "description": "|COUNT| Sendika Madalyonu bul. Tek ba\u015f\u0131na veya bir tak\u0131mla arama yapabilirsin.",
+                "standing": 4500,
+                "required": 10
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPlainsBounties",
                 "name": "D\u00fcnya \u00d6d\u00fcl Avc\u0131s\u0131",
-                "description": "Eidolon Ovalar\u0131nda |COUNT| farkl\u0131 \u00d6d\u00fcl G\u00f6revi tamamla.",
+                "description": "Eidolon Ovalar\u0131nda |COUNT| \u00d6d\u00fcl G\u00f6revi tamamla.",
                 "standing": 4500,
                 "required": 3
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySabotageCaches",
                 "name": "Zula Avc\u0131s\u0131",
-                "description": "Herhangi bir Sabotaj g\u00f6revinde |COUNT| zula bul.",
+                "description": "Herhangi bir g\u00f6revinde |COUNT| zula bul.",
                 "standing": 4500,
                 "required": 6
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRifleOffense",
+                "name": "T\u00fcfek Sald\u0131r\u0131s\u0131",
+                "description": "Birincil T\u00fcfek ile |COUNT| d\u00fc\u015fman \u00f6ld\u00fcr.",
+                "standing": 4500,
+                "required": 150
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySanctuaryOnslaught",
@@ -614,11 +642,32 @@
                 "required": 8
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyShotgunOffense",
+                "name": "Pompal\u0131 T\u00fcfek Sald\u0131r\u0131s\u0131",
+                "description": "Birincil Pompal\u0131 T\u00fcfek ile |COUNT| d\u00fc\u015fman \u00f6ld\u00fcr.",
+                "standing": 4500,
+                "required": 150
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySimarisScan",
                 "name": "S\u0131\u011f\u0131nak Ara\u015ft\u0131rmac\u0131s\u0131",
                 "description": "Cephalon Simaris i\u00e7in |COUNT| Tarama tamamla.",
                 "standing": 4500,
                 "required": 3
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySniperOffense",
+                "name": "Keskin Ni\u015fanc\u0131 Sald\u0131r\u0131s\u0131",
+                "description": "Birincil Keskin Ni\u015fanc\u0131 T\u00fcfe\u011fi ile |COUNT| d\u00fc\u015fman \u00f6ld\u00fcr.",
+                "standing": 4500,
+                "required": 150
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyToAshes",
+                "name": "K\u00fcllere Do\u011fru",
+                "description": "Vosfor i\u00e7in bir Arcane ayr\u0131\u015ft\u0131r.",
+                "standing": 4500,
+                "required": 1
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyUnlockDragonVaults",
@@ -644,9 +693,16 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyVenusBounties",
                 "name": "Ven\u00fcs \u00d6d\u00fcl Avc\u0131s\u0131",
-                "description": "Orb Vadisinde |COUNT| adet farkl\u0131 \u00d6d\u00fcl G\u00f6revi tamamla.",
+                "description": "Orb Vadisinde |COUNT| adet \u00d6d\u00fcl G\u00f6revi tamamla.",
                 "standing": 4500,
                 "required": 3
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyVoidNet",
+                "name": "Void A\u011f\u0131",
+                "description": "|COUNT| adet Void \u0130zi topla.",
+                "standing": 4500,
+                "required": 30
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyNightAndDay",
@@ -705,27 +761,6 @@
                 "required": 12
             },
             {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyEternalGuardian",
-                "name": "Ebedi Gardiyan",
-                "description": "|COUNT| Void Mah\u015feri g\u00f6revi tamamla.",
-                "standing": 4500,
-                "required": 2
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHighGround",
-                "name": "Y\u00fcksek Zemin",
-                "description": "|COUNT| Void Dalgas\u0131 g\u00f6revi tamamla.",
-                "standing": 4500,
-                "required": 3
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyZarimanBountyHunter",
-                "name": "Zariman \u00d6d\u00fcl Avc\u0131s\u0131",
-                "description": "Zariman'da |COUNT| adet farkl\u0131 \u00d6d\u00fcl G\u00f6revi tamamla.",
-                "standing": 4500,
-                "required": 4
-            },
-            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCompleteKuva",
                 "name": "Cellattan Korkma",
                 "description": "|COUNT| Kuva Ak\u0131n\u0131 G\u00f6revi Tamamla",
@@ -735,14 +770,14 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCompleteVenusRace",
                 "name": "S\u00fcr\u00fcc\u00fc",
-                "description": "Ven\u00fcs'teki Orb Vadisinde veya Deimos'taki Cambion D\u00fczl\u00fc\u011f\u00fcnde |COUNT| farkl\u0131 K-Drive yar\u0131\u015f\u0131 tamamla.",
+                "description": "Ven\u00fcs'teki Orb Vadisinde veya Deimos'taki Cambion D\u00fczl\u00fc\u011f\u00fcnde bir K-Drive yar\u0131\u015f\u0131 tamamla.",
                 "standing": 4500,
-                "required": 3
+                "required": 1
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyDestroyCrewshipArtillery",
                 "name": "\u00d6nc\u00fc",
-                "description": "\u00d6n Havan Topu ile bir Crewship'i Yok et",
+                "description": "\u00d6n Havan Topu ile bir M\u00fcrettebat Gemisini yok et",
                 "standing": 4500,
                 "required": 1
             },
@@ -759,13 +794,6 @@
                 "description": "Eidolon Ovalar\u0131nda bir Tusk Thumper \u00d6ld\u00fcr",
                 "standing": 4500,
                 "required": 1
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRailjackHijackDestroyThree",
-                "name": "Dost Ate\u015fi",
-                "description": "\u00c7al\u0131nt\u0131 bir Crewship kullan\u0131rken, 3 d\u00fc\u015fman Avc\u0131 Gemisi yok et",
-                "standing": 4500,
-                "required": 3
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRailjackMissions",
@@ -798,9 +826,9 @@
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyFinelyTuned",
                 "name": "\u0130nce Ayarlanm\u0131\u015f",
-                "description": "Duviri'de |COUNT| farkl\u0131 Shawzin \u015fark\u0131s\u0131n\u0131 \u00e7al",
+                "description": "Duviri'de bir Shawzin aktivitesine kat\u0131l\u0131p m\u00fczik \u00e7al",
                 "standing": 4500,
-                "required": 3
+                "required": 1
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyHorsingAround",
@@ -829,6 +857,34 @@
                 "description": "Ollie'nin H\u0131zland\u0131r\u0131lm\u0131\u015f Kursu'nu oyna ve bir yar\u0131\u015f\u0131 tamamla",
                 "standing": 4500,
                 "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRequiemTotem",
+                "name": "Antik Obelisks",
+                "description": "Deimos'ta 3 Requiem Obelisks'i aktive et.",
+                "standing": 4500,
+                "required": 3
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCollectHundredResources",
+                "name": "Toplay\u0131c\u0131",
+                "description": "|COUNT| adet Kaynak topla",
+                "standing": 4500,
+                "required": 4000
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySolveCiphers",
+                "name": "Yaz\u0131l\u0131m Korsan\u0131",
+                "description": "|COUNT| adet Konsolu ele ge\u00e7ir.",
+                "standing": 4500,
+                "required": 10
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyOpenLockers",
+                "name": "Kleptoman",
+                "description": "|COUNT| adet E\u015fya Dolab\u0131 a\u00e7.",
+                "standing": 4500,
+                "required": 30
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPermanentCompleteMissions",
@@ -1363,6 +1419,13 @@
                 "required": 4
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardBattleHardened",
+                "name": "Deneyimli Sava\u015f\u00e7\u0131",
+                "description": "Perita \u0130syan\u0131'n\u0131 |COUNT| veya daha fazla emri tamamlayarak bitir.",
+                "standing": 7000,
+                "required": 6
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardCompleteNightmareMissions",
                 "name": "Gece Ter\u00f6r\u00fc",
                 "description": "Herhangi bir t\u00fcrden |COUNT| Kabus G\u00f6revi tamamla.",
@@ -1377,11 +1440,25 @@
                 "required": 3
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardElementaryMyDear",
+                "name": "\u00c7ok basit, En Sevdi\u011fim",
+                "description": "Simya oyun modunda |COUNT| ba\u015far\u0131l\u0131 D\u00f6n\u00fc\u015f\u00fcm ger\u00e7ekle\u015ftir.",
+                "standing": 7000,
+                "required": 3
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardEliteSanctuaryOnslaught",
                 "name": "Elit Test Dene\u011fi",
                 "description": "Elit S\u0131\u011f\u0131nak H\u00fccumunda |COUNT| B\u00f6lge tamamla.",
                 "standing": 7000,
                 "required": 8
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardEternalGuardian",
+                "name": "Ebedi Gardiyan",
+                "description": "|COUNT| Void Mah\u015feri turu tamamla.",
+                "standing": 7000,
+                "required": 2
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardFriendsDefense",
@@ -1405,9 +1482,30 @@
                 "required": 1
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardGoingDown",
+                "name": "Derinli\u011fe Do\u011fru",
+                "description": "Al\u00e7ak Diyar'da Roathe'yi yok et.",
+                "standing": 7000,
+                "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardHighGround",
+                "name": "Y\u00fcksek Zemin",
+                "description": "Void Dalgas\u0131nda |COUNT| adet Y\u0131rt\u0131\u011f\u0131 Kapat",
+                "standing": 7000,
+                "required": 12
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardHoldTheMushrooms",
+                "name": "Mantarlar\u0131 Tut",
+                "description": "Derin Madenlerden |COUNT| mantar topla.",
+                "standing": 7000,
+                "required": 6
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardIndexWinStreak",
                 "name": "G\u00fcnd\u00fcz T\u00fcccar\u0131",
-                "description": "D\u00fc\u015fmanlar\u0131n\u0131n puan kazanmas\u0131na izin vermeden art arda 3 Index ma\u00e7\u0131 kazan.",
+                "description": "Art arda 3 \u0130ndeks ma\u00e7\u0131 kazan.",
                 "standing": 7000,
                 "required": 1
             },
@@ -1454,8 +1552,22 @@
                 "required": 1000
             },
             {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardSpiderHunt",
+                "name": "\u00d6r\u00fcmcek Av\u0131",
+                "description": "Bir Isleweaver Duviri G\u00f6revini tamamla.",
+                "standing": 7000,
+                "required": 1
+            },
+            {
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardTreasureFromThePast",
+                "name": "Ge\u00e7mi\u015ften Gelen Hazine",
+                "description": "Bir Netracell'i tamamla.",
+                "standing": 7000,
+                "required": 1
+            },
+            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardCollectUniqueResources",
-                "name": "Kaynak S\u00fcp\u00fcr\u00fcc\u00fcs\u00fc",
+                "name": "Kaynak Ya\u011fmac\u0131s\u0131",
                 "description": "Farkl\u0131 t\u00fcrde |COUNT| kaynak topla.",
                 "standing": 7000,
                 "required": 20
@@ -1507,7 +1619,7 @@
                 "name": "D\u00fc\u015fen Melek",
                 "description": "Zariman'da |COUNT| adet Void Mele\u011fi yok et. ",
                 "standing": 7000,
-                "required": 5
+                "required": 3
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardFastCapture",
@@ -1535,7 +1647,7 @@
                 "name": "Elit Ka\u015fif",
                 "description": "|COUNT| Railjack G\u00f6revi Tamamla",
                 "standing": 7000,
-                "required": 8
+                "required": 6
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardCompleteArchonHunt",
@@ -1566,13 +1678,6 @@
                 "required": 1
             },
             {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardPerplexed",
-                "name": "\u015ea\u015f\u0131rt\u0131c\u0131",
-                "description": "Duviri'de 3 bulmacay\u0131 tamamla",
-                "standing": 7000,
-                "required": 3
-            },
-            {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardVitalArbiter",
                 "name": "Hayati Arbitrasyon",
                 "description": "Bir Arbitrasyon G\u00f6revini tamamla",
@@ -1580,32 +1685,11 @@
                 "required": 1
             },
             {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRequiemTotem",
-                "name": "Antik Obelisks",
-                "description": "Deimos'ta 3 Requiem Obelisks'i aktive et.",
-                "standing": 4500,
-                "required": 3
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCollectHundredResources",
-                "name": "Toplay\u0131c\u0131",
-                "description": "|COUNT| adet Kaynak topla",
-                "standing": 4500,
-                "required": 4000
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySolveCiphers",
-                "name": "Yaz\u0131l\u0131m Korsan\u0131",
-                "description": "|COUNT| adet Konsolu ele ge\u00e7ir.",
-                "standing": 4500,
-                "required": 10
-            },
-            {
-                "uniqueName": "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyOpenLockers",
-                "name": "Kleptoman",
-                "description": "|COUNT| adet E\u015fya Dolab\u0131 a\u00e7.",
-                "standing": 4500,
-                "required": 30
+                "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardZarimanBountyHunter",
+                "name": "Zariman \u00d6d\u00fcl Avc\u0131s\u0131",
+                "description": "Zariman'da |COUNT| \u00d6d\u00fcl G\u00f6revi tamamla.",
+                "standing": 7000,
+                "required": 4
             },
             {
                 "uniqueName": "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillTank",
@@ -1624,48 +1708,13 @@
         ],
         "rewards": [
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 150
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/NightwaveGlyphsBundleI",
-                "name": "Zaman\u0131n F\u0131rt\u0131nas\u0131 \u0130\u015f Ba\u015f\u0131nda Glif Paketi",
-                "description": "Profiliniz i\u00e7in, Caliban Orfeo ve Protea Caladrius'u i\u015f ba\u015f\u0131nda g\u00f6steren iki glif.",
-                "components": [
-                    "Caliban Orfeo \u0130\u015f Ba\u015f\u0131nda Glif",
-                    "Protea Caladrius \u0130\u015f Ba\u015f\u0131nda Glif"
-                ]
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker"
-            },
-            {
-                "uniqueName": "/Lotus/Upgrades/Skins/Deluxe/CalibanDeluxeBowSkin"
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
-                "itemCount": 50
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/Emotes/NightwaveDanceEmote"
-            },
-            {
-                "uniqueName": "/Lotus/Upgrades/Skins/Scarves/TnPyraV2Syandana"
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/ValenceAdapter"
-            },
-            {
-                "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/TwoWeaponSlotItem",
-                "name": "S\u0130LAH YUVALARI",
-                "description": "Envanterinize iki silah yuvas\u0131 ekler.."
-            },
-            {
-                "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod"
-            },
-            {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
-                "itemCount": 50
+                "uniqueName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyDrippy",
+                "name": "Drippy Pelu\u015f",
+                "description": "Su s\u0131z\u0131nt\u0131s\u0131 durumunda, bu sevimli t\u00fcyl\u00fc Drippy yard\u0131m\u0131na ko\u015fmaya haz\u0131r!"
             },
             {
                 "uniqueName": "/Lotus/Types/StoreItems/Packages/FormaPack",
@@ -1673,37 +1722,62 @@
                 "description": "\u00dc\u00e7 adet Forma i\u00e7eren koleksiyon"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Sigils/NightwaveCalibanDeluxeSigil"
-            },
-            {
-                "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
-                "itemCount": 3
-            },
-            {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/KubrowColorPackDaybreak",
+                "uniqueName": "/Lotus/Types/StoreItems/Packages/Inf1999ArmorBundle",
+                "name": "Techrot Z\u0131rh Paketi",
+                "description": "Hayat\u0131n\u0131 mahvedecek korkun\u00e7 bir enfeksiyona yakalanmadan Techrot g\u00f6r\u00fcn\u00fcm\u00fcne kavu\u015f.",
                 "components": [
-                    "\u015eafak Kubrow K\u00fcrk Deseni",
-                    "Alacakaranl\u0131k Pembesi",
-                    "Ak\u015fam Moru",
-                    "Sabah Sar\u0131s\u0131"
+                    "Techrot Omuz Plakalar\u0131",
+                    "Techrot G\u00f6\u011f\u00fcs Plakas\u0131",
+                    "Techrot Bacak Plakalar\u0131"
                 ]
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Liset/OrfeoHoodOrnament"
+                "uniqueName": "/Lotus/Upgrades/Skins/Scarves/LasNightwaveCape"
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/KavatColorPackDaybreak",
-                "components": [
-                    "\u015eafak Kavat K\u00fcrk Deseni",
-                    "\u015eafak Pembesi",
-                    "Ufuk Pembesi",
-                    "Lua Moru",
-                    "Sol Sar\u0131s\u0131"
-                ]
+                "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveEntertechmentCrate"
+            },
+            {
+                "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponPrimaryArcaneUnlocker"
+            },
+            {
+                "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/TwoWeaponSlotItem",
+                "name": "S\u0130LAH YUVALARI",
+                "description": "Envanterinize iki silah yuvas\u0131 ekler.."
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveLasGooPistolAugmentMod"
+            },
+            {
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
+                "itemCount": 50
+            },
+            {
+                "uniqueName": "/Lotus/Types/Items/MiscItems/FormaStance"
+            },
+            {
+                "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveDrippyGraffitiGlyph"
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                "itemCount": 3
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/Skins/Operator/Accessories/NightWaveScouterEyePiece"
+            },
+            {
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
+                "itemCount": 150
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosSkin"
+            },
+            {
+                "uniqueName": "/Lotus/Upgrades/Skins/MeleeDangles/DrippyKeychainMeleeDangle"
             },
             {
                 "uniqueName": "/Lotus/Types/Items/MiscItems/RivenIdentifier"
@@ -1714,651 +1788,643 @@
                 "description": "Bir adet Warframe envanter yuvas\u0131 ekler."
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Crowns/OrfeoSignaCrown"
+                "uniqueName": "/Lotus/Types/Items/Emotes/FinishLine"
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/TnIceArmorBundle",
-                "name": "Naimore Z\u0131rh Paketi",
-                "description": "So\u011fuyan \u00f6fkeni ve buzla\u015fm\u0131\u015f kararl\u0131l\u0131\u011f\u0131n\u0131 ilan et.",
-                "components": [
-                    "Naimore Omuz Plakalar\u0131",
-                    "Naimore G\u00f6\u011f\u00fcs Plakas\u0131",
-                    "Naimore Bacak Plakalar\u0131"
-                ]
+                "uniqueName": "/Lotus/Upgrades/Skins/Effects/NightwaveDigitalEphemera"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 50
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod"
+                "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveLasGooAKAugmentMod"
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/FormaStance"
+                "uniqueName": "/Lotus/Types/Items/MiscItems/FormaAura"
             },
             {
-                "uniqueName": "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeGlaiveSkin"
-            },
-            {
-                "uniqueName": "/Lotus/Upgrades/Skins/Effects/ProteaDeluxeEphemera"
+                "uniqueName": "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerNightwave1999Item"
             },
             {
                 "uniqueName": "/Lotus/Types/Items/MiscItems/FormaUmbra"
             },
             {
-                "uniqueName": "/Lotus/Types/StoreItems/Packages/OperatorSuitCalDeluxeBundle",
-                "name": "Escuchon Regalia Koleksiyonu",
-                "description": "\u00d6l\u00fcm kar\u015f\u0131s\u0131nda cesaret g\u00f6steren birinin himayesinde, cesurca ilerle.",
+                "uniqueName": "/Lotus/Types/Items/Titles/ShockwaveTitle"
+            },
+            {
+                "uniqueName": "/Lotus/Types/StoreItems/Packages/OperatorSuitNightwave1999Bundle",
+                "name": "Kaneshell Atomisiklet Ni\u015fan\u0131",
+                "description": "Yeni milenyumun motorcu k\u0131yafetini giy. Gezgin ve Operat\u00f6r i\u00e7in uyarland\u0131.",
                 "components": [
-                    "Operat\u00f6r Escuchon Ba\u015fl\u0131\u011f\u0131",
-                    "Operat\u00f6r Escuchon Omuzluklar\u0131",
-                    "Operat\u00f6r Escuchon Kost\u00fcm\u00fc",
-                    "Operat\u00f6r Escuchon Bacak Z\u0131rh\u0131",
-                    "Operat\u00f6r Escuchon K\u0131yafeti"
+                    "Kaneshell Atomisiklet Ceketi",
+                    "Kaneshell Atomisiklet Mi\u011fferi",
+                    "Kaneshell Atomisiklet Bacaklar\u0131",
+                    "Kaneshell Atomisiklet Kolluklar\u0131"
                 ]
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             },
             {
-                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionFifteenCreds",
+                "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
                 "itemCount": 15
             }
         ]
@@ -2473,7 +2539,7 @@
                     "description": "Vekt\u00f6r s\u0131ras\u0131nda s\u00fcr\u00fclenmek i\u00e7in |SPRINT| tu\u015funa bas\u0131l\u0131 tut."
                 },
                 {
-                    "name": "Turbo S\u00fcp\u00fcr\u00fcc\u00fc",
+                    "name": "Turbo Ya\u011fmac\u0131",
                     "description": "Turbo atarken, kayarken veya ka\u00e7\u0131n\u0131rken e\u015fya toplama menzili 3x artar. Gizli kal\u0131nt\u0131lar i\u015faretlenir."
                 },
                 {
@@ -2644,25 +2710,25 @@
         {
             "uniqueName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster30DayStoreItem",
             "name": "30 G\u00fcnl\u00fck Xp Art\u0131r\u0131c\u0131",
-            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframe'lerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
+            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframelerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
             "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster3DayStoreItem",
             "name": "3 G\u00fcnl\u00fck Xp Art\u0131r\u0131c\u0131",
-            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframe'lerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
+            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframelerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
             "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster7DayStoreItem",
             "name": "7 G\u00fcnl\u00fck Xp Art\u0131r\u0131c\u0131",
-            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframe'lerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
+            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframelerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
             "excludeFromCodex": true
         },
         {
             "uniqueName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster90DayStoreItem",
             "name": "90-G\u00fcnl\u00fck XP Art\u0131r\u0131c\u0131",
-            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframe'lerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
+            "description": "XP kazanma oran\u0131n\u0131z\u0131 ikiye katlar. Silahlar\u0131n\u0131n ve Warframelerinin geli\u015fimini h\u0131zland\u0131r\u0131r.",
             "excludeFromCodex": true
         },
         {

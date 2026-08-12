@@ -4182,6 +4182,34 @@
             "secretIngredients": []
         },
         {
+            "uniqueName": "/Lotus/Types/Recipes/Components/SurgeEximusBallBlueprint",
+            "resultType": "/Lotus/Types/Restoratives/Consumable/SurgeEximusBall",
+            "buildPrice": 7500,
+            "buildTime": 28800,
+            "skipBuildTimePrice": 10,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 2500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 2500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 2500,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
             "uniqueName": "/Lotus/Types/Recipes/Components/UmbraEchoesBlueprint",
             "resultType": "/Lotus/Types/Items/MiscItems/UmbraEchoes",
             "buildPrice": 35000,
@@ -11744,6 +11772,138 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
                     "ItemCount": 8,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsBlueprint",
+            "resultType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 11000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 4800,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 6,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 8,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipBlueprint",
+            "resultType": "/Lotus/Types/Items/Ships/NoraShip",
+            "buildPrice": 25000,
+            "buildTime": 259200,
+            "skipBuildTimePrice": 50,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsComponent",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                    "ItemCount": 1,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesBlueprint",
+            "resultType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 7500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 7500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 5200,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                    "ItemCount": 3,
+                    "ProductCategory": "MiscItems"
+                }
+            ],
+            "secretIngredients": []
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageBlueprint",
+            "resultType": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageComponent",
+            "buildPrice": 15000,
+            "buildTime": 43200,
+            "skipBuildTimePrice": 25,
+            "consumeOnUse": true,
+            "num": 1,
+            "codexSecret": false,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 9000,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                    "ItemCount": 1800,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 4500,
+                    "ProductCategory": "MiscItems"
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 10,
                     "ProductCategory": "MiscItems"
                 }
             ],

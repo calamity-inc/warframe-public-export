@@ -4186,7 +4186,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BallisticaIncarnonUnlocker",
             "name": "Incarnon-Genesis: Ballistica",
-            "description": "Erwecke die F\u00e4higkeit dieser Waffe in Incarnon-Form kreuzf\u00f6rmige Projektile mit hohem <DT_FIRE_COLOR>Schnittschaden abzufeuern.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe in Incarnon-Form kreuzf\u00f6rmige Projektile mit hohem <DT_SLASH_COLOR>Schnittschaden abzufeuern.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -4274,7 +4274,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/StugIncarnonUnlocker",
             "name": "Incarnon-Genesis: Stug",
-            "description": "Erweckt die F\u00e4higkeit dieser Waffe, in Incarnon-Form einen chaotischen Malstrom aus korrosiven Blobs zu entfesseln.",
+            "description": "Erwecke die F\u00e4higkeit dieser Waffe in Incarnon-Form einen chaotischen Malstrom aus korrosiven Blobs zu entfesseln.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
             "excludeFromCodex": true
@@ -4627,28 +4627,28 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartA",
             "name": "Pulsierende Knoten",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troph\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartB",
             "name": "Infizierter F\u00fchler",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troph\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartC",
             "name": "Chitin-H\u00fclle",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troph\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartD",
             "name": "Abgetrennte Gallenblase",
-            "description": "Eine grauenhafte Troh\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
+            "description": "Eine grauenhafte Troph\u00e4e aus dem K\u00f6rper eines Juggernauts.\r\n\r\nQuelle: Wird von Juggernauts aus nicht-endlosen Missionen und Juggernauts aus der Cambion-Drift auf Deimos erhalten.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
         },
@@ -4862,6 +4862,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixCreds",
             "name": "Noras Mix - Vol. 2 Cred",
+            "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionSixteenCreds",
+            "name": "Amirs Shockwave-Cred",
             "description": "Wird benutzt, um Nightwave Angebote zu kaufen. Nightwave Creds vergangener Serien k\u00f6nnen als Souvenir behalten oder f\u00fcr <CREDITS>Credits verkauft werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
@@ -6585,6 +6593,14 @@
         {
             "uniqueName": "/Lotus/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceQuestFortTennadis",
             "name": "Photora-Szene: Fort Tennadis",
+            "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+            "excludeFromCodex": true
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileMallHubTennoProtoRelayBase",
+            "name": "Photora-Szene: Herrschaftsgebiet von H\u00f6llvandeim",
             "description": "Schaltet diese Szene zur Nutzung im Photora-Modus frei. Dieser kann \u00fcber den Aussehen-Reiter eures Warframes im Arsenal betreten werden.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
@@ -8709,6 +8725,55 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveEntertechmentCrate",
+            "name": "Dekoration: Sub-Miaufer",
+            "description": "Frag nicht, wo das Stromkabel hinkommt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveMallStoreDiceMetal",
+            "name": "Dekoration: Fables & Frontiers W\u00fcrfelset",
+            "description": "Vorsicht, auf einen 1d4 zu treten hei\u00dft, du w\u00fcrfelst die n\u00e4chsten 1d6 Tage mit Nachteil.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveMimicChestBox",
+            "name": "Dekoration: Mimic-Origami",
+            "description": "Klein, aber bissig.\r\n\r\nAus einem verh\u00e4ngnisvollen Fables & Frontiers Abenteuer.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiCraneB",
+            "name": "Dekoration: Kranich Origami-Spielfigur",
+            "description": "Aois Spezialit\u00e4t.\r\n\r\nAus einem verh\u00e4ngnisvollen Fables & Frontiers Abenteuer.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiDragon",
+            "name": "Dekoration: Drachen Origami-Spielfigur",
+            "description": "Wird oft in Verliesen und Kerkern gefunden.\r\n\r\nAus einem verh\u00e4ngnisvollen Fables & Frontiers Abenteuer.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiGargoyle",
+            "name": "Dekoration: Gargoyle Origami-Spielfigur",
+            "description": "Monster basierend auf Gaullique-Architektur.\r\n\r\nAus einem verh\u00e4ngnisvollen Fables & Frontiers Abenteuer.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave/NightwaveOrigamiLotus",
+            "name": "Dekoration: Lotus Origami-Spielfigur",
+            "description": "Aoi ist sich nicht sicher, warum sie so viele davon gemacht hat.\r\n\r\nAus einem verh\u00e4ngnisvollen Fables & Frontiers Abenteuer.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Operator/SchoolDecalMadurai",
             "name": "Vosphen: Madurai",
             "description": "Eine Vosphen-Glyphe des Madurai-Symbols, die als Dekoration verwendet werden kann.",
@@ -9760,6 +9825,13 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDrippy",
+            "name": "Floof: Drippy",
+            "description": "In Falles eines Tr\u00e4nenausbruchs, ist dieser schnucklige Drippy Floof da, um zu helfen!",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyEleanor",
             "name": "Floof: Eleanor",
             "description": "Eleanors knuddelige Nachbildung, die garantiert nicht in deinem Kopf herumspukt oder ihre Z\u00e4hne fletscht.",
@@ -10064,7 +10136,7 @@
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyRoathe",
             "name": "Floof: Roathe",
-            "description": "'Was ist das? Mein Abbild, aus so einem weichen Stoff? Was f\u00fcr eine Erniedrigung!\u201c \u2013 Vizeregent Gro\u00df-Carnus Roathe",
+            "description": "'Was ist das? Mein Abbild, aus so einem weichen Stoff? Was f\u00fcr eine Erniedrigung!' \u2013 Vizeregent Gro\u00df-Carnus Roathe",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
@@ -13520,8 +13592,7 @@
             "name": "Poster: Erkundung",
             "description": "Dekoriere deinen Orbiter mit diesem Empyrean-inspirierten Poster.",
             "codexSecret": false,
-            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
-            "excludeFromCodex": true
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/FlappyZephyrPoster",
@@ -15181,6 +15252,111 @@
             "parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
         },
         {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999AmirCharacterSheetPoster",
+            "name": "Poster: Charakterbogen vom Fablemaster",
+            "description": "Charakterbogen f\u00fcr Amirs Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999AoiCharacterSheetPoster",
+            "name": "Poster: Charakterbogen von Morohime Ichigeki",
+            "description": "Charakterbogen f\u00fcr Aois Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999ArthurCharacterSheetPoster",
+            "name": "Poster: Charakterbogen von Cedric Dawnsong",
+            "description": "Charakterbogen f\u00fcr Arthurs Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999EleanorCharacterSheetPoster",
+            "name": "Poster: Charakterbogen von Sanguina Kallisti",
+            "description": "Charakterbogen f\u00fcr Eleanors Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFAmirPoster",
+            "name": "Poster: Fablemaster",
+            "description": "Konzeptzeichnung von Amirs mysteri\u00f6sem Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFAoiPoster",
+            "name": "Poster: Morohime Ichigeki",
+            "description": "Konzeptzeichnung von Aois Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFArthurPoster",
+            "name": "Poster: Cedric Dawnsong",
+            "description": "Konzeptzeichnung von Arthurs Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFCoverPoster",
+            "name": "Poster: Abenteuer von Fables & Frontiers: Versp\u00e4tung",
+            "description": "Deckblatt-Kunstwerk f\u00fcr das Abenteuer 'Fables & Frontiers: Versp\u00e4tung'. Erstellt vom Community-K\u00fcnstler Nikki Dawes.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFEleanorPoster",
+            "name": "Poster: Sanguina Kallisti",
+            "description": "Konzeptzeichnung von Eleanors Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFLettiePoster",
+            "name": "Poster: Ixchel Balam",
+            "description": "Konzeptzeichnung von Letties Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999FFQuincyPoster",
+            "name": "Poster: Lord Reyland Kingsacre",
+            "description": "Konzeptzeichnung des Charakters von Quincy in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999LettieCharacterSheetPoster",
+            "name": "Poster: Charakterbogen von Ixchel Balam",
+            "description": "Charakterbogen f\u00fcr Letties Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999OnLyneRunningLate2Poster",
+            "name": "Poster: On-lyne \"Running Late\" Promo",
+            "description": "Dieses Poster h\u00e4ngt in jedem Plattenladen in der Stadt. Feiere die R\u00fcckkehr der Jungs in diese Stadt.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999OnLyneRunningLatePoster",
+            "name": "Poster: On-lyne \"Running Late\" Albumcover",
+            "description": "Dekoriere deine W\u00e4nde mit diesem neuen Poster, dass die R\u00fcckkehr der On-lyne Jungs feiert.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Nightwave1999QuincyCharacterSheetPoster",
+            "name": "Poster: Charakterbogen von Lord Reyland Kingsacre",
+            "description": "Charakterbogen f\u00fcr Quincys Charakter in Fables & Frontiers. Erstellt von Community-K\u00fcnstler Brighan.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/NokkoAPoster",
             "name": "Poster: Wurzeln und Fr\u00fcchte",
             "description": "Schm\u00fccke deine W\u00e4nde mit herumtollenden Sporlingen.",
@@ -15811,6 +15987,13 @@
             "description": "Hat eine lernf\u00e4hige Lackschicht, welche die Farbe desjenigen, der sie spielt, sp\u00fcrt und imitiert. Spiele dieses Instrument, indem du es ausr\u00fcstest und die enthaltene Shawzin-Emote benutzt.",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/ShipDecos/InstrumentDecoItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/StJudePoster",
+            "name": "Aufleveln f\u00fcr St. Jude",
+            "description": "Ein einzigartiges Display anl\u00e4sslich des Childhood Cancer Awareness Month zur Unterst\u00fctzung des St. Jude Children's Research Hospital\u00ae. Kunstwerk der St. Jude-Patienten Ethan, Luna, Maelin-Kate und Ty.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
         },
         {
             "uniqueName": "/Lotus/Types/Items/ShipDecos/StalkerBobbleHead",
@@ -18135,6 +18318,22 @@
             "showInInventory": false
         },
         {
+            "uniqueName": "/Lotus/Types/Items/SongItems/NightwaveFablesSongItem",
+            "name": "Ein Byte-gerechtes Abenteuer",
+            "description": "Ein cooler, atmosph\u00e4rischer Track zum Spielen von Fables & Frontiers mit deinen besten Freunden.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/SongItems/NightwaveRunningLateSongItem",
+            "name": "Running Late",
+            "description": "Eine Aufnahme von On-lynes verlorener Single, entdeckt als Teil einer raumzeitlichen Anomalie. Viel Spa\u00df mit dem Somachord in deinem Orbiter.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Game/SongItem",
+            "showInInventory": false
+        },
+        {
             "uniqueName": "/Lotus/Types/Items/SongItems/OberonPrimeSongItem",
             "name": "Thema: Oberon Prime",
             "description": "Oberon Primes bevorzugtes Musikthema, das im Orbiter mit Somachord abgespielt werden kann.",
@@ -18952,6 +19151,27 @@
             "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Mantys/MantysStarChartComponent",
             "name": "Mantis: Avionik",
             "description": "Die Avionik-Komponente f\u00fcr das Mantis Landungsschiff.",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipAvionicsComponent",
+            "name": "Nightwave: Avionik",
+            "description": "Die Avionik-Komponente f\u00fcr das Nightwave Landungsschiff",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipEnginesComponent",
+            "name": "Nightwave: Triebwerke",
+            "description": "Die Triebwerk-Komponente f\u00fcr das Nightwave Landungsschiff",
+            "codexSecret": false,
+            "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/NightwaveShip/NoraShipFuselageComponent",
+            "name": "Nightwave: Rumpf",
+            "description": "Die Rumpf-Komponente f\u00fcr das Nightwave Landungsschiff",
             "codexSecret": false,
             "parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
         },

@@ -18968,6 +18968,49 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveLasGooAKAugmentMod",
+            "name": "Overpressured Rounds",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "EFV-5 Jupiter",
+            "type": "PRIMARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Rifle kills add 20% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 25% of the current Magazine."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rifle kills add 40% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 30% of the current Magazine."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rifle kills add 60% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 35% of the current Magazine."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rifle kills add 80% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 40% of the current Magazine."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rifle kills add 100% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 45% of the current Magazine."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Rifle kills add 120% Falloff Distance and decrease Spread for next attack with Buckshot. Buckshot kills restore 50% of the current Magazine."
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveHemaAugmentMod",
             "name": "Necrophagic Vigor",
             "polarity": "AP_ATTACK",
@@ -27971,6 +28014,49 @@
                 {
                     "stats": [
                         "Each target eliminated refills 20% of Ocucor's magazine. Status Chance and Critical Chance are increased by 60% for each Tendril active."
+                    ]
+                }
+            ]
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveLasGooPistolAugmentMod",
+            "name": "Prototype Shock Coils",
+            "polarity": "AP_ATTACK",
+            "rarity": "RARE",
+            "codexSecret": false,
+            "baseDrain": 2,
+            "fusionLimit": 5,
+            "compatName": "EFV-8 Mars",
+            "type": "SECONDARY",
+            "levelStats": [
+                {
+                    "stats": [
+                        "Adds +15% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Adds +30% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Adds +45% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Adds +60% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Adds +75% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
+                    ]
+                },
+                {
+                    "stats": [
+                        "Adds +90% <DT_ELECTRICITY_COLOR>Electric damage, and shots have a 20% base chance to apply extra Electric status independent of modded damage types."
                     ]
                 }
             ]
@@ -54822,6 +54908,75 @@
             ]
         },
         {
+            "uniqueName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFreezeDamageModExpert",
+            "name": "Primed Polar Magazine",
+            "polarity": "AP_DEFENSE",
+            "rarity": "LEGENDARY",
+            "codexSecret": false,
+            "baseDrain": 4,
+            "fusionLimit": 10,
+            "excludeFromCodex": true,
+            "compatName": "Archgun",
+            "type": "ARCH-GUN",
+            "levelStats": [
+                {
+                    "stats": [
+                        "+17% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+34% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+51% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+68% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+85% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+102% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+119% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+136% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+153% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+170% <DT_FREEZE_COLOR>Cold"
+                    ]
+                },
+                {
+                    "stats": [
+                        "+187% <DT_FREEZE_COLOR>Cold"
+                    ]
+                }
+            ]
+        },
+        {
             "uniqueName": "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod",
             "name": "Fizzbang Flourish",
             "polarity": "AP_DEFENSE",
@@ -58735,7 +58890,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -59052,7 +59207,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -69314,7 +69469,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -79569,7 +79724,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -89824,7 +89979,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -100082,7 +100237,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponArmorPiercingDamageMod",
@@ -109685,7 +109840,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "upgradeEntries": [
                 {
                     "tag": "WeaponMeleeDamageMod",
@@ -126887,7 +127042,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -126910,7 +127065,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -126933,7 +127088,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -126956,7 +127111,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -126979,7 +127134,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -127002,7 +127157,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -127025,7 +127180,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -127048,7 +127203,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -127070,7 +127225,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
@@ -127092,7 +127247,7 @@
             "rarity": "COMMON",
             "codexSecret": true,
             "baseDrain": 2,
-            "fusionLimit": 515,
+            "fusionLimit": 582,
             "excludeFromCodex": true,
             "upgradeEntries": [
                 {
